@@ -81,7 +81,8 @@
       "type": [
         "bullet",
         "primer",
-        "powder"
+        "powder",
+        "cartridge"
       ]
     },
     {
@@ -7210,6 +7211,31 @@
       }
     },
     {
+      "id": "BUL_HORNADY_224_70_CX",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "diameterId": "DIA_224_L5X8",
+      "name": "CX",
+      "physis": {
+        "weightGrains": 70,
+        "overallLength": 1.05,
+        "ogiveLength": null,
+        "boatTailLength": null,
+        "tipLength": 0.145,
+        "meplatDiameter": null
+      },
+      "ballistics": {
+        "preferredModel": "G7",
+        "g1BC": 0.392,
+        "g7BC": null,
+        "g1FF": null,
+        "g7FF": null
+      },
+      "stability": {
+        "ix": null,
+        "iy": null
+      }
+    },
+    {
       "id": "BUL_HORNADY_224_73_ELDM",
       "manufacturerId": "MAN_HORNADY_JGR4",
       "diameterId": "DIA_224_L5X8",
@@ -7301,6 +7327,31 @@
         "preferredModel": "G7",
         "g1BC": null,
         "g7BC": null,
+        "g1FF": null,
+        "g7FF": null
+      },
+      "stability": {
+        "ix": null,
+        "iy": null
+      }
+    },
+    {
+      "id": "BUL_HORNADY_224_80_ELDX",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "diameterId": "DIA_224_L5X8",
+      "name": "ELD-X",
+      "physis": {
+        "weightGrains": 80,
+        "overallLength": 1.16,
+        "ogiveLength": null,
+        "boatTailLength": null,
+        "tipLength": 0.15,
+        "meplatDiameter": null
+      },
+      "ballistics": {
+        "preferredModel": "G7",
+        "g1BC": 0.485,
+        "g7BC": 0.244,
         "g1FF": null,
         "g7FF": null
       },
@@ -19729,6 +19780,56 @@
       "cartridgeId": "CTG_223REM_cR82",
       "bulletId": "BUL_HORNADY_224_73_ELDM",
       "partNumber": "80265",
+      "lot": null
+    },
+    {
+      "id": "LOAD_COMM_HORNADY_22ARC_HORNADY_62_ELDVT_VM62",
+      "name": "V-Match",
+      "loadTypeId": "LT_COMM",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "cartridgeId": "CTG_22ARC_cK12",
+      "bulletId": "BUL_HORNADY_224_62_ELDVT",
+      "partNumber": "81542",
+      "lot": null
+    },
+    {
+      "id": "LOAD_COMM_HORNADY_22ARC_HORNADY_70_CX_SP70",
+      "name": "Superformance",
+      "loadTypeId": "LT_COMM",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "cartridgeId": "CTG_22ARC_cK12",
+      "bulletId": "BUL_HORNADY_224_70_CX",
+      "partNumber": "81539",
+      "lot": null
+    },
+    {
+      "id": "LOAD_COMM_HORNADY_22ARC_HORNADY_75_ELDM_BK75",
+      "name": "Hornady BLACK",
+      "loadTypeId": "LT_COMM",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "cartridgeId": "CTG_22ARC_cK12",
+      "bulletId": "BUL_HORNADY_224_75_ELDM",
+      "partNumber": "81541",
+      "lot": null
+    },
+    {
+      "id": "LOAD_COMM_HORNADY_22ARC_HORNADY_80_ELDX_PH80",
+      "name": "Precision Hunter",
+      "loadTypeId": "LT_COMM",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "cartridgeId": "CTG_22ARC_cK12",
+      "bulletId": "BUL_HORNADY_224_80_ELDX",
+      "partNumber": "81540",
+      "lot": null
+    },
+    {
+      "id": "LOAD_COMM_HORNADY_22ARC_HORNADY_88_ELDM_MA88",
+      "name": "Match",
+      "loadTypeId": "LT_COMM",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "cartridgeId": "CTG_22ARC_cK12",
+      "bulletId": "BUL_HORNADY_224_88_ELDM",
+      "partNumber": "81543",
       "lot": null
     },
     {
