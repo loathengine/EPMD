@@ -317,45 +317,45 @@
       "id": "PWD_ACCU_1680_R1A5",
       "manufacturerId": "MAN_ACCURATE_A6B8",
       "name": "Accurate 1680",
-      "baCoeff": 0.8731,
+      "baCoeff": 0.2317,
       "kCoeff": 1.2235,
-      "heatOfExplosionKjKg": 3900,
+      "heatOfExplosionKjKg": 4992.0,
       "grainType": "ball"
     },
     {
       "id": "PWD_ACCU_2230_R1A6",
       "manufacturerId": "MAN_ACCURATE_A6B8",
       "name": "Accurate 2230",
-      "baCoeff": 0.2175,
+      "baCoeff": 0.0874,
       "kCoeff": 1.255,
-      "heatOfExplosionKjKg": 3950,
+      "heatOfExplosionKjKg": 4998.0,
       "grainType": "ball"
     },
     {
       "id": "PWD_ACCU_2520_R1A7",
       "manufacturerId": "MAN_ACCURATE_A6B8",
       "name": "Accurate 2520",
-      "baCoeff": 0.1502,
+      "baCoeff": 0.1466,
       "kCoeff": 1.255,
-      "heatOfExplosionKjKg": 3950,
+      "heatOfExplosionKjKg": 4447.0,
       "grainType": "ball"
     },
     {
       "id": "PWD_ACCU_4064_R1A8",
       "manufacturerId": "MAN_ACCURATE_A6B8",
       "name": "Accurate 4064",
-      "baCoeff": 0.1372,
+      "baCoeff": 0.0479,
       "kCoeff": 1.23,
-      "heatOfExplosionKjKg": 3580,
+      "heatOfExplosionKjKg": 5000.0,
       "grainType": "extrudedSinglePerf"
     },
     {
       "id": "PWD_ACCU_LT32_R1AA",
       "manufacturerId": "MAN_ACCURATE_A6B8",
       "name": "Accurate LT-32",
-      "baCoeff": 0.2848,
+      "baCoeff": 0.1725,
       "kCoeff": 1.255,
-      "heatOfExplosionKjKg": 3950,
+      "heatOfExplosionKjKg": 4543.0,
       "grainType": "ball"
     },
     {
@@ -372,9 +372,9 @@
       "id": "PWD_ACCU_NO9_R1A0",
       "manufacturerId": "MAN_ACCURATE_A6B8",
       "name": "Accurate No. 9",
-      "baCoeff": 0.3107,
+      "baCoeff": 0.4464,
       "kCoeff": 1.255,
-      "heatOfExplosionKjKg": 3950,
+      "heatOfExplosionKjKg": 5000.0,
       "grainType": "ball"
     },
     {
@@ -390,9 +390,9 @@
       "id": "PWD_ALLI_PPVARMINT_A1L6",
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "name": "Power Pro Varmint",
-      "baCoeff": 0.2434,
+      "baCoeff": 0.1003,
       "kCoeff": 1.255,
-      "heatOfExplosionKjKg": 3950,
+      "heatOfExplosionKjKg": 4542.0,
       "grainType": "ball"
     },
     {
@@ -465,7 +465,8 @@
       "baCoeff": 0.2664,
       "kCoeff": 1.255,
       "heatOfExplosionKjKg": 4004,
-      "grainType": "ball"
+      "grainType": "ball",
+      "tempSensFactor": 0.002
     },
     {
       "id": "PWD_HODG_CFEPISTOL_H1GP",
@@ -720,7 +721,8 @@
       "baCoeff": 0.158,
       "kCoeff": 1.23,
       "heatOfExplosionKjKg": 3844,
-      "grainType": "extrudedSinglePerf"
+      "grainType": "extrudedSinglePerf",
+      "tempSensFactor": 0.0003
     },
     {
       "id": "PWD_HORNADYOAL_IRJS",
