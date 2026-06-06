@@ -12,15 +12,13 @@ Tables marked **[master-db]** are seeded from the open-source library. Tables ma
 
 ```json
 {
-  "id": "MAN_<ID>",
+  "id": "MAN_HODGDON_H7X2",
   "name": "Hodgdon",
-  "displayName": "Hodgdon Powder Co.",
   "type": ["powder"]
 }
 ```
 
 - `type` — array of strings. Valid values: `bullet`, `powder`, `primer`, `brass`, `ammo`
-- `displayName` — optional long-form name for UI display
 
 Dexie index: `id`
 
@@ -30,7 +28,7 @@ Dexie index: `id`
 
 ```json
 {
-  "id": "DIA_308_<ID>",
+  "id": "DIA_308_XBM7",
   "imperial": ".308",
   "metric": "7.62mm"
 }
@@ -44,25 +42,28 @@ Dexie index: `id`
 
 ```json
 {
-  "id": "CTG_308WIN_<ID>",
-  "name": "308 Winchester",
-  "diameterId": "DIA_308_<ID>",
-  "minCaseLength": 2.005,
-  "maxCaseLength": 2.015,
-  "trimLength": 2.005,
-  "oal": 2.810,
-  "maxSaamiPsi": 62000,
-  "baseCapacityH2o": 56.0,
-  "boreDiameter": 0.300,
-  "primerPocketId": "PKT_LRG"
+  "id": "CTG_17HRN_N1H3",
+  "name": "17 Hornet",
+  "diameterId": "DIA_172_QW2R",
+  "maxCaseLengthMm": 34.29,
+  "trimLengthMm": 34.036,
+  "oalMm": 43.7642,
+  "maxSaamiPa": 344737864.66,
+  "baseCapacityH2oGrams": 0.77758692,
+  "boreDiameterMm": 4.2672,
+  "bulletDiameterMm": 4.3688,
+  "burnRateMultiplier": 0.1,
+  "primerPocketId": "PKT_SML"
 }
 ```
 
-- All length fields are in inches
-- `maxSaamiPsi` — SAAMI maximum average pressure in PSI
-- `baseCapacityH2o` — case water capacity in grains
-- `boreDiameter` — land-to-land bore diameter in inches (NOT groove/bullet diameter). Source: SAAMI spec sheets
-- `primerPocketId` — references `primerPockets` collection. `"PKT_SML"` for small rifle, `"PKT_LRG"` for large rifle, `null` for rimfire
+- All length and diameter fields are in millimeters
+- `maxSaamiPa` — SAAMI maximum average pressure in Pascals (Pa)
+- `baseCapacityH2oGrams` — case water capacity in grams of H2O
+- `boreDiameterMm` — land-to-land bore diameter in millimeters (NOT groove/bullet diameter). Source: SAAMI spec sheets
+- `bulletDiameterMm` — nominal projectile diameter in millimeters
+- `burnRateMultiplier` — scaling factor for internal ballistics simulator burn rates
+- `primerPocketId` — references `primerPockets` collection. `"PKT_SML"` for small rifle, `"PKT_LRG"` for large rifle, or omitted/null for rimfire
 
 Dexie index: `id, diameterId`
 
@@ -72,22 +73,23 @@ Dexie index: `id, diameterId`
 
 ```json
 {
-  "id": "BUL_<MAN>_<DIA>_<WEIGHT>_<NAME>_<ID>",
-  "manufacturerId": "MAN_<ID>",
-  "diameterId": "DIA_<ID>",
-  "name": "175gr HPBT",
+  "id": "BUL_SIERRA_308_175_HPBT_A2D1",
+  "manufacturerId": "MAN_SIERRA_S6Y3",
+  "diameterId": "DIA_308_XBM7",
+  "name": "HPBT MatchKing",
   "physis": {
-    "weightGrains": 175,
-    "overallLength": 1.378,
-    "ogiveLength": 0.825,
-    "boatTailLength": 0.275,
-    "tipLength": 0.245,
-    "meplatDiameter": 0.059
+    "weightGrams": 11.34,
+    "overallLengthMm": 35.0,
+    "ogiveLengthMm": 17.97,
+    "boatTailLengthMm": 4.7,
+    "tipLengthMm": null,
+    "meplatDiameterMm": 1.5,
+    "bearingSurfaceMm": 12.33
   },
   "ballistics": {
     "preferredModel": "G7",
-    "g1BC": 0.535,
-    "g7BC": 0.274,
+    "g1BC": 0.505,
+    "g7BC": 0.258,
     "g1FF": null,
     "g7FF": null
   },
@@ -98,10 +100,12 @@ Dexie index: `id, diameterId`
 }
 ```
 
-- All length fields in `physis` are in inches
+- All length and diameter fields in `physis` are in millimeters
+- `weightGrams` — bullet weight in grams
+- `bearingSurfaceMm` — length of the bullet bearing surface in millimeters
+- `tipLengthMm` — for tipped bullets: the plastic tip length only in millimeters (not included in aerodynamic metal length)
 - `g1FF` / `g7FF` — form factors relative to G1/G7 standard projectile
 - `ix` / `iy` — moments of inertia (kg·m²), used by stability calculator when available
-- `tipLength` — for tipped bullets: the plastic tip length only (not included in aerodynamic metal length)
 - `preferredModel` — `"G1"` or `"G7"`. G7 is preferred for long-range boat-tail rifle bullets
 
 Dexie index: `id, manufacturerId, diameterId`
@@ -112,22 +116,46 @@ Dexie index: `id, manufacturerId, diameterId`
 
 ```json
 {
-  "id": "PWD_<MAN>_<NAME>_<ID>",
-  "manufacturerId": "MAN_<ID>",
-  "name": "Hodgdon H4350",
-  "baCoeff": 0.0476,
-  "kCoeff": 1.23,
-  "heatOfExplosionKjKg": 3580,
-  "grainType": "extrudedSinglePerf"
+  "id": "PWD_HODG_H4350_R1A6",
+  "manufacturerId": "MAN_HODGDON_H3V8",
+  "name": "H4350",
+  "baCoeff": 0.2285,
+  "kCoeff": 1.2311,
+  "heatOfExplosionKjKg": 3585,
+  "grainId": "GRN_EXTRUDED_SINGLEPERF",
+  "solidDensity": 1620,
+  "ignitionBa": 0.4857,
+  "ignitionBp": 0.1489,
+  "ignitionZ1": 0.5175,
+  "ignitionZ2": 0.8298,
+  "tempSensFactor": 0.002
 }
 ```
 
 - `baCoeff` — ballistic action coefficient (internal ballistics simulator)
 - `kCoeff` — burn rate shape coefficient. Single-base (nitrocellulose only): `1.23`. Double-base (NC + nitroglycerin): `1.255`
 - `heatOfExplosionKjKg` — heat of explosion in kJ/kg. Single-base: `3580`. Double-base: `3950`
-- `grainType` — powder grain geometry. Allowed values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
+- `grainId` — references `grain` collection (powder grain geometry)
+- `solidDensity` — optional solid density of the powder in kg/m³
+- `ignitionBa` / `ignitionBp` / `ignitionZ1` / `ignitionZ2` — optional ignition phase burn rate coefficients
+- `tempSensFactor` — optional temperature sensitivity factor
 
 Dexie index: `id, manufacturerId`
+
+---
+
+## Grain [master-db]
+
+```json
+{
+  "id": "GRN_BALL",
+  "grainType": "ball"
+}
+```
+
+- `grainType` — allowed values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
+
+Dexie index: `id`
 
 ---
 
@@ -135,10 +163,9 @@ Dexie index: `id, manufacturerId`
 
 ```json
 {
-  "id": "PRI_<MAN>_<NAME>_<ID>",
-  "manufacturerId": "MAN_<ID>",
+  "id": "PRI_CCI_BR2LRG_C84Z",
+  "manufacturerId": "MAN_CCI_C2W7",
   "name": "CCI BR-2 Large Rifle Benchrest",
-  "type": "Large Rifle",
   "primerPocketId": "PKT_LRG"
 }
 ```
@@ -177,16 +204,16 @@ Dexie index: `id`
 
 ```json
 {
-  "id": "BRS_<MAN>_<CTG>_<ID>",
-  "manufacturerId": "MAN_<ID>",
-  "cartridgeId": "CTG_<ID>",
-  "primerPocketId": "PKT_SML",
-  "primerHoleId": "HL_059",
-  "capacityH2o": 56.5
+  "id": "BRS_MAN_LAPUA_L5X1_CTG_308WIN_cC82_TR53",
+  "manufacturerId": "MAN_LAPUA_L5X1",
+  "cartridgeId": "CTG_308WIN_cC82",
+  "primerPocketId": "PKT_LRG",
+  "primerHoleId": "HL_080",
+  "capacityH2oGrams": 3.6287
 }
 ```
 
-- `capacityH2o` — water capacity in grains
+- `capacityH2oGrams` — water capacity in grams of H2O
 
 Dexie index: `id, cartridgeId, manufacturerId`
 
@@ -211,31 +238,47 @@ Dexie index: `id`
 
 Commercial and handload records share the same table. Fields differ by type.
 
+### Commercial Load Example
 ```json
 {
-  "id": "LOAD_<ID>",
+  "id": "LOAD_COMM_FEDERAL_308WIN_GMATCH_09RB",
   "loadTypeId": "LT_COMM",
   "name": "Federal Gold Medal Match",
-  "cartridgeId": "CTG_<ID>",
-  "bulletId": "BUL_<ID>",
-  "manufacturerId": "MAN_<ID>",
+  "cartridgeId": "CTG_308WIN_cC82",
+  "bulletId": "BUL_SIERRA_308_175_HPBT_A2D1",
+  "manufacturerId": "MAN_FEDERAL_F4G7",
   "partNumber": "GM308M",
   "lot": "Lot2024A",
-  "powderId": "PWD_<ID>",
-  "primerId": "PRI_<ID>",
-  "brassId": "BRS_<ID>",
-  "chargeWeight": 42.5,
-  "coal": 2.800,
-  "cbto": 2.150,
-  "velocity": 2600,
+  "coalMm": 71.12,
+  "velocityMps": 792.48,
+  "isCommercial": true,
+  "notes": "Factory match ammunition"
+}
+```
+
+### Handload Example
+```json
+{
+  "id": "LOAD_HAND_USER_308WIN_SMK175_X4Y7",
+  "loadTypeId": "LT_HAND",
+  "name": "308 Win - 175gr SMK - 42.0gr H4350",
+  "cartridgeId": "CTG_308WIN_cC82",
+  "bulletId": "BUL_SIERRA_308_175_HPBT_A2D1",
+  "powderId": "PWD_HODG_H4350_R1A6",
+  "primerId": "PRI_CCI_BR2LRG_C84Z",
+  "brassId": "BRS_MAN_LAPUA_L5X1_CTG_308WIN_cC82_TR53",
+  "chargeWeightGrams": 2.7216,
+  "coalMm": 71.12,
+  "cbtoMm": 56.40,
+  "velocityMps": 792.48,
   "isCommercial": false,
   "notes": "Seating depth ladder, node 3"
 }
 ```
 
-**Commercial loads** typically have: `loadTypeId`, `name`, `cartridgeId`, `bulletId`, `manufacturerId`, `partNumber`, `lot`
+**Commercial loads** typically have: `loadTypeId`, `name`, `cartridgeId`, `bulletId`, `manufacturerId`, `partNumber`, `lot`, `isCommercial: true`
 
-**Handloads** typically have: `loadTypeId`, `cartridgeId`, `bulletId`, `powderId`, `primerId`, `brassId`, `chargeWeight`, `coal`, `cbto`, `velocity`, `isCommercial: false`
+**Handloads** typically have: `loadTypeId`, `cartridgeId`, `bulletId`, `powderId`, `primerId`, `brassId`, `chargeWeightGrams`, `coalMm`, `cbtoMm`, `velocityMps`, `isCommercial: false`
 
 Dexie index: `id, cartridgeId, bulletId, powderId`
 
@@ -245,17 +288,18 @@ Dexie index: `id, cartridgeId, bulletId, powderId`
 
 ```json
 {
-  "id": "<uuid>",
-  "nickname": "6.5 PRC Hunting Rifle",
-  "cartridgeId": "CTG_<ID>",
-  "barrelLength": 24.0,
-  "twistRate": 8.0,
-  "sightOverBore": 1.5
+  "id": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
+  "nickname": "308 Win Tactical Rifle",
+  "cartridgeId": "CTG_308WIN_cC82",
+  "barrelLengthMm": 609.6,
+  "twistRateMm": 254.0,
+  "sightOverBoreMm": 48.26
 }
 ```
 
-- `twistRate` — inches per turn (e.g., `8` means 1:8")
-- `sightOverBore` — scope centerline height above bore centerline, in inches
+- `barrelLengthMm` — barrel length in millimeters
+- `twistRateMm` — rifling twist rate in millimeters per turn (e.g., `203.2` means 1 turn in 203.2mm, which is a 1:8" twist)
+- `sightOverBoreMm` — scope centerline height above bore centerline in millimeters
 
 Dexie index: `id, cartridgeId`
 
@@ -267,21 +311,15 @@ One record per range visit.
 
 ```json
 {
-  "id": "<uuid>",
+  "id": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
   "name": "100yd H4350 Ladder",
   "timestamp": "2026-05-30T12:00:00.000Z",
-  "firearmId": "<firearm-uuid>",
-  "loadId": "<load-uuid>",
+  "firearmId": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
+  "loadId": "LOAD_HAND_USER_308WIN_SMK175_X4Y7",
   "targetDistance": 100,
-  "distanceUnits": "yards",
-  "temp": 68,
-  "altitude": 450,
-  "pressure": 29.85,
-  "pressureType": "station"
+  "distanceUnits": "yards"
 }
 ```
-
-- `pressureType` — `"station"` (raw barometric) or `"altimeter"` (sea-level adjusted)
 
 Dexie index: `id, firearmId, loadId, [firearmId+loadId]`
 
@@ -295,9 +333,9 @@ Links a target image to a session and stores the scale calibration.
 
 ```json
 {
-  "id": "<uuid>",
-  "sessionId": "<session-uuid>",
-  "targetImageId": "<target-image-uuid>",
+  "id": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
+  "sessionId": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
+  "targetImageId": "f2b4c6d8-0e2a-4b6c-8d0e-2a4b6c8d0e2a",
   "scale": {
     "p1": { "x": 100, "y": 200 },
     "p2": { "x": 300, "y": 200 },
@@ -322,9 +360,9 @@ One record per group of shots within a session.
 
 ```json
 {
-  "id": "<uuid>",
-  "sessionId": "<session-uuid>",
-  "targetId": "<session-target-uuid>",
+  "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+  "sessionId": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
+  "targetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "groupNum": 1,
   "poa": { "x": 450.5, "y": 312.0 },
   "color": "#ef4444"
@@ -344,17 +382,17 @@ One record per individual bullet impact.
 
 ```json
 {
-  "id": "<uuid>",
-  "groupId": "<group-uuid>",
-  "sessionId": "<session-uuid>",
-  "targetId": "<session-target-uuid>",
+  "id": "d5c4b3a2-9e8d-7c6b-5a4b-3c2d1e0f9a8b",
+  "groupId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+  "sessionId": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
+  "targetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "shotNumber": 1,
   "x": 0.152,
   "y": -0.218,
   "units": "in",
   "velocity": 2705,
-  "px": 465.3,
-  "py": 294.7
+  "px": 465.7,
+  "py": 333.8
 }
 ```
 
@@ -370,18 +408,18 @@ Dexie index: `id, groupId, sessionId, targetId`
 
 ```json
 {
-  "id": "<uuid>",
-  "name": "100yd Jun-2026",
+  "id": "f2b4c6d8-0e2a-4b6c-8d0e-2a4b6c8d0e2a",
+  "name": "100yd Target - Jun 2026",
   "timestamp": "2026-06-01T14:30:00.000Z",
   "imageBlob": "<Blob>",
   "size": "245 KB",
-  "firearmId": "<firearm-uuid>",
-  "loadId": "<load-uuid>"
+  "firearmId": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
+  "loadId": "LOAD_HAND_USER_308WIN_SMK175_X4Y7"
 }
 ```
 
 - `imageBlob` — stored as a native binary `Blob` in IndexedDB for memory efficiency
-- **JSON export/import:** `imageBlob` is automatically converted to/from a Base64 `dataUrl` string at the export/import boundary. The JSON field name in exports is `dataUrl`.
+- **JSON export/import:** `imageBlob` is automatically converted to/from a Base64 `dataUrl` string at the export/import boundary. The JSON field name in exports/imports is `dataUrl`.
 
 Dexie index: `id`
 
@@ -393,7 +431,7 @@ Stores target generator configuration for reconstruction.
 
 ```json
 {
-  "id": "<uuid>",
+  "id": "b7c9e1d3-4f0a-4b6c-8d2e-4a6b8c0d2e4f",
   "name": "100yd IPSC Target",
   "paperSize": "letter",
   "orientation": "portrait",
@@ -410,7 +448,7 @@ Stores target generator configuration for reconstruction.
   "bullseyeColor": "#000000",
   "ringColorA": "#000000",
   "ringColorB": "#ffffff",
-  "labelText": "My Load",
+  "labelText": "308 Win Match",
   "labelPosition": "bottom",
   "labelSize": 12,
   "labelMargin": 0.25
@@ -433,7 +471,7 @@ IDs in `master-db.json` follow a human-readable compound key pattern:
 | Bullets | `BUL_<MAN>_<DIA>_<WEIGHT>_<NAME>_<HASH>` | `BUL_SIERRA_308_175_HPBT_A2D1` |
 | Powders | `PWD_<MAN>_<NAME>_<HASH>` | `PWD_HODG_H4350_R1A6` |
 | Primers | `PRI_<MAN>_<NAME>_<HASH>` | `PRI_CCI_BR2LRG_C84Z` |
-| Brass | `BRS_<MAN>_<CTG>_<HASH>` | `BRS_MAN_ADG_CTG_65PRC_XYJG` |
+| Brass | `BRS_MAN_<MAN_HASH>_CTG_<CTG_HASH>_<HASH>` | `BRS_MAN_ADG_A4D7_CTG_65CM_cN72_TR53` |
 | Loads | `LOAD_<TYPE>_<MAN>_<CTG>_<NAME>_<HASH>` | `LOAD_COMM_FEDERAL_308WIN_GMATCH_09RB` |
 | Primer Pockets | `PKT_<SIZE>` | `PKT_SML`, `PKT_LRG` |
 | Primer Holes | `HL_<SIZE>` | `HL_059`, `HL_080` |
