@@ -19061,13 +19061,13 @@
       "oalMm": 43.7642,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 34.036,
-      "gradientScale": 0.5
+      "gradientScale": 0.2661
     },
     {
       "baseCapacityH2oGrams": 2.105964575,
       "boreDiameterMm": 5.08,
       "bulletDiameterMm": 5.1815999999999995,
-      "burnRateMultiplier": 0.1,
+      "burnRateMultiplier": 0.1001,
       "diameterId": "DIA_204_M9K3",
       "id": "CTG_204RUG_N2H4",
       "maxCaseLengthMm": 46.99,
@@ -19076,13 +19076,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 46.736,
-      "gradientScale": 0.4999
+      "gradientScale": 0.4818
     },
     {
       "baseCapacityH2oGrams": 3.04554877,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1604,
+      "burnRateMultiplier": 0.1127,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_220SWIFT_N2H6",
       "maxCaseLengthMm": 56.007,
@@ -19091,7 +19091,7 @@
       "oalMm": 68.072,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 55.75299999999999,
-      "gradientScale": 0.4997
+      "gradientScale": 0.0284
     },
     {
       "baseCapacityH2oGrams": 1.3218977639999998,
@@ -19106,13 +19106,13 @@
       "oalMm": 46.482,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 35.306,
-      "gradientScale": 0.4998
+      "gradientScale": 0.4767
     },
     {
       "baseCapacityH2oGrams": 2.7863531299999997,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1462,
+      "burnRateMultiplier": 0.108,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_22250_cK32",
       "maxCaseLengthMm": 48.5648,
@@ -19121,13 +19121,13 @@
       "oalMm": 59.69,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 48.31079999999999,
-      "gradientScale": 0.4999
+      "gradientScale": 0.018
     },
     {
       "baseCapacityH2oGrams": 2.13836403,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1496,
+      "burnRateMultiplier": 0.1108,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_223AI_cT12",
       "maxCaseLengthMm": 44.704,
@@ -19136,13 +19136,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.449999999999996,
-      "gradientScale": 0.4955
+      "gradientScale": 0.0819
     },
     {
       "baseCapacityH2oGrams": 1.9763667550000001,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1151,
+      "burnRateMultiplier": 0.1,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_223REM_cR82",
       "maxCaseLengthMm": 44.704,
@@ -19151,13 +19151,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.449999999999996,
-      "gradientScale": 0.2476
+      "gradientScale": 0.015
     },
     {
       "baseCapacityH2oGrams": 1.989326537,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1353,
+      "burnRateMultiplier": 0.1002,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_224VALK_N2H5",
       "maxCaseLengthMm": 40.64,
@@ -19166,13 +19166,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 40.386,
-      "gradientScale": 0.4999
+      "gradientScale": 0.0172
     },
     {
       "baseCapacityH2oGrams": 2.2420422859999998,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1468,
+      "burnRateMultiplier": 0.1003,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_22ARC_cK12",
       "maxCaseLengthMm": 38.73499999999999,
@@ -19181,13 +19181,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 38.480999999999995,
-      "gradientScale": 0.1877
+      "gradientScale": 0.0159
     },
     {
       "baseCapacityH2oGrams": 3.4019427749999998,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1593,
+      "burnRateMultiplier": 0.1033,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_22CM_cA72",
       "maxCaseLengthMm": 48.767999999999994,
@@ -19196,13 +19196,13 @@
       "oalMm": 68.58,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 48.513999999999996,
-      "gradientScale": 0.5
+      "gradientScale": 0.0368
     },
     {
       "baseCapacityH2oGrams": 2.72155422,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1698,
+      "burnRateMultiplier": 0.1178,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_22GT_cG82",
       "maxCaseLengthMm": 45.211999999999996,
@@ -19211,13 +19211,13 @@
       "oalMm": 61.97599999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.958,
-      "gradientScale": 0.0475
+      "gradientScale": 0.0183
     },
     {
       "baseCapacityH2oGrams": 3.49914114,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1763,
+      "burnRateMultiplier": 0.1367,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_243WIN_cB42",
       "maxCaseLengthMm": 51.943,
@@ -19226,13 +19226,13 @@
       "oalMm": 68.83399999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 51.689,
-      "gradientScale": 0.0108
+      "gradientScale": 0.0121
     },
     {
       "baseCapacityH2oGrams": 4.21192915,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.2118,
+      "burnRateMultiplier": 0.1446,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_2506_cL42",
       "maxCaseLengthMm": 63.3476,
@@ -19241,13 +19241,13 @@
       "oalMm": 82.55,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.093599999999995,
-      "gradientScale": 0.0115
+      "gradientScale": 0.0349
     },
     {
       "baseCapacityH2oGrams": 3.6287389599999997,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.2132,
+      "burnRateMultiplier": 0.1225,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_257ROB_N2H9",
       "maxCaseLengthMm": 56.718199999999996,
@@ -19256,13 +19256,13 @@
       "oalMm": 70.485,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 56.46419999999999,
-      "gradientScale": 0.0108
+      "gradientScale": 0.0101
     },
     {
       "baseCapacityH2oGrams": 5.44310844,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.2365,
+      "burnRateMultiplier": 0.163,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_257WBY_N2H0",
       "maxCaseLengthMm": 64.74459999999999,
@@ -19271,13 +19271,13 @@
       "oalMm": 80.518,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 64.4906,
-      "gradientScale": 0.0152
+      "gradientScale": 0.0145
     },
     {
       "baseCapacityH2oGrams": 2.2355623949999996,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.1477,
+      "burnRateMultiplier": 0.1093,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_25ARC_cK12",
       "maxCaseLengthMm": 38.73499999999999,
@@ -19286,13 +19286,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 38.480999999999995,
-      "gradientScale": 0.0526
+      "gradientScale": 0.0357
     },
     {
       "baseCapacityH2oGrams": 3.4019427749999998,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.2484,
+      "burnRateMultiplier": 0.1409,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_25CM_cN72",
       "maxCaseLengthMm": 48.767999999999994,
@@ -19301,13 +19301,13 @@
       "oalMm": 71.755,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 48.513999999999996,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0192
     },
     {
       "baseCapacityH2oGrams": 2.78635313,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.156,
+      "burnRateMultiplier": 0.1137,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_25GT_cG82",
       "maxCaseLengthMm": 45.211999999999996,
@@ -19316,13 +19316,13 @@
       "oalMm": 61.97599999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.958,
-      "gradientScale": 0.044
+      "gradientScale": 0.0288
     },
     {
       "baseCapacityH2oGrams": 4.704400865999999,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.1714,
+      "burnRateMultiplier": 0.1267,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_25WBYRPM_cN73",
       "maxCaseLengthMm": 65.27799999999999,
@@ -19331,13 +19331,13 @@
       "oalMm": 80.518,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 65.024,
-      "gradientScale": 0.0323
+      "gradientScale": 0.0206
     },
     {
       "baseCapacityH2oGrams": 3.0779482249999996,
       "boreDiameterMm": 6.35,
       "bulletDiameterMm": 6.5278,
-      "burnRateMultiplier": 0.1629,
+      "burnRateMultiplier": 0.1183,
       "diameterId": "DIA_257_N2M1",
       "id": "CTG_25X47_cK12",
       "maxCaseLengthMm": 46.99,
@@ -19346,13 +19346,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 46.736,
-      "gradientScale": 0.0382
+      "gradientScale": 0.0244
     },
     {
       "baseCapacityH2oGrams": 3.4667416849999997,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.2232,
+      "burnRateMultiplier": 0.1266,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_260REM_N2HB",
       "maxCaseLengthMm": 51.689,
@@ -19361,13 +19361,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 51.434999999999995,
-      "gradientScale": 0.01
+      "gradientScale": 0.0259
     },
     {
       "baseCapacityH2oGrams": 4.341526969999999,
       "boreDiameterMm": 6.858,
       "bulletDiameterMm": 7.0358,
-      "burnRateMultiplier": 0.2046,
+      "burnRateMultiplier": 0.1175,
       "diameterId": "DIA_277_K9L0",
       "id": "CTG_270WIN_cU62",
       "maxCaseLengthMm": 64.51599999999999,
@@ -19376,13 +19376,13 @@
       "oalMm": 84.836,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 64.26199999999999,
-      "gradientScale": 0.0104
+      "gradientScale": 0.0437
     },
     {
       "baseCapacityH2oGrams": 4.73032043,
       "boreDiameterMm": 6.858,
       "bulletDiameterMm": 7.0358,
-      "burnRateMultiplier": 0.1494,
+      "burnRateMultiplier": 0.112,
       "diameterId": "DIA_277_K9L0",
       "id": "CTG_270WSM_N2HC",
       "maxCaseLengthMm": 53.339999999999996,
@@ -19391,13 +19391,13 @@
       "oalMm": 72.64399999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 53.08599999999999,
-      "gradientScale": 0.0471
+      "gradientScale": 0.0193
     },
     {
       "baseCapacityH2oGrams": 4.3739264250000005,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1826,
+      "burnRateMultiplier": 0.1373,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_280AI_cA52",
       "maxCaseLengthMm": 64.13499999999999,
@@ -19406,13 +19406,13 @@
       "oalMm": 84.582,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.881,
-      "gradientScale": 0.01
+      "gradientScale": 0.0312
     },
     {
       "baseCapacityH2oGrams": 4.263768277999999,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1735,
+      "burnRateMultiplier": 0.1089,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_284WIN_cW92",
       "maxCaseLengthMm": 55.117999999999995,
@@ -19421,13 +19421,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 54.864,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0194
     },
     {
       "baseCapacityH2oGrams": 4.40632588,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.1893,
+      "burnRateMultiplier": 0.1123,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_3006_cE12",
       "maxCaseLengthMm": 63.3476,
@@ -19436,7 +19436,7 @@
       "oalMm": 84.836,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.093599999999995,
-      "gradientScale": 0.01
+      "gradientScale": 0.0272
     },
     {
       "baseCapacityH2oGrams": 1.55517384,
@@ -19451,13 +19451,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 34.4932,
-      "gradientScale": 0.5
+      "gradientScale": 0.4999
     },
     {
       "baseCapacityH2oGrams": 6.739086639999999,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.2049,
+      "burnRateMultiplier": 0.1668,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_300NORMAMAG_cN73",
       "maxCaseLengthMm": 63.2968,
@@ -19466,13 +19466,13 @@
       "oalMm": 93.4974,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.0428,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0262
     },
     {
       "baseCapacityH2oGrams": 6.155896449999999,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.2275,
+      "burnRateMultiplier": 0.1546,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_300PRC_cK02",
       "maxCaseLengthMm": 65.532,
@@ -19481,13 +19481,13 @@
       "oalMm": 93.98,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 65.27799999999999,
-      "gradientScale": 0.0152
+      "gradientScale": 0.0101
     },
     {
       "baseCapacityH2oGrams": 6.078137758,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.2476,
+      "burnRateMultiplier": 0.1628,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_300WINMAG_cG42",
       "maxCaseLengthMm": 66.548,
@@ -19496,13 +19496,13 @@
       "oalMm": 84.836,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 66.294,
-      "gradientScale": 0.0103
+      "gradientScale": 0.0144
     },
     {
       "baseCapacityH2oGrams": 5.183912799999999,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.2018,
+      "burnRateMultiplier": 0.1255,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_300WSM_N3HH",
       "maxCaseLengthMm": 53.339999999999996,
@@ -19511,13 +19511,13 @@
       "oalMm": 72.64399999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 53.08599999999999,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0103
     },
     {
       "baseCapacityH2oGrams": 2.9159509499999996,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.1195,
+      "burnRateMultiplier": 0.1,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_3030_N3HG",
       "maxCaseLengthMm": 51.7906,
@@ -19526,13 +19526,13 @@
       "oalMm": 64.77,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 51.53659999999999,
-      "gradientScale": 0.0114
+      "gradientScale": 0.1129
     },
     {
       "baseCapacityH2oGrams": 3.6287389599999997,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.1674,
+      "burnRateMultiplier": 0.1027,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_308WIN_cC82",
       "maxCaseLengthMm": 51.181,
@@ -19541,13 +19541,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 50.92699999999999,
-      "gradientScale": 0.0103
+      "gradientScale": 0.0245
     },
     {
       "baseCapacityH2oGrams": 3.5963395049999995,
       "boreDiameterMm": 8.382,
       "bulletDiameterMm": 8.5852,
-      "burnRateMultiplier": 0.1709,
+      "burnRateMultiplier": 0.1001,
       "diameterId": "DIA_338_R7E3",
       "id": "CTG_338FED_N3HK",
       "maxCaseLengthMm": 51.181,
@@ -19556,13 +19556,13 @@
       "oalMm": 71.62799999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 50.92699999999999,
-      "gradientScale": 0.0182
+      "gradientScale": 0.0401
     },
     {
       "baseCapacityH2oGrams": 6.99828228,
       "boreDiameterMm": 8.382,
       "bulletDiameterMm": 8.5852,
-      "burnRateMultiplier": 0.1943,
+      "burnRateMultiplier": 0.1661,
       "diameterId": "DIA_338_R7E3",
       "id": "CTG_338LAP_cO62",
       "maxCaseLengthMm": 69.1896,
@@ -19571,13 +19571,13 @@
       "oalMm": 93.4974,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 68.9356,
-      "gradientScale": 0.01
+      "gradientScale": 0.0104
     },
     {
       "baseCapacityH2oGrams": 6.965882825,
       "boreDiameterMm": 8.382,
       "bulletDiameterMm": 8.5852,
-      "burnRateMultiplier": 0.1676,
+      "burnRateMultiplier": 0.167,
       "diameterId": "DIA_338_R7E3",
       "id": "CTG_338NORMAMAG_cN74",
       "maxCaseLengthMm": 63.2968,
@@ -19586,13 +19586,13 @@
       "oalMm": 93.4974,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.0428,
-      "gradientScale": 0.1518
+      "gradientScale": 0.1345
     },
     {
       "baseCapacityH2oGrams": 5.345910075,
       "boreDiameterMm": 8.382,
       "bulletDiameterMm": 8.5852,
-      "burnRateMultiplier": 0.1489,
+      "burnRateMultiplier": 0.1224,
       "diameterId": "DIA_338_R7E3",
       "id": "CTG_338WBYRPM_cN73",
       "maxCaseLengthMm": 65.27799999999999,
@@ -19601,13 +19601,13 @@
       "oalMm": 80.518,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 65.024,
-      "gradientScale": 0.01
+      "gradientScale": 0.0137
     },
     {
       "baseCapacityH2oGrams": 5.5727062599999995,
       "boreDiameterMm": 8.382,
       "bulletDiameterMm": 8.5852,
-      "burnRateMultiplier": 0.1788,
+      "burnRateMultiplier": 0.1362,
       "diameterId": "DIA_338_R7E3",
       "id": "CTG_338WINMAG_cQ92",
       "maxCaseLengthMm": 63.5,
@@ -19616,13 +19616,13 @@
       "oalMm": 84.836,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.246,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0245
     },
     {
       "baseCapacityH2oGrams": 8.942249579999999,
       "boreDiameterMm": 8.382,
       "bulletDiameterMm": 8.5852,
-      "burnRateMultiplier": 0.2037,
+      "burnRateMultiplier": 0.1792,
       "diameterId": "DIA_338_R7E3",
       "id": "CTG_33XC_cK12",
       "maxCaseLengthMm": 71.374,
@@ -19631,13 +19631,13 @@
       "oalMm": 99.05999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 71.11999999999999,
-      "gradientScale": 0.01
+      "gradientScale": 0.0163
     },
     {
       "baseCapacityH2oGrams": 10.04383105,
       "boreDiameterMm": 9.296399999999998,
       "bulletDiameterMm": 9.524999999999999,
-      "burnRateMultiplier": 0.1624,
+      "burnRateMultiplier": 0.1626,
       "diameterId": "DIA_375_OMEC",
       "id": "CTG_375CHEYTAC_cO62",
       "maxCaseLengthMm": 77.216,
@@ -19646,13 +19646,13 @@
       "oalMm": 109.21999999999998,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 76.96199999999999,
-      "gradientScale": 0.0157
+      "gradientScale": 0.0142
     },
     {
       "baseCapacityH2oGrams": 10.3678256,
       "boreDiameterMm": 9.296399999999998,
       "bulletDiameterMm": 9.524999999999999,
-      "burnRateMultiplier": 0.1995,
+      "burnRateMultiplier": 0.1994,
       "diameterId": "DIA_375_OMEC",
       "id": "CTG_37XC_cK12",
       "maxCaseLengthMm": 71.374,
@@ -19661,13 +19661,13 @@
       "oalMm": 99.05999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 71.11999999999999,
-      "gradientScale": 0.0169
+      "gradientScale": 0.019
     },
     {
       "baseCapacityH2oGrams": 10.30302669,
       "boreDiameterMm": 10.16,
       "bulletDiameterMm": 10.363199999999999,
-      "burnRateMultiplier": 0.2742,
+      "burnRateMultiplier": 0.1704,
       "diameterId": "DIA_408_cO62",
       "id": "CTG_408CHEYTAC_cO62",
       "maxCaseLengthMm": 77.216,
@@ -19682,7 +19682,7 @@
       "baseCapacityH2oGrams": 4.399845989,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.182,
+      "burnRateMultiplier": 0.1727,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65284_cN73",
       "maxCaseLengthMm": 55.117999999999995,
@@ -19691,13 +19691,13 @@
       "oalMm": 81.9912,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 54.864,
-      "gradientScale": 0.0104
+      "gradientScale": 0.0114
     },
     {
       "baseCapacityH2oGrams": 6.317893724999999,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.1798,
+      "burnRateMultiplier": 0.1618,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65300WBYMAG_cN73",
       "maxCaseLengthMm": 71.755,
@@ -19706,13 +19706,13 @@
       "oalMm": 91.44,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 71.50099999999999,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0152
     },
     {
       "baseCapacityH2oGrams": 3.4019427749999998,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.1788,
+      "burnRateMultiplier": 0.1188,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65CM_cN72",
       "maxCaseLengthMm": 48.767999999999994,
@@ -19721,13 +19721,13 @@
       "oalMm": 71.755,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 48.513999999999996,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0191
     },
     {
       "baseCapacityH2oGrams": 2.26796185,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.1861,
+      "burnRateMultiplier": 0.1,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65GRN_cS32",
       "maxCaseLengthMm": 38.608,
@@ -19736,13 +19736,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 38.354,
-      "gradientScale": 0.01
+      "gradientScale": 0.0205
     },
     {
       "baseCapacityH2oGrams": 4.01753242,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.1369,
+      "burnRateMultiplier": 0.1204,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65PRC_cP02",
       "maxCaseLengthMm": 51.56199999999999,
@@ -19751,13 +19751,13 @@
       "oalMm": 75.057,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 51.308,
-      "gradientScale": 0.0109
+      "gradientScale": 0.0105
     },
     {
       "baseCapacityH2oGrams": 3.6935378699999997,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.1605,
+      "burnRateMultiplier": 0.1205,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65SWE_N6HA",
       "maxCaseLengthMm": 54.991,
@@ -19766,13 +19766,13 @@
       "oalMm": 80.00999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 54.736999999999995,
-      "gradientScale": 0.01
+      "gradientScale": 0.0131
     },
     {
       "baseCapacityH2oGrams": 4.79511934,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.165,
+      "burnRateMultiplier": 0.1582,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65WBYRPM_cN73",
       "maxCaseLengthMm": 65.27799999999999,
@@ -19781,13 +19781,13 @@
       "oalMm": 80.518,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 65.024,
-      "gradientScale": 0.0107
+      "gradientScale": 0.011
     },
     {
       "baseCapacityH2oGrams": 3.11034768,
       "boreDiameterMm": 6.5024,
       "bulletDiameterMm": 6.7056,
-      "burnRateMultiplier": 0.228,
+      "burnRateMultiplier": 0.1318,
       "diameterId": "DIA_264_H8J4",
       "id": "CTG_65X47_cK12",
       "maxCaseLengthMm": 46.99,
@@ -19796,13 +19796,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 46.736,
-      "gradientScale": 0.01
+      "gradientScale": 0.044
     },
     {
       "baseCapacityH2oGrams": 4.79511934,
       "boreDiameterMm": 6.858,
       "bulletDiameterMm": 7.0358,
-      "burnRateMultiplier": 0.1902,
+      "burnRateMultiplier": 0.1416,
       "diameterId": "DIA_277_K9L0",
       "id": "CTG_68WEST_N6HD",
       "maxCaseLengthMm": 51.308,
@@ -19811,13 +19811,13 @@
       "oalMm": 75.057,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 51.053999999999995,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0301
     },
     {
       "baseCapacityH2oGrams": 2.20316294,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1731,
+      "burnRateMultiplier": 0.1284,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6ARC_cH92",
       "maxCaseLengthMm": 37.846,
@@ -19826,13 +19826,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 37.592,
-      "gradientScale": 0.0105
+      "gradientScale": 0.0354
     },
     {
       "baseCapacityH2oGrams": 2.5271574899999996,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1093,
+      "burnRateMultiplier": 0.1006,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6BRA_cJ12",
       "maxCaseLengthMm": 39.624,
@@ -19841,13 +19841,13 @@
       "oalMm": 55.88,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 39.37,
-      "gradientScale": 0.4668
+      "gradientScale": 0.0102
     },
     {
       "baseCapacityH2oGrams": 2.5595569449999998,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1479,
+      "burnRateMultiplier": 0.1009,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6BR_cJ12",
       "maxCaseLengthMm": 39.624,
@@ -19856,13 +19856,13 @@
       "oalMm": 55.88,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 39.37,
-      "gradientScale": 0.4997
+      "gradientScale": 0.1032
     },
     {
       "baseCapacityH2oGrams": 3.4019427749999998,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.144,
+      "burnRateMultiplier": 0.1228,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6CM_cG62",
       "maxCaseLengthMm": 48.767999999999994,
@@ -19871,13 +19871,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 48.513999999999996,
-      "gradientScale": 0.0102
+      "gradientScale": 0.0185
     },
     {
       "baseCapacityH2oGrams": 2.65675531,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.3462,
+      "burnRateMultiplier": 0.1539,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6DASH_N6H8",
       "maxCaseLengthMm": 39.37,
@@ -19886,13 +19886,13 @@
       "oalMm": 59.43599999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 39.116,
-      "gradientScale": 0.012
+      "gradientScale": 0.0101
     },
     {
       "baseCapacityH2oGrams": 2.838192258,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1507,
+      "burnRateMultiplier": 0.1255,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6GT_cG82",
       "maxCaseLengthMm": 45.211999999999996,
@@ -19901,13 +19901,13 @@
       "oalMm": 61.97599999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.958,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0158
     },
     {
       "baseCapacityH2oGrams": 2.07356512,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1182,
+      "burnRateMultiplier": 0.1004,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6PPC_cJ12",
       "maxCaseLengthMm": 38.480999999999995,
@@ -19916,13 +19916,13 @@
       "oalMm": 55.88,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 38.227,
-      "gradientScale": 0.1999
+      "gradientScale": 0.0243
     },
     {
       "baseCapacityH2oGrams": 3.56394005,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1785,
+      "burnRateMultiplier": 0.1357,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6REM_N6H7",
       "maxCaseLengthMm": 56.718199999999996,
@@ -19931,13 +19931,13 @@
       "oalMm": 71.755,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 56.46419999999999,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0429
     },
     {
       "baseCapacityH2oGrams": 3.0779482249999996,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.168,
+      "burnRateMultiplier": 0.121,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6X47_cK12",
       "maxCaseLengthMm": 46.99,
@@ -19946,13 +19946,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 46.736,
-      "gradientScale": 0.0401
+      "gradientScale": 0.0208
     },
     {
       "baseCapacityH2oGrams": 3.1945862629999997,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.1212,
+      "burnRateMultiplier": 0.1001,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6XC_cK12",
       "maxCaseLengthMm": 48.26,
@@ -19961,13 +19961,13 @@
       "oalMm": 62.230000000000004,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 48.00599999999999,
-      "gradientScale": 0.0106
+      "gradientScale": 0.0276
     },
     {
       "baseCapacityH2oGrams": 2.365160215,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1256,
+      "burnRateMultiplier": 0.1001,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7BR_cZ22",
       "maxCaseLengthMm": 38.608,
@@ -19976,13 +19976,13 @@
       "oalMm": 57.15,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 38.354,
-      "gradientScale": 0.01
+      "gradientScale": 0.0101
     },
     {
       "baseCapacityH2oGrams": 3.6935378699999997,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1487,
+      "burnRateMultiplier": 0.1008,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7MAU_N7HF",
       "maxCaseLengthMm": 56.76899999999999,
@@ -19991,13 +19991,13 @@
       "oalMm": 77.851,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 56.515,
-      "gradientScale": 0.01
+      "gradientScale": 0.0362
     },
     {
       "baseCapacityH2oGrams": 3.49914114,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1687,
+      "burnRateMultiplier": 0.1012,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7MM08_cZ22",
       "maxCaseLengthMm": 51.689,
@@ -20006,13 +20006,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 51.434999999999995,
-      "gradientScale": 0.01
+      "gradientScale": 0.0101
     },
     {
       "baseCapacityH2oGrams": 5.248711709999999,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1955,
+      "burnRateMultiplier": 0.1509,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7PRC_N7HE",
       "maxCaseLengthMm": 57.91199999999999,
@@ -20021,13 +20021,13 @@
       "oalMm": 84.836,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 57.657999999999994,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0165
     },
     {
       "baseCapacityH2oGrams": 5.31351062,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.2163,
+      "burnRateMultiplier": 0.1455,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7REMMAG_cW92",
       "maxCaseLengthMm": 63.5,
@@ -20036,13 +20036,13 @@
       "oalMm": 83.566,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.246,
-      "gradientScale": 0.0101
+      "gradientScale": 0.0102
     },
     {
       "baseCapacityH2oGrams": 7.121400209,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1437,
+      "burnRateMultiplier": 0.1447,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7RUM_cW92",
       "maxCaseLengthMm": 72.39,
@@ -20051,13 +20051,13 @@
       "oalMm": 91.44,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 72.136,
-      "gradientScale": 0.0104
+      "gradientScale": 0.0107
     },
     {
       "baseCapacityH2oGrams": 3.4602617939999996,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.1594,
+      "burnRateMultiplier": 0.1169,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7SAW_cK32",
       "maxCaseLengthMm": 51.181,
@@ -20066,13 +20066,13 @@
       "oalMm": 71.11999999999999,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 50.92699999999999,
-      "gradientScale": 0.0309
+      "gradientScale": 0.0289
     },
     {
       "baseCapacityH2oGrams": 6.3114138340000006,
       "boreDiameterMm": 7.0358,
       "bulletDiameterMm": 7.213599999999999,
-      "burnRateMultiplier": 0.2154,
+      "burnRateMultiplier": 0.1714,
       "diameterId": "DIA_284_S3F6",
       "id": "CTG_7STW_cW92",
       "maxCaseLengthMm": 72.39,
@@ -20081,7 +20081,7 @@
       "oalMm": 91.44,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 72.136,
-      "gradientScale": 0.0242
+      "gradientScale": 0.0267
     },
     {
       "baseCapacityH2oGrams": 1.9439673,
@@ -20096,13 +20096,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 42.545,
-      "gradientScale": 0.5
+      "gradientScale": 0.0505
     },
     {
       "baseCapacityH2oGrams": 1.9763667550000001,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1162,
+      "burnRateMultiplier": 0.1016,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_556NATO_xN52",
       "maxCaseLengthMm": 44.704,
@@ -20111,13 +20111,13 @@
       "oalMm": 57.40399999999999,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.449999999999996,
-      "gradientScale": 0.0452
+      "gradientScale": 0.0447
     },
     {
       "baseCapacityH2oGrams": 2.33276076,
       "boreDiameterMm": 5.5626,
       "bulletDiameterMm": 5.6895999999999995,
-      "burnRateMultiplier": 0.1343,
+      "burnRateMultiplier": 0.104,
       "diameterId": "DIA_224_L5X8",
       "id": "CTG_22NOSLER_n2s2",
       "maxCaseLengthMm": 44.704,
@@ -20126,13 +20126,13 @@
       "oalMm": 57.404,
       "primerPocketId": "PKT_SML",
       "trimLengthMm": 44.45,
-      "gradientScale": 0.4546
+      "gradientScale": 0.0246
     },
     {
       "baseCapacityH2oGrams": 5.632,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.1867,
+      "burnRateMultiplier": 0.1374,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_30338_N3HI",
       "maxCaseLengthMm": 63.5,
@@ -20141,13 +20141,13 @@
       "oalMm": 84.836,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 63.246,
-      "gradientScale": 0.0143
+      "gradientScale": 0.0174
     },
     {
       "baseCapacityH2oGrams": 6.35,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.823199999999999,
-      "burnRateMultiplier": 0.2341,
+      "burnRateMultiplier": 0.1554,
       "diameterId": "DIA_308_XBM7",
       "id": "CTG_300WBYMAG_cN75",
       "maxCaseLengthMm": 71.755,
@@ -20156,13 +20156,13 @@
       "oalMm": 90.424,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 71.498,
-      "gradientScale": 0.1388
+      "gradientScale": 0.0198
     },
     {
       "baseCapacityH2oGrams": 4.2767,
       "boreDiameterMm": 6.019799999999999,
       "bulletDiameterMm": 6.172199999999999,
-      "burnRateMultiplier": 0.13,
+      "burnRateMultiplier": 0.1015,
       "diameterId": "DIA_243_B7V4",
       "id": "CTG_6MM284_cM33",
       "maxCaseLengthMm": 55.118,
@@ -20171,13 +20171,13 @@
       "oalMm": 71.12,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 54.864,
-      "gradientScale": 0.176
+      "gradientScale": 0.0164
     },
     {
       "baseCapacityH2oGrams": 2.3068412,
       "boreDiameterMm": 7.619999999999999,
       "bulletDiameterMm": 7.899399999999999,
-      "burnRateMultiplier": 0.1354,
+      "burnRateMultiplier": 0.1071,
       "diameterId": "DIA_311_XBM9",
       "id": "CTG_762X39_cM32",
       "maxCaseLengthMm": 38.7096,
@@ -20186,7 +20186,7 @@
       "oalMm": 55.88,
       "primerPocketId": "PKT_LRG",
       "trimLengthMm": 38.4556,
-      "gradientScale": 0.0392
+      "gradientScale": 0.061
     }
   ],
   "diameters": [
