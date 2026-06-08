@@ -11382,7 +11382,7 @@
     },
     {
       "id": "BUL_BERGER_284_184_0_MFHT",
-      "name": "7 MM 184 F‐Open Hybrid Target",
+      "name": "7 MM 184 F\u2010Open Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 11.92299944,
@@ -13046,6 +13046,1273 @@
     {
       "id": "GRN_FLAKE",
       "grainType": "flake"
+    }
+  ],
+  "firearms": [
+    {
+      "id": "FRM_308_TEST",
+      "nickname": "24\" .308 Win (1:10)",
+      "cartridgeId": "CTG_308WIN_cC82",
+      "barrelLengthMm": 609.6,
+      "twistRateMm": 254.0,
+      "sightOverBoreMm": 38.1
+    },
+    {
+      "id": "FRM_223_TEST",
+      "nickname": "16\" .223 Rem (1:7)",
+      "cartridgeId": "CTG_223REM_cR82",
+      "barrelLengthMm": 406.4,
+      "twistRateMm": 177.8,
+      "sightOverBoreMm": 38.1
+    }
+  ],
+  "loads": [
+    {
+      "id": "LOD_223_TEST",
+      "handloadName": "77gr Berger OTM / TAC",
+      "cartridgeId": "CTG_223REM_cR82",
+      "bulletId": "BUL_BERGER_224_77_OTM",
+      "powderId": "PWD_RAMS_TAC_R1A1",
+      "chargeWeightGrams": 1.5551737,
+      "coalMm": 57.4
+    },
+    {
+      "id": "LOD_308_TEST",
+      "handloadName": "168gr Sierra MK / IMR 4064",
+      "cartridgeId": "CTG_308WIN_cC82",
+      "bulletId": "BUL_SIERRA_308_168_SMK",
+      "powderId": "PWD_HODG_IMR4064_H1G9",
+      "chargeWeightGrams": 2.7215269,
+      "coalMm": 71.1
+    }
+  ],
+  "customTargets": [
+    {
+      "id": "CT_223_TGT",
+      "name": "Letter Target - 1 Circle Bullseye",
+      "paperSize": "letter",
+      "orientation": "portrait",
+      "gridEnabled": true,
+      "gridSize": 1.0,
+      "gridColor": "#cccccc",
+      "rows": 1,
+      "cols": 1,
+      "marginX": 0.5,
+      "marginY": 0.5,
+      "shape": "circle",
+      "diameter": 6.0,
+      "numRings": 5,
+      "bullseyeColor": "#ff0000",
+      "ringColorA": "#000000",
+      "ringColorB": "#ffffff"
+    },
+    {
+      "id": "CT_308_TGT",
+      "name": "Letter Target - 4 Circle Bullseyes",
+      "paperSize": "letter",
+      "orientation": "portrait",
+      "gridEnabled": true,
+      "gridSize": 1.0,
+      "gridColor": "#cccccc",
+      "rows": 2,
+      "cols": 2,
+      "marginX": 0.5,
+      "marginY": 0.5,
+      "shape": "circle",
+      "diameter": 3.0,
+      "numRings": 4,
+      "bullseyeColor": "#ff0000",
+      "ringColorA": "#000000",
+      "ringColorB": "#ffffff"
+    }
+  ],
+  "targetImages": [
+    {
+      "id": "TGT_223_TEST",
+      "name": "223 Target (1 Bullseye)",
+      "timestamp": "2026-06-08T12:00:00.000Z",
+      "size": "Letter",
+      "firearmId": "FRM_223_TEST",
+      "loadId": "LOD_223_TEST",
+      "customTargetConfig": {
+        "id": "CT_223_TGT",
+        "name": "Letter Target - 1 Circle Bullseye",
+        "paperSize": "letter",
+        "orientation": "portrait",
+        "gridEnabled": true,
+        "gridSize": 1.0,
+        "gridColor": "#cccccc",
+        "rows": 1,
+        "cols": 1,
+        "marginX": 0.5,
+        "marginY": 0.5,
+        "shape": "circle",
+        "diameter": 6.0,
+        "numRings": 5,
+        "bullseyeColor": "#ff0000",
+        "ringColorA": "#000000",
+        "ringColorB": "#ffffff"
+      }
+    },
+    {
+      "id": "TGT_308_T2",
+      "name": "308 Target 1 (4 Bullseyes)",
+      "timestamp": "2026-06-08T12:05:00.000Z",
+      "size": "Letter",
+      "firearmId": "FRM_308_TEST",
+      "loadId": "LOD_308_TEST",
+      "customTargetConfig": {
+        "id": "CT_308_TGT",
+        "name": "Letter Target - 4 Circle Bullseyes",
+        "paperSize": "letter",
+        "orientation": "portrait",
+        "gridEnabled": true,
+        "gridSize": 1.0,
+        "gridColor": "#cccccc",
+        "rows": 2,
+        "cols": 2,
+        "marginX": 0.5,
+        "marginY": 0.5,
+        "shape": "circle",
+        "diameter": 3.0,
+        "numRings": 4,
+        "bullseyeColor": "#ff0000",
+        "ringColorA": "#000000",
+        "ringColorB": "#ffffff"
+      }
+    },
+    {
+      "id": "TGT_308_T3",
+      "name": "308 Target 2 (4 Bullseyes)",
+      "timestamp": "2026-06-08T12:10:00.000Z",
+      "size": "Letter",
+      "firearmId": "FRM_308_TEST",
+      "loadId": "LOD_308_TEST",
+      "customTargetConfig": {
+        "id": "CT_308_TGT",
+        "name": "Letter Target - 4 Circle Bullseyes",
+        "paperSize": "letter",
+        "orientation": "portrait",
+        "gridEnabled": true,
+        "gridSize": 1.0,
+        "gridColor": "#cccccc",
+        "rows": 2,
+        "cols": 2,
+        "marginX": 0.5,
+        "marginY": 0.5,
+        "shape": "circle",
+        "diameter": 3.0,
+        "numRings": 4,
+        "bullseyeColor": "#ff0000",
+        "ringColorA": "#000000",
+        "ringColorB": "#ffffff"
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": "SES_223_TEST",
+      "name": "223 Test Session",
+      "timestamp": "2026-06-08T12:00:00.000Z",
+      "firearmId": "FRM_223_TEST",
+      "loadId": "LOD_223_TEST",
+      "targetDistance": 100.0,
+      "distanceUnits": "yards",
+      "temp": 59.0,
+      "altitude": 0.0,
+      "pressure": 29.92,
+      "pressureType": "station"
+    },
+    {
+      "id": "SES_308_TEST",
+      "name": "308 Test Session",
+      "timestamp": "2026-06-08T12:10:00.000Z",
+      "firearmId": "FRM_308_TEST",
+      "loadId": "LOD_308_TEST",
+      "targetDistance": 300.0,
+      "distanceUnits": "yards",
+      "temp": 59.0,
+      "altitude": 0.0,
+      "pressure": 29.92,
+      "pressureType": "station"
+    }
+  ],
+  "sessionTargets": [
+    {
+      "id": "ST_223_T1",
+      "sessionId": "SES_223_TEST",
+      "targetImageId": "TGT_223_TEST",
+      "scale": {
+        "p1": {
+          "x": 100.0,
+          "y": 100.0
+        },
+        "p2": {
+          "x": 100.0,
+          "y": 316.0
+        },
+        "distance": 1.0,
+        "units": "in",
+        "pixelsPerUnit": 216.0
+      },
+      "transform": {
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "ST_308_T2",
+      "sessionId": "SES_308_TEST",
+      "targetImageId": "TGT_308_T2",
+      "scale": {
+        "p1": {
+          "x": 100.0,
+          "y": 100.0
+        },
+        "p2": {
+          "x": 100.0,
+          "y": 316.0
+        },
+        "distance": 1.0,
+        "units": "in",
+        "pixelsPerUnit": 216.0
+      },
+      "transform": {
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "ST_308_T3",
+      "sessionId": "SES_308_TEST",
+      "targetImageId": "TGT_308_T3",
+      "scale": {
+        "p1": {
+          "x": 100.0,
+          "y": 100.0
+        },
+        "p2": {
+          "x": 100.0,
+          "y": 316.0
+        },
+        "distance": 1.0,
+        "units": "in",
+        "pixelsPerUnit": 216.0
+      },
+      "transform": {
+        "scale": 1.0
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "groupNum": 1,
+      "poa": {
+        "x": 918.0,
+        "y": 1188.0
+      },
+      "color": "#36A2EB"
+    },
+    {
+      "id": "GRP_308_T2_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "groupNum": 1,
+      "poa": {
+        "x": 486.0,
+        "y": 864.0
+      },
+      "color": "#36A2EB"
+    },
+    {
+      "id": "GRP_308_T2_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "groupNum": 2,
+      "poa": {
+        "x": 1350.0,
+        "y": 864.0
+      },
+      "color": "#FFCE56"
+    },
+    {
+      "id": "GRP_308_T2_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "groupNum": 3,
+      "poa": {
+        "x": 486.0,
+        "y": 1944.0
+      },
+      "color": "#FF9F40"
+    },
+    {
+      "id": "GRP_308_T2_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "groupNum": 4,
+      "poa": {
+        "x": 1350.0,
+        "y": 1944.0
+      },
+      "color": "#f472b6"
+    },
+    {
+      "id": "GRP_308_T3_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "groupNum": 5,
+      "poa": {
+        "x": 486.0,
+        "y": 972.0
+      },
+      "color": "#36A2EB"
+    },
+    {
+      "id": "GRP_308_T3_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "groupNum": 6,
+      "poa": {
+        "x": 1350.0,
+        "y": 972.0
+      },
+      "color": "#FFCE56"
+    },
+    {
+      "id": "GRP_308_T3_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "groupNum": 7,
+      "poa": {
+        "x": 486.0,
+        "y": 2052.0
+      },
+      "color": "#FF9F40"
+    },
+    {
+      "id": "GRP_308_T3_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "groupNum": 8,
+      "poa": {
+        "x": 1350.0,
+        "y": 2052.0
+      },
+      "color": "#f472b6"
+    }
+  ],
+  "shots": [
+    {
+      "id": "SHT_GRP_223_T1_G1_1",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 1,
+      "x": 0.1284,
+      "y": 0.2601,
+      "px": 945.7,
+      "py": 1131.8,
+      "units": "in",
+      "velocity": 2944
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_2",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 2,
+      "x": 0.0995,
+      "y": 0.6033,
+      "px": 939.5,
+      "py": 1057.7,
+      "units": "in",
+      "velocity": 2921
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_3",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 3,
+      "x": -0.7725,
+      "y": -0.0518,
+      "px": 751.1,
+      "py": 1199.2,
+      "units": "in",
+      "velocity": 2925
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_4",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 4,
+      "x": 0.2766,
+      "y": 0.0962,
+      "px": 977.7,
+      "py": 1167.2,
+      "units": "in",
+      "velocity": 2877
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_5",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 5,
+      "x": 0.6189,
+      "y": -0.7875,
+      "px": 1051.7,
+      "py": 1358.1,
+      "units": "in",
+      "velocity": 2855
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_6",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 6,
+      "x": 0.4449,
+      "y": -0.6837,
+      "px": 1014.1,
+      "py": 1335.7,
+      "units": "in",
+      "velocity": 2920
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_7",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 7,
+      "x": -0.5002,
+      "y": -0.5423,
+      "px": 810.0,
+      "py": 1305.1,
+      "units": "in",
+      "velocity": 2874
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_8",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 8,
+      "x": 0.1925,
+      "y": 0.3439,
+      "px": 959.6,
+      "py": 1113.7,
+      "units": "in",
+      "velocity": 2860
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_9",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 9,
+      "x": -0.197,
+      "y": -0.3583,
+      "px": 875.5,
+      "py": 1265.4,
+      "units": "in",
+      "velocity": 2895
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_10",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 10,
+      "x": -0.3559,
+      "y": -0.1182,
+      "px": 841.1,
+      "py": 1213.5,
+      "units": "in",
+      "velocity": 2943
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_11",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 11,
+      "x": -0.4262,
+      "y": -0.2165,
+      "px": 825.9,
+      "py": 1234.8,
+      "units": "in",
+      "velocity": 2891
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_12",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 12,
+      "x": -0.2263,
+      "y": -0.4932,
+      "px": 869.1,
+      "py": 1294.5,
+      "units": "in",
+      "velocity": 2933
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_13",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 13,
+      "x": -0.006,
+      "y": -0.1497,
+      "px": 916.7,
+      "py": 1220.3,
+      "units": "in",
+      "velocity": 2867
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_14",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 14,
+      "x": -0.5188,
+      "y": 0.5129,
+      "px": 805.9,
+      "py": 1077.2,
+      "units": "in",
+      "velocity": 2924
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_15",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 15,
+      "x": -0.1157,
+      "y": 0.941,
+      "px": 893.0,
+      "py": 984.7,
+      "units": "in",
+      "velocity": 2937
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_16",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 16,
+      "x": -0.0746,
+      "y": -0.9041,
+      "px": 901.9,
+      "py": 1383.3,
+      "units": "in",
+      "velocity": 2851
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_17",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 17,
+      "x": 0.1829,
+      "y": -0.3656,
+      "px": 957.5,
+      "py": 1267.0,
+      "units": "in",
+      "velocity": 2887
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_18",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 18,
+      "x": -0.1072,
+      "y": 0.4255,
+      "px": 894.8,
+      "py": 1096.1,
+      "units": "in",
+      "velocity": 2872
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_19",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 19,
+      "x": 0.0077,
+      "y": -0.7107,
+      "px": 919.7,
+      "py": 1341.5,
+      "units": "in",
+      "velocity": 2914
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_20",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 20,
+      "x": 0.1155,
+      "y": -0.5118,
+      "px": 943.0,
+      "py": 1298.6,
+      "units": "in",
+      "velocity": 2949
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_21",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 21,
+      "x": 0.1738,
+      "y": 0.5472,
+      "px": 955.5,
+      "py": 1069.8,
+      "units": "in",
+      "velocity": 2889
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_22",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 22,
+      "x": -0.3082,
+      "y": -0.0657,
+      "px": 851.4,
+      "py": 1202.2,
+      "units": "in",
+      "velocity": 2943
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_23",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 23,
+      "x": -0.0135,
+      "y": -0.9995,
+      "px": 915.1,
+      "py": 1403.9,
+      "units": "in",
+      "velocity": 2866
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_24",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 24,
+      "x": -0.6367,
+      "y": -0.594,
+      "px": 780.5,
+      "py": 1316.3,
+      "units": "in",
+      "velocity": 2901
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_25",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 25,
+      "x": -0.1152,
+      "y": 0.439,
+      "px": 893.1,
+      "py": 1093.2,
+      "units": "in",
+      "velocity": 2893
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_26",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 26,
+      "x": 0.08,
+      "y": -0.1983,
+      "px": 935.3,
+      "py": 1230.8,
+      "units": "in",
+      "velocity": 2858
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_27",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 27,
+      "x": -0.5058,
+      "y": -0.1931,
+      "px": 808.8,
+      "py": 1229.7,
+      "units": "in",
+      "velocity": 2866
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_28",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 28,
+      "x": 0.0904,
+      "y": 0.0409,
+      "px": 937.5,
+      "py": 1179.2,
+      "units": "in",
+      "velocity": 2862
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_29",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 29,
+      "x": -0.6362,
+      "y": 0.1288,
+      "px": 780.6,
+      "py": 1160.2,
+      "units": "in",
+      "velocity": 2943
+    },
+    {
+      "id": "SHT_GRP_223_T1_G1_30",
+      "groupId": "GRP_223_T1_G1",
+      "sessionId": "SES_223_TEST",
+      "targetId": "ST_223_T1",
+      "shotNumber": 30,
+      "x": 0.1398,
+      "y": -1.0278,
+      "px": 948.2,
+      "py": 1410.0,
+      "units": "in",
+      "velocity": 2863
+    },
+    {
+      "id": "SHT_GRP_308_T2_G1_1",
+      "groupId": "GRP_308_T2_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 1,
+      "x": -0.4181,
+      "y": 1.1197,
+      "px": 395.7,
+      "py": 622.1,
+      "units": "in",
+      "velocity": 2685
+    },
+    {
+      "id": "SHT_GRP_308_T2_G1_2",
+      "groupId": "GRP_308_T2_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 2,
+      "x": -0.4011,
+      "y": 0.5539,
+      "px": 399.4,
+      "py": 744.4,
+      "units": "in",
+      "velocity": 2651
+    },
+    {
+      "id": "SHT_GRP_308_T2_G1_3",
+      "groupId": "GRP_308_T2_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 3,
+      "x": 0.5634,
+      "y": 1.0246,
+      "px": 607.7,
+      "py": 642.7,
+      "units": "in",
+      "velocity": 2701
+    },
+    {
+      "id": "SHT_GRP_308_T2_G1_4",
+      "groupId": "GRP_308_T2_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 4,
+      "x": 0.649,
+      "y": 2.1002,
+      "px": 626.2,
+      "py": 410.4,
+      "units": "in",
+      "velocity": 2750
+    },
+    {
+      "id": "SHT_GRP_308_T2_G1_5",
+      "groupId": "GRP_308_T2_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 5,
+      "x": 0.5374,
+      "y": 0.0173,
+      "px": 602.1,
+      "py": 860.3,
+      "units": "in",
+      "velocity": 2750
+    },
+    {
+      "id": "SHT_GRP_308_T2_G2_1",
+      "groupId": "GRP_308_T2_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 6,
+      "x": 0.2668,
+      "y": 1.6612,
+      "px": 1407.6,
+      "py": 505.2,
+      "units": "in",
+      "velocity": 2657
+    },
+    {
+      "id": "SHT_GRP_308_T2_G2_2",
+      "groupId": "GRP_308_T2_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 7,
+      "x": 0.233,
+      "y": 0.6457,
+      "px": 1400.3,
+      "py": 724.5,
+      "units": "in",
+      "velocity": 2724
+    },
+    {
+      "id": "SHT_GRP_308_T2_G2_3",
+      "groupId": "GRP_308_T2_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 8,
+      "x": -0.3879,
+      "y": 0.9555,
+      "px": 1266.2,
+      "py": 657.6,
+      "units": "in",
+      "velocity": 2715
+    },
+    {
+      "id": "SHT_GRP_308_T2_G2_4",
+      "groupId": "GRP_308_T2_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 9,
+      "x": -0.6947,
+      "y": 0.6058,
+      "px": 1199.9,
+      "py": 733.1,
+      "units": "in",
+      "velocity": 2680
+    },
+    {
+      "id": "SHT_GRP_308_T2_G2_5",
+      "groupId": "GRP_308_T2_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 10,
+      "x": -2.2195,
+      "y": 0.7771,
+      "px": 870.6,
+      "py": 696.1,
+      "units": "in",
+      "velocity": 2655
+    },
+    {
+      "id": "SHT_GRP_308_T2_G3_1",
+      "groupId": "GRP_308_T2_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 11,
+      "x": 0.2769,
+      "y": 0.7638,
+      "px": 545.8,
+      "py": 1779.0,
+      "units": "in",
+      "velocity": 2683
+    },
+    {
+      "id": "SHT_GRP_308_T2_G3_2",
+      "groupId": "GRP_308_T2_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 12,
+      "x": -1.4038,
+      "y": 1.5826,
+      "px": 182.8,
+      "py": 1602.2,
+      "units": "in",
+      "velocity": 2735
+    },
+    {
+      "id": "SHT_GRP_308_T2_G3_3",
+      "groupId": "GRP_308_T2_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 13,
+      "x": 0.3611,
+      "y": 0.9057,
+      "px": 564.0,
+      "py": 1748.4,
+      "units": "in",
+      "velocity": 2718
+    },
+    {
+      "id": "SHT_GRP_308_T2_G3_4",
+      "groupId": "GRP_308_T2_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 14,
+      "x": -0.5259,
+      "y": 0.1896,
+      "px": 372.4,
+      "py": 1903.0,
+      "units": "in",
+      "velocity": 2670
+    },
+    {
+      "id": "SHT_GRP_308_T2_G3_5",
+      "groupId": "GRP_308_T2_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 15,
+      "x": -0.1823,
+      "y": 0.1218,
+      "px": 446.6,
+      "py": 1917.7,
+      "units": "in",
+      "velocity": 2735
+    },
+    {
+      "id": "SHT_GRP_308_T2_G4_1",
+      "groupId": "GRP_308_T2_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 16,
+      "x": 0.6097,
+      "y": 2.1849,
+      "px": 1481.7,
+      "py": 1472.1,
+      "units": "in",
+      "velocity": 2684
+    },
+    {
+      "id": "SHT_GRP_308_T2_G4_2",
+      "groupId": "GRP_308_T2_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 17,
+      "x": -0.3724,
+      "y": 1.6773,
+      "px": 1269.6,
+      "py": 1581.7,
+      "units": "in",
+      "velocity": 2683
+    },
+    {
+      "id": "SHT_GRP_308_T2_G4_3",
+      "groupId": "GRP_308_T2_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 18,
+      "x": 0.0097,
+      "y": -0.06,
+      "px": 1352.1,
+      "py": 1957.0,
+      "units": "in",
+      "velocity": 2655
+    },
+    {
+      "id": "SHT_GRP_308_T2_G4_4",
+      "groupId": "GRP_308_T2_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 19,
+      "x": 0.2503,
+      "y": 0.2751,
+      "px": 1404.1,
+      "py": 1884.6,
+      "units": "in",
+      "velocity": 2704
+    },
+    {
+      "id": "SHT_GRP_308_T2_G4_5",
+      "groupId": "GRP_308_T2_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T2",
+      "shotNumber": 20,
+      "x": 0.0924,
+      "y": 1.3937,
+      "px": 1370.0,
+      "py": 1643.0,
+      "units": "in",
+      "velocity": 2705
+    },
+    {
+      "id": "SHT_GRP_308_T3_G1_1",
+      "groupId": "GRP_308_T3_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 21,
+      "x": -0.7255,
+      "y": 2.0204,
+      "px": 329.3,
+      "py": 535.6,
+      "units": "in",
+      "velocity": 2663
+    },
+    {
+      "id": "SHT_GRP_308_T3_G1_2",
+      "groupId": "GRP_308_T3_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 22,
+      "x": -0.4479,
+      "y": 1.9235,
+      "px": 389.3,
+      "py": 556.5,
+      "units": "in",
+      "velocity": 2672
+    },
+    {
+      "id": "SHT_GRP_308_T3_G1_3",
+      "groupId": "GRP_308_T3_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 23,
+      "x": 0.4772,
+      "y": 2.9774,
+      "px": 589.1,
+      "py": 328.9,
+      "units": "in",
+      "velocity": 2663
+    },
+    {
+      "id": "SHT_GRP_308_T3_G1_4",
+      "groupId": "GRP_308_T3_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 24,
+      "x": -0.1646,
+      "y": 1.5493,
+      "px": 450.4,
+      "py": 637.3,
+      "units": "in",
+      "velocity": 2708
+    },
+    {
+      "id": "SHT_GRP_308_T3_G1_5",
+      "groupId": "GRP_308_T3_G1",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 25,
+      "x": -1.1285,
+      "y": 0.8563,
+      "px": 242.2,
+      "py": 787.0,
+      "units": "in",
+      "velocity": 2734
+    },
+    {
+      "id": "SHT_GRP_308_T3_G2_1",
+      "groupId": "GRP_308_T3_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 26,
+      "x": -0.6154,
+      "y": 2.3299,
+      "px": 1217.1,
+      "py": 468.7,
+      "units": "in",
+      "velocity": 2701
+    },
+    {
+      "id": "SHT_GRP_308_T3_G2_2",
+      "groupId": "GRP_308_T3_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 27,
+      "x": 1.5468,
+      "y": 1.7339,
+      "px": 1684.1,
+      "py": 597.5,
+      "units": "in",
+      "velocity": 2683
+    },
+    {
+      "id": "SHT_GRP_308_T3_G2_3",
+      "groupId": "GRP_308_T3_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 28,
+      "x": -0.3544,
+      "y": 1.8247,
+      "px": 1273.5,
+      "py": 577.9,
+      "units": "in",
+      "velocity": 2690
+    },
+    {
+      "id": "SHT_GRP_308_T3_G2_4",
+      "groupId": "GRP_308_T3_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 29,
+      "x": -0.1794,
+      "y": 0.1814,
+      "px": 1311.2,
+      "py": 932.8,
+      "units": "in",
+      "velocity": 2744
+    },
+    {
+      "id": "SHT_GRP_308_T3_G2_5",
+      "groupId": "GRP_308_T3_G2",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 30,
+      "x": 0.3977,
+      "y": 3.3103,
+      "px": 1435.9,
+      "py": 257.0,
+      "units": "in",
+      "velocity": 2692
+    },
+    {
+      "id": "SHT_GRP_308_T3_G3_1",
+      "groupId": "GRP_308_T3_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 31,
+      "x": 0.4929,
+      "y": 1.4712,
+      "px": 592.5,
+      "py": 1734.2,
+      "units": "in",
+      "velocity": 2691
+    },
+    {
+      "id": "SHT_GRP_308_T3_G3_2",
+      "groupId": "GRP_308_T3_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 32,
+      "x": -0.1867,
+      "y": 2.3663,
+      "px": 445.7,
+      "py": 1540.9,
+      "units": "in",
+      "velocity": 2698
+    },
+    {
+      "id": "SHT_GRP_308_T3_G3_3",
+      "groupId": "GRP_308_T3_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 33,
+      "x": 0.2226,
+      "y": 2.0035,
+      "px": 534.1,
+      "py": 1619.2,
+      "units": "in",
+      "velocity": 2724
+    },
+    {
+      "id": "SHT_GRP_308_T3_G3_4",
+      "groupId": "GRP_308_T3_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 34,
+      "x": 0.212,
+      "y": 1.7418,
+      "px": 531.8,
+      "py": 1675.8,
+      "units": "in",
+      "velocity": 2715
+    },
+    {
+      "id": "SHT_GRP_308_T3_G3_5",
+      "groupId": "GRP_308_T3_G3",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 35,
+      "x": -0.3655,
+      "y": 1.0197,
+      "px": 407.0,
+      "py": 1831.7,
+      "units": "in",
+      "velocity": 2660
+    },
+    {
+      "id": "SHT_GRP_308_T3_G4_1",
+      "groupId": "GRP_308_T3_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 36,
+      "x": -0.8665,
+      "y": 1.3228,
+      "px": 1162.8,
+      "py": 1766.3,
+      "units": "in",
+      "velocity": 2746
+    },
+    {
+      "id": "SHT_GRP_308_T3_G4_2",
+      "groupId": "GRP_308_T3_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 37,
+      "x": -0.5179,
+      "y": 1.0157,
+      "px": 1238.1,
+      "py": 1832.6,
+      "units": "in",
+      "velocity": 2655
+    },
+    {
+      "id": "SHT_GRP_308_T3_G4_3",
+      "groupId": "GRP_308_T3_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 38,
+      "x": -0.6549,
+      "y": 1.8113,
+      "px": 1208.5,
+      "py": 1660.8,
+      "units": "in",
+      "velocity": 2674
+    },
+    {
+      "id": "SHT_GRP_308_T3_G4_4",
+      "groupId": "GRP_308_T3_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 39,
+      "x": 0.4775,
+      "y": 1.6586,
+      "px": 1453.1,
+      "py": 1693.7,
+      "units": "in",
+      "velocity": 2738
+    },
+    {
+      "id": "SHT_GRP_308_T3_G4_5",
+      "groupId": "GRP_308_T3_G4",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 40,
+      "x": 0.4072,
+      "y": 1.6224,
+      "px": 1438.0,
+      "py": 1701.6,
+      "units": "in",
+      "velocity": 2739
     }
   ]
 }
