@@ -13108,8 +13108,8 @@
     },
     {
       "id": "CT_308_TGT",
-      "name": "Letter Target - 4 Circle Bullseyes",
-      "paperSize": "letter",
+      "name": "12x12 Target - 4 Circle Bullseyes",
+      "paperSize": "12x12",
       "orientation": "portrait",
       "gridEnabled": true,
       "gridSize": 1.0,
@@ -13158,13 +13158,13 @@
       "id": "TGT_308_T2",
       "name": "308 Target 1 (4 Bullseyes)",
       "timestamp": "2026-06-08T12:05:00.000Z",
-      "size": "Letter",
+      "size": "12x12",
       "firearmId": "FRM_308_TEST",
       "loadId": "LOD_308_TEST",
       "customTargetConfig": {
         "id": "CT_308_TGT",
-        "name": "Letter Target - 4 Circle Bullseyes",
-        "paperSize": "letter",
+        "name": "12x12 Target - 4 Circle Bullseyes",
+        "paperSize": "12x12",
         "orientation": "portrait",
         "gridEnabled": true,
         "gridSize": 1.0,
@@ -13185,13 +13185,13 @@
       "id": "TGT_308_T3",
       "name": "308 Target 2 (4 Bullseyes)",
       "timestamp": "2026-06-08T12:10:00.000Z",
-      "size": "Letter",
+      "size": "12x12",
       "firearmId": "FRM_308_TEST",
       "loadId": "LOD_308_TEST",
       "customTargetConfig": {
         "id": "CT_308_TGT",
-        "name": "Letter Target - 4 Circle Bullseyes",
-        "paperSize": "letter",
+        "name": "12x12 Target - 4 Circle Bullseyes",
+        "paperSize": "12x12",
         "orientation": "portrait",
         "gridEnabled": true,
         "gridSize": 1.0,
@@ -13320,8 +13320,8 @@
       "targetId": "ST_308_T2",
       "groupNum": 1,
       "poa": {
-        "x": 486.0,
-        "y": 864.0
+        "x": 637.9,
+        "y": 851.6
       },
       "color": "#36A2EB"
     },
@@ -13331,8 +13331,8 @@
       "targetId": "ST_308_T2",
       "groupNum": 2,
       "poa": {
-        "x": 1350.0,
-        "y": 864.0
+        "x": 1941.9,
+        "y": 860.9
       },
       "color": "#FFCE56"
     },
@@ -13342,8 +13342,8 @@
       "targetId": "ST_308_T2",
       "groupNum": 3,
       "poa": {
-        "x": 486.0,
-        "y": 1944.0
+        "x": 639.1,
+        "y": 2150.0
       },
       "color": "#FF9F40"
     },
@@ -13353,52 +13353,52 @@
       "targetId": "ST_308_T2",
       "groupNum": 4,
       "poa": {
-        "x": 1350.0,
-        "y": 1944.0
+        "x": 1960.9,
+        "y": 2157.7
       },
       "color": "#f472b6"
     },
     {
-      "id": "GRP_308_T3_G1",
+      "id": "GRP_308_T3_G5",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 5,
       "poa": {
-        "x": 486.0,
-        "y": 972.0
+        "x": 642.1,
+        "y": 948.9
       },
       "color": "#36A2EB"
     },
     {
-      "id": "GRP_308_T3_G2",
+      "id": "GRP_308_T3_G6",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 6,
       "poa": {
-        "x": 1350.0,
-        "y": 972.0
+        "x": 1942.5,
+        "y": 957.0
       },
       "color": "#FFCE56"
     },
     {
-      "id": "GRP_308_T3_G3",
+      "id": "GRP_308_T3_G7",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 7,
       "poa": {
-        "x": 486.0,
-        "y": 2052.0
+        "x": 668.9,
+        "y": 2260.5
       },
       "color": "#FF9F40"
     },
     {
-      "id": "GRP_308_T3_G4",
+      "id": "GRP_308_T3_G8",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 8,
       "poa": {
-        "x": 1350.0,
-        "y": 2052.0
+        "x": 1960.0,
+        "y": 2286.6
       },
       "color": "#f472b6"
     }
@@ -13800,12 +13800,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 1,
-      "x": -0.4181,
-      "y": 1.1197,
-      "px": 395.7,
-      "py": 622.1,
+      "x": 1.1291,
+      "y": 1.8166,
+      "px": 881.8,
+      "py": 459.2,
       "units": "in",
-      "velocity": 2685
+      "velocity": 2677
     },
     {
       "id": "SHT_GRP_308_T2_G1_2",
@@ -13813,12 +13813,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 2,
-      "x": -0.4011,
-      "y": 0.5539,
-      "px": 399.4,
-      "py": 744.4,
+      "x": -1.9623,
+      "y": 0.4052,
+      "px": 214.1,
+      "py": 764.1,
       "units": "in",
-      "velocity": 2651
+      "velocity": 2739
     },
     {
       "id": "SHT_GRP_308_T2_G1_3",
@@ -13826,12 +13826,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 3,
-      "x": 0.5634,
-      "y": 1.0246,
-      "px": 607.7,
-      "py": 642.7,
+      "x": 0.3133,
+      "y": 1.6038,
+      "px": 705.6,
+      "py": 505.2,
       "units": "in",
-      "velocity": 2701
+      "velocity": 2657
     },
     {
       "id": "SHT_GRP_308_T2_G1_4",
@@ -13839,12 +13839,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 4,
-      "x": 0.649,
-      "y": 2.1002,
-      "px": 626.2,
-      "py": 410.4,
+      "x": 0.2795,
+      "y": 0.5883,
+      "px": 698.3,
+      "py": 724.5,
       "units": "in",
-      "velocity": 2750
+      "velocity": 2724
     },
     {
       "id": "SHT_GRP_308_T2_G1_5",
@@ -13852,12 +13852,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 5,
-      "x": 0.5374,
-      "y": 0.0173,
-      "px": 602.1,
-      "py": 860.3,
+      "x": -0.3413,
+      "y": 0.8982,
+      "px": 564.2,
+      "py": 657.6,
       "units": "in",
-      "velocity": 2750
+      "velocity": 2715
     },
     {
       "id": "SHT_GRP_308_T2_G2_1",
@@ -13865,12 +13865,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 6,
-      "x": 0.2668,
-      "y": 1.6612,
-      "px": 1407.6,
-      "py": 505.2,
+      "x": -0.6852,
+      "y": 0.5914,
+      "px": 1793.9,
+      "py": 733.1,
       "units": "in",
-      "velocity": 2657
+      "velocity": 2680
     },
     {
       "id": "SHT_GRP_308_T2_G2_2",
@@ -13878,12 +13878,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 7,
-      "x": 0.233,
-      "y": 0.6457,
-      "px": 1400.3,
-      "py": 724.5,
+      "x": -2.21,
+      "y": 0.7626,
+      "px": 1464.6,
+      "py": 696.1,
       "units": "in",
-      "velocity": 2724
+      "velocity": 2655
     },
     {
       "id": "SHT_GRP_308_T2_G2_3",
@@ -13891,12 +13891,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 8,
-      "x": -0.3879,
-      "y": 0.9555,
-      "px": 1266.2,
-      "py": 657.6,
+      "x": 0.2864,
+      "y": 0.7493,
+      "px": 2003.8,
+      "py": 699.0,
       "units": "in",
-      "velocity": 2715
+      "velocity": 2683
     },
     {
       "id": "SHT_GRP_308_T2_G2_4",
@@ -13904,12 +13904,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 9,
-      "x": -0.6947,
-      "y": 0.6058,
-      "px": 1199.9,
-      "py": 733.1,
+      "x": -1.3942,
+      "y": 1.5681,
+      "px": 1640.8,
+      "py": 522.2,
       "units": "in",
-      "velocity": 2680
+      "velocity": 2735
     },
     {
       "id": "SHT_GRP_308_T2_G2_5",
@@ -13917,12 +13917,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 10,
-      "x": -2.2195,
-      "y": 0.7771,
-      "px": 870.6,
-      "py": 696.1,
+      "x": 0.3706,
+      "y": 0.8912,
+      "px": 2022.0,
+      "py": 668.4,
       "units": "in",
-      "velocity": 2655
+      "velocity": 2718
     },
     {
       "id": "SHT_GRP_308_T2_G3_1",
@@ -13930,12 +13930,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 11,
-      "x": 0.2769,
-      "y": 0.7638,
-      "px": 545.8,
-      "py": 1779.0,
+      "x": -0.4849,
+      "y": 0.1433,
+      "px": 534.4,
+      "py": 2119.0,
       "units": "in",
-      "velocity": 2683
+      "velocity": 2670
     },
     {
       "id": "SHT_GRP_308_T2_G3_2",
@@ -13943,10 +13943,10 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 12,
-      "x": -1.4038,
-      "y": 1.5826,
-      "px": 182.8,
-      "py": 1602.2,
+      "x": -0.1413,
+      "y": 0.0754,
+      "px": 608.6,
+      "py": 2133.7,
       "units": "in",
       "velocity": 2735
     },
@@ -13956,12 +13956,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 13,
-      "x": 0.3611,
-      "y": 0.9057,
-      "px": 564.0,
-      "py": 1748.4,
+      "x": 0.6507,
+      "y": 2.1385,
+      "px": 779.7,
+      "py": 1688.1,
       "units": "in",
-      "velocity": 2718
+      "velocity": 2684
     },
     {
       "id": "SHT_GRP_308_T2_G3_4",
@@ -13969,12 +13969,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 14,
-      "x": -0.5259,
-      "y": 0.1896,
-      "px": 372.4,
-      "py": 1903.0,
+      "x": -0.3314,
+      "y": 1.631,
+      "px": 567.6,
+      "py": 1797.7,
       "units": "in",
-      "velocity": 2670
+      "velocity": 2683
     },
     {
       "id": "SHT_GRP_308_T2_G3_5",
@@ -13982,12 +13982,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 15,
-      "x": -0.1823,
-      "y": 0.1218,
-      "px": 446.6,
-      "py": 1917.7,
+      "x": 0.0507,
+      "y": -0.1064,
+      "px": 650.1,
+      "py": 2173.0,
       "units": "in",
-      "velocity": 2735
+      "velocity": 2655
     },
     {
       "id": "SHT_GRP_308_T2_G4_1",
@@ -13995,12 +13995,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 16,
-      "x": 0.6097,
-      "y": 2.1849,
-      "px": 1481.7,
-      "py": 1472.1,
+      "x": 0.1719,
+      "y": 0.2646,
+      "px": 1998.1,
+      "py": 2100.6,
       "units": "in",
-      "velocity": 2684
+      "velocity": 2704
     },
     {
       "id": "SHT_GRP_308_T2_G4_2",
@@ -14008,12 +14008,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 17,
-      "x": -0.3724,
-      "y": 1.6773,
-      "px": 1269.6,
-      "py": 1581.7,
+      "x": 0.014,
+      "y": 1.3832,
+      "px": 1964.0,
+      "py": 1859.0,
       "units": "in",
-      "velocity": 2683
+      "velocity": 2705
     },
     {
       "id": "SHT_GRP_308_T2_G4_3",
@@ -14021,12 +14021,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 18,
-      "x": 0.0097,
-      "y": -0.06,
-      "px": 1352.1,
-      "py": 1957.0,
+      "x": -0.8039,
+      "y": 1.5099,
+      "px": 1787.3,
+      "py": 1831.6,
       "units": "in",
-      "velocity": 2655
+      "velocity": 2663
     },
     {
       "id": "SHT_GRP_308_T2_G4_4",
@@ -14034,12 +14034,12 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 19,
-      "x": 0.2503,
-      "y": 0.2751,
-      "px": 1404.1,
-      "py": 1884.6,
+      "x": -0.5262,
+      "y": 1.4129,
+      "px": 1847.3,
+      "py": 1852.5,
       "units": "in",
-      "velocity": 2704
+      "velocity": 2672
     },
     {
       "id": "SHT_GRP_308_T2_G4_5",
@@ -14047,272 +14047,272 @@
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 20,
-      "x": 0.0924,
-      "y": 1.3937,
-      "px": 1370.0,
-      "py": 1643.0,
+      "x": 0.3988,
+      "y": 2.4669,
+      "px": 2047.1,
+      "py": 1624.9,
       "units": "in",
-      "velocity": 2705
+      "velocity": 2663
     },
     {
-      "id": "SHT_GRP_308_T3_G1_1",
-      "groupId": "GRP_308_T3_G1",
+      "id": "SHT_GRP_308_T3_G5_1",
+      "groupId": "GRP_308_T3_G5",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 21,
-      "x": -0.7255,
-      "y": 2.0204,
-      "px": 329.3,
-      "py": 535.6,
+      "x": -1.0707,
+      "y": 1.5828,
+      "px": 410.9,
+      "py": 607.0,
       "units": "in",
-      "velocity": 2663
+      "velocity": 2658
     },
     {
-      "id": "SHT_GRP_308_T3_G1_2",
-      "groupId": "GRP_308_T3_G1",
+      "id": "SHT_GRP_308_T3_G5_2",
+      "groupId": "GRP_308_T3_G5",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 22,
-      "x": -0.4479,
-      "y": 1.9235,
-      "px": 389.3,
-      "py": 556.5,
+      "x": 0.8997,
+      "y": 1.0757,
+      "px": 836.5,
+      "py": 716.6,
       "units": "in",
-      "velocity": 2672
+      "velocity": 2718
     },
     {
-      "id": "SHT_GRP_308_T3_G1_3",
-      "groupId": "GRP_308_T3_G1",
+      "id": "SHT_GRP_308_T3_G5_3",
+      "groupId": "GRP_308_T3_G5",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 23,
-      "x": 0.4772,
-      "y": 2.9774,
-      "px": 589.1,
-      "py": 328.9,
-      "units": "in",
-      "velocity": 2663
-    },
-    {
-      "id": "SHT_GRP_308_T3_G1_4",
-      "groupId": "GRP_308_T3_G1",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 24,
-      "x": -0.1646,
-      "y": 1.5493,
-      "px": 450.4,
-      "py": 637.3,
-      "units": "in",
-      "velocity": 2708
-    },
-    {
-      "id": "SHT_GRP_308_T3_G1_5",
-      "groupId": "GRP_308_T3_G1",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 25,
-      "x": -1.1285,
-      "y": 0.8563,
-      "px": 242.2,
-      "py": 787.0,
-      "units": "in",
-      "velocity": 2734
-    },
-    {
-      "id": "SHT_GRP_308_T3_G2_1",
-      "groupId": "GRP_308_T3_G2",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 26,
-      "x": -0.6154,
-      "y": 2.3299,
-      "px": 1217.1,
-      "py": 468.7,
-      "units": "in",
-      "velocity": 2701
-    },
-    {
-      "id": "SHT_GRP_308_T3_G2_2",
-      "groupId": "GRP_308_T3_G2",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 27,
-      "x": 1.5468,
-      "y": 1.7339,
-      "px": 1684.1,
-      "py": 597.5,
-      "units": "in",
-      "velocity": 2683
-    },
-    {
-      "id": "SHT_GRP_308_T3_G2_3",
-      "groupId": "GRP_308_T3_G2",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 28,
-      "x": -0.3544,
-      "y": 1.8247,
-      "px": 1273.5,
-      "py": 577.9,
-      "units": "in",
-      "velocity": 2690
-    },
-    {
-      "id": "SHT_GRP_308_T3_G2_4",
-      "groupId": "GRP_308_T3_G2",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 29,
-      "x": -0.1794,
-      "y": 0.1814,
-      "px": 1311.2,
-      "py": 932.8,
-      "units": "in",
-      "velocity": 2744
-    },
-    {
-      "id": "SHT_GRP_308_T3_G2_5",
-      "groupId": "GRP_308_T3_G2",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 30,
-      "x": 0.3977,
-      "y": 3.3103,
-      "px": 1435.9,
-      "py": 257.0,
-      "units": "in",
-      "velocity": 2692
-    },
-    {
-      "id": "SHT_GRP_308_T3_G3_1",
-      "groupId": "GRP_308_T3_G3",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 31,
-      "x": 0.4929,
-      "y": 1.4712,
-      "px": 592.5,
-      "py": 1734.2,
-      "units": "in",
-      "velocity": 2691
-    },
-    {
-      "id": "SHT_GRP_308_T3_G3_2",
-      "groupId": "GRP_308_T3_G3",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 32,
-      "x": -0.1867,
-      "y": 2.3663,
-      "px": 445.7,
-      "py": 1540.9,
-      "units": "in",
-      "velocity": 2698
-    },
-    {
-      "id": "SHT_GRP_308_T3_G3_3",
-      "groupId": "GRP_308_T3_G3",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 33,
-      "x": 0.2226,
-      "y": 2.0035,
-      "px": 534.1,
-      "py": 1619.2,
+      "x": -0.2067,
+      "y": 0.7057,
+      "px": 597.5,
+      "py": 796.5,
       "units": "in",
       "velocity": 2724
     },
     {
-      "id": "SHT_GRP_308_T3_G3_4",
-      "groupId": "GRP_308_T3_G3",
+      "id": "SHT_GRP_308_T3_G5_4",
+      "groupId": "GRP_308_T3_G5",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
-      "shotNumber": 34,
-      "x": 0.212,
-      "y": 1.7418,
-      "px": 531.8,
-      "py": 1675.8,
+      "shotNumber": 24,
+      "x": 0.8755,
+      "y": 2.3262,
+      "px": 831.2,
+      "py": 446.5,
       "units": "in",
-      "velocity": 2715
+      "velocity": 2743
     },
     {
-      "id": "SHT_GRP_308_T3_G3_5",
-      "groupId": "GRP_308_T3_G3",
+      "id": "SHT_GRP_308_T3_G5_5",
+      "groupId": "GRP_308_T3_G5",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
-      "shotNumber": 35,
-      "x": -0.3655,
-      "y": 1.0197,
-      "px": 407.0,
-      "py": 1831.7,
-      "units": "in",
-      "velocity": 2660
-    },
-    {
-      "id": "SHT_GRP_308_T3_G4_1",
-      "groupId": "GRP_308_T3_G4",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 36,
-      "x": -0.8665,
-      "y": 1.3228,
-      "px": 1162.8,
-      "py": 1766.3,
-      "units": "in",
-      "velocity": 2746
-    },
-    {
-      "id": "SHT_GRP_308_T3_G4_2",
-      "groupId": "GRP_308_T3_G4",
-      "sessionId": "SES_308_TEST",
-      "targetId": "ST_308_T3",
-      "shotNumber": 37,
-      "x": -0.5179,
-      "y": 1.0157,
-      "px": 1238.1,
-      "py": 1832.6,
+      "shotNumber": 25,
+      "x": 0.7118,
+      "y": 0.7287,
+      "px": 795.9,
+      "py": 791.5,
       "units": "in",
       "velocity": 2655
     },
     {
-      "id": "SHT_GRP_308_T3_G4_3",
-      "groupId": "GRP_308_T3_G4",
+      "id": "SHT_GRP_308_T3_G6_1",
+      "groupId": "GRP_308_T3_G6",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
-      "shotNumber": 38,
-      "x": -0.6549,
-      "y": 1.8113,
-      "px": 1208.5,
-      "py": 1660.8,
+      "shotNumber": 26,
+      "x": 1.2489,
+      "y": 0.2849,
+      "px": 2212.3,
+      "py": 895.4,
+      "units": "in",
+      "velocity": 2735
+    },
+    {
+      "id": "SHT_GRP_308_T3_G6_2",
+      "groupId": "GRP_308_T3_G6",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 27,
+      "x": -0.7109,
+      "y": 0.9376,
+      "px": 1789.0,
+      "py": 754.5,
+      "units": "in",
+      "velocity": 2665
+    },
+    {
+      "id": "SHT_GRP_308_T3_G6_3",
+      "groupId": "GRP_308_T3_G6",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 28,
+      "x": 0.4299,
+      "y": 1.8647,
+      "px": 2035.4,
+      "py": 554.2,
+      "units": "in",
+      "velocity": 2701
+    },
+    {
+      "id": "SHT_GRP_308_T3_G6_4",
+      "groupId": "GRP_308_T3_G6",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 29,
+      "x": 0.603,
+      "y": 2.6694,
+      "px": 2072.8,
+      "py": 380.4,
+      "units": "in",
+      "velocity": 2698
+    },
+    {
+      "id": "SHT_GRP_308_T3_G6_5",
+      "groupId": "GRP_308_T3_G6",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 30,
+      "x": 0.2294,
+      "y": 1.934,
+      "px": 1992.1,
+      "py": 539.2,
+      "units": "in",
+      "velocity": 2724
+    },
+    {
+      "id": "SHT_GRP_308_T3_G7_1",
+      "groupId": "GRP_308_T3_G7",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 31,
+      "x": 0.1151,
+      "y": 1.707,
+      "px": 693.8,
+      "py": 1891.8,
+      "units": "in",
+      "velocity": 2715
+    },
+    {
+      "id": "SHT_GRP_308_T3_G7_2",
+      "groupId": "GRP_308_T3_G7",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 32,
+      "x": -0.4624,
+      "y": 0.9849,
+      "px": 569.0,
+      "py": 2047.7,
+      "units": "in",
+      "velocity": 2660
+    },
+    {
+      "id": "SHT_GRP_308_T3_G7_3",
+      "groupId": "GRP_308_T3_G7",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 33,
+      "x": -0.9633,
+      "y": 1.288,
+      "px": 460.8,
+      "py": 1982.3,
+      "units": "in",
+      "velocity": 2746
+    },
+    {
+      "id": "SHT_GRP_308_T3_G7_4",
+      "groupId": "GRP_308_T3_G7",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 34,
+      "x": -0.6148,
+      "y": 0.9809,
+      "px": 536.1,
+      "py": 2048.6,
+      "units": "in",
+      "velocity": 2655
+    },
+    {
+      "id": "SHT_GRP_308_T3_G7_5",
+      "groupId": "GRP_308_T3_G7",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 35,
+      "x": -0.7518,
+      "y": 1.7765,
+      "px": 506.5,
+      "py": 1876.8,
       "units": "in",
       "velocity": 2674
     },
     {
-      "id": "SHT_GRP_308_T3_G4_4",
-      "groupId": "GRP_308_T3_G4",
+      "id": "SHT_GRP_308_T3_G8_1",
+      "groupId": "GRP_308_T3_G8",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
-      "shotNumber": 39,
-      "x": 0.4775,
-      "y": 1.6586,
-      "px": 1453.1,
-      "py": 1693.7,
+      "shotNumber": 36,
+      "x": 0.4033,
+      "y": 1.7445,
+      "px": 2047.1,
+      "py": 1909.7,
       "units": "in",
       "velocity": 2738
     },
     {
-      "id": "SHT_GRP_308_T3_G4_5",
-      "groupId": "GRP_308_T3_G4",
+      "id": "SHT_GRP_308_T3_G8_2",
+      "groupId": "GRP_308_T3_G8",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 37,
+      "x": 0.333,
+      "y": 1.7083,
+      "px": 2032.0,
+      "py": 1917.6,
+      "units": "in",
+      "velocity": 2739
+    },
+    {
+      "id": "SHT_GRP_308_T3_G8_3",
+      "groupId": "GRP_308_T3_G8",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 38,
+      "x": -0.0487,
+      "y": 1.8813,
+      "px": 1949.5,
+      "py": 1880.2,
+      "units": "in",
+      "velocity": 2735
+    },
+    {
+      "id": "SHT_GRP_308_T3_G8_4",
+      "groupId": "GRP_308_T3_G8",
+      "sessionId": "SES_308_TEST",
+      "targetId": "ST_308_T3",
+      "shotNumber": 39,
+      "x": 0.0209,
+      "y": 2.5916,
+      "px": 1964.5,
+      "py": 1726.8,
+      "units": "in",
+      "velocity": 2706
+    },
+    {
+      "id": "SHT_GRP_308_T3_G8_5",
+      "groupId": "GRP_308_T3_G8",
       "sessionId": "SES_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 40,
-      "x": 0.4072,
-      "y": 1.6224,
-      "px": 1438.0,
-      "py": 1701.6,
+      "x": 0.4664,
+      "y": 1.548,
+      "px": 2060.8,
+      "py": 1952.2,
       "units": "in",
-      "velocity": 2739
+      "velocity": 2720
     }
   ]
 }
