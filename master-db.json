@@ -85,7 +85,8 @@
       "bulletDiameterMmResolved": 4.368799999999999,
       "baseCapacityH2oGramsResolved": 0.9525,
       "primerPocketIdResolved": "PKT_SML",
-      "transducerScaleFactor": 0.5992
+      "transducerScaleFactor": 0.8,
+      "burnRateMultiplier": 0.48
     },
     {
       "id": "CTG_204RUG_N2H4",
@@ -491,7 +492,8 @@
       "bulletDiameterMmResolved": 7.823199999999999,
       "baseCapacityH2oGramsResolved": 2.9159509499999996,
       "primerPocketIdResolved": "PKT_LRG",
-      "transducerScaleFactor": 0.5505
+      "transducerScaleFactor": 0.8,
+      "burnRateMultiplier": 0.475
     },
     {
       "id": "CTG_308WIN_cC82",
@@ -765,22 +767,6 @@
       "transducerScaleFactor": 0.6104
     },
     {
-      "id": "CTG_6DASH_N6H8",
-      "name": "6mm Dasher",
-      "diameterId": "DIA_243_B7V4",
-      "baseCapacityH2oGrams": 2.676194983,
-      "trimLengthMm": 39.116,
-      "maxCaseLengthMm": 39.37,
-      "oalMm": 59.43599999999999,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474952.177036,
-      "boreDiameterMm": 6.019799999999999,
-      "bulletDiameterMm": 6.172199999999999,
-      "bulletDiameterMmResolved": 6.172199999999999,
-      "baseCapacityH2oGramsResolved": 2.676194983,
-      "primerPocketIdResolved": "PKT_SML"
-    },
-    {
       "id": "CTG_6PPC_cJ12",
       "name": "6mm PPC",
       "diameterId": "DIA_243_B7V4",
@@ -795,7 +781,8 @@
       "bulletDiameterMmResolved": 6.172199999999999,
       "baseCapacityH2oGramsResolved": 2.07356512,
       "primerPocketIdResolved": "PKT_SML",
-      "transducerScaleFactor": 0.566
+      "transducerScaleFactor": 0.6892,
+      "burnRateMultiplier": 0.685
     },
     {
       "id": "CTG_6REM_N6H7",
@@ -813,38 +800,6 @@
       "baseCapacityH2oGramsResolved": 3.56394005,
       "primerPocketIdResolved": "PKT_LRG",
       "transducerScaleFactor": 0.626
-    },
-    {
-      "id": "CTG_6X47_cK12",
-      "name": "6x47 Lapua",
-      "diameterId": "DIA_243_B7V4",
-      "baseCapacityH2oGrams": 3.0779482249999996,
-      "trimLengthMm": 46.736,
-      "maxCaseLengthMm": 46.99,
-      "oalMm": 71.11999999999999,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 434369709.47021395,
-      "boreDiameterMm": 6.019799999999999,
-      "bulletDiameterMm": 6.172199999999999,
-      "bulletDiameterMmResolved": 6.172199999999999,
-      "baseCapacityH2oGramsResolved": 3.0779482249999996,
-      "primerPocketIdResolved": "PKT_SML"
-    },
-    {
-      "id": "CTG_6XC_cK12",
-      "name": "6mm XC",
-      "diameterId": "DIA_243_B7V4",
-      "baseCapacityH2oGrams": 3.077948225,
-      "trimLengthMm": 48.00599999999999,
-      "maxCaseLengthMm": 48.26,
-      "oalMm": 62.23,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474952.177036,
-      "boreDiameterMm": 6.019799999999999,
-      "bulletDiameterMm": 6.172199999999999,
-      "bulletDiameterMmResolved": 6.172199999999999,
-      "baseCapacityH2oGramsResolved": 3.077948225,
-      "primerPocketIdResolved": "PKT_SML"
     },
     {
       "id": "CTG_7BR_cZ22",
@@ -912,7 +867,8 @@
       "bulletDiameterMmResolved": 7.213599999999999,
       "baseCapacityH2oGramsResolved": 5.244391782666665,
       "primerPocketIdResolved": "PKT_LRG",
-      "transducerScaleFactor": 0.6399
+      "transducerScaleFactor": 0.4779,
+      "burnRateMultiplier": 1.998
     },
     {
       "id": "CTG_7REMMAG_cW92",
@@ -965,22 +921,6 @@
       "transducerScaleFactor": 0.5764
     },
     {
-      "id": "CTG_556NATO_xN52",
-      "name": "5.56x45mm NATO",
-      "diameterId": "DIA_224_L5X8",
-      "baseCapacityH2oGrams": 1.8662086080000002,
-      "trimLengthMm": 44.45,
-      "maxCaseLengthMm": 44.704,
-      "oalMm": 57.40399999999999,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474952.177036,
-      "boreDiameterMm": 5.5626,
-      "bulletDiameterMm": 5.6895999999999995,
-      "bulletDiameterMmResolved": 5.6895999999999995,
-      "baseCapacityH2oGramsResolved": 1.8662086080000002,
-      "primerPocketIdResolved": "PKT_SML"
-    },
-    {
       "id": "CTG_22NOSLER_n2s2",
       "name": "22 Nosler",
       "diameterId": "DIA_224_L5X8",
@@ -998,22 +938,6 @@
       "transducerScaleFactor": 0.594
     },
     {
-      "id": "CTG_30338_N3HI",
-      "name": "30-338 Winchester Magnum",
-      "diameterId": "DIA_308_XBM7",
-      "baseCapacityH2oGrams": 5.632,
-      "trimLengthMm": 63.246,
-      "maxCaseLengthMm": 63.5,
-      "oalMm": 84.836,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 448159224.05657,
-      "boreDiameterMm": 7.619999999999999,
-      "bulletDiameterMm": 7.823199999999999,
-      "bulletDiameterMmResolved": 7.823199999999999,
-      "baseCapacityH2oGramsResolved": 5.632,
-      "primerPocketIdResolved": "PKT_LRG"
-    },
-    {
       "id": "CTG_300WBYMAG_cN75",
       "name": "300 Weatherby Magnum",
       "diameterId": "DIA_308_XBM7",
@@ -1029,23 +953,6 @@
       "baseCapacityH2oGramsResolved": 6.35,
       "primerPocketIdResolved": "PKT_LRG",
       "transducerScaleFactor": 0.5688
-    },
-    {
-      "id": "CTG_6MM284_cM33",
-      "name": "6mm-284 Winchester",
-      "diameterId": "DIA_243_B7V4",
-      "baseCapacityH2oGrams": 4.2767,
-      "trimLengthMm": 54.864,
-      "maxCaseLengthMm": 55.118,
-      "oalMm": 71.12,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 448159224.05657,
-      "boreDiameterMm": 6.019799999999999,
-      "bulletDiameterMm": 6.172199999999999,
-      "bulletDiameterMmResolved": 6.172199999999999,
-      "baseCapacityH2oGramsResolved": 4.2767,
-      "primerPocketIdResolved": "PKT_LRG",
-      "transducerScaleFactor": 0.6058
     },
     {
       "id": "CTG_762X39_cM32",
@@ -1068,7 +975,7 @@
     {
       "id": "PWD_ACCU_2230_R1A6",
       "name": "Accurate 2230",
-      "baCoeff": 0.0462,
+      "baCoeff": 0.0422,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2409,
       "grainId": "GRN_BALL",
@@ -1087,7 +994,7 @@
     {
       "id": "PWD_ACCU_2520_R1A7",
       "name": "Accurate 2520",
-      "baCoeff": 0.0298,
+      "baCoeff": 0.0283,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2318,
       "grainId": "GRN_BALL",
@@ -1106,7 +1013,7 @@
     {
       "id": "PWD_ACCU_4064_R1A8",
       "name": "Accurate 4064",
-      "baCoeff": 0.0263,
+      "baCoeff": 0.0257,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2295,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1125,7 +1032,7 @@
     {
       "id": "PWD_ACCU_LT32_R1AA",
       "name": "Accurate LT-32",
-      "baCoeff": 0.0684,
+      "baCoeff": 0.058,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2388,
       "grainId": "GRN_BALL",
@@ -1144,7 +1051,7 @@
     {
       "id": "PWD_ACCU_MAGPRO_R1A9",
       "name": "Accurate MagPro",
-      "baCoeff": 0.0154,
+      "baCoeff": 0.0151,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.214,
       "grainId": "GRN_BALL",
@@ -1163,7 +1070,7 @@
     {
       "id": "PWD_ALLI_PPVARMINT_A1L6",
       "name": "Power Pro Varmint",
-      "baCoeff": 0.035,
+      "baCoeff": 0.0292,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -1180,7 +1087,7 @@
     {
       "id": "PWD_ALLI_RL155TS_A1L5",
       "name": "Reloder 15.5 TS",
-      "baCoeff": 0.028,
+      "baCoeff": 0.0273,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1197,7 +1104,7 @@
     {
       "id": "PWD_ALLI_RL15_A1L1",
       "name": "Reloder 15",
-      "baCoeff": 0.0334,
+      "baCoeff": 0.0296,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2148,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1216,7 +1123,7 @@
     {
       "id": "PWD_ALLI_RL16_A1L2",
       "name": "Reloder 16",
-      "baCoeff": 0.0176,
+      "baCoeff": 0.0172,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2338,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1235,7 +1142,7 @@
     {
       "id": "PWD_ALLI_RL23_A1L3",
       "name": "Reloder 23",
-      "baCoeff": 0.0127,
+      "baCoeff": 0.0135,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.255,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1252,7 +1159,7 @@
     {
       "id": "PWD_ALLI_RL26_A1L4",
       "name": "Reloder 26",
-      "baCoeff": 0.0129,
+      "baCoeff": 0.0128,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2367,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1271,7 +1178,7 @@
     {
       "id": "PWD_HODG_BLC2_H1G8",
       "name": "BL-C(2)",
-      "baCoeff": 0.0306,
+      "baCoeff": 0.0272,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2201,
       "grainId": "GRN_BALL",
@@ -1290,7 +1197,7 @@
     {
       "id": "PWD_HODG_CFE223_H1G6",
       "name": "CFE 223",
-      "baCoeff": 0.0278,
+      "baCoeff": 0.026,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2299,
       "grainId": "GRN_BALL",
@@ -1309,7 +1216,7 @@
     {
       "id": "PWD_HODG_H1000_H1G5",
       "name": "H1000",
-      "baCoeff": 0.0118,
+      "baCoeff": 0.012,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2384,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1328,7 +1235,7 @@
     {
       "id": "PWD_HODG_H335_H1GB",
       "name": "H335",
-      "baCoeff": 0.0469,
+      "baCoeff": 0.0434,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2289,
       "grainId": "GRN_BALL",
@@ -1347,7 +1254,7 @@
     {
       "id": "PWD_HODG_H380_H1GC",
       "name": "H380",
-      "baCoeff": 0.0245,
+      "baCoeff": 0.0238,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.20425,
       "grainId": "GRN_BALL",
@@ -1366,7 +1273,7 @@
     {
       "id": "PWD_HODG_H414_H1GD",
       "name": "H414",
-      "baCoeff": 0.0184,
+      "baCoeff": 0.018,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -1383,7 +1290,7 @@
     {
       "id": "PWD_HODG_H4350_H1G2",
       "name": "H4350",
-      "baCoeff": 0.0183,
+      "baCoeff": 0.0182,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2311,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1402,7 +1309,7 @@
     {
       "id": "PWD_HODG_H4831SC_H1GF",
       "name": "H4831SC",
-      "baCoeff": 0.0164,
+      "baCoeff": 0.0169,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2301,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1419,7 +1326,7 @@
     {
       "id": "PWD_HODG_H4831_H1GE",
       "name": "H4831",
-      "baCoeff": 0.0118,
+      "baCoeff": 0.0124,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2301,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1438,7 +1345,7 @@
     {
       "id": "PWD_HODG_H4895_H1G3",
       "name": "H4895",
-      "baCoeff": 0.0294,
+      "baCoeff": 0.0277,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2393,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1457,7 +1364,7 @@
     {
       "id": "PWD_HODG_IMR4064_H1G9",
       "name": "IMR 4064",
-      "baCoeff": 0.0333,
+      "baCoeff": 0.0317,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2218,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1476,7 +1383,7 @@
     {
       "id": "PWD_HODG_IMR4166_H1GK",
       "name": "IMR 4166",
-      "baCoeff": 0.0332,
+      "baCoeff": 0.0304,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2333,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1495,7 +1402,7 @@
     {
       "id": "PWD_HODG_IMR4198_H1GS",
       "name": "IMR 4198",
-      "baCoeff": 0.0664,
+      "baCoeff": 0.0567,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2232,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1514,7 +1421,7 @@
     {
       "id": "PWD_HODG_IMR4350_H1G0",
       "name": "IMR 4350",
-      "baCoeff": 0.016,
+      "baCoeff": 0.0162,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2293,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1533,7 +1440,7 @@
     {
       "id": "PWD_HODG_IMR4451_H1GL",
       "name": "IMR 4451",
-      "baCoeff": 0.0217,
+      "baCoeff": 0.0219,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2231,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1552,7 +1459,7 @@
     {
       "id": "PWD_HODG_IMR4895_H1GM",
       "name": "IMR 4895",
-      "baCoeff": 0.0274,
+      "baCoeff": 0.0255,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2355,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1571,7 +1478,7 @@
     {
       "id": "PWD_HODG_IMR7828SSC_H1GO",
       "name": "IMR 7828SSC",
-      "baCoeff": 0.0146,
+      "baCoeff": 0.0148,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2444,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1590,7 +1497,7 @@
     {
       "id": "PWD_HODG_IMR7828_H1GN",
       "name": "IMR 7828",
-      "baCoeff": 0.0139,
+      "baCoeff": 0.0143,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1607,7 +1514,7 @@
     {
       "id": "PWD_HODG_IMR8208_H1GA",
       "name": "IMR 8208 XBR",
-      "baCoeff": 0.0365,
+      "baCoeff": 0.0345,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2433,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1626,7 +1533,7 @@
     {
       "id": "PWD_HODG_RETUMBO_H1G4",
       "name": "Retumbo",
-      "baCoeff": 0.0101,
+      "baCoeff": 0.0107,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2302,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1645,7 +1552,7 @@
     {
       "id": "PWD_HODG_VARGET_H1G1",
       "name": "Varget",
-      "baCoeff": 0.0296,
+      "baCoeff": 0.0282,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2257,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1664,7 +1571,7 @@
     {
       "id": "PWD_RAMS_BIGGAME_R1A2",
       "name": "Big Game",
-      "baCoeff": 0.0248,
+      "baCoeff": 0.0246,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2224,
       "grainId": "GRN_BALL",
@@ -1683,7 +1590,7 @@
     {
       "id": "PWD_RAMS_HUNTER_R1A3",
       "name": "Hunter",
-      "baCoeff": 0.0187,
+      "baCoeff": 0.0185,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2347,
       "grainId": "GRN_BALL",
@@ -1721,7 +1628,7 @@
     {
       "id": "PWD_RAMS_TAC_R1A1",
       "name": "TAC",
-      "baCoeff": 0.0447,
+      "baCoeff": 0.0413,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2364,
       "grainId": "GRN_BALL",
@@ -1740,7 +1647,7 @@
     {
       "id": "PWD_RAMS_XTERM_R1A5",
       "name": "X-Terminator",
-      "baCoeff": 0.0444,
+      "baCoeff": 0.0402,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2409,
       "grainId": "GRN_BALL",
@@ -1776,7 +1683,7 @@
     {
       "id": "PWD_VIHT_N130_V1H4",
       "name": "N130",
-      "baCoeff": 0.1343,
+      "baCoeff": 0.1078,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2313,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1795,7 +1702,7 @@
     {
       "id": "PWD_VIHT_N133_V1H5",
       "name": "N133",
-      "baCoeff": 0.0478,
+      "baCoeff": 0.0444,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2345,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1814,7 +1721,7 @@
     {
       "id": "PWD_VIHT_N140_7Ih6",
       "name": "N140",
-      "baCoeff": 0.0527,
+      "baCoeff": 0.0419,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2201,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1833,7 +1740,7 @@
     {
       "id": "PWD_VIHT_N160_V1H8",
       "name": "N160",
-      "baCoeff": 0.0249,
+      "baCoeff": 0.0241,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2383,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1852,7 +1759,7 @@
     {
       "id": "PWD_VIHT_N165_V1H9",
       "name": "N165",
-      "baCoeff": 0.0145,
+      "baCoeff": 0.0143,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2409,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -1871,7 +1778,7 @@
     {
       "id": "PWD_VIHT_N530_V5H1",
       "name": "N530",
-      "baCoeff": 0.0421,
+      "baCoeff": 0.0399,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2299,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1890,7 +1797,7 @@
     {
       "id": "PWD_VIHT_N540_V5H2",
       "name": "N540",
-      "baCoeff": 0.0309,
+      "baCoeff": 0.0328,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2171,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1909,7 +1816,7 @@
     {
       "id": "PWD_VIHT_N550_V5H3",
       "name": "N550",
-      "baCoeff": 0.0196,
+      "baCoeff": 0.0201,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2308,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1928,7 +1835,7 @@
     {
       "id": "PWD_VIHT_N555_V5H4",
       "name": "N555",
-      "baCoeff": 0.0147,
+      "baCoeff": 0.0152,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2323,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1947,7 +1854,7 @@
     {
       "id": "PWD_VIHT_N560_V5H5",
       "name": "N560",
-      "baCoeff": 0.0169,
+      "baCoeff": 0.0176,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1964,7 +1871,7 @@
     {
       "id": "PWD_VIHT_N565_V5H6",
       "name": "N565",
-      "baCoeff": 0.011,
+      "baCoeff": 0.0107,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -1981,7 +1888,7 @@
     {
       "id": "PWD_VIHT_N568_V5H7",
       "name": "N568",
-      "baCoeff": 0.013,
+      "baCoeff": 0.0134,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.2397,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -2000,7 +1907,7 @@
     {
       "id": "PWD_VIHT_N570_V5H8",
       "name": "N570",
-      "baCoeff": 0.0136,
+      "baCoeff": 0.0133,
       "heatOfExplosionKjKg": 4200,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -2017,7 +1924,7 @@
     {
       "id": "PWD_WINC_748_W1N7",
       "name": "748",
-      "baCoeff": 0.0289,
+      "baCoeff": 0.0279,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2034,7 +1941,7 @@
     {
       "id": "PWD_WINC_760_W1N8",
       "name": "760",
-      "baCoeff": 0.0205,
+      "baCoeff": 0.0203,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2051,7 +1958,7 @@
     {
       "id": "PWD_WINC_STABALL65_W1N1",
       "name": "StaBALL 6.5",
-      "baCoeff": 0.0172,
+      "baCoeff": 0.0171,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2122,
       "grainId": "GRN_BALL",
@@ -2070,7 +1977,7 @@
     {
       "id": "PWD_WINC_STABALLHD_W1N3",
       "name": "StaBALL HD",
-      "baCoeff": 0.009,
+      "baCoeff": 0.0094,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2087,7 +1994,7 @@
     {
       "id": "PWD_WINC_STABALLMATCH_W1N2",
       "name": "StaBALL Match",
-      "baCoeff": 0.029,
+      "baCoeff": 0.0278,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2,
       "grainId": "GRN_BALL",
@@ -2106,7 +2013,7 @@
     {
       "id": "PWD_IMPR_IMR_4831_HVBS",
       "name": "IMR 4831",
-      "baCoeff": 0.0208,
+      "baCoeff": 0.0212,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2123,7 +2030,7 @@
     {
       "id": "PWD_RAMS_LRT_LB6B",
       "name": "LRT",
-      "baCoeff": 0.0097,
+      "baCoeff": 0.0099,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2140,7 +2047,7 @@
     {
       "id": "PWD_RAMS_GRAND_LM11",
       "name": "Grand",
-      "baCoeff": 0.0112,
+      "baCoeff": 0.0111,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2157,7 +2064,7 @@
     {
       "id": "PWD_IMPR_IMR_7977_GDVA",
       "name": "IMR 7977",
-      "baCoeff": 0.015,
+      "baCoeff": 0.0154,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2174,7 +2081,7 @@
     {
       "id": "PWD_IMPR_IMR_8133_J4IF",
       "name": "IMR 8133",
-      "baCoeff": 0.0126,
+      "baCoeff": 0.0133,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2191,7 +2098,7 @@
     {
       "id": "PWD_ACCU_2700_JFAE",
       "name": "2700",
-      "baCoeff": 0.0232,
+      "baCoeff": 0.0227,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2208,7 +2115,7 @@
     {
       "id": "PWD_ALLI_2000_MR_WH6F",
       "name": "2000-MR",
-      "baCoeff": 0.0237,
+      "baCoeff": 0.0227,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2225,7 +2132,7 @@
     {
       "id": "PWD_ACCU_5744_S8CC",
       "name": "5744",
-      "baCoeff": 0.0818,
+      "baCoeff": 0.0699,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2242,7 +2149,7 @@
     {
       "id": "PWD_ALLI_RELODER_17_Q06H",
       "name": "Reloder 17",
-      "baCoeff": 0.0209,
+      "baCoeff": 0.0212,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2259,7 +2166,7 @@
     {
       "id": "PWD_HODG_SUPERFORMANCE_QPVF",
       "name": "SUPERFORMANCE",
-      "baCoeff": 0.013,
+      "baCoeff": 0.0131,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2276,7 +2183,7 @@
     {
       "id": "PWD_ALLI_RELODER_19_6C4J",
       "name": "Reloder 19",
-      "baCoeff": 0.018,
+      "baCoeff": 0.0177,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2293,7 +2200,7 @@
     {
       "id": "PWD_ALLI_RELODER_22_POE4",
       "name": "Reloder 22",
-      "baCoeff": 0.0156,
+      "baCoeff": 0.0155,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2310,7 +2217,7 @@
     {
       "id": "PWD_HODG_HYBRID_100V_UMIK",
       "name": "Hybrid 100V",
-      "baCoeff": 0.0226,
+      "baCoeff": 0.023,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2327,7 +2234,7 @@
     {
       "id": "PWD_IMPR_IMR_4320_E302",
       "name": "IMR 4320",
-      "baCoeff": 0.0355,
+      "baCoeff": 0.0322,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2344,7 +2251,7 @@
     {
       "id": "PWD_WINC_SUPREME_780_REI8",
       "name": "Supreme 780",
-      "baCoeff": 0.0142,
+      "baCoeff": 0.0146,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2361,7 +2268,7 @@
     {
       "id": "PWD_ACCU_3100_NZTY",
       "name": "3100",
-      "baCoeff": 0.0185,
+      "baCoeff": 0.017,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2378,7 +2285,7 @@
     {
       "id": "PWD_IMPR_IMR_4955_170P",
       "name": "IMR 4955",
-      "baCoeff": 0.019,
+      "baCoeff": 0.0196,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2395,7 +2302,7 @@
     {
       "id": "PWD_ACCU_2495_MKE7",
       "name": "2495",
-      "baCoeff": 0.0453,
+      "baCoeff": 0.0427,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2412,7 +2319,7 @@
     {
       "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
       "name": "MATCH RIFLE",
-      "baCoeff": 0.0303,
+      "baCoeff": 0.0273,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2429,7 +2336,7 @@
     {
       "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
       "name": "PRECISION RIFLE",
-      "baCoeff": 0.0286,
+      "baCoeff": 0.0278,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2446,7 +2353,7 @@
     {
       "id": "PWD_SHOO_LONG_RIFLE_YB45",
       "name": "LONG RIFLE",
-      "baCoeff": 0.0305,
+      "baCoeff": 0.0306,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2463,7 +2370,7 @@
     {
       "id": "PWD_SHOO_SW4350_JZV8",
       "name": "SW4350",
-      "baCoeff": 0.0233,
+      "baCoeff": 0.0227,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2480,7 +2387,7 @@
     {
       "id": "PWD_ALLI_AR_COMP_6RSD",
       "name": "AR-Comp",
-      "baCoeff": 0.0381,
+      "baCoeff": 0.0353,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2497,7 +2404,7 @@
     {
       "id": "PWD_IMPR_IMR_3031_KXZD",
       "name": "IMR 3031",
-      "baCoeff": 0.0419,
+      "baCoeff": 0.0376,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2514,7 +2421,7 @@
     {
       "id": "PWD_IMPR_SR_4759_OFSE",
       "name": "SR 4759",
-      "baCoeff": 1.0413,
+      "baCoeff": 1.05,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2531,7 +2438,7 @@
     {
       "id": "PWD_ACCU_2015_UOWX",
       "name": "2015",
-      "baCoeff": 0.0778,
+      "baCoeff": 0.066,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2548,7 +2455,7 @@
     {
       "id": "PWD_IMPR_IMR_4007_SSC_ICSD",
       "name": "IMR 4007 SSC",
-      "baCoeff": 0.0265,
+      "baCoeff": 0.0252,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2565,7 +2472,7 @@
     {
       "id": "PWD_ALLI_RELODER_25_JJAD",
       "name": "Reloder 25",
-      "baCoeff": 0.0129,
+      "baCoeff": 0.0126,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2318,
       "grainId": "GRN_EXTRUDED",
@@ -2584,7 +2491,7 @@
     {
       "id": "PWD_ALLI_RELODER_33_VMB0",
       "name": "Reloder 33",
-      "baCoeff": 0.0091,
+      "baCoeff": 0.0096,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2155,
       "grainId": "GRN_EXTRUDED",
@@ -2622,7 +2529,7 @@
     {
       "id": "PWD_HODG_US_869_MNPM",
       "name": "US 869",
-      "baCoeff": 0.0073,
+      "baCoeff": 0.0078,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2639,7 +2546,7 @@
     {
       "id": "PWD_ACCU_8700_NUQR",
       "name": "8700",
-      "baCoeff": 0.0131,
+      "baCoeff": 0.0103,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2656,7 +2563,7 @@
     {
       "id": "PWD_ACCU_2200_EA5G",
       "name": "2200",
-      "baCoeff": 0.0565,
+      "baCoeff": 0.0494,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2673,7 +2580,7 @@
     {
       "id": "PWD_ACCU_LT_30_XE5M",
       "name": "LT-30",
-      "baCoeff": 0.097,
+      "baCoeff": 0.0812,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2690,7 +2597,7 @@
     {
       "id": "PWD_HODG_H4198_KN7E",
       "name": "H4198",
-      "baCoeff": 0.0709,
+      "baCoeff": 0.0613,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2707,7 +2614,7 @@
     {
       "id": "PWD_HODG_H322_V06U",
       "name": "H322",
-      "baCoeff": 0.0551,
+      "baCoeff": 0.0494,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2724,7 +2631,7 @@
     {
       "id": "PWD_ACCU_2460_P2ON",
       "name": "2460",
-      "baCoeff": 0.0343,
+      "baCoeff": 0.0317,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2741,7 +2648,7 @@
     {
       "id": "PWD_HODG_BENCHMARK_BIU3",
       "name": "Benchmark",
-      "baCoeff": 0.0396,
+      "baCoeff": 0.0371,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2758,7 +2665,7 @@
     {
       "id": "PWD_ALLI_RELODER_10X_98AC",
       "name": "Reloder 10x",
-      "baCoeff": 0.0679,
+      "baCoeff": 0.0623,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2775,7 +2682,7 @@
     {
       "id": "PWD_ALLI_1200_R_9N2Z",
       "name": "1200-R",
-      "baCoeff": 0.0527,
+      "baCoeff": 0.0451,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2792,7 +2699,7 @@
     {
       "id": "PWD_SHOO_AR_PLUS_LMUA",
       "name": "AR PLUS",
-      "baCoeff": 0.0498,
+      "baCoeff": 0.0465,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2809,7 +2716,7 @@
     {
       "id": "PWD_ALLI_RELODER_TS_15.5_FZL7",
       "name": "Reloder TS 15.5",
-      "baCoeff": 0.0218,
+      "baCoeff": 0.0202,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2341,
       "grainId": "GRN_EXTRUDED",
@@ -2828,7 +2735,7 @@
     {
       "id": "PWD_ALLI_RELODER_7_P1ZQ",
       "name": "Reloder 7",
-      "baCoeff": 0.091,
+      "baCoeff": 0.0711,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2845,7 +2752,7 @@
     {
       "id": "PWD_SHOO_BUFFALO_RIFLE_FTV8",
       "name": "BUFFALO RIFLE",
-      "baCoeff": 0.2389,
+      "baCoeff": 0.165,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2862,7 +2769,7 @@
     {
       "id": "PWD_SHOO_BLACKOUT_KUV1",
       "name": "BLACKOUT",
-      "baCoeff": 0.0395,
+      "baCoeff": 0.0369,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2879,7 +2786,7 @@
     {
       "id": "PWD_ALLI_4000_MR_KRWA",
       "name": "4000-MR",
-      "baCoeff": 0.0127,
+      "baCoeff": 0.013,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -2896,7 +2803,7 @@
     {
       "id": "PWD_HODG_LEVEREVOLUTION_XTV3",
       "name": "Leverevolution",
-      "baCoeff": 0.0264,
+      "baCoeff": 0.0257,
       "heatOfExplosionKjKg": 4600,
       "kCoeff": 1.2325,
       "grainId": "GRN_BALL",
@@ -2916,7 +2823,7 @@
     {
       "id": "PWD_NORM_MRP_8AVD",
       "name": "MRP",
-      "baCoeff": 0.0236,
+      "baCoeff": 0.0218,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -2933,7 +2840,7 @@
     {
       "id": "PWD_VIHT_24N41_5S8S",
       "name": "24N41",
-      "baCoeff": 0.011,
+      "baCoeff": 0.0087,
       "heatOfExplosionKjKg": 3900,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
