@@ -2897,6 +2897,22 @@
       "grainTypeResolved": "extruded",
       "grainType": "extruded",
       "combustionEfficiency": 1.15
+    },
+    {
+      "id": "PWD_VIHT_N150_V1H7",
+      "manufacturerId": "MAN_VIHTAVUORI_V3H8",
+      "name": "N150",
+      "baCoeff": 1.0461,
+      "kCoeff": 1.2214,
+      "heatOfExplosionKjKg": 3900,
+      "grainId": "GRN_EXTRUDED_SINGLEPERF",
+      "propellantDensityKgM3": 1580,
+      "bulkDensityKgM3": 890,
+      "ignitionBa": 0.5,
+      "ignitionBp": 0.2905,
+      "ignitionZ1": 0.3124,
+      "ignitionZ2": 0.5098,
+      "combustionEfficiency": 0.95
     }
   ],
   "bullets": [
@@ -15211,7 +15227,6 @@
     {
       "id": "TGT_223_TEST",
       "name": "223 Target (1 Bullseye)",
-      "timestamp": "2026-06-08T12:00:00.000Z",
       "size": "Letter",
       "firearmId": "FRM_223_TEST",
       "loadId": "LOD_223_TEST",
@@ -15238,7 +15253,6 @@
     {
       "id": "TGT_308_T2",
       "name": "308 Target 1 (4 Bullseyes)",
-      "timestamp": "2026-06-08T12:05:00.000Z",
       "size": "12x12",
       "firearmId": "FRM_308_TEST",
       "loadId": "LOD_308_TEST",
@@ -15265,7 +15279,6 @@
     {
       "id": "TGT_308_T3",
       "name": "308 Target 2 (4 Bullseyes)",
-      "timestamp": "2026-06-08T12:10:00.000Z",
       "size": "12x12",
       "firearmId": "FRM_308_TEST",
       "loadId": "LOD_308_TEST",
@@ -15294,7 +15307,6 @@
     {
       "id": "SES_223_TEST",
       "name": "223 Test Session",
-      "timestamp": "2026-06-08T12:00:00.000Z",
       "firearmId": "FRM_223_TEST",
       "loadId": "LOD_223_TEST",
       "targetDistance": 100,
@@ -15307,7 +15319,6 @@
     {
       "id": "SES_308_TEST",
       "name": "308 Test Session",
-      "timestamp": "2026-06-08T12:10:00.000Z",
       "firearmId": "FRM_308_TEST",
       "loadId": "LOD_308_TEST",
       "targetDistance": 300,
