@@ -867,7 +867,7 @@
       "bulletDiameterMmResolved": 7.213599999999999,
       "baseCapacityH2oGramsResolved": 5.244391782666665,
       "primerPocketIdResolved": "PKT_LRG",
-      "transducerScaleFactor": 0.4779
+      "transducerScaleFactor": 0.64
     },
     {
       "id": "CTG_7REMMAG_cW92",
@@ -13099,7 +13099,7 @@
     },
     {
       "id": "BUL_BERGER_284_184_0_MFHT",
-      "name": "7 MM 184 F‐Open Hybrid Target",
+      "name": "7 MM 184 F\u2010Open Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 11.92299944,
@@ -15051,7 +15051,8 @@
       "cartridgeId": "CTG_308WIN_cC82",
       "barrelLengthMm": 609.6,
       "twistRateMm": 254,
-      "sightOverBoreMm": 38.1
+      "sightOverBoreMm": 38.1,
+      "freeboreMm": 2.54
     },
     {
       "id": "FRM_223_TEST",
@@ -15059,7 +15060,8 @@
       "cartridgeId": "CTG_223REM_cR82",
       "barrelLengthMm": 406.4,
       "twistRateMm": 177.8,
-      "sightOverBoreMm": 38.1
+      "sightOverBoreMm": 38.1,
+      "freeboreMm": 1.905
     }
   ],
   "loads": [
@@ -15213,7 +15215,8 @@
       "temp": 59,
       "altitude": 0,
       "pressure": 29.92,
-      "pressureType": "station"
+      "pressureType": "station",
+      "markedTargetId": "MKT_223_TEST"
     },
     {
       "id": "SES_308_TEST",
@@ -15225,13 +15228,14 @@
       "temp": 59,
       "altitude": 0,
       "pressure": 29.92,
-      "pressureType": "station"
+      "pressureType": "station",
+      "markedTargetId": "MKT_308_TEST"
     }
   ],
   "sessionTargets": [
     {
       "id": "ST_223_T1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetImageId": "TGT_223_TEST",
       "scale": {
         "p1": {
@@ -15252,7 +15256,7 @@
     },
     {
       "id": "ST_308_T2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetImageId": "TGT_308_T2",
       "scale": {
         "p1": {
@@ -15273,7 +15277,7 @@
     },
     {
       "id": "ST_308_T3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetImageId": "TGT_308_T3",
       "scale": {
         "p1": {
@@ -15296,7 +15300,7 @@
   "groups": [
     {
       "id": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "groupNum": 1,
       "poa": {
@@ -15307,7 +15311,7 @@
     },
     {
       "id": "GRP_308_T2_G1",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "groupNum": 1,
       "poa": {
@@ -15318,7 +15322,7 @@
     },
     {
       "id": "GRP_308_T2_G2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "groupNum": 2,
       "poa": {
@@ -15329,7 +15333,7 @@
     },
     {
       "id": "GRP_308_T2_G3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "groupNum": 3,
       "poa": {
@@ -15340,7 +15344,7 @@
     },
     {
       "id": "GRP_308_T2_G4",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "groupNum": 4,
       "poa": {
@@ -15351,7 +15355,7 @@
     },
     {
       "id": "GRP_308_T3_G5",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 5,
       "poa": {
@@ -15362,7 +15366,7 @@
     },
     {
       "id": "GRP_308_T3_G6",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 6,
       "poa": {
@@ -15373,7 +15377,7 @@
     },
     {
       "id": "GRP_308_T3_G7",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 7,
       "poa": {
@@ -15384,7 +15388,7 @@
     },
     {
       "id": "GRP_308_T3_G8",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "groupNum": 8,
       "poa": {
@@ -15398,7 +15402,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_1",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 1,
       "x": 0.1284,
@@ -15411,7 +15415,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_2",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 2,
       "x": 0.0995,
@@ -15424,7 +15428,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_3",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 3,
       "x": -0.7725,
@@ -15437,7 +15441,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_4",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 4,
       "x": 0.2766,
@@ -15450,7 +15454,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_5",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 5,
       "x": 0.6189,
@@ -15463,7 +15467,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_6",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 6,
       "x": 0.4449,
@@ -15476,7 +15480,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_7",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 7,
       "x": -0.5002,
@@ -15489,7 +15493,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_8",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 8,
       "x": 0.1925,
@@ -15502,7 +15506,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_9",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 9,
       "x": -0.197,
@@ -15515,7 +15519,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_10",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 10,
       "x": -0.3559,
@@ -15528,7 +15532,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_11",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 11,
       "x": -0.4262,
@@ -15541,7 +15545,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_12",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 12,
       "x": -0.2263,
@@ -15554,7 +15558,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_13",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 13,
       "x": -0.006,
@@ -15567,7 +15571,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_14",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 14,
       "x": -0.5188,
@@ -15580,7 +15584,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_15",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 15,
       "x": -0.1157,
@@ -15593,7 +15597,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_16",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 16,
       "x": -0.0746,
@@ -15606,7 +15610,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_17",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 17,
       "x": 0.1829,
@@ -15619,7 +15623,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_18",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 18,
       "x": -0.1072,
@@ -15632,7 +15636,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_19",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 19,
       "x": 0.0077,
@@ -15645,7 +15649,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_20",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 20,
       "x": 0.1155,
@@ -15658,7 +15662,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_21",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 21,
       "x": 0.1738,
@@ -15671,7 +15675,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_22",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 22,
       "x": -0.3082,
@@ -15684,7 +15688,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_23",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 23,
       "x": -0.0135,
@@ -15697,7 +15701,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_24",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 24,
       "x": -0.6367,
@@ -15710,7 +15714,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_25",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 25,
       "x": -0.1152,
@@ -15723,7 +15727,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_26",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 26,
       "x": 0.08,
@@ -15736,7 +15740,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_27",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 27,
       "x": -0.5058,
@@ -15749,7 +15753,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_28",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 28,
       "x": 0.0904,
@@ -15762,7 +15766,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_29",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 29,
       "x": -0.6362,
@@ -15775,7 +15779,7 @@
     {
       "id": "SHT_GRP_223_T1_G1_30",
       "groupId": "GRP_223_T1_G1",
-      "sessionId": "SES_223_TEST",
+      "sessionId": "MKT_223_TEST",
       "targetId": "ST_223_T1",
       "shotNumber": 30,
       "x": 0.1398,
@@ -15788,7 +15792,7 @@
     {
       "id": "SHT_GRP_308_T2_G1_1",
       "groupId": "GRP_308_T2_G1",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 1,
       "x": 1.1278,
@@ -15801,7 +15805,7 @@
     {
       "id": "SHT_GRP_308_T2_G1_2",
       "groupId": "GRP_308_T2_G1",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 2,
       "x": -1.9636,
@@ -15814,7 +15818,7 @@
     {
       "id": "SHT_GRP_308_T2_G1_3",
       "groupId": "GRP_308_T2_G1",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 3,
       "x": 0.312,
@@ -15827,7 +15831,7 @@
     {
       "id": "SHT_GRP_308_T2_G1_4",
       "groupId": "GRP_308_T2_G1",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 4,
       "x": 0.2782,
@@ -15840,7 +15844,7 @@
     {
       "id": "SHT_GRP_308_T2_G1_5",
       "groupId": "GRP_308_T2_G1",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 5,
       "x": -0.3426,
@@ -15853,7 +15857,7 @@
     {
       "id": "SHT_GRP_308_T2_G2_1",
       "groupId": "GRP_308_T2_G2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 6,
       "x": -0.6855,
@@ -15866,7 +15870,7 @@
     {
       "id": "SHT_GRP_308_T2_G2_2",
       "groupId": "GRP_308_T2_G2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 7,
       "x": -2.2102,
@@ -15879,7 +15883,7 @@
     {
       "id": "SHT_GRP_308_T2_G2_3",
       "groupId": "GRP_308_T2_G2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 8,
       "x": 0.2862,
@@ -15892,7 +15896,7 @@
     {
       "id": "SHT_GRP_308_T2_G2_4",
       "groupId": "GRP_308_T2_G2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 9,
       "x": -1.3945,
@@ -15905,7 +15909,7 @@
     {
       "id": "SHT_GRP_308_T2_G2_5",
       "groupId": "GRP_308_T2_G2",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 10,
       "x": 0.3704,
@@ -15918,7 +15922,7 @@
     {
       "id": "SHT_GRP_308_T2_G3_1",
       "groupId": "GRP_308_T2_G3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 11,
       "x": -0.486,
@@ -15931,7 +15935,7 @@
     {
       "id": "SHT_GRP_308_T2_G3_2",
       "groupId": "GRP_308_T2_G3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 12,
       "x": -0.1424,
@@ -15944,7 +15948,7 @@
     {
       "id": "SHT_GRP_308_T2_G3_3",
       "groupId": "GRP_308_T2_G3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 13,
       "x": 0.6496,
@@ -15957,7 +15961,7 @@
     {
       "id": "SHT_GRP_308_T2_G3_4",
       "groupId": "GRP_308_T2_G3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 14,
       "x": -0.3326,
@@ -15970,7 +15974,7 @@
     {
       "id": "SHT_GRP_308_T2_G3_5",
       "groupId": "GRP_308_T2_G3",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 15,
       "x": 0.0496,
@@ -15983,7 +15987,7 @@
     {
       "id": "SHT_GRP_308_T2_G4_1",
       "groupId": "GRP_308_T2_G4",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 16,
       "x": 0.1741,
@@ -15996,7 +16000,7 @@
     {
       "id": "SHT_GRP_308_T2_G4_2",
       "groupId": "GRP_308_T2_G4",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 17,
       "x": 0.0162,
@@ -16009,7 +16013,7 @@
     {
       "id": "SHT_GRP_308_T2_G4_3",
       "groupId": "GRP_308_T2_G4",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 18,
       "x": -0.8017,
@@ -16022,7 +16026,7 @@
     {
       "id": "SHT_GRP_308_T2_G4_4",
       "groupId": "GRP_308_T2_G4",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 19,
       "x": -0.5241,
@@ -16035,7 +16039,7 @@
     {
       "id": "SHT_GRP_308_T2_G4_5",
       "groupId": "GRP_308_T2_G4",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T2",
       "shotNumber": 20,
       "x": 0.401,
@@ -16048,7 +16052,7 @@
     {
       "id": "SHT_GRP_308_T3_G5_1",
       "groupId": "GRP_308_T3_G5",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 21,
       "x": -1.0697,
@@ -16061,7 +16065,7 @@
     {
       "id": "SHT_GRP_308_T3_G5_2",
       "groupId": "GRP_308_T3_G5",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 22,
       "x": 0.9007,
@@ -16074,7 +16078,7 @@
     {
       "id": "SHT_GRP_308_T3_G5_3",
       "groupId": "GRP_308_T3_G5",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 23,
       "x": -0.2057,
@@ -16087,7 +16091,7 @@
     {
       "id": "SHT_GRP_308_T3_G5_4",
       "groupId": "GRP_308_T3_G5",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 24,
       "x": 0.8765,
@@ -16100,7 +16104,7 @@
     {
       "id": "SHT_GRP_308_T3_G5_5",
       "groupId": "GRP_308_T3_G5",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 25,
       "x": 0.7128,
@@ -16113,7 +16117,7 @@
     {
       "id": "SHT_GRP_308_T3_G6_1",
       "groupId": "GRP_308_T3_G6",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 26,
       "x": 1.2492,
@@ -16126,7 +16130,7 @@
     {
       "id": "SHT_GRP_308_T3_G6_2",
       "groupId": "GRP_308_T3_G6",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 27,
       "x": -0.7106,
@@ -16139,7 +16143,7 @@
     {
       "id": "SHT_GRP_308_T3_G6_3",
       "groupId": "GRP_308_T3_G6",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 28,
       "x": 0.4301,
@@ -16152,7 +16156,7 @@
     {
       "id": "SHT_GRP_308_T3_G6_4",
       "groupId": "GRP_308_T3_G6",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 29,
       "x": 0.6032,
@@ -16165,7 +16169,7 @@
     {
       "id": "SHT_GRP_308_T3_G6_5",
       "groupId": "GRP_308_T3_G6",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 30,
       "x": 0.2296,
@@ -16178,7 +16182,7 @@
     {
       "id": "SHT_GRP_308_T3_G7_1",
       "groupId": "GRP_308_T3_G7",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 31,
       "x": 0.1116,
@@ -16191,7 +16195,7 @@
     {
       "id": "SHT_GRP_308_T3_G7_2",
       "groupId": "GRP_308_T3_G7",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 32,
       "x": -0.466,
@@ -16204,7 +16208,7 @@
     {
       "id": "SHT_GRP_308_T3_G7_3",
       "groupId": "GRP_308_T3_G7",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 33,
       "x": -0.9669,
@@ -16217,7 +16221,7 @@
     {
       "id": "SHT_GRP_308_T3_G7_4",
       "groupId": "GRP_308_T3_G7",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 34,
       "x": -0.6184,
@@ -16230,7 +16234,7 @@
     {
       "id": "SHT_GRP_308_T3_G7_5",
       "groupId": "GRP_308_T3_G7",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 35,
       "x": -0.7553,
@@ -16243,7 +16247,7 @@
     {
       "id": "SHT_GRP_308_T3_G8_1",
       "groupId": "GRP_308_T3_G8",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 36,
       "x": 0.4006,
@@ -16256,7 +16260,7 @@
     {
       "id": "SHT_GRP_308_T3_G8_2",
       "groupId": "GRP_308_T3_G8",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 37,
       "x": 0.3303,
@@ -16269,7 +16273,7 @@
     {
       "id": "SHT_GRP_308_T3_G8_3",
       "groupId": "GRP_308_T3_G8",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 38,
       "x": -0.0515,
@@ -16282,7 +16286,7 @@
     {
       "id": "SHT_GRP_308_T3_G8_4",
       "groupId": "GRP_308_T3_G8",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 39,
       "x": 0.0182,
@@ -16295,7 +16299,7 @@
     {
       "id": "SHT_GRP_308_T3_G8_5",
       "groupId": "GRP_308_T3_G8",
-      "sessionId": "SES_308_TEST",
+      "sessionId": "MKT_308_TEST",
       "targetId": "ST_308_T3",
       "shotNumber": 40,
       "x": 0.4637,
@@ -16688,6 +16692,22 @@
       "name": "Winchester Small Rifle (WSR)",
       "primerPocketId": "PKT_SML",
       "brisanceEnergyJ": 8
+    }
+  ],
+  "markedTargets": [
+    {
+      "id": "MKT_223_TEST",
+      "name": "223 Test Marked Target",
+      "targetDistance": 100,
+      "distanceUnits": "yards",
+      "createdAt": 1700000000000
+    },
+    {
+      "id": "MKT_308_TEST",
+      "name": "308 Test Marked Target",
+      "targetDistance": 300,
+      "distanceUnits": "yards",
+      "createdAt": 1700000000000
     }
   ]
 }
