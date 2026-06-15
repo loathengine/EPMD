@@ -15025,1140 +15025,6 @@
       }
     },
     {
-      "id": "BUL_SIERRA_224_52_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 3.3695433199999996,
-        "overallLengthMm": 17.906999999999996,
-        "ogiveLengthMm": 9.0502,
-        "boatTailLengthMm": 2.6592,
-        "bearingSurfaceMm": 6.1904,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 52,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.233,
-        "g7BC": 0.116,
-        "g1FF": 0.635,
-        "g7FF": 1.278
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_53_SMK",
-      "name": "MatchKing FB",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 3.43434223,
-        "overallLengthMm": 17.932399999999998,
-        "ogiveLengthMm": 9.063,
-        "boatTailLengthMm": 2.663,
-        "bearingSurfaceMm": 6.1992,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 53,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.238,
-        "g7BC": 0.118,
-        "g1FF": 0.634,
-        "g7FF": 1.277
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_55_SBT",
-      "name": "GameKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 3.56394005,
-        "overallLengthMm": 18.161,
-        "ogiveLengthMm": 9.1786,
-        "boatTailLengthMm": 2.6969,
-        "bearingSurfaceMm": 6.2783,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 55,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.247,
-        "g7BC": 0.123,
-        "g1FF": 0.633,
-        "g7FF": 1.274
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_60_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 3.8879346,
-        "overallLengthMm": 22.479,
-        "ogiveLengthMm": 11.3609,
-        "boatTailLengthMm": 3.3381,
-        "bearingSurfaceMm": 7.771,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 60,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.28,
-        "g7BC": 0.141,
-        "g1FF": 0.61,
-        "g7FF": 1.208
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_69_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 4.471124789999999,
-        "overallLengthMm": 27.051,
-        "ogiveLengthMm": 13.5255,
-        "boatTailLengthMm": 4.0576,
-        "bearingSurfaceMm": 9.4678,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 69,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.336,
-        "g7BC": 0.173,
-        "g1FF": 0.585,
-        "g7FF": 1.138
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_77_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 4.98951607,
-        "overallLengthMm": 25.2476,
-        "ogiveLengthMm": 12.6238,
-        "boatTailLengthMm": 3.7871,
-        "bearingSurfaceMm": 8.8367,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 77,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.19,
-        "g7FF": 1.1538,
-        "g1FF": 0.5888,
-        "g1BC": 0.3723
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_77_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 4.98951607,
-        "overallLengthMm": 27.051,
-        "ogiveLengthMm": 13.5255,
-        "boatTailLengthMm": 4.0576,
-        "bearingSurfaceMm": 9.4678,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 77,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.374,
-        "g7BC": 0.193,
-        "g1FF": 0.585,
-        "g7FF": 1.138
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_90_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 5.831901899999999,
-        "overallLengthMm": 31.75,
-        "ogiveLengthMm": 16.0465,
-        "boatTailLengthMm": 4.7149,
-        "bearingSurfaceMm": 10.976,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 90,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.257,
-        "g7FF": 0.997,
-        "g1FF": 0.5238,
-        "g1BC": 0.4892
-      }
-    },
-    {
-      "id": "BUL_SIERRA_224_95_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 6.155896449999999,
-        "overallLengthMm": 31.75,
-        "ogiveLengthMm": 16.0465,
-        "boatTailLengthMm": 4.7149,
-        "bearingSurfaceMm": 10.976,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 95,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.483,
-        "g7BC": 0.254,
-        "g1FF": 0.56,
-        "g7FF": 1.066
-      }
-    },
-    {
-      "id": "BUL_SIERRA_243_107_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_243_B7V4",
-      "physis": {
-        "weightGrams": 6.933483369999999,
-        "overallLengthMm": 31.241999999999997,
-        "ogiveLengthMm": 15.7897,
-        "boatTailLengthMm": 4.6394,
-        "bearingSurfaceMm": 10.8004,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 107,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.26,
-        "g7FF": 0.9956,
-        "g1FF": 0.5087,
-        "g1BC": 0.5089
-      }
-    },
-    {
-      "id": "BUL_SIERRA_243_110_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_243_B7V4",
-      "physis": {
-        "weightGrams": 7.1278801,
-        "overallLengthMm": 32.638999999999996,
-        "ogiveLengthMm": 16.4958,
-        "boatTailLengthMm": 4.8469,
-        "bearingSurfaceMm": 11.2833,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 110,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.48,
-        "g7BC": 0.247,
-        "g1FF": 0.554,
-        "g7FF": 1.078
-      }
-    },
-    {
-      "id": "BUL_SIERRA_243_95_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_243_B7V4",
-      "physis": {
-        "weightGrams": 6.155896449999999,
-        "overallLengthMm": 30.099,
-        "ogiveLengthMm": 15.0495,
-        "boatTailLengthMm": 4.5149,
-        "bearingSurfaceMm": 10.5346,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 95,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.405,
-        "g7BC": 0.206,
-        "g1FF": 0.567,
-        "g7FF": 1.114
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_107_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 6.933483369999999,
-        "overallLengthMm": 31.8008,
-        "ogiveLengthMm": 15.9004,
-        "boatTailLengthMm": 4.7701,
-        "bearingSurfaceMm": 11.1303,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 107,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.395,
-        "g7BC": 0.197,
-        "g1FF": 0.555,
-        "g7FF": 1.111
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_130_TGK",
-      "name": "Tipped GameKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 8.4238583,
-        "overallLengthMm": 31.369,
-        "ogiveLengthMm": 15.6845,
-        "boatTailLengthMm": 4.7054,
-        "bearingSurfaceMm": 10.9791,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 130,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.479,
-        "g7BC": 0.239,
-        "g1FF": 0.557,
-        "g7FF": 1.116
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_130_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 8.4238583,
-        "overallLengthMm": 32.638999999999996,
-        "ogiveLengthMm": 16.3195,
-        "boatTailLengthMm": 4.8958,
-        "bearingSurfaceMm": 11.4236,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 130,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.484,
-        "g7BC": 0.242,
-        "g1FF": 0.551,
-        "g7FF": 1.1
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_140_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 9.0718474,
-        "overallLengthMm": 33.019999999999996,
-        "ogiveLengthMm": 16.51,
-        "boatTailLengthMm": 4.953,
-        "bearingSurfaceMm": 11.557,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 140,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.523,
-        "g7BC": 0.262,
-        "g1FF": 0.549,
-        "g7FF": 1.095
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_142_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 9.20144522,
-        "overallLengthMm": 34.163,
-        "ogiveLengthMm": 17.266,
-        "boatTailLengthMm": 5.0732,
-        "bearingSurfaceMm": 11.8101,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 142,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.301,
-        "g7FF": 0.967,
-        "g1FF": 0.4871,
-        "g1BC": 0.5976
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_145_TGK",
-      "name": "Tipped GameKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 9.39584195,
-        "overallLengthMm": 36.57599999999999,
-        "ogiveLengthMm": 18.4855,
-        "boatTailLengthMm": 5.4315,
-        "bearingSurfaceMm": 12.6443,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 145,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.597,
-        "g1FF": 0.4978,
-        "g7FF": 0.9798,
-        "g7BC": 0.3033
-      }
-    },
-    {
-      "id": "BUL_SIERRA_264_150_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 9.7198365,
-        "overallLengthMm": 36.957,
-        "ogiveLengthMm": 18.6781,
-        "boatTailLengthMm": 5.4881,
-        "bearingSurfaceMm": 12.776,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 150,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.579,
-        "g7BC": 0.295,
-        "g1FF": 0.531,
-        "g7FF": 1.044
-      }
-    },
-    {
-      "id": "BUL_SIERRA_284_160_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 10.367825599999998,
-        "overallLengthMm": 34.29,
-        "ogiveLengthMm": 17.145,
-        "boatTailLengthMm": 5.1435,
-        "bearingSurfaceMm": 12.0015,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 160,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.526,
-        "g7BC": 0.259,
-        "g1FF": 0.539,
-        "g7FF": 1.096
-      }
-    },
-    {
-      "id": "BUL_SIERRA_284_168_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 10.88621688,
-        "overallLengthMm": 29.464,
-        "ogiveLengthMm": 14.732,
-        "boatTailLengthMm": 4.4196,
-        "bearingSurfaceMm": 10.3124,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 168,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.289,
-        "g7FF": 1.0296,
-        "g1FF": 0.4987,
-        "g1BC": 0.5966
-      }
-    },
-    {
-      "id": "BUL_SIERRA_284_175_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 11.339809249999998,
-        "overallLengthMm": 37.719,
-        "ogiveLengthMm": 19.0632,
-        "boatTailLengthMm": 5.6013,
-        "bearingSurfaceMm": 13.0395,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 175,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.591,
-        "g7BC": 0.294,
-        "g1FF": 0.524,
-        "g7FF": 1.054
-      }
-    },
-    {
-      "id": "BUL_SIERRA_284_175_TGK",
-      "name": "Tipped GameKing",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 11.339809249999998,
-        "overallLengthMm": 37.719,
-        "ogiveLengthMm": 19.0632,
-        "boatTailLengthMm": 5.6013,
-        "bearingSurfaceMm": 13.0395,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 175,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.56,
-        "g1FF": 0.5535,
-        "g7FF": 1.1133,
-        "g7BC": 0.2784
-      }
-    },
-    {
-      "id": "BUL_SIERRA_284_180_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 11.663803799999998,
-        "overallLengthMm": 39.116,
-        "ogiveLengthMm": 19.7692,
-        "boatTailLengthMm": 5.8087,
-        "bearingSurfaceMm": 13.5224,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 180,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.615,
-        "g7BC": 0.307,
-        "g1FF": 0.518,
-        "g7FF": 1.037
-      }
-    },
-    {
-      "id": "BUL_SIERRA_284_197_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 12.76538527,
-        "overallLengthMm": 45.084999999999994,
-        "ogiveLengthMm": 22.786,
-        "boatTailLengthMm": 6.6951,
-        "bearingSurfaceMm": 15.5859,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 197,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.708,
-        "g7BC": 0.361,
-        "g1FF": 0.493,
-        "g7FF": 0.966
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_125_SMK",
-      "name": "MatchKing (300 BLK)",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 8.09986375,
-        "overallLengthMm": 24.13,
-        "ogiveLengthMm": 12.065,
-        "boatTailLengthMm": 3.6195,
-        "bearingSurfaceMm": 8.4455,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 125,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.33,
-        "g7BC": 0.154,
-        "g1FF": 0.571,
-        "g7FF": 1.223
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_155_SMK",
-      "name": "Palma MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.043831049999998,
-        "overallLengthMm": 28.828999999999997,
-        "ogiveLengthMm": 14.4145,
-        "boatTailLengthMm": 4.3243,
-        "bearingSurfaceMm": 10.0901,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 155,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.422,
-        "g7BC": 0.199,
-        "g1FF": 0.553,
-        "g7FF": 1.171
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_155_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.043831049999998,
-        "overallLengthMm": 30.099,
-        "ogiveLengthMm": 15.0495,
-        "boatTailLengthMm": 4.5149,
-        "bearingSurfaceMm": 10.5346,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 155,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.426,
-        "g7BC": 0.202,
-        "g1FF": 0.548,
-        "g7FF": 1.157
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_168_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.88621688,
-        "overallLengthMm": 28.575,
-        "ogiveLengthMm": 14.2875,
-        "boatTailLengthMm": 4.2862,
-        "bearingSurfaceMm": 10.0012,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.218,
-        "g7FF": 1.1605,
-        "g1FF": 1.1912,
-        "g1BC": 0.2124
-      },
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 168
-    },
-    {
-      "id": "BUL_SIERRA_308_168_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.88621688,
-        "overallLengthMm": 32.638999999999996,
-        "ogiveLengthMm": 16.3195,
-        "boatTailLengthMm": 4.8958,
-        "bearingSurfaceMm": 11.4236,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 168,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.47,
-        "g7BC": 0.224,
-        "g1FF": 0.538,
-        "g7FF": 1.129
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_169_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.95101579,
-        "overallLengthMm": 31.75,
-        "ogiveLengthMm": 15.875,
-        "boatTailLengthMm": 4.7625,
-        "bearingSurfaceMm": 11.1125,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 169,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.47,
-        "g7BC": 0.223,
-        "g1FF": 0.541,
-        "g7FF": 1.139
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_175_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 11.339809249999998,
-        "overallLengthMm": 34.163,
-        "ogiveLengthMm": 17.0815,
-        "boatTailLengthMm": 5.1244,
-        "bearingSurfaceMm": 11.957,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 175,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.495,
-        "g7BC": 0.237,
-        "g1FF": 0.532,
-        "g7FF": 1.112
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_190_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 12.3117929,
-        "overallLengthMm": 33.782,
-        "ogiveLengthMm": 16.891,
-        "boatTailLengthMm": 5.0673,
-        "bearingSurfaceMm": 11.8237,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 190,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.27,
-        "g7FF": 1.0597,
-        "g1FF": 0.5061,
-        "g1BC": 0.5653
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_195_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 12.63578745,
-        "overallLengthMm": 37.719,
-        "ogiveLengthMm": 18.8595,
-        "boatTailLengthMm": 5.6578,
-        "bearingSurfaceMm": 13.2016,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 195,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.567,
-        "g7BC": 0.274,
-        "g1FF": 0.518,
-        "g7FF": 1.073
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_200_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 12.959782,
-        "overallLengthMm": 35.05199999999999,
-        "ogiveLengthMm": 17.526,
-        "boatTailLengthMm": 5.2578,
-        "bearingSurfaceMm": 12.2682,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 200,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.285,
-        "g7FF": 1.0568,
-        "g1FF": 0.5063,
-        "g1BC": 0.5948
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_210_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 13.6077711,
-        "overallLengthMm": 36.57599999999999,
-        "ogiveLengthMm": 18.288,
-        "boatTailLengthMm": 5.4864,
-        "bearingSurfaceMm": 12.8016,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 210,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.316,
-        "g7FF": 1.0008,
-        "g1FF": 0.4815,
-        "g1BC": 0.6568
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_220_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 14.2557602,
-        "overallLengthMm": 37.7698,
-        "ogiveLengthMm": 18.8849,
-        "boatTailLengthMm": 5.6655,
-        "bearingSurfaceMm": 13.2194,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 220,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.31,
-        "g7FF": 1.0687,
-        "g1FF": 0.5164,
-        "g1BC": 0.6415
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_220_TMK",
-      "name": "Tipped MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 14.2557602,
-        "overallLengthMm": 39.624,
-        "ogiveLengthMm": 20.026,
-        "boatTailLengthMm": 5.8842,
-        "bearingSurfaceMm": 13.698,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 220,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.31,
-        "g7FF": 1.0687,
-        "g1FF": 0.5196,
-        "g1BC": 0.6376
-      }
-    },
-    {
-      "id": "BUL_SIERRA_308_230_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 14.903749299999998,
-        "overallLengthMm": 39.751,
-        "ogiveLengthMm": 20.0902,
-        "boatTailLengthMm": 5.903,
-        "bearingSurfaceMm": 13.7419,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 230,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.679,
-        "g7BC": 0.33,
-        "g1FF": 0.51,
-        "g7FF": 1.05
-      }
-    },
-    {
-      "id": "BUL_SIERRA_338_215_SBT",
-      "name": "GameKing",
-      "diameterId": "DIA_338_R7E3",
-      "physis": {
-        "weightGrams": 13.93176565,
-        "overallLengthMm": 34.163,
-        "ogiveLengthMm": 17.0815,
-        "boatTailLengthMm": 5.1244,
-        "bearingSurfaceMm": 11.957,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 215,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.517,
-        "g7BC": 0.239,
-        "g1FF": 0.52,
-        "g7FF": 1.124
-      }
-    },
-    {
-      "id": "BUL_SIERRA_338_250_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_338_R7E3",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 41.021,
-        "ogiveLengthMm": 20.5105,
-        "boatTailLengthMm": 6.1532,
-        "bearingSurfaceMm": 14.3573,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 250,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.314,
-        "g7FF": 0.9956,
-        "g1FF": 0.4681,
-        "g1BC": 0.6679
-      }
-    },
-    {
-      "id": "BUL_SIERRA_338_300_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_338_R7E3",
-      "physis": {
-        "weightGrams": 19.439673,
-        "overallLengthMm": 43.434,
-        "ogiveLengthMm": 21.9515,
-        "boatTailLengthMm": 6.4499,
-        "bearingSurfaceMm": 15.0151,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "advertisedWeightGrains": 300,
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.38,
-        "g7FF": 0.9872,
-        "g1FF": 0.4663,
-        "g1BC": 0.8045
-      }
-    },
-    {
       "id": "BUL_SIERRA_UNK_100_HPBTMK_B6F6",
       "name": "HPBT MK",
       "diameterId": "DIA_257_N2M1",
@@ -23732,281 +22598,177 @@
     {
       "id": "MAN_BERGER_B9K2",
       "name": "Berger",
-      "type": [
-        "bullet",
-        "ammo"
-      ]
+      "type": ["bullet", "ammo"]
     },
     {
       "id": "MAN_SIERRA_S6Y3",
       "name": "Sierra",
-      "type": [
-        "bullet",
-        "ammo"
-      ]
+      "type": ["bullet", "ammo"]
     },
     {
       "id": "MAN_HORNADY_JGR4",
       "name": "Hornady",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_NOSLER_N9K4",
       "name": "Nosler",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_BARNES_B2N5",
       "name": "Barnes",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_LAPUA_L5X1",
       "name": "Lapua",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_NORMA_N3R4",
       "name": "Norma",
-      "type": [
-        "bullet",
-        "powder",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "powder", "brass", "ammo"]
     },
     {
       "id": "MAN_SPEER_S2P1",
       "name": "Speer",
-      "type": [
-        "bullet"
-      ]
+      "type": ["bullet"]
     },
     {
       "id": "MAN_ACCURATE_A2C1",
       "name": "Accurate",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_ALLIANT_A5R2",
       "name": "Alliant",
-      "type": [
-        "powder",
-        "brass"
-      ]
+      "type": ["powder", "brass"]
     },
     {
       "id": "MAN_HODGDON_H7X2",
       "name": "Hodgdon",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_IMR_I2M3",
       "name": "IMR",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_RAMSHOT_R2S3",
       "name": "Ramshot",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_SHOOTERS_WORLD_S5W6",
       "name": "Shooters World",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_VIHTAVUORI_V3H8",
       "name": "Vihtavuori",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_WINCHESTER_W1C6",
       "name": "Winchester",
-      "type": [
-        "powder",
-        "primer",
-        "brass",
-        "ammo",
-        "bullet"
-      ]
+      "type": ["powder", "primer", "brass", "ammo", "bullet"]
     },
     {
       "id": "MAN_CCI_C2W7",
       "name": "CCI",
-      "type": [
-        "primer"
-      ]
+      "type": ["primer"]
     },
     {
       "id": "MAN_FEDERAL_F4G7",
       "name": "Federal",
-      "type": [
-        "primer",
-        "brass",
-        "ammo",
-        "bullet"
-      ]
+      "type": ["primer", "brass", "ammo", "bullet"]
     },
     {
       "id": "MAN_REMINGTON_R1M2",
       "name": "Remington",
-      "type": [
-        "primer",
-        "brass",
-        "ammo",
-        "bullet"
-      ]
+      "type": ["primer", "brass", "ammo", "bullet"]
     },
     {
       "id": "MAN_FIOCCHI_F2C3",
       "name": "Fiocchi",
-      "type": [
-        "primer",
-        "brass",
-        "ammo"
-      ]
+      "type": ["primer", "brass", "ammo"]
     },
     {
       "id": "MAN_ADG_A4D7",
       "name": "ADG",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_ALEXANDER_ARMS_A1A2",
       "name": "Alexander Arms",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_ALPHA_A1L2",
       "name": "Alpha Munitions",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_GA_G1A2",
       "name": "GA Munitions",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_IMI_I1M2",
       "name": "IMI",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_JAG_J1A2",
       "name": "JAG",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_LAKE_CITY_L1C2",
       "name": "Lake City",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_LASER_L2A3",
       "name": "Laser Cast",
-      "type": [
-        "bullet"
-      ]
+      "type": ["bullet"]
     },
     {
       "id": "MAN_PETERSON_P3T2",
       "name": "Peterson",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_RUAG_R8A9",
       "name": "RUAG",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_SAKO_S2A3",
       "name": "Sako",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_SELLIER_BELLOT_S3B4",
       "name": "Sellier & Bellot",
-      "type": [
-        "primer",
-        "brass",
-        "ammo"
-      ]
+      "type": ["primer", "brass", "ammo"]
     },
     {
       "id": "MAN_STARLINE_S8L9",
       "name": "Starline",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_WEATHERBY_W2B3",
       "name": "Weatherby",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_ACME_CAST",
       "name": "ACME Bullet Company",
-      "type": [
-        "bullet"
-      ]
+      "type": ["bullet"]
     }
   ],
   "primerPockets": [
