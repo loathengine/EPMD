@@ -51,12 +51,14 @@ Dexie index: `id`
   "maxCaseLengthMm": 51.18,
   "trimLengthMm": 50.92,
   "oalMm": 71.12,
-  "maxSaamiPa": 427473864.66,
-  "baseCapacityH2oGrams": 3.6287,
+  "maxSaamiPa": 427474952.17,
+  "baseCapacityH2oGrams": 3.6252,
   "boreDiameterMm": 7.62,
   "bulletDiameterMm": 7.82,
-  "burnRateMultiplier": 1.0,
-  "gradientScale": 0.15
+  "flashHoleDiameterMm": 2.03,
+  "shoulderAngleDeg": 20,
+  "bodyDiameterMm": 11.96,
+  "throatFreetravelMm": 3.43
 }
 ```
 
@@ -64,13 +66,15 @@ Dexie index: `id`
 * `minCaseLengthMm`? — minimum case length in millimeters
 * `maxCaseLengthMm`? — maximum case length in millimeters
 * `trimLengthMm`? — case trim-to length in millimeters
-* `oalMm`? — nominal overall length in millimeters
+* `oalMm`? — nominal overall cartridge length in millimeters
 * `maxSaamiPa`? — SAAMI maximum average pressure in Pascals (Pa)
 * `baseCapacityH2oGrams`? — case water capacity in grams of H2O
 * `boreDiameterMm`? — land-to-land bore diameter in millimeters (NOT groove/bullet diameter). Source: SAAMI spec sheets
 * `bulletDiameterMm`? — nominal projectile diameter in millimeters
-* `burnRateMultiplier`? — scaling factor for internal ballistics simulator burn rates
-* `gradientScale`? — optional scaling coefficient for geometry Lagrange pressure gradient in internal ballistics
+* `flashHoleDiameterMm`? — SAAMI/CIP spec flash hole diameter in millimeters
+* `shoulderAngleDeg`? — SAAMI/CIP shoulder half-angle in degrees
+* `bodyDiameterMm`? — SAAMI/CIP external body diameter at base (P1) in millimeters
+* `throatFreetravelMm`? — freebore distance before rifling engagement in millimeters
 
 Dexie index: `id, diameterId`
 
@@ -133,42 +137,31 @@ Dexie index: `id, manufacturerId, diameterId`
   "baCoeff": 0.2285,
   "kCoeff": 1.2311,
   "heatOfExplosionKjKg": 3585,
-  "grainId": "GRN_EXTRUDED_SINGLEPERF",
+  "grainType": "extrudedSinglePerf",
   "propellantDensityKgM3": 1620,
   "bulkDensityKgM3": 920,
   "ignitionBa": 0.4857,
   "ignitionBp": 0.1489,
   "ignitionZ1": 0.5175,
   "ignitionZ2": 0.8298,
-  "tempSensFactor": 0.002
+  "tempSensFactor": 0.002,
+  "burnExponent": 0.65,
+  "combustionEfficiency": 1.0
 }
 ```
 
 * `baCoeff`? — ballistic action coefficient (internal ballistics simulator)
 * `kCoeff`? — burn rate shape coefficient. Single-base (nitrocellulose only): `1.23`. Double-base (NC + nitroglycerin): `1.255`
 * `heatOfExplosionKjKg`? — heat of explosion in kJ/kg. Single-base: `3580`. Double-base: `3950`
-* `grainId`? — references `grain` collection (powder grain geometry)
+* `grainType`? — physical geometry of powder grains. Allowed values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
 * `propellantDensityKgM3`? — optional solid density of the powder material in kg/m³
 * `bulkDensityKgM3`? — optional bulk density of the powder grains in kg/m³ (used to compute case fill percentage / loading density)
 * `ignitionBa`? / `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? — optional ignition phase burn rate coefficients
 * `tempSensFactor`? — optional temperature sensitivity factor
+* `burnExponent`? — pressure exponent in propellant burn laws (defaults to 0.65)
+* `combustionEfficiency`? — scaling factor representing the completed combustion ratio of the propellant
 
 Dexie index: `id, manufacturerId`
-
----
-
-## Grain [master-db]
-
-```json
-{
-  "id": "GRN_EXTRUDED_SINGLEPERF",
-  "grainType": "extrudedSinglePerf"
-}
-```
-
-* `grainType` — allowed values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
-
-Dexie index: `id`
 
 ---
 
@@ -181,13 +174,13 @@ Dexie index: `id`
   "name": "Reference Primer A",
   "type": "large_rifle",
   "primerPocketId": "PKT_LRG",
-  "energyJ": 14.0
+  "brisanceEnergyJ": 14.0
 }
 ```
 
 * `type`? — primer size/type description string
 * `primerPocketId`? — references `primerPockets` collection
-* `energyJ`? — initial ignition spark energy in Joules (J). Used in internal ballistics simulation (typical Small: `8.0`, Large: `14.0`).
+* `brisanceEnergyJ`? — initial ignition spark energy in Joules (J). Used in internal ballistics simulation (typical Small: `8.0`, Large: `14.0`).
 
 Dexie index: `id, manufacturerId`
 
@@ -206,19 +199,6 @@ Dexie index: `id`
 
 ---
 
-## Primer Holes [master-db]
-
-```json
-{
-  "id": "HL_080",
-  "name": "0.080"
-}
-```
-
-Dexie index: `id`
-
----
-
 ## Brass [master-db]
 
 ```json
@@ -227,29 +207,15 @@ Dexie index: `id`
   "manufacturerId": "MAN_REF_MFG_A",
   "cartridgeId": "CTG_REF_308_cC82",
   "primerPocketId": "PKT_LRG",
-  "primerHoleId": "HL_080",
+  "primerHole": 2.03,
   "capacityH2oGrams": 3.6287
 }
 ```
 
-* `capacityH2oGrams`? — water capacity in grams of H2O
+* `primerHole`? — physical flash hole diameter in millimeters (typical Small: `1.60`, Large: `2.06`). Stored as a raw number.
+* `capacityH2oGrams`? — case overflow water capacity in grams of H2O
 
 Dexie index: `id, cartridgeId, manufacturerId`
-
----
-
-## Load Types [master-db]
-
-Reference table. Two records: `LT_COMM` (commercial) and `LT_HAND` (handload).
-
-```json
-{
-  "id": "LT_HAND",
-  "name": "handload"
-}
-```
-
-Dexie index: `id`
 
 ---
 
@@ -296,6 +262,8 @@ Commercial and handload records share the same table. Fields differ by type.
 }
 ```
 
+* `loadTypeId`? — references load type definition (e.g. `"LT_COMM"` or `"LT_HAND"`)
+* `isCommercial`? — boolean flag distinguishing commercial factory ammunition from handloads
 * `handloadName`? — specific custom user-facing handload nickname string
 * `coalMm`? — Cartridge Overall Length in millimeters
 * `cbtoMm`? — Cartridge Base-to-Ogive length in millimeters
@@ -327,15 +295,38 @@ Dexie index: `id, cartridgeId`
 
 ---
 
+## Marked Targets [user-only]
+
+Stores range target photo metadata, coordinates of Points of Aim (POAs) and points of impact (POIs), and scale calibration.
+
+```json
+{
+  "id": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
+  "name": "Reference Marked Target A",
+  "targetDistance": 100,
+  "distanceUnits": "yards",
+  "createdAt": 1781546283422
+}
+```
+
+* `name`? — descriptive name of the target sheet
+* `targetDistance`? — target distance value
+* `distanceUnits`? — distance unit of measurement (`"yards"` or `"meters"`)
+* `createdAt`? — timestamp indicating when the marked target markup was generated
+
+Dexie index: `id`
+
+---
+
 ## Sessions [user-only]
 
-One record per range visit.
+One record per range visit. Combines a marked target sheet with a firearm, load, and atmospheric conditions.
 
 ```json
 {
   "id": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
   "name": "Reference Session A",
-  "timestamp": "2026-05-30T12:00:00.000Z",
+  "markedTargetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "firearmId": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
   "loadId": "LOAD_REF_HANDLOAD_A",
   "targetDistance": 100,
@@ -347,12 +338,13 @@ One record per range visit.
 }
 ```
 
+* `markedTargetId`? — references the linked `markedTargets` markup record
 * `temp`? — environmental temperature during session in Fahrenheit
 * `altitude`? — local altitude in feet
 * `pressure`? — station or barometric pressure in inches of mercury (inHg)
-* `pressureType`? — description of pressure mapping (e.g. `"station"` or `"sea_level"`)
+* `pressureType`? — description of pressure mapping (e.g. `"station"` or `"sea"`)
 
-Dexie index: `id, firearmId, loadId, [firearmId+loadId]`
+Dexie index: `id, firearmId, loadId, markedTargetId, [firearmId+loadId]`
 
 The compound index `[firearmId+loadId]` enables efficient queries like "all sessions for this exact firearm+load combination."
 
@@ -360,12 +352,12 @@ The compound index `[firearmId+loadId]` enables efficient queries like "all sess
 
 ## Session Targets [user-only]
 
-Links a target image to a session and stores the scale calibration.
+Links a target image to a marked target sheet and stores the scale calibration.
 
 ```json
 {
   "id": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
-  "sessionId": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
+  "sessionId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "targetImageId": "f2b4c6d8-0e2a-4b6c-8d0e-2a4b6c8d0e2a",
   "scale": {
     "p1": { "x": 100, "y": 200 },
@@ -378,6 +370,7 @@ Links a target image to a session and stores the scale calibration.
 }
 ```
 
+* **Note on sessionId**: Holds the ID of the linked **markedTargets** record (not the session record).
 * `scale.p1` / `scale.p2` — pixel coordinates of the two scale reference points on the canvas (or null)
 * `scale.distance` — physical distance value between points (or null)
 * `scale.pixelsPerUnit` — derived from the p1/p2 distance and the known physical distance (or null)
@@ -388,12 +381,12 @@ Dexie index: `id, sessionId`
 
 ## Groups [user-only]
 
-One record per group of shots within a session.
+One record per group of shots.
 
 ```json
 {
   "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
-  "sessionId": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
+  "sessionId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "targetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "groupNum": 1,
   "poa": { "x": 450.5, "y": 312.0 },
@@ -401,6 +394,7 @@ One record per group of shots within a session.
 }
 ```
 
+* **Note on sessionId**: Holds the ID of the linked **markedTargets** record (not the session record).
 * `groupNum`? — order index of group
 * `poa` — pixel coordinates of the point of aim on the target image (or null)
 * `color` — hex color used to render this group on the composite plot
@@ -417,7 +411,7 @@ One record per individual bullet impact.
 {
   "id": "d5c4b3a2-9e8d-7c6b-5a4b-3c2d1e0f9a8b",
   "groupId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
-  "sessionId": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
+  "sessionId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "targetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
   "shotNumber": 1,
   "x": 0.152,
@@ -429,6 +423,7 @@ One record per individual bullet impact.
 }
 ```
 
+* **Note on sessionId**: Holds the ID of the linked **markedTargets** record (not the session record).
 * `x` / `y` — physical offset from POA in `units` (inches or cm)
 * `px` / `py` — pixel coordinates on the canvas
 * `velocity` — muzzle velocity in fps, or `null` if not recorded
