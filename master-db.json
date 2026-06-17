@@ -2,49 +2,57 @@
   "diameters": [
     {
       "id": "DIA_224_L5X8",
-      "metric": "5.69mm",
-      "bulletDiameterMm": 5.6895999999999995,
+      "imperialName": ".22",
+      "metricName": "5.56",
+      "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626
     },
     {
       "id": "DIA_243_B7V4",
-      "metric": "6.17mm",
-      "bulletDiameterMm": 6.172199999999999,
-      "boreDiameterMm": 6.019799999999999
+      "imperialName": ".243",
+      "metricName": "6mm",
+      "bulletDiameterMm": 6.1722,
+      "boreDiameterMm": 6.0198
     },
     {
       "id": "DIA_257_N2M1",
-      "metric": "6.53mm",
+      "imperialName": ".257",
+      "metricName": "6.35",
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35
     },
     {
       "id": "DIA_264_H8J4",
-      "metric": "6.71mm",
+      "imperialName": ".264",
+      "metricName": "6.5mm",
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024
     },
     {
       "id": "DIA_277_K9L0",
-      "metric": "7.04mm",
+      "imperialName": ".277",
+      "metricName": "6.8mm",
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858
     },
     {
       "id": "DIA_284_S3F6",
-      "metric": "7.21mm",
-      "bulletDiameterMm": 7.213599999999999,
+      "imperialName": ".284",
+      "metricName": "7mm",
+      "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358
     },
     {
       "id": "DIA_308_XBM7",
-      "metric": "7.82mm",
-      "bulletDiameterMm": 7.823199999999999,
-      "boreDiameterMm": 7.619999999999999
+      "imperialName": ".308",
+      "metricName": "7.62",
+      "bulletDiameterMm": 7.8232,
+      "boreDiameterMm": 7.62
     },
     {
       "id": "DIA_338_R7E3",
-      "metric": "8.59mm",
+      "imperialName": ".338",
+      "metricName": "8.6mm",
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382
     }
@@ -22145,281 +22153,177 @@
     {
       "id": "MAN_BERGER_B9K2",
       "name": "Berger",
-      "type": [
-        "bullet",
-        "ammo"
-      ]
+      "type": ["bullet", "ammo"]
     },
     {
       "id": "MAN_SIERRA_S6Y3",
       "name": "Sierra",
-      "type": [
-        "bullet",
-        "ammo"
-      ]
+      "type": ["bullet", "ammo"]
     },
     {
       "id": "MAN_HORNADY_JGR4",
       "name": "Hornady",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_NOSLER_N9K4",
       "name": "Nosler",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_BARNES_B2N5",
       "name": "Barnes",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_LAPUA_L5X1",
       "name": "Lapua",
-      "type": [
-        "bullet",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "brass", "ammo"]
     },
     {
       "id": "MAN_NORMA_N3R4",
       "name": "Norma",
-      "type": [
-        "bullet",
-        "powder",
-        "brass",
-        "ammo"
-      ]
+      "type": ["bullet", "powder", "brass", "ammo"]
     },
     {
       "id": "MAN_SPEER_S2P1",
       "name": "Speer",
-      "type": [
-        "bullet"
-      ]
+      "type": ["bullet"]
     },
     {
       "id": "MAN_ACCURATE_A2C1",
       "name": "Accurate",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_ALLIANT_A5R2",
       "name": "Alliant",
-      "type": [
-        "powder",
-        "brass"
-      ]
+      "type": ["powder", "brass"]
     },
     {
       "id": "MAN_HODGDON_H7X2",
       "name": "Hodgdon",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_IMR_I2M3",
       "name": "IMR",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_RAMSHOT_R2S3",
       "name": "Ramshot",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_SHOOTERS_WORLD_S5W6",
       "name": "Shooters World",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_VIHTAVUORI_V3H8",
       "name": "Vihtavuori",
-      "type": [
-        "powder"
-      ]
+      "type": ["powder"]
     },
     {
       "id": "MAN_WINCHESTER_W1C6",
       "name": "Winchester",
-      "type": [
-        "powder",
-        "primer",
-        "brass",
-        "ammo",
-        "bullet"
-      ]
+      "type": ["powder", "primer", "brass", "ammo", "bullet"]
     },
     {
       "id": "MAN_CCI_C2W7",
       "name": "CCI",
-      "type": [
-        "primer"
-      ]
+      "type": ["primer"]
     },
     {
       "id": "MAN_FEDERAL_F4G7",
       "name": "Federal",
-      "type": [
-        "primer",
-        "brass",
-        "ammo",
-        "bullet"
-      ]
+      "type": ["primer", "brass", "ammo", "bullet"]
     },
     {
       "id": "MAN_REMINGTON_R1M2",
       "name": "Remington",
-      "type": [
-        "primer",
-        "brass",
-        "ammo",
-        "bullet"
-      ]
+      "type": ["primer", "brass", "ammo", "bullet"]
     },
     {
       "id": "MAN_FIOCCHI_F2C3",
       "name": "Fiocchi",
-      "type": [
-        "primer",
-        "brass",
-        "ammo"
-      ]
+      "type": ["primer", "brass", "ammo"]
     },
     {
       "id": "MAN_ADG_A4D7",
       "name": "ADG",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_ALEXANDER_ARMS_A1A2",
       "name": "Alexander Arms",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_ALPHA_A1L2",
       "name": "Alpha Munitions",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_GA_G1A2",
       "name": "GA Munitions",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_IMI_I1M2",
       "name": "IMI",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_JAG_J1A2",
       "name": "JAG",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_LAKE_CITY_L1C2",
       "name": "Lake City",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_LASER_L2A3",
       "name": "Laser Cast",
-      "type": [
-        "bullet"
-      ]
+      "type": ["bullet"]
     },
     {
       "id": "MAN_PETERSON_P3T2",
       "name": "Peterson",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_RUAG_R8A9",
       "name": "RUAG",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_SAKO_S2A3",
       "name": "Sako",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_SELLIER_BELLOT_S3B4",
       "name": "Sellier & Bellot",
-      "type": [
-        "primer",
-        "brass",
-        "ammo"
-      ]
+      "type": ["primer", "brass", "ammo"]
     },
     {
       "id": "MAN_STARLINE_S8L9",
       "name": "Starline",
-      "type": [
-        "brass"
-      ]
+      "type": ["brass"]
     },
     {
       "id": "MAN_WEATHERBY_W2B3",
       "name": "Weatherby",
-      "type": [
-        "brass",
-        "ammo"
-      ]
+      "type": ["brass", "ammo"]
     },
     {
       "id": "MAN_ACME_CAST",
       "name": "ACME Bullet Company",
-      "type": [
-        "bullet"
-      ]
+      "type": ["bullet"]
     },
     {
       "id": "MAN_SWIFT_SW5T",
