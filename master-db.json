@@ -71,7 +71,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.5534,
+      "transducerScaleFactor": 0.51298,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -198,7 +198,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.64556,
+      "transducerScaleFactor": 0.65123,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -325,7 +325,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 10.67,
-      "transducerScaleFactor": 0.59671,
+      "transducerScaleFactor": 0.54552,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -452,7 +452,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 28,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.66399,
+      "transducerScaleFactor": 0.63361,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -579,7 +579,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 21,
       "bodyDiameterMm": 11.35,
-      "transducerScaleFactor": 0.62371,
+      "transducerScaleFactor": 0.4653,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -832,7 +832,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 23,
       "bodyDiameterMm": 9.58,
-      "transducerScaleFactor": 0.63365,
+      "transducerScaleFactor": 0.59684,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -1085,7 +1085,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.65168,
+      "transducerScaleFactor": 0.6165,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -1212,7 +1212,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.69676,
+      "transducerScaleFactor": 0.67223,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1339,7 +1339,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.69438,
+      "transducerScaleFactor": 0.69137,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1466,7 +1466,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20.75,
       "bodyDiameterMm": 11.99,
-      "transducerScaleFactor": 0.63771,
+      "transducerScaleFactor": 0.63726,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1593,7 +1593,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.68467,
+      "transducerScaleFactor": 0.70896,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1720,7 +1720,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.6648,
+      "transducerScaleFactor": 0.62048,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -1847,7 +1847,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 14.1,
-      "transducerScaleFactor": 0.69227,
+      "transducerScaleFactor": 0.66902,
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858,
       "standards": {
@@ -1974,7 +1974,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.73795,
+      "transducerScaleFactor": 0.70633,
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858,
       "standards": {
@@ -2101,7 +2101,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 40,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.71585,
+      "transducerScaleFactor": 0.67742,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -2228,7 +2228,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 12.72,
-      "transducerScaleFactor": 0.57283,
+      "transducerScaleFactor": 0.51045,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -2355,7 +2355,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.73877,
+      "transducerScaleFactor": 0.67986,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -2482,7 +2482,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 15.67,
       "bodyDiameterMm": 10.72,
-      "transducerScaleFactor": 0.61562,
+      "transducerScaleFactor": 0.56433,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -2608,7 +2608,7 @@
       "oalMm": 57.15,
       "primerPocketId": "PKT_SML",
       "shoulderAngleDeg": 25,
-      "transducerScaleFactor": 0.59915,
+      "transducerScaleFactor": 0.58064,
       "trimLengthMm": 34.417,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62
@@ -2626,7 +2626,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 14.93,
-      "transducerScaleFactor": 0.83301,
+      "transducerScaleFactor": 0.84393,
       "throatFreetravelMm": 3.43,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
@@ -2754,7 +2754,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.51,
-      "transducerScaleFactor": 0.78414,
+      "transducerScaleFactor": 0.79642,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -2881,7 +2881,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 14.1,
-      "transducerScaleFactor": 0.77372,
+      "transducerScaleFactor": 0.73401,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3008,7 +3008,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.68983,
+      "transducerScaleFactor": 0.66831,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3135,7 +3135,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.76105,
+      "transducerScaleFactor": 0.74638,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3262,7 +3262,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.70607,
+      "transducerScaleFactor": 0.65366,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3389,7 +3389,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.70311,
+      "transducerScaleFactor": 0.51726,
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382,
       "standards": {
@@ -3516,7 +3516,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 14.93,
-      "transducerScaleFactor": 0.86435,
+      "transducerScaleFactor": 0.88035,
       "throatFreetravelMm": 3.81,
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382,
@@ -3896,7 +3896,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.72266,
+      "transducerScaleFactor": 0.70025,
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382,
       "standards": {
@@ -4023,7 +4023,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.65653,
+      "transducerScaleFactor": 0.56714,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4150,7 +4150,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.57368,
+      "transducerScaleFactor": 0.55697,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4277,7 +4277,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.51,
-      "transducerScaleFactor": 0.60939,
+      "transducerScaleFactor": 0.62066,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4404,7 +4404,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 12.72,
-      "transducerScaleFactor": 0.69231,
+      "transducerScaleFactor": 0.698,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4531,7 +4531,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.66657,
+      "transducerScaleFactor": 0.68959,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4658,7 +4658,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25.6,
       "bodyDiameterMm": 12.2,
-      "transducerScaleFactor": 0.57707,
+      "transducerScaleFactor": 0.53458,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4785,7 +4785,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 14.1,
-      "transducerScaleFactor": 0.75936,
+      "transducerScaleFactor": 0.75481,
       "throatFreetravelMm": 2.54,
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858,
@@ -4913,7 +4913,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.55037,
+      "transducerScaleFactor": 0.49925,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5040,7 +5040,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.60404,
+      "transducerScaleFactor": 0.50769,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5167,7 +5167,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.6542,
+      "transducerScaleFactor": 0.60528,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5294,7 +5294,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.63913,
+      "transducerScaleFactor": 0.59153,
       "throatFreetravelMm": 0.1,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
@@ -5422,7 +5422,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 26,
       "bodyDiameterMm": 11.99,
-      "transducerScaleFactor": 0.67484,
+      "transducerScaleFactor": 0.60302,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5549,7 +5549,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.54045,
+      "transducerScaleFactor": 0.51537,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -5676,7 +5676,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.51,
-      "transducerScaleFactor": 0.72819,
+      "transducerScaleFactor": 0.74003,
       "throatFreetravelMm": 1.52,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
@@ -5930,7 +5930,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.69397,
+      "transducerScaleFactor": 0.69526,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6057,7 +6057,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.63616,
+      "transducerScaleFactor": 0.6408,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6184,7 +6184,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.58096,
+      "transducerScaleFactor": 0.54134,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6311,7 +6311,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20.75,
       "bodyDiameterMm": 11.99,
-      "transducerScaleFactor": 0.64598,
+      "transducerScaleFactor": 0.60218,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6903,8 +6903,8 @@
     {
       "id": "PWD_HODG_IMR4895_H1GM",
       "name": "IMR 4895",
-      "baCoeff": 0.25,
-      "heatOfExplosionKjKg": 4000,
+      "baCoeff": 0.0708,
+      "heatOfExplosionKjKg": 3400,
       "kCoeff": 1.2355,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6916,8 +6916,8 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 966,
-      "combustionEfficiency": 0.8443,
-      "burnExponent": 0.55
+      "combustionEfficiency": 1.0105,
+      "burnExponent": 0.5796
     },
     {
       "id": "PWD_HODG_IMR7828SSC_H1GO",
@@ -23176,7 +23176,7 @@
       "id": "BUL_SPEER_224_30_TNT_2D07",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green\u00ae",
+      "name": "TNT Green®",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23233,7 +23233,7 @@
       "id": "BUL_SPEER_224_43_TNT_FA1E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green\u00ae",
+      "name": "TNT Green®",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23309,7 +23309,7 @@
       "id": "BUL_SPEER_224_50_TNT_96B4",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green\u00ae",
+      "name": "TNT Green®",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23366,7 +23366,7 @@
       "id": "BUL_SPEER_224_55_TNT_A93F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT\u00ae HP",
+      "name": "TNT® HP",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23404,7 +23404,7 @@
       "id": "BUL_SPEER_257_87_HC_A9C9",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 20.828,
         "bearingSurfaceMm": null,
@@ -23518,7 +23518,7 @@
       "id": "BUL_SPEER_277_130_HC_A7C0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 26.67,
         "bearingSurfaceMm": null,
@@ -23556,7 +23556,7 @@
       "id": "BUL_SPEER_277_150_SP_59CE",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Grand\nSlam\u00ae SP",
+      "name": "Grand\nSlam® SP",
       "physis": {
         "overallLengthMm": 29.718,
         "bearingSurfaceMm": null,
@@ -23613,7 +23613,7 @@
       "id": "BUL_SPEER_284_145_HC_DF6E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 28.067,
         "bearingSurfaceMm": null,
@@ -23632,7 +23632,7 @@
       "id": "BUL_SPEER_284_145_SP_48C7",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Grand\nSlam\u00ae SP",
+      "name": "Grand\nSlam® SP",
       "physis": {
         "overallLengthMm": 28.194,
         "bearingSurfaceMm": null,
@@ -23670,7 +23670,7 @@
       "id": "BUL_SPEER_284_160_HC_BE79",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 31.369,
         "bearingSurfaceMm": null,
@@ -23689,7 +23689,7 @@
       "id": "BUL_SPEER_308_100_SP_3807",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Plinker\u00ae\nSPRN",
+      "name": "Plinker®\nSPRN",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23746,7 +23746,7 @@
       "id": "BUL_SPEER_308_130_SP_867A",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor\u00ae",
+      "name": "SPFN HotCor®",
       "physis": {
         "overallLengthMm": 21.0566,
         "bearingSurfaceMm": null,
@@ -23784,7 +23784,7 @@
       "id": "BUL_SPEER_308_150_HC_7CE0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": null,
@@ -23803,7 +23803,7 @@
       "id": "BUL_SPEER_308_150_SP_A791",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor\u00ae",
+      "name": "SPFN HotCor®",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": null,
@@ -23841,7 +23841,7 @@
       "id": "BUL_SPEER_308_165_SP_EC00",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam\u00ae SP/CANN",
+      "name": "Grand\nSlam® SP/CANN",
       "physis": {
         "overallLengthMm": 27.432,
         "bearingSurfaceMm": null,
@@ -23860,7 +23860,7 @@
       "id": "BUL_SPEER_308_170_SP_2F8F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor\u00ae",
+      "name": "SPFN HotCor®",
       "physis": {
         "overallLengthMm": 28.956,
         "bearingSurfaceMm": null,
@@ -23898,7 +23898,7 @@
       "id": "BUL_SPEER_308_180_SP_55E3",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam\u00ae SP/CANN",
+      "name": "Grand\nSlam® SP/CANN",
       "physis": {
         "overallLengthMm": 29.464,
         "bearingSurfaceMm": null,
@@ -23917,7 +23917,7 @@
       "id": "BUL_SPEER_308_200_HC_0958",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 32.258,
         "bearingSurfaceMm": null,
