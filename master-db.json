@@ -6600,7 +6600,7 @@
     {
       "id": "PWD_ALLI_RL26_A1L4",
       "name": "Reloder 26",
-      "baCoeff": 0.0337,
+      "baCoeff": 0.0336,
       "heatOfExplosionKjKg": 4788,
       "kCoeff": 1.2367,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -6613,13 +6613,13 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 994,
-      "combustionEfficiency": 1.0148,
+      "combustionEfficiency": 1.0179,
       "burnExponent": 0.55
     },
     {
       "id": "PWD_HODG_BLC2_H1G8",
       "name": "BL-C(2)",
-      "baCoeff": 0.0787,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4421,
       "kCoeff": 1.2201,
       "grainId": "GRN_BALL",
@@ -6632,7 +6632,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 995,
-      "combustionEfficiency": 0.9206,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55
     },
     {
@@ -6658,7 +6658,7 @@
     {
       "id": "PWD_HODG_H1000_H1G5",
       "name": "H1000",
-      "baCoeff": 0.0313,
+      "baCoeff": 0.0312,
       "heatOfExplosionKjKg": 4375,
       "kCoeff": 1.2384,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6671,7 +6671,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 920,
-      "combustionEfficiency": 0.9288,
+      "combustionEfficiency": 0.9272,
       "burnExponent": 0.55
     },
     {
@@ -6715,7 +6715,7 @@
     {
       "id": "PWD_HODG_H414_H1GD",
       "name": "H414",
-      "baCoeff": 0.0483,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 3628,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -6726,14 +6726,14 @@
       "ignitionZ2": 0.6576,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "ball",
-      "combustionEfficiency": 1.1281,
+      "combustionEfficiency": 0.8443,
       "propellantDensityKgM3": 1580,
       "burnExponent": 0.55
     },
     {
       "id": "PWD_HODG_H4350_H1G2",
       "name": "H4350",
-      "baCoeff": 0.0479,
+      "baCoeff": 0.0478,
       "heatOfExplosionKjKg": 4453,
       "kCoeff": 1.2311,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6746,7 +6746,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 990,
-      "combustionEfficiency": 0.9815,
+      "combustionEfficiency": 0.9828,
       "burnExponent": 0.55
     },
     {
@@ -6789,7 +6789,7 @@
     {
       "id": "PWD_HODG_H4895_H1G3",
       "name": "H4895",
-      "baCoeff": 0.0666,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 3885,
       "kCoeff": 1.2393,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6802,13 +6802,13 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1680,
       "bulkDensityKgM3": 964,
-      "combustionEfficiency": 1.0919,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55
     },
     {
       "id": "PWD_HODG_IMR4064_H1G9",
       "name": "IMR 4064",
-      "baCoeff": 0.0787,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4941,
       "kCoeff": 1.2218,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6821,7 +6821,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1570,
       "bulkDensityKgM3": 933,
-      "combustionEfficiency": 0.8803,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55
     },
     {
@@ -6884,7 +6884,7 @@
     {
       "id": "PWD_HODG_IMR4451_H1GL",
       "name": "IMR 4451",
-      "baCoeff": 0.0504,
+      "baCoeff": 0.0506,
       "heatOfExplosionKjKg": 4087,
       "kCoeff": 1.2231,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6897,13 +6897,13 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 1.1082,
+      "combustionEfficiency": 1.1045,
       "burnExponent": 0.55
     },
     {
       "id": "PWD_HODG_IMR4895_H1GM",
       "name": "IMR 4895",
-      "baCoeff": 0.0754,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4000,
       "kCoeff": 1.2355,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6916,7 +6916,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 966,
-      "combustionEfficiency": 1.0563,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55
     },
     {
@@ -6959,7 +6959,7 @@
     {
       "id": "PWD_HODG_IMR8208_H1GA",
       "name": "IMR 8208 XBR",
-      "baCoeff": 0.0802,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4037,
       "kCoeff": 1.2433,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6972,7 +6972,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1680,
       "bulkDensityKgM3": 920,
-      "combustionEfficiency": 1.0017,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55
     },
     {
@@ -6997,7 +6997,7 @@
     {
       "id": "PWD_HODG_VARGET_H1G1",
       "name": "Varget",
-      "baCoeff": 0.0632,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4331,
       "kCoeff": 1.2257,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -7010,7 +7010,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 0.9878,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55,
       "burnRateTempCoeffPerC": 0.0003
     },
@@ -7074,7 +7074,7 @@
     {
       "id": "PWD_RAMS_TAC_R1A1",
       "name": "TAC",
-      "baCoeff": 0.0974,
+      "baCoeff": 0.0954,
       "heatOfExplosionKjKg": 4212,
       "kCoeff": 1.2364,
       "grainId": "GRN_BALL",
@@ -7087,7 +7087,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 938,
-      "combustionEfficiency": 0.907,
+      "combustionEfficiency": 0.9121,
       "burnExponent": 0.55
     },
     {
@@ -7416,7 +7416,7 @@
     {
       "id": "PWD_WINC_760_W1N8",
       "name": "760",
-      "baCoeff": 0.0523,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 3414,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
@@ -7427,7 +7427,7 @@
       "ignitionZ2": 0.6608,
       "manufacturerId": "MAN_WINCHESTER_W1C6",
       "grainType": "ball",
-      "combustionEfficiency": 1.1926,
+      "combustionEfficiency": 0.8443,
       "propellantDensityKgM3": 1610,
       "bulkDensityKgM3": 971,
       "burnExponent": 0.55
@@ -7472,7 +7472,7 @@
     {
       "id": "PWD_WINC_STABALLMATCH_W1N2",
       "name": "StaBALL Match",
-      "baCoeff": 0.0729,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4396,
       "kCoeff": 1.2,
       "grainId": "GRN_BALL",
@@ -7485,7 +7485,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 890,
-      "combustionEfficiency": 1.0244,
+      "combustionEfficiency": 0.8443,
       "burnExponent": 0.55
     },
     {
@@ -7715,7 +7715,7 @@
     {
       "id": "PWD_HODG_HYBRID_100V_UMIK",
       "name": "Hybrid 100V",
-      "baCoeff": 0.0546,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4507,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -7726,7 +7726,7 @@
       "ignitionZ2": 0.9446,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0944,
+      "combustionEfficiency": 0.8443,
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 890,
       "burnExponent": 0.55
@@ -7788,7 +7788,7 @@
     {
       "id": "PWD_IMPR_IMR_4955_170P",
       "name": "IMR 4955",
-      "baCoeff": 0.0478,
+      "baCoeff": 0.0477,
       "heatOfExplosionKjKg": 4677,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -7799,7 +7799,7 @@
       "ignitionZ2": 0.95,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9802,
+      "combustionEfficiency": 0.9809,
       "propellantDensityKgM3": 1600,
       "burnExponent": 0.55
     },
@@ -8359,7 +8359,7 @@
     },
     {
       "id": "BUL_BERGER_243_123_LRHT_EUCG",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 7.9702659,
@@ -8413,7 +8413,7 @@
     },
     {
       "id": "BUL_BERGER_284_174_LRHT_3DV5",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 11.2750103,
@@ -8628,35 +8628,8 @@
       "advertisedWeightGrains": 158
     },
     {
-      "id": "BUL_BERGER_308_168_FB_GJ3S",
-      "name": "Flat Base Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.8862169,
-        "overallLengthMm": 42.672,
-        "ogiveLengthMm": 21.5664,
-        "boatTailLengthMm": 6.3368,
-        "bearingSurfaceMm": 14.7517,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.266,
-        "g7FF": 0.9511,
-        "g1FF": 0.4662,
-        "g1BC": 0.5427
-      },
-      "advertisedWeightGrains": 168
-    },
-    {
       "id": "BUL_BERGER_308_168_VLD_VOMA",
-      "name": "VLD",
+      "name": "VLD Hunting",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.8862169,
@@ -8680,60 +8653,6 @@
         "g1BC": 0.5026
       },
       "advertisedWeightGrains": 168
-    },
-    {
-      "id": "BUL_BERGER_308_180_HPBT_1TDO",
-      "name": "HPBT",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 11.6638038,
-        "overallLengthMm": 40.64,
-        "ogiveLengthMm": 20.5395,
-        "boatTailLengthMm": 6.035,
-        "bearingSurfaceMm": 14.0492,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.295,
-        "g7FF": 0.9189,
-        "g1FF": 0.4479,
-        "g1BC": 0.6051
-      },
-      "advertisedWeightGrains": 180
-    },
-    {
-      "id": "BUL_BERGER_308_185_BERGE_53KE",
-      "name": "Berger Flat Base Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 11.9877983,
-        "overallLengthMm": 41.91,
-        "ogiveLengthMm": 21.1813,
-        "boatTailLengthMm": 6.2236,
-        "bearingSurfaceMm": 14.4883,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.284,
-        "g7FF": 0.981,
-        "g1FF": 0.48,
-        "g1BC": 0.5804
-      },
-      "advertisedWeightGrains": 185
     },
     {
       "id": "BUL_BERGER_308_95_FP_8EZM",
@@ -8761,33 +8680,6 @@
         "g7FF": 1.298
       },
       "advertisedWeightGrains": 95
-    },
-    {
-      "id": "BUL_BERGER_338_124_HY_WG1H",
-      "name": "Hybrid",
-      "diameterId": "DIA_338_R7E3",
-      "physis": {
-        "weightGrams": 8.0350648,
-        "overallLengthMm": 18.84,
-        "ogiveLengthMm": 9.4213,
-        "boatTailLengthMm": 2.8264,
-        "bearingSurfaceMm": 6.5949,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.27,
-        "g7BC": 0.121,
-        "g1FF": 0.575,
-        "g7FF": 1.279
-      },
-      "advertisedWeightGrains": 124
     },
     {
       "id": "BUL_BARNES_224_50_TTSX",
@@ -10113,33 +10005,6 @@
       "advertisedWeightGrains": 52
     },
     {
-      "id": "BUL_BERGER_224_55_FBTGT",
-      "name": "FB Target",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 3.56394,
-        "overallLengthMm": 19.05,
-        "ogiveLengthMm": 13.3604,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 5.6896,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.249,
-        "g7BC": 0.124,
-        "g1FF": 0.629,
-        "g7FF": 1.26
-      },
-      "advertisedWeightGrains": 55
-    },
-    {
       "id": "BUL_BERGER_224_55_FBVAR",
       "name": "FB Varmint",
       "diameterId": "DIA_224_L5X8",
@@ -10519,7 +10384,7 @@
     },
     {
       "id": "BUL_BERGER_243_109_109_LRHT",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 7.0630812,
@@ -10869,33 +10734,6 @@
       "advertisedWeightGrains": 95
     },
     {
-      "id": "BUL_BERGER_243_95_95_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_243_B7V4",
-      "physis": {
-        "weightGrams": 6.1558964,
-        "overallLengthMm": 29.21,
-        "ogiveLengthMm": 17.018,
-        "boatTailLengthMm": 4.953,
-        "bearingSurfaceMm": 7.239,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.24,
-        "g7FF": 0.9576,
-        "g1FF": 0.4847,
-        "g1BC": 0.4741
-      },
-      "advertisedWeightGrains": 95
-    },
-    {
       "id": "BUL_BERGER_257_115_115_VLDH",
       "name": "VLD Hunting",
       "diameterId": "DIA_257_N2M1",
@@ -10919,33 +10757,6 @@
         "g7FF": 1.007,
         "g1FF": 0.5044,
         "g1BC": 0.4931
-      },
-      "advertisedWeightGrains": 115
-    },
-    {
-      "id": "BUL_BERGER_257_115_115_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_257_N2M1",
-      "physis": {
-        "weightGrams": 7.4518746,
-        "overallLengthMm": 30.48,
-        "ogiveLengthMm": 17.1704,
-        "boatTailLengthMm": 3.302,
-        "bearingSurfaceMm": 10.0076,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.239,
-        "g7FF": 1.0407,
-        "g1FF": 0.5213,
-        "g1BC": 0.4772
       },
       "advertisedWeightGrains": 115
     },
@@ -11085,33 +10896,6 @@
       "advertisedWeightGrains": 130
     },
     {
-      "id": "BUL_BERGER_264_130_130_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 8.4238583,
-        "overallLengthMm": 35.56,
-        "ogiveLengthMm": 18.3896,
-        "boatTailLengthMm": 5.08,
-        "bearingSurfaceMm": 12.0904,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.288,
-        "g7FF": 0.9252,
-        "g1FF": 0.4639,
-        "g1BC": 0.5744
-      },
-      "advertisedWeightGrains": 130
-    },
-    {
       "id": "BUL_BERGER_264_135_CH",
       "name": "Classic Hunter",
       "diameterId": "DIA_264_H8J4",
@@ -11166,35 +10950,8 @@
       "advertisedWeightGrains": 140
     },
     {
-      "id": "BUL_BERGER_264_140_140_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_264_H8J4",
-      "physis": {
-        "weightGrams": 9.0718474,
-        "overallLengthMm": 36.0934,
-        "ogiveLengthMm": 18.3134,
-        "boatTailLengthMm": 5.08,
-        "bearingSurfaceMm": 12.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.313,
-        "g7FF": 0.9168,
-        "g1FF": 0.4636,
-        "g1BC": 0.619
-      },
-      "advertisedWeightGrains": 140
-    },
-    {
       "id": "BUL_BERGER_264_144_144_LRHT",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 9.331043,
@@ -11463,33 +11220,6 @@
       "advertisedWeightGrains": 168
     },
     {
-      "id": "BUL_BERGER_284_168_168_VLDH",
-      "name": "VLD Hunting",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 10.8862169,
-        "overallLengthMm": 36.703,
-        "ogiveLengthMm": 19.3802,
-        "boatTailLengthMm": 5.588,
-        "bearingSurfaceMm": 11.7348,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.316,
-        "g7FF": 0.9416,
-        "g1FF": 0.4664,
-        "g1BC": 0.638
-      },
-      "advertisedWeightGrains": 168
-    },
-    {
       "id": "BUL_BERGER_284_175_EH",
       "name": "Elite Hunter",
       "diameterId": "DIA_284_S3F6",
@@ -11542,60 +11272,6 @@
         "g1BC": 0.6766
       },
       "advertisedWeightGrains": 180
-    },
-    {
-      "id": "BUL_BERGER_284_180_180_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 11.6638038,
-        "overallLengthMm": 38.735,
-        "ogiveLengthMm": 19.4056,
-        "boatTailLengthMm": 5.588,
-        "bearingSurfaceMm": 13.7414,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.337,
-        "g7FF": 0.946,
-        "g1FF": 0.4712,
-        "g1BC": 0.6766
-      },
-      "advertisedWeightGrains": 180
-    },
-    {
-      "id": "BUL_BERGER_284_190_190_LRHT",
-      "name": "LRHT",
-      "diameterId": "DIA_284_S3F6",
-      "physis": {
-        "weightGrams": 12.3117929,
-        "overallLengthMm": 40.6654,
-        "ogiveLengthMm": 21.336,
-        "boatTailLengthMm": 5.2578,
-        "bearingSurfaceMm": 14.0716,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.384,
-        "g7FF": 0.8764,
-        "g1FF": 0.4403,
-        "g1BC": 0.7642
-      },
-      "advertisedWeightGrains": 190
     },
     {
       "id": "BUL_BERGER_308_110_FBVAR",
@@ -11787,33 +11463,6 @@
       "advertisedWeightGrains": 155
     },
     {
-      "id": "BUL_BERGER_308_155_155_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 10.043831,
-        "overallLengthMm": 31.9024,
-        "ogiveLengthMm": 18.1864,
-        "boatTailLengthMm": 3.683,
-        "bearingSurfaceMm": 10.033,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.224,
-        "g7FF": 1.042,
-        "g1FF": 0.4949,
-        "g1BC": 0.4716
-      },
-      "advertisedWeightGrains": 155
-    },
-    {
       "id": "BUL_BERGER_308_168_CH",
       "name": "Classic Hunter",
       "diameterId": "DIA_308_XBM7",
@@ -11949,33 +11598,6 @@
       "advertisedWeightGrains": 185
     },
     {
-      "id": "BUL_BERGER_308_185_185_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 11.9877983,
-        "overallLengthMm": 35.0012,
-        "ogiveLengthMm": 17.9578,
-        "boatTailLengthMm": 5.08,
-        "bearingSurfaceMm": 11.9634,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.281,
-        "g7FF": 0.9914,
-        "g1FF": 0.4774,
-        "g1BC": 0.5836
-      },
-      "advertisedWeightGrains": 185
-    },
-    {
       "id": "BUL_BERGER_308_190_190_VLDH",
       "name": "VLD Hunting",
       "diameterId": "DIA_308_XBM7",
@@ -12003,35 +11625,8 @@
       "advertisedWeightGrains": 190
     },
     {
-      "id": "BUL_BERGER_308_190_190_VLDT",
-      "name": "VLD Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 12.3117929,
-        "overallLengthMm": 34.798,
-        "ogiveLengthMm": 18.542,
-        "boatTailLengthMm": 4.826,
-        "bearingSurfaceMm": 11.43,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.291,
-        "g7FF": 0.9832,
-        "g1FF": 0.4751,
-        "g1BC": 0.6023
-      },
-      "advertisedWeightGrains": 190
-    },
-    {
       "id": "BUL_BERGER_308_208_208_LRHT",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 13.4781733,
@@ -12058,7 +11653,7 @@
     },
     {
       "id": "BUL_BERGER_308_220_220_LRHT",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 14.2557602,
@@ -12085,7 +11680,7 @@
     },
     {
       "id": "BUL_BERGER_308_230_HYOTM",
-      "name": "Hybrid OTM",
+      "name": "Hybrid OTM Tactical",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 14.9037493,
@@ -12112,7 +11707,7 @@
     },
     {
       "id": "BUL_BERGER_308_245_245_LRHT",
-      "name": "LRHT",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 15.8757329,
@@ -17377,7 +16972,7 @@
     },
     {
       "id": "BUL_BERGER_243_69_FB",
-      "name": "6 MM 69 High BC FB Varmint",
+      "name": "High BC FB Varmint",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 4.4711248,
@@ -17404,7 +16999,7 @@
     },
     {
       "id": "BUL_BERGER_243_115_VLD_777F",
-      "name": "6 MM 115 VLD Hunting",
+      "name": "VLD Hunting",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 7.4518746,
@@ -17431,7 +17026,7 @@
     },
     {
       "id": "BUL_BERGER_264_140_EH",
-      "name": "6.5 MM 140 Elite Hunter",
+      "name": "Elite Hunter",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 9.0718474,
@@ -17458,7 +17053,7 @@
     },
     {
       "id": "BUL_BERGER_284_150_0_M1CH",
-      "name": "7 MM 150 Classic Hunter",
+      "name": "Classic Hunter",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 9.7198365,
@@ -17485,7 +17080,7 @@
     },
     {
       "id": "BUL_BERGER_284_195_0_MEEH",
-      "name": "7 MM 195 EOL Elite Hunter",
+      "name": "EOL Elite Hunter",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 12.6357875,
@@ -17512,7 +17107,7 @@
     },
     {
       "id": "BUL_BERGER_308_155_VH",
-      "name": "30 155 VLD Hunting",
+      "name": "VLD Hunting",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.043831,
@@ -17539,7 +17134,7 @@
     },
     {
       "id": "BUL_BERGER_308_175_VH",
-      "name": "30 175 VLD Hunting",
+      "name": "VLD Hunting",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 11.3398093,
@@ -17566,7 +17161,7 @@
     },
     {
       "id": "BUL_BERGER_308_180_EH",
-      "name": "30 180 Elite Hunter",
+      "name": "Elite Hunter",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 11.6638038,
@@ -17593,7 +17188,7 @@
     },
     {
       "id": "BUL_BERGER_308_205_EH",
-      "name": "30 205 Elite Hunter",
+      "name": "Elite Hunter",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 13.2837766,
@@ -17620,7 +17215,7 @@
     },
     {
       "id": "BUL_BERGER_308_210_VH",
-      "name": "30 210 VLD Hunting",
+      "name": "VLD Hunting",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 13.6077711,
@@ -17647,7 +17242,7 @@
     },
     {
       "id": "BUL_BERGER_308_245_EH",
-      "name": "30 245 Elite Hunter",
+      "name": "Elite Hunter",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 15.8757329,
@@ -17674,7 +17269,7 @@
     },
     {
       "id": "BUL_BERGER_224_75_VT",
-      "name": "22 75 VLD Target",
+      "name": "VLD Target",
       "diameterId": "DIA_224_L5X8",
       "physis": {
         "weightGrams": 4.8599182,
@@ -17701,7 +17296,7 @@
     },
     {
       "id": "BUL_BERGER_224_80_VT",
-      "name": "22 80 VLD Target",
+      "name": "VLD Target",
       "diameterId": "DIA_224_L5X8",
       "physis": {
         "weightGrams": 5.1839128,
@@ -17728,7 +17323,7 @@
     },
     {
       "id": "BUL_BERGER_224_82_0_LRBT",
-      "name": "22 82 Long Range BT Target",
+      "name": "Long Range BT Target",
       "diameterId": "DIA_224_L5X8",
       "physis": {
         "weightGrams": 5.3135106,
@@ -17755,7 +17350,7 @@
     },
     {
       "id": "BUL_BERGER_224_85_5_5_LRHT",
-      "name": "22 Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_224_L5X8",
       "physis": {
         "weightGrams": 5.5403068,
@@ -17782,7 +17377,7 @@
     },
     {
       "id": "BUL_BERGER_243_105_MHT",
-      "name": "6 MM 105 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 6.8038856,
@@ -17809,7 +17404,7 @@
     },
     {
       "id": "BUL_BERGER_243_109_LRHT",
-      "name": "6 MM 109 Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 7.0630812,
@@ -17836,7 +17431,7 @@
     },
     {
       "id": "BUL_BERGER_243_115_VLD_DFA4",
-      "name": "6 MM 115 VLD Target",
+      "name": "VLD Target",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 7.4518746,
@@ -17863,7 +17458,7 @@
     },
     {
       "id": "BUL_BERGER_264_140_LRBT",
-      "name": "6.5 MM 140 Long Range BT Target",
+      "name": "Long Range BT Target",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 9.0718474,
@@ -17890,7 +17485,7 @@
     },
     {
       "id": "BUL_BERGER_264_140_MHT",
-      "name": "6.5 MM 140 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 9.0718474,
@@ -17917,7 +17512,7 @@
     },
     {
       "id": "BUL_BERGER_264_144_LRHT",
-      "name": "6.5 MM 144 Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 9.331043,
@@ -17944,7 +17539,7 @@
     },
     {
       "id": "BUL_BERGER_264_153_5_LRHT",
-      "name": "6.5 MM Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 9.9466327,
@@ -17971,7 +17566,7 @@
     },
     {
       "id": "BUL_BERGER_284_168_VLD",
-      "name": "7 MM 168 VLD Target",
+      "name": "VLD Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 10.8862169,
@@ -17998,7 +17593,7 @@
     },
     {
       "id": "BUL_BERGER_284_180_MHT",
-      "name": "7 MM 180 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 11.6638038,
@@ -18025,7 +17620,7 @@
     },
     {
       "id": "BUL_BERGER_284_184_0_MFHT",
-      "name": "7 MM 184 F\u2010Open Hybrid Target",
+      "name": "F-Open Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 11.9229994,
@@ -18052,7 +17647,7 @@
     },
     {
       "id": "BUL_BERGER_284_190_LRHT",
-      "name": "7 MM 190 Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 12.3117929,
@@ -18079,7 +17674,7 @@
     },
     {
       "id": "BUL_BERGER_308_175_0_LRBT",
-      "name": "30 175 Long Range BT Target",
+      "name": "Long Range BT Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 11.3398093,
@@ -18105,35 +17700,8 @@
       "advertisedWeightGrains": 175
     },
     {
-      "id": "BUL_BERGER_308_175_VT",
-      "name": "30 175 VLD Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 11.3398093,
-        "overallLengthMm": 32.7152,
-        "ogiveLengthMm": 17.9578,
-        "boatTailLengthMm": 4.572,
-        "bearingSurfaceMm": 10.1854,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.498,
-        "g1FF": 0.5292,
-        "g7FF": 1.1071,
-        "g7BC": 0.238
-      },
-      "advertisedWeightGrains": 175
-    },
-    {
       "id": "BUL_BERGER_308_185_JT",
-      "name": "30 185 Juggernaut Target",
+      "name": "Juggernaut Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 11.9877984,
@@ -18160,7 +17728,7 @@
     },
     {
       "id": "BUL_BERGER_308_185_HT",
-      "name": "30 185 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 11.9877984,
@@ -18187,7 +17755,7 @@
     },
     {
       "id": "BUL_BERGER_308_200_HT",
-      "name": "30 200 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 12.959782,
@@ -18214,7 +17782,7 @@
     },
     {
       "id": "BUL_BERGER_308_208_0_LRHT",
-      "name": "30 208 Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 13.4781733,
@@ -18241,7 +17809,7 @@
     },
     {
       "id": "BUL_BERGER_308_210_0_LRBT",
-      "name": "30 210 Long Range BT Target",
+      "name": "Long Range BT Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 13.6077711,
@@ -18267,35 +17835,8 @@
       "advertisedWeightGrains": 210
     },
     {
-      "id": "BUL_BERGER_308_210_VT",
-      "name": "30 210 VLD Target",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 13.6077711,
-        "overallLengthMm": 37.0586,
-        "ogiveLengthMm": 18.5166,
-        "boatTailLengthMm": 4.826,
-        "bearingSurfaceMm": 13.716,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g7BC": 0.323,
-        "g7FF": 0.9791,
-        "g1FF": 0.4714,
-        "g1BC": 0.6708
-      },
-      "advertisedWeightGrains": 210
-    },
-    {
       "id": "BUL_BERGER_308_215_HT",
-      "name": "30 215 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 13.9317656,
@@ -18322,7 +17863,7 @@
     },
     {
       "id": "BUL_BERGER_308_220_0_LRHT",
-      "name": "30 220 Long Range Hybrid Target",
+      "name": "Long Range Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 14.2557602,
@@ -18349,7 +17890,7 @@
     },
     {
       "id": "BUL_BERGER_308_230_HT",
-      "name": "30 230 Hybrid Target",
+      "name": "Hybrid Target",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 14.9037493,
@@ -18376,7 +17917,7 @@
     },
     {
       "id": "BUL_BERGER_264_130_HC",
-      "name": "6.5 MM 130 AR Hybrid OTM Tactical",
+      "name": "AR Hybrid OTM Tactical",
       "diameterId": "DIA_264_H8J4",
       "physis": {
         "weightGrams": 8.4238583,
@@ -18403,7 +17944,7 @@
     },
     {
       "id": "BUL_BERGER_308_185_JOT",
-      "name": "30 185 Juggernaut OTM Tactical",
+      "name": "Juggernaut OTM Tactical",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 11.9877984,
@@ -18538,7 +18079,7 @@
       "id": "BUL_SIERRA_224_40_HP_5FB0",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1385",
       "physis": {
         "overallLengthMm": 14.3256,
@@ -18613,7 +18154,7 @@
       "id": "BUL_SIERRA_224_45_SP_4EE6",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Semi-Point",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1300",
       "physis": {
         "overallLengthMm": 14.859,
@@ -18638,7 +18179,7 @@
       "id": "BUL_SIERRA_224_45_SPT_0353",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Spitzer",
+      "name": "Varminter",
       "sierraPartNum": "1310",
       "physis": {
         "overallLengthMm": 15.875,
@@ -18663,7 +18204,7 @@
       "id": "BUL_SIERRA_224_50_SP_8452",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Semi-Point",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1320",
       "physis": {
         "overallLengthMm": 16.2306,
@@ -18688,7 +18229,7 @@
       "id": "BUL_SIERRA_224_50_SPT_EC78",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Spitzer",
+      "name": "Varminter",
       "sierraPartNum": "1330",
       "physis": {
         "overallLengthMm": 17.3228,
@@ -18713,7 +18254,7 @@
       "id": "BUL_SIERRA_224_50_BK_B8BF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Blitz",
+      "name": "BlitzKing",
       "sierraPartNum": "1340",
       "physis": {
         "overallLengthMm": 16.6624,
@@ -18763,7 +18304,7 @@
       "id": "BUL_SIERRA_224_55_FMJBT_6EDA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Full Metal Jacket Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1355",
       "physis": {
         "overallLengthMm": 19.1008,
@@ -18788,7 +18329,7 @@
       "id": "BUL_SIERRA_224_55_SPT_9877",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Spitzer",
+      "name": "Varminter",
       "sierraPartNum": "1360",
       "physis": {
         "overallLengthMm": 17.653,
@@ -18813,7 +18354,7 @@
       "id": "BUL_SIERRA_224_55_SBT_CF02",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1365",
       "physis": {
         "overallLengthMm": 18.3896,
@@ -18838,7 +18379,7 @@
       "id": "BUL_SIERRA_224_55_HPBT_2EBF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1390",
       "physis": {
         "overallLengthMm": 18.161,
@@ -18888,7 +18429,7 @@
       "id": "BUL_SIERRA_224_60_HP_5023",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1375",
       "physis": {
         "overallLengthMm": 19.7104,
@@ -18913,7 +18454,7 @@
       "id": "BUL_SIERRA_224_63_SP_3EEE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Semi-Point",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1370",
       "physis": {
         "overallLengthMm": 19.177,
@@ -18938,7 +18479,7 @@
       "id": "BUL_SIERRA_224_65_SBT_8CC3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1395",
       "physis": {
         "overallLengthMm": 21.6408,
@@ -18963,7 +18504,7 @@
       "id": "BUL_SIERRA_224_69_HPBT_3274",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1380",
       "physis": {
         "overallLengthMm": 22.86,
@@ -18988,7 +18529,7 @@
       "id": "BUL_SIERRA_224_77_HPBT_FDBF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9377",
       "physis": {
         "overallLengthMm": 25.2476,
@@ -19013,7 +18554,7 @@
       "id": "BUL_SIERRA_224_77_SMK_652B",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "MatchKing - Cannelure",
+      "name": "MatchKing",
       "sierraPartNum": "9378",
       "physis": {
         "overallLengthMm": 25.2476,
@@ -19039,7 +18580,7 @@
       "id": "BUL_SIERRA_224_80_HPBT_059C",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9390",
       "physis": {
         "overallLengthMm": 27.0764,
@@ -19064,7 +18605,7 @@
       "id": "BUL_SIERRA_224_90_HPBT_0DEC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9290",
       "physis": {
         "overallLengthMm": 29.7434,
@@ -19114,7 +18655,7 @@
       "id": "BUL_SIERRA_243_60_HP_7D00",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1500",
       "physis": {
         "overallLengthMm": 18.5928,
@@ -19139,7 +18680,7 @@
       "id": "BUL_SIERRA_243_70_HPBT_B6BA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1505",
       "physis": {
         "overallLengthMm": 21.1836,
@@ -19189,7 +18730,7 @@
       "id": "BUL_SIERRA_243_75_HP_4FBB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1510",
       "physis": {
         "overallLengthMm": 20.701,
@@ -19214,7 +18755,7 @@
       "id": "BUL_SIERRA_243_80_SBT_2159",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Spitzer Boat Tail",
+      "name": "Varminter",
       "sierraPartNum": "1515",
       "physis": {
         "overallLengthMm": 22.7076,
@@ -19239,7 +18780,7 @@
       "id": "BUL_SIERRA_243_85_SPT_AC1E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Spitzer",
+      "name": "Varminter",
       "sierraPartNum": "1520",
       "physis": {
         "overallLengthMm": 22.9362,
@@ -19264,7 +18805,7 @@
       "id": "BUL_SIERRA_243_85_HPBT_E404",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Hollow Point Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1530",
       "physis": {
         "overallLengthMm": 23.7236,
@@ -19289,7 +18830,7 @@
       "id": "BUL_SIERRA_257_90_HPBT_98EC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Hollow Point Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1615",
       "physis": {
         "overallLengthMm": 22.606,
@@ -19339,7 +18880,7 @@
       "id": "BUL_SIERRA_257_100_SPT_F1DE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1620",
       "physis": {
         "overallLengthMm": 24.638,
@@ -19364,7 +18905,7 @@
       "id": "BUL_SIERRA_257_100_SBT_A5CC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1625",
       "physis": {
         "overallLengthMm": 25.1714,
@@ -19389,7 +18930,7 @@
       "id": "BUL_SIERRA_257_100_HPBT_BF72",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1628",
       "physis": {
         "overallLengthMm": 27.5844,
@@ -19414,7 +18955,7 @@
       "id": "BUL_SIERRA_257_117_SBT_226D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1630",
       "physis": {
         "overallLengthMm": 28.3464,
@@ -19439,7 +18980,7 @@
       "id": "BUL_SIERRA_257_117_SPT_17FE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1640",
       "physis": {
         "overallLengthMm": 27.432,
@@ -19464,7 +19005,7 @@
       "id": "BUL_SIERRA_257_120_HPBT_18D3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "Hollow Point Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1650",
       "physis": {
         "overallLengthMm": 29.718,
@@ -19489,7 +19030,7 @@
       "id": "BUL_SIERRA_264_85_HP_DA15",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1700",
       "physis": {
         "overallLengthMm": 21.0312,
@@ -19514,7 +19055,7 @@
       "id": "BUL_SIERRA_264_100_HP_490F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1710",
       "physis": {
         "overallLengthMm": 23.368,
@@ -19539,7 +19080,7 @@
       "id": "BUL_SIERRA_264_107_HPBT_C7E8",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1715",
       "physis": {
         "overallLengthMm": 32.385,
@@ -19564,7 +19105,7 @@
       "id": "BUL_SIERRA_264_120_SPT_AC97",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1720",
       "physis": {
         "overallLengthMm": 27.4066,
@@ -19589,7 +19130,7 @@
       "id": "BUL_SIERRA_264_120_HPBT_4C28",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1725",
       "physis": {
         "overallLengthMm": 29.972,
@@ -19614,7 +19155,7 @@
       "id": "BUL_SIERRA_264_123_HPBT_16EB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1727",
       "physis": {
         "overallLengthMm": 32.893,
@@ -19639,7 +19180,7 @@
       "id": "BUL_SIERRA_264_140_SBT_A5ED",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1730",
       "physis": {
         "overallLengthMm": 32.0548,
@@ -19664,7 +19205,7 @@
       "id": "BUL_SIERRA_264_140_HPBT_5322",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1740",
       "physis": {
         "overallLengthMm": 33.274,
@@ -19689,7 +19230,7 @@
       "id": "BUL_SIERRA_264_142_HPBT_7470",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1742",
       "physis": {
         "overallLengthMm": 34.925,
@@ -19714,7 +19255,7 @@
       "id": "BUL_SIERRA_264_155_HPBT_E8FA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9570",
       "physis": {
         "overallLengthMm": 36.83,
@@ -19739,7 +19280,7 @@
       "id": "BUL_SIERRA_264_160_UNK_68F6",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "Semi Point",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1750",
       "physis": {
         "overallLengthMm": 31.75,
@@ -19764,7 +19305,7 @@
       "id": "BUL_SIERRA_277_90_HP_FA12",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1800",
       "physis": {
         "overallLengthMm": 21.6154,
@@ -19789,7 +19330,7 @@
       "id": "BUL_SIERRA_277_110_SPT_1E8A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1810",
       "physis": {
         "overallLengthMm": 20.32,
@@ -19814,7 +19355,7 @@
       "id": "BUL_SIERRA_277_115_HPBT_837A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1815",
       "physis": {
         "overallLengthMm": 24.3586,
@@ -19839,7 +19380,7 @@
       "id": "BUL_SIERRA_277_130_SBT_7618",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1820",
       "physis": {
         "overallLengthMm": 28.702,
@@ -19864,7 +19405,7 @@
       "id": "BUL_SIERRA_277_130_SPT_15EF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1830",
       "physis": {
         "overallLengthMm": 27.178,
@@ -19889,7 +19430,7 @@
       "id": "BUL_SIERRA_277_135_HPBT_C09A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1833",
       "physis": {
         "overallLengthMm": 32.004,
@@ -19914,7 +19455,7 @@
       "id": "BUL_SIERRA_277_140_HPBT_50AE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Hollow Point Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1835",
       "physis": {
         "overallLengthMm": 30.226,
@@ -19939,7 +19480,7 @@
       "id": "BUL_SIERRA_277_140_SBT_2523",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1845",
       "physis": {
         "overallLengthMm": 29.972,
@@ -19964,7 +19505,7 @@
       "id": "BUL_SIERRA_277_150_SBT_4E66",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1840",
       "physis": {
         "overallLengthMm": 31.75,
@@ -19989,7 +19530,7 @@
       "id": "BUL_SIERRA_277_150_RN_665E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "Round Nose",
+      "name": "GameKing",
       "sierraPartNum": "1850",
       "physis": {
         "overallLengthMm": null,
@@ -20014,7 +19555,7 @@
       "id": "BUL_SIERRA_284_100_HP_779F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "1895",
       "physis": {
         "overallLengthMm": 22.4536,
@@ -20039,7 +19580,7 @@
       "id": "BUL_SIERRA_284_120_SPT_25A2",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1900",
       "physis": {
         "overallLengthMm": 24.6888,
@@ -20064,7 +19605,7 @@
       "id": "BUL_SIERRA_284_130_HPBT_193A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1903",
       "physis": {
         "overallLengthMm": 29.972,
@@ -20089,7 +19630,7 @@
       "id": "BUL_SIERRA_284_140_SBT_0795",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1905",
       "physis": {
         "overallLengthMm": 29.464,
@@ -20114,7 +19655,7 @@
       "id": "BUL_SIERRA_284_140_SPT_41CA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1910",
       "physis": {
         "overallLengthMm": 28.448,
@@ -20139,7 +19680,7 @@
       "id": "BUL_SIERRA_284_150_SBT_A5A3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1913",
       "physis": {
         "overallLengthMm": 30.48,
@@ -20164,7 +19705,7 @@
       "id": "BUL_SIERRA_284_150_HPBT_9F24",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1915",
       "physis": {
         "overallLengthMm": 31.75,
@@ -20189,7 +19730,7 @@
       "id": "BUL_SIERRA_284_160_SBT_8C78",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1920",
       "physis": {
         "overallLengthMm": 31.9532,
@@ -20214,7 +19755,7 @@
       "id": "BUL_SIERRA_284_160_HPBT_CDFB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1925",
       "physis": {
         "overallLengthMm": 33.274,
@@ -20239,7 +19780,7 @@
       "id": "BUL_SIERRA_284_168_HPBT_D1CF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1930",
       "physis": {
         "overallLengthMm": 34.671,
@@ -20264,7 +19805,7 @@
       "id": "BUL_SIERRA_284_170_RN_81AF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Round Nose",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1950",
       "physis": {
         "overallLengthMm": 31.115,
@@ -20289,7 +19830,7 @@
       "id": "BUL_SIERRA_284_175_SBT_1868",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "1940",
       "physis": {
         "overallLengthMm": 35.6362,
@@ -20314,7 +19855,7 @@
       "id": "BUL_SIERRA_284_175_HPBT_3A4F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1975",
       "physis": {
         "overallLengthMm": 36.9062,
@@ -20339,7 +19880,7 @@
       "id": "BUL_SIERRA_284_180_HPBT_8792",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "1980",
       "physis": {
         "overallLengthMm": 37.1348,
@@ -20364,7 +19905,7 @@
       "id": "BUL_SIERRA_308_125_HP_30E4",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point",
+      "name": "MatchKing",
       "sierraPartNum": "2020",
       "physis": {
         "overallLengthMm": 18.415,
@@ -20389,7 +19930,7 @@
       "id": "BUL_SIERRA_308_150_UNK_8F9E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Flat Nose (30-30)",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2000",
       "physis": {
         "overallLengthMm": 23.0378,
@@ -20414,7 +19955,7 @@
       "id": "BUL_SIERRA_308_170_UNK_B946",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Flat Nose (30-30)",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2010",
       "physis": {
         "overallLengthMm": 25.2984,
@@ -20439,7 +19980,7 @@
       "id": "BUL_SIERRA_308_110_RN_2B5A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Round Nose",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2100",
       "physis": {
         "overallLengthMm": 46.86,
@@ -20464,7 +20005,7 @@
       "id": "BUL_SIERRA_308_110_FMJ_B8DC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Full Metal Jacket",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2105",
       "physis": {
         "overallLengthMm": 46.86,
@@ -20489,7 +20030,7 @@
       "id": "BUL_SIERRA_308_110_HP_4780",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point",
+      "name": "Varminter",
       "sierraPartNum": "2110",
       "physis": {
         "overallLengthMm": 50.04,
@@ -20514,7 +20055,7 @@
       "id": "BUL_SIERRA_308_125_SPT_7422",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2120",
       "physis": {
         "overallLengthMm": 22.3266,
@@ -20539,7 +20080,7 @@
       "id": "BUL_SIERRA_308_135_HPBT_8826",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2123",
       "physis": {
         "overallLengthMm": 27.2034,
@@ -20564,7 +20105,7 @@
       "id": "BUL_SIERRA_308_150_FMJ_3939",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Full Metal Jacket",
+      "name": "GameKing",
       "sierraPartNum": "2115",
       "physis": {
         "overallLengthMm": 28.194,
@@ -20589,7 +20130,7 @@
       "id": "BUL_SIERRA_308_150_SBT_8483",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "2125",
       "physis": {
         "overallLengthMm": 27.94,
@@ -20614,7 +20155,7 @@
       "id": "BUL_SIERRA_308_150_SPT_AB45",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2130",
       "physis": {
         "overallLengthMm": 27.051,
@@ -20639,7 +20180,7 @@
       "id": "BUL_SIERRA_308_150_RN_92E7",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Round Nose",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2135",
       "physis": {
         "overallLengthMm": 47.24,
@@ -20664,7 +20205,7 @@
       "id": "BUL_SIERRA_308_150_HPBT_5165",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2190",
       "physis": {
         "overallLengthMm": 28.194,
@@ -20689,7 +20230,7 @@
       "id": "BUL_SIERRA_308_155_HPBT_D5C8",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2155",
       "physis": {
         "overallLengthMm": 28.7782,
@@ -20714,7 +20255,7 @@
       "id": "BUL_SIERRA_308_168_HPBT_0ECE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2200",
       "physis": {
         "overallLengthMm": 30.861,
@@ -20739,7 +20280,7 @@
       "id": "BUL_SIERRA_308_175_HPBT_D05D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2275",
       "physis": {
         "overallLengthMm": 31.496,
@@ -20764,7 +20305,7 @@
       "id": "BUL_SIERRA_308_180_SPT_2A4A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2150",
       "physis": {
         "overallLengthMm": 30.988,
@@ -20789,7 +20330,7 @@
       "id": "BUL_SIERRA_308_180_SBT_53F4",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "2160",
       "physis": {
         "overallLengthMm": 32.7152,
@@ -20814,7 +20355,7 @@
       "id": "BUL_SIERRA_308_180_RN_EFCA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Round Nose",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2170",
       "physis": {
         "overallLengthMm": 27.7368,
@@ -20839,7 +20380,7 @@
       "id": "BUL_SIERRA_308_180_HPBT_82C3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2220",
       "physis": {
         "overallLengthMm": 32.4358,
@@ -20864,7 +20405,7 @@
       "id": "BUL_SIERRA_308_190_HPBT_0F61",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2210",
       "physis": {
         "overallLengthMm": 34.3662,
@@ -20889,7 +20430,7 @@
       "id": "BUL_SIERRA_308_200_SBT_E2D2",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "2165",
       "physis": {
         "overallLengthMm": 35.56,
@@ -20914,7 +20455,7 @@
       "id": "BUL_SIERRA_308_200_UNK_2D9D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2230",
       "physis": {
         "overallLengthMm": 32.9438,
@@ -20939,7 +20480,7 @@
       "id": "BUL_SIERRA_308_210_HPBT_D514",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9240",
       "physis": {
         "overallLengthMm": 37.5412,
@@ -20964,7 +20505,7 @@
       "id": "BUL_SIERRA_308_220_RN_E9A5",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Round Nose",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2180",
       "physis": {
         "overallLengthMm": 33.0962,
@@ -20989,7 +20530,7 @@
       "id": "BUL_SIERRA_308_220_HPBT_EDF7",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2240",
       "physis": {
         "overallLengthMm": 37.8206,
@@ -21014,7 +20555,7 @@
       "id": "BUL_SIERRA_308_240_HPBT_7F23",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9245",
       "physis": {
         "overallLengthMm": 40.4114,
@@ -21039,7 +20580,7 @@
       "id": "BUL_SIERRA_338_215_SBT_C0E8",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "2610",
       "physis": {
         "overallLengthMm": 32.3596,
@@ -21064,7 +20605,7 @@
       "id": "BUL_SIERRA_338_225_SPT_90AC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2620",
       "physis": {
         "overallLengthMm": 32.004,
@@ -21089,7 +20630,7 @@
       "id": "BUL_SIERRA_338_250_SBT_0063",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "Spitzer Boat Tail",
+      "name": "GameKing",
       "sierraPartNum": "2600",
       "physis": {
         "overallLengthMm": 36.449,
@@ -21114,7 +20655,7 @@
       "id": "BUL_SIERRA_338_250_HPBT_F4C6",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "2650",
       "physis": {
         "overallLengthMm": 39.497,
@@ -21139,7 +20680,7 @@
       "id": "BUL_SIERRA_338_300_HPBT_B04F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "Hollow Point Boat Tail",
+      "name": "MatchKing",
       "sierraPartNum": "9300",
       "physis": {
         "overallLengthMm": 43.18,
@@ -21164,7 +20705,7 @@
       "id": "BUL_SIERRA_243_80_SPT_CF07",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "Spitzer",
+      "name": "Pro-Hunter",
       "sierraPartNum": "7150",
       "physis": {
         "overallLengthMm": 22.7076,
@@ -21189,7 +20730,7 @@
       "id": "BUL_SIERRA_284_130_SPT_0FCB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer",
+      "name": "MatchKing",
       "sierraPartNum": "7250",
       "physis": {
         "overallLengthMm": 26.416,
@@ -21214,7 +20755,7 @@
       "id": "BUL_SIERRA_308_135_SPT_800C",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer",
+      "name": "Varminter",
       "sierraPartNum": "7350",
       "physis": {
         "overallLengthMm": 24.5618,
@@ -21239,7 +20780,7 @@
       "id": "BUL_SIERRA_308_85_RN_35D2",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "Round Nose",
+      "name": "Sports Master",
       "sierraPartNum": "8005",
       "physis": {
         "overallLengthMm": 13.589,
@@ -25421,7 +24962,7 @@
       "id": "BUL_SIERRA_224_52_MK_HPBT",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "MatchKing HPBT",
+      "name": "MatchKing",
       "physis": {
         "weightGrams": 3.3695433,
         "overallLengthMm": 18.1102,
@@ -25620,7 +25161,7 @@
     },
     {
       "id": "BUL_SIERRA_308_165_SBT_1B95",
-      "name": "Spitzer Boat Tail (GameKing)",
+      "name": "GameKing",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.69182,
@@ -25900,7 +25441,7 @@
     },
     {
       "id": "BUL_SIERRA_243_95_TMK_3AD1",
-      "name": "Tipped MatchKing (TMK)",
+      "name": "Tipped MatchKing",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 6.155896,
