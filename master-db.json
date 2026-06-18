@@ -73,7 +73,117 @@
       "bodyDiameterMm": 11.2,
       "transducerScaleFactor": 0.5534,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 52000,
+          "maxPressurePa": 358527379.25,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3585,
+          "maxPressurePa": 358527379.25,
+          "referenceSource": "C.I.P. TDCC Sheet 22 ARC"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 9.9,
+          "nominalIn": 0.3898
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.9,
+          "nominalIn": 0.0354
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.1,
+          "nominalIn": 0.437
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 27.17,
+          "nominalIn": 1.0698
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 31.2,
+          "nominalIn": 1.2283
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 38.73,
+          "nominalIn": 1.5248
+        },
+        "trimLengthMm": 38.480999999999995,
+        "trimLengthIn": 1.515,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 34.6,
+        "nominalOverflowCapacityH2oGrams": 2.242,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.131,
+        "freeboreLengthMm": 3.327,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_22CM_cA72",
@@ -90,7 +200,117 @@
       "bodyDiameterMm": 11.95,
       "transducerScaleFactor": 0.64556,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 22 Creedmoor"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.95,
+          "nominalIn": 0.4705
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.73,
+          "nominalIn": 0.4618
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 37.59,
+          "nominalIn": 1.4798
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 42.16,
+          "nominalIn": 1.6598
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 48.77,
+          "nominalIn": 1.9201
+        },
+        "trimLengthMm": 48.514,
+        "trimLengthIn": 1.91,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 49.4,
+        "nominalOverflowCapacityH2oGrams": 3.2011,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.125,
+        "freeboreLengthMm": 3.175,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_22NOSLER_n2s2",
@@ -107,7 +327,117 @@
       "bodyDiameterMm": 10.67,
       "transducerScaleFactor": 0.59671,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 55000,
+          "maxPressurePa": 379211650.95,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3792,
+          "maxPressurePa": 379211650.95,
+          "referenceSource": "C.I.P. TDCC Sheet 22 Nosler"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 9.6,
+          "nominalIn": 0.378
+        },
+        "rimThickness": {
+          "nominalMm": 1.14,
+          "nominalIn": 0.0449
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 8.43,
+          "nominalIn": 0.3319
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.89,
+          "nominalIn": 0.035
+        },
+        "baseDiameterP1": {
+          "nominalMm": 10.67,
+          "nominalIn": 0.4201
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 10.16,
+          "nominalIn": 0.4
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 29.94,
+          "nominalIn": 1.1786
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 33.15,
+          "nominalIn": 1.3051
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 40.64,
+          "nominalIn": 1.6
+        },
+        "trimLengthMm": 44.45,
+        "trimLengthIn": 1.75,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 36,
+        "nominalOverflowCapacityH2oGrams": 2.3328,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.08,
+        "freeboreLengthMm": 2.032,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_22250_cK32",
@@ -124,7 +454,117 @@
       "bodyDiameterMm": 11.94,
       "transducerScaleFactor": 0.66399,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 22-250 Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.94,
+          "nominalIn": 0.4701
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 10.52,
+          "nominalIn": 0.4142
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 37.45,
+          "nominalIn": 1.4745
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 41.28,
+          "nominalIn": 1.6252
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 48.56,
+          "nominalIn": 1.9118
+        },
+        "trimLengthMm": 48.31079999999999,
+        "trimLengthIn": 1.902,
+        "shoulderAngle": {
+          "halfAngleDegrees": 28,
+          "includedAngleDegrees": 56
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 43.81,
+        "nominalOverflowCapacityH2oGrams": 2.839,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.09,
+        "freeboreLengthMm": 2.286,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_220SWIFT_N2H6",
@@ -141,7 +581,117 @@
       "bodyDiameterMm": 11.35,
       "transducerScaleFactor": 0.62371,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 220 Swift"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.35,
+          "nominalIn": 0.4469
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 10.21,
+          "nominalIn": 0.402
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.6,
+          "nominalIn": 0.2598
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.6,
+          "nominalIn": 0.2598
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 43.08,
+          "nominalIn": 1.696
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 47.78,
+          "nominalIn": 1.8811
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 56.01,
+          "nominalIn": 2.2051
+        },
+        "trimLengthMm": 55.75299999999999,
+        "trimLengthIn": 2.195,
+        "shoulderAngle": {
+          "halfAngleDegrees": 21,
+          "includedAngleDegrees": 42
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 47,
+        "nominalOverflowCapacityH2oGrams": 3.0455,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.09,
+        "freeboreLengthMm": 2.286,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_221FIREBALL_cR83",
@@ -157,7 +707,117 @@
       "shoulderAngleDeg": 23,
       "bodyDiameterMm": 9.55,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 52000,
+          "maxPressurePa": 358527379.25,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3585,
+          "maxPressurePa": 358527379.25,
+          "referenceSource": "C.I.P. TDCC Sheet 221 Remington Fireball"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 9.6,
+          "nominalIn": 0.378
+        },
+        "rimThickness": {
+          "nominalMm": 1.14,
+          "nominalIn": 0.0449
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 8.43,
+          "nominalIn": 0.3319
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.89,
+          "nominalIn": 0.035
+        },
+        "baseDiameterP1": {
+          "nominalMm": 9.55,
+          "nominalIn": 0.376
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 9,
+          "nominalIn": 0.3543
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.43,
+          "nominalIn": 0.2531
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.43,
+          "nominalIn": 0.2531
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 27.37,
+          "nominalIn": 1.0777
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 30.4,
+          "nominalIn": 1.1969
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 35.56,
+          "nominalIn": 1.4
+        },
+        "trimLengthMm": 35.306,
+        "trimLengthIn": 1.39,
+        "shoulderAngle": {
+          "halfAngleDegrees": 23,
+          "includedAngleDegrees": 46
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 19.6,
+        "nominalOverflowCapacityH2oGrams": 1.2701,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.05,
+        "freeboreLengthMm": 1.27,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_223REM_cR82",
@@ -174,7 +834,117 @@
       "bodyDiameterMm": 9.58,
       "transducerScaleFactor": 0.63365,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 55000,
+          "maxPressurePa": 379211651.12,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3792,
+          "maxPressurePa": 379211651.12,
+          "referenceSource": "C.I.P. TDCC Sheet 223 Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 9.6,
+          "nominalIn": 0.378
+        },
+        "rimThickness": {
+          "nominalMm": 1.14,
+          "nominalIn": 0.0449
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 8.43,
+          "nominalIn": 0.3319
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.89,
+          "nominalIn": 0.035
+        },
+        "baseDiameterP1": {
+          "nominalMm": 9.58,
+          "nominalIn": 0.3772
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 9,
+          "nominalIn": 0.3543
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.43,
+          "nominalIn": 0.2531
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.43,
+          "nominalIn": 0.2531
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 36.52,
+          "nominalIn": 1.4379
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 39.55,
+          "nominalIn": 1.5571
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 44.7,
+          "nominalIn": 1.7598
+        },
+        "trimLengthMm": 44.45,
+        "trimLengthIn": 1.75,
+        "shoulderAngle": {
+          "halfAngleDegrees": 23,
+          "includedAngleDegrees": 46
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 29.25,
+        "nominalOverflowCapacityH2oGrams": 1.8954,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.025,
+        "freeboreLengthMm": 0.635,
+        "freeboreDiameterIn": 0.224,
+        "freeboreDiameterMm": 5.69
+      }
     },
     {
       "id": "CTG_224VALK_N2H5",
@@ -190,7 +960,117 @@
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 10.69,
       "bulletDiameterMm": 5.6896,
-      "boreDiameterMm": 5.5626
+      "boreDiameterMm": 5.5626,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 55000,
+          "maxPressurePa": 379211651.12,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3792,
+          "maxPressurePa": 379211651.12,
+          "referenceSource": "C.I.P. TDCC Sheet 224 Valkyrie"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 10.72,
+          "nominalIn": 0.422
+        },
+        "rimThickness": {
+          "nominalMm": 1.12,
+          "nominalIn": 0.0441
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 9.35,
+          "nominalIn": 0.3681
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.9,
+          "nominalIn": 0.0354
+        },
+        "baseDiameterP1": {
+          "nominalMm": 10.69,
+          "nominalIn": 0.4209
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 10.19,
+          "nominalIn": 0.4012
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.45,
+          "nominalIn": 0.2539
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 29.91,
+          "nominalIn": 1.1776
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 33.15,
+          "nominalIn": 1.3051
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 40.64,
+          "nominalIn": 1.6
+        },
+        "trimLengthMm": 40.386,
+        "trimLengthIn": 1.59,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 30.7,
+        "nominalOverflowCapacityH2oGrams": 1.9893,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 5.6895999999999995,
+        "bulletDiameterIn": 0.224,
+        "boreDiameterLandMm": 5.5626,
+        "boreDiameterLandIn": 0.219,
+        "grooveDiameterMm": 5.6895999999999995,
+        "grooveDiameterIn": 0.224,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.05,
+        "freeboreLengthMm": 1.27,
+        "freeboreDiameterIn": 0.2245,
+        "freeboreDiameterMm": 5.702
+      }
     },
     {
       "id": "CTG_243WIN_cB42",
@@ -207,7 +1087,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.65168,
       "bulletDiameterMm": 6.1722,
-      "boreDiameterMm": 6.0198
+      "boreDiameterMm": 6.0198,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 60000,
+          "maxPressurePa": 413685437.59,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4137,
+          "maxPressurePa": 413685437.59,
+          "referenceSource": "C.I.P. TDCC Sheet 243 Winchester"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.01,
+          "nominalIn": 0.276
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.01,
+          "nominalIn": 0.276
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 37.27,
+          "nominalIn": 1.4674
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.48,
+          "nominalIn": 1.7118
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.94,
+          "nominalIn": 2.0449
+        },
+        "trimLengthMm": 51.689,
+        "trimLengthIn": 2.035,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20,
+          "includedAngleDegrees": 40
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 54.07,
+        "nominalOverflowCapacityH2oGrams": 3.5035,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.172199999999999,
+        "bulletDiameterIn": 0.243,
+        "boreDiameterLandMm": 6.019799999999999,
+        "boreDiameterLandIn": 0.237,
+        "grooveDiameterMm": 6.172199999999999,
+        "grooveDiameterIn": 0.243,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.07,
+        "freeboreLengthMm": 1.778,
+        "freeboreDiameterIn": 0.2435,
+        "freeboreDiameterMm": 6.185
+      }
     },
     {
       "id": "CTG_25CM_cN72",
@@ -224,7 +1214,117 @@
       "bodyDiameterMm": 11.95,
       "transducerScaleFactor": 0.69676,
       "bulletDiameterMm": 6.5278,
-      "boreDiameterMm": 6.35
+      "boreDiameterMm": 6.35,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 25 Creedmoor"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.95,
+          "nominalIn": 0.4705
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.73,
+          "nominalIn": 0.4618
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.3,
+          "nominalIn": 0.2874
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.3,
+          "nominalIn": 0.2874
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 38.32,
+          "nominalIn": 1.5088
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 42.16,
+          "nominalIn": 1.6598
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 48.77,
+          "nominalIn": 1.9201
+        },
+        "trimLengthMm": 48.514,
+        "trimLengthIn": 1.91,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 52.5,
+        "nominalOverflowCapacityH2oGrams": 3.4019,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.5278,
+        "bulletDiameterIn": 0.257,
+        "boreDiameterLandMm": 6.35,
+        "boreDiameterLandIn": 0.25,
+        "grooveDiameterMm": 6.5278,
+        "grooveDiameterIn": 0.257,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.15,
+        "freeboreLengthMm": 3.81,
+        "freeboreDiameterIn": 0.2575,
+        "freeboreDiameterMm": 6.54
+      }
     },
     {
       "id": "CTG_2506_cL42",
@@ -241,7 +1341,117 @@
       "bodyDiameterMm": 11.94,
       "transducerScaleFactor": 0.69438,
       "bulletDiameterMm": 6.5278,
-      "boreDiameterMm": 6.35
+      "boreDiameterMm": 6.35,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 63000,
+          "maxPressurePa": 434369709.47,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4344,
+          "maxPressurePa": 434369709.47,
+          "referenceSource": "C.I.P. TDCC Sheet 25-06 Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.94,
+          "nominalIn": 0.4701
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.37,
+          "nominalIn": 0.2902
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.37,
+          "nominalIn": 0.2902
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 46.81,
+          "nominalIn": 1.8428
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 52.88,
+          "nominalIn": 2.0819
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 63.35,
+          "nominalIn": 2.4941
+        },
+        "trimLengthMm": 63.093599999999995,
+        "trimLengthIn": 2.484,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17.5,
+          "includedAngleDegrees": 35
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 65,
+        "nominalOverflowCapacityH2oGrams": 4.2119,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.5278,
+        "bulletDiameterIn": 0.257,
+        "boreDiameterLandMm": 6.35,
+        "boreDiameterLandIn": 0.25,
+        "grooveDiameterMm": 6.5278,
+        "grooveDiameterIn": 0.257,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.085,
+        "freeboreLengthMm": 2.159,
+        "freeboreDiameterIn": 0.2575,
+        "freeboreDiameterMm": 6.54
+      }
     },
     {
       "id": "CTG_257ROB_N2H9",
@@ -258,7 +1468,117 @@
       "bodyDiameterMm": 11.99,
       "transducerScaleFactor": 0.63771,
       "bulletDiameterMm": 6.5278,
-      "boreDiameterMm": 6.35
+      "boreDiameterMm": 6.35,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 54000,
+          "maxPressurePa": 372316893.83,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3723,
+          "maxPressurePa": 372316893.83,
+          "referenceSource": "C.I.P. TDCC Sheet 257 Roberts"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.99,
+          "nominalIn": 0.472
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11,
+          "nominalIn": 0.4331
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.4,
+          "nominalIn": 0.2913
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.4,
+          "nominalIn": 0.2913
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 42.75,
+          "nominalIn": 1.683
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 47.5,
+          "nominalIn": 1.8701
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 56.72,
+          "nominalIn": 2.2331
+        },
+        "trimLengthMm": 56.46419999999999,
+        "trimLengthIn": 2.223,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20.75,
+          "includedAngleDegrees": 41.5
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 56,
+        "nominalOverflowCapacityH2oGrams": 3.6287,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.5278,
+        "bulletDiameterIn": 0.257,
+        "boreDiameterLandMm": 6.35,
+        "boreDiameterLandIn": 0.25,
+        "grooveDiameterMm": 6.5278,
+        "grooveDiameterIn": 0.257,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.075,
+        "freeboreLengthMm": 1.905,
+        "freeboreDiameterIn": 0.2575,
+        "freeboreDiameterMm": 6.54
+      }
     },
     {
       "id": "CTG_257WBY_N2H0",
@@ -275,7 +1595,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.68467,
       "bulletDiameterMm": 6.5278,
-      "boreDiameterMm": 6.35
+      "boreDiameterMm": 6.35,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62500,
+          "maxPressurePa": 430922330.82,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4309,
+          "maxPressurePa": 430922330.82,
+          "referenceSource": "C.I.P. TDCC Sheet 257 Weatherby Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.5,
+          "nominalIn": 0.5315
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.5,
+          "nominalIn": 0.4921
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.3,
+          "nominalIn": 0.2874
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.3,
+          "nominalIn": 0.2874
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 46.85,
+          "nominalIn": 1.8446
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 55.1,
+          "nominalIn": 2.1693
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 64.74,
+          "nominalIn": 2.5488
+        },
+        "trimLengthMm": 64.4906,
+        "trimLengthIn": 2.539,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17.5,
+          "includedAngleDegrees": 35
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 84,
+        "nominalOverflowCapacityH2oGrams": 5.4431,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.5278,
+        "bulletDiameterIn": 0.257,
+        "boreDiameterLandMm": 6.35,
+        "boreDiameterLandIn": 0.25,
+        "grooveDiameterMm": 6.5278,
+        "grooveDiameterIn": 0.257,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.378,
+        "freeboreLengthMm": 9.601,
+        "freeboreDiameterIn": 0.2575,
+        "freeboreDiameterMm": 6.54
+      }
     },
     {
       "id": "CTG_260REM_N2HB",
@@ -292,7 +1722,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.6648,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 60000,
+          "maxPressurePa": 413685437.59,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4137,
+          "maxPressurePa": 413685437.59,
+          "referenceSource": "C.I.P. TDCC Sheet 260 Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.44,
+          "nominalIn": 0.2929
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.44,
+          "nominalIn": 0.2929
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 37.86,
+          "nominalIn": 1.4906
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.48,
+          "nominalIn": 1.7118
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.69,
+          "nominalIn": 2.035
+        },
+        "trimLengthMm": 51.434999999999995,
+        "trimLengthIn": 2.025,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20,
+          "includedAngleDegrees": 40
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 53.47,
+        "nominalOverflowCapacityH2oGrams": 3.4651,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.059,
+        "freeboreLengthMm": 1.499,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_270WSM_N2HC",
@@ -309,7 +1849,117 @@
       "bodyDiameterMm": 14.1,
       "transducerScaleFactor": 0.69227,
       "bulletDiameterMm": 7.0358,
-      "boreDiameterMm": 6.858
+      "boreDiameterMm": 6.858,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 270 WSM"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.59,
+          "nominalIn": 0.535
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 14.1,
+          "nominalIn": 0.5551
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.67,
+          "nominalIn": 0.5382
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.98,
+          "nominalIn": 0.3142
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.98,
+          "nominalIn": 0.3142
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 40.69,
+          "nominalIn": 1.6018
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 44.75,
+          "nominalIn": 1.7618
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 53.34,
+          "nominalIn": 2.1
+        },
+        "trimLengthMm": 53.08599999999999,
+        "trimLengthIn": 2.09,
+        "shoulderAngle": {
+          "halfAngleDegrees": 35,
+          "includedAngleDegrees": 70
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 72.8,
+        "nominalOverflowCapacityH2oGrams": 4.7174,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.0358,
+        "bulletDiameterIn": 0.277,
+        "boreDiameterLandMm": 6.858,
+        "boreDiameterLandIn": 0.27,
+        "grooveDiameterMm": 7.0358,
+        "grooveDiameterIn": 0.277,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.088,
+        "freeboreLengthMm": 2.235,
+        "freeboreDiameterIn": 0.2775,
+        "freeboreDiameterMm": 7.049
+      }
     },
     {
       "id": "CTG_270WIN_cU62",
@@ -326,7 +1976,117 @@
       "bodyDiameterMm": 11.94,
       "transducerScaleFactor": 0.73795,
       "bulletDiameterMm": 7.0358,
-      "boreDiameterMm": 6.858
+      "boreDiameterMm": 6.858,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 270 Winchester"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.94,
+          "nominalIn": 0.4701
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.82,
+          "nominalIn": 0.3079
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.82,
+          "nominalIn": 0.3079
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 47.52,
+          "nominalIn": 1.8709
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 52.88,
+          "nominalIn": 2.0819
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 64.52,
+          "nominalIn": 2.5402
+        },
+        "trimLengthMm": 64.26199999999999,
+        "trimLengthIn": 2.53,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17.5,
+          "includedAngleDegrees": 35
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 67,
+        "nominalOverflowCapacityH2oGrams": 4.3415,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.0358,
+        "bulletDiameterIn": 0.277,
+        "boreDiameterLandMm": 6.858,
+        "boreDiameterLandIn": 0.27,
+        "grooveDiameterMm": 7.0358,
+        "grooveDiameterIn": 0.277,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.084,
+        "freeboreLengthMm": 2.134,
+        "freeboreDiameterIn": 0.2775,
+        "freeboreDiameterMm": 7.049
+      }
     },
     {
       "id": "CTG_280AI_cA52",
@@ -343,7 +2103,117 @@
       "bodyDiameterMm": 11.94,
       "transducerScaleFactor": 0.71585,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 280 Ackley Improved"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.94,
+          "nominalIn": 0.4701
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.08,
+          "nominalIn": 0.3181
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.08,
+          "nominalIn": 0.3181
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 50.64,
+          "nominalIn": 1.9939
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 52.7,
+          "nominalIn": 2.0748
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 64.13,
+          "nominalIn": 2.5248
+        },
+        "trimLengthMm": 63.881,
+        "trimLengthIn": 2.515,
+        "shoulderAngle": {
+          "halfAngleDegrees": 40,
+          "includedAngleDegrees": 80
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 70.75,
+        "nominalOverflowCapacityH2oGrams": 4.5845,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.09,
+        "freeboreLengthMm": 2.286,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_284WIN_cW92",
@@ -360,7 +2230,117 @@
       "bodyDiameterMm": 12.72,
       "transducerScaleFactor": 0.57283,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 56000,
+          "maxPressurePa": 386106408.42,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3861,
+          "maxPressurePa": 386106408.42,
+          "referenceSource": "C.I.P. TDCC Sheet 284 Winchester"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 12.72,
+          "nominalIn": 0.5008
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.07,
+          "nominalIn": 0.4752
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.13,
+          "nominalIn": 0.3201
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.13,
+          "nominalIn": 0.3201
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 41.13,
+          "nominalIn": 1.6192
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.94,
+          "nominalIn": 1.7299
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 55.12,
+          "nominalIn": 2.1701
+        },
+        "trimLengthMm": 54.864,
+        "trimLengthIn": 2.16,
+        "shoulderAngle": {
+          "halfAngleDegrees": 35,
+          "includedAngleDegrees": 70
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 65.8,
+        "nominalOverflowCapacityH2oGrams": 4.2638,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.065,
+        "freeboreLengthMm": 1.651,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_3006_cE12",
@@ -377,7 +2357,117 @@
       "bodyDiameterMm": 11.94,
       "transducerScaleFactor": 0.73877,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 60000,
+          "maxPressurePa": 413685437.59,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4137,
+          "maxPressurePa": 413685437.59,
+          "referenceSource": "C.I.P. TDCC Sheet 30-06 Springfield"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.94,
+          "nominalIn": 0.4701
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.64,
+          "nominalIn": 0.3402
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.64,
+          "nominalIn": 0.3402
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 48.82,
+          "nominalIn": 1.9221
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 52.88,
+          "nominalIn": 2.0819
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 63.35,
+          "nominalIn": 2.4941
+        },
+        "trimLengthMm": 63.093599999999995,
+        "trimLengthIn": 2.484,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17.5,
+          "includedAngleDegrees": 35
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 68.1,
+        "nominalOverflowCapacityH2oGrams": 4.4128,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.087,
+        "freeboreLengthMm": 2.21,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_3030_N3HG",
@@ -394,7 +2484,117 @@
       "bodyDiameterMm": 10.72,
       "transducerScaleFactor": 0.61562,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 42000,
+          "maxPressurePa": 289579806.31,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 2896,
+          "maxPressurePa": 289579806.31,
+          "referenceSource": "C.I.P. TDCC Sheet 30-30 Winchester"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.85,
+          "nominalIn": 0.5059
+        },
+        "rimThickness": {
+          "nominalMm": 1.6,
+          "nominalIn": 0.063
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 0,
+          "nominalIn": 0
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0,
+          "nominalIn": 0
+        },
+        "baseDiameterP1": {
+          "nominalMm": 10.72,
+          "nominalIn": 0.422
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 10.18,
+          "nominalIn": 0.4008
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.4,
+          "nominalIn": 0.3307
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.4,
+          "nominalIn": 0.3307
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 38.08,
+          "nominalIn": 1.4991
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 41.25,
+          "nominalIn": 1.624
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.79,
+          "nominalIn": 2.039
+        },
+        "trimLengthMm": 51.53659999999999,
+        "trimLengthIn": 2.029,
+        "shoulderAngle": {
+          "halfAngleDegrees": 15.67,
+          "includedAngleDegrees": 31.34
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 45,
+        "nominalOverflowCapacityH2oGrams": 2.916,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.05,
+        "freeboreLengthMm": 1.27,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_300BLK_cI72",
@@ -429,7 +2629,117 @@
       "transducerScaleFactor": 0.83301,
       "throatFreetravelMm": 3.43,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 64000,
+          "maxPressurePa": 441264466.76,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4413,
+          "maxPressurePa": 441264466.76,
+          "referenceSource": "C.I.P. TDCC Sheet 300 Norma Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 14.93,
+          "nominalIn": 0.5878
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 12.9,
+          "nominalIn": 0.5079
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1.1,
+          "nominalIn": 0.0433
+        },
+        "baseDiameterP1": {
+          "nominalMm": 14.93,
+          "nominalIn": 0.5878
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 14.5,
+          "nominalIn": 0.5709
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.6,
+          "nominalIn": 0.3386
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.6,
+          "nominalIn": 0.3386
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 45.77,
+          "nominalIn": 1.8021
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 52.1,
+          "nominalIn": 2.0512
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 63.3,
+          "nominalIn": 2.4921
+        },
+        "trimLengthMm": 63.0428,
+        "trimLengthIn": 2.482,
+        "shoulderAngle": {
+          "halfAngleDegrees": 25,
+          "includedAngleDegrees": 50
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 103.83,
+        "nominalOverflowCapacityH2oGrams": 6.7283,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.135,
+        "freeboreLengthMm": 3.429,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_300PRC_cK02",
@@ -446,7 +2756,117 @@
       "bodyDiameterMm": 13.51,
       "transducerScaleFactor": 0.78414,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 300 PRC"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.08,
+          "nominalIn": 0.515
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.61,
+          "nominalIn": 0.339
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.61,
+          "nominalIn": 0.339
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 50.11,
+          "nominalIn": 1.9728
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 53.98,
+          "nominalIn": 2.1252
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 65.53,
+          "nominalIn": 2.5799
+        },
+        "trimLengthMm": 65.27799999999999,
+        "trimLengthIn": 2.57,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 96.45,
+        "nominalOverflowCapacityH2oGrams": 6.2499,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.238,
+        "freeboreLengthMm": 6.045,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_300WSM_N3HH",
@@ -463,7 +2883,117 @@
       "bodyDiameterMm": 14.1,
       "transducerScaleFactor": 0.77372,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 300 WSM"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.59,
+          "nominalIn": 0.535
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 14.1,
+          "nominalIn": 0.5551
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.67,
+          "nominalIn": 0.5382
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.7,
+          "nominalIn": 0.3425
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.7,
+          "nominalIn": 0.3425
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 41.2,
+          "nominalIn": 1.6221
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 44.75,
+          "nominalIn": 1.7618
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 53.34,
+          "nominalIn": 2.1
+        },
+        "trimLengthMm": 53.08599999999999,
+        "trimLengthIn": 2.09,
+        "shoulderAngle": {
+          "halfAngleDegrees": 35,
+          "includedAngleDegrees": 70
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 79.62,
+        "nominalOverflowCapacityH2oGrams": 5.1596,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.098,
+        "freeboreLengthMm": 2.489,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_300WBYMAG_cN75",
@@ -480,7 +3010,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.68983,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 300 Weatherby Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.5,
+          "nominalIn": 0.5315
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.5,
+          "nominalIn": 0.4921
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.6,
+          "nominalIn": 0.3386
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.6,
+          "nominalIn": 0.3386
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 55.02,
+          "nominalIn": 2.166
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 61.2,
+          "nominalIn": 2.4094
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 71.76,
+          "nominalIn": 2.8252
+        },
+        "trimLengthMm": 71.498,
+        "trimLengthIn": 2.8149,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17.5,
+          "includedAngleDegrees": 35
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 98,
+        "nominalOverflowCapacityH2oGrams": 6.35,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.361,
+        "freeboreLengthMm": 9.169,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_300WINMAG_cG42",
@@ -497,7 +3137,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.76105,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 64000,
+          "maxPressurePa": 441264466.76,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4413,
+          "maxPressurePa": 441264466.76,
+          "referenceSource": "C.I.P. TDCC Sheet 300 Winchester Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.42,
+          "nominalIn": 0.489
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.61,
+          "nominalIn": 0.339
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.61,
+          "nominalIn": 0.339
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 45.57,
+          "nominalIn": 1.7941
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 51.8,
+          "nominalIn": 2.0394
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 66.55,
+          "nominalIn": 2.6201
+        },
+        "trimLengthMm": 66.294,
+        "trimLengthIn": 2.61,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17,
+          "includedAngleDegrees": 34
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 93.45,
+        "nominalOverflowCapacityH2oGrams": 6.0555,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.187,
+        "freeboreLengthMm": 4.75,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_308WIN_cC82",
@@ -514,7 +3264,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.70607,
       "bulletDiameterMm": 7.8232,
-      "boreDiameterMm": 7.62
+      "boreDiameterMm": 7.62,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 308 Winchester"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.72,
+          "nominalIn": 0.3433
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.74,
+          "nominalIn": 0.3441
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 39.62,
+          "nominalIn": 1.5598
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.48,
+          "nominalIn": 1.7118
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.18,
+          "nominalIn": 2.015
+        },
+        "trimLengthMm": 50.92699999999999,
+        "trimLengthIn": 2.005,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20,
+          "includedAngleDegrees": 40
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 55.95,
+        "nominalOverflowCapacityH2oGrams": 3.6252,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.823199999999999,
+        "bulletDiameterIn": 0.308,
+        "boreDiameterLandMm": 7.619999999999999,
+        "boreDiameterLandIn": 0.3,
+        "grooveDiameterMm": 7.823199999999999,
+        "grooveDiameterIn": 0.308,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.09,
+        "freeboreLengthMm": 2.286,
+        "freeboreDiameterIn": 0.3085,
+        "freeboreDiameterMm": 7.836
+      }
     },
     {
       "id": "CTG_338FED_N3HK",
@@ -531,7 +3391,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.70311,
       "bulletDiameterMm": 8.5852,
-      "boreDiameterMm": 8.382
+      "boreDiameterMm": 8.382,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 338 Federal"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 9.4,
+          "nominalIn": 0.3701
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 9.4,
+          "nominalIn": 0.3701
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 40.55,
+          "nominalIn": 1.5966
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.48,
+          "nominalIn": 1.7118
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.18,
+          "nominalIn": 2.015
+        },
+        "trimLengthMm": 50.92699999999999,
+        "trimLengthIn": 2.005,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20,
+          "includedAngleDegrees": 40
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 55.5,
+        "nominalOverflowCapacityH2oGrams": 3.5963,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 8.5852,
+        "bulletDiameterIn": 0.338,
+        "boreDiameterLandMm": 8.382,
+        "boreDiameterLandIn": 0.33,
+        "grooveDiameterMm": 8.5852,
+        "grooveDiameterIn": 0.338,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.085,
+        "freeboreLengthMm": 2.159,
+        "freeboreDiameterIn": 0.3385,
+        "freeboreDiameterMm": 8.598
+      }
     },
     {
       "id": "CTG_338LAP_cO62",
@@ -549,7 +3519,117 @@
       "transducerScaleFactor": 0.86435,
       "throatFreetravelMm": 3.81,
       "bulletDiameterMm": 8.5852,
-      "boreDiameterMm": 8.382
+      "boreDiameterMm": 8.382,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 68167,
+          "maxPressurePa": 469994920.4,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4700,
+          "maxPressurePa": 469994920.4,
+          "referenceSource": "C.I.P. TDCC Sheet 338 Lapua Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 14.93,
+          "nominalIn": 0.5878
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 12.9,
+          "nominalIn": 0.5079
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1.1,
+          "nominalIn": 0.0433
+        },
+        "baseDiameterP1": {
+          "nominalMm": 14.93,
+          "nominalIn": 0.5878
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.82,
+          "nominalIn": 0.5441
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 9.91,
+          "nominalIn": 0.3902
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 9.91,
+          "nominalIn": 0.3902
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 53.73,
+          "nominalIn": 2.1153
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 59.1,
+          "nominalIn": 2.3268
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 69.19,
+          "nominalIn": 2.724
+        },
+        "trimLengthMm": 68.9356,
+        "trimLengthIn": 2.714,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20,
+          "includedAngleDegrees": 40
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 113.75,
+        "nominalOverflowCapacityH2oGrams": 7.3709,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 8.5852,
+        "bulletDiameterIn": 0.338,
+        "boreDiameterLandMm": 8.382,
+        "boreDiameterLandIn": 0.33,
+        "grooveDiameterMm": 8.5852,
+        "grooveDiameterIn": 0.338,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.15,
+        "freeboreLengthMm": 3.81,
+        "freeboreDiameterIn": 0.3385,
+        "freeboreDiameterMm": 8.598
+      }
     },
     {
       "id": "CTG_338NORMAMAG_cN74",
@@ -565,7 +3645,117 @@
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 14.93,
       "bulletDiameterMm": 8.5852,
-      "boreDiameterMm": 8.382
+      "boreDiameterMm": 8.382,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 64000,
+          "maxPressurePa": 441264466.76,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4413,
+          "maxPressurePa": 441264466.76,
+          "referenceSource": "C.I.P. TDCC Sheet 338 Norma Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 14.93,
+          "nominalIn": 0.5878
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 12.9,
+          "nominalIn": 0.5079
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1.1,
+          "nominalIn": 0.0433
+        },
+        "baseDiameterP1": {
+          "nominalMm": 14.93,
+          "nominalIn": 0.5878
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 14.5,
+          "nominalIn": 0.5709
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 9.4,
+          "nominalIn": 0.3701
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 9.4,
+          "nominalIn": 0.3701
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 46.63,
+          "nominalIn": 1.8359
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 52.1,
+          "nominalIn": 2.0512
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 63.3,
+          "nominalIn": 2.4921
+        },
+        "trimLengthMm": 63.0428,
+        "trimLengthIn": 2.482,
+        "shoulderAngle": {
+          "halfAngleDegrees": 25,
+          "includedAngleDegrees": 50
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 107.25,
+        "nominalOverflowCapacityH2oGrams": 6.9497,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 8.5852,
+        "bulletDiameterIn": 0.338,
+        "boreDiameterLandMm": 8.382,
+        "boreDiameterLandIn": 0.33,
+        "grooveDiameterMm": 8.5852,
+        "grooveDiameterIn": 0.338,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.225,
+        "freeboreLengthMm": 5.715,
+        "freeboreDiameterIn": 0.3385,
+        "freeboreDiameterMm": 8.598
+      }
     },
     {
       "id": "CTG_338WBYRPM_cN73",
@@ -581,7 +3771,117 @@
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 11.99,
       "bulletDiameterMm": 8.5852,
-      "boreDiameterMm": 8.382
+      "boreDiameterMm": 8.382,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 338 Weatherby RPM"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.99,
+          "nominalIn": 0.472
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.45,
+          "nominalIn": 0.4508
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 9.2,
+          "nominalIn": 0.3622
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 9.2,
+          "nominalIn": 0.3622
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 52.59,
+          "nominalIn": 2.0706
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 54.2,
+          "nominalIn": 2.1339
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 65.28,
+          "nominalIn": 2.5701
+        },
+        "trimLengthMm": 65.024,
+        "trimLengthIn": 2.56,
+        "shoulderAngle": {
+          "halfAngleDegrees": 35,
+          "includedAngleDegrees": 70
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 82.5,
+        "nominalOverflowCapacityH2oGrams": 5.3459,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 8.5852,
+        "bulletDiameterIn": 0.338,
+        "boreDiameterLandMm": 8.382,
+        "boreDiameterLandIn": 0.33,
+        "grooveDiameterMm": 8.5852,
+        "grooveDiameterIn": 0.338,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.085,
+        "freeboreLengthMm": 2.159,
+        "freeboreDiameterIn": 0.3385,
+        "freeboreDiameterMm": 8.598
+      }
     },
     {
       "id": "CTG_338WINMAG_cQ92",
@@ -598,7 +3898,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.72266,
       "bulletDiameterMm": 8.5852,
-      "boreDiameterMm": 8.382
+      "boreDiameterMm": 8.382,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 64000,
+          "maxPressurePa": 441264466.76,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4413,
+          "maxPressurePa": 441264466.76,
+          "referenceSource": "C.I.P. TDCC Sheet 338 Winchester Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.47,
+          "nominalIn": 0.4909
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 9.37,
+          "nominalIn": 0.3689
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 9.37,
+          "nominalIn": 0.3689
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 48.08,
+          "nominalIn": 1.8928
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 51.4,
+          "nominalIn": 2.0236
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 63.5,
+          "nominalIn": 2.5
+        },
+        "trimLengthMm": 63.246,
+        "trimLengthIn": 2.49,
+        "shoulderAngle": {
+          "halfAngleDegrees": 25,
+          "includedAngleDegrees": 50
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 85.9,
+        "nominalOverflowCapacityH2oGrams": 5.5662,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 8.5852,
+        "bulletDiameterIn": 0.338,
+        "boreDiameterLandMm": 8.382,
+        "boreDiameterLandIn": 0.33,
+        "grooveDiameterMm": 8.5852,
+        "grooveDiameterIn": 0.338,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.125,
+        "freeboreLengthMm": 3.175,
+        "freeboreDiameterIn": 0.3385,
+        "freeboreDiameterMm": 8.598
+      }
     },
     {
       "id": "CTG_65CM_cN72",
@@ -615,7 +4025,117 @@
       "bodyDiameterMm": 11.95,
       "transducerScaleFactor": 0.65653,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 6.5 Creedmoor"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.95,
+          "nominalIn": 0.4705
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.73,
+          "nominalIn": 0.4618
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.49,
+          "nominalIn": 0.2949
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.49,
+          "nominalIn": 0.2949
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 38.49,
+          "nominalIn": 1.5153
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 42.16,
+          "nominalIn": 1.6598
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 48.77,
+          "nominalIn": 1.9201
+        },
+        "trimLengthMm": 48.514,
+        "trimLengthIn": 1.91,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 51.37,
+        "nominalOverflowCapacityH2oGrams": 3.3285,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.199,
+        "freeboreLengthMm": 5.055,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_65GRN_cS32",
@@ -632,7 +4152,117 @@
       "bodyDiameterMm": 11.2,
       "transducerScaleFactor": 0.57368,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 52000,
+          "maxPressurePa": 358527379.25,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3585,
+          "maxPressurePa": 358527379.25,
+          "referenceSource": "C.I.P. TDCC Sheet 6.5 Grendel"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 9.9,
+          "nominalIn": 0.3898
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.9,
+          "nominalIn": 0.0354
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11,
+          "nominalIn": 0.4331
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.44,
+          "nominalIn": 0.2929
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.44,
+          "nominalIn": 0.2929
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 28.17,
+          "nominalIn": 1.1089
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 31.25,
+          "nominalIn": 1.2303
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 38.61,
+          "nominalIn": 1.5201
+        },
+        "trimLengthMm": 38.354,
+        "trimLengthIn": 1.51,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 35,
+        "nominalOverflowCapacityH2oGrams": 2.268,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.103,
+        "freeboreLengthMm": 2.616,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_65PRC_cP02",
@@ -649,7 +4279,117 @@
       "bodyDiameterMm": 13.51,
       "transducerScaleFactor": 0.60939,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 6.5 PRC"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.08,
+          "nominalIn": 0.515
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.49,
+          "nominalIn": 0.2949
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.49,
+          "nominalIn": 0.2949
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 37.26,
+          "nominalIn": 1.4669
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 42.1,
+          "nominalIn": 1.6575
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.56,
+          "nominalIn": 2.0299
+        },
+        "trimLengthMm": 51.308,
+        "trimLengthIn": 2.02,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 62,
+        "nominalOverflowCapacityH2oGrams": 4.0175,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.188,
+        "freeboreLengthMm": 4.775,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_65284_cN73",
@@ -666,7 +4406,117 @@
       "bodyDiameterMm": 12.72,
       "transducerScaleFactor": 0.69231,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 6.5-284 Norma"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 12.72,
+          "nominalIn": 0.5008
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.07,
+          "nominalIn": 0.4752
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.5,
+          "nominalIn": 0.2953
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.5,
+          "nominalIn": 0.2953
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 40.68,
+          "nominalIn": 1.6014
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.94,
+          "nominalIn": 1.7299
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 55.12,
+          "nominalIn": 2.1701
+        },
+        "trimLengthMm": 54.864,
+        "trimLengthIn": 2.16,
+        "shoulderAngle": {
+          "halfAngleDegrees": 35,
+          "includedAngleDegrees": 70
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 65.75,
+        "nominalOverflowCapacityH2oGrams": 4.2605,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.188,
+        "freeboreLengthMm": 4.775,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_65300WBYMAG_cN73",
@@ -683,7 +4533,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.66657,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 6.5-300 Weatherby Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.5,
+          "nominalIn": 0.5315
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.5,
+          "nominalIn": 0.4921
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.4,
+          "nominalIn": 0.2913
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.4,
+          "nominalIn": 0.2913
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 53.11,
+          "nominalIn": 2.091
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 61.2,
+          "nominalIn": 2.4094
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 71.76,
+          "nominalIn": 2.8252
+        },
+        "trimLengthMm": 71.50099999999999,
+        "trimLengthIn": 2.815,
+        "shoulderAngle": {
+          "halfAngleDegrees": 17.5,
+          "includedAngleDegrees": 35
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 97.5,
+        "nominalOverflowCapacityH2oGrams": 6.3179,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.3,
+        "freeboreLengthMm": 7.62,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_65SWE_N6HA",
@@ -700,7 +4660,117 @@
       "bodyDiameterMm": 12.2,
       "transducerScaleFactor": 0.57707,
       "bulletDiameterMm": 6.7056,
-      "boreDiameterMm": 6.5024
+      "boreDiameterMm": 6.5024,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 51000,
+          "maxPressurePa": 351632621.95,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3516,
+          "maxPressurePa": 351632621.95,
+          "referenceSource": "C.I.P. TDCC Sheet 6.5x55 Swedish"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.2,
+          "nominalIn": 0.4803
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 12.2,
+          "nominalIn": 0.4803
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.6,
+          "nominalIn": 0.2992
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.6,
+          "nominalIn": 0.2992
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 42.43,
+          "nominalIn": 1.6705
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 46.5,
+          "nominalIn": 1.8307
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 54.99,
+          "nominalIn": 2.165
+        },
+        "trimLengthMm": 54.736999999999995,
+        "trimLengthIn": 2.155,
+        "shoulderAngle": {
+          "halfAngleDegrees": 25.6,
+          "includedAngleDegrees": 51.2
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 57.08,
+        "nominalOverflowCapacityH2oGrams": 3.6989,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.7056,
+        "bulletDiameterIn": 0.264,
+        "boreDiameterLandMm": 6.5024,
+        "boreDiameterLandIn": 0.256,
+        "grooveDiameterMm": 6.7056,
+        "grooveDiameterIn": 0.264,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.15,
+        "freeboreLengthMm": 3.81,
+        "freeboreDiameterIn": 0.2645,
+        "freeboreDiameterMm": 6.718
+      }
     },
     {
       "id": "CTG_68WEST_N6HD",
@@ -718,7 +4788,117 @@
       "transducerScaleFactor": 0.75936,
       "throatFreetravelMm": 2.54,
       "bulletDiameterMm": 7.0358,
-      "boreDiameterMm": 6.858
+      "boreDiameterMm": 6.858,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 6.8 Western"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.59,
+          "nominalIn": 0.535
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 14.1,
+          "nominalIn": 0.5551
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.67,
+          "nominalIn": 0.5382
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.8,
+          "nominalIn": 0.3071
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.8,
+          "nominalIn": 0.3071
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 37.91,
+          "nominalIn": 1.4925
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 42.1,
+          "nominalIn": 1.6575
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.31,
+          "nominalIn": 2.0201
+        },
+        "trimLengthMm": 51.053999999999995,
+        "trimLengthIn": 2.01,
+        "shoulderAngle": {
+          "halfAngleDegrees": 35,
+          "includedAngleDegrees": 70
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 73.5,
+        "nominalOverflowCapacityH2oGrams": 4.7627,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.0358,
+        "bulletDiameterIn": 0.277,
+        "boreDiameterLandMm": 6.858,
+        "boreDiameterLandIn": 0.27,
+        "grooveDiameterMm": 7.0358,
+        "grooveDiameterIn": 0.277,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.1,
+        "freeboreLengthMm": 2.54,
+        "freeboreDiameterIn": 0.2775,
+        "freeboreDiameterMm": 7.049
+      }
     },
     {
       "id": "CTG_6ARC_cH92",
@@ -735,7 +4915,117 @@
       "bodyDiameterMm": 11.2,
       "transducerScaleFactor": 0.55037,
       "bulletDiameterMm": 6.1722,
-      "boreDiameterMm": 6.0198
+      "boreDiameterMm": 6.0198,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 6mm ARC"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 9.9,
+          "nominalIn": 0.3898
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.9,
+          "nominalIn": 0.0354
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11,
+          "nominalIn": 0.4331
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.93,
+          "nominalIn": 0.2728
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.93,
+          "nominalIn": 0.2728
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 27.73,
+          "nominalIn": 1.0915
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 31.25,
+          "nominalIn": 1.2303
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 37.85,
+          "nominalIn": 1.4902
+        },
+        "trimLengthMm": 37.592,
+        "trimLengthIn": 1.48,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 34.6,
+        "nominalOverflowCapacityH2oGrams": 2.242,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.172199999999999,
+        "bulletDiameterIn": 0.243,
+        "boreDiameterLandMm": 6.019799999999999,
+        "boreDiameterLandIn": 0.237,
+        "grooveDiameterMm": 6.172199999999999,
+        "grooveDiameterIn": 0.243,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.09,
+        "freeboreLengthMm": 2.286,
+        "freeboreDiameterIn": 0.2435,
+        "freeboreDiameterMm": 6.185
+      }
     },
     {
       "id": "CTG_6BR_cJ12",
@@ -752,7 +5042,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.60404,
       "bulletDiameterMm": 6.1722,
-      "boreDiameterMm": 6.0198
+      "boreDiameterMm": 6.0198,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 60000,
+          "maxPressurePa": 413685437.59,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4137,
+          "maxPressurePa": 413685437.59,
+          "referenceSource": "C.I.P. TDCC Sheet 6mm BR"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.93,
+          "nominalIn": 0.2728
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.93,
+          "nominalIn": 0.2728
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 28.22,
+          "nominalIn": 1.1109
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 32.2,
+          "nominalIn": 1.2677
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 39.62,
+          "nominalIn": 1.5598
+        },
+        "trimLengthMm": 39.37,
+        "trimLengthIn": 1.55,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 38.17,
+        "nominalOverflowCapacityH2oGrams": 2.4732,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.172199999999999,
+        "bulletDiameterIn": 0.243,
+        "boreDiameterLandMm": 6.019799999999999,
+        "boreDiameterLandIn": 0.237,
+        "grooveDiameterMm": 6.172199999999999,
+        "grooveDiameterIn": 0.243,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.094,
+        "freeboreLengthMm": 2.388,
+        "freeboreDiameterIn": 0.2435,
+        "freeboreDiameterMm": 6.185
+      }
     },
     {
       "id": "CTG_6CM_cG62",
@@ -769,7 +5169,117 @@
       "bodyDiameterMm": 11.95,
       "transducerScaleFactor": 0.6542,
       "bulletDiameterMm": 6.1722,
-      "boreDiameterMm": 6.0198
+      "boreDiameterMm": 6.0198,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 62000,
+          "maxPressurePa": 427474952.18,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4275,
+          "maxPressurePa": 427474952.18,
+          "referenceSource": "C.I.P. TDCC Sheet 6mm Creedmoor"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.95,
+          "nominalIn": 0.4705
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.73,
+          "nominalIn": 0.4618
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.93,
+          "nominalIn": 0.2728
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.93,
+          "nominalIn": 0.2728
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 38,
+          "nominalIn": 1.4962
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 42.16,
+          "nominalIn": 1.6598
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 48.77,
+          "nominalIn": 1.9201
+        },
+        "trimLengthMm": 48.514,
+        "trimLengthIn": 1.91,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 51.02,
+        "nominalOverflowCapacityH2oGrams": 3.3058,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.172199999999999,
+        "bulletDiameterIn": 0.243,
+        "boreDiameterLandMm": 6.019799999999999,
+        "boreDiameterLandIn": 0.237,
+        "grooveDiameterMm": 6.172199999999999,
+        "grooveDiameterIn": 0.243,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.183,
+        "freeboreLengthMm": 4.648,
+        "freeboreDiameterIn": 0.2435,
+        "freeboreDiameterMm": 6.185
+      }
     },
     {
       "id": "CTG_6PPC_cJ12",
@@ -787,7 +5297,117 @@
       "transducerScaleFactor": 0.63913,
       "throatFreetravelMm": 0.1,
       "bulletDiameterMm": 6.1722,
-      "boreDiameterMm": 6.0198
+      "boreDiameterMm": 6.0198,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 58000,
+          "maxPressurePa": 399895923,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3999,
+          "maxPressurePa": 399895923,
+          "referenceSource": "C.I.P. TDCC Sheet 6mm PPC"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 9.9,
+          "nominalIn": 0.3898
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.9,
+          "nominalIn": 0.0354
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.2,
+          "nominalIn": 0.4409
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11,
+          "nominalIn": 0.4331
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 6.86,
+          "nominalIn": 0.2701
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 6.86,
+          "nominalIn": 0.2701
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 27.21,
+          "nominalIn": 1.0714
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 30.8,
+          "nominalIn": 1.2126
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 38.48,
+          "nominalIn": 1.515
+        },
+        "trimLengthMm": 38.227,
+        "trimLengthIn": 1.505,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 32,
+        "nominalOverflowCapacityH2oGrams": 2.0736,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.172199999999999,
+        "bulletDiameterIn": 0.243,
+        "boreDiameterLandMm": 6.019799999999999,
+        "boreDiameterLandIn": 0.237,
+        "grooveDiameterMm": 6.172199999999999,
+        "grooveDiameterIn": 0.243,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.0039,
+        "freeboreLengthMm": 0.099,
+        "freeboreDiameterIn": 0.2435,
+        "freeboreDiameterMm": 6.185
+      }
     },
     {
       "id": "CTG_6REM_N6H7",
@@ -804,7 +5424,117 @@
       "bodyDiameterMm": 11.99,
       "transducerScaleFactor": 0.67484,
       "bulletDiameterMm": 6.1722,
-      "boreDiameterMm": 6.0198
+      "boreDiameterMm": 6.0198,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 6mm Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.99,
+          "nominalIn": 0.472
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11,
+          "nominalIn": 0.4331
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7,
+          "nominalIn": 0.2756
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7,
+          "nominalIn": 0.2756
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 43.4,
+          "nominalIn": 1.7086
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 47.5,
+          "nominalIn": 1.8701
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 56.72,
+          "nominalIn": 2.2331
+        },
+        "trimLengthMm": 56.46419999999999,
+        "trimLengthIn": 2.223,
+        "shoulderAngle": {
+          "halfAngleDegrees": 26,
+          "includedAngleDegrees": 52
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 55,
+        "nominalOverflowCapacityH2oGrams": 3.5639,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 6.172199999999999,
+        "bulletDiameterIn": 0.243,
+        "boreDiameterLandMm": 6.019799999999999,
+        "boreDiameterLandIn": 0.237,
+        "grooveDiameterMm": 6.172199999999999,
+        "grooveDiameterIn": 0.243,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.075,
+        "freeboreLengthMm": 1.905,
+        "freeboreDiameterIn": 0.2435,
+        "freeboreDiameterMm": 6.185
+      }
     },
     {
       "id": "CTG_7BR_cZ22",
@@ -821,7 +5551,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.54045,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 52000,
+          "maxPressurePa": 358527379.25,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3585,
+          "maxPressurePa": 358527379.25,
+          "referenceSource": "C.I.P. TDCC Sheet 7mm BR Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 7.82,
+          "nominalIn": 0.3079
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 7.82,
+          "nominalIn": 0.3079
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 28.99,
+          "nominalIn": 1.1412
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 32.2,
+          "nominalIn": 1.2677
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 39.62,
+          "nominalIn": 1.5598
+        },
+        "trimLengthMm": 38.354,
+        "trimLengthIn": 1.51,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Small Rifle",
+        "diameterMm": {
+          "min": 4.394,
+          "max": 4.432,
+          "minIn": 0.173,
+          "maxIn": 0.1745
+        },
+        "depthMm": {
+          "min": 2.972,
+          "max": 3.124,
+          "minIn": 0.117,
+          "maxIn": 0.123
+        },
+        "flashHoleDiameterMm": 1.6,
+        "flashHoleDiameterIn": 0.063
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 36.5,
+        "nominalOverflowCapacityH2oGrams": 2.3652,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.05,
+        "freeboreLengthMm": 1.27,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_7PRC_N7HE",
@@ -839,7 +5679,117 @@
       "transducerScaleFactor": 0.72819,
       "throatFreetravelMm": 1.52,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 7mm PRC"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.08,
+          "nominalIn": 0.515
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 45.8,
+          "nominalIn": 1.8032
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 50.2,
+          "nominalIn": 1.9764
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 58,
+          "nominalIn": 2.2835
+        },
+        "trimLengthMm": 57.657999999999994,
+        "trimLengthIn": 2.27,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 80.93,
+        "nominalOverflowCapacityH2oGrams": 5.2444,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.233,
+        "freeboreLengthMm": 5.918,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_7RUM_cW92",
@@ -855,7 +5805,117 @@
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.97,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 7mm RUM"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.59,
+          "nominalIn": 0.535
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.9,
+          "nominalIn": 0.4685
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.97,
+          "nominalIn": 0.55
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 13.4,
+          "nominalIn": 0.5276
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 59.52,
+          "nominalIn": 2.3434
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 64.2,
+          "nominalIn": 2.5276
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 72.4,
+          "nominalIn": 2.8504
+        },
+        "trimLengthMm": 72.136,
+        "trimLengthIn": 2.84,
+        "shoulderAngle": {
+          "halfAngleDegrees": 30,
+          "includedAngleDegrees": 60
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 109.9,
+        "nominalOverflowCapacityH2oGrams": 7.1214,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.165,
+        "freeboreLengthMm": 4.191,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_7REMMAG_cW92",
@@ -872,7 +5932,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.69397,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 61000,
+          "maxPressurePa": 420580194.88,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4206,
+          "maxPressurePa": 420580194.88,
+          "referenceSource": "C.I.P. TDCC Sheet 7mm Remington Magnum"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.47,
+          "nominalIn": 0.4909
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 49.71,
+          "nominalIn": 1.957
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 54.5,
+          "nominalIn": 2.1457
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 63.5,
+          "nominalIn": 2.5
+        },
+        "trimLengthMm": 63.246,
+        "trimLengthIn": 2.49,
+        "shoulderAngle": {
+          "halfAngleDegrees": 25,
+          "includedAngleDegrees": 50
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 82,
+        "nominalOverflowCapacityH2oGrams": 5.3135,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.167,
+        "freeboreLengthMm": 4.242,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_7STW_cW92",
@@ -889,7 +6059,117 @@
       "bodyDiameterMm": 13.03,
       "transducerScaleFactor": 0.63616,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 65000,
+          "maxPressurePa": 448159224.06,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4482,
+          "maxPressurePa": 448159224.06,
+          "referenceSource": "C.I.P. TDCC Sheet 7mm STW"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 13.51,
+          "nominalIn": 0.5319
+        },
+        "rimThickness": {
+          "nominalMm": 1.22,
+          "nominalIn": 0.048
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 11.5,
+          "nominalIn": 0.4528
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 1,
+          "nominalIn": 0.0394
+        },
+        "baseDiameterP1": {
+          "nominalMm": 13.03,
+          "nominalIn": 0.513
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 12.42,
+          "nominalIn": 0.489
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 59.46,
+          "nominalIn": 2.341
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 64.2,
+          "nominalIn": 2.5276
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 72.4,
+          "nominalIn": 2.8504
+        },
+        "trimLengthMm": 72.136,
+        "trimLengthIn": 2.84,
+        "shoulderAngle": {
+          "halfAngleDegrees": 25,
+          "includedAngleDegrees": 50
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 97.4,
+        "nominalOverflowCapacityH2oGrams": 6.3114,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.165,
+        "freeboreLengthMm": 4.191,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_7MM08_cZ22",
@@ -906,7 +6186,117 @@
       "bodyDiameterMm": 11.96,
       "transducerScaleFactor": 0.58096,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 61000,
+          "maxPressurePa": 420580194.88,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4206,
+          "maxPressurePa": 420580194.88,
+          "referenceSource": "C.I.P. TDCC Sheet 7mm-08 Remington"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.01,
+          "nominalIn": 0.4728
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.96,
+          "nominalIn": 0.4709
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11.53,
+          "nominalIn": 0.4539
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8,
+          "nominalIn": 0.315
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 38.63,
+          "nominalIn": 1.5209
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 43.48,
+          "nominalIn": 1.7118
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 51.18,
+          "nominalIn": 2.015
+        },
+        "trimLengthMm": 51.434999999999995,
+        "trimLengthIn": 2.025,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20,
+          "includedAngleDegrees": 40
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 52.77,
+        "nominalOverflowCapacityH2oGrams": 3.4192,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.087,
+        "freeboreLengthMm": 2.21,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     },
     {
       "id": "CTG_7MAU_N7HF",
@@ -923,7 +6313,117 @@
       "bodyDiameterMm": 11.99,
       "transducerScaleFactor": 0.64598,
       "bulletDiameterMm": 7.2136,
-      "boreDiameterMm": 7.0358
+      "boreDiameterMm": 7.0358,
+      "standards": {
+        "saami": {
+          "maxPressurePsi": 51000,
+          "maxPressurePa": 351632621.95,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3516,
+          "maxPressurePa": 351632621.95,
+          "referenceSource": "C.I.P. TDCC Sheet 7x57 Mauser"
+        }
+      },
+      "externalDimensions": {
+        "unit": "millimeters",
+        "rimDiameter": {
+          "nominalMm": 12.1,
+          "nominalIn": 0.4764
+        },
+        "rimThickness": {
+          "nominalMm": 1.37,
+          "nominalIn": 0.0539
+        },
+        "extractorGrooveDiameter": {
+          "nominalMm": 10.39,
+          "nominalIn": 0.4091
+        },
+        "extractorGrooveWidth": {
+          "nominalMm": 0.99,
+          "nominalIn": 0.039
+        },
+        "baseDiameterP1": {
+          "nominalMm": 11.99,
+          "nominalIn": 0.472
+        },
+        "bodyDiameterAtShoulderP2": {
+          "nominalMm": 11,
+          "nominalIn": 0.4331
+        },
+        "shoulderNeckJunctionDiameterH1": {
+          "nominalMm": 8.2,
+          "nominalIn": 0.3228
+        },
+        "neckDiameterAtMouthH2": {
+          "nominalMm": 8.2,
+          "nominalIn": 0.3228
+        },
+        "lengthToShoulderStartL1": {
+          "nominalMm": 43.8,
+          "nominalIn": 1.7246
+        },
+        "lengthToShoulderNeckJunctionL2": {
+          "nominalMm": 47.5,
+          "nominalIn": 1.8701
+        },
+        "totalCaseLengthL3": {
+          "nominalMm": 57,
+          "nominalIn": 2.2441
+        },
+        "trimLengthMm": 56.515,
+        "trimLengthIn": 2.225,
+        "shoulderAngle": {
+          "halfAngleDegrees": 20.75,
+          "includedAngleDegrees": 41.5
+        }
+      },
+      "primerPocket": {
+        "type": "Large Rifle",
+        "diameterMm": {
+          "min": 5.296,
+          "max": 5.334,
+          "minIn": 0.2085,
+          "maxIn": 0.21
+        },
+        "depthMm": {
+          "min": 3.175,
+          "max": 3.353,
+          "minIn": 0.125,
+          "maxIn": 0.132
+        },
+        "flashHoleDiameterMm": 2.03,
+        "flashHoleDiameterIn": 0.0799
+      },
+      "internalVolumeAndCapacity": {
+        "nominalOverflowCapacityH2oGrains": 57,
+        "nominalOverflowCapacityH2oGrams": 3.6935,
+        "brandSpecificOverflowCapacitiesGrains": {}
+      },
+      "wallThicknessProfile": {
+        "description": "Approximate thickness values based on cross-sectional measurements of standard match-grade brass cases",
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
+      },
+      "boreAndChamberSpec": {
+        "bulletDiameterMm": 7.213599999999999,
+        "bulletDiameterIn": 0.284,
+        "boreDiameterLandMm": 7.0358,
+        "boreDiameterLandIn": 0.277,
+        "grooveDiameterMm": 7.213599999999999,
+        "grooveDiameterIn": 0.284,
+        "standardTwistMm": 254,
+        "standardTwistIn": 10,
+        "freeboreLengthIn": 0.15,
+        "freeboreLengthMm": 3.81,
+        "freeboreDiameterIn": 0.2845,
+        "freeboreDiameterMm": 7.226
+      }
     }
   ],
   "powders": [
@@ -944,7 +6444,8 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 986,
       "combustionEfficiency": 0.9534,
-      "burnExponent": 0.5503
+      "burnExponent": 0.5503,
+      "burnRateTempCoeffPerC": 0.0019
     },
     {
       "id": "PWD_ACCU_2520_R1A7",
@@ -1151,7 +6652,8 @@
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 980,
       "combustionEfficiency": 0.8712,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "burnRateTempCoeffPerC": 0.002
     },
     {
       "id": "PWD_HODG_H1000_H1G5",
@@ -1509,7 +7011,8 @@
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 960,
       "combustionEfficiency": 0.9878,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "burnRateTempCoeffPerC": 0.0003
     },
     {
       "id": "PWD_RAMS_BIGGAME_R1A2",
@@ -12522,7 +18025,7 @@
     },
     {
       "id": "BUL_BERGER_284_184_0_MFHT",
-      "name": "7 MM 184 F‐Open Hybrid Target",
+      "name": "7 MM 184 F\u2010Open Hybrid Target",
       "diameterId": "DIA_284_S3F6",
       "physis": {
         "weightGrams": 11.9229994,
@@ -18132,7 +23635,7 @@
       "id": "BUL_SPEER_224_30_TNT_2D07",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -18189,7 +23692,7 @@
       "id": "BUL_SPEER_224_43_TNT_FA1E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -18265,7 +23768,7 @@
       "id": "BUL_SPEER_224_50_TNT_96B4",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -18322,7 +23825,7 @@
       "id": "BUL_SPEER_224_55_TNT_A93F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT® HP",
+      "name": "TNT\u00ae HP",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -18360,7 +23863,7 @@
       "id": "BUL_SPEER_257_87_HC_A9C9",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 20.828,
         "bearingSurfaceMm": null,
@@ -18474,7 +23977,7 @@
       "id": "BUL_SPEER_277_130_HC_A7C0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 26.67,
         "bearingSurfaceMm": null,
@@ -18512,7 +24015,7 @@
       "id": "BUL_SPEER_277_150_SP_59CE",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 29.718,
         "bearingSurfaceMm": null,
@@ -18569,7 +24072,7 @@
       "id": "BUL_SPEER_284_145_HC_DF6E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 28.067,
         "bearingSurfaceMm": null,
@@ -18588,7 +24091,7 @@
       "id": "BUL_SPEER_284_145_SP_48C7",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 28.194,
         "bearingSurfaceMm": null,
@@ -18626,7 +24129,7 @@
       "id": "BUL_SPEER_284_160_HC_BE79",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 31.369,
         "bearingSurfaceMm": null,
@@ -18645,7 +24148,7 @@
       "id": "BUL_SPEER_308_100_SP_3807",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Plinker®\nSPRN",
+      "name": "Plinker\u00ae\nSPRN",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -18702,7 +24205,7 @@
       "id": "BUL_SPEER_308_130_SP_867A",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 21.0566,
         "bearingSurfaceMm": null,
@@ -18740,7 +24243,7 @@
       "id": "BUL_SPEER_308_150_HC_7CE0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": null,
@@ -18759,7 +24262,7 @@
       "id": "BUL_SPEER_308_150_SP_A791",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": null,
@@ -18797,7 +24300,7 @@
       "id": "BUL_SPEER_308_165_SP_EC00",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 27.432,
         "bearingSurfaceMm": null,
@@ -18816,7 +24319,7 @@
       "id": "BUL_SPEER_308_170_SP_2F8F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 28.956,
         "bearingSurfaceMm": null,
@@ -18854,7 +24357,7 @@
       "id": "BUL_SPEER_308_180_SP_55E3",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 29.464,
         "bearingSurfaceMm": null,
@@ -18873,7 +24376,7 @@
       "id": "BUL_SPEER_308_200_HC_0958",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 32.258,
         "bearingSurfaceMm": null,
