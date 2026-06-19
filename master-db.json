@@ -1840,7 +1840,7 @@
       "id": "CTG_270WSM_N2HC",
       "name": "270 WSM",
       "diameterId": "DIA_277_K9L0",
-      "baseCapacityH2oGrams": 4.717360648,
+      "baseCapacityH2oGrams": 5.11911387439006,
       "trimLengthMm": 53.08599999999999,
       "maxCaseLengthMm": 53.34,
       "oalMm": 72.64399999999999,
@@ -4019,7 +4019,7 @@
       "id": "CTG_65CM_cN72",
       "name": "6.5 Creedmoor",
       "diameterId": "DIA_264_H8J4",
-      "baseCapacityH2oGrams": 3.328504010333334,
+      "baseCapacityH2oGrams": 3.4019427646263063,
       "trimLengthMm": 48.514,
       "maxCaseLengthMm": 48.767999999999994,
       "oalMm": 71.755,
@@ -5672,7 +5672,7 @@
       "id": "CTG_7PRC_N7HE",
       "name": "7mm PRC",
       "diameterId": "DIA_284_S3F6",
-      "baseCapacityH2oGrams": 5.244391782666665,
+      "baseCapacityH2oGrams": 5.371829622619444,
       "trimLengthMm": 57.657999999999994,
       "maxCaseLengthMm": 57.91199999999999,
       "oalMm": 84.836,
@@ -23112,7 +23112,7 @@
       "id": "BUL_SPEER_224_30_TNT_2D07",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23169,7 +23169,7 @@
       "id": "BUL_SPEER_224_43_TNT_FA1E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23245,7 +23245,7 @@
       "id": "BUL_SPEER_224_50_TNT_96B4",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23302,7 +23302,7 @@
       "id": "BUL_SPEER_224_55_TNT_A93F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT® HP",
+      "name": "TNT\u00ae HP",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23340,7 +23340,7 @@
       "id": "BUL_SPEER_257_87_HC_A9C9",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 20.828,
         "bearingSurfaceMm": null,
@@ -23454,7 +23454,7 @@
       "id": "BUL_SPEER_277_130_HC_A7C0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 26.67,
         "bearingSurfaceMm": null,
@@ -23492,7 +23492,7 @@
       "id": "BUL_SPEER_277_150_SP_59CE",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 29.718,
         "bearingSurfaceMm": null,
@@ -23549,7 +23549,7 @@
       "id": "BUL_SPEER_284_145_HC_DF6E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 28.067,
         "bearingSurfaceMm": null,
@@ -23568,7 +23568,7 @@
       "id": "BUL_SPEER_284_145_SP_48C7",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 28.194,
         "bearingSurfaceMm": null,
@@ -23606,7 +23606,7 @@
       "id": "BUL_SPEER_284_160_HC_BE79",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 31.369,
         "bearingSurfaceMm": null,
@@ -23625,7 +23625,7 @@
       "id": "BUL_SPEER_308_100_SP_3807",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Plinker®\nSPRN",
+      "name": "Plinker\u00ae\nSPRN",
       "physis": {
         "overallLengthMm": null,
         "bearingSurfaceMm": null,
@@ -23682,7 +23682,7 @@
       "id": "BUL_SPEER_308_130_SP_867A",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 21.0566,
         "bearingSurfaceMm": null,
@@ -23720,7 +23720,7 @@
       "id": "BUL_SPEER_308_150_HC_7CE0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": null,
@@ -23739,7 +23739,7 @@
       "id": "BUL_SPEER_308_150_SP_A791",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": null,
@@ -23777,7 +23777,7 @@
       "id": "BUL_SPEER_308_165_SP_EC00",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 27.432,
         "bearingSurfaceMm": null,
@@ -23796,7 +23796,7 @@
       "id": "BUL_SPEER_308_170_SP_2F8F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 28.956,
         "bearingSurfaceMm": null,
@@ -23834,7 +23834,7 @@
       "id": "BUL_SPEER_308_180_SP_55E3",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 29.464,
         "bearingSurfaceMm": null,
@@ -23853,7 +23853,7 @@
       "id": "BUL_SPEER_308_200_HC_0958",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 32.258,
         "bearingSurfaceMm": null,
