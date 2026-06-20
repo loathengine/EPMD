@@ -20188,6 +20188,39 @@
       "advertisedWeightGrains": 155
     },
     {
+      "id": "BUL_SIERRA_308_155_TMK_7755",
+      "manufacturerId": "MAN_SIERRA_S6Y3",
+      "diameterId": "DIA_308_XBM7",
+      "name": "155gr Tipped MatchKing",
+      "sierraPartNum": "7755",
+      "physis": {
+        "overallLengthMm": 30.988,
+        "bearingSurfaceMm": null,
+        "engravingPressurePa": 32000000,
+        "weightGrams": 10.043831,
+        "materialType": "MAT_JACKETED_LEAD"
+      },
+      "stability": {
+        "ix": null,
+        "iy": null
+      },
+      "ballistics": {
+        "preferredModel": "G1",
+        "g1BC": 0.519,
+        "g7BC": null,
+        "g1FF": null,
+        "g7FF": null,
+        "sectionalDensity": 0.233,
+        "g1Zones": [
+          {
+            "g1": 0.519,
+            "velocityFps": 1900
+          }
+        ]
+      },
+      "advertisedWeightGrains": 155
+    },
+    {
       "id": "BUL_SIERRA_308_168_HPBT_0ECE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
