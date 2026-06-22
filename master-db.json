@@ -15985,7 +15985,7 @@
     },
     {
       "id": "BUL_SIERRA_243_76_SMK_98K2",
-      "name": "76gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 4.9247172,
@@ -16012,7 +16012,7 @@
     },
     {
       "id": "BUL_SIERRA_277_98_SMK_50TK",
-      "name": "98gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "diameterId": "DIA_277_K9L0",
       "physis": {
         "weightGrams": 6.3502932,
@@ -16039,7 +16039,7 @@
     },
     {
       "id": "BUL_SIERRA_338_175_MATCH_G101",
-      "name": "175gr MatchKing MATCH",
+      "name": "MatchKing MATCH",
       "diameterId": "DIA_338_R7E3",
       "physis": {
         "weightGrams": 11.3398092,
@@ -16891,7 +16891,7 @@
     },
     {
       "id": "BUL_SIERRA_308_150_SMK",
-      "name": "150gr MatchKing",
+      "name": "MatchKing",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 9.7198365,
@@ -17913,33 +17913,6 @@
       "advertisedWeightGrains": 185
     },
     {
-      "id": "BUL_ACME_308_245_245_RNFP",
-      "name": "Coated Cast RNFP",
-      "diameterId": "DIA_308_XBM7",
-      "physis": {
-        "weightGrams": 15.87573,
-        "overallLengthMm": 33.7312,
-        "ogiveLengthMm": 15.7312,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18,
-        "materialType": "MAT_CAST_LEAD",
-        "engravingPressurePa": 12000000
-      },
-      "manufacturerId": "MAN_ACME_CAST",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.694,
-        "g7BC": 0.344,
-        "g1FF": 0.532,
-        "g7FF": 1.072
-      },
-      "advertisedWeightGrains": 245
-    },
-    {
       "id": "BUL_HORNADY_284_162_BTSP",
       "name": "InterLock BTSP",
       "diameterId": "DIA_284_S3F6",
@@ -17994,7 +17967,7 @@
       "id": "BUL_SIERRA_224_40_HRN_1F2C",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "40gr Hornet",
+      "name": "Hornet",
       "sierraPartNum": "1200",
       "physis": {
         "overallLengthMm": 12.446,
@@ -18019,7 +17992,7 @@
       "id": "BUL_SIERRA_224_40_HP_5FB0",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "40gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1385",
       "physis": {
         "overallLengthMm": 14.3256,
@@ -18044,7 +18017,7 @@
       "id": "BUL_SIERRA_224_40_BK_5410",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "40gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1440",
       "physis": {
         "overallLengthMm": 17.1958,
@@ -18069,7 +18042,7 @@
       "id": "BUL_SIERRA_224_45_HRN_2C90",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "45gr Hornet",
+      "name": "Hornet",
       "sierraPartNum": "1210",
       "physis": {
         "overallLengthMm": 13.6398,
@@ -18094,7 +18067,7 @@
       "id": "BUL_SIERRA_224_45_SP_4EE6",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "45gr Pro-Hunter SP",
+      "name": "Pro-Hunter SP",
       "sierraPartNum": "1300",
       "physis": {
         "overallLengthMm": 14.859,
@@ -18119,7 +18092,7 @@
       "id": "BUL_SIERRA_224_45_SPT_0353",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "45gr Varminter Spitzer",
+      "name": "Varminter Spitzer",
       "sierraPartNum": "1310",
       "physis": {
         "overallLengthMm": 15.875,
@@ -18144,7 +18117,7 @@
       "id": "BUL_SIERRA_224_50_SP_8452",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "50gr Pro-Hunter SP",
+      "name": "Pro-Hunter SP",
       "sierraPartNum": "1320",
       "physis": {
         "overallLengthMm": 16.2306,
@@ -18169,7 +18142,7 @@
       "id": "BUL_SIERRA_224_50_SPT_EC78",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "50gr Varminter Spitzer",
+      "name": "Varminter Spitzer",
       "sierraPartNum": "1330",
       "physis": {
         "overallLengthMm": 17.3228,
@@ -18194,7 +18167,7 @@
       "id": "BUL_SIERRA_224_50_BK_B8BF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "50gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1340",
       "physis": {
         "overallLengthMm": 16.6624,
@@ -18219,7 +18192,7 @@
       "id": "BUL_SIERRA_224_50_BK_2B3E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "50gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1450",
       "physis": {
         "overallLengthMm": 19.9644,
@@ -18244,7 +18217,7 @@
       "id": "BUL_SIERRA_224_55_FMJBT_6EDA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "55gr GameKing FMJ BT",
+      "name": "GameKing FMJ BT",
       "sierraPartNum": "1355",
       "physis": {
         "overallLengthMm": 19.1008,
@@ -18269,7 +18242,7 @@
       "id": "BUL_SIERRA_224_55_SPT_9877",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "55gr Varminter Spitzer",
+      "name": "Varminter Spitzer",
       "sierraPartNum": "1360",
       "physis": {
         "overallLengthMm": 17.653,
@@ -18294,7 +18267,7 @@
       "id": "BUL_SIERRA_224_55_SBT_CF02",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "55gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1365",
       "physis": {
         "overallLengthMm": 18.3896,
@@ -18319,7 +18292,7 @@
       "id": "BUL_SIERRA_224_55_HPBT_2EBF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "55gr GameKing HPBT",
+      "name": "GameKing HPBT",
       "sierraPartNum": "1390",
       "physis": {
         "overallLengthMm": 18.161,
@@ -18344,7 +18317,7 @@
       "id": "BUL_SIERRA_224_55_BK_CC6A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "55gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1455",
       "physis": {
         "overallLengthMm": 20.8788,
@@ -18369,7 +18342,7 @@
       "id": "BUL_SIERRA_224_60_HP_5023",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "60gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1375",
       "physis": {
         "overallLengthMm": 19.7104,
@@ -18394,7 +18367,7 @@
       "id": "BUL_SIERRA_224_63_SP_3EEE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "63gr Pro-Hunter SP",
+      "name": "Pro-Hunter SP",
       "sierraPartNum": "1370",
       "physis": {
         "overallLengthMm": 19.177,
@@ -18419,7 +18392,7 @@
       "id": "BUL_SIERRA_224_65_SBT_8CC3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "65gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1395",
       "physis": {
         "overallLengthMm": 21.6408,
@@ -18444,7 +18417,7 @@
       "id": "BUL_SIERRA_224_69_HPBT_3274",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "69gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1380",
       "physis": {
         "overallLengthMm": 22.86,
@@ -18469,7 +18442,7 @@
       "id": "BUL_SIERRA_224_77_HPBT_FDBF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "77gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9377",
       "physis": {
         "overallLengthMm": 25.2476,
@@ -18494,7 +18467,7 @@
       "id": "BUL_SIERRA_224_77_SMK_652B",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "77gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9378",
       "physis": {
         "overallLengthMm": 25.2476,
@@ -18520,7 +18493,7 @@
       "id": "BUL_SIERRA_224_80_HPBT_059C",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "80gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9390",
       "physis": {
         "overallLengthMm": 27.0764,
@@ -18545,7 +18518,7 @@
       "id": "BUL_SIERRA_224_90_HPBT_0DEC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "90gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9290",
       "physis": {
         "overallLengthMm": 29.7434,
@@ -18570,7 +18543,7 @@
       "id": "BUL_SIERRA_243_55_BK_F9CE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "55gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1502",
       "physis": {
         "overallLengthMm": 18.9738,
@@ -18595,7 +18568,7 @@
       "id": "BUL_SIERRA_243_60_HP_7D00",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "60gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1500",
       "physis": {
         "overallLengthMm": 18.5928,
@@ -18620,7 +18593,7 @@
       "id": "BUL_SIERRA_243_70_HPBT_B6BA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "70gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1505",
       "physis": {
         "overallLengthMm": 21.1836,
@@ -18645,7 +18618,7 @@
       "id": "BUL_SIERRA_243_70_BK_0D7D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "70gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1507",
       "physis": {
         "overallLengthMm": 22.8092,
@@ -18670,7 +18643,7 @@
       "id": "BUL_SIERRA_243_75_HP_4FBB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "75gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1510",
       "physis": {
         "overallLengthMm": 20.701,
@@ -18695,7 +18668,7 @@
       "id": "BUL_SIERRA_243_80_SBT_2159",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "80gr Varminter SBT",
+      "name": "Varminter SBT",
       "sierraPartNum": "1515",
       "physis": {
         "overallLengthMm": 22.7076,
@@ -18720,7 +18693,7 @@
       "id": "BUL_SIERRA_243_85_SPT_AC1E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "85gr Varminter Spitzer",
+      "name": "Varminter Spitzer",
       "sierraPartNum": "1520",
       "physis": {
         "overallLengthMm": 22.9362,
@@ -18745,7 +18718,7 @@
       "id": "BUL_SIERRA_243_85_HPBT_E404",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "85gr GameKing HPBT",
+      "name": "GameKing HPBT",
       "sierraPartNum": "1530",
       "physis": {
         "overallLengthMm": 23.7236,
@@ -18770,7 +18743,7 @@
       "id": "BUL_SIERRA_257_90_HPBT_98EC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "90gr GameKing HPBT",
+      "name": "GameKing HPBT",
       "sierraPartNum": "1615",
       "physis": {
         "overallLengthMm": 22.606,
@@ -18795,7 +18768,7 @@
       "id": "BUL_SIERRA_257_90_BK_5785",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "90gr BlitzKing",
+      "name": "BlitzKing",
       "sierraPartNum": "1616",
       "physis": {
         "overallLengthMm": 27.2034,
@@ -18820,7 +18793,7 @@
       "id": "BUL_SIERRA_257_100_SPT_F1DE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "100gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1620",
       "physis": {
         "overallLengthMm": 24.638,
@@ -18845,7 +18818,7 @@
       "id": "BUL_SIERRA_257_100_SBT_A5CC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "100gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1625",
       "physis": {
         "overallLengthMm": 25.1714,
@@ -18870,7 +18843,7 @@
       "id": "BUL_SIERRA_257_100_HPBT_BF72",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "100gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1628",
       "physis": {
         "overallLengthMm": 27.5844,
@@ -18895,7 +18868,7 @@
       "id": "BUL_SIERRA_257_117_SBT_226D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "117gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1630",
       "physis": {
         "overallLengthMm": 28.3464,
@@ -18920,7 +18893,7 @@
       "id": "BUL_SIERRA_257_117_SPT_17FE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "117gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1640",
       "physis": {
         "overallLengthMm": 27.432,
@@ -18945,7 +18918,7 @@
       "id": "BUL_SIERRA_257_120_HPBT_18D3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_257_N2M1",
-      "name": "120gr GameKing HPBT",
+      "name": "GameKing HPBT",
       "sierraPartNum": "1650",
       "physis": {
         "overallLengthMm": 29.718,
@@ -18970,7 +18943,7 @@
       "id": "BUL_SIERRA_264_85_HP_DA15",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "85gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1700",
       "physis": {
         "overallLengthMm": 21.0312,
@@ -18995,7 +18968,7 @@
       "id": "BUL_SIERRA_264_100_HP_490F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "100gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1710",
       "physis": {
         "overallLengthMm": 23.368,
@@ -19020,7 +18993,7 @@
       "id": "BUL_SIERRA_264_107_HPBT_C7E8",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "107gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1715",
       "physis": {
         "overallLengthMm": 32.385,
@@ -19045,7 +19018,7 @@
       "id": "BUL_SIERRA_264_120_SPT_AC97",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "120gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1720",
       "physis": {
         "overallLengthMm": 27.4066,
@@ -19070,7 +19043,7 @@
       "id": "BUL_SIERRA_264_120_HPBT_4C28",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "120gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1725",
       "physis": {
         "overallLengthMm": 29.972,
@@ -19095,7 +19068,7 @@
       "id": "BUL_SIERRA_264_123_HPBT_16EB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "123gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1727",
       "physis": {
         "overallLengthMm": 32.893,
@@ -19120,7 +19093,7 @@
       "id": "BUL_SIERRA_264_140_SBT_A5ED",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "140gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1730",
       "physis": {
         "overallLengthMm": 32.0548,
@@ -19145,7 +19118,7 @@
       "id": "BUL_SIERRA_264_140_HPBT_5322",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "140gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1740",
       "physis": {
         "overallLengthMm": 33.274,
@@ -19170,7 +19143,7 @@
       "id": "BUL_SIERRA_264_142_HPBT_7470",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "142gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1742",
       "physis": {
         "overallLengthMm": 34.925,
@@ -19195,7 +19168,7 @@
       "id": "BUL_SIERRA_264_155_HPBT_E8FA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "155gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9570",
       "physis": {
         "overallLengthMm": 36.83,
@@ -19220,7 +19193,7 @@
       "id": "BUL_SIERRA_264_160_UNK_68F6",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_264_H8J4",
-      "name": "160gr Pro-Hunter",
+      "name": "Pro-Hunter",
       "sierraPartNum": "1750",
       "physis": {
         "overallLengthMm": 31.75,
@@ -19245,7 +19218,7 @@
       "id": "BUL_SIERRA_277_90_HP_FA12",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "90gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1800",
       "physis": {
         "overallLengthMm": 21.6154,
@@ -19270,7 +19243,7 @@
       "id": "BUL_SIERRA_277_110_SPT_1E8A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "110gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1810",
       "physis": {
         "overallLengthMm": 20.32,
@@ -19295,7 +19268,7 @@
       "id": "BUL_SIERRA_277_115_HPBT_837A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "115gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1815",
       "physis": {
         "overallLengthMm": 24.3586,
@@ -19320,7 +19293,7 @@
       "id": "BUL_SIERRA_277_130_SBT_7618",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "130gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1820",
       "physis": {
         "overallLengthMm": 28.702,
@@ -19345,7 +19318,7 @@
       "id": "BUL_SIERRA_277_130_SPT_15EF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "130gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1830",
       "physis": {
         "overallLengthMm": 27.178,
@@ -19370,7 +19343,7 @@
       "id": "BUL_SIERRA_277_135_HPBT_C09A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "135gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1833",
       "physis": {
         "overallLengthMm": 32.004,
@@ -19395,7 +19368,7 @@
       "id": "BUL_SIERRA_277_140_HPBT_50AE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "140gr GameKing HPBT",
+      "name": "GameKing HPBT",
       "sierraPartNum": "1835",
       "physis": {
         "overallLengthMm": 30.226,
@@ -19420,7 +19393,7 @@
       "id": "BUL_SIERRA_277_140_SBT_2523",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "140gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1845",
       "physis": {
         "overallLengthMm": 29.972,
@@ -19445,7 +19418,7 @@
       "id": "BUL_SIERRA_277_150_SBT_4E66",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "150gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1840",
       "physis": {
         "overallLengthMm": 31.75,
@@ -19470,7 +19443,7 @@
       "id": "BUL_SIERRA_277_150_RN_665E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_277_K9L0",
-      "name": "150gr GameKing RN",
+      "name": "GameKing RN",
       "sierraPartNum": "1850",
       "physis": {
         "overallLengthMm": null,
@@ -19495,7 +19468,7 @@
       "id": "BUL_SIERRA_284_100_HP_779F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "100gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "1895",
       "physis": {
         "overallLengthMm": 22.4536,
@@ -19520,7 +19493,7 @@
       "id": "BUL_SIERRA_284_120_SPT_25A2",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "120gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1900",
       "physis": {
         "overallLengthMm": 24.6888,
@@ -19545,7 +19518,7 @@
       "id": "BUL_SIERRA_284_130_HPBT_193A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "130gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1903",
       "physis": {
         "overallLengthMm": 29.972,
@@ -19570,7 +19543,7 @@
       "id": "BUL_SIERRA_284_140_SBT_0795",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "140gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1905",
       "physis": {
         "overallLengthMm": 29.464,
@@ -19595,7 +19568,7 @@
       "id": "BUL_SIERRA_284_140_SPT_41CA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "140gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "1910",
       "physis": {
         "overallLengthMm": 28.448,
@@ -19620,7 +19593,7 @@
       "id": "BUL_SIERRA_284_150_SBT_A5A3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "150gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1913",
       "physis": {
         "overallLengthMm": 30.48,
@@ -19645,7 +19618,7 @@
       "id": "BUL_SIERRA_284_150_HPBT_9F24",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "150gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1915",
       "physis": {
         "overallLengthMm": 31.75,
@@ -19670,7 +19643,7 @@
       "id": "BUL_SIERRA_284_160_SBT_8C78",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "160gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1920",
       "physis": {
         "overallLengthMm": 31.9532,
@@ -19695,7 +19668,7 @@
       "id": "BUL_SIERRA_284_160_HPBT_CDFB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "160gr GameKing HPBT",
+      "name": "GameKing HPBT",
       "sierraPartNum": "1925",
       "physis": {
         "overallLengthMm": 33.274,
@@ -19720,7 +19693,7 @@
       "id": "BUL_SIERRA_284_168_HPBT_D1CF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "168gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1930",
       "physis": {
         "overallLengthMm": 34.671,
@@ -19745,7 +19718,7 @@
       "id": "BUL_SIERRA_284_170_RN_81AF",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "170gr Pro-Hunter RN",
+      "name": "Pro-Hunter RN",
       "sierraPartNum": "1950",
       "physis": {
         "overallLengthMm": 31.115,
@@ -19770,7 +19743,7 @@
       "id": "BUL_SIERRA_284_175_SBT_1868",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "175gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "1940",
       "physis": {
         "overallLengthMm": 35.6362,
@@ -19795,7 +19768,7 @@
       "id": "BUL_SIERRA_284_175_HPBT_3A4F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "175gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1975",
       "physis": {
         "overallLengthMm": 36.9062,
@@ -19820,7 +19793,7 @@
       "id": "BUL_SIERRA_284_180_HPBT_8792",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "180gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "1980",
       "physis": {
         "overallLengthMm": 37.1348,
@@ -19845,7 +19818,7 @@
       "id": "BUL_SIERRA_308_125_HP_30E4",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "125gr MatchKing HP",
+      "name": "MatchKing HP",
       "sierraPartNum": "2020",
       "physis": {
         "overallLengthMm": 18.415,
@@ -19870,7 +19843,7 @@
       "id": "BUL_SIERRA_308_150_UNK_8F9E",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "150gr Pro-Hunter",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2000",
       "physis": {
         "overallLengthMm": 23.0378,
@@ -19895,7 +19868,7 @@
       "id": "BUL_SIERRA_308_170_UNK_B946",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "170gr Pro-Hunter",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2010",
       "physis": {
         "overallLengthMm": 25.2984,
@@ -19920,7 +19893,7 @@
       "id": "BUL_SIERRA_308_110_RN_2B5A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "110gr Pro-Hunter RN",
+      "name": "Pro-Hunter RN",
       "sierraPartNum": "2100",
       "physis": {
         "overallLengthMm": 16.8402,
@@ -19944,7 +19917,7 @@
       "id": "BUL_SIERRA_308_110_FMJ_B8DC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "110gr Pro-Hunter FMJ BT",
+      "name": "Pro-Hunter FMJ BT",
       "sierraPartNum": "2105",
       "physis": {
         "overallLengthMm": 16.8402,
@@ -19968,7 +19941,7 @@
       "id": "BUL_SIERRA_308_110_HP_4780",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "110gr Varminter HP",
+      "name": "Varminter HP",
       "sierraPartNum": "2110",
       "physis": {
         "overallLengthMm": 20.193,
@@ -19992,7 +19965,7 @@
       "id": "BUL_SIERRA_308_125_SPT_7422",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "125gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "2120",
       "physis": {
         "overallLengthMm": 22.3266,
@@ -20017,7 +19990,7 @@
       "id": "BUL_SIERRA_308_135_HPBT_8826",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "135gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2123",
       "physis": {
         "overallLengthMm": 27.2034,
@@ -20042,7 +20015,7 @@
       "id": "BUL_SIERRA_308_150_FMJ_3939",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "150gr GameKing FMJ BT",
+      "name": "GameKing FMJ BT",
       "sierraPartNum": "2115",
       "physis": {
         "overallLengthMm": 28.194,
@@ -20067,7 +20040,7 @@
       "id": "BUL_SIERRA_308_150_SBT_8483",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "150gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "2125",
       "physis": {
         "overallLengthMm": 27.94,
@@ -20092,7 +20065,7 @@
       "id": "BUL_SIERRA_308_150_SPT_AB45",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "150gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "2130",
       "physis": {
         "overallLengthMm": 27.051,
@@ -20117,7 +20090,7 @@
       "id": "BUL_SIERRA_308_150_RN_92E7",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "150gr Pro-Hunter RN",
+      "name": "Pro-Hunter RN",
       "sierraPartNum": "2135",
       "physis": {
         "overallLengthMm": 22.733,
@@ -20141,7 +20114,7 @@
       "id": "BUL_SIERRA_308_150_HPBT_5165",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "150gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2190",
       "physis": {
         "overallLengthMm": 28.194,
@@ -20166,7 +20139,7 @@
       "id": "BUL_SIERRA_308_155_HPBT_D5C8",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "155gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2155",
       "physis": {
         "overallLengthMm": 28.7782,
@@ -20191,7 +20164,7 @@
       "id": "BUL_SIERRA_308_155_TMK_7755",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "155gr Tipped MatchKing",
+      "name": "Tipped MatchKing",
       "sierraPartNum": "7755",
       "physis": {
         "overallLengthMm": 30.988,
@@ -20224,7 +20197,7 @@
       "id": "BUL_SIERRA_308_168_HPBT_0ECE",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "168gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2200",
       "physis": {
         "overallLengthMm": 30.861,
@@ -20249,7 +20222,7 @@
       "id": "BUL_SIERRA_308_175_HPBT_D05D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "175gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2275",
       "physis": {
         "overallLengthMm": 31.496,
@@ -20274,7 +20247,7 @@
       "id": "BUL_SIERRA_308_180_SPT_2A4A",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "180gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "2150",
       "physis": {
         "overallLengthMm": 30.988,
@@ -20299,7 +20272,7 @@
       "id": "BUL_SIERRA_308_180_SBT_53F4",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "180gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "2160",
       "physis": {
         "overallLengthMm": 32.7152,
@@ -20324,7 +20297,7 @@
       "id": "BUL_SIERRA_308_180_RN_EFCA",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "180gr Pro-Hunter RN",
+      "name": "Pro-Hunter RN",
       "sierraPartNum": "2170",
       "physis": {
         "overallLengthMm": 27.7368,
@@ -20349,7 +20322,7 @@
       "id": "BUL_SIERRA_308_180_HPBT_82C3",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "180gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2220",
       "physis": {
         "overallLengthMm": 32.4358,
@@ -20374,7 +20347,7 @@
       "id": "BUL_SIERRA_308_190_HPBT_0F61",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "190gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2210",
       "physis": {
         "overallLengthMm": 34.3662,
@@ -20399,7 +20372,7 @@
       "id": "BUL_SIERRA_308_200_SBT_E2D2",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "200gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "2165",
       "physis": {
         "overallLengthMm": 35.56,
@@ -20424,7 +20397,7 @@
       "id": "BUL_SIERRA_308_200_UNK_2D9D",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "200gr Pro-Hunter",
+      "name": "Pro-Hunter",
       "sierraPartNum": "2230",
       "physis": {
         "overallLengthMm": 32.9438,
@@ -20449,7 +20422,7 @@
       "id": "BUL_SIERRA_308_210_HPBT_D514",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "210gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9240",
       "physis": {
         "overallLengthMm": 37.5412,
@@ -20474,7 +20447,7 @@
       "id": "BUL_SIERRA_308_220_RN_E9A5",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "220gr Pro-Hunter RN",
+      "name": "Pro-Hunter RN",
       "sierraPartNum": "2180",
       "physis": {
         "overallLengthMm": 33.0962,
@@ -20499,7 +20472,7 @@
       "id": "BUL_SIERRA_308_220_HPBT_EDF7",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "220gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2240",
       "physis": {
         "overallLengthMm": 37.8206,
@@ -20524,7 +20497,7 @@
       "id": "BUL_SIERRA_308_240_HPBT_7F23",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "240gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9245",
       "physis": {
         "overallLengthMm": 40.4114,
@@ -20549,7 +20522,7 @@
       "id": "BUL_SIERRA_338_215_SBT_C0E8",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "215gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "2610",
       "physis": {
         "overallLengthMm": 32.3596,
@@ -20574,7 +20547,7 @@
       "id": "BUL_SIERRA_338_225_SPT_90AC",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "225gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "2620",
       "physis": {
         "overallLengthMm": 32.004,
@@ -20599,7 +20572,7 @@
       "id": "BUL_SIERRA_338_250_SBT_0063",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "250gr GameKing SBT",
+      "name": "GameKing SBT",
       "sierraPartNum": "2600",
       "physis": {
         "overallLengthMm": 36.449,
@@ -20624,7 +20597,7 @@
       "id": "BUL_SIERRA_338_250_HPBT_F4C6",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "250gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "2650",
       "physis": {
         "overallLengthMm": 39.497,
@@ -20649,7 +20622,7 @@
       "id": "BUL_SIERRA_338_300_HPBT_B04F",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_338_R7E3",
-      "name": "300gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "9300",
       "physis": {
         "overallLengthMm": 43.18,
@@ -20674,7 +20647,7 @@
       "id": "BUL_SIERRA_243_80_SPT_CF07",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_243_B7V4",
-      "name": "80gr Pro-Hunter Spitzer",
+      "name": "Pro-Hunter Spitzer",
       "sierraPartNum": "7150",
       "physis": {
         "overallLengthMm": 22.7076,
@@ -20699,7 +20672,7 @@
       "id": "BUL_SIERRA_284_130_SPT_0FCB",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_284_S3F6",
-      "name": "130gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "sierraPartNum": "7250",
       "physis": {
         "overallLengthMm": 26.416,
@@ -20724,7 +20697,7 @@
       "id": "BUL_SIERRA_308_135_SPT_800C",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "135gr Varminter Spitzer",
+      "name": "Varminter Spitzer",
       "sierraPartNum": "7350",
       "physis": {
         "overallLengthMm": 24.5618,
@@ -20749,7 +20722,7 @@
       "id": "BUL_SIERRA_308_85_RN_35D2",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_308_XBM7",
-      "name": "85gr Sports Master",
+      "name": "Sports Master",
       "sierraPartNum": "8005",
       "physis": {
         "overallLengthMm": 13.589,
@@ -24931,7 +24904,7 @@
       "id": "BUL_SIERRA_224_52_MK_HPBT",
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "diameterId": "DIA_224_L5X8",
-      "name": "52gr MatchKing HPBT",
+      "name": "MatchKing HPBT",
       "physis": {
         "weightGrams": 3.3695433,
         "overallLengthMm": 18.1102,
@@ -25130,7 +25103,7 @@
     },
     {
       "id": "BUL_SIERRA_308_165_SBT_1B95",
-      "name": "165gr GameKing SBT",
+      "name": "GameKing SBT",
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.69182,
@@ -25410,7 +25383,7 @@
     },
     {
       "id": "BUL_SIERRA_243_95_TMK_3AD1",
-      "name": "95gr Tipped MatchKing",
+      "name": "Tipped MatchKing",
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 6.155896,
@@ -29398,13 +29371,6 @@
       "type": [
         "brass",
         "ammo"
-      ]
-    },
-    {
-      "id": "MAN_ACME_CAST",
-      "name": "ACME Bullet Company",
-      "type": [
-        "bullet"
       ]
     },
     {
