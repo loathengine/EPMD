@@ -18128,10 +18128,12 @@
       "sierraPartNum": "1200",
       "physis": {
         "overallLengthMm": 12.446,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 4.1445,
         "engravingPressurePa": 32000000,
         "weightGrams": 2.5919564,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 5.3015,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.114,
@@ -18210,10 +18212,12 @@
       "sierraPartNum": "1210",
       "physis": {
         "overallLengthMm": 13.6398,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 4.5421,
         "engravingPressurePa": 32000000,
         "weightGrams": 2.915951,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 6.0977,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.128,
@@ -18348,10 +18352,12 @@
       "sierraPartNum": "1340",
       "physis": {
         "overallLengthMm": 16.6624,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 5.0487,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.2399455,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.6137,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.142,
@@ -18402,10 +18408,12 @@
       "sierraPartNum": "1355",
       "physis": {
         "overallLengthMm": 19.1008,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 6.1887,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.5639401,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 8.5121,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -18428,10 +18436,12 @@
       "sierraPartNum": "1360",
       "physis": {
         "overallLengthMm": 17.653,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 6.0373,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.5639401,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.6157,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -18454,10 +18464,12 @@
       "sierraPartNum": "1365",
       "physis": {
         "overallLengthMm": 18.3896,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 5.9582,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.5639401,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 8.0314,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -18564,10 +18576,12 @@
       "sierraPartNum": "1370",
       "physis": {
         "overallLengthMm": 19.177,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 6.5585,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.0823313,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 12.6185,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.179,
@@ -18590,10 +18604,12 @@
       "sierraPartNum": "1395",
       "physis": {
         "overallLengthMm": 21.6408,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 7.0116,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.2119292,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 10.2292,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.185,
@@ -18981,10 +18997,12 @@
       "sierraPartNum": "1615",
       "physis": {
         "overallLengthMm": 22.606,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 7.3243,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.8319019,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 10.8817,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.195,
@@ -19007,10 +19025,12 @@
       "sierraPartNum": "1616",
       "physis": {
         "overallLengthMm": 27.2034,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.2426,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.8319019,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.9608,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.195,
@@ -19033,10 +19053,12 @@
       "sierraPartNum": "1620",
       "physis": {
         "overallLengthMm": 24.638,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.4262,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.2118,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.216,
@@ -19059,10 +19081,12 @@
       "sierraPartNum": "1625",
       "physis": {
         "overallLengthMm": 25.1714,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.1555,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 12.6159,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.216,
@@ -19085,10 +19109,12 @@
       "sierraPartNum": "1628",
       "physis": {
         "overallLengthMm": 27.5844,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.2408,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.7736,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.216,
@@ -19139,10 +19165,12 @@
       "sierraPartNum": "1640",
       "physis": {
         "overallLengthMm": 27.432,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.3817,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.5814725,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.0503,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.253,
@@ -19165,10 +19193,12 @@
       "sierraPartNum": "1650",
       "physis": {
         "overallLengthMm": 29.718,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.6286,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.7758692,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 15.6894,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.26,
@@ -19191,10 +19221,12 @@
       "sierraPartNum": "1700",
       "physis": {
         "overallLengthMm": 21.0312,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 6.9403,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.5079073,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 12.5909,
+        "boatTailLengthMm": 1.5
       },
       "ballistics": {
         "sectionalDensity": 0.174,
@@ -19273,10 +19305,12 @@
       "sierraPartNum": "1720",
       "physis": {
         "overallLengthMm": 27.4066,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.3731,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.7758692,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.0335,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.246,
@@ -19439,10 +19473,12 @@
       "sierraPartNum": "9570",
       "physis": {
         "overallLengthMm": 36.83,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 12.3381,
         "engravingPressurePa": 32000000,
         "weightGrams": 10.043831,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 19.9219,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.318,
@@ -19465,10 +19501,12 @@
       "sierraPartNum": "1750",
       "physis": {
         "overallLengthMm": 31.75,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.8585,
         "engravingPressurePa": 32000000,
         "weightGrams": 10.3678256,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.8915,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.328,
@@ -19491,10 +19529,12 @@
       "sierraPartNum": "1800",
       "physis": {
         "overallLengthMm": 21.6154,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 7.1331,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.8319019,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 12.9823,
+        "boatTailLengthMm": 1.5
       },
       "ballistics": {
         "sectionalDensity": 0.168,
@@ -19517,10 +19557,12 @@
       "sierraPartNum": "1810",
       "physis": {
         "overallLengthMm": 20.32,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 6.9494,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.1278801,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.3706,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.205,
@@ -19599,10 +19641,12 @@
       "sierraPartNum": "1830",
       "physis": {
         "overallLengthMm": 27.178,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.2949,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 17.8831,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -19625,10 +19669,12 @@
       "sierraPartNum": "1833",
       "physis": {
         "overallLengthMm": 32.004,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.7213,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.7478529,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.7127,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.251,
@@ -19651,10 +19697,12 @@
       "sierraPartNum": "1835",
       "physis": {
         "overallLengthMm": 30.226,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.7932,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.0718474,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.0328,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.261,
@@ -19732,11 +19780,13 @@
       "name": "GameKing RN",
       "sierraPartNum": "1850",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 30.734,
+        "bearingSurfaceMm": 9.9578,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.3762,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.279,
@@ -19787,10 +19837,12 @@
       "sierraPartNum": "1900",
       "physis": {
         "overallLengthMm": 24.6888,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.4436,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.7758692,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.2452,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.213,
@@ -19813,10 +19865,12 @@
       "sierraPartNum": "1903",
       "physis": {
         "overallLengthMm": 29.972,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.0406,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 15.3614,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.23,
@@ -19867,10 +19921,12 @@
       "sierraPartNum": "1910",
       "physis": {
         "overallLengthMm": 28.448,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.7292,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.0718474,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.7188,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.248,
@@ -20033,10 +20089,12 @@
       "sierraPartNum": "1950",
       "physis": {
         "overallLengthMm": 31.115,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.6413,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.0158147,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.4737,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -20229,7 +20287,10 @@
         "overallLengthMm": 16.8402,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.1278801,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "bearingSurfaceMm": 5.7593,
+        "ogiveLengthMm": 11.0809,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.166,
@@ -20254,7 +20315,10 @@
         "overallLengthMm": 16.8402,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.1278801,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "bearingSurfaceMm": 5.7593,
+        "ogiveLengthMm": 11.0809,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.166,
@@ -20361,10 +20425,12 @@
       "sierraPartNum": "2115",
       "physis": {
         "overallLengthMm": 28.194,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.1349,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 14.6591,
+        "boatTailLengthMm": 4.4
       },
       "ballistics": {
         "sectionalDensity": 0.226,
@@ -20415,10 +20481,12 @@
       "sierraPartNum": "2130",
       "physis": {
         "overallLengthMm": 27.051,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.2514,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 17.7996,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.226,
@@ -20443,7 +20511,10 @@
         "overallLengthMm": 22.733,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "bearingSurfaceMm": 7.7747,
+        "ogiveLengthMm": 14.9583,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.226,
@@ -20522,10 +20593,12 @@
       "sierraPartNum": "7755",
       "physis": {
         "overallLengthMm": 30.988,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.381,
         "engravingPressurePa": 32000000,
         "weightGrams": 10.043831,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.037,
+        "boatTailLengthMm": 4.57
       },
       "stability": {
         "ix": null,
@@ -20611,10 +20684,12 @@
       "sierraPartNum": "2150",
       "physis": {
         "overallLengthMm": 30.988,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.5979,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.6638038,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.3901,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.271,
@@ -20665,10 +20740,12 @@
       "sierraPartNum": "2170",
       "physis": {
         "overallLengthMm": 27.7368,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.486,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.6638038,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.2508,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.271,
@@ -20775,10 +20852,12 @@
       "sierraPartNum": "2230",
       "physis": {
         "overallLengthMm": 32.9438,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 11.2668,
         "engravingPressurePa": 32000000,
         "weightGrams": 12.959782,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 21.677,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -21081,10 +21160,12 @@
       "sierraPartNum": "7250",
       "physis": {
         "overallLengthMm": 26.416,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.8494,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 12.9966,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.23,
@@ -21107,10 +21188,12 @@
       "sierraPartNum": "7350",
       "physis": {
         "overallLengthMm": 24.5618,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.4001,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.7478529,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.1617,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.203,
@@ -21133,10 +21216,12 @@
       "sierraPartNum": "8005",
       "physis": {
         "overallLengthMm": 13.589,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 4.5251,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.5079073,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 6.0639,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.128,
@@ -21157,11 +21242,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "TNT",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 9.525,
+        "bearingSurfaceMm": 3.0861,
         "engravingPressurePa": 32000000,
         "weightGrams": 1.9439673,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 5.5789,
+        "boatTailLengthMm": 0.86
       },
       "ballistics": {
         "sectionalDensity": 0.085,
@@ -21199,11 +21286,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "TNT",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 12.954,
+        "bearingSurfaceMm": 4.1971,
         "engravingPressurePa": 32000000,
         "weightGrams": 2.7863531,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 7.8969,
+        "boatTailLengthMm": 0.86
       },
       "ballistics": {
         "sectionalDensity": 0.122,
@@ -21242,10 +21331,12 @@
       "name": "Soft Point",
       "physis": {
         "overallLengthMm": 12.2682,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 4.0853,
         "engravingPressurePa": 32000000,
         "weightGrams": 2.9807499,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 5.1829,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.131,
@@ -21261,11 +21352,13 @@
       "diameterId": "DIA_257_N2M1",
       "name": "Spitzer BT",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 24.384,
+        "bearingSurfaceMm": 7.998,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 12.186,
+        "boatTailLengthMm": 4.2
       },
       "ballistics": {
         "sectionalDensity": 0.216,
@@ -21303,11 +21396,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "Spitzer BT",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 32.258,
+        "bearingSurfaceMm": 10.5806,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 17.4774,
+        "boatTailLengthMm": 4.2
       },
       "ballistics": {
         "sectionalDensity": 0.279,
@@ -21323,11 +21418,13 @@
       "diameterId": "DIA_284_S3F6",
       "name": "Spitzer BT",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 28.956,
+        "bearingSurfaceMm": 9.4976,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 15.2584,
+        "boatTailLengthMm": 4.2
       },
       "ballistics": {
         "sectionalDensity": 0.23,
@@ -21343,11 +21440,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "Soft Point",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 17.018,
+        "bearingSurfaceMm": 5.8202,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.1978,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.151,
@@ -21386,10 +21485,12 @@
       "name": "Soft Point",
       "physis": {
         "overallLengthMm": 28.956,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.6423,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.0158147,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.3137,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.256,
@@ -21405,11 +21506,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "Spitzer BT",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 31.496,
+        "bearingSurfaceMm": 10.3307,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.6638038,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.9653,
+        "boatTailLengthMm": 4.2
       },
       "ballistics": {
         "sectionalDensity": 0.271,
@@ -21425,11 +21528,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "Hot-Cor",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 33.147,
+        "bearingSurfaceMm": 11.3363,
         "engravingPressurePa": 32000000,
         "weightGrams": 12.959782,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 21.8107,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -21468,10 +21573,12 @@
       "name": "Varmageddon",
       "physis": {
         "overallLengthMm": 16.891,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 5.3038,
         "engravingPressurePa": 32000000,
         "weightGrams": 2.5919564,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.5872,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.114,
@@ -21487,11 +21594,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "Custom Competition",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 18.161,
+        "bearingSurfaceMm": 6.0839,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.2399455,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 7.5071,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.142,
@@ -21508,11 +21617,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "Varmageddon",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 19.685,
+        "bearingSurfaceMm": 6.1811,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.2399455,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.5039,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.142,
@@ -21551,10 +21662,12 @@
       "name": "Varmageddon",
       "physis": {
         "overallLengthMm": 20.193,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 6.3406,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.5639401,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.8524,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -21637,11 +21750,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "AccuBond",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 25.4,
+        "bearingSurfaceMm": 7.7216,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.5359237,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 15.0184,
+        "boatTailLengthMm": 2.66
       },
       "ballistics": {
         "sectionalDensity": 0.199,
@@ -21657,11 +21772,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "Ballistic Tip LF",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 22.225,
+        "bearingSurfaceMm": 7.3343,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.6007226,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 14.8907,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.201,
@@ -21677,11 +21794,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "Ballistic Tip LF",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 23.368,
+        "bearingSurfaceMm": 7.7114,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.7951193,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 15.6566,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.211,
@@ -21697,11 +21816,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "Expansion Tip",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 24.257,
+        "bearingSurfaceMm": 8.9023,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.7951193,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 11.2747,
+        "boatTailLengthMm": 4.08
       },
       "ballistics": {
         "sectionalDensity": 0.21,
@@ -21717,11 +21838,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "Ballistic Tip LF",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 25.4,
+        "bearingSurfaceMm": 8.382,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.9895161,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 17.018,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.22,
@@ -21738,10 +21861,12 @@
       "name": "RDF",
       "physis": {
         "overallLengthMm": 27.178,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.0503,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.9895161,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 15.1277,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.219,
@@ -21753,36 +21878,18 @@
       "advertisedWeightGrains": 77
     },
     {
-      "id": "BUL_NOSLER_224_77_VMG_0F93",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_224_L5X8",
-      "name": "Varmageddon",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 4.9895161,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.218,
-        "g1BC": 0.157,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 77
-    },
-    {
       "id": "BUL_NOSLER_224_80_BTLF_2A0B",
       "manufacturerId": "MAN_NOSLER_N9K4",
       "diameterId": "DIA_224_L5X8",
       "name": "Ballistic Tip LF",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 26.035,
+        "bearingSurfaceMm": 8.5915,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.1839128,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 17.4435,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.227,
@@ -21814,86 +21921,6 @@
       },
       "isMatchGrade": true,
       "advertisedWeightGrains": 80
-    },
-    {
-      "id": "BUL_NOSLER_224_90_BTV_5706",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_224_L5X8",
-      "name": "Ballistic Tip Varmint",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 5.8319019,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.255,
-        "g1BC": 0.267,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 90
-    },
-    {
-      "id": "BUL_NOSLER_224_90_VMG_9AC9",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_224_L5X8",
-      "name": "Varmageddon",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 5.8319019,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.255,
-        "g1BC": 0.21,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 90
-    },
-    {
-      "id": "BUL_NOSLER_224_106_BTV_3639",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_224_L5X8",
-      "name": "Ballistic Tip Varmint",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 6.8686845,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.303,
-        "g1BC": 0.238,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 106
-    },
-    {
-      "id": "BUL_NOSLER_224_106_VMG_1641",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_224_L5X8",
-      "name": "Varmageddon",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 6.8686845,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.303,
-        "g1BC": 0.192,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 106
     },
     {
       "id": "BUL_NOSLER_243_55_VMG_55F0",
@@ -21945,11 +21972,13 @@
       "diameterId": "DIA_243_B7V4",
       "name": "Ballistic Tip LF",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 25.4,
+        "bearingSurfaceMm": 8.382,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.4431084,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 17.018,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.203,
@@ -22009,11 +22038,13 @@
       "diameterId": "DIA_243_B7V4",
       "name": "Expansion Tip",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 28.575,
+        "bearingSurfaceMm": 10.487,
         "engravingPressurePa": 32000000,
         "weightGrams": 5.8319019,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 14.008,
+        "boatTailLengthMm": 4.08
       },
       "ballistics": {
         "sectionalDensity": 0.218,
@@ -22068,26 +22099,6 @@
       "advertisedWeightGrains": 100
     },
     {
-      "id": "BUL_NOSLER_243_104_BTV_ADC1",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_243_B7V4",
-      "name": "Ballistic Tip Varmint",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 6.7390866,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.252,
-        "g1BC": 0.133,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 104
-    },
-    {
       "id": "BUL_NOSLER_243_115_RDF_12EC",
       "manufacturerId": "MAN_NOSLER_N9K4",
       "diameterId": "DIA_243_B7V4",
@@ -22109,26 +22120,6 @@
       },
       "isMatchGrade": true,
       "advertisedWeightGrains": 115
-    },
-    {
-      "id": "BUL_NOSLER_243_126_BTV_40A0",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_243_B7V4",
-      "name": "Ballistic Tip Varmint",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 8.1646627,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.305,
-        "g1BC": 0.31,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 126
     },
     {
       "id": "BUL_NOSLER_257_85_BTV_982C",
@@ -22313,10 +22304,12 @@
       "name": "Custom Competition",
       "physis": {
         "overallLengthMm": 26.924,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 9.0195,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.3345,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.205,
@@ -22378,10 +22371,12 @@
       "name": "Expansion Tip",
       "physis": {
         "overallLengthMm": 35.56,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 13.0505,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.7758692,
-        "materialType": "MAT_MONOLITHIC_COPPER"
+        "materialType": "MAT_MONOLITHIC_COPPER",
+        "ogiveLengthMm": 18.4295,
+        "boatTailLengthMm": 4.08
       },
       "ballistics": {
         "sectionalDensity": 0.246,
@@ -22398,10 +22393,12 @@
       "name": "Custom Competition",
       "physis": {
         "overallLengthMm": 30.48,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.2108,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.9702659,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 15.6992,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.252,
@@ -22419,10 +22416,12 @@
       "name": "Partition",
       "physis": {
         "overallLengthMm": 29.718,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.431,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.0998638,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.577,
+        "boatTailLengthMm": 0.71
       },
       "ballistics": {
         "sectionalDensity": 0.256,
@@ -22439,10 +22438,12 @@
       "name": "AccuBond",
       "physis": {
         "overallLengthMm": 33.528,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.1925,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.6755,
+        "boatTailLengthMm": 2.66
       },
       "ballistics": {
         "sectionalDensity": 0.266,
@@ -22503,10 +22504,12 @@
       "name": "Custom Competition",
       "physis": {
         "overallLengthMm": 33.274,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 11.1468,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.0718474,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 17.5572,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.287,
@@ -22518,56 +22521,18 @@
       "advertisedWeightGrains": 140
     },
     {
-      "id": "BUL_NOSLER_264_239_BT_9722",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_264_H8J4",
-      "name": "Ballistic Tip",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 15.4869395,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.49,
-        "g1BC": 0.509,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 239
-    },
-    {
-      "id": "BUL_NOSLER_264_258_AB_8C4A",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_264_H8J4",
-      "name": "AccuBond",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 16.7181188,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.529,
-        "g1BC": 0.509,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 258
-    },
-    {
       "id": "BUL_NOSLER_277_100_AB_7FC7",
       "manufacturerId": "MAN_NOSLER_N9K4",
       "diameterId": "DIA_277_K9L0",
       "name": "AccuBond",
       "physis": {
         "overallLengthMm": 28.067,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.5324,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.8746,
+        "boatTailLengthMm": 2.66
       },
       "ballistics": {
         "sectionalDensity": 0.186,
@@ -22584,10 +22549,12 @@
       "name": "AccuBond",
       "physis": {
         "overallLengthMm": 28.067,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 8.5324,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.1278801,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 16.8746,
+        "boatTailLengthMm": 2.66
       },
       "ballistics": {
         "sectionalDensity": 0.205,
@@ -22714,10 +22681,12 @@
       "name": "Partition",
       "physis": {
         "overallLengthMm": 30.353,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.6539,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.0718474,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 18.9891,
+        "boatTailLengthMm": 0.71
       },
       "ballistics": {
         "sectionalDensity": 0.261,
@@ -22734,10 +22703,12 @@
       "name": "AccuBond",
       "physis": {
         "overallLengthMm": 36.2458,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 11.0187,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 22.5671,
+        "boatTailLengthMm": 2.66
       },
       "ballistics": {
         "sectionalDensity": 0.279,
@@ -22754,10 +22725,12 @@
       "name": "Ballistic Silvertip",
       "physis": {
         "overallLengthMm": 34.29,
-        "bearingSurfaceMm": null,
+        "bearingSurfaceMm": 10.6985,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.7198365,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 21.8615,
+        "boatTailLengthMm": 1.73
       },
       "ballistics": {
         "sectionalDensity": 0.279,
@@ -22788,26 +22761,6 @@
         "g1Zones": []
       },
       "advertisedWeightGrains": 150
-    },
-    {
-      "id": "BUL_NOSLER_284_120_BT_21E5",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_284_S3F6",
-      "name": "Ballistic Tip",
-      "physis": {
-        "overallLengthMm": 28.7782,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 7.7758692,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.213,
-        "g1BC": 0.417,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 120
     },
     {
       "id": "BUL_NOSLER_284_140_AB_F79F",
@@ -22947,11 +22900,13 @@
       "diameterId": "DIA_284_S3F6",
       "name": "Custom Competition",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 40.64,
+        "bearingSurfaceMm": 13.6144,
         "engravingPressurePa": 32000000,
         "weightGrams": 10.8862169,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 22.4556,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.298,
@@ -22983,67 +22938,6 @@
         "g1Zones": []
       },
       "advertisedWeightGrains": 175
-    },
-    {
-      "id": "BUL_NOSLER_284_257_ETIP_BD5C",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_284_S3F6",
-      "name": "Expansion Tip",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 16.6533199,
-        "materialType": "MAT_MONOLITHIC_COPPER"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.456,
-        "g1BC": 0.498,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 257
-    },
-    {
-      "id": "BUL_NOSLER_284_293_PT_5A13",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_284_S3F6",
-      "name": "Partition",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 18.9860806,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.519,
-        "g1BC": 0.31,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 293
-    },
-    {
-      "id": "BUL_NOSLER_284_366_ABLR_B688",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_284_S3F6",
-      "name": "AccuBond Long Range",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 23.7164011,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.648,
-        "g1BC": 0.31,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "isMatchGrade": true,
-      "advertisedWeightGrains": 366
     },
     {
       "id": "BUL_NOSLER_308_110_VMG_C92F",
@@ -23489,26 +23383,6 @@
       "advertisedWeightGrains": 200
     },
     {
-      "id": "BUL_NOSLER_308_220_BT_3E5E",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_308_XBM7",
-      "name": "Ballistic Tip",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 14.2557602,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.331,
-        "g1BC": 0.472,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 220
-    },
-    {
       "id": "BUL_NOSLER_308_220_CC_93B2",
       "manufacturerId": "MAN_NOSLER_N9K4",
       "diameterId": "DIA_308_XBM7",
@@ -23530,27 +23404,6 @@
       },
       "isMatchGrade": true,
       "advertisedWeightGrains": 220
-    },
-    {
-      "id": "BUL_NOSLER_308_233_CC_CA28",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_308_XBM7",
-      "name": "Custom Competition",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 15.098146,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.351,
-        "g1BC": 0.69,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "isMatchGrade": true,
-      "advertisedWeightGrains": 233
     },
     {
       "id": "BUL_NOSLER_338_180_AB_C0E4",
@@ -23595,26 +23448,6 @@
         "g1Zones": []
       },
       "advertisedWeightGrains": 200
-    },
-    {
-      "id": "BUL_NOSLER_338_210_AB_5049",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_338_R7E3",
-      "name": "AccuBond",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 13.6077711,
-        "materialType": "MAT_JACKETED_LEAD"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.25,
-        "g1BC": 0.414,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 210
     },
     {
       "id": "BUL_NOSLER_338_210_PT_F9E6",
@@ -23727,76 +23560,18 @@
       "advertisedWeightGrains": 250
     },
     {
-      "id": "BUL_NOSLER_338_320_ETIP_8DDB",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_338_R7E3",
-      "name": "Expansion Tip",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 20.7356512,
-        "materialType": "MAT_MONOLITHIC_COPPER"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.4,
-        "g1BC": 0.425,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 320
-    },
-    {
-      "id": "BUL_NOSLER_338_363_ETIP_38FD",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_338_R7E3",
-      "name": "Expansion Tip",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 23.5220043,
-        "materialType": "MAT_MONOLITHIC_COPPER"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.454,
-        "g1BC": 0.611,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 363
-    },
-    {
-      "id": "BUL_NOSLER_338_378_ETIP_904C",
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "diameterId": "DIA_338_R7E3",
-      "name": "Expansion Tip",
-      "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
-        "engravingPressurePa": 32000000,
-        "weightGrams": 24.493988,
-        "materialType": "MAT_MONOLITHIC_COPPER"
-      },
-      "ballistics": {
-        "sectionalDensity": 0.473,
-        "g1BC": 0.627,
-        "g7BC": null,
-        "g1Zones": []
-      },
-      "advertisedWeightGrains": 378
-    },
-    {
       "id": "BUL_SPEER_224_30_TNT_2D07",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 9.525,
+        "bearingSurfaceMm": 3.0861,
         "engravingPressurePa": 32000000,
         "weightGrams": 1.9439673,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 5.5789,
+        "boatTailLengthMm": 0.86
       },
       "ballistics": {
         "sectionalDensity": 0.085,
@@ -23854,13 +23629,15 @@
       "id": "BUL_SPEER_224_43_TNT_FA1E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 12.954,
+        "bearingSurfaceMm": 4.1971,
         "engravingPressurePa": 32000000,
         "weightGrams": 2.7863531,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 7.8969,
+        "boatTailLengthMm": 0.86
       },
       "ballistics": {
         "sectionalDensity": 0.122,
@@ -23940,13 +23717,15 @@
       "id": "BUL_SPEER_224_50_TNT_96B4",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 15.875,
+        "bearingSurfaceMm": 5.1435,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.2399455,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 9.8715,
+        "boatTailLengthMm": 0.86
       },
       "ballistics": {
         "sectionalDensity": 0.142,
@@ -23962,11 +23741,13 @@
       "diameterId": "DIA_224_L5X8",
       "name": "HP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 17.018,
+        "bearingSurfaceMm": 5.667,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.3695433,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 8.351,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.148,
@@ -24002,13 +23783,15 @@
       "id": "BUL_SPEER_224_55_TNT_A93F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT® HP",
+      "name": "TNT\u00ae HP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 18.669,
+        "bearingSurfaceMm": 6.0488,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.5639401,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.7602,
+        "boatTailLengthMm": 0.86
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -24044,7 +23827,7 @@
       "id": "BUL_SPEER_257_87_HC_A9C9",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 20.828,
         "bearingSurfaceMm": 7.5692,
@@ -24176,7 +23959,7 @@
       "id": "BUL_SPEER_277_130_HC_A7C0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 26.67,
         "bearingSurfaceMm": 9.8552,
@@ -24220,7 +24003,7 @@
       "id": "BUL_SPEER_277_150_SP_59CE",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 29.718,
         "bearingSurfaceMm": 10.9728,
@@ -24286,7 +24069,7 @@
       "id": "BUL_SPEER_284_145_HC_DF6E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 28.067,
         "bearingSurfaceMm": 10.668,
@@ -24308,7 +24091,7 @@
       "id": "BUL_SPEER_284_145_SP_48C7",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 28.194,
         "bearingSurfaceMm": 10.668,
@@ -24352,7 +24135,7 @@
       "id": "BUL_SPEER_284_160_HC_BE79",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 31.369,
         "bearingSurfaceMm": 12.1158,
@@ -24374,13 +24157,15 @@
       "id": "BUL_SPEER_308_100_SP_3807",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Plinker®\nSPRN",
+      "name": "Plinker\u00ae\nSPRN",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 17.018,
+        "bearingSurfaceMm": 5.8202,
         "engravingPressurePa": 32000000,
         "weightGrams": 6.479891,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.1978,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.151,
@@ -24396,11 +24181,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "JHP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 22.225,
+        "bearingSurfaceMm": 7.3343,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.1278801,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.3907,
+        "boatTailLengthMm": 1.5
       },
       "ballistics": {
         "sectionalDensity": 0.166,
@@ -24416,11 +24203,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "HP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 22.352,
+        "bearingSurfaceMm": 7.4432,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 11.9088,
+        "boatTailLengthMm": 3.0
       },
       "ballistics": {
         "sectionalDensity": 0.196,
@@ -24434,7 +24223,7 @@
       "id": "BUL_SPEER_308_130_SP_867A",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 21.0566,
         "bearingSurfaceMm": 8.1187,
@@ -24478,7 +24267,7 @@
       "id": "BUL_SPEER_308_150_HC_7CE0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": 8.8576,
@@ -24500,7 +24289,7 @@
       "id": "BUL_SPEER_308_150_SP_A791",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": 8.9466,
@@ -24544,7 +24333,7 @@
       "id": "BUL_SPEER_308_165_SP_EC00",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 27.432,
         "bearingSurfaceMm": 9.652,
@@ -24566,7 +24355,7 @@
       "id": "BUL_SPEER_308_170_SP_2F8F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 28.956,
         "bearingSurfaceMm": 11.176,
@@ -24610,7 +24399,7 @@
       "id": "BUL_SPEER_308_180_SP_55E3",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 29.464,
         "bearingSurfaceMm": 10.16,
@@ -24632,7 +24421,7 @@
       "id": "BUL_SPEER_308_200_HC_0958",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 32.258,
         "bearingSurfaceMm": 11.938,
@@ -24744,11 +24533,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "A-Frame",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 32.512,
+        "bearingSurfaceMm": 7.7704,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.1016,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -24764,11 +24555,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "A-Frame",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 33.02,
+        "bearingSurfaceMm": 7.8918,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.0718474,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.4882,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.261,
@@ -24850,11 +24643,13 @@
       "diameterId": "DIA_284_S3F6",
       "name": "A-Frame",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 38.354,
+        "bearingSurfaceMm": 9.1666,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.6638038,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 24.5474,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.319,
@@ -25024,11 +24819,13 @@
       "diameterId": "DIA_338_R7E3",
       "name": "A-Frame",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 45.72,
+        "bearingSurfaceMm": 10.9271,
         "engravingPressurePa": 32000000,
         "weightGrams": 18.1436948,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 30.1529,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.35,
@@ -25044,11 +24841,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "A-Frame SP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 32.512,
+        "bearingSurfaceMm": 7.7704,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.1016,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -25064,11 +24863,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "A-Frame SP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 33.02,
+        "bearingSurfaceMm": 7.8918,
         "engravingPressurePa": 32000000,
         "weightGrams": 9.0718474,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.4882,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.261,
@@ -25084,11 +24885,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "A-Frame SP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 35.052,
+        "bearingSurfaceMm": 8.3774,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.6638038,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 22.0346,
+        "boatTailLengthMm": 4.64
       },
       "ballistics": {
         "sectionalDensity": 0.271,
@@ -25126,11 +24929,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "Soft Point",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 32.512,
+        "bearingSurfaceMm": 11.1191,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 21.3929,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -25366,11 +25171,13 @@
       "diameterId": "DIA_284_S3F6",
       "name": "InterLock SP",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 37.338,
+        "bearingSurfaceMm": 13.1056,
         "engravingPressurePa": 32000000,
         "weightGrams": 10.4974234,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 22.4324,
+        "boatTailLengthMm": 1.8
       },
       "ballistics": {
         "sectionalDensity": 0.287,
@@ -25518,11 +25325,13 @@
       "diameterId": "DIA_338_R7E3",
       "name": "InterLock RN",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 36.703,
+        "bearingSurfaceMm": 12.8828,
         "engravingPressurePa": 32000000,
         "weightGrams": 16.1997275,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 22.0202,
+        "boatTailLengthMm": 1.8
       },
       "ballistics": {
         "sectionalDensity": 0.313,
@@ -25604,11 +25413,13 @@
       "diameterId": "DIA_277_K9L0",
       "name": "XFB",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 30.734,
+        "bearingSurfaceMm": 10.634,
         "engravingPressurePa": 32000000,
         "weightGrams": 8.4238583,
-        "materialType": "MAT_RELIEF_GROOVED_COPPER_MONO"
+        "materialType": "MAT_RELIEF_GROOVED_COPPER_MONO",
+        "ogiveLengthMm": 20.1,
+        "boatTailLengthMm": 0.0
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -25690,11 +25501,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "Maximus",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 38.481,
+        "bearingSurfaceMm": 13.3144,
         "engravingPressurePa": 45000000,
         "weightGrams": 11.3398093,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 21.1666,
+        "boatTailLengthMm": 4.0
       },
       "ballistics": {
         "sectionalDensity": 0.264,
@@ -25732,11 +25545,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "Maximus",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 42.672,
+        "bearingSurfaceMm": 14.7645,
         "engravingPressurePa": 45000000,
         "weightGrams": 12.959782,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 23.9075,
+        "boatTailLengthMm": 4.0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -25796,11 +25611,13 @@
       "diameterId": "DIA_308_XBM7",
       "name": "Lock Base",
       "physis": {
-        "overallLengthMm": null,
-        "bearingSurfaceMm": null,
+        "overallLengthMm": 27.432,
+        "bearingSurfaceMm": 9.1897,
         "engravingPressurePa": 32000000,
         "weightGrams": 7.9702659,
-        "materialType": "MAT_JACKETED_LEAD"
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 13.6723,
+        "boatTailLengthMm": 4.57
       },
       "ballistics": {
         "sectionalDensity": 0.185,
@@ -28023,7 +27840,7 @@
       "chargeWeightGrams": 2.7215542,
       "coalMm": 70.612,
       "velocityMps": 731.52,
-      "notes": "SE Load A — 200gr Speer Hot-Cor, H4895. Moderate velocity, proven deer penetration. Testing for stability in thick brush conditions. MV ~2400 fps."
+      "notes": "SE Load A \u2014 200gr Speer Hot-Cor, H4895. Moderate velocity, proven deer penetration. Testing for stability in thick brush conditions. MV ~2400 fps."
     },
     {
       "id": "LOD_SEAST_338FED_210TTSX",
@@ -28036,7 +27853,7 @@
       "chargeWeightGrams": 2.6243559,
       "coalMm": 71.12,
       "velocityMps": 710.18,
-      "notes": "SE Load B — 210gr Barnes TTSX, Varget. Monolithic copper for reliable expansion. Tested for bone-busting performance at close range. MV ~2330 fps."
+      "notes": "SE Load B \u2014 210gr Barnes TTSX, Varget. Monolithic copper for reliable expansion. Tested for bone-busting performance at close range. MV ~2330 fps."
     },
     {
       "id": "LOD_SEAST_338FED_225GS",
@@ -28049,7 +27866,7 @@
       "chargeWeightGrams": 2.5271575,
       "coalMm": 71.628,
       "velocityMps": 676.66,
-      "notes": "SE Load C — 225gr Speer Grand Slam, IMR 4064. Heaviest projectile tested. Max penetration for quartering shots. MV ~2220 fps."
+      "notes": "SE Load C \u2014 225gr Speer Grand Slam, IMR 4064. Heaviest projectile tested. Max penetration for quartering shots. MV ~2220 fps."
     },
     {
       "id": "LOD_MICH_3006_180NOSLER",
@@ -28062,7 +27879,7 @@
       "chargeWeightGrams": 3.5639401,
       "coalMm": 83.82,
       "velocityMps": 822.96,
-      "notes": "Michigan bear load — 180gr Nosler Partition, H4350. The Partition's dual-core design provides reliable front-end expansion with rear-core penetration retention. Ideal for close-range tree shots requiring maximum tissue disruption. MV ~2700 fps."
+      "notes": "Michigan bear load \u2014 180gr Nosler Partition, H4350. The Partition's dual-core design provides reliable front-end expansion with rear-core penetration retention. Ideal for close-range tree shots requiring maximum tissue disruption. MV ~2700 fps."
     }
   ],
   "customTargets": [
@@ -28160,7 +27977,7 @@
     },
     {
       "id": "TGT_HDES_100YD",
-      "name": "High Desert 100yd — NRA Bullseye",
+      "name": "High Desert 100yd \u2014 NRA Bullseye",
       "size": "Letter",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
@@ -28180,9 +27997,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_HDES_100YD",
-        "name": "High Desert 100yd — NRA Bullseye",
+        "name": "High Desert 100yd \u2014 NRA Bullseye",
         "diameter": 8,
-        "labelText": "100 yards — 6.5 PRC 147gr ELD-M",
+        "labelText": "100 yards \u2014 6.5 PRC 147gr ELD-M",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28190,7 +28007,7 @@
     },
     {
       "id": "TGT_HDES_400YD",
-      "name": "High Desert 400yd — 10\" Steel Sim",
+      "name": "High Desert 400yd \u2014 10\" Steel Sim",
       "size": "Letter",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
@@ -28210,9 +28027,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_HDES_400YD",
-        "name": "High Desert 400yd — 10\" Steel Sim",
+        "name": "High Desert 400yd \u2014 10\" Steel Sim",
         "diameter": 10,
-        "labelText": "400 yards — 6.5 PRC 147gr ELD-M",
+        "labelText": "400 yards \u2014 6.5 PRC 147gr ELD-M",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28220,7 +28037,7 @@
     },
     {
       "id": "TGT_SEAST_L1",
-      "name": "SE Brush 100yd — Load A (200gr HC)",
+      "name": "SE Brush 100yd \u2014 Load A (200gr HC)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_200HC",
@@ -28240,9 +28057,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L1",
-        "name": "SE Brush 100yd — Load A (200gr HC)",
+        "name": "SE Brush 100yd \u2014 Load A (200gr HC)",
         "diameter": 10,
-        "labelText": "100 yards — .338 Fed 200gr Hot-Cor",
+        "labelText": "100 yards \u2014 .338 Fed 200gr Hot-Cor",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28250,7 +28067,7 @@
     },
     {
       "id": "TGT_SEAST_L2",
-      "name": "SE Brush 100yd — Load B (210gr TTSX)",
+      "name": "SE Brush 100yd \u2014 Load B (210gr TTSX)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_210TTSX",
@@ -28270,9 +28087,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L2",
-        "name": "SE Brush 100yd — Load B (210gr TTSX)",
+        "name": "SE Brush 100yd \u2014 Load B (210gr TTSX)",
         "diameter": 10,
-        "labelText": "100 yards — .338 Fed 210gr TTSX",
+        "labelText": "100 yards \u2014 .338 Fed 210gr TTSX",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28280,7 +28097,7 @@
     },
     {
       "id": "TGT_SEAST_L3",
-      "name": "SE Brush 300yd — Load C (225gr GS)",
+      "name": "SE Brush 300yd \u2014 Load C (225gr GS)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_225GS",
@@ -28300,9 +28117,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L3",
-        "name": "SE Brush 300yd — Load C (225gr GS)",
+        "name": "SE Brush 300yd \u2014 Load C (225gr GS)",
         "diameter": 10,
-        "labelText": "300 yards — .338 Fed 225gr Grand Slam",
+        "labelText": "300 yards \u2014 .338 Fed 225gr Grand Slam",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28310,7 +28127,7 @@
     },
     {
       "id": "TGT_MICH_75YD",
-      "name": "Michigan 75yd — Silhouette",
+      "name": "Michigan 75yd \u2014 Silhouette",
       "size": "Letter",
       "firearmId": "FRM_MICH_3006",
       "loadId": "LOD_MICH_3006_180NOSLER",
@@ -28330,9 +28147,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_MICH_75YD",
-        "name": "Michigan 75yd — Silhouette",
+        "name": "Michigan 75yd \u2014 Silhouette",
         "diameter": 12,
-        "labelText": "75 yards — .30-06 180gr Partition",
+        "labelText": "75 yards \u2014 .30-06 180gr Partition",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28342,7 +28159,7 @@
   "sessions": [
     {
       "id": "SES_HDES_100YD",
-      "name": "High Desert 6.5 PRC — 100yd Zero",
+      "name": "High Desert 6.5 PRC \u2014 100yd Zero",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
       "markedTargetId": "MKT_HDES_100YD",
@@ -28355,7 +28172,7 @@
     },
     {
       "id": "SES_HDES_400YD",
-      "name": "High Desert 6.5 PRC — 400yd Confirmation",
+      "name": "High Desert 6.5 PRC \u2014 400yd Confirmation",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
       "markedTargetId": "MKT_HDES_400YD",
@@ -28368,7 +28185,7 @@
     },
     {
       "id": "SES_SEAST_L1",
-      "name": "SE Brush .338 Fed — Load A @ 100yd",
+      "name": "SE Brush .338 Fed \u2014 Load A @ 100yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_200HC",
       "markedTargetId": "MKT_SEAST_100YD_L1",
@@ -28381,7 +28198,7 @@
     },
     {
       "id": "SES_SEAST_L2",
-      "name": "SE Brush .338 Fed — Load B @ 100yd",
+      "name": "SE Brush .338 Fed \u2014 Load B @ 100yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_210TTSX",
       "markedTargetId": "MKT_SEAST_100YD_L2",
@@ -28394,7 +28211,7 @@
     },
     {
       "id": "SES_SEAST_L3",
-      "name": "SE Brush .338 Fed — Load C @ 300yd",
+      "name": "SE Brush .338 Fed \u2014 Load C @ 300yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_225GS",
       "markedTargetId": "MKT_SEAST_300YD_L3",
@@ -28407,7 +28224,7 @@
     },
     {
       "id": "SES_MICH_75YD",
-      "name": "Michigan Woods .30-06 — Bear @ 75yd",
+      "name": "Michigan Woods .30-06 \u2014 Bear @ 75yd",
       "firearmId": "FRM_MICH_3006",
       "loadId": "LOD_MICH_3006_180NOSLER",
       "markedTargetId": "MKT_MICH_75YD",
@@ -30406,42 +30223,42 @@
   "markedTargets": [
     {
       "id": "MKT_HDES_100YD",
-      "name": "High Desert — 100yd Paper",
+      "name": "High Desert \u2014 100yd Paper",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750500000000
     },
     {
       "id": "MKT_HDES_400YD",
-      "name": "High Desert — 400yd Steel Plate",
+      "name": "High Desert \u2014 400yd Steel Plate",
       "targetDistance": 400,
       "distanceUnits": "yards",
       "createdAt": 1750503600000
     },
     {
       "id": "MKT_SEAST_100YD_L1",
-      "name": "SE Brush — Load A (200gr HC) @ 100yd",
+      "name": "SE Brush \u2014 Load A (200gr HC) @ 100yd",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750507200000
     },
     {
       "id": "MKT_SEAST_100YD_L2",
-      "name": "SE Brush — Load B (210gr TTSX) @ 100yd",
+      "name": "SE Brush \u2014 Load B (210gr TTSX) @ 100yd",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750510800000
     },
     {
       "id": "MKT_SEAST_300YD_L3",
-      "name": "SE Brush — Load C (225gr GS) @ 300yd",
+      "name": "SE Brush \u2014 Load C (225gr GS) @ 300yd",
       "targetDistance": 300,
       "distanceUnits": "yards",
       "createdAt": 1750514400000
     },
     {
       "id": "MKT_MICH_75YD",
-      "name": "Michigan Woods — Black Bear @ 75yd",
+      "name": "Michigan Woods \u2014 Black Bear @ 75yd",
       "targetDistance": 75,
       "distanceUnits": "yards",
       "createdAt": 1750518000000
@@ -30450,7 +30267,7 @@
   "monteCarloSaves": [
     {
       "id": "MCS_HDES_HIGH_DESERT",
-      "name": "High Desert Southwest — 6.5 PRC Mule Deer",
+      "name": "High Desert Southwest \u2014 6.5 PRC Mule Deer",
       "createdAt": 1750500000000,
       "params": {
         "mv": 2910,
@@ -30490,7 +30307,7 @@
     },
     {
       "id": "MCS_SEAST_SE_BRUSH",
-      "name": "Southeast Brush — .338 Federal Whitetail",
+      "name": "Southeast Brush \u2014 .338 Federal Whitetail",
       "createdAt": 1750507200000,
       "params": {
         "mv": 2400,
@@ -30530,7 +30347,7 @@
     },
     {
       "id": "MCS_MICH_WOODS",
-      "name": "Michigan Woods — .30-06 Black Bear",
+      "name": "Michigan Woods \u2014 .30-06 Black Bear",
       "createdAt": 1750518000000,
       "params": {
         "mv": 2700,
