@@ -71,7 +71,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.5321,
+      "transducerScaleFactor": 0.53217,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -198,7 +198,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.6285,
+      "transducerScaleFactor": 0.6289,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -325,7 +325,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 10.67,
-      "transducerScaleFactor": 0.56134,
+      "transducerScaleFactor": 0.55914,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -452,7 +452,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 28,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.6101,
+      "transducerScaleFactor": 0.60884,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -579,7 +579,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 21,
       "bodyDiameterMm": 11.35,
-      "transducerScaleFactor": 0.57064,
+      "transducerScaleFactor": 0.56958,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -833,7 +833,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 23,
       "bodyDiameterMm": 9.58,
-      "transducerScaleFactor": 0.55758,
+      "transducerScaleFactor": 0.55104,
       "bulletDiameterMm": 5.6896,
       "boreDiameterMm": 5.5626,
       "standards": {
@@ -1072,7 +1072,7 @@
         "freeboreDiameterIn": 0.2245,
         "freeboreDiameterMm": 5.702
       },
-      "transducerScaleFactor": 0.58
+      "transducerScaleFactor": 0.53229
     },
     {
       "id": "CTG_243WIN_cB42",
@@ -1087,7 +1087,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.61293,
+      "transducerScaleFactor": 0.61506,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -1214,7 +1214,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.66585,
+      "transducerScaleFactor": 0.66534,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1341,7 +1341,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.67897,
+      "transducerScaleFactor": 0.67963,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1468,7 +1468,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20.75,
       "bodyDiameterMm": 11.99,
-      "transducerScaleFactor": 0.61895,
+      "transducerScaleFactor": 0.62097,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1595,7 +1595,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.7475,
+      "transducerScaleFactor": 0.74841,
       "bulletDiameterMm": 6.5278,
       "boreDiameterMm": 6.35,
       "standards": {
@@ -1722,7 +1722,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.6239,
+      "transducerScaleFactor": 0.6253,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -1849,7 +1849,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 14.1,
-      "transducerScaleFactor": 0.64894,
+      "transducerScaleFactor": 0.64865,
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858,
       "standards": {
@@ -1976,7 +1976,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.6966,
+      "transducerScaleFactor": 0.69951,
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858,
       "standards": {
@@ -2103,7 +2103,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 40,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.69731,
+      "transducerScaleFactor": 0.69794,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -2230,7 +2230,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 12.72,
-      "transducerScaleFactor": 0.54562,
+      "transducerScaleFactor": 0.54547,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -2357,7 +2357,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 11.94,
-      "transducerScaleFactor": 0.7224,
+      "transducerScaleFactor": 0.72341,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -2484,7 +2484,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 15.67,
       "bodyDiameterMm": 10.72,
-      "transducerScaleFactor": 0.55607,
+      "transducerScaleFactor": 0.5501,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -2610,7 +2610,7 @@
       "oalMm": 57.15,
       "primerPocketId": "PKT_SML",
       "shoulderAngleDeg": 25,
-      "transducerScaleFactor": 0.60663,
+      "transducerScaleFactor": 0.60077,
       "throatFreetravelMm": 2.54,
       "trimLengthMm": 34.417,
       "bulletDiameterMm": 7.8232,
@@ -2629,7 +2629,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 14.93,
-      "transducerScaleFactor": 0.7998,
+      "transducerScaleFactor": 0.80137,
       "throatFreetravelMm": 3.43,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
@@ -2757,7 +2757,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.51,
-      "transducerScaleFactor": 0.83722,
+      "transducerScaleFactor": 0.83709,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -2884,7 +2884,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 14.1,
-      "transducerScaleFactor": 0.73364,
+      "transducerScaleFactor": 0.73604,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3011,7 +3011,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.73449,
+      "transducerScaleFactor": 0.73582,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3138,7 +3138,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.76534,
+      "transducerScaleFactor": 0.76641,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3265,7 +3265,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.67745,
+      "transducerScaleFactor": 0.67519,
       "bulletDiameterMm": 7.8232,
       "boreDiameterMm": 7.62,
       "standards": {
@@ -3392,7 +3392,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.69373,
+      "transducerScaleFactor": 0.69088,
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382,
       "standards": {
@@ -3519,7 +3519,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 14.93,
-      "transducerScaleFactor": 0.79961,
+      "transducerScaleFactor": 0.79893,
       "throatFreetravelMm": 3.81,
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382,
@@ -3901,7 +3901,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.70955,
+      "transducerScaleFactor": 0.7098,
       "bulletDiameterMm": 8.5852,
       "boreDiameterMm": 8.382,
       "standards": {
@@ -4028,7 +4028,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.66869,
+      "transducerScaleFactor": 0.6701,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4155,7 +4155,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.56023,
+      "transducerScaleFactor": 0.54985,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4282,7 +4282,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.51,
-      "transducerScaleFactor": 0.6433,
+      "transducerScaleFactor": 0.6499,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4409,7 +4409,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 12.72,
-      "transducerScaleFactor": 0.71478,
+      "transducerScaleFactor": 0.71386,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4536,7 +4536,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 17.5,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.73565,
+      "transducerScaleFactor": 0.7378,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4663,7 +4663,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25.6,
       "bodyDiameterMm": 12.2,
-      "transducerScaleFactor": 0.5778,
+      "transducerScaleFactor": 0.5822,
       "bulletDiameterMm": 6.7056,
       "boreDiameterMm": 6.5024,
       "standards": {
@@ -4790,7 +4790,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
       "bodyDiameterMm": 14.1,
-      "transducerScaleFactor": 0.68431,
+      "transducerScaleFactor": 0.68576,
       "throatFreetravelMm": 2.54,
       "bulletDiameterMm": 7.0358,
       "boreDiameterMm": 6.858,
@@ -4918,7 +4918,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.51518,
+      "transducerScaleFactor": 0.51444,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5045,7 +5045,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.56242,
+      "transducerScaleFactor": 0.56206,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5172,7 +5172,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.95,
-      "transducerScaleFactor": 0.64713,
+      "transducerScaleFactor": 0.64821,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5299,7 +5299,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.2,
-      "transducerScaleFactor": 0.54286,
+      "transducerScaleFactor": 0.53536,
       "throatFreetravelMm": 0.1,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
@@ -5427,7 +5427,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 26,
       "bodyDiameterMm": 11.99,
-      "transducerScaleFactor": 0.63417,
+      "transducerScaleFactor": 0.63337,
       "bulletDiameterMm": 6.1722,
       "boreDiameterMm": 6.0198,
       "standards": {
@@ -5554,7 +5554,7 @@
       "flashHoleDiameterMm": 1.6,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.50676,
+      "transducerScaleFactor": 0.50416,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -5681,7 +5681,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 30,
       "bodyDiameterMm": 13.51,
-      "transducerScaleFactor": 0.67807,
+      "transducerScaleFactor": 0.67859,
       "throatFreetravelMm": 1.52,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
@@ -5936,7 +5936,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.70569,
+      "transducerScaleFactor": 0.70607,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6063,7 +6063,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 25,
       "bodyDiameterMm": 13.03,
-      "transducerScaleFactor": 0.66177,
+      "transducerScaleFactor": 0.66299,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6190,7 +6190,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20,
       "bodyDiameterMm": 11.96,
-      "transducerScaleFactor": 0.55344,
+      "transducerScaleFactor": 0.55338,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6317,7 +6317,7 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 20.75,
       "bodyDiameterMm": 11.99,
-      "transducerScaleFactor": 0.65134,
+      "transducerScaleFactor": 0.65086,
       "bulletDiameterMm": 7.2136,
       "boreDiameterMm": 7.0358,
       "standards": {
@@ -6436,8 +6436,8 @@
     {
       "id": "PWD_ACCU_2230_R1A6",
       "name": "Accurate 2230",
-      "baCoeff": 0.1539,
-      "heatOfExplosionKjKg": 3842,
+      "baCoeff": 0.1541,
+      "heatOfExplosionKjKg": 4052,
       "kCoeff": 1.2409,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6449,16 +6449,16 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 986,
-      "combustionEfficiency": 0.9723,
-      "burnExponent": 0.5503,
+      "combustionEfficiency": 0.9228,
+      "burnExponent": 0.5502,
       "burnRateTempCoeffPerC": 0.0019,
-      "baFillSlope": -0.4057
+      "baFillSlope": -0.3999
     },
     {
       "id": "PWD_ACCU_2520_R1A7",
       "name": "Accurate 2520",
-      "baCoeff": 0.0942,
-      "heatOfExplosionKjKg": 4452,
+      "baCoeff": 0.0932,
+      "heatOfExplosionKjKg": 4450,
       "kCoeff": 1.2318,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6470,15 +6470,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 970,
-      "combustionEfficiency": 0.913,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.6101
+      "combustionEfficiency": 0.9142,
+      "burnExponent": 0.5508,
+      "baFillSlope": -0.5955
     },
     {
       "id": "PWD_ACCU_4064_R1A8",
       "name": "Accurate 4064",
-      "baCoeff": 0.0856,
-      "heatOfExplosionKjKg": 4206,
+      "baCoeff": 0.0826,
+      "heatOfExplosionKjKg": 3783,
       "kCoeff": 1.2295,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6490,15 +6490,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1320,
       "bulkDensityKgM3": 900,
-      "combustionEfficiency": 0.9322,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.3484
+      "combustionEfficiency": 1.0437,
+      "burnExponent": 0.5501,
+      "baFillSlope": 0.6131
     },
     {
       "id": "PWD_ACCU_LT32_R1AA",
       "name": "Accurate LT-32",
-      "baCoeff": 0.1959,
-      "heatOfExplosionKjKg": 3729,
+      "baCoeff": 0.2003,
+      "heatOfExplosionKjKg": 3731,
       "kCoeff": 1.2388,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6510,15 +6510,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 906,
-      "combustionEfficiency": 0.9672,
+      "combustionEfficiency": 0.9697,
       "burnExponent": 0.5529,
-      "baFillSlope": -0.8881
+      "baFillSlope": -1.284
     },
     {
       "id": "PWD_ACCU_MAGPRO_R1A9",
       "name": "Accurate MagPro",
-      "baCoeff": 0.0591,
-      "heatOfExplosionKjKg": 4597,
+      "baCoeff": 0.0597,
+      "heatOfExplosionKjKg": 4566,
       "kCoeff": 1.214,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6530,9 +6530,9 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 978,
-      "combustionEfficiency": 0.9545,
+      "combustionEfficiency": 0.9562,
       "burnExponent": 0.55,
-      "baFillSlope": -0.2871
+      "baFillSlope": -0.3071
     },
     {
       "id": "PWD_ALLI_RL155TS_A1L5",
@@ -6554,7 +6554,7 @@
     {
       "id": "PWD_ALLI_RL15_A1L1",
       "name": "Reloder 15",
-      "baCoeff": 0.1265,
+      "baCoeff": 0.1278,
       "heatOfExplosionKjKg": 4049,
       "kCoeff": 1.2148,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6567,15 +6567,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 935,
-      "combustionEfficiency": 1.0004,
+      "combustionEfficiency": 0.9989,
       "burnExponent": 0.55,
-      "baFillSlope": -2.2312
+      "baFillSlope": -1.8298
     },
     {
       "id": "PWD_ALLI_RL16_A1L2",
       "name": "Reloder 16",
-      "baCoeff": 0.0568,
-      "heatOfExplosionKjKg": 4649,
+      "baCoeff": 0.0565,
+      "heatOfExplosionKjKg": 4586,
       "kCoeff": 1.2338,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6587,15 +6587,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 900,
-      "combustionEfficiency": 0.9982,
+      "combustionEfficiency": 1.014,
       "burnExponent": 0.55,
-      "baFillSlope": -0.0719
+      "baFillSlope": -0.0845
     },
     {
       "id": "PWD_ALLI_RL23_A1L3",
       "name": "Reloder 23",
-      "baCoeff": 0.0542,
-      "heatOfExplosionKjKg": 4239,
+      "baCoeff": 0.0536,
+      "heatOfExplosionKjKg": 4341,
       "kCoeff": 1.255,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -6605,17 +6605,17 @@
       "ignitionZ2": 0.729,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedMultiPerf",
-      "combustionEfficiency": 0.9845,
+      "combustionEfficiency": 0.9648,
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 920,
       "burnExponent": 0.55,
-      "baFillSlope": -0.4022
+      "baFillSlope": -0.217
     },
     {
       "id": "PWD_ALLI_RL26_A1L4",
       "name": "Reloder 26",
-      "baCoeff": 0.0515,
-      "heatOfExplosionKjKg": 4654,
+      "baCoeff": 0.0461,
+      "heatOfExplosionKjKg": 4916,
       "kCoeff": 1.2367,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -6627,15 +6627,15 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 994,
-      "combustionEfficiency": 0.9658,
+      "combustionEfficiency": 0.9562,
       "burnExponent": 0.55,
-      "baFillSlope": -0.8006
+      "baFillSlope": -0.3965
     },
     {
       "id": "PWD_HODG_BLC2_H1G8",
       "name": "BL-C(2)",
-      "baCoeff": 0.1112,
-      "heatOfExplosionKjKg": 4357,
+      "baCoeff": 0.1126,
+      "heatOfExplosionKjKg": 4365,
       "kCoeff": 1.2201,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6647,14 +6647,14 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 995,
-      "combustionEfficiency": 0.9186,
+      "combustionEfficiency": 0.9141,
       "burnExponent": 0.55,
-      "baFillSlope": -0.2461
+      "baFillSlope": 0.1313
     },
     {
       "id": "PWD_HODG_CFE223_H1G6",
       "name": "CFE 223",
-      "baCoeff": 0.0806,
+      "baCoeff": 0.0807,
       "heatOfExplosionKjKg": 4045,
       "kCoeff": 1.2299,
       "grainId": "GRN_BALL",
@@ -6667,16 +6667,16 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 980,
-      "combustionEfficiency": 0.9595,
-      "burnExponent": 0.55,
+      "combustionEfficiency": 0.9613,
+      "burnExponent": 0.5501,
       "burnRateTempCoeffPerC": 0.002,
-      "baFillSlope": 0.2756
+      "baFillSlope": 0.3623
     },
     {
       "id": "PWD_HODG_H1000_H1G5",
       "name": "H1000",
-      "baCoeff": 0.0351,
-      "heatOfExplosionKjKg": 4360,
+      "baCoeff": 0.0347,
+      "heatOfExplosionKjKg": 4388,
       "kCoeff": 1.2384,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6688,15 +6688,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 920,
-      "combustionEfficiency": 0.9376,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.8736
+      "combustionEfficiency": 0.9318,
+      "burnExponent": 0.5505,
+      "baFillSlope": 1.042
     },
     {
       "id": "PWD_HODG_H335_H1GB",
       "name": "H335",
-      "baCoeff": 0.1246,
-      "heatOfExplosionKjKg": 4151,
+      "baCoeff": 0.1358,
+      "heatOfExplosionKjKg": 4006,
       "kCoeff": 1.2289,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6708,14 +6708,14 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1640,
       "bulkDensityKgM3": 1010,
-      "combustionEfficiency": 0.9565,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.0493
+      "combustionEfficiency": 0.957,
+      "burnExponent": 0.5503,
+      "baFillSlope": 0.0498
     },
     {
       "id": "PWD_HODG_H380_H1GC",
       "name": "H380",
-      "baCoeff": 0.0771,
+      "baCoeff": 0.0798,
       "heatOfExplosionKjKg": 4177,
       "kCoeff": 1.20425,
       "grainId": "GRN_BALL",
@@ -6728,15 +6728,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1570,
       "bulkDensityKgM3": 940,
-      "combustionEfficiency": 1.0463,
+      "combustionEfficiency": 1.0267,
       "burnExponent": 0.55,
-      "baFillSlope": 0.0647
+      "baFillSlope": -0.1334
     },
     {
       "id": "PWD_HODG_H414_H1GD",
       "name": "H414",
-      "baCoeff": 0.0662,
-      "heatOfExplosionKjKg": 4209,
+      "baCoeff": 0.0661,
+      "heatOfExplosionKjKg": 3702,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -6746,16 +6746,16 @@
       "ignitionZ2": 0.6576,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "ball",
-      "combustionEfficiency": 0.9374,
+      "combustionEfficiency": 1.0658,
       "propellantDensityKgM3": 1580,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.0042
+      "burnExponent": 0.5502,
+      "baFillSlope": 0.0081
     },
     {
       "id": "PWD_HODG_H4350_H1G2",
       "name": "H4350",
-      "baCoeff": 0.0627,
-      "heatOfExplosionKjKg": 4900,
+      "baCoeff": 0.0626,
+      "heatOfExplosionKjKg": 3905,
       "kCoeff": 1.2311,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6767,15 +6767,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 990,
-      "combustionEfficiency": 0.8761,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.1042
+      "combustionEfficiency": 1.0994,
+      "burnExponent": 0.5501,
+      "baFillSlope": 0.1038
     },
     {
       "id": "PWD_HODG_H4831SC_H1GF",
       "name": "H4831SC",
-      "baCoeff": 0.0482,
-      "heatOfExplosionKjKg": 4474,
+      "baCoeff": 0.0477,
+      "heatOfExplosionKjKg": 3903,
       "kCoeff": 1.2301,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6785,16 +6785,16 @@
       "ignitionZ2": 0.9054,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9162,
+      "combustionEfficiency": 1.0515,
       "propellantDensityKgM3": 1600,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.1826
+      "burnExponent": 0.5501,
+      "baFillSlope": 0.2965
     },
     {
       "id": "PWD_HODG_H4831_H1GE",
       "name": "H4831",
-      "baCoeff": 0.0457,
-      "heatOfExplosionKjKg": 3819,
+      "baCoeff": 0.0455,
+      "heatOfExplosionKjKg": 3955,
       "kCoeff": 1.2301,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6806,15 +6806,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 930,
-      "combustionEfficiency": 1.0655,
+      "combustionEfficiency": 1.0289,
       "burnExponent": 0.55,
-      "baFillSlope": 0.7931
+      "baFillSlope": 0.8353
     },
     {
       "id": "PWD_HODG_H4895_H1G3",
       "name": "H4895",
-      "baCoeff": 0.0869,
-      "heatOfExplosionKjKg": 4134,
+      "baCoeff": 0.0852,
+      "heatOfExplosionKjKg": 4140,
       "kCoeff": 1.2393,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6826,15 +6826,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1680,
       "bulkDensityKgM3": 964,
-      "combustionEfficiency": 1.0189,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.2152
+      "combustionEfficiency": 1.0333,
+      "burnExponent": 0.5509,
+      "baFillSlope": 0.1714
     },
     {
       "id": "PWD_HODG_IMR4064_H1G9",
       "name": "IMR 4064",
-      "baCoeff": 0.1062,
-      "heatOfExplosionKjKg": 4188,
+      "baCoeff": 0.1085,
+      "heatOfExplosionKjKg": 4364,
       "kCoeff": 1.2218,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6846,15 +6846,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1570,
       "bulkDensityKgM3": 933,
-      "combustionEfficiency": 1.0326,
+      "combustionEfficiency": 0.9833,
       "burnExponent": 0.55,
-      "baFillSlope": 0.4134
+      "baFillSlope": 0.6395
     },
     {
       "id": "PWD_HODG_IMR4166_H1GK",
       "name": "IMR 4166",
-      "baCoeff": 0.1121,
-      "heatOfExplosionKjKg": 4422,
+      "baCoeff": 0.1091,
+      "heatOfExplosionKjKg": 4265,
       "kCoeff": 1.2333,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6866,14 +6866,14 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 900,
-      "combustionEfficiency": 0.961,
+      "combustionEfficiency": 1.0092,
       "burnExponent": 0.55,
-      "baFillSlope": 0.2005
+      "baFillSlope": 0.4826
     },
     {
       "id": "PWD_HODG_IMR4198_H1GS",
       "name": "IMR 4198",
-      "baCoeff": 0.2449,
+      "baCoeff": 0.2453,
       "heatOfExplosionKjKg": 4580,
       "kCoeff": 1.2232,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6886,15 +6886,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 830,
-      "combustionEfficiency": 0.8955,
-      "burnExponent": 0.55,
-      "baFillSlope": -1.3687
+      "combustionEfficiency": 0.8961,
+      "burnExponent": 0.5502,
+      "baFillSlope": -1.9444
     },
     {
       "id": "PWD_HODG_IMR4350_H1G0",
       "name": "IMR 4350",
-      "baCoeff": 0.0519,
-      "heatOfExplosionKjKg": 3872,
+      "baCoeff": 0.0516,
+      "heatOfExplosionKjKg": 3865,
       "kCoeff": 1.2293,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6906,15 +6906,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 930,
-      "combustionEfficiency": 1.1538,
-      "burnExponent": 0.55,
-      "baFillSlope": 1.5048
+      "combustionEfficiency": 1.1578,
+      "burnExponent": 0.5501,
+      "baFillSlope": 1.5145
     },
     {
       "id": "PWD_HODG_IMR4451_H1GL",
       "name": "IMR 4451",
-      "baCoeff": 0.0675,
-      "heatOfExplosionKjKg": 4424,
+      "baCoeff": 0.067,
+      "heatOfExplosionKjKg": 4414,
       "kCoeff": 1.2231,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6926,15 +6926,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 1.0073,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.5755
+      "combustionEfficiency": 1.0117,
+      "burnExponent": 0.5501,
+      "baFillSlope": 0.5836
     },
     {
       "id": "PWD_HODG_IMR4895_H1GM",
       "name": "IMR 4895",
-      "baCoeff": 0.0713,
-      "heatOfExplosionKjKg": 4248,
+      "baCoeff": 0.0902,
+      "heatOfExplosionKjKg": 4082,
       "kCoeff": 1.2355,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6946,15 +6946,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 966,
-      "combustionEfficiency": 0.9908,
-      "burnExponent": 0.5796,
-      "baFillSlope": 0.2105
+      "combustionEfficiency": 1.0397,
+      "burnExponent": 0.5593,
+      "baFillSlope": 0.513
     },
     {
       "id": "PWD_HODG_IMR7828SSC_H1GO",
       "name": "IMR 7828SSC",
-      "baCoeff": 0.0515,
-      "heatOfExplosionKjKg": 3739,
+      "baCoeff": 0.047,
+      "heatOfExplosionKjKg": 3738,
       "kCoeff": 1.2444,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6966,15 +6966,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 1.0324,
-      "burnExponent": 0.55,
-      "baFillSlope": 1.2672
+      "combustionEfficiency": 1.0488,
+      "burnExponent": 0.5552,
+      "baFillSlope": 1.4489
     },
     {
       "id": "PWD_HODG_IMR7828_H1GN",
       "name": "IMR 7828",
-      "baCoeff": 0.0413,
-      "heatOfExplosionKjKg": 4460,
+      "baCoeff": 0.0409,
+      "heatOfExplosionKjKg": 3997,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -6984,16 +6984,16 @@
       "ignitionZ2": 0.7337,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9832,
+      "combustionEfficiency": 1.0957,
       "propellantDensityKgM3": 1600,
       "burnExponent": 0.55,
-      "baFillSlope": 1.6977
+      "baFillSlope": 2.2045
     },
     {
       "id": "PWD_HODG_IMR8208_H1GA",
       "name": "IMR 8208 XBR",
-      "baCoeff": 0.1109,
-      "heatOfExplosionKjKg": 4219,
+      "baCoeff": 0.1112,
+      "heatOfExplosionKjKg": 4222,
       "kCoeff": 1.2433,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7005,15 +7005,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1680,
       "bulkDensityKgM3": 920,
-      "combustionEfficiency": 0.9476,
+      "combustionEfficiency": 0.9517,
       "burnExponent": 0.55,
-      "baFillSlope": 0.0729
+      "baFillSlope": 0.2717
     },
     {
       "id": "PWD_HODG_RETUMBO_H1G4",
       "name": "Retumbo",
-      "baCoeff": 0.0252,
-      "heatOfExplosionKjKg": 4441,
+      "baCoeff": 0.0242,
+      "heatOfExplosionKjKg": 4436,
       "kCoeff": 1.2302,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7025,15 +7025,15 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 1.1651,
-      "burnExponent": 0.55,
-      "baFillSlope": 1.041
+      "combustionEfficiency": 1.1819,
+      "burnExponent": 0.5501,
+      "baFillSlope": 1.2447
     },
     {
       "id": "PWD_HODG_VARGET_H1G1",
       "name": "Varget",
-      "baCoeff": 0.0809,
-      "heatOfExplosionKjKg": 4577,
+      "baCoeff": 0.0805,
+      "heatOfExplosionKjKg": 4602,
       "kCoeff": 1.2257,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": 0.0003,
@@ -7045,16 +7045,16 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 0.939,
-      "burnExponent": 0.55,
+      "combustionEfficiency": 0.9335,
+      "burnExponent": 0.5514,
       "burnRateTempCoeffPerC": 0.0003,
-      "baFillSlope": -0.003
+      "baFillSlope": 0.1148
     },
     {
       "id": "PWD_RAMS_BIGGAME_R1A2",
       "name": "Big Game",
-      "baCoeff": 0.0739,
-      "heatOfExplosionKjKg": 4411,
+      "baCoeff": 0.0737,
+      "heatOfExplosionKjKg": 4328,
       "kCoeff": 1.2224,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7066,15 +7066,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1650,
       "bulkDensityKgM3": 980,
-      "combustionEfficiency": 0.9295,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.2108
+      "combustionEfficiency": 0.9479,
+      "burnExponent": 0.5501,
+      "baFillSlope": -0.2391
     },
     {
       "id": "PWD_RAMS_HUNTER_R1A3",
       "name": "Hunter",
-      "baCoeff": 0.0665,
-      "heatOfExplosionKjKg": 3941,
+      "baCoeff": 0.0664,
+      "heatOfExplosionKjKg": 3862,
       "kCoeff": 1.2347,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7086,15 +7086,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 940,
-      "combustionEfficiency": 1.0244,
+      "combustionEfficiency": 1.0433,
       "burnExponent": 0.55,
-      "baFillSlope": -0.5137
+      "baFillSlope": -0.5357
     },
     {
       "id": "PWD_RAMS_MAGNUM_R1A4",
       "name": "Magnum",
-      "baCoeff": 0.0522,
-      "heatOfExplosionKjKg": 3753,
+      "baCoeff": 0.0518,
+      "heatOfExplosionKjKg": 3747,
       "kCoeff": 1.2363,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7106,15 +7106,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1680,
       "bulkDensityKgM3": 995,
-      "combustionEfficiency": 1.083,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.615
+      "combustionEfficiency": 1.0863,
+      "burnExponent": 0.5503,
+      "baFillSlope": -0.6115
     },
     {
       "id": "PWD_RAMS_TAC_R1A1",
       "name": "TAC",
-      "baCoeff": 0.1433,
-      "heatOfExplosionKjKg": 4517,
+      "baCoeff": 0.1592,
+      "heatOfExplosionKjKg": 3811,
       "kCoeff": 1.2364,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7126,15 +7126,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 938,
-      "combustionEfficiency": 0.821,
+      "combustionEfficiency": 0.9557,
       "burnExponent": 0.55,
-      "baFillSlope": -0.2392
+      "baFillSlope": -0.5688
     },
     {
       "id": "PWD_RAMS_XTERM_R1A5",
       "name": "X-Terminator",
-      "baCoeff": 0.1212,
-      "heatOfExplosionKjKg": 4336,
+      "baCoeff": 0.1525,
+      "heatOfExplosionKjKg": 4166,
       "kCoeff": 1.2409,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7146,15 +7146,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 986,
-      "combustionEfficiency": 0.9209,
+      "combustionEfficiency": 0.9018,
       "burnExponent": 0.55,
-      "baFillSlope": -0.0731
+      "baFillSlope": -0.7722
     },
     {
       "id": "PWD_VIHTAVUORI_MOMF",
       "name": "Vihtavuori N170",
-      "baCoeff": 0.0412,
-      "heatOfExplosionKjKg": 5138,
+      "baCoeff": 0.038,
+      "heatOfExplosionKjKg": 4644,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7164,17 +7164,17 @@
       "ignitionZ2": 0.5317,
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.8901,
+      "combustionEfficiency": 1.0087,
       "propellantDensityKgM3": 1630,
       "bulkDensityKgM3": 960,
       "burnExponent": 0.55,
-      "baFillSlope": -1.9337
+      "baFillSlope": -1.506
     },
     {
       "id": "PWD_VIHT_N130_V1H4",
       "name": "N130",
-      "baCoeff": 0.1506,
-      "heatOfExplosionKjKg": 3868,
+      "baCoeff": 0.1858,
+      "heatOfExplosionKjKg": 4021,
       "kCoeff": 1.2313,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7186,15 +7186,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 870,
-      "combustionEfficiency": 1.0611,
+      "combustionEfficiency": 0.9384,
       "burnExponent": 0.5501,
-      "baFillSlope": -2.1359
+      "baFillSlope": -2.8074
     },
     {
       "id": "PWD_VIHT_N133_V1H5",
       "name": "N133",
-      "baCoeff": 0.1761,
-      "heatOfExplosionKjKg": 4098,
+      "baCoeff": 0.1645,
+      "heatOfExplosionKjKg": 4386,
       "kCoeff": 1.2345,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7206,16 +7206,16 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 870,
-      "combustionEfficiency": 0.9159,
-      "burnExponent": 0.55,
-      "baFillSlope": -2.5774
+      "combustionEfficiency": 0.8595,
+      "burnExponent": 0.5576,
+      "baFillSlope": -2.3309
     },
     {
       "id": "PWD_VIHT_N135_V1H6",
       "name": "N135",
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
-      "baCoeff": 0.1085,
-      "heatOfExplosionKjKg": 3854,
+      "baCoeff": 0.1224,
+      "heatOfExplosionKjKg": 4077,
       "kCoeff": 1.2413,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "grainType": "extrudedSinglePerf",
@@ -7226,15 +7226,15 @@
       "ignitionZ2": 0.8388,
       "propellantDensityKgM3": 1680,
       "bulkDensityKgM3": 920,
-      "combustionEfficiency": 0.9865,
-      "burnExponent": 0.55,
-      "baFillSlope": -3.17
+      "combustionEfficiency": 0.8952,
+      "burnExponent": 0.5506,
+      "baFillSlope": -3.2242
     },
     {
       "id": "PWD_VIHT_N140_7Ih6",
       "name": "N140",
-      "baCoeff": 0.1142,
-      "heatOfExplosionKjKg": 4006,
+      "baCoeff": 0.1215,
+      "heatOfExplosionKjKg": 4295,
       "kCoeff": 1.2201,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7246,15 +7246,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1560,
       "bulkDensityKgM3": 979,
-      "combustionEfficiency": 1.0129,
+      "combustionEfficiency": 0.9202,
       "burnExponent": 0.55,
-      "baFillSlope": -2.3664
+      "baFillSlope": -1.9984
     },
     {
       "id": "PWD_VIHT_N160_V1H8",
       "name": "N160",
-      "baCoeff": 0.063,
-      "heatOfExplosionKjKg": 4587,
+      "baCoeff": 0.0621,
+      "heatOfExplosionKjKg": 4577,
       "kCoeff": 1.2383,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7266,15 +7266,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 920,
-      "combustionEfficiency": 0.9195,
-      "burnExponent": 0.55,
-      "baFillSlope": -1.3489
+      "combustionEfficiency": 0.9239,
+      "burnExponent": 0.5509,
+      "baFillSlope": -1.3737
     },
     {
       "id": "PWD_VIHT_N165_V1H9",
       "name": "N165",
-      "baCoeff": 0.053,
-      "heatOfExplosionKjKg": 4136,
+      "baCoeff": 0.0499,
+      "heatOfExplosionKjKg": 4251,
       "kCoeff": 1.2409,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "tempSensFactor": null,
@@ -7286,15 +7286,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 930,
-      "combustionEfficiency": 1.0133,
-      "burnExponent": 0.55,
-      "baFillSlope": -1.3011
+      "combustionEfficiency": 0.9925,
+      "burnExponent": 0.5535,
+      "baFillSlope": -1.2473
     },
     {
       "id": "PWD_VIHT_N530_V5H1",
       "name": "N530",
-      "baCoeff": 0.1479,
-      "heatOfExplosionKjKg": 4131,
+      "baCoeff": 0.1541,
+      "heatOfExplosionKjKg": 4390,
       "kCoeff": 1.2299,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7306,15 +7306,15 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1570,
       "bulkDensityKgM3": 930,
-      "combustionEfficiency": 0.9013,
-      "burnExponent": 0.55,
-      "baFillSlope": -1.9397
+      "combustionEfficiency": 0.8523,
+      "burnExponent": 0.5504,
+      "baFillSlope": -1.5944
     },
     {
       "id": "PWD_VIHT_N540_V5H2",
       "name": "N540",
-      "baCoeff": 0.0986,
-      "heatOfExplosionKjKg": 5104,
+      "baCoeff": 0.0991,
+      "heatOfExplosionKjKg": 5003,
       "kCoeff": 1.2171,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7326,15 +7326,15 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 940,
-      "combustionEfficiency": 0.8354,
+      "combustionEfficiency": 0.8572,
       "burnExponent": 0.55,
-      "baFillSlope": -2.6795
+      "baFillSlope": -2.3384
     },
     {
       "id": "PWD_VIHT_N550_V5H3",
       "name": "N550",
-      "baCoeff": 0.0845,
-      "heatOfExplosionKjKg": 4479,
+      "baCoeff": 0.0865,
+      "heatOfExplosionKjKg": 4138,
       "kCoeff": 1.2308,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7346,15 +7346,15 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1650,
       "bulkDensityKgM3": 950,
-      "combustionEfficiency": 0.9189,
+      "combustionEfficiency": 0.9951,
       "burnExponent": 0.55,
-      "baFillSlope": -1.5052
+      "baFillSlope": -0.9697
     },
     {
       "id": "PWD_VIHT_N555_V5H4",
       "name": "N555",
-      "baCoeff": 0.0512,
-      "heatOfExplosionKjKg": 4355,
+      "baCoeff": 0.0505,
+      "heatOfExplosionKjKg": 4259,
       "kCoeff": 1.2323,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7366,15 +7366,15 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 930,
-      "combustionEfficiency": 1.0523,
-      "burnExponent": 0.5501,
-      "baFillSlope": -1.0851
+      "combustionEfficiency": 1.078,
+      "burnExponent": 0.5508,
+      "baFillSlope": -1.0342
     },
     {
       "id": "PWD_VIHT_N560_V5H5",
       "name": "N560",
-      "baCoeff": 0.0521,
-      "heatOfExplosionKjKg": 5185,
+      "baCoeff": 0.0515,
+      "heatOfExplosionKjKg": 4683,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7384,17 +7384,17 @@
       "ignitionZ2": 0.7186,
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "grainType": "extrudedMultiPerf",
-      "combustionEfficiency": 0.8459,
+      "combustionEfficiency": 0.9407,
       "propellantDensityKgM3": 1660,
       "bulkDensityKgM3": 955,
       "burnExponent": 0.55,
-      "baFillSlope": -0.3714
+      "baFillSlope": -0.3298
     },
     {
       "id": "PWD_VIHT_N565_V5H6",
       "name": "N565",
-      "baCoeff": 0.0377,
-      "heatOfExplosionKjKg": 5177,
+      "baCoeff": 0.037,
+      "heatOfExplosionKjKg": 5073,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7404,17 +7404,17 @@
       "ignitionZ2": 0.5338,
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "grainType": "extrudedMultiPerf",
-      "combustionEfficiency": 0.9537,
+      "combustionEfficiency": 0.9788,
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 950,
       "burnExponent": 0.55,
-      "baFillSlope": -0.9206
+      "baFillSlope": -0.7915
     },
     {
       "id": "PWD_VIHT_N568_V5H7",
       "name": "N568",
-      "baCoeff": 0.0425,
-      "heatOfExplosionKjKg": 3952,
+      "baCoeff": 0.0428,
+      "heatOfExplosionKjKg": 3848,
       "kCoeff": 1.2397,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
       "tempSensFactor": null,
@@ -7426,14 +7426,14 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 965,
-      "combustionEfficiency": 1.0555,
+      "combustionEfficiency": 1.0791,
       "burnExponent": 0.55,
-      "baFillSlope": 0.2196
+      "baFillSlope": 0.6186
     },
     {
       "id": "PWD_VIHT_N570_V5H8",
       "name": "N570",
-      "baCoeff": 0.0329,
+      "baCoeff": 0.0318,
       "heatOfExplosionKjKg": 5084,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -7444,17 +7444,17 @@
       "ignitionZ2": 0.63,
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "grainType": "extrudedMultiPerf",
-      "combustionEfficiency": 1.0446,
+      "combustionEfficiency": 1.053,
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "baFillSlope": -0.1446
+      "baFillSlope": 0.0347
     },
     {
       "id": "PWD_WINC_748_W1N7",
       "name": "748",
-      "baCoeff": 0.0988,
-      "heatOfExplosionKjKg": 4150,
+      "baCoeff": 0.0979,
+      "heatOfExplosionKjKg": 4101,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7464,17 +7464,17 @@
       "ignitionZ2": 0.8732,
       "manufacturerId": "MAN_WINCHESTER_W1C6",
       "grainType": "ball",
-      "combustionEfficiency": 0.9039,
+      "combustionEfficiency": 0.9144,
       "propellantDensityKgM3": 1650,
       "bulkDensityKgM3": 971,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.1421
+      "burnExponent": 0.5519,
+      "baFillSlope": 0.3177
     },
     {
       "id": "PWD_WINC_760_W1N8",
       "name": "760",
-      "baCoeff": 0.062,
-      "heatOfExplosionKjKg": 3445,
+      "baCoeff": 0.0678,
+      "heatOfExplosionKjKg": 3989,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7484,17 +7484,17 @@
       "ignitionZ2": 0.6608,
       "manufacturerId": "MAN_WINCHESTER_W1C6",
       "grainType": "ball",
-      "combustionEfficiency": 1.2295,
+      "combustionEfficiency": 1.0155,
       "propellantDensityKgM3": 1610,
       "bulkDensityKgM3": 971,
       "burnExponent": 0.55,
-      "baFillSlope": 0.3106
+      "baFillSlope": 0.3104
     },
     {
       "id": "PWD_WINC_STABALL65_W1N1",
       "name": "StaBALL 6.5",
-      "baCoeff": 0.0543,
-      "heatOfExplosionKjKg": 4697,
+      "baCoeff": 0.0542,
+      "heatOfExplosionKjKg": 4694,
       "kCoeff": 1.2122,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7506,15 +7506,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 990,
-      "combustionEfficiency": 0.9926,
+      "combustionEfficiency": 0.9925,
       "burnExponent": 0.55,
-      "baFillSlope": 0.5941
+      "baFillSlope": 0.7799
     },
     {
       "id": "PWD_WINC_STABALLHD_W1N3",
       "name": "StaBALL HD",
-      "baCoeff": 0.0291,
-      "heatOfExplosionKjKg": 3761,
+      "baCoeff": 0.0288,
+      "heatOfExplosionKjKg": 3756,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7524,16 +7524,16 @@
       "ignitionZ2": 0.7417,
       "manufacturerId": "MAN_WINCHESTER_W1C6",
       "grainType": "ball",
-      "combustionEfficiency": 1.175,
+      "combustionEfficiency": 1.1808,
       "propellantDensityKgM3": 1580,
       "burnExponent": 0.55,
-      "baFillSlope": 1.0334
+      "baFillSlope": 1.0171
     },
     {
       "id": "PWD_WINC_STABALLMATCH_W1N2",
       "name": "StaBALL Match",
-      "baCoeff": 0.0983,
-      "heatOfExplosionKjKg": 4404,
+      "baCoeff": 0.0989,
+      "heatOfExplosionKjKg": 4401,
       "kCoeff": 1.2,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7545,15 +7545,15 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 890,
-      "combustionEfficiency": 1.0142,
+      "combustionEfficiency": 1.0136,
       "burnExponent": 0.55,
-      "baFillSlope": -0.4108
+      "baFillSlope": -0.3089
     },
     {
       "id": "PWD_IMPR_IMR_4831_HVBS",
       "name": "IMR 4831",
-      "baCoeff": 0.0617,
-      "heatOfExplosionKjKg": 4345,
+      "baCoeff": 0.0616,
+      "heatOfExplosionKjKg": 4965,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7563,17 +7563,17 @@
       "ignitionZ2": 0.9494,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.1009,
+      "combustionEfficiency": 0.9635,
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 930,
       "burnExponent": 0.55,
-      "baFillSlope": 1.0347
+      "baFillSlope": 1.138
     },
     {
       "id": "PWD_RAMS_LRT_LB6B",
       "name": "LRT",
-      "baCoeff": 0.0242,
-      "heatOfExplosionKjKg": 4253,
+      "baCoeff": 0.024,
+      "heatOfExplosionKjKg": 4785,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7583,16 +7583,16 @@
       "ignitionZ2": 0.5512,
       "manufacturerId": "MAN_RAMSHOT_R2S3",
       "grainType": "ball",
-      "combustionEfficiency": 1.1129,
+      "combustionEfficiency": 0.991,
       "propellantDensityKgM3": 1580,
       "burnExponent": 0.55,
-      "baFillSlope": -0.9104
+      "baFillSlope": -0.8162
     },
     {
       "id": "PWD_RAMS_GRAND_LM11",
       "name": "Grand",
-      "baCoeff": 0.0345,
-      "heatOfExplosionKjKg": 3914,
+      "baCoeff": 0.034,
+      "heatOfExplosionKjKg": 4477,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7602,16 +7602,16 @@
       "ignitionZ2": 0.6819,
       "manufacturerId": "MAN_RAMSHOT_R2S3",
       "grainType": "ball",
-      "combustionEfficiency": 1.1142,
+      "combustionEfficiency": 0.9758,
       "propellantDensityKgM3": 1580,
       "burnExponent": 0.55,
-      "baFillSlope": 0.548
+      "baFillSlope": 0.6846
     },
     {
       "id": "PWD_IMPR_IMR_7977_GDVA",
       "name": "IMR 7977",
-      "baCoeff": 0.0401,
-      "heatOfExplosionKjKg": 4913,
+      "baCoeff": 0.0389,
+      "heatOfExplosionKjKg": 4862,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7621,17 +7621,17 @@
       "ignitionZ2": 0.8725,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9498,
+      "combustionEfficiency": 0.9637,
       "propellantDensityKgM3": 1510,
       "bulkDensityKgM3": 920,
       "burnExponent": 0.55,
-      "baFillSlope": 0.6841
+      "baFillSlope": 0.9957
     },
     {
       "id": "PWD_IMPR_IMR_8133_J4IF",
       "name": "IMR 8133",
-      "baCoeff": 0.0379,
-      "heatOfExplosionKjKg": 4407,
+      "baCoeff": 0.0371,
+      "heatOfExplosionKjKg": 4406,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7641,17 +7641,17 @@
       "ignitionZ2": 0.9493,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.1313,
+      "combustionEfficiency": 1.1433,
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 960,
       "burnExponent": 0.55,
-      "baFillSlope": 0.9284
+      "baFillSlope": 1.0537
     },
     {
       "id": "PWD_ACCU_2700_JFAE",
       "name": "2700",
-      "baCoeff": 0.0911,
-      "heatOfExplosionKjKg": 4302,
+      "baCoeff": 0.0873,
+      "heatOfExplosionKjKg": 4303,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7661,16 +7661,16 @@
       "ignitionZ2": 0.734,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "ball",
-      "combustionEfficiency": 0.8359,
+      "combustionEfficiency": 0.8471,
       "propellantDensityKgM3": 1580,
       "burnExponent": 0.55,
-      "baFillSlope": -0.6336
+      "baFillSlope": -0.5131
     },
     {
       "id": "PWD_ALLI_2000_MR_WH6F",
       "name": "2000-MR",
-      "baCoeff": 0.0879,
-      "heatOfExplosionKjKg": 4264,
+      "baCoeff": 0.0931,
+      "heatOfExplosionKjKg": 4153,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7680,17 +7680,17 @@
       "ignitionZ2": 0.739,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "ball",
-      "combustionEfficiency": 0.904,
+      "combustionEfficiency": 0.9005,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 950,
       "burnExponent": 0.55,
-      "baFillSlope": -2.1637
+      "baFillSlope": -2.1237
     },
     {
       "id": "PWD_ACCU_5744_S8CC",
       "name": "5744",
-      "baCoeff": 0.1639,
-      "heatOfExplosionKjKg": 4690,
+      "baCoeff": 0.177,
+      "heatOfExplosionKjKg": 5093,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7700,17 +7700,17 @@
       "ignitionZ2": 0.9495,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0385,
+      "combustionEfficiency": 0.9289,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 860,
-      "burnExponent": 0.55,
-      "baFillSlope": 0.0103
+      "burnExponent": 0.552,
+      "baFillSlope": -0.0473
     },
     {
       "id": "PWD_ALLI_RELODER_17_Q06H",
       "name": "Reloder 17",
-      "baCoeff": 0.0899,
-      "heatOfExplosionKjKg": 5028,
+      "baCoeff": 0.0881,
+      "heatOfExplosionKjKg": 4746,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7720,17 +7720,17 @@
       "ignitionZ2": 0.95,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9164,
+      "combustionEfficiency": 0.9739,
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 995,
       "burnExponent": 0.55,
-      "baFillSlope": -0.5929
+      "baFillSlope": -0.344
     },
     {
       "id": "PWD_HODG_SUPERFORMANCE_QPVF",
       "name": "SUPERFORMANCE",
-      "baCoeff": 0.0428,
-      "heatOfExplosionKjKg": 3520,
+      "baCoeff": 0.0423,
+      "heatOfExplosionKjKg": 3858,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7740,16 +7740,16 @@
       "ignitionZ2": 0.9206,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "ball",
-      "combustionEfficiency": 1.106,
+      "combustionEfficiency": 1.013,
       "propellantDensityKgM3": 1580,
       "burnExponent": 0.55,
-      "baFillSlope": 1.8251
+      "baFillSlope": 1.8677
     },
     {
       "id": "PWD_ALLI_RELODER_19_6C4J",
       "name": "Reloder 19",
-      "baCoeff": 0.1034,
-      "heatOfExplosionKjKg": 4040,
+      "baCoeff": 0.1033,
+      "heatOfExplosionKjKg": 4015,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7759,17 +7759,17 @@
       "ignitionZ2": 0.7589,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9765,
+      "combustionEfficiency": 0.9829,
       "propellantDensityKgM3": 1650,
       "bulkDensityKgM3": 940,
       "burnExponent": 0.55,
-      "baFillSlope": -0.0234
+      "baFillSlope": -0.0624
     },
     {
       "id": "PWD_ALLI_RELODER_22_POE4",
       "name": "Reloder 22",
-      "baCoeff": 0.0588,
-      "heatOfExplosionKjKg": 4297,
+      "baCoeff": 0.0583,
+      "heatOfExplosionKjKg": 4281,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7779,17 +7779,17 @@
       "ignitionZ2": 0.9496,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0471,
+      "combustionEfficiency": 1.0463,
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 940,
       "burnExponent": 0.55,
-      "baFillSlope": -0.6384
+      "baFillSlope": -0.8926
     },
     {
       "id": "PWD_HODG_HYBRID_100V_UMIK",
       "name": "Hybrid 100V",
-      "baCoeff": 0.0677,
-      "heatOfExplosionKjKg": 4535,
+      "baCoeff": 0.0667,
+      "heatOfExplosionKjKg": 4502,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7799,17 +7799,17 @@
       "ignitionZ2": 0.9446,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.1,
+      "combustionEfficiency": 1.1159,
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 890,
       "burnExponent": 0.55,
-      "baFillSlope": 1.1849
+      "baFillSlope": 1.318
     },
     {
       "id": "PWD_IMPR_IMR_4320_E302",
       "name": "IMR 4320",
-      "baCoeff": 0.1162,
-      "heatOfExplosionKjKg": 4448,
+      "baCoeff": 0.1116,
+      "heatOfExplosionKjKg": 4303,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7819,16 +7819,16 @@
       "ignitionZ2": 0.8483,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9701,
+      "combustionEfficiency": 1.0226,
       "propellantDensityKgM3": 1600,
       "burnExponent": 0.55,
-      "baFillSlope": 0.1385
+      "baFillSlope": 0.5855
     },
     {
       "id": "PWD_WINC_SUPREME_780_REI8",
       "name": "Supreme 780",
-      "baCoeff": 0.0482,
-      "heatOfExplosionKjKg": 4706,
+      "baCoeff": 0.048,
+      "heatOfExplosionKjKg": 4684,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7838,10 +7838,10 @@
       "ignitionZ2": 0.9238,
       "manufacturerId": "MAN_WINCHESTER_W1C6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0288,
+      "combustionEfficiency": 1.0343,
       "propellantDensityKgM3": 1600,
       "burnExponent": 0.55,
-      "baFillSlope": 0.7179
+      "baFillSlope": 0.6659
     },
     {
       "id": "PWD_ACCU_3100_NZTY",
@@ -7864,8 +7864,8 @@
     {
       "id": "PWD_IMPR_IMR_4955_170P",
       "name": "IMR 4955",
-      "baCoeff": 0.0563,
-      "heatOfExplosionKjKg": 4717,
+      "baCoeff": 0.057,
+      "heatOfExplosionKjKg": 4715,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7875,16 +7875,16 @@
       "ignitionZ2": 0.95,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9867,
+      "combustionEfficiency": 0.9766,
       "propellantDensityKgM3": 1600,
       "burnExponent": 0.55,
-      "baFillSlope": 0.8675
+      "baFillSlope": 0.9979
     },
     {
       "id": "PWD_ACCU_2495_MKE7",
       "name": "2495",
-      "baCoeff": 0.128,
-      "heatOfExplosionKjKg": 4944,
+      "baCoeff": 0.1287,
+      "heatOfExplosionKjKg": 4943,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7894,16 +7894,16 @@
       "ignitionZ2": 0.5991,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9686,
+      "combustionEfficiency": 0.976,
       "propellantDensityKgM3": 1600,
       "burnExponent": 0.55,
-      "baFillSlope": -0.1108
+      "baFillSlope": -0.1542
     },
     {
       "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
       "name": "MATCH RIFLE",
-      "baCoeff": 0.0767,
-      "heatOfExplosionKjKg": 4773,
+      "baCoeff": 0.0819,
+      "heatOfExplosionKjKg": 4828,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -7913,17 +7913,17 @@
       "ignitionZ2": 0.8882,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "ball",
-      "combustionEfficiency": 0.8678,
+      "combustionEfficiency": 0.8025,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 970,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.0043
+      "burnExponent": 0.5502,
+      "baFillSlope": -1.5322
     },
     {
       "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
       "name": "PRECISION RIFLE",
-      "baCoeff": 0.0908,
-      "heatOfExplosionKjKg": 4305,
+      "baCoeff": 0.0905,
+      "heatOfExplosionKjKg": 4279,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7933,17 +7933,17 @@
       "ignitionZ2": 0.95,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.1435,
+      "combustionEfficiency": 1.0704,
       "propellantDensityKgM3": 1520,
       "bulkDensityKgM3": 900,
-      "burnExponent": 0.55,
-      "baFillSlope": -1.6658
+      "burnExponent": 0.5509,
+      "baFillSlope": -1.6776
     },
     {
       "id": "PWD_SHOO_LONG_RIFLE_YB45",
       "name": "LONG RIFLE",
-      "baCoeff": 0.0918,
-      "heatOfExplosionKjKg": 5190,
+      "baCoeff": 0.094,
+      "heatOfExplosionKjKg": 4984,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7953,17 +7953,17 @@
       "ignitionZ2": 0.9395,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9676,
+      "combustionEfficiency": 0.9759,
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 910,
       "burnExponent": 0.55,
-      "baFillSlope": 0.0004
+      "baFillSlope": -1.1105
     },
     {
       "id": "PWD_SHOO_SW4350_JZV8",
       "name": "SW4350",
-      "baCoeff": 0.0768,
-      "heatOfExplosionKjKg": 4976,
+      "baCoeff": 0.0734,
+      "heatOfExplosionKjKg": 4940,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7973,17 +7973,17 @@
       "ignitionZ2": 0.9449,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9528,
+      "combustionEfficiency": 0.9628,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 920,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.9205
+      "burnExponent": 0.5502,
+      "baFillSlope": -0.2531
     },
     {
       "id": "PWD_ALLI_AR_COMP_6RSD",
       "name": "AR-Comp",
-      "baCoeff": 0.1186,
-      "heatOfExplosionKjKg": 4141,
+      "baCoeff": 0.1201,
+      "heatOfExplosionKjKg": 4854,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -7993,17 +7993,17 @@
       "ignitionZ2": 0.9429,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.1492,
+      "combustionEfficiency": 0.9791,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 932,
       "burnExponent": 0.55,
-      "baFillSlope": -0.7509
+      "baFillSlope": -0.3175
     },
     {
       "id": "PWD_IMPR_IMR_3031_KXZD",
       "name": "IMR 3031",
-      "baCoeff": 0.1444,
-      "heatOfExplosionKjKg": 4402,
+      "baCoeff": 0.1465,
+      "heatOfExplosionKjKg": 4357,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8013,16 +8013,16 @@
       "ignitionZ2": 0.826,
       "manufacturerId": "MAN_IMR_I2M3",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0341,
+      "combustionEfficiency": 1.0448,
       "propellantDensityKgM3": 1650,
       "bulkDensityKgM3": 935,
       "burnExponent": 0.55,
-      "baFillSlope": 0.9548
+      "baFillSlope": 1.006
     },
     {
       "id": "PWD_ACCU_2015_UOWX",
       "name": "2015",
-      "baCoeff": 0.234,
+      "baCoeff": 0.2305,
       "heatOfExplosionKjKg": 4064,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -8033,16 +8033,16 @@
       "ignitionZ2": 0.8731,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9482,
+      "combustionEfficiency": 0.9503,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 962,
-      "burnExponent": 0.55,
-      "baFillSlope": -1.4958
+      "burnExponent": 0.5529,
+      "baFillSlope": -1.4928
     },
     {
       "id": "PWD_ALLI_RELODER_25_JJAD",
       "name": "Reloder 25",
-      "baCoeff": 0.0419,
+      "baCoeff": 0.0408,
       "heatOfExplosionKjKg": 4362,
       "kCoeff": 1.2318,
       "grainId": "GRN_EXTRUDED",
@@ -8055,15 +8055,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 915,
-      "combustionEfficiency": 1.0826,
-      "burnExponent": 0.5556,
-      "baFillSlope": 0.2614
+      "combustionEfficiency": 1.0961,
+      "burnExponent": 0.5552,
+      "baFillSlope": -0.2694
     },
     {
       "id": "PWD_ALLI_RELODER_33_VMB0",
       "name": "Reloder 33",
-      "baCoeff": 0.01,
-      "heatOfExplosionKjKg": 4488,
+      "baCoeff": 0.0086,
+      "heatOfExplosionKjKg": 5165,
       "kCoeff": 1.2155,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8075,14 +8075,14 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 1011,
-      "combustionEfficiency": 1.0672,
-      "burnExponent": 0.6775
+      "combustionEfficiency": 0.9509,
+      "burnExponent": 0.6854
     },
     {
       "id": "PWD_HODG_H50BMG_2J1E",
       "name": "H50BMG",
-      "baCoeff": 0.0181,
-      "heatOfExplosionKjKg": 4227,
+      "baCoeff": 0.017,
+      "heatOfExplosionKjKg": 4940,
       "kCoeff": 1.2522964,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8094,15 +8094,15 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580.06089440001,
       "bulkDensityKgM3": 980.009382800007,
-      "combustionEfficiency": 1.2494,
+      "combustionEfficiency": 1.1006,
       "burnExponent": 0.55,
-      "baFillSlope": -1.5024
+      "baFillSlope": -1.5839
     },
     {
       "id": "PWD_ACCU_2200_EA5G",
       "name": "2200",
-      "baCoeff": 0.194,
-      "heatOfExplosionKjKg": 4117,
+      "baCoeff": 0.2295,
+      "heatOfExplosionKjKg": 3412,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -8112,16 +8112,16 @@
       "ignitionZ2": 0.7212,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "ball",
-      "combustionEfficiency": 0.8395,
+      "combustionEfficiency": 0.9631,
       "propellantDensityKgM3": 1580,
-      "burnExponent": 0.5511,
-      "baFillSlope": -0.445
+      "burnExponent": 0.5512,
+      "baFillSlope": -1.291
     },
     {
       "id": "PWD_ACCU_LT_30_XE5M",
       "name": "LT-30",
-      "baCoeff": 0.2438,
-      "heatOfExplosionKjKg": 4292,
+      "baCoeff": 0.2202,
+      "heatOfExplosionKjKg": 4294,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8131,16 +8131,16 @@
       "ignitionZ2": 0.9483,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9328,
+      "combustionEfficiency": 0.9185,
       "propellantDensityKgM3": 1600,
-      "burnExponent": 0.55,
-      "baFillSlope": -2.4733
+      "burnExponent": 0.563,
+      "baFillSlope": -2.4811
     },
     {
       "id": "PWD_HODG_H4198_KN7E",
       "name": "H4198",
-      "baCoeff": 0.1969,
-      "heatOfExplosionKjKg": 4506,
+      "baCoeff": 0.2082,
+      "heatOfExplosionKjKg": 4923,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8150,17 +8150,17 @@
       "ignitionZ2": 0.9414,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9894,
+      "combustionEfficiency": 0.8928,
       "propellantDensityKgM3": 1560,
       "bulkDensityKgM3": 870,
       "burnExponent": 0.55,
-      "baFillSlope": 0.1755
+      "baFillSlope": 0.3524
     },
     {
       "id": "PWD_HODG_H322_V06U",
       "name": "H322",
-      "baCoeff": 0.1329,
-      "heatOfExplosionKjKg": 4572,
+      "baCoeff": 0.1376,
+      "heatOfExplosionKjKg": 4440,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8170,17 +8170,17 @@
       "ignitionZ2": 0.8253,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9399,
+      "combustionEfficiency": 0.9646,
       "propellantDensityKgM3": 1510,
       "bulkDensityKgM3": 940,
-      "burnExponent": 0.5557,
-      "baFillSlope": 0.6616
+      "burnExponent": 0.5548,
+      "baFillSlope": 0.4839
     },
     {
       "id": "PWD_ACCU_2460_P2ON",
       "name": "2460",
-      "baCoeff": 0.112,
-      "heatOfExplosionKjKg": 3552,
+      "baCoeff": 0.1123,
+      "heatOfExplosionKjKg": 3910,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -8190,17 +8190,17 @@
       "ignitionZ2": 0.7009,
       "manufacturerId": "MAN_ACCURATE_A2C1",
       "grainType": "ball",
-      "combustionEfficiency": 1.0063,
+      "combustionEfficiency": 0.9139,
       "propellantDensityKgM3": 1520,
       "bulkDensityKgM3": 996,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.2987
+      "burnExponent": 0.5517,
+      "baFillSlope": -0.3722
     },
     {
       "id": "PWD_HODG_BENCHMARK_BIU3",
       "name": "Benchmark",
-      "baCoeff": 0.1447,
-      "heatOfExplosionKjKg": 4764,
+      "baCoeff": 0.1355,
+      "heatOfExplosionKjKg": 4451,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8210,17 +8210,17 @@
       "ignitionZ2": 0.8181,
       "manufacturerId": "MAN_HODGDON_H7X2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9019,
+      "combustionEfficiency": 0.9829,
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 906,
-      "burnExponent": 0.55,
-      "baFillSlope": -0.3035
+      "burnExponent": 0.5537,
+      "baFillSlope": 0.1749
     },
     {
       "id": "PWD_ALLI_RELODER_10X_98AC",
       "name": "Reloder 10x",
-      "baCoeff": 0.2,
-      "heatOfExplosionKjKg": 4863,
+      "baCoeff": 0.2011,
+      "heatOfExplosionKjKg": 4543,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8230,17 +8230,17 @@
       "ignitionZ2": 0.8508,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.924,
+      "combustionEfficiency": 0.9872,
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 885,
-      "burnExponent": 0.55,
+      "burnExponent": 0.5517,
       "baFillSlope": -5
     },
     {
       "id": "PWD_ALLI_1200_R_9N2Z",
       "name": "1200-R",
-      "baCoeff": 0.0444,
-      "heatOfExplosionKjKg": 3883,
+      "baCoeff": 0.0704,
+      "heatOfExplosionKjKg": 4269,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8250,16 +8250,16 @@
       "ignitionZ2": 0.95,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0534,
+      "combustionEfficiency": 0.9669,
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 885,
-      "burnExponent": 0.6979
+      "burnExponent": 0.6606
     },
     {
       "id": "PWD_SHOO_AR_PLUS_LMUA",
       "name": "AR PLUS",
-      "baCoeff": 0.0944,
-      "heatOfExplosionKjKg": 4411,
+      "baCoeff": 0.1001,
+      "heatOfExplosionKjKg": 4268,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8269,10 +8269,11 @@
       "ignitionZ2": 0.95,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0166,
+      "combustionEfficiency": 1.113,
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 986,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "baFillSlope": -3.3537
     },
     {
       "id": "PWD_ALLI_RELODER_TS_15.5_FZL7",
@@ -8295,8 +8296,8 @@
     {
       "id": "PWD_SHOO_BUFFALO_RIFLE_FTV8",
       "name": "BUFFALO RIFLE",
-      "baCoeff": 0.0951,
-      "heatOfExplosionKjKg": 5200,
+      "baCoeff": 0.25,
+      "heatOfExplosionKjKg": 5160,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8306,16 +8307,17 @@
       "ignitionZ2": 0.9394,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 1.0602,
+      "combustionEfficiency": 0.8892,
       "propellantDensityKgM3": 1670,
       "bulkDensityKgM3": 860,
-      "burnExponent": 0.5773
+      "burnExponent": 0.5508,
+      "baFillSlope": -0.3975
     },
     {
       "id": "PWD_SHOO_BLACKOUT_KUV1",
       "name": "BLACKOUT",
-      "baCoeff": 0.1831,
-      "heatOfExplosionKjKg": 3400,
+      "baCoeff": 0.156,
+      "heatOfExplosionKjKg": 3833,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -8325,16 +8327,17 @@
       "ignitionZ2": 0.8743,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "ball",
-      "combustionEfficiency": 0.8,
+      "combustionEfficiency": 0.9725,
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 960,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "baFillSlope": -2.2144
     },
     {
       "id": "PWD_ALLI_4000_MR_KRWA",
       "name": "4000-MR",
-      "baCoeff": 0.0739,
-      "heatOfExplosionKjKg": 4160,
+      "baCoeff": 0.0731,
+      "heatOfExplosionKjKg": 4089,
       "kCoeff": 1.255,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -8344,15 +8347,15 @@
       "ignitionZ2": 0.7318,
       "manufacturerId": "MAN_ALLIANT_A5R2",
       "grainType": "ball",
-      "combustionEfficiency": 0.92,
+      "combustionEfficiency": 0.9376,
       "propellantDensityKgM3": 1580,
-      "burnExponent": 0.55
+      "burnExponent": 0.5505
     },
     {
       "id": "PWD_HODG_LEVEREVOLUTION_XTV3",
       "name": "Leverevolution",
-      "baCoeff": 0.0783,
-      "heatOfExplosionKjKg": 4151,
+      "baCoeff": 0.0801,
+      "heatOfExplosionKjKg": 4148,
       "kCoeff": 1.2325,
       "grainId": "GRN_BALL",
       "tempSensFactor": null,
@@ -8365,9 +8368,9 @@
       "propellantDensityKgM3": 1680,
       "burnRateTempCoeffPerC": 0.0572,
       "bulkDensityKgM3": 1045,
-      "combustionEfficiency": 1.0053,
+      "combustionEfficiency": 0.9985,
       "burnExponent": 0.55,
-      "baFillSlope": -0.4303
+      "baFillSlope": -0.1884
     },
     {
       "id": "PWD_NORM_MRP_8AVD",
@@ -8390,8 +8393,8 @@
     {
       "id": "PWD_VIHT_24N41_5S8S",
       "name": "24N41",
-      "baCoeff": 0.0316,
-      "heatOfExplosionKjKg": 5032,
+      "baCoeff": 0.0294,
+      "heatOfExplosionKjKg": 4889,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
       "tempSensFactor": null,
@@ -8401,19 +8404,19 @@
       "ignitionZ2": 0.7888,
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.9672,
+      "combustionEfficiency": 1.0049,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 980,
-      "burnExponent": 0.5553,
-      "baFillSlope": 1.9679
+      "burnExponent": 0.5587,
+      "baFillSlope": 2.139
     },
     {
       "id": "PWD_VIHT_N150_V1H7",
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "name": "N150",
-      "baCoeff": 0.1178,
+      "baCoeff": 0.119,
       "kCoeff": 1.2214,
-      "heatOfExplosionKjKg": 4923,
+      "heatOfExplosionKjKg": 4919,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 890,
@@ -8421,9 +8424,9 @@
       "ignitionBp": 0.2905,
       "ignitionZ1": 0.3124,
       "ignitionZ2": 0.5098,
-      "combustionEfficiency": 0.8661,
+      "combustionEfficiency": 0.8638,
       "burnExponent": 0.55,
-      "baFillSlope": -4.9917
+      "baFillSlope": -4.9834
     }
   ],
   "bullets": [
@@ -18133,7 +18136,7 @@
         "weightGrams": 2.5919564,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 5.3015,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.114,
@@ -18217,7 +18220,7 @@
         "weightGrams": 2.915951,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 6.0977,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.128,
@@ -18357,7 +18360,7 @@
         "weightGrams": 3.2399455,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 11.6137,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.142,
@@ -18441,7 +18444,7 @@
         "weightGrams": 3.5639401,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 11.6157,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -18581,7 +18584,7 @@
         "weightGrams": 4.0823313,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 12.6185,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.179,
@@ -19030,7 +19033,7 @@
         "weightGrams": 5.8319019,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 18.9608,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.195,
@@ -19058,7 +19061,7 @@
         "weightGrams": 6.479891,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 16.2118,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.216,
@@ -19170,7 +19173,7 @@
         "weightGrams": 7.5814725,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 18.0503,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.253,
@@ -19310,7 +19313,7 @@
         "weightGrams": 7.7758692,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 18.0335,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.246,
@@ -19506,7 +19509,7 @@
         "weightGrams": 10.3678256,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 20.8915,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.328,
@@ -19562,7 +19565,7 @@
         "weightGrams": 7.1278801,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 13.3706,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.205,
@@ -19646,7 +19649,7 @@
         "weightGrams": 8.4238583,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 17.8831,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -19842,7 +19845,7 @@
         "weightGrams": 7.7758692,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 16.2452,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.213,
@@ -19926,7 +19929,7 @@
         "weightGrams": 9.0718474,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 18.7188,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.248,
@@ -20094,7 +20097,7 @@
         "weightGrams": 11.0158147,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 20.4737,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -20290,7 +20293,7 @@
         "materialType": "MAT_JACKETED_LEAD",
         "bearingSurfaceMm": 5.7593,
         "ogiveLengthMm": 11.0809,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.166,
@@ -20318,7 +20321,7 @@
         "materialType": "MAT_JACKETED_LEAD",
         "bearingSurfaceMm": 5.7593,
         "ogiveLengthMm": 11.0809,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.166,
@@ -20486,7 +20489,7 @@
         "weightGrams": 9.7198365,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 17.7996,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.226,
@@ -20514,7 +20517,7 @@
         "materialType": "MAT_JACKETED_LEAD",
         "bearingSurfaceMm": 7.7747,
         "ogiveLengthMm": 14.9583,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.226,
@@ -20689,7 +20692,7 @@
         "weightGrams": 11.6638038,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 20.3901,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.271,
@@ -20745,7 +20748,7 @@
         "weightGrams": 11.6638038,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 18.2508,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.271,
@@ -20857,7 +20860,7 @@
         "weightGrams": 12.959782,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 21.677,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -21193,7 +21196,7 @@
         "weightGrams": 8.7478529,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 16.1617,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.203,
@@ -21221,7 +21224,7 @@
         "weightGrams": 5.5079073,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 6.0639,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.128,
@@ -21336,7 +21339,7 @@
         "weightGrams": 2.9807499,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 5.1829,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.131,
@@ -21446,7 +21449,7 @@
         "weightGrams": 6.479891,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 11.1978,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.151,
@@ -21490,7 +21493,7 @@
         "weightGrams": 11.0158147,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 16.3137,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.256,
@@ -21534,7 +21537,7 @@
         "weightGrams": 12.959782,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 21.8107,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -21578,7 +21581,7 @@
         "weightGrams": 2.5919564,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 11.5872,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.114,
@@ -21623,7 +21626,7 @@
         "weightGrams": 3.2399455,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 13.5039,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.142,
@@ -21667,7 +21670,7 @@
         "weightGrams": 3.5639401,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 13.8524,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.157,
@@ -21778,7 +21781,7 @@
         "weightGrams": 4.6007226,
         "materialType": "MAT_MONOLITHIC_COPPER",
         "ogiveLengthMm": 14.8907,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.201,
@@ -21800,7 +21803,7 @@
         "weightGrams": 4.7951193,
         "materialType": "MAT_MONOLITHIC_COPPER",
         "ogiveLengthMm": 15.6566,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.211,
@@ -21844,7 +21847,7 @@
         "weightGrams": 4.9895161,
         "materialType": "MAT_MONOLITHIC_COPPER",
         "ogiveLengthMm": 17.018,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.22,
@@ -21866,7 +21869,7 @@
         "weightGrams": 4.9895161,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 15.1277,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.219,
@@ -21889,7 +21892,7 @@
         "weightGrams": 5.1839128,
         "materialType": "MAT_MONOLITHIC_COPPER",
         "ogiveLengthMm": 17.4435,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.227,
@@ -21978,7 +21981,7 @@
         "weightGrams": 5.4431084,
         "materialType": "MAT_MONOLITHIC_COPPER",
         "ogiveLengthMm": 17.018,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.203,
@@ -23563,7 +23566,7 @@
       "id": "BUL_SPEER_224_30_TNT_2D07",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green\u00ae",
+      "name": "TNT Green®",
       "physis": {
         "overallLengthMm": 9.525,
         "bearingSurfaceMm": 3.0861,
@@ -23629,7 +23632,7 @@
       "id": "BUL_SPEER_224_43_TNT_FA1E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green\u00ae",
+      "name": "TNT Green®",
       "physis": {
         "overallLengthMm": 12.954,
         "bearingSurfaceMm": 4.1971,
@@ -23717,7 +23720,7 @@
       "id": "BUL_SPEER_224_50_TNT_96B4",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green\u00ae",
+      "name": "TNT Green®",
       "physis": {
         "overallLengthMm": 15.875,
         "bearingSurfaceMm": 5.1435,
@@ -23747,7 +23750,7 @@
         "weightGrams": 3.3695433,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 8.351,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.148,
@@ -23783,7 +23786,7 @@
       "id": "BUL_SPEER_224_55_TNT_A93F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT\u00ae HP",
+      "name": "TNT® HP",
       "physis": {
         "overallLengthMm": 18.669,
         "bearingSurfaceMm": 6.0488,
@@ -23827,7 +23830,7 @@
       "id": "BUL_SPEER_257_87_HC_A9C9",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 20.828,
         "bearingSurfaceMm": 7.5692,
@@ -23959,7 +23962,7 @@
       "id": "BUL_SPEER_277_130_HC_A7C0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 26.67,
         "bearingSurfaceMm": 9.8552,
@@ -24003,7 +24006,7 @@
       "id": "BUL_SPEER_277_150_SP_59CE",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Grand\nSlam\u00ae SP",
+      "name": "Grand\nSlam® SP",
       "physis": {
         "overallLengthMm": 29.718,
         "bearingSurfaceMm": 10.9728,
@@ -24069,7 +24072,7 @@
       "id": "BUL_SPEER_284_145_HC_DF6E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 28.067,
         "bearingSurfaceMm": 10.668,
@@ -24091,7 +24094,7 @@
       "id": "BUL_SPEER_284_145_SP_48C7",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Grand\nSlam\u00ae SP",
+      "name": "Grand\nSlam® SP",
       "physis": {
         "overallLengthMm": 28.194,
         "bearingSurfaceMm": 10.668,
@@ -24135,7 +24138,7 @@
       "id": "BUL_SPEER_284_160_HC_BE79",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 31.369,
         "bearingSurfaceMm": 12.1158,
@@ -24157,7 +24160,7 @@
       "id": "BUL_SPEER_308_100_SP_3807",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Plinker\u00ae\nSPRN",
+      "name": "Plinker®\nSPRN",
       "physis": {
         "overallLengthMm": 17.018,
         "bearingSurfaceMm": 5.8202,
@@ -24165,7 +24168,7 @@
         "weightGrams": 6.479891,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 11.1978,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.151,
@@ -24209,7 +24212,7 @@
         "weightGrams": 8.4238583,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 11.9088,
-        "boatTailLengthMm": 3.0
+        "boatTailLengthMm": 3
       },
       "ballistics": {
         "sectionalDensity": 0.196,
@@ -24223,7 +24226,7 @@
       "id": "BUL_SPEER_308_130_SP_867A",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor\u00ae",
+      "name": "SPFN HotCor®",
       "physis": {
         "overallLengthMm": 21.0566,
         "bearingSurfaceMm": 8.1187,
@@ -24267,7 +24270,7 @@
       "id": "BUL_SPEER_308_150_HC_7CE0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": 8.8576,
@@ -24289,7 +24292,7 @@
       "id": "BUL_SPEER_308_150_SP_A791",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor\u00ae",
+      "name": "SPFN HotCor®",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": 8.9466,
@@ -24333,7 +24336,7 @@
       "id": "BUL_SPEER_308_165_SP_EC00",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam\u00ae SP/CANN",
+      "name": "Grand\nSlam® SP/CANN",
       "physis": {
         "overallLengthMm": 27.432,
         "bearingSurfaceMm": 9.652,
@@ -24355,7 +24358,7 @@
       "id": "BUL_SPEER_308_170_SP_2F8F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor\u00ae",
+      "name": "SPFN HotCor®",
       "physis": {
         "overallLengthMm": 28.956,
         "bearingSurfaceMm": 11.176,
@@ -24399,7 +24402,7 @@
       "id": "BUL_SPEER_308_180_SP_55E3",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam\u00ae SP/CANN",
+      "name": "Grand\nSlam® SP/CANN",
       "physis": {
         "overallLengthMm": 29.464,
         "bearingSurfaceMm": 10.16,
@@ -24421,7 +24424,7 @@
       "id": "BUL_SPEER_308_200_HC_0958",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor\u00ae",
+      "name": "Spitzer SP\nHot-Cor®",
       "physis": {
         "overallLengthMm": 32.258,
         "bearingSurfaceMm": 11.938,
@@ -24935,7 +24938,7 @@
         "weightGrams": 8.4238583,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 21.3929,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -25419,7 +25422,7 @@
         "weightGrams": 8.4238583,
         "materialType": "MAT_RELIEF_GROOVED_COPPER_MONO",
         "ogiveLengthMm": 20.1,
-        "boatTailLengthMm": 0.0
+        "boatTailLengthMm": 0
       },
       "ballistics": {
         "sectionalDensity": 0.242,
@@ -25507,7 +25510,7 @@
         "weightGrams": 11.3398093,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 21.1666,
-        "boatTailLengthMm": 4.0
+        "boatTailLengthMm": 4
       },
       "ballistics": {
         "sectionalDensity": 0.264,
@@ -25551,7 +25554,7 @@
         "weightGrams": 12.959782,
         "materialType": "MAT_JACKETED_LEAD",
         "ogiveLengthMm": 23.9075,
-        "boatTailLengthMm": 4.0
+        "boatTailLengthMm": 4
       },
       "ballistics": {
         "sectionalDensity": 0.301,
@@ -27840,7 +27843,7 @@
       "chargeWeightGrams": 2.7215542,
       "coalMm": 70.612,
       "velocityMps": 731.52,
-      "notes": "SE Load A \u2014 200gr Speer Hot-Cor, H4895. Moderate velocity, proven deer penetration. Testing for stability in thick brush conditions. MV ~2400 fps."
+      "notes": "SE Load A — 200gr Speer Hot-Cor, H4895. Moderate velocity, proven deer penetration. Testing for stability in thick brush conditions. MV ~2400 fps."
     },
     {
       "id": "LOD_SEAST_338FED_210TTSX",
@@ -27853,7 +27856,7 @@
       "chargeWeightGrams": 2.6243559,
       "coalMm": 71.12,
       "velocityMps": 710.18,
-      "notes": "SE Load B \u2014 210gr Barnes TTSX, Varget. Monolithic copper for reliable expansion. Tested for bone-busting performance at close range. MV ~2330 fps."
+      "notes": "SE Load B — 210gr Barnes TTSX, Varget. Monolithic copper for reliable expansion. Tested for bone-busting performance at close range. MV ~2330 fps."
     },
     {
       "id": "LOD_SEAST_338FED_225GS",
@@ -27866,7 +27869,7 @@
       "chargeWeightGrams": 2.5271575,
       "coalMm": 71.628,
       "velocityMps": 676.66,
-      "notes": "SE Load C \u2014 225gr Speer Grand Slam, IMR 4064. Heaviest projectile tested. Max penetration for quartering shots. MV ~2220 fps."
+      "notes": "SE Load C — 225gr Speer Grand Slam, IMR 4064. Heaviest projectile tested. Max penetration for quartering shots. MV ~2220 fps."
     },
     {
       "id": "LOD_MICH_3006_180NOSLER",
@@ -27879,7 +27882,7 @@
       "chargeWeightGrams": 3.5639401,
       "coalMm": 83.82,
       "velocityMps": 822.96,
-      "notes": "Michigan bear load \u2014 180gr Nosler Partition, H4350. The Partition's dual-core design provides reliable front-end expansion with rear-core penetration retention. Ideal for close-range tree shots requiring maximum tissue disruption. MV ~2700 fps."
+      "notes": "Michigan bear load — 180gr Nosler Partition, H4350. The Partition's dual-core design provides reliable front-end expansion with rear-core penetration retention. Ideal for close-range tree shots requiring maximum tissue disruption. MV ~2700 fps."
     }
   ],
   "customTargets": [
@@ -27977,7 +27980,7 @@
     },
     {
       "id": "TGT_HDES_100YD",
-      "name": "High Desert 100yd \u2014 NRA Bullseye",
+      "name": "High Desert 100yd — NRA Bullseye",
       "size": "Letter",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
@@ -27997,9 +28000,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_HDES_100YD",
-        "name": "High Desert 100yd \u2014 NRA Bullseye",
+        "name": "High Desert 100yd — NRA Bullseye",
         "diameter": 8,
-        "labelText": "100 yards \u2014 6.5 PRC 147gr ELD-M",
+        "labelText": "100 yards — 6.5 PRC 147gr ELD-M",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28007,7 +28010,7 @@
     },
     {
       "id": "TGT_HDES_400YD",
-      "name": "High Desert 400yd \u2014 10\" Steel Sim",
+      "name": "High Desert 400yd — 10\" Steel Sim",
       "size": "Letter",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
@@ -28027,9 +28030,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_HDES_400YD",
-        "name": "High Desert 400yd \u2014 10\" Steel Sim",
+        "name": "High Desert 400yd — 10\" Steel Sim",
         "diameter": 10,
-        "labelText": "400 yards \u2014 6.5 PRC 147gr ELD-M",
+        "labelText": "400 yards — 6.5 PRC 147gr ELD-M",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28037,7 +28040,7 @@
     },
     {
       "id": "TGT_SEAST_L1",
-      "name": "SE Brush 100yd \u2014 Load A (200gr HC)",
+      "name": "SE Brush 100yd — Load A (200gr HC)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_200HC",
@@ -28057,9 +28060,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L1",
-        "name": "SE Brush 100yd \u2014 Load A (200gr HC)",
+        "name": "SE Brush 100yd — Load A (200gr HC)",
         "diameter": 10,
-        "labelText": "100 yards \u2014 .338 Fed 200gr Hot-Cor",
+        "labelText": "100 yards — .338 Fed 200gr Hot-Cor",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28067,7 +28070,7 @@
     },
     {
       "id": "TGT_SEAST_L2",
-      "name": "SE Brush 100yd \u2014 Load B (210gr TTSX)",
+      "name": "SE Brush 100yd — Load B (210gr TTSX)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_210TTSX",
@@ -28087,9 +28090,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L2",
-        "name": "SE Brush 100yd \u2014 Load B (210gr TTSX)",
+        "name": "SE Brush 100yd — Load B (210gr TTSX)",
         "diameter": 10,
-        "labelText": "100 yards \u2014 .338 Fed 210gr TTSX",
+        "labelText": "100 yards — .338 Fed 210gr TTSX",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28097,7 +28100,7 @@
     },
     {
       "id": "TGT_SEAST_L3",
-      "name": "SE Brush 300yd \u2014 Load C (225gr GS)",
+      "name": "SE Brush 300yd — Load C (225gr GS)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_225GS",
@@ -28117,9 +28120,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L3",
-        "name": "SE Brush 300yd \u2014 Load C (225gr GS)",
+        "name": "SE Brush 300yd — Load C (225gr GS)",
         "diameter": 10,
-        "labelText": "300 yards \u2014 .338 Fed 225gr Grand Slam",
+        "labelText": "300 yards — .338 Fed 225gr Grand Slam",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28127,7 +28130,7 @@
     },
     {
       "id": "TGT_MICH_75YD",
-      "name": "Michigan 75yd \u2014 Silhouette",
+      "name": "Michigan 75yd — Silhouette",
       "size": "Letter",
       "firearmId": "FRM_MICH_3006",
       "loadId": "LOD_MICH_3006_180NOSLER",
@@ -28147,9 +28150,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_MICH_75YD",
-        "name": "Michigan 75yd \u2014 Silhouette",
+        "name": "Michigan 75yd — Silhouette",
         "diameter": 12,
-        "labelText": "75 yards \u2014 .30-06 180gr Partition",
+        "labelText": "75 yards — .30-06 180gr Partition",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -28159,7 +28162,7 @@
   "sessions": [
     {
       "id": "SES_HDES_100YD",
-      "name": "High Desert 6.5 PRC \u2014 100yd Zero",
+      "name": "High Desert 6.5 PRC — 100yd Zero",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
       "markedTargetId": "MKT_HDES_100YD",
@@ -28172,7 +28175,7 @@
     },
     {
       "id": "SES_HDES_400YD",
-      "name": "High Desert 6.5 PRC \u2014 400yd Confirmation",
+      "name": "High Desert 6.5 PRC — 400yd Confirmation",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
       "markedTargetId": "MKT_HDES_400YD",
@@ -28185,7 +28188,7 @@
     },
     {
       "id": "SES_SEAST_L1",
-      "name": "SE Brush .338 Fed \u2014 Load A @ 100yd",
+      "name": "SE Brush .338 Fed — Load A @ 100yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_200HC",
       "markedTargetId": "MKT_SEAST_100YD_L1",
@@ -28198,7 +28201,7 @@
     },
     {
       "id": "SES_SEAST_L2",
-      "name": "SE Brush .338 Fed \u2014 Load B @ 100yd",
+      "name": "SE Brush .338 Fed — Load B @ 100yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_210TTSX",
       "markedTargetId": "MKT_SEAST_100YD_L2",
@@ -28211,7 +28214,7 @@
     },
     {
       "id": "SES_SEAST_L3",
-      "name": "SE Brush .338 Fed \u2014 Load C @ 300yd",
+      "name": "SE Brush .338 Fed — Load C @ 300yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_225GS",
       "markedTargetId": "MKT_SEAST_300YD_L3",
@@ -28224,7 +28227,7 @@
     },
     {
       "id": "SES_MICH_75YD",
-      "name": "Michigan Woods .30-06 \u2014 Bear @ 75yd",
+      "name": "Michigan Woods .30-06 — Bear @ 75yd",
       "firearmId": "FRM_MICH_3006",
       "loadId": "LOD_MICH_3006_180NOSLER",
       "markedTargetId": "MKT_MICH_75YD",
@@ -30223,42 +30226,42 @@
   "markedTargets": [
     {
       "id": "MKT_HDES_100YD",
-      "name": "High Desert \u2014 100yd Paper",
+      "name": "High Desert — 100yd Paper",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750500000000
     },
     {
       "id": "MKT_HDES_400YD",
-      "name": "High Desert \u2014 400yd Steel Plate",
+      "name": "High Desert — 400yd Steel Plate",
       "targetDistance": 400,
       "distanceUnits": "yards",
       "createdAt": 1750503600000
     },
     {
       "id": "MKT_SEAST_100YD_L1",
-      "name": "SE Brush \u2014 Load A (200gr HC) @ 100yd",
+      "name": "SE Brush — Load A (200gr HC) @ 100yd",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750507200000
     },
     {
       "id": "MKT_SEAST_100YD_L2",
-      "name": "SE Brush \u2014 Load B (210gr TTSX) @ 100yd",
+      "name": "SE Brush — Load B (210gr TTSX) @ 100yd",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750510800000
     },
     {
       "id": "MKT_SEAST_300YD_L3",
-      "name": "SE Brush \u2014 Load C (225gr GS) @ 300yd",
+      "name": "SE Brush — Load C (225gr GS) @ 300yd",
       "targetDistance": 300,
       "distanceUnits": "yards",
       "createdAt": 1750514400000
     },
     {
       "id": "MKT_MICH_75YD",
-      "name": "Michigan Woods \u2014 Black Bear @ 75yd",
+      "name": "Michigan Woods — Black Bear @ 75yd",
       "targetDistance": 75,
       "distanceUnits": "yards",
       "createdAt": 1750518000000
@@ -30267,7 +30270,7 @@
   "monteCarloSaves": [
     {
       "id": "MCS_HDES_HIGH_DESERT",
-      "name": "High Desert Southwest \u2014 6.5 PRC Mule Deer",
+      "name": "High Desert Southwest — 6.5 PRC Mule Deer",
       "createdAt": 1750500000000,
       "params": {
         "mv": 2910,
@@ -30307,7 +30310,7 @@
     },
     {
       "id": "MCS_SEAST_SE_BRUSH",
-      "name": "Southeast Brush \u2014 .338 Federal Whitetail",
+      "name": "Southeast Brush — .338 Federal Whitetail",
       "createdAt": 1750507200000,
       "params": {
         "mv": 2400,
@@ -30347,7 +30350,7 @@
     },
     {
       "id": "MCS_MICH_WOODS",
-      "name": "Michigan Woods \u2014 .30-06 Black Bear",
+      "name": "Michigan Woods — .30-06 Black Bear",
       "createdAt": 1750518000000,
       "params": {
         "mv": 2700,
