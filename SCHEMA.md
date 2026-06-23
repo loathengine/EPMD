@@ -135,6 +135,7 @@ Dexie index: `id, manufacturerId, diameterId`
   "manufacturerId": "MAN_REF_MFG_A",
   "name": "Reference Powder A",
   "baCoeff": 0.2285,
+  "baFillSlope": 0.0,
   "kCoeff": 1.2311,
   "heatOfExplosionKjKg": 3585,
   "grainType": "extrudedSinglePerf",
@@ -150,16 +151,20 @@ Dexie index: `id, manufacturerId, diameterId`
 }
 ```
 
-* `baCoeff`? — ballistic action coefficient (internal ballistics simulator)
+* `baCoeff`? — ballistic action coefficient at the reference fill fraction (50%). Defines the base burn rate at $\phi = 0.50$. Calibrated by `calibrateV2.ts --all`
+* `baFillSlope`? — linear fill-fraction slope for `baCoeff`. Controls how the burn rate coefficient scales with propellant loading density relative to the 50% fill reference pivot.
+  - Effective coefficient: `ba_eff = baCoeff × clamp(1 + baFillSlope × (fillFraction − 0.50))`
+  - Absent or `null` is treated as `0` — identical to the scalar model
+  - Fitted by `calibrateV2.ts --fill-slope`; only populated for powders with ≥10 loads spanning ≥8% fill range
 * `kCoeff`? — burn rate shape coefficient. Single-base (nitrocellulose only): `1.23`. Double-base (NC + nitroglycerin): `1.255`
 * `heatOfExplosionKjKg`? — heat of explosion in kJ/kg. Single-base: `3580`. Double-base: `3950`
 * `grainType`? — physical geometry of powder grains. Allowed values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
-* `propellantDensityKgM3`? — optional solid density of the powder material in kg/m³
-* `bulkDensityKgM3`? — optional bulk density of the powder grains in kg/m³ (used to compute case fill percentage / loading density)
+* `propellantDensityKgM3`? — optional solid density of the powder material in kg/m³. Used to compute fill fraction for the burn rate model and the flame spread model
+* `bulkDensityKgM3`? — optional bulk density of the powder grains in kg/m³ (used to compute case fill percentage / loading density for display)
 * `ignitionBa`? / `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? — optional ignition phase burn rate coefficients
 * `tempSensFactor`? — optional temperature sensitivity factor
-* `burnExponent`? — pressure exponent in propellant burn laws (defaults to 0.65)
-* `combustionEfficiency`? — scaling factor representing the completed combustion ratio of the propellant
+* `burnExponent`? — pressure exponent in propellant burn laws (defaults to 0.65). Calibrated by `calibrateV2.ts --burn-exp`
+* `combustionEfficiency`? — scaling factor representing the completed combustion ratio of the propellant. Calibrated by `calibrateV2.ts --all`
 
 Dexie index: `id, manufacturerId`
 
