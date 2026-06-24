@@ -6497,7 +6497,7 @@
     {
       "id": "PWD_ACCU_LT32_R1AA",
       "name": "Accurate LT-32",
-      "baCoeff": 0.1932,
+      "baCoeff": 0.193,
       "heatOfExplosionKjKg": 3731,
       "kCoeff": 1.2388,
       "grainId": "GRN_BALL",
@@ -6510,7 +6510,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 906,
-      "combustionEfficiency": 1.0552,
+      "combustionEfficiency": 1.0561,
       "burnExponent": 0.5529,
       "baFillSlope": -1.284
     },
@@ -6627,7 +6627,7 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 994,
-      "combustionEfficiency": 1.02,
+      "combustionEfficiency": 1.0199,
       "burnExponent": 0.55,
       "baFillSlope": -0.3965
     },
@@ -6708,7 +6708,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1640,
       "bulkDensityKgM3": 1010,
-      "combustionEfficiency": 1.0332,
+      "combustionEfficiency": 1.0339,
       "burnExponent": 0.5503,
       "baFillSlope": 0.0498
     },
@@ -6767,7 +6767,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 990,
-      "combustionEfficiency": 1.1378,
+      "combustionEfficiency": 1.1372,
       "burnExponent": 0.5501,
       "baFillSlope": 0.1038
     },
@@ -6873,7 +6873,7 @@
     {
       "id": "PWD_HODG_IMR4198_H1GS",
       "name": "IMR 4198",
-      "baCoeff": 0.2499,
+      "baCoeff": 0.25,
       "heatOfExplosionKjKg": 4580,
       "kCoeff": 1.2232,
       "grainId": "GRN_EXTRUDED_SINGLEPERF",
@@ -6886,7 +6886,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1550,
       "bulkDensityKgM3": 830,
-      "combustionEfficiency": 0.9014,
+      "combustionEfficiency": 0.9013,
       "burnExponent": 0.5502,
       "baFillSlope": -1.9444
     },
@@ -6926,7 +6926,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 1.0051,
+      "combustionEfficiency": 1.0049,
       "burnExponent": 0.5501,
       "baFillSlope": 0.5836
     },
@@ -7012,7 +7012,7 @@
     {
       "id": "PWD_HODG_RETUMBO_H1G4",
       "name": "Retumbo",
-      "baCoeff": 0.0264,
+      "baCoeff": 0.0263,
       "heatOfExplosionKjKg": 4436,
       "kCoeff": 1.2302,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -7025,7 +7025,7 @@
       "grainType": "extrudedMultiPerf",
       "propellantDensityKgM3": 1590,
       "bulkDensityKgM3": 960,
-      "combustionEfficiency": 1.2499,
+      "combustionEfficiency": 1.25,
       "burnExponent": 0.5501,
       "baFillSlope": 1.2447
     },
@@ -7086,7 +7086,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 940,
-      "combustionEfficiency": 1.0645,
+      "combustionEfficiency": 1.0646,
       "burnExponent": 0.55,
       "baFillSlope": -0.5357
     },
@@ -7113,7 +7113,7 @@
     {
       "id": "PWD_RAMS_TAC_R1A1",
       "name": "TAC",
-      "baCoeff": 0.1519,
+      "baCoeff": 0.1518,
       "heatOfExplosionKjKg": 3811,
       "kCoeff": 1.2364,
       "grainId": "GRN_BALL",
@@ -7126,7 +7126,7 @@
       "grainType": "ball",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 938,
-      "combustionEfficiency": 0.9947,
+      "combustionEfficiency": 0.9949,
       "burnExponent": 0.55,
       "baFillSlope": -0.5688
     },
@@ -7433,7 +7433,7 @@
     {
       "id": "PWD_VIHT_N570_V5H8",
       "name": "N570",
-      "baCoeff": 0.0347,
+      "baCoeff": 0.0348,
       "heatOfExplosionKjKg": 5084,
       "kCoeff": 1.23,
       "grainId": "GRN_EXTRUDED_MULTIPERF",
@@ -7444,7 +7444,7 @@
       "ignitionZ2": 0.63,
       "manufacturerId": "MAN_VIHTAVUORI_V3H8",
       "grainType": "extrudedMultiPerf",
-      "combustionEfficiency": 1.1294,
+      "combustionEfficiency": 1.1279,
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
@@ -7962,7 +7962,7 @@
     {
       "id": "PWD_SHOO_SW4350_JZV8",
       "name": "SW4350",
-      "baCoeff": 0.0763,
+      "baCoeff": 0.0759,
       "heatOfExplosionKjKg": 4940,
       "kCoeff": 1.2,
       "grainId": "GRN_EXTRUDED",
@@ -7973,7 +7973,7 @@
       "ignitionZ2": 0.9449,
       "manufacturerId": "MAN_SHOOTERS_WORLD_S5W6",
       "grainType": "extrudedSinglePerf",
-      "combustionEfficiency": 0.8694,
+      "combustionEfficiency": 0.8721,
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 920,
       "burnExponent": 0.5502,
@@ -8055,7 +8055,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1620,
       "bulkDensityKgM3": 915,
-      "combustionEfficiency": 1.1637,
+      "combustionEfficiency": 1.1636,
       "burnExponent": 0.5552,
       "baFillSlope": -0.2694
     },
@@ -8094,7 +8094,7 @@
       "grainType": "extrudedSinglePerf",
       "propellantDensityKgM3": 1580.06089440001,
       "bulkDensityKgM3": 980.009382800007,
-      "combustionEfficiency": 1.2389,
+      "combustionEfficiency": 1.2384,
       "burnExponent": 0.55,
       "baFillSlope": -1.5839
     },
@@ -8368,7 +8368,7 @@
       "propellantDensityKgM3": 1680,
       "burnRateTempCoeffPerC": 0.0572,
       "bulkDensityKgM3": 1045,
-      "combustionEfficiency": 0.9832,
+      "combustionEfficiency": 0.9836,
       "burnExponent": 0.55,
       "baFillSlope": -0.1884
     },
