@@ -57,27 +57,6 @@
       "boreDiameterMm": 8.382
     },
     {
-      "id": "DIA_204_R7V2",
-      "imperialName": ".204",
-      "metricName": "5.2mm",
-      "bulletDiameterMm": 5.1816,
-      "boreDiameterMm": 5.0038
-    },
-    {
-      "id": "DIA_310_J7N2",
-      "imperialName": ".310",
-      "metricName": "7.87mm",
-      "bulletDiameterMm": 7.874,
-      "boreDiameterMm": 7.62
-    },
-    {
-      "id": "DIA_312_K8M1",
-      "imperialName": ".312",
-      "metricName": "7.92mm",
-      "bulletDiameterMm": 7.9248,
-      "boreDiameterMm": 7.6962
-    },
-    {
       "id": "DIA_323_M2P1",
       "imperialName": ".323",
       "metricName": "8.2mm",
@@ -92,13 +71,6 @@
       "boreDiameterMm": 8.8138
     },
     {
-      "id": "DIA_366_P3R1",
-      "imperialName": ".366",
-      "metricName": "9.3mm",
-      "bulletDiameterMm": 9.3,
-      "boreDiameterMm": 9.1
-    },
-    {
       "id": "DIA_375_H3J4",
       "imperialName": ".375",
       "metricName": "9.5mm",
@@ -106,95 +78,11 @@
       "boreDiameterMm": 9.3472
     },
     {
-      "id": "DIA_416_Q2R5",
-      "imperialName": ".416",
-      "metricName": "10.6mm",
-      "bulletDiameterMm": 10.5664,
-      "boreDiameterMm": 10.3632
-    },
-    {
-      "id": "DIA_429_K6L2",
-      "imperialName": ".429",
-      "metricName": "10.9mm",
-      "bulletDiameterMm": 10.8966,
-      "boreDiameterMm": 10.7188
-    },
-    {
       "id": "DIA_458_R9S3",
       "imperialName": ".458",
       "metricName": "11.6mm",
       "bulletDiameterMm": 11.6332,
       "boreDiameterMm": 11.43
-    },
-    {
-      "id": "DIA_510_B1M2",
-      "imperialName": ".510",
-      "metricName": "13mm",
-      "bulletDiameterMm": 12.954,
-      "boreDiameterMm": 12.954
-    },
-    {
-      "id": "DIA_172_H1V2",
-      "imperialName": ".172",
-      "metricName": "4.37mm",
-      "bulletDiameterMm": 4.3688,
-      "boreDiameterMm": 4.1656
-    },
-    {
-      "id": "DIA_257_SP",
-      "imperialName": ".257",
-      "metricName": "6.53mm",
-      "bulletDiameterMm": 6.5278,
-      "boreDiameterMm": 6.35
-    },
-    {
-      "id": "DIA_452_B2K1",
-      "imperialName": ".452",
-      "metricName": "11.5mm",
-      "bulletDiameterMm": 11.4808,
-      "boreDiameterMm": 11.2776
-    },
-    {
-      "id": "DIA_321_K3M1",
-      "imperialName": ".321",
-      "metricName": "8.15mm",
-      "bulletDiameterMm": 8.1534,
-      "boreDiameterMm": 7.9248
-    },
-    {
-      "id": "DIA_348_H4J3",
-      "imperialName": ".348",
-      "metricName": "8.84mm",
-      "bulletDiameterMm": 8.8392,
-      "boreDiameterMm": 8.5344
-    },
-    {
-      "id": "DIA_400_P2K1",
-      "imperialName": ".400",
-      "metricName": "10.16mm",
-      "bulletDiameterMm": 10.16,
-      "boreDiameterMm": 9.906
-    },
-    {
-      "id": "DIA_204_K5L1",
-      "imperialName": ".204",
-      "metricName": "5.18mm",
-      "bulletDiameterMm": 5.1816,
-      "boreDiameterMm": 5.08
-    },
-    {
-      "id": "DIA_411_T3K1",
-      "imperialName": ".411",
-      "metricName": "10.44mm",
-      "bulletDiameterMm": 10.439,
-      "boreDiameterMm": 10.16
-    },
-    {
-      "id": "DIA_474_J5P2",
-      "imperialName": ".474",
-      "metricName": "12.04mm",
-      "bulletDiameterMm": 12.04,
-      "boreDiameterMm": 11.938
     }
   ],
   "cartridges": [
@@ -2604,53 +2492,6 @@
       "maxSaamiPressurePsi": 46500
     },
     {
-      "id": "CTG_204RUG_N2H4",
-      "name": "204 Ruger",
-      "diameterId": "DIA_204_R7V2",
-      "baseCapacityH2oGrams": 2.3,
-      "trimLengthMm": 45.34,
-      "maxCaseLengthMm": 45.59,
-      "oalMm": 57.02,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474934,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 30,
-      "bodyDiameterMm": 11.2,
-      "bulletDiameterMm": 5.182,
-      "boreDiameterMm": 5.004,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 62000,
-          "nominalVelocityFps": 4060,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 4275,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.2,
-        "bodyDiameterAtShoulderP2Mm": 10.77,
-        "shoulderNeckJunctionDiameterH1Mm": 5.89,
-        "neckDiameterAtMouthH2Mm": 5.89,
-        "lengthToShoulderStartL1Mm": 29.46,
-        "lengthToShoulderNeckJunctionL2Mm": 37.08,
-        "totalCaseLengthL3Mm": 45.59
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 3.8,
-        "wallThicknessAtBaseMm": 0.85,
-        "wallThicknessAtMidBodyMm": 0.6,
-        "wallThicknessAtShoulderMm": 0.45,
-        "wallThicknessAtNeckMm": 0.33
-      },
-      "freeboreLengthMm": 2.29,
-      "freeboreDiameterMm": 5.195,
-      "standardTwistMm": 304.8,
-      "maxSaamiPressurePsi": 62000
-    },
-    {
       "id": "CTG_222REM_cR81",
       "name": "222 Remington",
       "diameterId": "DIA_224_L5X8",
@@ -3920,100 +3761,6 @@
       "maxSaamiPressurePsi": 55000
     },
     {
-      "id": "CTG_762X39_cM32",
-      "name": "7.62x39mm",
-      "diameterId": "DIA_310_J7N2",
-      "baseCapacityH2oGrams": 2.4,
-      "trimLengthMm": 38.35,
-      "maxCaseLengthMm": 38.6,
-      "oalMm": 56,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 358527364,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 22,
-      "bodyDiameterMm": 11.35,
-      "bulletDiameterMm": 7.874,
-      "boreDiameterMm": 7.62,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 52000,
-          "nominalVelocityFps": 2350,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3610,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.35,
-        "bodyDiameterAtShoulderP2Mm": 8.89,
-        "shoulderNeckJunctionDiameterH1Mm": 8.53,
-        "neckDiameterAtMouthH2Mm": 8.72,
-        "lengthToShoulderStartL1Mm": 23.62,
-        "lengthToShoulderNeckJunctionL2Mm": 30.48,
-        "totalCaseLengthL3Mm": 38.6
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4,
-        "wallThicknessAtBaseMm": 0.9,
-        "wallThicknessAtMidBodyMm": 0.65,
-        "wallThicknessAtShoulderMm": 0.5,
-        "wallThicknessAtNeckMm": 0.38
-      },
-      "freeboreLengthMm": 2.29,
-      "freeboreDiameterMm": 7.9,
-      "standardTwistMm": 241.3,
-      "maxSaamiPressurePsi": 52000
-    },
-    {
-      "id": "CTG_303BRIT_cN7N",
-      "name": "303 British",
-      "diameterId": "DIA_312_K8M1",
-      "baseCapacityH2oGrams": 3.7,
-      "trimLengthMm": 56.19,
-      "maxCaseLengthMm": 56.44,
-      "oalMm": 78.36,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 337843093,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 7,
-      "bodyDiameterMm": 12,
-      "bulletDiameterMm": 7.925,
-      "boreDiameterMm": 7.696,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 49000,
-          "nominalVelocityFps": 2460,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3600,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12,
-        "bodyDiameterAtShoulderP2Mm": 10.72,
-        "shoulderNeckJunctionDiameterH1Mm": 8.53,
-        "neckDiameterAtMouthH2Mm": 8.74,
-        "lengthToShoulderStartL1Mm": 40.13,
-        "lengthToShoulderNeckJunctionL2Mm": 49.28,
-        "totalCaseLengthL3Mm": 56.44
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.8,
-        "wallThicknessAtBaseMm": 0.95,
-        "wallThicknessAtMidBodyMm": 0.65,
-        "wallThicknessAtShoulderMm": 0.5,
-        "wallThicknessAtNeckMm": 0.38
-      },
-      "freeboreLengthMm": 3.18,
-      "freeboreDiameterMm": 7.938,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 45000
-    },
-    {
       "id": "CTG_8X57IS_cN7O",
       "name": "8x57mm IS (8mm Mauser)",
       "diameterId": "DIA_323_M2P1",
@@ -4625,147 +4372,6 @@
       "maxSaamiPressurePsi": 52000
     },
     {
-      "id": "CTG_93X62_cN81",
-      "name": "9.3x62mm",
-      "diameterId": "DIA_366_P3R1",
-      "baseCapacityH2oGrams": 4.8,
-      "trimLengthMm": 62.23,
-      "maxCaseLengthMm": 62.49,
-      "oalMm": 84.07,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 379211635,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 20,
-      "bodyDiameterMm": 12,
-      "bulletDiameterMm": 9.3,
-      "boreDiameterMm": 9.1,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 55000,
-          "nominalVelocityFps": 2362,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3900,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12,
-        "bodyDiameterAtShoulderP2Mm": 11.43,
-        "shoulderNeckJunctionDiameterH1Mm": 10.08,
-        "neckDiameterAtMouthH2Mm": 10.08,
-        "lengthToShoulderStartL1Mm": 41.4,
-        "lengthToShoulderNeckJunctionL2Mm": 50.8,
-        "totalCaseLengthL3Mm": 62.49
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.8,
-        "wallThicknessAtBaseMm": 0.98,
-        "wallThicknessAtMidBodyMm": 0.65,
-        "wallThicknessAtShoulderMm": 0.5,
-        "wallThicknessAtNeckMm": 0.42
-      },
-      "freeboreLengthMm": 3.81,
-      "freeboreDiameterMm": 9.313,
-      "standardTwistMm": 330.2,
-      "maxSaamiPressurePsi": 55000
-    },
-    {
-      "id": "CTG_93X74R_cN82",
-      "name": "9.3x74R",
-      "diameterId": "DIA_366_P3R1",
-      "baseCapacityH2oGrams": 6.2,
-      "trimLengthMm": 74.42,
-      "maxCaseLengthMm": 74.68,
-      "oalMm": 97.03,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 379211635,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 20,
-      "bodyDiameterMm": 13.72,
-      "bulletDiameterMm": 9.3,
-      "boreDiameterMm": 9.1,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 55000,
-          "nominalVelocityFps": 2296,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3900,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 13.72,
-        "bodyDiameterAtShoulderP2Mm": 13.34,
-        "shoulderNeckJunctionDiameterH1Mm": 10.08,
-        "neckDiameterAtMouthH2Mm": 10.08,
-        "lengthToShoulderStartL1Mm": 50.8,
-        "lengthToShoulderNeckJunctionL2Mm": 62.23,
-        "totalCaseLengthL3Mm": 74.68
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.4,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.7,
-        "wallThicknessAtShoulderMm": 0.52,
-        "wallThicknessAtNeckMm": 0.43
-      },
-      "freeboreLengthMm": 4.32,
-      "freeboreDiameterMm": 9.313,
-      "standardTwistMm": 330.2,
-      "maxSaamiPressurePsi": 55000
-    },
-    {
-      "id": "CTG_93X66SAKO_cN83",
-      "name": "9.3x66 Sako",
-      "diameterId": "DIA_366_P3R1",
-      "baseCapacityH2oGrams": 6.2,
-      "trimLengthMm": 66.19,
-      "maxCaseLengthMm": 66.44,
-      "oalMm": 88.9,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 413685420,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 25,
-      "bodyDiameterMm": 13.97,
-      "bulletDiameterMm": 9.3,
-      "boreDiameterMm": 9.1,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 60000,
-          "nominalVelocityFps": 2790,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 4200,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 13.97,
-        "bodyDiameterAtShoulderP2Mm": 13.46,
-        "shoulderNeckJunctionDiameterH1Mm": 10.08,
-        "neckDiameterAtMouthH2Mm": 10.08,
-        "lengthToShoulderStartL1Mm": 44.45,
-        "lengthToShoulderNeckJunctionL2Mm": 55.37,
-        "totalCaseLengthL3Mm": 66.44
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.5,
-        "wallThicknessAtBaseMm": 1.02,
-        "wallThicknessAtMidBodyMm": 0.72,
-        "wallThicknessAtShoulderMm": 0.53,
-        "wallThicknessAtNeckMm": 0.43
-      },
-      "freeboreLengthMm": 4.32,
-      "freeboreDiameterMm": 9.313,
-      "standardTwistMm": 330.2,
-      "maxSaamiPressurePsi": 60000
-    },
-    {
       "id": "CTG_375HH_cN84",
       "name": "375 H&H Magnum",
       "diameterId": "DIA_375_H3J4",
@@ -4954,147 +4560,6 @@
       "maxSaamiPressurePsi": 65000
     },
     {
-      "id": "CTG_416RIG_cN88",
-      "name": "416 Rigby",
-      "diameterId": "DIA_416_Q2R5",
-      "baseCapacityH2oGrams": 8.4,
-      "trimLengthMm": 72.77,
-      "maxCaseLengthMm": 73.03,
-      "oalMm": 93.98,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 324053579,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 45,
-      "bodyDiameterMm": 15.04,
-      "bulletDiameterMm": 10.566,
-      "boreDiameterMm": 10.363,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 47000,
-          "nominalVelocityFps": 2370,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3800,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 15.04,
-        "bodyDiameterAtShoulderP2Mm": 14.99,
-        "shoulderNeckJunctionDiameterH1Mm": 11.38,
-        "neckDiameterAtMouthH2Mm": 11.38,
-        "lengthToShoulderStartL1Mm": 47.75,
-        "lengthToShoulderNeckJunctionL2Mm": 56.9,
-        "totalCaseLengthL3Mm": 73.03
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 6.5,
-        "wallThicknessAtBaseMm": 1.2,
-        "wallThicknessAtMidBodyMm": 0.85,
-        "wallThicknessAtShoulderMm": 0.65,
-        "wallThicknessAtNeckMm": 0.5
-      },
-      "freeboreLengthMm": 5.08,
-      "freeboreDiameterMm": 10.579,
-      "standardTwistMm": 355.6,
-      "maxSaamiPressurePsi": 47140
-    },
-    {
-      "id": "CTG_416REMMAG_cN89",
-      "name": "416 Remington Magnum",
-      "diameterId": "DIA_416_Q2R5",
-      "baseCapacityH2oGrams": 7.6,
-      "trimLengthMm": 73.15,
-      "maxCaseLengthMm": 73.41,
-      "oalMm": 96.52,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 448159205,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 25,
-      "bodyDiameterMm": 13.21,
-      "bulletDiameterMm": 10.566,
-      "boreDiameterMm": 10.363,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 65000,
-          "nominalVelocityFps": 2400,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3850,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 13.21,
-        "bodyDiameterAtShoulderP2Mm": 12.8,
-        "shoulderNeckJunctionDiameterH1Mm": 11.38,
-        "neckDiameterAtMouthH2Mm": 11.38,
-        "lengthToShoulderStartL1Mm": 50.8,
-        "lengthToShoulderNeckJunctionL2Mm": 61.72,
-        "totalCaseLengthL3Mm": 73.41
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.8,
-        "wallThicknessAtBaseMm": 1.1,
-        "wallThicknessAtMidBodyMm": 0.8,
-        "wallThicknessAtShoulderMm": 0.62,
-        "wallThicknessAtNeckMm": 0.5
-      },
-      "freeboreLengthMm": 5.08,
-      "freeboreDiameterMm": 10.579,
-      "standardTwistMm": 355.6,
-      "maxSaamiPressurePsi": 65000
-    },
-    {
-      "id": "CTG_444MARL_cN8A",
-      "name": "444 Marlin",
-      "diameterId": "DIA_429_K6L2",
-      "baseCapacityH2oGrams": 3.7,
-      "trimLengthMm": 54.11,
-      "maxCaseLengthMm": 54.36,
-      "oalMm": 68.58,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 303369308,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 12.55,
-      "bulletDiameterMm": 10.897,
-      "boreDiameterMm": 10.719,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 44000,
-          "nominalVelocityFps": 2200,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3100,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12.55,
-        "bodyDiameterAtShoulderP2Mm": 12.55,
-        "shoulderNeckJunctionDiameterH1Mm": 12.01,
-        "neckDiameterAtMouthH2Mm": 11.43,
-        "lengthToShoulderStartL1Mm": 48.26,
-        "lengthToShoulderNeckJunctionL2Mm": 51.56,
-        "totalCaseLengthL3Mm": 54.36
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.5,
-        "wallThicknessAtBaseMm": 0.85,
-        "wallThicknessAtMidBodyMm": 0.55,
-        "wallThicknessAtShoulderMm": 0.48,
-        "wallThicknessAtNeckMm": 0.42
-      },
-      "freeboreLengthMm": 3.2,
-      "freeboreDiameterMm": 10.91,
-      "standardTwistMm": 609.6,
-      "maxSaamiPressurePsi": 44000
-    },
-    {
       "id": "CTG_4570GOV_cN8B",
       "name": "45-70 Government",
       "diameterId": "DIA_458_R9S3",
@@ -5281,147 +4746,6 @@
       "freeboreDiameterMm": 11.645999999999999,
       "standardTwistMm": 355.6,
       "maxSaamiPressurePsi": 62000
-    },
-    {
-      "id": "CTG_17REMFB_cN90",
-      "name": "17 Remington Fireball",
-      "diameterId": "DIA_172_H1V2",
-      "baseCapacityH2oGrams": 1.1,
-      "trimLengthMm": 36.45,
-      "maxCaseLengthMm": 36.7,
-      "oalMm": 45.72,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474934,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 30,
-      "bodyDiameterMm": 9.78,
-      "bulletDiameterMm": 4.369,
-      "boreDiameterMm": 4.267,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 62000,
-          "nominalVelocityFps": 4000,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 4300,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 9.78,
-        "bodyDiameterAtShoulderP2Mm": 8.53,
-        "shoulderNeckJunctionDiameterH1Mm": 4.95,
-        "neckDiameterAtMouthH2Mm": 4.95,
-        "lengthToShoulderStartL1Mm": 22.86,
-        "lengthToShoulderNeckJunctionL2Mm": 28.45,
-        "totalCaseLengthL3Mm": 36.7
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 3,
-        "wallThicknessAtBaseMm": 0.8,
-        "wallThicknessAtMidBodyMm": 0.58,
-        "wallThicknessAtShoulderMm": 0.43,
-        "wallThicknessAtNeckMm": 0.3
-      },
-      "freeboreLengthMm": 2.03,
-      "freeboreDiameterMm": 4.393,
-      "standardTwistMm": 228.6,
-      "maxSaamiPressurePsi": 60191
-    },
-    {
-      "id": "CTG_17REM_cN91",
-      "name": "17 Remington",
-      "diameterId": "DIA_172_H1V2",
-      "baseCapacityH2oGrams": 1.25,
-      "trimLengthMm": 38.1,
-      "maxCaseLengthMm": 38.35,
-      "oalMm": 52.07,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474934,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 25,
-      "bodyDiameterMm": 9.78,
-      "bulletDiameterMm": 4.369,
-      "boreDiameterMm": 4.267,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 62000,
-          "nominalVelocityFps": 4040,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 4300,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 9.78,
-        "bodyDiameterAtShoulderP2Mm": 8.23,
-        "shoulderNeckJunctionDiameterH1Mm": 4.95,
-        "neckDiameterAtMouthH2Mm": 4.95,
-        "lengthToShoulderStartL1Mm": 24.89,
-        "lengthToShoulderNeckJunctionL2Mm": 29.97,
-        "totalCaseLengthL3Mm": 38.35
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 3,
-        "wallThicknessAtBaseMm": 0.8,
-        "wallThicknessAtMidBodyMm": 0.58,
-        "wallThicknessAtShoulderMm": 0.43,
-        "wallThicknessAtNeckMm": 0.3
-      },
-      "freeboreLengthMm": 2.03,
-      "freeboreDiameterMm": 4.393,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 53000
-    },
-    {
-      "id": "CTG_17HORNET_cN92",
-      "name": "17 Hornet",
-      "diameterId": "DIA_172_H1V2",
-      "baseCapacityH2oGrams": 0.8,
-      "trimLengthMm": 35.31,
-      "maxCaseLengthMm": 35.56,
-      "oalMm": 44.45,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 372316878,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 25,
-      "bodyDiameterMm": 8.71,
-      "bulletDiameterMm": 4.369,
-      "boreDiameterMm": 4.267,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 54000,
-          "nominalVelocityFps": 3650,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3800,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 8.71,
-        "bodyDiameterAtShoulderP2Mm": 6.3,
-        "shoulderNeckJunctionDiameterH1Mm": 4.95,
-        "neckDiameterAtMouthH2Mm": 4.95,
-        "lengthToShoulderStartL1Mm": 20.07,
-        "lengthToShoulderNeckJunctionL2Mm": 27.94,
-        "totalCaseLengthL3Mm": 35.56
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 2.5,
-        "wallThicknessAtBaseMm": 0.65,
-        "wallThicknessAtMidBodyMm": 0.43,
-        "wallThicknessAtShoulderMm": 0.33,
-        "wallThicknessAtNeckMm": 0.28
-      },
-      "freeboreLengthMm": 1.78,
-      "freeboreDiameterMm": 4.393,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 54000
     },
     {
       "id": "CTG_225WIN_cN93",
@@ -6352,100 +5676,6 @@
       "maxSaamiPressurePsi": 40000
     },
     {
-      "id": "CTG_762X54R_cNAC",
-      "name": "7.62x54R",
-      "diameterId": "DIA_312_K8M1",
-      "baseCapacityH2oGrams": 4.23,
-      "trimLengthMm": 53.47,
-      "maxCaseLengthMm": 53.72,
-      "oalMm": 77.22,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 358527364,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 17,
-      "bodyDiameterMm": 12.37,
-      "bulletDiameterMm": 7.925,
-      "boreDiameterMm": 7.696,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 52000,
-          "nominalVelocityFps": 2838,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3630,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12.37,
-        "bodyDiameterAtShoulderP2Mm": 11.43,
-        "shoulderNeckJunctionDiameterH1Mm": 8.73,
-        "neckDiameterAtMouthH2Mm": 8.73,
-        "lengthToShoulderStartL1Mm": 36.07,
-        "lengthToShoulderNeckJunctionL2Mm": 44.96,
-        "totalCaseLengthL3Mm": 53.72
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.8,
-        "wallThicknessAtBaseMm": 0.95,
-        "wallThicknessAtMidBodyMm": 0.65,
-        "wallThicknessAtShoulderMm": 0.5,
-        "wallThicknessAtNeckMm": 0.38
-      },
-      "freeboreLengthMm": 3.18,
-      "freeboreDiameterMm": 7.938,
-      "standardTwistMm": 240,
-      "maxSaamiPressurePsi": 55115
-    },
-    {
-      "id": "CTG_765X53MAU_cNAD",
-      "name": "7.65x53mm Mauser",
-      "diameterId": "DIA_312_K8M1",
-      "baseCapacityH2oGrams": 3.8,
-      "trimLengthMm": 54.61,
-      "maxCaseLengthMm": 54.86,
-      "oalMm": 76.2,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 344737850,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 17,
-      "bodyDiameterMm": 12,
-      "bulletDiameterMm": 7.925,
-      "boreDiameterMm": 7.823,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 50000,
-          "nominalVelocityFps": 2700,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3500,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12,
-        "bodyDiameterAtShoulderP2Mm": 11.43,
-        "shoulderNeckJunctionDiameterH1Mm": 8.53,
-        "neckDiameterAtMouthH2Mm": 8.53,
-        "lengthToShoulderStartL1Mm": 37.34,
-        "lengthToShoulderNeckJunctionL2Mm": 46.49,
-        "totalCaseLengthL3Mm": 54.86
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.8,
-        "wallThicknessAtBaseMm": 0.95,
-        "wallThicknessAtMidBodyMm": 0.65,
-        "wallThicknessAtShoulderMm": 0.5,
-        "wallThicknessAtNeckMm": 0.38
-      },
-      "freeboreLengthMm": 3.18,
-      "freeboreDiameterMm": 7.938,
-      "standardTwistMm": 240,
-      "maxSaamiPressurePsi": 43000
-    },
-    {
       "id": "CTG_338WBYRPM_cNAE",
       "name": "338 WBY RPM",
       "diameterId": "DIA_338_R7E3",
@@ -6769,100 +5999,6 @@
       "freeboreDiameterMm": 9.538,
       "standardTwistMm": 508,
       "maxSaamiPressurePsi": 30000
-    },
-    {
-      "id": "CTG_44MAGRIFLE_cNG5",
-      "name": "44 Remington Magnum Rifle",
-      "diameterId": "DIA_429_K6L2",
-      "baseCapacityH2oGrams": 1.6,
-      "trimLengthMm": 32.51,
-      "maxCaseLengthMm": 32.77,
-      "oalMm": 40.89,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 248211252,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 11.58,
-      "bulletDiameterMm": 10.897,
-      "boreDiameterMm": 10.719,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 36000,
-          "nominalVelocityFps": 1550,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 2600,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.58,
-        "bodyDiameterAtShoulderP2Mm": 11.58,
-        "shoulderNeckJunctionDiameterH1Mm": 11.58,
-        "neckDiameterAtMouthH2Mm": 11.58,
-        "lengthToShoulderStartL1Mm": 27.94,
-        "lengthToShoulderNeckJunctionL2Mm": 30.23,
-        "totalCaseLengthL3Mm": 32.77
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4,
-        "wallThicknessAtBaseMm": 0.72,
-        "wallThicknessAtMidBodyMm": 0.52,
-        "wallThicknessAtShoulderMm": 0.45,
-        "wallThicknessAtNeckMm": 0.4
-      },
-      "freeboreLengthMm": 2.54,
-      "freeboreDiameterMm": 10.91,
-      "standardTwistMm": 508,
-      "maxSaamiPressurePsi": 36000
-    },
-    {
-      "id": "CTG_450BUSH_cNG6",
-      "name": "450 Bushmaster",
-      "diameterId": "DIA_452_B2K1",
-      "baseCapacityH2oGrams": 2.5,
-      "trimLengthMm": 42.42,
-      "maxCaseLengthMm": 42.67,
-      "oalMm": 57.15,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 265448144,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 12.1,
-      "bulletDiameterMm": 11.481,
-      "boreDiameterMm": 11.278,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 38500,
-          "nominalVelocityFps": 2200,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 2700,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12.1,
-        "bodyDiameterAtShoulderP2Mm": 12.1,
-        "shoulderNeckJunctionDiameterH1Mm": 12.1,
-        "neckDiameterAtMouthH2Mm": 12.1,
-        "lengthToShoulderStartL1Mm": 36.07,
-        "lengthToShoulderNeckJunctionL2Mm": 39.88,
-        "totalCaseLengthL3Mm": 42.67
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.5,
-        "wallThicknessAtBaseMm": 0.75,
-        "wallThicknessAtMidBodyMm": 0.55,
-        "wallThicknessAtShoulderMm": 0.48,
-        "wallThicknessAtNeckMm": 0.43
-      },
-      "freeboreLengthMm": 2.54,
-      "freeboreDiameterMm": 11.494,
-      "standardTwistMm": 406.4,
-      "maxSaamiPressurePsi": 38500
     },
     {
       "id": "CTG_458SOCOM_cNG7",
@@ -7507,100 +6643,6 @@
       "maxSaamiPressurePsi": 56000
     },
     {
-      "id": "CTG_32WINSP_cNI2",
-      "name": "32 Winchester Special",
-      "diameterId": "DIA_321_K3M1",
-      "baseCapacityH2oGrams": 2.3,
-      "trimLengthMm": 52.32,
-      "maxCaseLengthMm": 52.58,
-      "oalMm": 63.5,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 275790280,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 24,
-      "bodyDiameterMm": 12.01,
-      "bulletDiameterMm": 8.153,
-      "boreDiameterMm": 7.925,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 40000,
-          "nominalVelocityFps": 2280,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 2800,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12.01,
-        "bodyDiameterAtShoulderP2Mm": 11.18,
-        "shoulderNeckJunctionDiameterH1Mm": 8.94,
-        "neckDiameterAtMouthH2Mm": 8.94,
-        "lengthToShoulderStartL1Mm": 35.56,
-        "lengthToShoulderNeckJunctionL2Mm": 43.18,
-        "totalCaseLengthL3Mm": 52.58
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.5,
-        "wallThicknessAtBaseMm": 0.88,
-        "wallThicknessAtMidBodyMm": 0.6,
-        "wallThicknessAtShoulderMm": 0.45,
-        "wallThicknessAtNeckMm": 0.4
-      },
-      "freeboreLengthMm": 3.05,
-      "freeboreDiameterMm": 8.166,
-      "standardTwistMm": 457.2,
-      "maxSaamiPressurePsi": 40000
-    },
-    {
-      "id": "CTG_348WIN_cNI3",
-      "name": "348 Winchester",
-      "diameterId": "DIA_348_H4J3",
-      "baseCapacityH2oGrams": 3.9,
-      "trimLengthMm": 64.26,
-      "maxCaseLengthMm": 64.52,
-      "oalMm": 80.01,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 310264065,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 20,
-      "bodyDiameterMm": 13.51,
-      "bulletDiameterMm": 8.839,
-      "boreDiameterMm": 8.534,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 45000,
-          "nominalVelocityFps": 2520,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3200,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 13.51,
-        "bodyDiameterAtShoulderP2Mm": 12.32,
-        "shoulderNeckJunctionDiameterH1Mm": 9.6,
-        "neckDiameterAtMouthH2Mm": 9.6,
-        "lengthToShoulderStartL1Mm": 44.45,
-        "lengthToShoulderNeckJunctionL2Mm": 53.34,
-        "totalCaseLengthL3Mm": 64.52
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.2,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.68,
-        "wallThicknessAtShoulderMm": 0.52,
-        "wallThicknessAtNeckMm": 0.43
-      },
-      "freeboreLengthMm": 3.81,
-      "freeboreDiameterMm": 8.852,
-      "standardTwistMm": 381,
-      "maxSaamiPressurePsi": 45000
-    },
-    {
       "id": "CTG_356WIN_cNI4",
       "name": "356 Winchester",
       "diameterId": "DIA_358_S4T2",
@@ -7781,53 +6823,6 @@
       "maxSaamiPressurePsi": 65000
     },
     {
-      "id": "CTG_400LEG_cNI8",
-      "name": "400 Legend",
-      "diameterId": "DIA_400_P2K1",
-      "baseCapacityH2oGrams": 2.1,
-      "trimLengthMm": 45.46,
-      "maxCaseLengthMm": 45.72,
-      "oalMm": 57.15,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 379211635,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 11.2,
-      "bulletDiameterMm": 10.16,
-      "boreDiameterMm": 9.906,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 55000,
-          "nominalVelocityFps": 2250,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3900,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.2,
-        "bodyDiameterAtShoulderP2Mm": 11.2,
-        "shoulderNeckJunctionDiameterH1Mm": 11.2,
-        "neckDiameterAtMouthH2Mm": 11.2,
-        "lengthToShoulderStartL1Mm": 38.86,
-        "lengthToShoulderNeckJunctionL2Mm": 42.42,
-        "totalCaseLengthL3Mm": 45.72
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 3.8,
-        "wallThicknessAtBaseMm": 0.7,
-        "wallThicknessAtMidBodyMm": 0.52,
-        "wallThicknessAtShoulderMm": 0.45,
-        "wallThicknessAtNeckMm": 0.43
-      },
-      "freeboreLengthMm": 2.54,
-      "freeboreDiameterMm": 10.173,
-      "standardTwistMm": 381,
-      "maxSaamiPressurePsi": 55000
-    },
-    {
       "id": "CTG_460WBYMAG_cNI9",
       "name": "460 Weatherby Magnum",
       "diameterId": "DIA_458_R9S3",
@@ -7873,178 +6868,6 @@
       "freeboreDiameterMm": 11.645999999999999,
       "standardTwistMm": 406.4,
       "maxSaamiPressurePsi": 65000
-    },
-    {
-      "id": "CTG_50BMG_cNJ0",
-      "name": "50 BMG (12.7x99mm)",
-      "diameterId": "DIA_510_B1M2",
-      "baseCapacityH2oGrams": 26,
-      "trimLengthMm": 98.8,
-      "maxCaseLengthMm": 99.06,
-      "oalMm": 138.43,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 379211635,
-      "flashHoleDiameterMm": 3,
-      "shoulderAngleDeg": 26,
-      "bodyDiameterMm": 20.4,
-      "bulletDiameterMm": 12.954,
-      "boreDiameterMm": 12.7,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 55000,
-          "nominalVelocityFps": 2850,
-          "referenceSource": "ANSI/SAAMI Standards"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 20.4,
-        "bodyDiameterAtShoulderP2Mm": 19.68,
-        "shoulderNeckJunctionDiameterH1Mm": 14.05,
-        "neckDiameterAtMouthH2Mm": 14.05,
-        "lengthToShoulderStartL1Mm": 78.74,
-        "lengthToShoulderNeckJunctionL2Mm": 90.42,
-        "totalCaseLengthL3Mm": 99.06
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 8,
-        "wallThicknessAtBaseMm": 1.4,
-        "wallThicknessAtMidBodyMm": 0.95,
-        "wallThicknessAtShoulderMm": 0.7,
-        "wallThicknessAtNeckMm": 0.55
-      },
-      "freeboreLengthMm": 8.13,
-      "freeboreDiameterMm": 13,
-      "standardTwistMm": 381,
-      "maxSaamiPressurePsi": 55000
-    },
-    {
-      "id": "CTG_20TACTICAL_cNJ1",
-      "name": "20 Tactical",
-      "diameterId": "DIA_204_K5L1",
-      "baseCapacityH2oGrams": 1.65,
-      "trimLengthMm": 43.94,
-      "maxCaseLengthMm": 44.2,
-      "oalMm": 57.15,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 427474934,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 28,
-      "bodyDiameterMm": 11.96,
-      "bulletDiameterMm": 5.182,
-      "boreDiameterMm": 5.08,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 62000,
-          "nominalVelocityFps": 3800,
-          "referenceSource": "ANSI/SAAMI Standards"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.96,
-        "bodyDiameterAtShoulderP2Mm": 11.43,
-        "shoulderNeckJunctionDiameterH1Mm": 5.87,
-        "neckDiameterAtMouthH2Mm": 5.87,
-        "lengthToShoulderStartL1Mm": 27.94,
-        "lengthToShoulderNeckJunctionL2Mm": 34.29,
-        "totalCaseLengthL3Mm": 44.2
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.5,
-        "wallThicknessAtBaseMm": 0.9,
-        "wallThicknessAtMidBodyMm": 0.62,
-        "wallThicknessAtShoulderMm": 0.46,
-        "wallThicknessAtNeckMm": 0.33
-      },
-      "freeboreLengthMm": 2.03,
-      "freeboreDiameterMm": 5.207,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 62000
-    },
-    {
-      "id": "CTG_20VARTARG_cNJ2",
-      "name": "20 Vartarg",
-      "diameterId": "DIA_204_K5L1",
-      "baseCapacityH2oGrams": 1.78,
-      "trimLengthMm": 42.67,
-      "maxCaseLengthMm": 42.93,
-      "oalMm": 55.12,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 413685420,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 28,
-      "bodyDiameterMm": 11.43,
-      "bulletDiameterMm": 5.182,
-      "boreDiameterMm": 5.08,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 60000,
-          "nominalVelocityFps": 3900,
-          "referenceSource": "ANSI/SAAMI Standards"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.43,
-        "bodyDiameterAtShoulderP2Mm": 10.92,
-        "shoulderNeckJunctionDiameterH1Mm": 5.87,
-        "neckDiameterAtMouthH2Mm": 5.87,
-        "lengthToShoulderStartL1Mm": 26.67,
-        "lengthToShoulderNeckJunctionL2Mm": 33.02,
-        "totalCaseLengthL3Mm": 42.93
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.2,
-        "wallThicknessAtBaseMm": 0.88,
-        "wallThicknessAtMidBodyMm": 0.6,
-        "wallThicknessAtShoulderMm": 0.44,
-        "wallThicknessAtNeckMm": 0.32
-      },
-      "freeboreLengthMm": 2.03,
-      "freeboreDiameterMm": 5.207,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60000
-    },
-    {
-      "id": "CTG_17ACKHORNET_cNJ3",
-      "name": "17 Ackley Hornet",
-      "diameterId": "DIA_172_H1V2",
-      "baseCapacityH2oGrams": 0.85,
-      "trimLengthMm": 35.31,
-      "maxCaseLengthMm": 35.56,
-      "oalMm": 44.45,
-      "primerPocketId": "PKT_SML",
-      "maxSaamiPa": 399895906,
-      "flashHoleDiameterMm": 1.524,
-      "shoulderAngleDeg": 40,
-      "bodyDiameterMm": 8.71,
-      "bulletDiameterMm": 4.369,
-      "boreDiameterMm": 4.267,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 58000,
-          "nominalVelocityFps": 3800,
-          "referenceSource": "ANSI/SAAMI Standards"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 8.71,
-        "bodyDiameterAtShoulderP2Mm": 6.35,
-        "shoulderNeckJunctionDiameterH1Mm": 4.95,
-        "neckDiameterAtMouthH2Mm": 4.95,
-        "lengthToShoulderStartL1Mm": 20.07,
-        "lengthToShoulderNeckJunctionL2Mm": 26.67,
-        "totalCaseLengthL3Mm": 35.56
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 2.5,
-        "wallThicknessAtBaseMm": 0.65,
-        "wallThicknessAtMidBodyMm": 0.43,
-        "wallThicknessAtShoulderMm": 0.33,
-        "wallThicknessAtNeckMm": 0.28
-      },
-      "freeboreLengthMm": 1.78,
-      "freeboreDiameterMm": 4.393,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 58000
     },
     {
       "id": "CTG_6MM250_cNJ4",
@@ -8266,53 +7089,6 @@
       "maxSaamiPressurePsi": 52000
     },
     {
-      "id": "CTG_77X58JAP_cNJ9",
-      "name": "7.7x58mm Japanese",
-      "diameterId": "DIA_312_K8M1",
-      "baseCapacityH2oGrams": 3.5,
-      "trimLengthMm": 58.15,
-      "maxCaseLengthMm": 58.4,
-      "oalMm": 82.04,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 324053579,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 17,
-      "bodyDiameterMm": 12.55,
-      "bulletDiameterMm": 7.925,
-      "boreDiameterMm": 7.696,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 47000,
-          "nominalVelocityFps": 2400,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 3300,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 12.55,
-        "bodyDiameterAtShoulderP2Mm": 11.43,
-        "shoulderNeckJunctionDiameterH1Mm": 8.73,
-        "neckDiameterAtMouthH2Mm": 8.73,
-        "lengthToShoulderStartL1Mm": 38.86,
-        "lengthToShoulderNeckJunctionL2Mm": 48.51,
-        "totalCaseLengthL3Mm": 58.4
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.8,
-        "wallThicknessAtBaseMm": 0.95,
-        "wallThicknessAtMidBodyMm": 0.65,
-        "wallThicknessAtShoulderMm": 0.5,
-        "wallThicknessAtNeckMm": 0.38
-      },
-      "freeboreLengthMm": 3.18,
-      "freeboreDiameterMm": 7.938,
-      "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 48600
-    },
-    {
       "id": "CTG_338MRLX_cNK0",
       "name": "338 Marlin Express",
       "diameterId": "DIA_338_R7E3",
@@ -8501,143 +7277,6 @@
       "maxSaamiPressurePsi": 52000
     },
     {
-      "id": "CTG_405WIN_cNK4",
-      "name": "405 Winchester",
-      "diameterId": "DIA_411_T3K1",
-      "baseCapacityH2oGrams": 5,
-      "trimLengthMm": 83.57,
-      "maxCaseLengthMm": 83.82,
-      "oalMm": 86.36,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 310264065,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 13.97,
-      "bulletDiameterMm": 10.439,
-      "boreDiameterMm": 10.16,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 45000,
-          "nominalVelocityFps": 2230,
-          "referenceSource": "ANSI/SAAMI Standards"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 13.97,
-        "bodyDiameterAtShoulderP2Mm": 13.97,
-        "shoulderNeckJunctionDiameterH1Mm": 11.43,
-        "neckDiameterAtMouthH2Mm": 11.43,
-        "lengthToShoulderStartL1Mm": 77.47,
-        "lengthToShoulderNeckJunctionL2Mm": 80.77,
-        "totalCaseLengthL3Mm": 83.82
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.5,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.68,
-        "wallThicknessAtShoulderMm": 0.52,
-        "wallThicknessAtNeckMm": 0.48
-      },
-      "freeboreLengthMm": 3.81,
-      "freeboreDiameterMm": 10.452,
-      "standardTwistMm": 508,
-      "maxSaamiPressurePsi": 45000
-    },
-    {
-      "id": "CTG_416WBYMAG_cNK5",
-      "name": "416 Weatherby Magnum",
-      "diameterId": "DIA_416_Q2R5",
-      "baseCapacityH2oGrams": 9,
-      "trimLengthMm": 72.9,
-      "maxCaseLengthMm": 73.15,
-      "oalMm": 93.98,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 448159205,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 28,
-      "bodyDiameterMm": 13.51,
-      "bulletDiameterMm": 10.566,
-      "boreDiameterMm": 10.312,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 65000,
-          "nominalVelocityFps": 2700,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 4600,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 13.51,
-        "bodyDiameterAtShoulderP2Mm": 13.21,
-        "shoulderNeckJunctionDiameterH1Mm": 11.43,
-        "neckDiameterAtMouthH2Mm": 11.43,
-        "lengthToShoulderStartL1Mm": 51.82,
-        "lengthToShoulderNeckJunctionL2Mm": 62.23,
-        "totalCaseLengthL3Mm": 73.15
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.5,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.72,
-        "wallThicknessAtShoulderMm": 0.55,
-        "wallThicknessAtNeckMm": 0.52
-      },
-      "freeboreLengthMm": 5.08,
-      "freeboreDiameterMm": 10.579,
-      "standardTwistMm": 406.4,
-      "maxSaamiPressurePsi": 65000
-    },
-    {
-      "id": "CTG_4440WIN_cNK6",
-      "name": "44-40 Winchester",
-      "diameterId": "DIA_429_K6L2",
-      "baseCapacityH2oGrams": 0.85,
-      "trimLengthMm": 32.77,
-      "maxCaseLengthMm": 33.02,
-      "oalMm": 42.93,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 89631841,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 11.28,
-      "bulletDiameterMm": 10.897,
-      "boreDiameterMm": 10.719,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 13000,
-          "nominalVelocityFps": 1250,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 1000,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.28,
-        "bodyDiameterAtShoulderP2Mm": 11.28,
-        "shoulderNeckJunctionDiameterH1Mm": 11.28,
-        "neckDiameterAtMouthH2Mm": 11.28,
-        "lengthToShoulderStartL1Mm": 27.94,
-        "lengthToShoulderNeckJunctionL2Mm": 30.73,
-        "totalCaseLengthL3Mm": 33.02
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 3.5,
-        "wallThicknessAtBaseMm": 0.6,
-        "wallThicknessAtMidBodyMm": 0.45,
-        "wallThicknessAtShoulderMm": 0.38,
-        "wallThicknessAtNeckMm": 0.35
-      },
-      "freeboreLengthMm": 2.54,
-      "freeboreDiameterMm": 10.91,
-      "standardTwistMm": 508,
-      "maxSaamiPressurePsi": 13000
-    },
-    {
       "id": "CTG_458LOTT_cNK7",
       "name": "458 Lott",
       "diameterId": "DIA_458_R9S3",
@@ -8726,53 +7365,6 @@
       "freeboreDiameterMm": 11.645999999999999,
       "standardTwistMm": 660.4,
       "maxSaamiPressurePsi": 14000
-    },
-    {
-      "id": "CTG_470NE_cNK9",
-      "name": "470 Nitro Express",
-      "diameterId": "DIA_474_J5P2",
-      "baseCapacityH2oGrams": 7.2,
-      "trimLengthMm": 82.3,
-      "maxCaseLengthMm": 82.55,
-      "oalMm": 111.13,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 262000766,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 13,
-      "bodyDiameterMm": 14.5,
-      "bulletDiameterMm": 12.04,
-      "boreDiameterMm": 11.938,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 38000,
-          "nominalVelocityFps": 2150,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 2700,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 14.5,
-        "bodyDiameterAtShoulderP2Mm": 14.5,
-        "shoulderNeckJunctionDiameterH1Mm": 13.08,
-        "neckDiameterAtMouthH2Mm": 13.08,
-        "lengthToShoulderStartL1Mm": 76.45,
-        "lengthToShoulderNeckJunctionL2Mm": 79.5,
-        "totalCaseLengthL3Mm": 82.55
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.5,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.7,
-        "wallThicknessAtShoulderMm": 0.58,
-        "wallThicknessAtNeckMm": 0.52
-      },
-      "freeboreLengthMm": 4.32,
-      "freeboreDiameterMm": 12.052999999999999,
-      "standardTwistMm": 457.2,
-      "maxSaamiPressurePsi": 38000
     },
     {
       "id": "CTG_256WINMAG_cNL0",
@@ -8908,53 +7500,6 @@
       "maxSaamiPressurePsi": 60000
     },
     {
-      "id": "CTG_3240WIN_cNL3",
-      "name": "32-40 Winchester",
-      "diameterId": "DIA_321_K3M1",
-      "baseCapacityH2oGrams": 1.9,
-      "trimLengthMm": 52.58,
-      "maxCaseLengthMm": 52.83,
-      "oalMm": 63.5,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 206842710,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 17,
-      "bodyDiameterMm": 11.53,
-      "bulletDiameterMm": 8.153,
-      "boreDiameterMm": 7.925,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 30000,
-          "nominalVelocityFps": 1440,
-          "referenceSource": "ANSI/SAAMI Standards"
-        },
-        "cip": {
-          "maxPressureBar": 2200,
-          "referenceSource": "CIP TDCC Sheet"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 11.53,
-        "bodyDiameterAtShoulderP2Mm": 10.67,
-        "shoulderNeckJunctionDiameterH1Mm": 8.94,
-        "neckDiameterAtMouthH2Mm": 8.94,
-        "lengthToShoulderStartL1Mm": 35.56,
-        "lengthToShoulderNeckJunctionL2Mm": 43.94,
-        "totalCaseLengthL3Mm": 52.83
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 4.2,
-        "wallThicknessAtBaseMm": 0.8,
-        "wallThicknessAtMidBodyMm": 0.55,
-        "wallThicknessAtShoulderMm": 0.42,
-        "wallThicknessAtNeckMm": 0.38
-      },
-      "freeboreLengthMm": 3.05,
-      "freeboreDiameterMm": 8.166,
-      "standardTwistMm": 508,
-      "maxSaamiPressurePsi": 30000
-    },
-    {
       "id": "CTG_358STA_cNL4",
       "name": "358 Shooting Times Alaskan",
       "diameterId": "DIA_358_S4T2",
@@ -8996,49 +7541,6 @@
       "freeboreDiameterMm": 9.106,
       "standardTwistMm": 254,
       "maxSaamiPressurePsi": 60000
-    },
-    {
-      "id": "CTG_50ALASKAN_cNL5",
-      "name": "50 Alaskan",
-      "diameterId": "DIA_510_B1M2",
-      "baseCapacityH2oGrams": 5.5,
-      "trimLengthMm": 65.79,
-      "maxCaseLengthMm": 66.04,
-      "oalMm": 87.63,
-      "primerPocketId": "PKT_LRG",
-      "maxSaamiPa": 275790280,
-      "flashHoleDiameterMm": 2.03,
-      "shoulderAngleDeg": 0,
-      "bodyDiameterMm": 14.2,
-      "bulletDiameterMm": 12.954,
-      "boreDiameterMm": 12.7,
-      "standards": {
-        "saami": {
-          "maxPressurePsi": 40000,
-          "nominalVelocityFps": 1900,
-          "referenceSource": "ANSI/SAAMI Standards"
-        }
-      },
-      "externalDimensions": {
-        "baseDiameterP1Mm": 14.2,
-        "bodyDiameterAtShoulderP2Mm": 14.2,
-        "shoulderNeckJunctionDiameterH1Mm": 14.2,
-        "neckDiameterAtMouthH2Mm": 14.2,
-        "lengthToShoulderStartL1Mm": 59.44,
-        "lengthToShoulderNeckJunctionL2Mm": 62.74,
-        "totalCaseLengthL3Mm": 66.04
-      },
-      "wallThicknessProfile": {
-        "webThicknessMm": 5.5,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.7,
-        "wallThicknessAtShoulderMm": 0.55,
-        "wallThicknessAtNeckMm": 0.5
-      },
-      "freeboreLengthMm": 3.81,
-      "freeboreDiameterMm": 13,
-      "standardTwistMm": 406.4,
-      "maxSaamiPressurePsi": 40000
     },
     {
       "id": "CTG_300REMMAG_SAUM",
@@ -10480,7 +8982,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 955,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — parameters based on H4350/Accurate4064. Requires calibration."
+      "_calibrationNote": "ESTIMATED \u2014 parameters based on H4350/Accurate4064. Requires calibration."
     },
     {
       "id": "PWD_VIHT_N110_V1H2",
@@ -10496,7 +8998,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 850,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_VIHT_N120_V1H3",
@@ -10512,7 +9014,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 860,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_H110_H1GA",
@@ -10528,7 +9030,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.5504,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_CFEBLK_H1GB",
@@ -10544,7 +9046,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_TRAILBOSS_H1GC",
@@ -10560,7 +9062,7 @@
       "propellantDensityKgM3": 1350,
       "bulkDensityKgM3": 310,
       "burnExponent": 0.7646,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_IMR_4227_I1G5",
@@ -10576,7 +9078,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 880,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_H4227_H1GD",
@@ -10592,7 +9094,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 880,
       "burnExponent": 0.7258,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ACCU_1680_R1AC",
@@ -10608,7 +9110,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.557,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ALLI_RL7_A1L0",
@@ -10624,7 +9126,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 940,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ALLI_VARMINT_A1L5",
@@ -10640,7 +9142,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 945,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ACCU_4100_R1AD",
@@ -10656,7 +9158,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 950,
       "burnExponent": 0.5502,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ACCU_NO9_R1AE",
@@ -10672,7 +9174,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ACCU_8700_R1AF",
@@ -10688,7 +9190,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 910,
       "burnExponent": 0.6677,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_US869_H1GE",
@@ -10704,7 +9206,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ALLI_300MP_A1L6",
@@ -10720,7 +9222,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 900,
       "burnExponent": 0.7688,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_RAMS_ENFORCER_R2S4",
@@ -10736,7 +9238,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.6118,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_IMR_4007SSC_I1G6",
@@ -10752,7 +9254,7 @@
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 932,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_SHOO_SWTR_S5W7",
@@ -10768,7 +9270,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_SHOO_SWSBR_S5W8",
@@ -10784,7 +9286,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_TITEGROUP_H1GF",
@@ -10800,7 +9302,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ALLI_2400_A1L7",
@@ -10816,7 +9318,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 905,
       "burnExponent": 0.8106,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_ALLI_RL50_A1L8",
@@ -10832,7 +9334,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 890,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_H870_H1GG",
@@ -10848,7 +9350,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_SR4759_H1GH",
@@ -10864,7 +9366,7 @@
       "propellantDensityKgM3": 1580,
       "bulkDensityKgM3": 880,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_NORM_217_N1H0",
@@ -10880,7 +9382,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 920,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_CLAYS_H1GI",
@@ -10896,7 +9398,7 @@
       "propellantDensityKgM3": 1500,
       "bulkDensityKgM3": 830,
       "burnExponent": 0.7297,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_UNIVERSAL_H1GJ",
@@ -10912,7 +9414,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_WIN_HP38_W1C7",
@@ -10928,7 +9430,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_WIN_HS6_W1C8",
@@ -10944,7 +9446,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 970,
       "burnExponent": 0.55,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_NORM_TS155_N1H1",
@@ -10960,7 +9462,7 @@
       "propellantDensityKgM3": 1600,
       "bulkDensityKgM3": 925,
       "burnExponent": 0.5502,
-      "_calibrationNote": "ESTIMATED — requires calibration against measured reference loads."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration against measured reference loads."
     },
     {
       "id": "PWD_HODG_LILGUN_H1G8",
@@ -10976,7 +9478,7 @@
       "propellantDensityKgM3": 1540,
       "bulkDensityKgM3": 890,
       "burnExponent": 0.56,
-      "_calibrationNote": "ESTIMATED — requires calibration."
+      "_calibrationNote": "ESTIMATED \u2014 requires calibration."
     }
   ],
   "bullets": [
@@ -25467,7 +23969,7 @@
       "id": "BUL_SPEER_224_30_TNT_2D07",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": 9.525,
         "bearingSurfaceMm": 3.0861,
@@ -25533,7 +24035,7 @@
       "id": "BUL_SPEER_224_43_TNT_FA1E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": 12.954,
         "bearingSurfaceMm": 4.1971,
@@ -25621,7 +24123,7 @@
       "id": "BUL_SPEER_224_50_TNT_96B4",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT Green®",
+      "name": "TNT Green\u00ae",
       "physis": {
         "overallLengthMm": 15.875,
         "bearingSurfaceMm": 5.1435,
@@ -25687,7 +24189,7 @@
       "id": "BUL_SPEER_224_55_TNT_A93F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_224_L5X8",
-      "name": "TNT® HP",
+      "name": "TNT\u00ae HP",
       "physis": {
         "overallLengthMm": 18.669,
         "bearingSurfaceMm": 6.0488,
@@ -25731,7 +24233,7 @@
       "id": "BUL_SPEER_257_87_HC_A9C9",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_257_N2M1",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 20.828,
         "bearingSurfaceMm": 7.5692,
@@ -25863,7 +24365,7 @@
       "id": "BUL_SPEER_277_130_HC_A7C0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 26.67,
         "bearingSurfaceMm": 9.8552,
@@ -25907,7 +24409,7 @@
       "id": "BUL_SPEER_277_150_SP_59CE",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_277_K9L0",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 29.718,
         "bearingSurfaceMm": 10.9728,
@@ -25973,7 +24475,7 @@
       "id": "BUL_SPEER_284_145_HC_DF6E",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 28.067,
         "bearingSurfaceMm": 10.668,
@@ -25995,7 +24497,7 @@
       "id": "BUL_SPEER_284_145_SP_48C7",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Grand\nSlam® SP",
+      "name": "Grand\nSlam\u00ae SP",
       "physis": {
         "overallLengthMm": 28.194,
         "bearingSurfaceMm": 10.668,
@@ -26039,7 +24541,7 @@
       "id": "BUL_SPEER_284_160_HC_BE79",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_284_S3F6",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 31.369,
         "bearingSurfaceMm": 12.1158,
@@ -26061,7 +24563,7 @@
       "id": "BUL_SPEER_308_100_SP_3807",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Plinker®\nSPRN",
+      "name": "Plinker\u00ae\nSPRN",
       "physis": {
         "overallLengthMm": 17.018,
         "bearingSurfaceMm": 5.8202,
@@ -26127,7 +24629,7 @@
       "id": "BUL_SPEER_308_130_SP_867A",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 21.0566,
         "bearingSurfaceMm": 8.1187,
@@ -26171,7 +24673,7 @@
       "id": "BUL_SPEER_308_150_HC_7CE0",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": 8.8576,
@@ -26193,7 +24695,7 @@
       "id": "BUL_SPEER_308_150_SP_A791",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 23.368,
         "bearingSurfaceMm": 8.9466,
@@ -26237,7 +24739,7 @@
       "id": "BUL_SPEER_308_165_SP_EC00",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 27.432,
         "bearingSurfaceMm": 9.652,
@@ -26259,7 +24761,7 @@
       "id": "BUL_SPEER_308_170_SP_2F8F",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "SPFN HotCor®",
+      "name": "SPFN HotCor\u00ae",
       "physis": {
         "overallLengthMm": 28.956,
         "bearingSurfaceMm": 11.176,
@@ -26303,7 +24805,7 @@
       "id": "BUL_SPEER_308_180_SP_55E3",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Grand\nSlam® SP/CANN",
+      "name": "Grand\nSlam\u00ae SP/CANN",
       "physis": {
         "overallLengthMm": 29.464,
         "bearingSurfaceMm": 10.16,
@@ -26325,7 +24827,7 @@
       "id": "BUL_SPEER_308_200_HC_0958",
       "manufacturerId": "MAN_SPEER_S2P1",
       "diameterId": "DIA_308_XBM7",
-      "name": "Spitzer SP\nHot-Cor®",
+      "name": "Spitzer SP\nHot-Cor\u00ae",
       "physis": {
         "overallLengthMm": 32.258,
         "bearingSurfaceMm": 11.938,
@@ -38120,7 +36622,7 @@
       "chargeWeightGrams": 2.7215542,
       "coalMm": 70.612,
       "velocityMps": 731.52,
-      "notes": "SE Load A — 200gr Speer Hot-Cor, H4895. Moderate velocity, proven deer penetration. Testing for stability in thick brush conditions. MV ~2400 fps."
+      "notes": "SE Load A \u2014 200gr Speer Hot-Cor, H4895. Moderate velocity, proven deer penetration. Testing for stability in thick brush conditions. MV ~2400 fps."
     },
     {
       "id": "LOD_SEAST_338FED_210TTSX",
@@ -38133,7 +36635,7 @@
       "chargeWeightGrams": 2.6243559,
       "coalMm": 71.12,
       "velocityMps": 710.18,
-      "notes": "SE Load B — 210gr Barnes TTSX, Varget. Monolithic copper for reliable expansion. Tested for bone-busting performance at close range. MV ~2330 fps."
+      "notes": "SE Load B \u2014 210gr Barnes TTSX, Varget. Monolithic copper for reliable expansion. Tested for bone-busting performance at close range. MV ~2330 fps."
     },
     {
       "id": "LOD_SEAST_338FED_225GS",
@@ -38146,7 +36648,7 @@
       "chargeWeightGrams": 2.5271575,
       "coalMm": 71.628,
       "velocityMps": 676.66,
-      "notes": "SE Load C — 225gr Speer Grand Slam, IMR 4064. Heaviest projectile tested. Max penetration for quartering shots. MV ~2220 fps."
+      "notes": "SE Load C \u2014 225gr Speer Grand Slam, IMR 4064. Heaviest projectile tested. Max penetration for quartering shots. MV ~2220 fps."
     },
     {
       "id": "LOD_MICH_3006_180NOSLER",
@@ -38159,7 +36661,7 @@
       "chargeWeightGrams": 3.5639401,
       "coalMm": 83.82,
       "velocityMps": 822.96,
-      "notes": "Michigan bear load — 180gr Nosler Partition, H4350. The Partition's dual-core design provides reliable front-end expansion with rear-core penetration retention. Ideal for close-range tree shots requiring maximum tissue disruption. MV ~2700 fps."
+      "notes": "Michigan bear load \u2014 180gr Nosler Partition, H4350. The Partition's dual-core design provides reliable front-end expansion with rear-core penetration retention. Ideal for close-range tree shots requiring maximum tissue disruption. MV ~2700 fps."
     }
   ],
   "customTargets": [
@@ -38257,7 +36759,7 @@
     },
     {
       "id": "TGT_HDES_100YD",
-      "name": "High Desert 100yd — NRA Bullseye",
+      "name": "High Desert 100yd \u2014 NRA Bullseye",
       "size": "Letter",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
@@ -38277,9 +36779,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_HDES_100YD",
-        "name": "High Desert 100yd — NRA Bullseye",
+        "name": "High Desert 100yd \u2014 NRA Bullseye",
         "diameter": 8,
-        "labelText": "100 yards — 6.5 PRC 147gr ELD-M",
+        "labelText": "100 yards \u2014 6.5 PRC 147gr ELD-M",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -38287,7 +36789,7 @@
     },
     {
       "id": "TGT_HDES_400YD",
-      "name": "High Desert 400yd — 10\" Steel Sim",
+      "name": "High Desert 400yd \u2014 10\" Steel Sim",
       "size": "Letter",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
@@ -38307,9 +36809,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_HDES_400YD",
-        "name": "High Desert 400yd — 10\" Steel Sim",
+        "name": "High Desert 400yd \u2014 10\" Steel Sim",
         "diameter": 10,
-        "labelText": "400 yards — 6.5 PRC 147gr ELD-M",
+        "labelText": "400 yards \u2014 6.5 PRC 147gr ELD-M",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -38317,7 +36819,7 @@
     },
     {
       "id": "TGT_SEAST_L1",
-      "name": "SE Brush 100yd — Load A (200gr HC)",
+      "name": "SE Brush 100yd \u2014 Load A (200gr HC)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_200HC",
@@ -38337,9 +36839,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L1",
-        "name": "SE Brush 100yd — Load A (200gr HC)",
+        "name": "SE Brush 100yd \u2014 Load A (200gr HC)",
         "diameter": 10,
-        "labelText": "100 yards — .338 Fed 200gr Hot-Cor",
+        "labelText": "100 yards \u2014 .338 Fed 200gr Hot-Cor",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -38347,7 +36849,7 @@
     },
     {
       "id": "TGT_SEAST_L2",
-      "name": "SE Brush 100yd — Load B (210gr TTSX)",
+      "name": "SE Brush 100yd \u2014 Load B (210gr TTSX)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_210TTSX",
@@ -38367,9 +36869,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L2",
-        "name": "SE Brush 100yd — Load B (210gr TTSX)",
+        "name": "SE Brush 100yd \u2014 Load B (210gr TTSX)",
         "diameter": 10,
-        "labelText": "100 yards — .338 Fed 210gr TTSX",
+        "labelText": "100 yards \u2014 .338 Fed 210gr TTSX",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -38377,7 +36879,7 @@
     },
     {
       "id": "TGT_SEAST_L3",
-      "name": "SE Brush 300yd — Load C (225gr GS)",
+      "name": "SE Brush 300yd \u2014 Load C (225gr GS)",
       "size": "Letter",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_225GS",
@@ -38397,9 +36899,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_SEAST_L3",
-        "name": "SE Brush 300yd — Load C (225gr GS)",
+        "name": "SE Brush 300yd \u2014 Load C (225gr GS)",
         "diameter": 10,
-        "labelText": "300 yards — .338 Fed 225gr Grand Slam",
+        "labelText": "300 yards \u2014 .338 Fed 225gr Grand Slam",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -38407,7 +36909,7 @@
     },
     {
       "id": "TGT_MICH_75YD",
-      "name": "Michigan 75yd — Silhouette",
+      "name": "Michigan 75yd \u2014 Silhouette",
       "size": "Letter",
       "firearmId": "FRM_MICH_3006",
       "loadId": "LOD_MICH_3006_180NOSLER",
@@ -38427,9 +36929,9 @@
         "ringColorA": "#000000",
         "ringColorB": "#ffffff",
         "id": "CT_TGT_MICH_75YD",
-        "name": "Michigan 75yd — Silhouette",
+        "name": "Michigan 75yd \u2014 Silhouette",
         "diameter": 12,
-        "labelText": "75 yards — .30-06 180gr Partition",
+        "labelText": "75 yards \u2014 .30-06 180gr Partition",
         "labelPosition": "bottom",
         "labelSize": 12,
         "labelMargin": 0.25
@@ -38439,7 +36941,7 @@
   "sessions": [
     {
       "id": "SES_HDES_100YD",
-      "name": "High Desert 6.5 PRC — 100yd Zero",
+      "name": "High Desert 6.5 PRC \u2014 100yd Zero",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
       "markedTargetId": "MKT_HDES_100YD",
@@ -38452,7 +36954,7 @@
     },
     {
       "id": "SES_HDES_400YD",
-      "name": "High Desert 6.5 PRC — 400yd Confirmation",
+      "name": "High Desert 6.5 PRC \u2014 400yd Confirmation",
       "firearmId": "FRM_HDES_65PRC",
       "loadId": "LOD_HDES_65PRC_147ELD",
       "markedTargetId": "MKT_HDES_400YD",
@@ -38465,7 +36967,7 @@
     },
     {
       "id": "SES_SEAST_L1",
-      "name": "SE Brush .338 Fed — Load A @ 100yd",
+      "name": "SE Brush .338 Fed \u2014 Load A @ 100yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_200HC",
       "markedTargetId": "MKT_SEAST_100YD_L1",
@@ -38478,7 +36980,7 @@
     },
     {
       "id": "SES_SEAST_L2",
-      "name": "SE Brush .338 Fed — Load B @ 100yd",
+      "name": "SE Brush .338 Fed \u2014 Load B @ 100yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_210TTSX",
       "markedTargetId": "MKT_SEAST_100YD_L2",
@@ -38491,7 +36993,7 @@
     },
     {
       "id": "SES_SEAST_L3",
-      "name": "SE Brush .338 Fed — Load C @ 300yd",
+      "name": "SE Brush .338 Fed \u2014 Load C @ 300yd",
       "firearmId": "FRM_SEAST_338FED",
       "loadId": "LOD_SEAST_338FED_225GS",
       "markedTargetId": "MKT_SEAST_300YD_L3",
@@ -38504,7 +37006,7 @@
     },
     {
       "id": "SES_MICH_75YD",
-      "name": "Michigan Woods .30-06 — Bear @ 75yd",
+      "name": "Michigan Woods .30-06 \u2014 Bear @ 75yd",
       "firearmId": "FRM_MICH_3006",
       "loadId": "LOD_MICH_3006_180NOSLER",
       "markedTargetId": "MKT_MICH_75YD",
@@ -40518,42 +39020,42 @@
   "markedTargets": [
     {
       "id": "MKT_HDES_100YD",
-      "name": "High Desert — 100yd Paper",
+      "name": "High Desert \u2014 100yd Paper",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750500000000
     },
     {
       "id": "MKT_HDES_400YD",
-      "name": "High Desert — 400yd Steel Plate",
+      "name": "High Desert \u2014 400yd Steel Plate",
       "targetDistance": 400,
       "distanceUnits": "yards",
       "createdAt": 1750503600000
     },
     {
       "id": "MKT_SEAST_100YD_L1",
-      "name": "SE Brush — Load A (200gr HC) @ 100yd",
+      "name": "SE Brush \u2014 Load A (200gr HC) @ 100yd",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750507200000
     },
     {
       "id": "MKT_SEAST_100YD_L2",
-      "name": "SE Brush — Load B (210gr TTSX) @ 100yd",
+      "name": "SE Brush \u2014 Load B (210gr TTSX) @ 100yd",
       "targetDistance": 100,
       "distanceUnits": "yards",
       "createdAt": 1750510800000
     },
     {
       "id": "MKT_SEAST_300YD_L3",
-      "name": "SE Brush — Load C (225gr GS) @ 300yd",
+      "name": "SE Brush \u2014 Load C (225gr GS) @ 300yd",
       "targetDistance": 300,
       "distanceUnits": "yards",
       "createdAt": 1750514400000
     },
     {
       "id": "MKT_MICH_75YD",
-      "name": "Michigan Woods — Black Bear @ 75yd",
+      "name": "Michigan Woods \u2014 Black Bear @ 75yd",
       "targetDistance": 75,
       "distanceUnits": "yards",
       "createdAt": 1750518000000
@@ -40562,7 +39064,7 @@
   "monteCarloSaves": [
     {
       "id": "MCS_HDES_HIGH_DESERT",
-      "name": "High Desert Southwest — 6.5 PRC Mule Deer",
+      "name": "High Desert Southwest \u2014 6.5 PRC Mule Deer",
       "createdAt": 1750500000000,
       "params": {
         "mv": 2910,
@@ -40602,7 +39104,7 @@
     },
     {
       "id": "MCS_SEAST_SE_BRUSH",
-      "name": "Southeast Brush — .338 Federal Whitetail",
+      "name": "Southeast Brush \u2014 .338 Federal Whitetail",
       "createdAt": 1750507200000,
       "params": {
         "mv": 2400,
@@ -40642,7 +39144,7 @@
     },
     {
       "id": "MCS_MICH_WOODS",
-      "name": "Michigan Woods — .30-06 Black Bear",
+      "name": "Michigan Woods \u2014 .30-06 Black Bear",
       "createdAt": 1750518000000,
       "params": {
         "mv": 2700,
