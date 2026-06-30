@@ -178,7 +178,7 @@
       "freeboreLengthMm": 3.175,
       "freeboreDiameterMm": 5.702,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 65000
+      "maxSaamiPressurePsi": 62000
     },
     {
       "id": "CTG_22NOSLER_n2s2",
@@ -34697,21 +34697,21 @@
     {
       "id": "BRS_MAN_ADG_A4D7_CTG_65CM_cN72_TR53",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.33714,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_ADG_A4D7"
     },
     {
       "id": "BRS_MAN_ADG_A4D7_CTG_65PRC_cP02_XYJG",
       "cartridgeId": "CTG_65PRC_cP02",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 4.01753,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_ADG_A4D7"
     },
     {
       "id": "BRS_MAN_ALLIANT_A5R2_CTG_65CM_cN72_7W59",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.40194,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_ALLIANT_A5R2"
     },
@@ -34900,21 +34900,21 @@
     {
       "id": "BRS_MAN_BARNES_B2N5_CTG_65CM_cN72_3900",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.36954,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_BARNES_B2N5"
     },
     {
       "id": "BRS_MAN_FEDERAL_F4G7_CTG_308WIN_cC82_ZTCC",
       "cartridgeId": "CTG_308WIN_cC82",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.55098,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_FEDERAL_F4G7"
     },
     {
       "id": "BRS_MAN_HORNADY_JGR4_CTG_65CM_cN72_6MQR",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.43434,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_HORNADY_JGR4"
     },
@@ -35110,77 +35110,77 @@
     {
       "id": "BRS_MAN_NORMA_N8R2_CTG_300WSM_N3HH_H4Q4",
       "cartridgeId": "CTG_300WSM_N3HH",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 5.31351,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_NORMA_N3R4"
     },
     {
       "id": "BRS_MAN_NORMA_N8R2_CTG_65CM_cN72_W7T4",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.36954,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_NORMA_N3R4"
     },
     {
       "id": "BRS_MAN_NORMA_N8R2_CTG_65PRC_cP02_OUF1",
       "cartridgeId": "CTG_65PRC_cP02",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 4.04993,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_NORMA_N3R4"
     },
     {
       "id": "BRS_MAN_NORMA_N8R2_CTG_6ARC_cH92_U37D",
       "cartridgeId": "CTG_6ARC_cH92",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 2.23556,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_NORMA_N3R4"
     },
     {
       "id": "BRS_MAN_NORMA_N8R2_CTG_6CM_cG62_CJW0",
       "cartridgeId": "CTG_6CM_cG62",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.27234,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_NORMA_N3R4"
     },
     {
       "id": "BRS_MAN_NOSLER_N9K4_CTG_223REM_cR82_6JRG",
       "cartridgeId": "CTG_223REM_cR82",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 1.86621,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_NOSLER_N9K4"
     },
     {
       "id": "BRS_MAN_NOSLER_N9K4_CTG_65CM_cN72_TZES",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.40194,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_NOSLER_N9K4"
     },
     {
       "id": "BRS_MAN_NOSLER_N9K4_CTG_65PRC_cP02_08JE",
       "cartridgeId": "CTG_65PRC_cP02",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 4.01753,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_NOSLER_N9K4"
     },
     {
       "id": "BRS_MAN_NOSLER_N9K4_CTG_65SWE_N6HA_KQT6",
       "cartridgeId": "CTG_65SWE_N6HA",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.69354,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_NOSLER_N9K4"
     },
     {
       "id": "BRS_MAN_NOSLER_N9K4_CTG_6ARC_cH92_XLUD",
       "cartridgeId": "CTG_6ARC_cH92",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 2.23556,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_NOSLER_N9K4"
     },
     {
       "id": "BRS_MAN_NOSLER_N9K4_CTG_6DASH_N6H8_D4GH",
       "cartridgeId": "CTG_6DASH_N6H8",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 2.67619,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_NOSLER_N9K4"
     },
@@ -35201,7 +35201,7 @@
     {
       "id": "BRS_MAN_PETERSON_M7JT_CTG_224VALK_N2H5_LUXG",
       "cartridgeId": "CTG_224VALK_N2H5",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 2.24204,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_PETERSON_P3T2"
     },
@@ -35551,14 +35551,14 @@
     {
       "id": "BRS_MAN_STARLINE_S9Z5_CTG_65CM_cN72_ERHV",
       "cartridgeId": "CTG_65CM_cN72",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 3.38898,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_STARLINE_S8L9"
     },
     {
       "id": "BRS_MAN_STARLINE_S9Z5_CTG_6ARC_cH92_A0PU",
       "cartridgeId": "CTG_6ARC_cH92",
-      "capacityH2oGrams": null,
+      "capacityH2oGrams": 2.23556,
       "primerPocketId": "PKT_LRG",
       "manufacturerId": "MAN_STARLINE_S8L9"
     },
@@ -36275,6 +36275,13 @@
       "capacityH2oGrams": 2.49475795,
       "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_REMINGTON_R1M2"
+    },
+    {
+      "id": "BRS_MAN_HORNADY_JGR4_CTG_22CM_cA72_TR01",
+      "cartridgeId": "CTG_22CM_cA72",
+      "capacityH2oGrams": 3.36954332,
+      "primerPocketId": "PKT_LRG",
+      "manufacturerId": "MAN_HORNADY_JGR4"
     }
   ],
   "firearms": [
@@ -39004,7 +39011,7 @@
       },
       {
         "id": "PWD_HODG_H4350_H1G2",
-        "burnAreaCoeff": 0.0518,
+        "burnAreaCoeff": 0.052,
         "burnAreaFillSlope": -0.1648,
         "heatOfExplosionKjKg": 4198,
         "burnExponent": 0.5517
