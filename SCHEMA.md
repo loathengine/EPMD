@@ -351,6 +351,7 @@ The following fields are stored in the `optimizations` top-level key, **not** on
         "id": "PWD_HODG_VARGET_H1G1",
         "burnAreaCoeff": 0.2285,
         "burnAreaFillSlope": 0.04,
+        "burnAreaBoreSlope": 0.0,
         "burnExponent": 0.65,
         "energyScaleFactor": 1.18,
         "ignitionBp": 0.15,
@@ -364,6 +365,7 @@ The following fields are stored in the `optimizations` top-level key, **not** on
 
 * `burnAreaCoeff` — base burn rate coefficient at the 50% reference fill fraction. Calibrated by `calibrateV3.ts --all`. Replaces legacy `baCoeff`
 * `burnAreaFillSlope` — linear fill-fraction slope for `burnAreaCoeff`. Controls how burn rate scales with loading density above/below the 50% reference. Replaces legacy `baFillSlope`. Calibrated by `calibrateV3.ts --fill-slope`. Only populated when ≥10 loads span ≥8% fill range; otherwise `0`
+* `burnAreaBoreSlope` — bore-diameter correction slope for `burnAreaCoeff`. Applies a non-linear area-ratio correction for small/large bore diameters: `ba_effective *= (1 + burnAreaBoreSlope × (1 − (7.62 / boreDiaMm)²))`. At the reference bore (7.62 mm), factor = 1.0 (zero correction). Negative values boost small-bore efficiency. Default `0` (no bore correction)
 * `burnExponent` — pressure exponent in Vieille's burn law. Calibrated by `calibrateV3.ts --burn-exp`. Typical range 0.55–0.85
 * `energyScaleFactor` — engine-level energy efficiency multiplier (dimensionless). Absorbs model efficiency deficits not captured by physical heat values. Calibrated by `calibrateV3.ts`. Values persistently above 1.25 indicate a powder with incomplete combustion data or an unusual grain geometry. **Not a physical constant**
 * `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? — optional multi-stage burn profile parameters for the grain form factor model. Calibrated when multi-stage behavior is detected
