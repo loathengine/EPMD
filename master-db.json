@@ -7798,7 +7798,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4149psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ACCU_2520_R1A7",
@@ -7900,7 +7901,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5513psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ACCU_4064_R1A8",
@@ -7999,7 +8001,8 @@
       ],
       "energyScaleFactor": 1.0728,
       "calibrationConfidence": "HIGH",
-      "calibrationFlags": []
+      "calibrationFlags": [],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_LT32_R1AA",
@@ -8060,7 +8063,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-379fps pressureMae=3306psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ACCU_MAGPRO_R1A9",
@@ -8186,7 +8190,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-612fps pressureMae=3894psi",
         "OVERBORE_REGIME share=100% expR=13.7"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_RL15_A1L1",
@@ -8271,7 +8276,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_RL16_A1L2",
@@ -8348,7 +8354,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_RL23_A1L3",
@@ -8417,7 +8424,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_RL26_A1L4",
@@ -8490,7 +8498,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_BLC2_H1G8",
@@ -8668,7 +8677,8 @@
       "calibrationFlags": [
         "BA_AT_BOUND",
         "PRESSURE_FIT_LOOSE mae=10102psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_CFE223_H1G6",
@@ -8817,7 +8827,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5902psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_H1000_H1G5",
@@ -8962,7 +8973,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5067psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_H335_H1GB",
@@ -9123,7 +9135,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=20647psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_H380_H1GC",
@@ -9314,7 +9327,8 @@
         "ENERGY_SCALE_AT_BOUND=1.197",
         "STRUCTURAL_VELOCITY_GAP bias=124fps pressureMae=3916psi",
         "OVERBORE_REGIME share=75% expR=11.4"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_H414_H1GD",
@@ -9532,7 +9546,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-218fps pressureMae=3571psi",
         "OVERBORE_REGIME share=72% expR=11.5"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_H4350_H1G2",
@@ -9757,7 +9772,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4488psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_H4831SC_H1GF",
@@ -9851,7 +9867,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-175fps pressureMae=3810psi",
         "OVERBORE_REGIME share=91% expR=12.8"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_H4831_H1GE",
@@ -10009,7 +10026,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5042psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_H4895_H1G3",
@@ -10214,7 +10232,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=8349psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_IMR4064_H1G9",
@@ -10359,7 +10378,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4032psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR4166_H1GK",
@@ -10469,7 +10489,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-240fps pressureMae=3723psi",
         "OVERBORE_REGIME share=40% expR=9.8"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR4198_H1GS",
@@ -10534,7 +10555,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-154fps pressureMae=3970psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR4350_H1G0",
@@ -10712,7 +10734,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-204fps pressureMae=3925psi",
         "OVERBORE_REGIME share=81% expR=12.1"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR4451_H1GL",
@@ -10841,8 +10864,9 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.200",
-        "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
-      ]
+        "OVERBORE_ENVELOPE expR=11.5 \u2014 verify velocity with chronograph"
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR4895_H1GM",
@@ -10979,7 +11003,8 @@
       "calibrationConfidence": "HIGH",
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.196"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR7828SSC_H1GO",
@@ -11088,7 +11113,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4465psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR7828_H1GN",
@@ -11189,7 +11215,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4178psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_IMR8208_H1GA",
@@ -11347,7 +11374,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.200",
         "PRESSURE_FIT_LOOSE mae=4906psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_RETUMBO_H1G4",
@@ -11444,7 +11472,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5747psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_VARGET_H1G1",
@@ -11649,7 +11678,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=8738psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_RAMS_BIGGAME_R1A2",
@@ -11782,7 +11812,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4276psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_RAMS_HUNTER_R1A3",
@@ -11906,8 +11937,9 @@
       "energyScaleFactor": 0.9482,
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
-        "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
-      ]
+        "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_RAMS_MAGNUM_R1A4",
@@ -12033,7 +12065,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=0.300",
         "PRESSURE_FIT_LOOSE mae=4604psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_RAMS_TAC_R1A1",
@@ -12100,7 +12133,8 @@
       ],
       "energyScaleFactor": 1.1609,
       "calibrationConfidence": "HIGH",
-      "calibrationFlags": []
+      "calibrationFlags": [],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_RAMS_XTERM_R1A5",
@@ -12165,7 +12199,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-203fps pressureMae=3951psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_VIHT_N170_V1HA",
@@ -12242,7 +12277,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N130_V1H4",
@@ -12291,7 +12327,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N133_V1H5",
@@ -12352,7 +12389,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N135_V1H6",
@@ -12433,7 +12471,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N140_7Ih6",
@@ -12546,7 +12585,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N160_V1H8",
@@ -12695,7 +12735,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N165_V1H9",
@@ -12812,7 +12853,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N530_V5H1",
@@ -12853,7 +12895,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N540_V5H2",
@@ -12970,7 +13013,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N550_V5H3",
@@ -13095,7 +13139,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N555_V5H4",
@@ -13184,7 +13229,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N560_V5H5",
@@ -13329,7 +13375,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N565_V5H6",
@@ -13406,7 +13453,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N568_V5H7",
@@ -13459,7 +13507,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N570_V5H8",
@@ -13520,7 +13569,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_WINC_748_W1N7",
@@ -13625,7 +13675,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=6965psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_WINC_760_W1N8",
@@ -13783,7 +13834,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-149fps pressureMae=3861psi",
         "OVERBORE_REGIME share=73% expR=11.3"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_WINC_STABALL65_W1N1",
@@ -13926,7 +13978,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.191",
         "PRESSURE_FIT_LOOSE mae=4327psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_WINC_STABALLHD_W1N3",
@@ -14035,7 +14088,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5326psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_WINC_STABALLMATCH_W1N2",
@@ -14164,7 +14218,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4783psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_IMPR_IMR_4831_HVBS",
@@ -14333,7 +14388,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4593psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_RAMS_LRT_LB6B",
@@ -14394,7 +14450,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4781psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_RAMS_GRAND_LM11",
@@ -14487,7 +14544,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4125psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_IMPR_IMR_7977_GDVA",
@@ -14585,7 +14643,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4274psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_IMPR_IMR_8133_J4IF",
@@ -14662,7 +14721,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4131psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_2700_JFAE",
@@ -14804,7 +14864,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-305fps pressureMae=3741psi",
         "OVERBORE_REGIME share=67% expR=10.9"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_2000_MR_WH6F",
@@ -14909,7 +14970,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_RELODER_17_Q06H",
@@ -15006,7 +15068,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_SUPERFORMANCE_QPVF",
@@ -15095,7 +15158,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4124psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_RELODER_19_6C4J",
@@ -15197,7 +15261,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_RELODER_22_POE4",
@@ -15294,7 +15359,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_HYBRID_100V_UMIK",
@@ -15436,7 +15502,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4297psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_IMPR_IMR_4320_E302",
@@ -15530,7 +15597,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-129fps pressureMae=3675psi",
         "OVERBORE_REGIME share=42% expR=10.1"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_WINC_SUPREME_780_REI8",
@@ -15627,7 +15695,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4033psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_IMPR_IMR_4955_170P",
@@ -15720,7 +15789,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4083psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_2495_MKE7",
@@ -15805,7 +15875,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5089psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
@@ -15882,7 +15953,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5011psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
@@ -15971,7 +16043,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4161psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_LONG_RIFLE_YB45",
@@ -16041,7 +16114,8 @@
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-124fps pressureMae=3637psi",
         "OVERBORE_REGIME share=58% expR=10.4"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_SW4350_JZV8",
@@ -16102,7 +16176,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4026psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_AR_COMP_6RSD",
@@ -16159,7 +16234,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_IMPR_IMR_3031_KXZD",
@@ -16257,7 +16333,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.199",
         "PRESSURE_FIT_LOOSE mae=5303psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_2015_UOWX",
@@ -16342,7 +16419,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4221psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_RELODER_25_JJAD",
@@ -16399,7 +16477,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_H50BMG_2J1E",
@@ -16444,7 +16523,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=5037psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_2200_EA5G",
@@ -16501,7 +16581,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-402fps pressureMae=3008psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ACCU_LT_30_XE5M",
@@ -16558,7 +16639,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-589fps pressureMae=3774psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_H4198_KN7E",
@@ -16631,7 +16713,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4725psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_H322_V06U",
@@ -16741,7 +16824,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=0.300",
         "PRESSURE_FIT_LOOSE mae=23829psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_ACCU_2460_P2ON",
@@ -16818,7 +16902,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4211psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_BENCHMARK_BIU3",
@@ -16944,7 +17029,8 @@
       "calibrationFlags": [
         "BA_AT_BOUND",
         "PRESSURE_FIT_LOOSE mae=19308psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_ALLI_RELODER_10X_98AC",
@@ -16985,7 +17071,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_AR_PLUS_LMUA",
@@ -17028,7 +17115,8 @@
       ],
       "energyScaleFactor": 1.0322,
       "calibrationConfidence": "HIGH",
-      "calibrationFlags": []
+      "calibrationFlags": [],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_4000_MR_KRWA",
@@ -17085,7 +17173,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_LEVEREVOLUTION_XTV3",
@@ -17128,7 +17217,8 @@
       ],
       "energyScaleFactor": 1.1014,
       "calibrationConfidence": "HIGH",
-      "calibrationFlags": []
+      "calibrationFlags": [],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_VIHT_24N41_5S8S",
@@ -17161,7 +17251,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N150_V1H7",
@@ -17270,7 +17361,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_ACCU_4350_R1AB",
@@ -17388,7 +17480,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4001psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_VIHT_N110_V1H2",
@@ -17426,7 +17519,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4068psi"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_VIHT_N120_V1H3",
@@ -17476,7 +17570,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00036
     },
     {
       "id": "PWD_HODG_H110_H1GA",
@@ -17522,7 +17617,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4657psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_CFEBLK_H1GB",
@@ -17564,7 +17660,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=10410psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_TRAILBOSS_H1GC",
@@ -17599,7 +17696,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.200",
         "PRESSURE_FIT_LOOSE mae=5265psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_IMR_4227_I1G5",
@@ -17638,7 +17736,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.196",
         "PRESSURE_FIT_LOOSE mae=7216psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_H4227_H1GD",
@@ -17680,7 +17779,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_1680_R1AC",
@@ -17722,7 +17822,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=6842psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_RL7_A1L0",
@@ -17756,7 +17857,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_VARMINT_A1L5",
@@ -17814,7 +17916,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_4100_R1AD",
@@ -17844,7 +17947,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-448fps pressureMae=2278psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ACCU_NO9_R1AE",
@@ -17868,7 +17972,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ACCU_8700_R1AF",
@@ -17906,7 +18011,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_US869_H1GE",
@@ -17986,7 +18092,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=0.300",
         "PRESSURE_FIT_LOOSE mae=6036psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_300MP_A1L6",
@@ -18016,7 +18123,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_IMR_4007SSC_I1G6",
@@ -18054,7 +18162,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_SWTR_S5W7",
@@ -18104,7 +18213,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-118fps pressureMae=3965psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_SHOO_SWSBR_S5W8",
@@ -18134,7 +18244,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-580fps pressureMae=3207psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_TITEGROUP_H1GF",
@@ -18169,7 +18280,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.200",
         "STRUCTURAL_VELOCITY_GAP bias=97fps pressureMae=1427psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_ALLI_2400_A1L7",
@@ -18199,7 +18311,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_ALLI_RL50_A1L8",
@@ -18229,7 +18342,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_H870_H1GG",
@@ -18259,7 +18373,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_SR4759_H1GH",
@@ -18289,7 +18404,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_NORM_217_N1H0",
@@ -18319,7 +18435,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_CLAYS_H1GI",
@@ -18350,7 +18467,8 @@
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.200",
         "STRUCTURAL_VELOCITY_GAP bias=133fps pressureMae=1533psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_HODG_UNIVERSAL_H1GJ",
@@ -18366,7 +18484,8 @@
       "bulkDensityKgM3": 970,
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4000,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_WIN_HP38_W1C7",
@@ -18382,7 +18501,8 @@
       "bulkDensityKgM3": 970,
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_WIN_HS6_W1C8",
@@ -18398,7 +18518,8 @@
       "bulkDensityKgM3": 970,
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4000,
-      "burnExponent": 0.55
+      "burnExponent": 0.55,
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_NORM_TS155_N1H1",
@@ -18422,7 +18543,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_HODG_LILGUN_H1G8",
@@ -18472,7 +18594,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=7044psi"
-      ]
+      ],
+      "tempSensitivity": 0.0027
     },
     {
       "id": "PWD_SHOO_SOCOM_8NG1",
@@ -18498,7 +18621,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-121fps pressureMae=3044psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_SW_BMG_8NG2",
@@ -18510,7 +18634,8 @@
       "bulkDensityKgM3": 1000,
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3500,
-      "burnAreaCoeff": null
+      "burnAreaCoeff": null,
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_TAC_RIFLE_8NG3",
@@ -18564,7 +18689,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4132psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_THE_CREED_8NG4",
@@ -18594,7 +18720,8 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "PRESSURE_FIT_LOOSE mae=4150psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_THE_PATRIOT_8NG5",
@@ -18628,7 +18755,8 @@
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
         "STRUCTURAL_VELOCITY_GAP bias=-493fps pressureMae=2012psi"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     },
     {
       "id": "PWD_SHOO_TUBAL7000_8NG6",
@@ -18654,7 +18782,8 @@
       "calibrationConfidence": "LOW",
       "calibrationFlags": [
         "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
-      ]
+      ],
+      "tempSensitivity": 0.00144
     }
   ],
   "bullets": [
@@ -51127,7 +51256,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.5 \u2014 verify velocity with chronograph"
         ]
       },
       {
@@ -52096,7 +52225,7 @@
         "energyScaleFactor": 0.9482,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
         ]
       },
       {
