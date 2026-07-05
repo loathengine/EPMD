@@ -131,7 +131,7 @@
       "freeboreLengthMm": 3.327,
       "freeboreDiameterMm": 5.702,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 62000,
+      "maxSaamiPressurePsi": 52000,
       "twistRateInchesPerTurn": 7,
       "transducerScaleFactor": 0.79799,
       "bulletDiameterMmResolved": 5.69,
@@ -337,7 +337,7 @@
       "freeboreLengthMm": 2.286,
       "freeboreDiameterMm": 5.702,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 65000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 14,
       "transducerScaleFactor": 0.8873,
       "bulletDiameterMmResolved": 5.69,
@@ -417,7 +417,7 @@
           "referenceSource": "ANSI/SAAMI Standards"
         },
         "cip": {
-          "maxPressureBar": 3792,
+          "maxPressureBar": 4300,
           "referenceSource": "C.I.P. TDCC Sheet 224 Valkyrie"
         }
       },
@@ -545,7 +545,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 6.54,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 63000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.86458,
       "bulletDiameterMmResolved": 6.528,
@@ -596,7 +596,7 @@
       "freeboreLengthMm": 2.159,
       "freeboreDiameterMm": 6.54,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60190,
+      "maxSaamiPressurePsi": 63000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.85675,
       "bulletDiameterMmResolved": 6.528,
@@ -647,7 +647,7 @@
       "freeboreLengthMm": 1.905,
       "freeboreDiameterMm": 6.54,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 45000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.78064,
       "bulletDiameterMmResolved": 6.528,
@@ -698,7 +698,7 @@
       "freeboreLengthMm": 9.601,
       "freeboreDiameterMm": 6.54,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 63000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.88477,
       "bulletDiameterMmResolved": 6.528,
@@ -955,7 +955,7 @@
       "freeboreLengthMm": 1.651,
       "freeboreDiameterMm": 7.226,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60000,
+      "maxSaamiPressurePsi": 56000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.78203,
       "bulletDiameterMmResolved": 7.214,
@@ -1007,7 +1007,7 @@
       "freeboreLengthMm": 2.21,
       "freeboreDiameterMm": 7.836,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60190,
+      "maxSaamiPressurePsi": 60000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.79715,
@@ -1069,7 +1069,7 @@
     {
       "id": "CTG_300BLK_cI72",
       "name": "300 Blackout",
-      "baseCapacityH2oGrams": 1.87,
+      "baseCapacityH2oGrams": 1.62,
       "bodyDiameterMm": 9.58,
       "diameterId": "DIA_308_XBM7",
       "flashHoleDiameterMm": 2.03,
@@ -1165,7 +1165,7 @@
       "freeboreLengthMm": 3.429,
       "freeboreDiameterMm": 7.836,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 62366,
+      "maxSaamiPressurePsi": 64000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.94512,
       "bulletDiameterMmResolved": 7.823,
@@ -1319,7 +1319,7 @@
       "freeboreLengthMm": 9.169,
       "freeboreDiameterMm": 7.836,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.90085,
       "bulletDiameterMmResolved": 7.823,
@@ -1526,7 +1526,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 8.598,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60916,
+      "maxSaamiPressurePsi": 68167,
       "cipTestBarrelMm": 650,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.83481,
@@ -1578,7 +1578,7 @@
       "freeboreLengthMm": 5.715,
       "freeboreDiameterMm": 8.598,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 63091,
+      "maxSaamiPressurePsi": 64000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.94338,
       "bulletDiameterMmResolved": 8.585,
@@ -1938,7 +1938,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 6.718,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 55000,
+      "maxSaamiPressurePsi": 60000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.76658,
@@ -2042,7 +2042,7 @@
       "freeboreLengthMm": 2.286,
       "freeboreDiameterMm": 6.185,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 52000,
+      "maxSaamiPressurePsi": 62000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 7.5,
       "transducerScaleFactor": 0.75871,
@@ -2094,7 +2094,7 @@
       "freeboreLengthMm": 2.388,
       "freeboreDiameterMm": 6.185,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 52000,
+      "maxSaamiPressurePsi": 60000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.87231,
@@ -2199,7 +2199,7 @@
       "freeboreLengthMm": 0.099,
       "freeboreDiameterMm": 6.185,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 55000,
+      "maxSaamiPressurePsi": 58000,
       "twistRateInchesPerTurn": 14,
       "transducerScaleFactor": 0.78129,
       "bulletDiameterMmResolved": 6.172,
@@ -2559,7 +2559,7 @@
       "freeboreLengthMm": 2.21,
       "freeboreDiameterMm": 7.226,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60000,
+      "maxSaamiPressurePsi": 61000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9.5,
       "transducerScaleFactor": 0.74988,
@@ -2611,7 +2611,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 7.226,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 46500,
+      "maxSaamiPressurePsi": 51000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9,
       "transducerScaleFactor": 0.8313,
@@ -2663,7 +2663,7 @@
       "freeboreLengthMm": 2.29,
       "freeboreDiameterMm": 5.715,
       "standardTwistMm": 355.6,
-      "maxSaamiPressurePsi": 55000,
+      "maxSaamiPressurePsi": 50000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 14,
       "transducerScaleFactor": 0.83067,
@@ -3021,7 +3021,7 @@
       "freeboreLengthMm": 3.05,
       "freeboreDiameterMm": 6.719,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60190,
+      "maxSaamiPressurePsi": 60000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.7897,
@@ -3175,7 +3175,7 @@
       "freeboreLengthMm": 2.54,
       "freeboreDiameterMm": 7.0489999999999995,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 55000,
+      "maxSaamiPressurePsi": 60000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.80373,
@@ -3586,7 +3586,7 @@
       "freeboreLengthMm": 4.75,
       "freeboreDiameterMm": 7.836,
       "standardTwistMm": 304.8,
-      "maxSaamiPressurePsi": 54000,
+      "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.87551,
       "bulletDiameterMmResolved": 7.823,
@@ -3892,7 +3892,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 8.217,
       "standardTwistMm": 228.6,
-      "maxSaamiPressurePsi": 56565,
+      "maxSaamiPressurePsi": 55000,
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9.5,
       "transducerScaleFactor": 0.65065,
@@ -4149,7 +4149,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 8.598,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 60000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.97231,
       "bulletDiameterMmResolved": 8.585,
@@ -4455,7 +4455,7 @@
       "freeboreLengthMm": 3.18,
       "freeboreDiameterMm": 9.106,
       "standardTwistMm": 406.4,
-      "maxSaamiPressurePsi": 33500,
+      "maxSaamiPressurePsi": 35000,
       "twistRateInchesPerTurn": 16,
       "transducerScaleFactor": 0.17317,
       "bulletDiameterMmResolved": 9.093,
@@ -4557,7 +4557,7 @@
       "freeboreLengthMm": 4.75,
       "freeboreDiameterMm": 9.538,
       "standardTwistMm": 330.2,
-      "maxSaamiPressurePsi": 52000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 12,
       "transducerScaleFactor": 0.96347,
       "bulletDiameterMmResolved": 9.525,
@@ -4608,7 +4608,7 @@
       "freeboreLengthMm": 4.32,
       "freeboreDiameterMm": 9.538,
       "standardTwistMm": 330.2,
-      "maxSaamiPressurePsi": 65000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 12,
       "transducerScaleFactor": 0.82739,
       "bulletDiameterMmResolved": 9.525,
@@ -4813,7 +4813,7 @@
       "freeboreLengthMm": 4.06,
       "freeboreDiameterMm": 11.645999999999999,
       "standardTwistMm": 508,
-      "maxSaamiPressurePsi": 28000,
+      "maxSaamiPressurePsi": 40000,
       "twistRateInchesPerTurn": 20,
       "transducerScaleFactor": 0.31357,
       "bulletDiameterMmResolved": 11.633,
@@ -4966,7 +4966,7 @@
       "freeboreLengthMm": 2.54,
       "freeboreDiameterMm": 5.715,
       "standardTwistMm": 355.6,
-      "maxSaamiPressurePsi": 56000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 14,
       "transducerScaleFactor": 0.88819,
       "bulletDiameterMmResolved": 5.69,
@@ -4992,6 +4992,10 @@
           "maxPressurePsi": 62000,
           "nominalVelocityFps": 3450,
           "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4300,
+          "referenceSource": "C.I.P. TDCC Sheet 22 GT"
         }
       },
       "externalDimensions": {
@@ -5013,7 +5017,7 @@
       "freeboreLengthMm": 2.54,
       "freeboreDiameterMm": 5.715,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 77000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.65272,
       "bulletDiameterMmResolved": 5.69,
@@ -5090,6 +5094,10 @@
           "maxPressurePsi": 62000,
           "nominalVelocityFps": 2950,
           "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 4300,
+          "referenceSource": "C.I.P. TDCC Sheet 6 GT"
         }
       },
       "externalDimensions": {
@@ -5364,7 +5372,7 @@
       "freeboreLengthMm": 4.32,
       "freeboreDiameterMm": 6.719,
       "standardTwistMm": 228.6,
-      "maxSaamiPressurePsi": 57000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9,
       "transducerScaleFactor": 0.93356,
       "bulletDiameterMmResolved": 6.706,
@@ -5415,7 +5423,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 6.719,
       "standardTwistMm": 228.6,
-      "maxSaamiPressurePsi": 65000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.92367,
       "bulletDiameterMmResolved": 6.706,
@@ -5874,7 +5882,7 @@
       "freeboreLengthMm": 4.75,
       "freeboreDiameterMm": 7.836,
       "standardTwistMm": 304.8,
-      "maxSaamiPressurePsi": 58000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.88339,
       "bulletDiameterMmResolved": 7.823,
@@ -5976,7 +5984,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 8.598,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 65000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.95679,
       "bulletDiameterMmResolved": 8.585,
@@ -6002,6 +6010,10 @@
           "maxPressurePsi": 62000,
           "nominalVelocityFps": 2550,
           "referenceSource": "ANSI/SAAMI Standards"
+        },
+        "cip": {
+          "maxPressureBar": 3700,
+          "referenceSource": "C.I.P. TDCC Sheet 338 ARC"
         }
       },
       "externalDimensions": {
@@ -6023,7 +6035,7 @@
       "freeboreLengthMm": 2.54,
       "freeboreDiameterMm": 8.598,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 65000,
+      "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 1,
       "bulletDiameterMmResolved": 8.585,
@@ -6074,7 +6086,7 @@
       "freeboreLengthMm": 4.75,
       "freeboreDiameterMm": 8.598,
       "standardTwistMm": 254,
-      "maxSaamiPressurePsi": 61183,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "transducerScaleFactor": 0.89251,
       "bulletDiameterMmResolved": 8.585,
@@ -6125,7 +6137,7 @@
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 9.106,
       "standardTwistMm": 355.6,
-      "maxSaamiPressurePsi": 62000,
+      "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 14,
       "transducerScaleFactor": 0.64451,
       "bulletDiameterMmResolved": 9.093,
@@ -6476,7 +6488,7 @@
       "freeboreLengthMm": 2.54,
       "freeboreDiameterMm": 5.703,
       "standardTwistMm": 355.6,
-      "maxSaamiPressurePsi": 56000,
+      "maxSaamiPressurePsi": 47000,
       "twistRateInchesPerTurn": 14,
       "transducerScaleFactor": 0.69668,
       "bulletDiameterMmResolved": 5.69,
@@ -6494,7 +6506,7 @@
       "maxSaamiPa": 448159205,
       "flashHoleDiameterMm": 1.524,
       "shoulderAngleDeg": 35,
-      "bodyDiameterMm": 14.73,
+      "bodyDiameterMm": 10.69,
       "bulletDiameterMm": 6.172,
       "boreDiameterMm": 6.02,
       "standards": {
@@ -6525,7 +6537,7 @@
       "standardTwistMm": 240,
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
-      "transducerScaleFactor": 1.33365,
+      "transducerScaleFactor": 0.76874,
       "bulletDiameterMmResolved": 6.172,
       "boreDiameterMmResolved": 6.02
     },
@@ -6676,7 +6688,7 @@
       "freeboreLengthMm": 3.18,
       "freeboreDiameterMm": 6.719,
       "standardTwistMm": 200,
-      "maxSaamiPressurePsi": 42500,
+      "maxSaamiPressurePsi": 45000,
       "twistRateInchesPerTurn": 9,
       "transducerScaleFactor": 0.63327,
       "bulletDiameterMmResolved": 6.706,
@@ -6933,7 +6945,7 @@
       "id": "CTG_376STEYR_cNI7",
       "name": "376 Steyr",
       "diameterId": "DIA_375_H3J4",
-      "baseCapacityH2oGrams": 4.08,
+      "baseCapacityH2oGrams": 5.1839,
       "trimLengthMm": 63.75,
       "maxCaseLengthMm": 64,
       "oalMm": 84.07,
@@ -7119,7 +7131,7 @@
       "freeboreLengthMm": 3.18,
       "freeboreDiameterMm": 6.185,
       "standardTwistMm": 228.6,
-      "maxSaamiPressurePsi": 63000,
+      "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "transducerScaleFactor": 0.92876,
       "bulletDiameterMmResolved": 6.172,
@@ -10864,7 +10876,7 @@
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
         "ENERGY_SCALE_AT_BOUND=1.200",
-        "OVERBORE_ENVELOPE expR=11.5 \u2014 verify velocity with chronograph"
+        "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
       ],
       "tempSensitivity": 0.00144
     },
@@ -11937,7 +11949,7 @@
       "energyScaleFactor": 0.9482,
       "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
-        "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
+        "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
       ],
       "tempSensitivity": 0.0027
     },
@@ -44200,13 +44212,35 @@
       "notes": "38-55 Winchester 278gr Flat Nose Gas Check (LBT style). Source: montanabulletworks.com",
       "physis": {
         "weightGrams": 18.014097,
-        "overallLengthMm": 33.02,
+        "overallLengthMm": 24.13,
         "ogiveLengthMm": 6.35,
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 12.32,
         "materialType": "MAT_CAST_LEAD",
         "engravingPressurePa": 17000000
       }
+    },
+    {
+      "id": "BUL_HORNADY_308_220_220_ELDX",
+      "manufacturerId": "MAN_HORNADY_JGR4",
+      "diameterId": "DIA_308_XBM7",
+      "name": "ELD-X",
+      "physis": {
+        "overallLengthMm": 41.402,
+        "bearingSurfaceMm": 14.2,
+        "engravingPressurePa": 32000000,
+        "weightGrams": 14.25576,
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 20.8,
+        "boatTailLengthMm": 6.1
+      },
+      "ballistics": {
+        "sectionalDensity": 0.331,
+        "g1BC": 0.65,
+        "g7BC": 0.325,
+        "g1Zones": []
+      },
+      "advertisedWeightGrains": 220
     }
   ],
   "brass": [
@@ -51256,7 +51290,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "OVERBORE_ENVELOPE expR=11.5 \u2014 verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
         ]
       },
       {
@@ -52225,7 +52259,7 @@
         "energyScaleFactor": 0.9482,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
         ]
       },
       {
