@@ -35353,33 +35353,33 @@
     "powders": [
       {
         "id": "PWD_ACCU_2230_R1A6",
-        "burnAreaCoeff": 0.1295,
-        "burnAreaFillSlope": -0.4429,
-        "burnAreaBoreSlope": 0.2329,
-        "energyScaleFactor": 1.0297,
+        "burnAreaCoeff": 0.099,
+        "burnAreaFillSlope": -0.3361,
+        "burnAreaBoreSlope": 0.192,
+        "energyScaleFactor": 1.179,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5112psi"
+          "PRESSURE_FIT_LOOSE mae=5202psi"
         ]
       },
       {
         "id": "PWD_ACCU_2520_R1A7",
-        "burnAreaCoeff": 0.147,
-        "burnAreaFillSlope": -1.0112,
-        "burnAreaBoreSlope": -0.1086,
+        "burnAreaCoeff": 0.1477,
+        "burnAreaFillSlope": -0.9823,
+        "burnAreaBoreSlope": -0.0905,
         "energyScaleFactor": 1.1999,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=6016psi"
+          "PRESSURE_FIT_LOOSE mae=5987psi"
         ]
       },
       {
         "id": "PWD_ACCU_4064_R1A8",
-        "burnAreaCoeff": 0.0807,
-        "burnAreaFillSlope": -0.3736,
-        "burnAreaBoreSlope": -0.0182,
-        "energyScaleFactor": 1.0989,
+        "burnAreaCoeff": 0.0745,
+        "burnAreaFillSlope": -0.1361,
+        "burnAreaBoreSlope": -0.0177,
+        "energyScaleFactor": 1.1028,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": []
       },
@@ -35394,13 +35394,13 @@
       },
       {
         "id": "PWD_ACCU_MAGPRO_R1A9",
-        "burnAreaCoeff": 0.039,
-        "burnAreaFillSlope": -0.2481,
-        "burnAreaBoreSlope": 0.1787,
-        "energyScaleFactor": 1.1305,
+        "burnAreaCoeff": 0.0368,
+        "burnAreaFillSlope": -0.1681,
+        "burnAreaBoreSlope": 0.2377,
+        "energyScaleFactor": 1.1507,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4700psi"
+          "PRESSURE_FIT_LOOSE mae=4695psi"
         ]
       },
       {
@@ -35416,7 +35416,7 @@
       },
       {
         "id": "PWD_ALLI_RL16_A1L2",
-        "burnAreaCoeff": 0.2658,
+        "burnAreaCoeff": 0.2879,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -35427,7 +35427,7 @@
       },
       {
         "id": "PWD_ALLI_RL23_A1L3",
-        "burnAreaCoeff": 0.1106,
+        "burnAreaCoeff": 0.1095,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -35438,7 +35438,7 @@
       },
       {
         "id": "PWD_ALLI_RL26_A1L4",
-        "burnAreaCoeff": 0.0903,
+        "burnAreaCoeff": 0.088,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -35456,18 +35456,18 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=4473psi"
+          "PRESSURE_FIT_LOOSE mae=4489psi"
         ]
       },
       {
         "id": "PWD_HODG_CFE223_H1G6",
-        "burnAreaCoeff": 0.0549,
-        "burnAreaFillSlope": -0.4142,
-        "burnAreaBoreSlope": -0.1421,
-        "energyScaleFactor": 1.1527,
+        "burnAreaCoeff": 0.0533,
+        "burnAreaFillSlope": -0.3581,
+        "burnAreaBoreSlope": -0.1606,
+        "energyScaleFactor": 1.1613,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4609psi"
+          "PRESSURE_FIT_LOOSE mae=4652psi"
         ]
       },
       {
@@ -35479,7 +35479,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=5613psi"
+          "PRESSURE_FIT_LOOSE mae=5585psi"
         ]
       },
       {
@@ -35495,13 +35495,13 @@
       },
       {
         "id": "PWD_HODG_H380_H1GC",
-        "burnAreaCoeff": 0.0391,
-        "burnAreaFillSlope": -0.4741,
-        "burnAreaBoreSlope": 0.1171,
-        "energyScaleFactor": 1.0898,
+        "burnAreaCoeff": 0.0375,
+        "burnAreaFillSlope": -0.3101,
+        "burnAreaBoreSlope": 0.0808,
+        "energyScaleFactor": 1.0738,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4103psi"
+          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
         ]
       },
       {
@@ -35518,14 +35518,14 @@
       },
       {
         "id": "PWD_HODG_H4350_H1G2",
-        "burnAreaCoeff": 0.0547,
-        "burnAreaFillSlope": -0.3385,
-        "burnAreaBoreSlope": 0.1181,
+        "burnAreaCoeff": 0.0548,
+        "burnAreaFillSlope": -0.3399,
+        "burnAreaBoreSlope": 0.1197,
         "energyScaleFactor": 1.2,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=5191psi"
+          "PRESSURE_FIT_LOOSE mae=5135psi"
         ]
       },
       {
@@ -35537,7 +35537,7 @@
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "STRUCTURAL_VELOCITY_GAP bias=-201fps pressureMae=3043psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-199fps pressureMae=3043psi",
           "OVERBORE_REGIME share=94% expR=12.6"
         ]
       },
@@ -35566,10 +35566,10 @@
       },
       {
         "id": "PWD_HODG_IMR4064_H1G9",
-        "burnAreaCoeff": 0.0924,
-        "burnAreaFillSlope": -0.177,
-        "burnAreaBoreSlope": 0.1497,
-        "energyScaleFactor": 1.1684,
+        "burnAreaCoeff": 0.087,
+        "burnAreaFillSlope": 0.6303,
+        "burnAreaBoreSlope": 0.147,
+        "energyScaleFactor": 1.0658,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": []
       },
@@ -35595,25 +35595,25 @@
       },
       {
         "id": "PWD_HODG_IMR4350_H1G0",
-        "burnAreaCoeff": 0.0358,
-        "burnAreaFillSlope": 0.5903,
-        "burnAreaBoreSlope": 0.0033,
-        "energyScaleFactor": 1.1713,
+        "burnAreaCoeff": 0.0359,
+        "burnAreaFillSlope": 0.5891,
+        "burnAreaBoreSlope": 0.0038,
+        "energyScaleFactor": 1.1692,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4570psi"
+          "PRESSURE_FIT_LOOSE mae=4586psi"
         ]
       },
       {
         "id": "PWD_HODG_IMR4451_H1GL",
-        "burnAreaCoeff": 0.0494,
-        "burnAreaFillSlope": -0.0415,
-        "burnAreaBoreSlope": -0.0212,
+        "burnAreaCoeff": 0.0495,
+        "burnAreaFillSlope": -0.0479,
+        "burnAreaBoreSlope": -0.02,
         "energyScaleFactor": 1.2,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=4097psi"
+          "PRESSURE_FIT_LOOSE mae=4073psi"
         ]
       },
       {
@@ -35675,35 +35675,35 @@
       },
       {
         "id": "PWD_HODG_VARGET_H1G1",
-        "burnAreaCoeff": 0.074,
-        "burnAreaFillSlope": -0.2861,
-        "burnAreaBoreSlope": 0.072,
-        "energyScaleFactor": 1.1969,
+        "burnAreaCoeff": 0.0698,
+        "burnAreaFillSlope": -0.0858,
+        "burnAreaBoreSlope": 0.0477,
+        "energyScaleFactor": 1.1996,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.197"
+          "ENERGY_SCALE_AT_BOUND=1.200"
         ]
       },
       {
         "id": "PWD_RAMS_BIGGAME_R1A2",
-        "burnAreaCoeff": 0.0464,
-        "burnAreaFillSlope": -0.5329,
-        "burnAreaBoreSlope": -0.1345,
-        "energyScaleFactor": 1.1497,
+        "burnAreaCoeff": 0.0457,
+        "burnAreaFillSlope": -0.4246,
+        "burnAreaBoreSlope": -0.1251,
+        "energyScaleFactor": 1.1437,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4713psi"
+          "PRESSURE_FIT_LOOSE mae=4612psi"
         ]
       },
       {
         "id": "PWD_RAMS_HUNTER_R1A3",
-        "burnAreaCoeff": 0.0515,
-        "burnAreaFillSlope": -0.3441,
-        "burnAreaBoreSlope": 0.1824,
-        "energyScaleFactor": 1.0813,
+        "burnAreaCoeff": 0.0494,
+        "burnAreaFillSlope": -0.3135,
+        "burnAreaBoreSlope": 0.1918,
+        "energyScaleFactor": 1.1046,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4100psi"
+          "PRESSURE_FIT_LOOSE mae=4060psi"
         ]
       },
       {
@@ -35714,7 +35714,7 @@
         "energyScaleFactor": 1.1822,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=6562psi"
+          "PRESSURE_FIT_LOOSE mae=6547psi"
         ]
       },
       {
@@ -35730,18 +35730,18 @@
       },
       {
         "id": "PWD_RAMS_XTERM_R1A5",
-        "burnAreaCoeff": 0.1435,
-        "burnAreaFillSlope": -0.8007,
-        "burnAreaBoreSlope": 0.2539,
-        "energyScaleFactor": 0.9935,
+        "burnAreaCoeff": 0.1177,
+        "burnAreaFillSlope": -0.8052,
+        "burnAreaBoreSlope": 0.2418,
+        "energyScaleFactor": 1.1374,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5064psi"
+          "PRESSURE_FIT_LOOSE mae=5025psi"
         ]
       },
       {
         "id": "PWD_VIHT_N170_V1HA",
-        "burnAreaCoeff": 0.0946,
+        "burnAreaCoeff": 0.0929,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -35818,7 +35818,7 @@
       },
       {
         "id": "PWD_VIHT_N530_V5H1",
-        "burnAreaCoeff": 0.154,
+        "burnAreaCoeff": 0.1498,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -35840,7 +35840,7 @@
       },
       {
         "id": "PWD_VIHT_N550_V5H3",
-        "burnAreaCoeff": 0.1116,
+        "burnAreaCoeff": 0.1194,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -35912,7 +35912,7 @@
         "energyScaleFactor": 1.1069,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4250psi"
+          "PRESSURE_FIT_LOOSE mae=4215psi"
         ]
       },
       {
@@ -35930,13 +35930,13 @@
       {
         "id": "PWD_WINC_STABALL65_W1N1",
         "burnAreaCoeff": 0.0354,
-        "burnAreaFillSlope": 0.2651,
-        "burnAreaBoreSlope": 0.1386,
+        "burnAreaFillSlope": 0.2618,
+        "burnAreaBoreSlope": 0.1401,
         "energyScaleFactor": 1.2,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=4626psi"
+          "PRESSURE_FIT_LOOSE mae=4558psi"
         ]
       },
       {
@@ -35952,13 +35952,13 @@
       },
       {
         "id": "PWD_WINC_STABALLMATCH_W1N2",
-        "burnAreaCoeff": 0.0712,
-        "burnAreaFillSlope": -0.4863,
-        "burnAreaBoreSlope": 0.0425,
-        "energyScaleFactor": 1.1721,
+        "burnAreaCoeff": 0.0709,
+        "burnAreaFillSlope": -0.4907,
+        "burnAreaBoreSlope": 0.0267,
+        "energyScaleFactor": 1.1796,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4102psi"
+          "PRESSURE_FIT_LOOSE mae=4080psi"
         ]
       },
       {
@@ -35975,14 +35975,14 @@
       },
       {
         "id": "PWD_RAMS_LRT_LB6B",
-        "burnAreaCoeff": 0.0239,
-        "burnAreaFillSlope": -0.8056,
-        "burnAreaBoreSlope": -0.3375,
-        "energyScaleFactor": 1.196,
+        "burnAreaCoeff": 0.0229,
+        "burnAreaFillSlope": -0.741,
+        "burnAreaBoreSlope": -0.2086,
+        "energyScaleFactor": 1.1973,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.196",
-          "PRESSURE_FIT_LOOSE mae=4995psi"
+          "ENERGY_SCALE_AT_BOUND=1.197",
+          "PRESSURE_FIT_LOOSE mae=4957psi"
         ]
       },
       {
@@ -35994,7 +35994,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=4595psi"
+          "PRESSURE_FIT_LOOSE mae=4553psi"
         ]
       },
       {
@@ -36021,18 +36021,18 @@
       },
       {
         "id": "PWD_ACCU_2700_JFAE",
-        "burnAreaCoeff": 0.0645,
-        "burnAreaFillSlope": -0.5947,
-        "burnAreaBoreSlope": 0.0676,
-        "energyScaleFactor": 1.0668,
+        "burnAreaCoeff": 0.0669,
+        "burnAreaFillSlope": -0.7193,
+        "burnAreaBoreSlope": 0.0734,
+        "energyScaleFactor": 1.0649,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4304psi"
+          "PRESSURE_FIT_LOOSE mae=4195psi"
         ]
       },
       {
         "id": "PWD_ALLI_2000_MR_WH6F",
-        "burnAreaCoeff": 0.1009,
+        "burnAreaCoeff": 0.1035,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -36043,7 +36043,7 @@
       },
       {
         "id": "PWD_ALLI_RELODER_17_Q06H",
-        "burnAreaCoeff": 0.1115,
+        "burnAreaCoeff": 0.1326,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -36054,13 +36054,13 @@
       },
       {
         "id": "PWD_HODG_SUPERFORMANCE_QPVF",
-        "burnAreaCoeff": 0.0281,
-        "burnAreaFillSlope": -0.1212,
-        "burnAreaBoreSlope": 0.075,
-        "energyScaleFactor": 1.1434,
+        "burnAreaCoeff": 0.0255,
+        "burnAreaFillSlope": 0.1868,
+        "burnAreaBoreSlope": 0.0946,
+        "energyScaleFactor": 1.1439,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5333psi"
+          "PRESSURE_FIT_LOOSE mae=5316psi"
         ]
       },
       {
@@ -36093,7 +36093,7 @@
         "energyScaleFactor": 1.1819,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4589psi"
+          "PRESSURE_FIT_LOOSE mae=4575psi"
         ]
       },
       {
@@ -36118,43 +36118,43 @@
       },
       {
         "id": "PWD_IMPR_IMR_4955_170P",
-        "burnAreaCoeff": 0.0378,
-        "burnAreaFillSlope": 0.0336,
-        "burnAreaBoreSlope": 0.0806,
-        "energyScaleFactor": 1.193,
+        "burnAreaCoeff": 0.0376,
+        "burnAreaFillSlope": 0.0015,
+        "burnAreaBoreSlope": 0.09,
+        "energyScaleFactor": 1.1971,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.193",
-          "PRESSURE_FIT_LOOSE mae=4450psi"
+          "ENERGY_SCALE_AT_BOUND=1.197",
+          "PRESSURE_FIT_LOOSE mae=4219psi"
         ]
       },
       {
         "id": "PWD_ACCU_2495_MKE7",
-        "burnAreaCoeff": 0.1186,
-        "burnAreaFillSlope": -0.7339,
-        "burnAreaBoreSlope": 0.0046,
-        "energyScaleFactor": 1.1369,
+        "burnAreaCoeff": 0.1121,
+        "burnAreaFillSlope": -0.6475,
+        "burnAreaBoreSlope": 0.0744,
+        "energyScaleFactor": 1.1879,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5357psi"
+          "PRESSURE_FIT_LOOSE mae=5438psi"
         ]
       },
       {
         "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
-        "burnAreaCoeff": 0.0532,
-        "burnAreaFillSlope": -0.2839,
-        "burnAreaBoreSlope": -0.1954,
-        "energyScaleFactor": 1.1846,
+        "burnAreaCoeff": 0.0536,
+        "burnAreaFillSlope": -0.1963,
+        "burnAreaBoreSlope": -0.1209,
+        "energyScaleFactor": 1.1841,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4783psi"
+          "PRESSURE_FIT_LOOSE mae=4064psi"
         ]
       },
       {
         "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
-        "burnAreaCoeff": 0.077,
-        "burnAreaFillSlope": -0.5797,
-        "burnAreaBoreSlope": -0.0116,
+        "burnAreaCoeff": 0.0776,
+        "burnAreaFillSlope": -0.5945,
+        "burnAreaBoreSlope": 0.0158,
         "energyScaleFactor": 1.2,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
@@ -36164,24 +36164,25 @@
       {
         "id": "PWD_SHOO_LONG_RIFLE_YB45",
         "burnAreaCoeff": 0.0948,
-        "burnAreaFillSlope": -1.0701,
-        "burnAreaBoreSlope": -0.167,
+        "burnAreaFillSlope": -1.0712,
+        "burnAreaBoreSlope": -0.168,
         "energyScaleFactor": 1.2,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "OVERBORE_ENVELOPE expR=10.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.2 — verify velocity with chronograph"
         ]
       },
       {
         "id": "PWD_SHOO_SW4350_JZV8",
-        "burnAreaCoeff": 0.0733,
-        "burnAreaFillSlope": -1.0148,
-        "burnAreaBoreSlope": -0.375,
-        "energyScaleFactor": 1.1163,
-        "calibrationConfidence": "MEDIUM",
+        "burnAreaCoeff": 0.1653,
+        "burnAreaFillSlope": -1.2352,
+        "burnAreaBoreSlope": -0.1872,
+        "energyScaleFactor": 0.75,
+        "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
+          "STRUCTURAL_VELOCITY_GAP bias=-298fps pressureMae=3028psi",
+          "OVERBORE_REGIME share=90% expR=11.6"
         ]
       },
       {
@@ -36197,29 +36198,29 @@
       },
       {
         "id": "PWD_IMPR_IMR_3031_KXZD",
-        "burnAreaCoeff": 0.1144,
-        "burnAreaFillSlope": -0.3663,
-        "burnAreaBoreSlope": 0.0113,
-        "energyScaleFactor": 1.1284,
+        "burnAreaCoeff": 0.1153,
+        "burnAreaFillSlope": -0.3619,
+        "burnAreaBoreSlope": 0.0238,
+        "energyScaleFactor": 1.1285,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4115psi"
+          "PRESSURE_FIT_LOOSE mae=4140psi"
         ]
       },
       {
         "id": "PWD_ACCU_2015_UOWX",
-        "burnAreaCoeff": 0.1542,
-        "burnAreaFillSlope": -0.2556,
-        "burnAreaBoreSlope": 0.0913,
-        "energyScaleFactor": 1.0572,
+        "burnAreaCoeff": 0.1714,
+        "burnAreaFillSlope": -0.3115,
+        "burnAreaBoreSlope": 0.0846,
+        "energyScaleFactor": 0.9854,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5491psi"
+          "PRESSURE_FIT_LOOSE mae=5577psi"
         ]
       },
       {
         "id": "PWD_ALLI_RELODER_25_JJAD",
-        "burnAreaCoeff": 0.1344,
+        "burnAreaCoeff": 0.1236,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -36242,19 +36243,19 @@
       },
       {
         "id": "PWD_ACCU_2200_EA5G",
-        "burnAreaCoeff": 0.1941,
-        "burnAreaFillSlope": -0.5811,
-        "burnAreaBoreSlope": 0.0911,
-        "energyScaleFactor": 1.0036,
+        "burnAreaCoeff": 0.1588,
+        "burnAreaFillSlope": -0.404,
+        "burnAreaBoreSlope": -0.0527,
+        "energyScaleFactor": 1.0314,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": []
       },
       {
         "id": "PWD_ACCU_LT_30_XE5M",
-        "burnAreaCoeff": 0.2611,
-        "burnAreaFillSlope": -1.3247,
-        "burnAreaBoreSlope": -0.0216,
-        "energyScaleFactor": 0.9847,
+        "burnAreaCoeff": 0.1919,
+        "burnAreaFillSlope": -0.717,
+        "burnAreaBoreSlope": -0.1008,
+        "energyScaleFactor": 1.0723,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": []
       },
@@ -36282,13 +36283,13 @@
       },
       {
         "id": "PWD_ACCU_2460_P2ON",
-        "burnAreaCoeff": 0.1079,
-        "burnAreaFillSlope": -0.5504,
-        "burnAreaBoreSlope": 0.2489,
-        "energyScaleFactor": 1.0246,
+        "burnAreaCoeff": 0.111,
+        "burnAreaFillSlope": -0.5784,
+        "burnAreaBoreSlope": 0.2278,
+        "energyScaleFactor": 1.0162,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4920psi"
+          "PRESSURE_FIT_LOOSE mae=4774psi"
         ]
       },
       {
@@ -36327,7 +36328,7 @@
       },
       {
         "id": "PWD_ALLI_4000_MR_KRWA",
-        "burnAreaCoeff": 0.14,
+        "burnAreaCoeff": 0.1424,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -36371,14 +36372,14 @@
       },
       {
         "id": "PWD_ACCU_4350_R1AB",
-        "burnAreaCoeff": 0.0498,
-        "burnAreaFillSlope": -0.6047,
-        "burnAreaBoreSlope": -0.0873,
-        "energyScaleFactor": 1.2,
+        "burnAreaCoeff": 0.049,
+        "burnAreaFillSlope": -0.558,
+        "burnAreaBoreSlope": -0.0847,
+        "energyScaleFactor": 1.1994,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=4639psi"
+          "ENERGY_SCALE_AT_BOUND=1.199",
+          "PRESSURE_FIT_LOOSE mae=4582psi"
         ]
       },
       {
@@ -36416,14 +36417,14 @@
       },
       {
         "id": "PWD_HODG_CFEBLK_H1GB",
-        "burnAreaCoeff": 0.0297,
-        "burnAreaFillSlope": -1.8486,
-        "burnAreaBoreSlope": -0.4999,
+        "burnAreaCoeff": 0.0298,
+        "burnAreaFillSlope": -1.8506,
+        "burnAreaBoreSlope": -0.4997,
         "energyScaleFactor": 1.2,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ENERGY_SCALE_AT_BOUND=1.200",
-          "PRESSURE_FIT_LOOSE mae=6867psi"
+          "PRESSURE_FIT_LOOSE mae=6869psi"
         ]
       },
       {
@@ -36463,13 +36464,13 @@
       },
       {
         "id": "PWD_ACCU_1680_R1AC",
-        "burnAreaCoeff": 0.198,
-        "burnAreaFillSlope": -2.1965,
-        "burnAreaBoreSlope": -0.4996,
-        "energyScaleFactor": 1.1253,
+        "burnAreaCoeff": 0.1994,
+        "burnAreaFillSlope": -2.2098,
+        "burnAreaBoreSlope": -0.4712,
+        "energyScaleFactor": 1.1256,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=6235psi"
+          "PRESSURE_FIT_LOOSE mae=4962psi"
         ]
       },
       {
@@ -36528,13 +36529,13 @@
       {
         "id": "PWD_HODG_US869_H1GE",
         "burnAreaCoeff": 0.0121,
-        "burnAreaFillSlope": -0.8677,
-        "burnAreaBoreSlope": -0.3479,
-        "energyScaleFactor": 1.1904,
+        "burnAreaFillSlope": -0.8836,
+        "burnAreaBoreSlope": -0.3499,
+        "energyScaleFactor": 1.1961,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.190",
-          "PRESSURE_FIT_LOOSE mae=6823psi"
+          "ENERGY_SCALE_AT_BOUND=1.196",
+          "PRESSURE_FIT_LOOSE mae=6847psi"
         ]
       },
       {
@@ -36550,7 +36551,7 @@
       },
       {
         "id": "PWD_IMR_4007SSC_I1G6",
-        "burnAreaCoeff": 0.1025,
+        "burnAreaCoeff": 0.1059,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
         "energyScaleFactor": 1,
@@ -36707,13 +36708,13 @@
       },
       {
         "id": "PWD_SHOO_TAC_RIFLE_8NG3",
-        "burnAreaCoeff": 0.1009,
-        "burnAreaFillSlope": -0.158,
-        "burnAreaBoreSlope": 0.0521,
-        "energyScaleFactor": 1.1162,
+        "burnAreaCoeff": 0.0954,
+        "burnAreaFillSlope": 0.5048,
+        "burnAreaBoreSlope": 0.1251,
+        "energyScaleFactor": 1.0412,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4367psi"
+          "PRESSURE_FIT_LOOSE mae=4145psi"
         ]
       },
       {
