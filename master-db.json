@@ -6537,7 +6537,7 @@
       "standardTwistMm": 240,
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
-      "transducerScaleFactor": 0.76874,
+      "transducerScaleFactor": 1.33365,
       "bulletDiameterMmResolved": 6.172,
       "boreDiameterMmResolved": 6.02
     },
@@ -8030,9 +8030,9 @@
       "bulkDensityKgM3": 906,
       "heatOfExplosionKjKg": 3900,
       "burnExponent": 0.5505,
-      "burnAreaCoeff": 0.2945,
-      "burnAreaFillSlope": -0.677,
-      "burnAreaBoreSlope": -0.0951,
+      "burnAreaCoeff": 0.1253,
+      "burnAreaFillSlope": -0.2391,
+      "burnAreaBoreSlope": -0.035,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_222REM_cR81",
@@ -8071,11 +8071,9 @@
           "burnAreaCoeff": 0.0876
         }
       ],
-      "energyScaleFactor": 0.688,
-      "calibrationConfidence": "STRUCTURAL_GAP",
-      "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-379fps pressureMae=3306psi"
-      ],
+      "energyScaleFactor": 1.1766,
+      "calibrationConfidence": "HIGH",
+      "calibrationFlags": [],
       "tempSensitivity": 0.0027
     },
     {
@@ -9801,9 +9799,9 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3570,
       "burnExponent": 0.5504,
-      "burnAreaCoeff": 0.0353,
-      "burnAreaFillSlope": 0.7525,
-      "burnAreaBoreSlope": -0.0493,
+      "burnAreaCoeff": 0.0295,
+      "burnAreaFillSlope": 0.5067,
+      "burnAreaBoreSlope": -0.0695,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_280AI_cA52",
@@ -9874,11 +9872,10 @@
           "burnAreaCoeff": 0.052
         }
       ],
-      "energyScaleFactor": 0.9236,
-      "calibrationConfidence": "STRUCTURAL_GAP",
+      "energyScaleFactor": 1.1286,
+      "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-175fps pressureMae=3810psi",
-        "OVERBORE_REGIME share=91% expR=12.8"
+        "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
       ],
       "tempSensitivity": 0.00036
     },
@@ -10407,9 +10404,9 @@
       "bulkDensityKgM3": 900,
       "heatOfExplosionKjKg": 3640,
       "burnExponent": 0.5518,
-      "burnAreaCoeff": 0.1249,
-      "burnAreaFillSlope": -0.0171,
-      "burnAreaBoreSlope": 0.1343,
+      "burnAreaCoeff": 0.0876,
+      "burnAreaFillSlope": 0.3317,
+      "burnAreaBoreSlope": 0.1566,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_220SWIFT_N2H6",
@@ -10496,10 +10493,10 @@
           "burnAreaCoeff": 0.0898
         }
       ],
-      "energyScaleFactor": 0.9463,
+      "energyScaleFactor": 1.1029,
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-240fps pressureMae=3723psi",
+        "STRUCTURAL_VELOCITY_GAP bias=-146fps pressureMae=3782psi",
         "OVERBORE_REGIME share=40% expR=9.8"
       ],
       "tempSensitivity": 0.00144
@@ -10518,9 +10515,9 @@
       "bulkDensityKgM3": 830,
       "heatOfExplosionKjKg": 4024,
       "burnExponent": 0.7,
-      "burnAreaCoeff": 0.0127,
-      "burnAreaFillSlope": 0.933,
-      "burnAreaBoreSlope": -0.3799,
+      "burnAreaCoeff": 0.0088,
+      "burnAreaFillSlope": 2.3184,
+      "burnAreaBoreSlope": -0.4997,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_222REMMAG_cR84",
@@ -10563,10 +10560,11 @@
           "burnAreaCoeff": 0.021
         }
       ],
-      "energyScaleFactor": 1.1802,
+      "energyScaleFactor": 1.1999,
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-154fps pressureMae=3970psi"
+        "ENERGY_SCALE_AT_BOUND=1.200",
+        "STRUCTURAL_VELOCITY_GAP bias=-153fps pressureMae=3961psi"
       ],
       "tempSensitivity": 0.00144
     },
@@ -16072,9 +16070,9 @@
       "bulkDensityKgM3": 910,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5536,
-      "burnAreaCoeff": 0.1282,
-      "burnAreaFillSlope": -1.0567,
-      "burnAreaBoreSlope": -0.0784,
+      "burnAreaCoeff": 0.0915,
+      "burnAreaFillSlope": -0.619,
+      "burnAreaBoreSlope": 0.0794,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_224VALK_N2H5",
@@ -16121,11 +16119,11 @@
           "burnAreaCoeff": 0.0776
         }
       ],
-      "energyScaleFactor": 0.9915,
-      "calibrationConfidence": "STRUCTURAL_GAP",
+      "energyScaleFactor": 1.1933,
+      "calibrationConfidence": "MEDIUM",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-124fps pressureMae=3637psi",
-        "OVERBORE_REGIME share=58% expR=10.4"
+        "ENERGY_SCALE_AT_BOUND=1.193",
+        "PRESSURE_FIT_LOOSE mae=4376psi"
       ],
       "tempSensitivity": 0.00144
     },
@@ -16552,9 +16550,9 @@
       "bulkDensityKgM3": 880,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.55,
-      "burnAreaCoeff": 0.2954,
-      "burnAreaFillSlope": -0.4566,
-      "burnAreaBoreSlope": -0.1649,
+      "burnAreaCoeff": 0.1589,
+      "burnAreaFillSlope": -0.3218,
+      "burnAreaBoreSlope": -0.02,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_222REM_cR81",
@@ -16589,11 +16587,9 @@
           "burnAreaCoeff": 0.0809
         }
       ],
-      "energyScaleFactor": 0.6615,
-      "calibrationConfidence": "STRUCTURAL_GAP",
-      "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-402fps pressureMae=3008psi"
-      ],
+      "energyScaleFactor": 0.9997,
+      "calibrationConfidence": "HIGH",
+      "calibrationFlags": [],
       "tempSensitivity": 0.0027
     },
     {
@@ -16610,9 +16606,9 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5535,
-      "burnAreaCoeff": 0.5064,
-      "burnAreaFillSlope": -1.1345,
-      "burnAreaBoreSlope": -0.2074,
+      "burnAreaCoeff": 0.2072,
+      "burnAreaFillSlope": -0.7516,
+      "burnAreaBoreSlope": -0.0983,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_222REM_cR81",
@@ -16647,11 +16643,9 @@
           "burnAreaCoeff": 0.076
         }
       ],
-      "energyScaleFactor": 0.5694,
-      "calibrationConfidence": "STRUCTURAL_GAP",
-      "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-589fps pressureMae=3774psi"
-      ],
+      "energyScaleFactor": 1.014,
+      "calibrationConfidence": "HIGH",
+      "calibrationFlags": [],
       "tempSensitivity": 0.00144
     },
     {
@@ -17946,20 +17940,18 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4087,
       "burnExponent": 0.6926,
-      "burnAreaCoeff": 0.0718,
-      "burnAreaFillSlope": 0.9451,
-      "burnAreaBoreSlope": -0.4321,
+      "burnAreaCoeff": 0.03,
+      "burnAreaFillSlope": 1.0453,
+      "burnAreaBoreSlope": -0.0581,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_300BLK_cI72",
           "burnAreaCoeff": 0.0221
         }
       ],
-      "energyScaleFactor": 0.5544,
-      "calibrationConfidence": "STRUCTURAL_GAP",
-      "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-448fps pressureMae=2278psi"
-      ],
+      "energyScaleFactor": 1.0852,
+      "calibrationConfidence": "HIGH",
+      "calibrationFlags": [],
       "tempSensitivity": 0.00144
     },
     {
@@ -18192,9 +18184,9 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.55,
-      "burnAreaCoeff": 0.111,
-      "burnAreaFillSlope": -0.0449,
-      "burnAreaBoreSlope": 0.0339,
+      "burnAreaCoeff": 0.0829,
+      "burnAreaFillSlope": 0.6346,
+      "burnAreaBoreSlope": 0.0278,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_22250_cK32",
@@ -18221,11 +18213,9 @@
           "burnAreaCoeff": 0.0668
         }
       ],
-      "energyScaleFactor": 1.0123,
-      "calibrationConfidence": "STRUCTURAL_GAP",
-      "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-118fps pressureMae=3965psi"
-      ],
+      "energyScaleFactor": 1.0729,
+      "calibrationConfidence": "HIGH",
+      "calibrationFlags": [],
       "tempSensitivity": 0.0027
     },
     {
@@ -18243,19 +18233,19 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5531,
-      "burnAreaCoeff": 0.1492,
-      "burnAreaFillSlope": 2.5,
-      "burnAreaBoreSlope": 0.1599,
+      "burnAreaCoeff": 0.0342,
+      "burnAreaFillSlope": 2.4969,
+      "burnAreaBoreSlope": -0.4957,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_300BLK_cI72",
           "burnAreaCoeff": 0.094
         }
       ],
-      "energyScaleFactor": 0.4008,
+      "energyScaleFactor": 1.1875,
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-580fps pressureMae=3207psi"
+        "STRUCTURAL_VELOCITY_GAP bias=-227fps pressureMae=3295psi"
       ],
       "tempSensitivity": 0.0027
     },
@@ -18274,9 +18264,9 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.8144,
-      "burnAreaCoeff": 0.6362,
-      "burnAreaFillSlope": -2.4369,
-      "burnAreaBoreSlope": -0.4446,
+      "burnAreaCoeff": 0.643,
+      "burnAreaFillSlope": -2.497,
+      "burnAreaBoreSlope": -0.4885,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_308WIN_cC82",
@@ -18287,11 +18277,10 @@
           "burnAreaCoeff": 0.2149
         }
       ],
-      "energyScaleFactor": 1.2,
+      "energyScaleFactor": 1.1824,
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
-        "ENERGY_SCALE_AT_BOUND=1.200",
-        "STRUCTURAL_VELOCITY_GAP bias=97fps pressureMae=1427psi"
+        "STRUCTURAL_VELOCITY_GAP bias=89fps pressureMae=1492psi"
       ],
       "tempSensitivity": 0.0027
     },
@@ -18465,20 +18454,19 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.7916,
-      "burnAreaCoeff": 0.3541,
-      "burnAreaFillSlope": -2.5,
-      "burnAreaBoreSlope": -0.1938,
+      "burnAreaCoeff": 0.5519,
+      "burnAreaFillSlope": -2.491,
+      "burnAreaBoreSlope": -0.1206,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_308WIN_cC82",
           "burnAreaCoeff": 0.0316
         }
       ],
-      "energyScaleFactor": 1.2,
+      "energyScaleFactor": 1.1412,
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
-        "ENERGY_SCALE_AT_BOUND=1.200",
-        "STRUCTURAL_VELOCITY_GAP bias=133fps pressureMae=1533psi"
+        "STRUCTURAL_VELOCITY_GAP bias=107fps pressureMae=1571psi"
       ],
       "tempSensitivity": 0.0027
     },
@@ -18620,19 +18608,19 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.6098,
-      "burnAreaCoeff": 0.0299,
+      "burnAreaCoeff": 0.029,
       "burnAreaFillSlope": 2.4999,
-      "burnAreaBoreSlope": -0.4507,
+      "burnAreaBoreSlope": -0.3309,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_300BLK_cI72",
           "burnAreaCoeff": 0.0228
         }
       ],
-      "energyScaleFactor": 1.0073,
+      "energyScaleFactor": 1.03,
       "calibrationConfidence": "STRUCTURAL_GAP",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-121fps pressureMae=3044psi"
+        "STRUCTURAL_VELOCITY_GAP bias=-112fps pressureMae=3035psi"
       ],
       "tempSensitivity": 0.00144
     },
@@ -18746,9 +18734,9 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5566,
-      "burnAreaCoeff": 0.2289,
-      "burnAreaFillSlope": -0.2096,
-      "burnAreaBoreSlope": 0.0126,
+      "burnAreaCoeff": 0.0933,
+      "burnAreaFillSlope": 0.089,
+      "burnAreaBoreSlope": 0.0659,
       "cartridgeOverrides": [
         {
           "cartridgeId": "CTG_22250_cK32",
@@ -18763,10 +18751,10 @@
           "burnAreaCoeff": 0.0981
         }
       ],
-      "energyScaleFactor": 0.6169,
-      "calibrationConfidence": "STRUCTURAL_GAP",
+      "energyScaleFactor": 1.2,
+      "calibrationConfidence": "HIGH",
       "calibrationFlags": [
-        "STRUCTURAL_VELOCITY_GAP bias=-493fps pressureMae=2012psi"
+        "ENERGY_SCALE_AT_BOUND=1.200"
       ],
       "tempSensitivity": 0.00144
     },
@@ -27229,10 +27217,10 @@
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.043831,
-        "overallLengthMm": 31.9024,
-        "ogiveLengthMm": 18.1864,
-        "boatTailLengthMm": 3.683,
-        "bearingSurfaceMm": 10.033,
+        "overallLengthMm": 31.0642,
+        "ogiveLengthMm": 19.431,
+        "boatTailLengthMm": 4.4958,
+        "bearingSurfaceMm": 7.1374,
         "materialType": "MAT_JACKETED_LEAD",
         "engravingPressurePa": 32000000
       },
@@ -38075,33 +38063,6 @@
       "advertisedWeightGrains": 300
     },
     {
-      "id": "BUL_HORNADY_416_400_SP",
-      "name": "InterLock SP",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 25.919564,
-        "overallLengthMm": 37.7,
-        "ogiveLengthMm": 17,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.374,
-        "g1FF": 0.8829,
-        "g7BC": 0.187,
-        "g7FF": 1.7658
-      },
-      "advertisedWeightGrains": 400
-    },
-    {
       "id": "BUL_HORNADY_458_350_RN",
       "name": "InterLock RN",
       "diameterId": "DIA_458_R9S3",
@@ -38291,33 +38252,6 @@
       "advertisedWeightGrains": 270
     },
     {
-      "id": "BUL_SWIFT_416_400_AFRAME",
-      "name": "A-Frame",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 25.919564,
-        "overallLengthMm": 34.8,
-        "ogiveLengthMm": 15.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 19.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SWIFT_SW5T",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.384,
-        "g1FF": 0.8599,
-        "g7BC": 0.192,
-        "g7FF": 1.7198
-      },
-      "advertisedWeightGrains": 400
-    },
-    {
       "id": "BUL_SWIFT_458_300_AFRAME",
       "name": "A-Frame",
       "diameterId": "DIA_458_R9S3",
@@ -38451,33 +38385,6 @@
         "g7FF": 1.3163
       },
       "advertisedWeightGrains": 140
-    },
-    {
-      "id": "BUL_SIERRA_312_174_HPBT",
-      "name": "MatchKing HPBT",
-      "diameterId": "DIA_312_K8M1",
-      "physis": {
-        "weightGrams": 11.2750103,
-        "overallLengthMm": 36.8,
-        "ogiveLengthMm": 19,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 10,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.505,
-        "g1FF": 0.5057,
-        "g7BC": 0.255,
-        "g7FF": 1.0014
-      },
-      "advertisedWeightGrains": 174
     },
     {
       "id": "BUL_SIERRA_323_200_SPT",
@@ -38721,60 +38628,6 @@
         "g7FF": 1.3919
       },
       "advertisedWeightGrains": 285
-    },
-    {
-      "id": "BUL_BERGER_172_25_HP",
-      "name": "Hollow Point",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.6199728,
-        "overallLengthMm": 12.5,
-        "ogiveLengthMm": 5.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 6.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.153,
-        "g1FF": 0.789,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 25
-    },
-    {
-      "id": "BUL_BERGER_172_30_HP",
-      "name": "Hollow Point",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.9439673,
-        "overallLengthMm": 14.5,
-        "ogiveLengthMm": 6.5,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.175,
-        "g1FF": 0.8278,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 30
     },
     {
       "id": "BUL_BERGER_224_50_HPBT",
@@ -40078,10 +39931,10 @@
       "diameterId": "DIA_458_R9S3",
       "physis": {
         "weightGrams": 25.919564,
-        "overallLengthMm": 28.7,
-        "ogiveLengthMm": 12.9,
+        "overallLengthMm": 24.64,
+        "ogiveLengthMm": 11.07,
         "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 15.8,
+        "bearingSurfaceMm": 13.57,
         "materialType": "MAT_JACKETED_LEAD",
         "engravingPressurePa": 32000000
       },
@@ -40179,34 +40032,6 @@
         "g7FF": 1.009
       },
       "advertisedWeightGrains": 139
-    },
-    {
-      "id": "BUL_HORNADY_172_25_HP",
-      "name": "Hollow Point Match",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.6199725000000003,
-        "overallLengthMm": 13.8,
-        "ogiveLengthMm": 6.2,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 7.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.24,
-        "g1FF": 0.9054,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 25,
-      "diameterMm": 4.369
     },
     {
       "id": "BUL_LAPUA_264_100_NAT",
@@ -40560,114 +40385,6 @@
       "advertisedWeightGrains": 147
     },
     {
-      "id": "BUL_HORNADY_172_15_NTX",
-      "name": "NTX Lead-Free",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 0.9719836,
-        "overallLengthMm": 9.5,
-        "ogiveLengthMm": 4.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 5.2,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.08,
-        "g1FF": 0.9054,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 15
-    },
-    {
-      "id": "BUL_HORNADY_172_20_NTX",
-      "name": "NTX Lead-Free",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.2959782,
-        "overallLengthMm": 12.6,
-        "ogiveLengthMm": 5.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 6.9,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.099,
-        "g1FF": 0.9755,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 20
-    },
-    {
-      "id": "BUL_HORNADY_172_24_NTX",
-      "name": "NTX Lead-Free",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.5551738,
-        "overallLengthMm": 15.2,
-        "ogiveLengthMm": 6.8,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.4,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.115,
-        "g1FF": 1.0078,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 24
-    },
-    {
-      "id": "BUL_HORNADY_172_25_NTX",
-      "name": "NTX Lead-Free",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.6199728,
-        "overallLengthMm": 15.8,
-        "ogiveLengthMm": 7.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.7,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.118,
-        "g1FF": 1.0231,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 25
-    },
-    {
       "id": "BUL_HORNADY_308_160_FTX",
       "name": "FTX Flex Tip",
       "diameterId": "DIA_308_XBM7",
@@ -40938,33 +40655,6 @@
       "advertisedWeightGrains": 120
     },
     {
-      "id": "BUL_NOSLER_204_32_VMG",
-      "name": "Varmageddon",
-      "diameterId": "DIA_204_K5L1",
-      "physis": {
-        "weightGrams": 2.0735651,
-        "overallLengthMm": 12.5,
-        "ogiveLengthMm": 5.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 6.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.15,
-        "g1FF": 0.7323,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 32
-    },
-    {
       "id": "BUL_NOSLER_224_20_VMG",
       "name": "Varmageddon",
       "diameterId": "DIA_224_L5X8",
@@ -41044,33 +40734,6 @@
         "g7FF": 2.2743
       },
       "advertisedWeightGrains": 300
-    },
-    {
-      "id": "BUL_BARNES_416_400_FB",
-      "name": "Flat Nose FB",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 25.919564,
-        "overallLengthMm": 34.8,
-        "ogiveLengthMm": 15.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 19.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.292,
-        "g1FF": 1.1308,
-        "g7BC": 0.146,
-        "g7FF": 2.2616
-      },
-      "advertisedWeightGrains": 400
     },
     {
       "id": "BUL_BARNES_458_400_FB",
@@ -41343,87 +41006,6 @@
       "advertisedWeightGrains": 75
     },
     {
-      "id": "BUL_SIERRA_172_25_BK",
-      "name": "BlitzKing",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.6199728,
-        "overallLengthMm": 13.8,
-        "ogiveLengthMm": 6.2,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 7.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.155,
-        "g1FF": 0.7788,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 25
-    },
-    {
-      "id": "BUL_SIERRA_172_30_BK",
-      "name": "BlitzKing",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.9439673,
-        "overallLengthMm": 16.5,
-        "ogiveLengthMm": 7.4,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 9.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.185,
-        "g1FF": 0.7831,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 30
-    },
-    {
-      "id": "BUL_SIERRA_172_32_BK",
-      "name": "BlitzKing",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 2.0735651,
-        "overallLengthMm": 16.25,
-        "ogiveLengthMm": 7.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.95,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.2,
-        "g1FF": 0.7726,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 32
-    },
-    {
       "id": "BUL_SIERRA_264_95_HPBT",
       "name": "HPBT Varmint",
       "diameterId": "DIA_264_H8J4",
@@ -41613,60 +41195,6 @@
       "advertisedWeightGrains": 100
     },
     {
-      "id": "BUL_HORNADY_429_300_XTP",
-      "name": "XTP",
-      "diameterId": "DIA_429_K6L2",
-      "physis": {
-        "weightGrams": 19.439673,
-        "overallLengthMm": 24.5,
-        "ogiveLengthMm": 11,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 13.5,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.361,
-        "g1FF": 0.6451,
-        "g7BC": 0.18,
-        "g7FF": 1.2937
-      },
-      "advertisedWeightGrains": 300
-    },
-    {
-      "id": "BUL_HORNADY_452_300_XTP",
-      "name": "XTP",
-      "diameterId": "DIA_452_B2K1",
-      "physis": {
-        "weightGrams": 19.439673,
-        "overallLengthMm": 22.1,
-        "ogiveLengthMm": 9.9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 12.2,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.28,
-        "g1FF": 0.7492,
-        "g7BC": 0.14,
-        "g7FF": 1.4984
-      },
-      "advertisedWeightGrains": 300
-    },
-    {
       "id": "BUL_HORNADY_308_300_HP",
       "name": "Round Nose",
       "diameterId": "DIA_308_XBM7",
@@ -41827,1545 +41355,6 @@
         "g7FF": 1.5223
       },
       "advertisedWeightGrains": 280
-    },
-    {
-      "id": "BUL_HDY_204_24_VMAX",
-      "name": "V-MAX",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 1.5551738,
-        "overallLengthMm": 9.4,
-        "ogiveLengthMm": 4.2,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 5.2,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.185,
-        "g1FF": 0.4453,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 24
-    },
-    {
-      "id": "BUL_HDY_204_32_VMAX",
-      "name": "V-MAX",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.0735651,
-        "overallLengthMm": 12.5,
-        "ogiveLengthMm": 5.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 6.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.21,
-        "g1FF": 0.5231,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 32
-    },
-    {
-      "id": "BUL_HDY_204_40_VMAX",
-      "name": "V-MAX",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.5919564,
-        "overallLengthMm": 15.7,
-        "ogiveLengthMm": 7.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.275,
-        "g1FF": 0.4993,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 40
-    },
-    {
-      "id": "BUL_HDY_204_45_SP",
-      "name": "SP",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.915951,
-        "overallLengthMm": 17.6,
-        "ogiveLengthMm": 7.9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 9.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.22,
-        "g1FF": 0.7022,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 45
-    },
-    {
-      "id": "BUL_SIE_204_39_BK",
-      "name": "BlitzKing",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.5271575,
-        "overallLengthMm": 15.3,
-        "ogiveLengthMm": 6.9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.4,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.226,
-        "g1FF": 0.5924,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 39
-    },
-    {
-      "id": "BUL_SIE_204_45_SBT",
-      "name": "GameKing SBT",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.915951,
-        "overallLengthMm": 19.65,
-        "ogiveLengthMm": 10.2,
-        "boatTailLengthMm": 2.35,
-        "bearingSurfaceMm": 7.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.25,
-        "g1FF": 0.6179,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 45
-    },
-    {
-      "id": "BUL_BER_204_35_HP",
-      "name": "Hollow Point",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.2679618,
-        "overallLengthMm": 13.7,
-        "ogiveLengthMm": 6.2,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 7.5,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.195,
-        "g1FF": 0.6161,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 35
-    },
-    {
-      "id": "BUL_BER_204_40_HP",
-      "name": "Hollow Point",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.5919564,
-        "overallLengthMm": 15.7,
-        "ogiveLengthMm": 7.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.23,
-        "g1FF": 0.597,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 40
-    },
-    {
-      "id": "BUL_NOS_204_32_BT",
-      "name": "Ballistic Tip",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.0735651,
-        "overallLengthMm": 12.5,
-        "ogiveLengthMm": 5.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 6.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.209,
-        "g1FF": 0.5256,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 32
-    },
-    {
-      "id": "BUL_NOS_204_40_BT",
-      "name": "Ballistic Tip",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.5919564,
-        "overallLengthMm": 15.7,
-        "ogiveLengthMm": 7.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.264,
-        "g1FF": 0.5201,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 40
-    },
-    {
-      "id": "BUL_BAR_204_30_TSX",
-      "name": "TSX FB",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 1.9439673,
-        "overallLengthMm": 13.5,
-        "ogiveLengthMm": 6.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 7.4,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.185,
-        "g1FF": 0.5567,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 30
-    },
-    {
-      "id": "BUL_BAR_204_36_TSX",
-      "name": "TSX FB",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.3327608,
-        "overallLengthMm": 16.2,
-        "ogiveLengthMm": 7.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.9,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.215,
-        "g1FF": 0.5748,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 36
-    },
-    {
-      "id": "BUL_SPR_204_45_TNT",
-      "name": "TNT HP",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.915951,
-        "overallLengthMm": 17.6,
-        "ogiveLengthMm": 7.9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 9.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SPEER_S2P1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.24,
-        "g1FF": 0.6436,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 45
-    },
-    {
-      "id": "BUL_SPR_204_40_HP",
-      "name": "HP",
-      "diameterId": "DIA_204_R7V2",
-      "physis": {
-        "weightGrams": 2.5919564,
-        "overallLengthMm": 15.7,
-        "ogiveLengthMm": 7.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 8.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SPEER_S2P1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.22,
-        "g1FF": 0.6241,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 40
-    },
-    {
-      "id": "BUL_HDY_310_123_SP",
-      "name": "SP",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 7.9702659,
-        "overallLengthMm": 30.2,
-        "ogiveLengthMm": 13.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.28,
-        "g1FF": 0.653,
-        "g7BC": 0.142,
-        "g7FF": 1.2876
-      },
-      "advertisedWeightGrains": 123
-    },
-    {
-      "id": "BUL_HDY_310_123_SST",
-      "name": "SST",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 7.9702659,
-        "overallLengthMm": 30.5,
-        "ogiveLengthMm": 13.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.8,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.29,
-        "g1FF": 0.6305,
-        "g7BC": 0.147,
-        "g7FF": 1.2438
-      },
-      "advertisedWeightGrains": 123
-    },
-    {
-      "id": "BUL_HDY_310_150_SP",
-      "name": "SP",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 9.7198365,
-        "overallLengthMm": 34,
-        "ogiveLengthMm": 15.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.33,
-        "g1FF": 0.6757,
-        "g7BC": 0.167,
-        "g7FF": 1.3352
-      },
-      "advertisedWeightGrains": 150
-    },
-    {
-      "id": "BUL_SIE_310_125_SP",
-      "name": "Pro-Hunter SP",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 8.0998638,
-        "overallLengthMm": 30.7,
-        "ogiveLengthMm": 13.8,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.284,
-        "g1FF": 0.6543,
-        "g7BC": 0.144,
-        "g7FF": 1.2904
-      },
-      "advertisedWeightGrains": 125
-    },
-    {
-      "id": "BUL_SIE_310_150_HPBT",
-      "name": "HPBT",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 9.7198365,
-        "overallLengthMm": 33.5,
-        "ogiveLengthMm": 17.4,
-        "boatTailLengthMm": 4,
-        "bearingSurfaceMm": 12.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.361,
-        "g1FF": 0.6177,
-        "g7BC": 0.182,
-        "g7FF": 1.2252
-      },
-      "advertisedWeightGrains": 150
-    },
-    {
-      "id": "BUL_LAP_310_123_FMJ",
-      "name": "FMJ",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 7.9702659,
-        "overallLengthMm": 30.2,
-        "ogiveLengthMm": 13.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.277,
-        "g1FF": 0.6601,
-        "g7BC": 0.14,
-        "g7FF": 1.306
-      },
-      "advertisedWeightGrains": 123
-    },
-    {
-      "id": "BUL_LAP_310_125_LOCK",
-      "name": "Lock Base",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 8.0998638,
-        "overallLengthMm": 31,
-        "ogiveLengthMm": 14,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 17,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.29,
-        "g1FF": 0.6408,
-        "g7BC": 0.147,
-        "g7FF": 1.2641
-      },
-      "advertisedWeightGrains": 125
-    },
-    {
-      "id": "BUL_NOS_310_123_BT",
-      "name": "Ballistic Tip",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 7.9702659,
-        "overallLengthMm": 30.5,
-        "ogiveLengthMm": 13.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.8,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.28,
-        "g1FF": 0.653,
-        "g7BC": 0.142,
-        "g7FF": 1.2876
-      },
-      "advertisedWeightGrains": 123
-    },
-    {
-      "id": "BUL_SPR_310_150_SP",
-      "name": "SP",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 9.7198365,
-        "overallLengthMm": 33.8,
-        "ogiveLengthMm": 15.2,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SPEER_S2P1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.31,
-        "g1FF": 0.7193,
-        "g7BC": 0.157,
-        "g7FF": 1.4203
-      },
-      "advertisedWeightGrains": 150
-    },
-    {
-      "id": "BUL_BAR_310_108_TSX",
-      "name": "TSX FB",
-      "diameterId": "DIA_310_J7N2",
-      "physis": {
-        "weightGrams": 6.9982823,
-        "overallLengthMm": 21,
-        "ogiveLengthMm": 9.5,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 11.5,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.278,
-        "g1FF": 0.5775,
-        "g7BC": 0.141,
-        "g7FF": 1.1386
-      },
-      "advertisedWeightGrains": 108
-    },
-    {
-      "id": "BUL_HDY_366_250_SP",
-      "name": "SP",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 38.5,
-        "ogiveLengthMm": 17.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 21.2,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.394,
-        "g1FF": 0.6767,
-        "g7BC": 0.199,
-        "g7FF": 1.3398
-      },
-      "advertisedWeightGrains": 250
-    },
-    {
-      "id": "BUL_HDY_366_286_SP",
-      "name": "SP",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 18.5324883,
-        "overallLengthMm": 41.5,
-        "ogiveLengthMm": 18.7,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 18.3,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.423,
-        "g1FF": 0.7211,
-        "g7BC": 0.214,
-        "g7FF": 1.4253
-      },
-      "advertisedWeightGrains": 286
-    },
-    {
-      "id": "BUL_NOS_366_250_PART",
-      "name": "Partition",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 37.5,
-        "ogiveLengthMm": 16.9,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 16.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.43,
-        "g1FF": 0.62,
-        "g7BC": 0.217,
-        "g7FF": 1.2286
-      },
-      "advertisedWeightGrains": 250
-    },
-    {
-      "id": "BUL_NOS_366_286_PART",
-      "name": "Partition",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 18.5324883,
-        "overallLengthMm": 41.5,
-        "ogiveLengthMm": 18.7,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 18.3,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.47,
-        "g1FF": 0.6489,
-        "g7BC": 0.237,
-        "g7FF": 1.2869
-      },
-      "advertisedWeightGrains": 286
-    },
-    {
-      "id": "BUL_NOS_366_250_AB",
-      "name": "AccuBond",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 37.8,
-        "ogiveLengthMm": 17,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 16.3,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.435,
-        "g1FF": 0.6129,
-        "g7BC": 0.22,
-        "g7FF": 1.2119
-      },
-      "advertisedWeightGrains": 250
-    },
-    {
-      "id": "BUL_NOS_366_286_AB",
-      "name": "AccuBond",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 18.5324883,
-        "overallLengthMm": 41.8,
-        "ogiveLengthMm": 18.8,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 18.5,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.473,
-        "g1FF": 0.6448,
-        "g7BC": 0.239,
-        "g7FF": 1.2762
-      },
-      "advertisedWeightGrains": 286
-    },
-    {
-      "id": "BUL_BAR_366_250_TSX",
-      "name": "TSX FB",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 56.2,
-        "ogiveLengthMm": 25.3,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 26.4,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.428,
-        "g1FF": 0.6229,
-        "g7BC": 0.216,
-        "g7FF": 1.2343
-      },
-      "advertisedWeightGrains": 250
-    },
-    {
-      "id": "BUL_BAR_366_286_TSX",
-      "name": "Tipped TSX BT",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 18.5324883,
-        "overallLengthMm": 38.8,
-        "ogiveLengthMm": 20.2,
-        "boatTailLengthMm": 2.25,
-        "bearingSurfaceMm": 16.35,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.46,
-        "g1FF": 0.6631,
-        "g7BC": 0.232,
-        "g7FF": 1.3147
-      },
-      "advertisedWeightGrains": 286
-    },
-    {
-      "id": "BUL_LAP_366_232_MEGA",
-      "name": "Mega",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 15.0333471,
-        "overallLengthMm": 37.2,
-        "ogiveLengthMm": 16.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.5,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.388,
-        "g1FF": 0.6377,
-        "g7BC": 0.196,
-        "g7FF": 1.2623
-      },
-      "advertisedWeightGrains": 232
-    },
-    {
-      "id": "BUL_LAP_366_286_MEGA",
-      "name": "Mega",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 18.5324883,
-        "overallLengthMm": 41.5,
-        "ogiveLengthMm": 18.7,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 18.3,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.44,
-        "g1FF": 0.6932,
-        "g7BC": 0.222,
-        "g7FF": 1.3739
-      },
-      "advertisedWeightGrains": 286
-    },
-    {
-      "id": "BUL_LAP_366_300_FMJ",
-      "name": "FMJ BT",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 19.439673,
-        "overallLengthMm": 43,
-        "ogiveLengthMm": 22.4,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 16.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.45,
-        "g1FF": 0.711,
-        "g7BC": 0.228,
-        "g7FF": 1.4032
-      },
-      "advertisedWeightGrains": 300
-    },
-    {
-      "id": "BUL_NRM_366_232_ORYX",
-      "name": "Oryx",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 15.0333471,
-        "overallLengthMm": 37.5,
-        "ogiveLengthMm": 16.9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NORMA_N5R1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.388,
-        "g1FF": 0.6377,
-        "g7BC": 0.196,
-        "g7FF": 1.2623
-      },
-      "advertisedWeightGrains": 232
-    },
-    {
-      "id": "BUL_NRM_366_286_ORYX",
-      "name": "Oryx",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 18.5324883,
-        "overallLengthMm": 42,
-        "ogiveLengthMm": 18.9,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 18.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NORMA_N5R1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.44,
-        "g1FF": 0.6932,
-        "g7BC": 0.222,
-        "g7FF": 1.3739
-      },
-      "advertisedWeightGrains": 286
-    },
-    {
-      "id": "BUL_SWT_366_270_AF",
-      "name": "A-Frame",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 17.4957057,
-        "overallLengthMm": 36.6,
-        "ogiveLengthMm": 19,
-        "boatTailLengthMm": 4.4,
-        "bearingSurfaceMm": 13.2,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SWIFT_SW5T",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.43,
-        "g1FF": 0.6696,
-        "g7BC": 0.217,
-        "g7FF": 1.3269
-      },
-      "advertisedWeightGrains": 270
-    },
-    {
-      "id": "BUL_NOS_366_232_AB",
-      "name": "AccuBond",
-      "diameterId": "DIA_366_P3R1",
-      "physis": {
-        "weightGrams": 15.0333471,
-        "overallLengthMm": 36.5,
-        "ogiveLengthMm": 16.4,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.39,
-        "g1FF": 0.6344,
-        "g7BC": 0.197,
-        "g7FF": 1.2559
-      },
-      "advertisedWeightGrains": 232
-    },
-    {
-      "id": "BUL_HDY_510_750_AMAX",
-      "name": "A-MAX",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 48.5991825,
-        "overallLengthMm": 72.9,
-        "ogiveLengthMm": 32.8,
-        "boatTailLengthMm": 12,
-        "bearingSurfaceMm": 28.1,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.9,
-        "g1FF": 0.4577,
-        "g7BC": 0.46,
-        "g7FF": 0.8955
-      },
-      "advertisedWeightGrains": 750
-    },
-    {
-      "id": "BUL_LAP_510_750_FMJ",
-      "name": "FMJ BT",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 48.5991825,
-        "overallLengthMm": 72.4,
-        "ogiveLengthMm": 37.6,
-        "boatTailLengthMm": 11.5,
-        "bearingSurfaceMm": 23.3,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.85,
-        "g1FF": 0.4846,
-        "g7BC": 0.433,
-        "g7FF": 0.9513
-      },
-      "advertisedWeightGrains": 750
-    },
-    {
-      "id": "BUL_SIE_510_750_SMK",
-      "name": "MatchKing",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 48.5991825,
-        "overallLengthMm": 72.9,
-        "ogiveLengthMm": 37.9,
-        "boatTailLengthMm": 11,
-        "bearingSurfaceMm": 24,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.88,
-        "g1FF": 0.4681,
-        "g7BC": 0.449,
-        "g7FF": 0.9174
-      },
-      "advertisedWeightGrains": 750
-    },
-    {
-      "id": "BUL_BER_510_750_BT",
-      "name": "BT Target",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 48.5991825,
-        "overallLengthMm": 73.1,
-        "ogiveLengthMm": 38,
-        "boatTailLengthMm": 11.5,
-        "bearingSurfaceMm": 23.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.86,
-        "g1FF": 0.479,
-        "g7BC": 0.438,
-        "g7FF": 0.9405
-      },
-      "advertisedWeightGrains": 750
-    },
-    {
-      "id": "BUL_BAR_510_647_BS",
-      "name": "Banded Solid",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 41.9248948,
-        "overallLengthMm": 51.8,
-        "ogiveLengthMm": 26.9,
-        "boatTailLengthMm": 6.2,
-        "bearingSurfaceMm": 18.7,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.8,
-        "g1FF": 0.4442,
-        "g7BC": 0.408,
-        "g7FF": 0.871
-      },
-      "advertisedWeightGrains": 647
-    },
-    {
-      "id": "BUL_BAR_510_750_BS",
-      "name": "Banded Solid",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 48.5991825,
-        "overallLengthMm": 86.8,
-        "ogiveLengthMm": 39.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 47.7,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.9,
-        "g1FF": 0.4577,
-        "g7BC": 0.459,
-        "g7FF": 0.8974
-      },
-      "advertisedWeightGrains": 750
-    },
-    {
-      "id": "BUL_HDY_510_650_AMP",
-      "name": "APIT",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 42.1192915,
-        "overallLengthMm": 66,
-        "ogiveLengthMm": 29.7,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 31.8,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.7,
-        "g1FF": 0.51,
-        "g7BC": 0.357,
-        "g7FF": 1
-      },
-      "advertisedWeightGrains": 650
-    },
-    {
-      "id": "BUL_WIN_510_660_FMJBT",
-      "name": "FMJ BT",
-      "diameterId": "DIA_510_B1M2",
-      "physis": {
-        "weightGrams": 42.7672806,
-        "overallLengthMm": 67,
-        "ogiveLengthMm": 34.8,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 27.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_WINCHESTER_W1N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.73,
-        "g1FF": 0.4966,
-        "g7BC": 0.372,
-        "g7FF": 0.9745
-      },
-      "advertisedWeightGrains": 660
-    },
-    {
-      "id": "BUL_HDY_348_200_FP",
-      "name": "Flat Point",
-      "diameterId": "DIA_348_K5J2",
-      "physis": {
-        "weightGrams": 12.959782,
-        "overallLengthMm": 37.5,
-        "ogiveLengthMm": 16.9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.335,
-        "g1FF": 0.7043,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 200
-    },
-    {
-      "id": "BUL_WIN_348_200_PP",
-      "name": "Power-Point",
-      "diameterId": "DIA_348_K5J2",
-      "physis": {
-        "weightGrams": 12.959782,
-        "overallLengthMm": 38,
-        "ogiveLengthMm": 17.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_WINCHESTER_W1N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.335,
-        "g1FF": 0.7043,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 200
-    },
-    {
-      "id": "BUL_HDY_348_220_FP",
-      "name": "Flat Point",
-      "diameterId": "DIA_348_K5J2",
-      "physis": {
-        "weightGrams": 14.2557602,
-        "overallLengthMm": 40,
-        "ogiveLengthMm": 18,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 22,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.35,
-        "g1FF": 0.7415,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 220
-    },
-    {
-      "id": "BUL_HDY_411_300_FP",
-      "name": "Flat Point",
-      "diameterId": "DIA_411_T3K1",
-      "physis": {
-        "weightGrams": 19.439673,
-        "overallLengthMm": 38,
-        "ogiveLengthMm": 17.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 20.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.364,
-        "g1FF": 0.697,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 300
-    },
-    {
-      "id": "BUL_HDY_411_400_FP",
-      "name": "Flat Point",
-      "diameterId": "DIA_411_T3K1",
-      "physis": {
-        "weightGrams": 25.919564,
-        "overallLengthMm": 43,
-        "ogiveLengthMm": 19.4,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 23.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.427,
-        "g1FF": 0.7922,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 400
-    },
-    {
-      "id": "BUL_HDY_429_265_FP",
-      "name": "Flat Point",
-      "diameterId": "DIA_429_K6L2",
-      "physis": {
-        "weightGrams": 17.1717112,
-        "overallLengthMm": 32,
-        "ogiveLengthMm": 14.4,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 17.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.267,
-        "g1FF": 0.7704,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 265
-    },
-    {
-      "id": "BUL_HDY_429_300_HP",
-      "name": "HP",
-      "diameterId": "DIA_429_K6L2",
-      "physis": {
-        "weightGrams": 19.439673,
-        "overallLengthMm": 34,
-        "ogiveLengthMm": 15.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.279,
-        "g1FF": 0.8347,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 300
-    },
-    {
-      "id": "BUL_SIE_429_240_JHC",
-      "name": "JHC",
-      "diameterId": "DIA_429_K6L2",
-      "physis": {
-        "weightGrams": 15.5517384,
-        "overallLengthMm": 30.5,
-        "ogiveLengthMm": 13.7,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.8,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.243,
-        "g1FF": 0.7666,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 240
-    },
-    {
-      "id": "BUL_NOS_429_240_JHP",
-      "name": "JHP",
-      "diameterId": "DIA_429_K6L2",
-      "physis": {
-        "weightGrams": 15.5517384,
-        "overallLengthMm": 30,
-        "ogiveLengthMm": 13.5,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 16.5,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.247,
-        "g1FF": 0.7542,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 240
-    },
-    {
-      "id": "BUL_SPR_429_270_HP",
-      "name": "HP",
-      "diameterId": "DIA_429_K6L2",
-      "physis": {
-        "weightGrams": 17.4957057,
-        "overallLengthMm": 32,
-        "ogiveLengthMm": 14.4,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 17.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SPEER_S2P1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.264,
-        "g1FF": 0.7939,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 270
     },
     {
       "id": "BUL_SIE_323_150_SP",
@@ -43584,87 +41573,6 @@
       "advertisedWeightGrains": 195
     },
     {
-      "id": "BUL_HDY_321_170_FP",
-      "name": "Flat Point",
-      "diameterId": "DIA_321_K3M1",
-      "physis": {
-        "weightGrams": 11.0158147,
-        "overallLengthMm": 34,
-        "ogiveLengthMm": 15.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.277,
-        "g1FF": 0.8509,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 170
-    },
-    {
-      "id": "BUL_WIN_321_170_PP",
-      "name": "Power-Point",
-      "diameterId": "DIA_321_K3M1",
-      "physis": {
-        "weightGrams": 11.0158147,
-        "overallLengthMm": 34.5,
-        "ogiveLengthMm": 15.5,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 19,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_WINCHESTER_W1N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.277,
-        "g1FF": 0.8509,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 170
-    },
-    {
-      "id": "BUL_SIE_321_170_FP",
-      "name": "Pro-Hunter FP",
-      "diameterId": "DIA_321_K3M1",
-      "physis": {
-        "weightGrams": 11.0158147,
-        "overallLengthMm": 34,
-        "ogiveLengthMm": 15.3,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18.7,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_SIERRA_S6Y3",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.255,
-        "g1FF": 0.9243,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 170
-    },
-    {
       "id": "BUL_HDY_358_170_FP",
       "name": "Flat Point",
       "diameterId": "DIA_358_S4T2",
@@ -43800,249 +41708,6 @@
       "advertisedWeightGrains": 100
     },
     {
-      "id": "BUL_HDY_416_400_SP",
-      "name": "SP RN",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 25.919564,
-        "overallLengthMm": 47,
-        "ogiveLengthMm": 21.2,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 21.3,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.432,
-        "g1FF": 0.7643,
-        "g7BC": 0.218,
-        "g7FF": 1.5147
-      },
-      "advertisedWeightGrains": 400
-    },
-    {
-      "id": "BUL_NOS_416_400_AB",
-      "name": "AccuBond",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 25.919564,
-        "overallLengthMm": 47.5,
-        "ogiveLengthMm": 21.4,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 21.6,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.46,
-        "g1FF": 0.7178,
-        "g7BC": 0.233,
-        "g7FF": 1.4172
-      },
-      "advertisedWeightGrains": 400
-    },
-    {
-      "id": "BUL_BAR_416_350_TSX",
-      "name": "TSX BT",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 22.6796185,
-        "overallLengthMm": 42.1,
-        "ogiveLengthMm": 21.9,
-        "boatTailLengthMm": 5.1,
-        "bearingSurfaceMm": 15.1,
-        "materialType": "MAT_SOLID_COPPER",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BARNES_B2N5",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.44,
-        "g1FF": 0.6566,
-        "g7BC": 0.223,
-        "g7FF": 1.2956
-      },
-      "advertisedWeightGrains": 350
-    },
-    {
-      "id": "BUL_LAP_416_410_LK",
-      "name": "LockBase B468",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 26.5675531,
-        "overallLengthMm": 48.5,
-        "ogiveLengthMm": 21.8,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 22.2,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_LAPUA_L5X1",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.45,
-        "g1FF": 0.7521,
-        "g7BC": 0.228,
-        "g7FF": 1.4844
-      },
-      "advertisedWeightGrains": 410
-    },
-    {
-      "id": "BUL_NOS_416_350_AB",
-      "name": "AccuBond",
-      "diameterId": "DIA_416_Q2R5",
-      "physis": {
-        "weightGrams": 22.6796185,
-        "overallLengthMm": 45.5,
-        "ogiveLengthMm": 20.5,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 20.5,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G7",
-        "g1BC": 0.44,
-        "g1FF": 0.6566,
-        "g7BC": 0.223,
-        "g7FF": 1.2956
-      },
-      "advertisedWeightGrains": 350
-    },
-    {
-      "id": "BUL_HDY_452_250_FTX",
-      "name": "FTX",
-      "diameterId": "DIA_452_B2K1",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 19.9,
-        "ogiveLengthMm": 9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 10.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.246,
-        "g1FF": 0.7106,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 250
-    },
-    {
-      "id": "BUL_NOS_452_250_BT",
-      "name": "Ballistic Tip",
-      "diameterId": "DIA_452_B2K1",
-      "physis": {
-        "weightGrams": 16.1997275,
-        "overallLengthMm": 19.9,
-        "ogiveLengthMm": 9,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 10.9,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_NOSLER_N9K4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.25,
-        "g1FF": 0.6992,
-        "g7BC": 0,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 250
-    },
-    {
-      "id": "BUL_HORNADY_172_20_VMAX",
-      "name": "V-MAX",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.2959782,
-        "overallLengthMm": 13.5,
-        "ogiveLengthMm": 8.1,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 5.4,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.185,
-        "g1FF": 0.75,
-        "g7FF": null,
-        "g7BC": 0.093
-      },
-      "advertisedWeightGrains": 20
-    },
-    {
-      "id": "BUL_HORNADY_172_25_VMAX",
-      "name": "V-MAX",
-      "diameterId": "DIA_172_H1V2",
-      "physis": {
-        "weightGrams": 1.61997275,
-        "overallLengthMm": 16,
-        "ogiveLengthMm": 9.6,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 6.4,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_HORNADY_JGR4",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.23,
-        "g1FF": 0.75,
-        "g7FF": null,
-        "g7BC": 0.115
-      },
-      "advertisedWeightGrains": 25
-    },
-    {
       "id": "BUL_SIERRA_243_107_HPBT",
       "name": "MatchKing HPBT",
       "diameterId": "DIA_243_B7V4",
@@ -44176,33 +41841,6 @@
         "g7FF": 1
       },
       "advertisedWeightGrains": 165
-    },
-    {
-      "id": "BUL_WOODLEIGH_475_500_RNSN",
-      "name": "Weldcore Round Nose Soft Nose",
-      "diameterId": "DIA_474_J5P2",
-      "physis": {
-        "weightGrams": 32.399455,
-        "overallLengthMm": 31.67,
-        "ogiveLengthMm": 13.67,
-        "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 18,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_WOODLEIGH",
-      "stability": {
-        "ix": null,
-        "iy": null
-      },
-      "ballistics": {
-        "preferredModel": "G1",
-        "g1BC": 0.38,
-        "g1FF": 1,
-        "g7BC": null,
-        "g7FF": null
-      },
-      "advertisedWeightGrains": 500
     },
     {
       "id": "BUL_MBW_375_278_FNGC",
@@ -48705,9 +46343,9 @@
       },
       {
         "id": "PWD_ACCU_LT32_R1AA",
-        "burnAreaCoeff": 0.2945,
-        "burnAreaFillSlope": -0.677,
-        "burnAreaBoreSlope": -0.0951,
+        "burnAreaCoeff": 0.1253,
+        "burnAreaFillSlope": -0.2391,
+        "burnAreaBoreSlope": -0.035,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_222REM_cR81",
@@ -48746,11 +46384,9 @@
             "burnAreaCoeff": 0.0876
           }
         ],
-        "energyScaleFactor": 0.688,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-379fps pressureMae=3306psi"
-        ]
+        "energyScaleFactor": 1.1766,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": []
       },
       {
         "id": "PWD_ACCU_MAGPRO_R1A9",
@@ -50307,9 +47943,9 @@
       },
       {
         "id": "PWD_HODG_H4831SC_H1GF",
-        "burnAreaCoeff": 0.0353,
-        "burnAreaFillSlope": 0.7525,
-        "burnAreaBoreSlope": -0.0493,
+        "burnAreaCoeff": 0.0295,
+        "burnAreaFillSlope": 0.5067,
+        "burnAreaBoreSlope": -0.0695,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_280AI_cA52",
@@ -50380,11 +48016,10 @@
             "burnAreaCoeff": 0.052
           }
         ],
-        "energyScaleFactor": 0.9236,
-        "calibrationConfidence": "STRUCTURAL_GAP",
+        "energyScaleFactor": 1.1286,
+        "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-175fps pressureMae=3810psi",
-          "OVERBORE_REGIME share=91% expR=12.8"
+          "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
         ]
       },
       {
@@ -50860,9 +48495,9 @@
       },
       {
         "id": "PWD_HODG_IMR4166_H1GK",
-        "burnAreaCoeff": 0.1249,
-        "burnAreaFillSlope": -0.0171,
-        "burnAreaBoreSlope": 0.1343,
+        "burnAreaCoeff": 0.0876,
+        "burnAreaFillSlope": 0.3317,
+        "burnAreaBoreSlope": 0.1566,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_220SWIFT_N2H6",
@@ -50949,18 +48584,18 @@
             "burnAreaCoeff": 0.0898
           }
         ],
-        "energyScaleFactor": 0.9463,
+        "energyScaleFactor": 1.1029,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-240fps pressureMae=3723psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-146fps pressureMae=3782psi",
           "OVERBORE_REGIME share=40% expR=9.8"
         ]
       },
       {
         "id": "PWD_HODG_IMR4198_H1GS",
-        "burnAreaCoeff": 0.0127,
-        "burnAreaFillSlope": 0.933,
-        "burnAreaBoreSlope": -0.3799,
+        "burnAreaCoeff": 0.0088,
+        "burnAreaFillSlope": 2.3184,
+        "burnAreaBoreSlope": -0.4997,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_222REMMAG_cR84",
@@ -51003,10 +48638,11 @@
             "burnAreaCoeff": 0.021
           }
         ],
-        "energyScaleFactor": 1.1802,
+        "energyScaleFactor": 1.1999,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-154fps pressureMae=3970psi"
+          "ENERGY_SCALE_AT_BOUND=1.200",
+          "STRUCTURAL_VELOCITY_GAP bias=-153fps pressureMae=3961psi"
         ]
       },
       {
@@ -55832,9 +53468,9 @@
       },
       {
         "id": "PWD_SHOO_LONG_RIFLE_YB45",
-        "burnAreaCoeff": 0.1282,
-        "burnAreaFillSlope": -1.0567,
-        "burnAreaBoreSlope": -0.0784,
+        "burnAreaCoeff": 0.0915,
+        "burnAreaFillSlope": -0.619,
+        "burnAreaBoreSlope": 0.0794,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_224VALK_N2H5",
@@ -55881,11 +53517,11 @@
             "burnAreaCoeff": 0.0776
           }
         ],
-        "energyScaleFactor": 0.9915,
-        "calibrationConfidence": "STRUCTURAL_GAP",
+        "energyScaleFactor": 1.1933,
+        "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-124fps pressureMae=3637psi",
-          "OVERBORE_REGIME share=58% expR=10.4"
+          "ENERGY_SCALE_AT_BOUND=1.193",
+          "PRESSURE_FIT_LOOSE mae=4376psi"
         ]
       },
       {
@@ -56221,9 +53857,9 @@
       },
       {
         "id": "PWD_ACCU_2200_EA5G",
-        "burnAreaCoeff": 0.2954,
-        "burnAreaFillSlope": -0.4566,
-        "burnAreaBoreSlope": -0.1649,
+        "burnAreaCoeff": 0.1589,
+        "burnAreaFillSlope": -0.3218,
+        "burnAreaBoreSlope": -0.02,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_222REM_cR81",
@@ -56258,17 +53894,15 @@
             "burnAreaCoeff": 0.0809
           }
         ],
-        "energyScaleFactor": 0.6615,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-402fps pressureMae=3008psi"
-        ]
+        "energyScaleFactor": 0.9997,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": []
       },
       {
         "id": "PWD_ACCU_LT_30_XE5M",
-        "burnAreaCoeff": 0.5064,
-        "burnAreaFillSlope": -1.1345,
-        "burnAreaBoreSlope": -0.2074,
+        "burnAreaCoeff": 0.2072,
+        "burnAreaFillSlope": -0.7516,
+        "burnAreaBoreSlope": -0.0983,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_222REM_cR81",
@@ -56303,11 +53937,9 @@
             "burnAreaCoeff": 0.076
           }
         ],
-        "energyScaleFactor": 0.5694,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-589fps pressureMae=3774psi"
-        ]
+        "energyScaleFactor": 1.014,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": []
       },
       {
         "id": "PWD_HODG_H4198_KN7E",
@@ -57304,20 +54936,18 @@
       },
       {
         "id": "PWD_ACCU_4100_R1AD",
-        "burnAreaCoeff": 0.0718,
-        "burnAreaFillSlope": 0.9451,
-        "burnAreaBoreSlope": -0.4321,
+        "burnAreaCoeff": 0.03,
+        "burnAreaFillSlope": 1.0453,
+        "burnAreaBoreSlope": -0.0581,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_300BLK_cI72",
             "burnAreaCoeff": 0.0221
           }
         ],
-        "energyScaleFactor": 0.5544,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-448fps pressureMae=2278psi"
-        ]
+        "energyScaleFactor": 1.0852,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": []
       },
       {
         "id": "PWD_ACCU_NO9_R1AE",
@@ -57465,9 +55095,9 @@
       },
       {
         "id": "PWD_SHOO_SWTR_S5W7",
-        "burnAreaCoeff": 0.111,
-        "burnAreaFillSlope": -0.0449,
-        "burnAreaBoreSlope": 0.0339,
+        "burnAreaCoeff": 0.0829,
+        "burnAreaFillSlope": 0.6346,
+        "burnAreaBoreSlope": 0.0278,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_22250_cK32",
@@ -57494,34 +55124,32 @@
             "burnAreaCoeff": 0.0668
           }
         ],
-        "energyScaleFactor": 1.0123,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-118fps pressureMae=3965psi"
-        ]
+        "energyScaleFactor": 1.0729,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": []
       },
       {
         "id": "PWD_SHOO_SWSBR_S5W8",
-        "burnAreaCoeff": 0.1492,
-        "burnAreaFillSlope": 2.5,
-        "burnAreaBoreSlope": 0.1599,
+        "burnAreaCoeff": 0.0342,
+        "burnAreaFillSlope": 2.4969,
+        "burnAreaBoreSlope": -0.4957,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_300BLK_cI72",
             "burnAreaCoeff": 0.094
           }
         ],
-        "energyScaleFactor": 0.4008,
+        "energyScaleFactor": 1.1875,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-580fps pressureMae=3207psi"
+          "STRUCTURAL_VELOCITY_GAP bias=-227fps pressureMae=3295psi"
         ]
       },
       {
         "id": "PWD_HODG_TITEGROUP_H1GF",
-        "burnAreaCoeff": 0.6362,
-        "burnAreaFillSlope": -2.4369,
-        "burnAreaBoreSlope": -0.4446,
+        "burnAreaCoeff": 0.643,
+        "burnAreaFillSlope": -2.497,
+        "burnAreaBoreSlope": -0.4885,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_308WIN_cC82",
@@ -57532,11 +55160,10 @@
             "burnAreaCoeff": 0.2149
           }
         ],
-        "energyScaleFactor": 1.2,
+        "energyScaleFactor": 1.1824,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.200",
-          "STRUCTURAL_VELOCITY_GAP bias=97fps pressureMae=1427psi"
+          "STRUCTURAL_VELOCITY_GAP bias=89fps pressureMae=1492psi"
         ]
       },
       {
@@ -57626,20 +55253,19 @@
       },
       {
         "id": "PWD_HODG_CLAYS_H1GI",
-        "burnAreaCoeff": 0.3541,
-        "burnAreaFillSlope": -2.5,
-        "burnAreaBoreSlope": -0.1938,
+        "burnAreaCoeff": 0.5519,
+        "burnAreaFillSlope": -2.491,
+        "burnAreaBoreSlope": -0.1206,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_308WIN_cC82",
             "burnAreaCoeff": 0.0316
           }
         ],
-        "energyScaleFactor": 1.2,
+        "energyScaleFactor": 1.1412,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "ENERGY_SCALE_AT_BOUND=1.200",
-          "STRUCTURAL_VELOCITY_GAP bias=133fps pressureMae=1533psi"
+          "STRUCTURAL_VELOCITY_GAP bias=107fps pressureMae=1571psi"
         ]
       },
       {
@@ -57701,19 +55327,19 @@
       },
       {
         "id": "PWD_SHOO_SOCOM_8NG1",
-        "burnAreaCoeff": 0.0299,
+        "burnAreaCoeff": 0.029,
         "burnAreaFillSlope": 2.4999,
-        "burnAreaBoreSlope": -0.4507,
+        "burnAreaBoreSlope": -0.3309,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_300BLK_cI72",
             "burnAreaCoeff": 0.0228
           }
         ],
-        "energyScaleFactor": 1.0073,
+        "energyScaleFactor": 1.03,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-121fps pressureMae=3044psi"
+          "STRUCTURAL_VELOCITY_GAP bias=-112fps pressureMae=3035psi"
         ]
       },
       {
@@ -57788,9 +55414,9 @@
       },
       {
         "id": "PWD_SHOO_THE_PATRIOT_8NG5",
-        "burnAreaCoeff": 0.2289,
-        "burnAreaFillSlope": -0.2096,
-        "burnAreaBoreSlope": 0.0126,
+        "burnAreaCoeff": 0.0933,
+        "burnAreaFillSlope": 0.089,
+        "burnAreaBoreSlope": 0.0659,
         "cartridgeOverrides": [
           {
             "cartridgeId": "CTG_22250_cK32",
@@ -57805,10 +55431,10 @@
             "burnAreaCoeff": 0.0981
           }
         ],
-        "energyScaleFactor": 0.6169,
-        "calibrationConfidence": "STRUCTURAL_GAP",
+        "energyScaleFactor": 1.2,
+        "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-493fps pressureMae=2012psi"
+          "ENERGY_SCALE_AT_BOUND=1.200"
         ]
       },
       {
