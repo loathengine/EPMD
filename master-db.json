@@ -136,7 +136,8 @@
       "maxSaamiPressurePsi": 52000,
       "twistRateInchesPerTurn": 7,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_22CM_cA72",
@@ -188,7 +189,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 7,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_22NOSLER_n2s2",
@@ -240,7 +242,8 @@
       "maxSaamiPressurePsi": 55000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_22250_cK32",
@@ -293,7 +296,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_220SWIFT_N2H6",
@@ -345,7 +349,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_223REM_cR82",
@@ -398,13 +403,14 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_224VALK_N2H5",
       "name": "224 Valkyrie",
       "diameterId": "DIA_224_L5X8",
-      "baseCapacityH2oGrams": 1.9893,
+      "baseCapacityH2oGrams": 2.2356,
       "trimLengthMm": 40.386,
       "maxCaseLengthMm": 40.64,
       "oalMm": 57.404,
@@ -451,7 +457,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 7,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_243WIN_cB42",
@@ -504,7 +511,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_25CM_cN72",
@@ -556,7 +564,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_2506_cL42",
@@ -608,7 +617,8 @@
       "maxSaamiPressurePsi": 63000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_257ROB_N2H9",
@@ -660,7 +670,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_257WBY_N2H0",
@@ -712,7 +723,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_260REM_N2HB",
@@ -765,7 +777,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_270WSM_N2HC",
@@ -817,7 +830,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.036,
-      "boreDiameterMmResolved": 6.858
+      "boreDiameterMmResolved": 6.858,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_270WIN_cU62",
@@ -870,7 +884,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.036,
-      "boreDiameterMmResolved": 6.858
+      "boreDiameterMmResolved": 6.858,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_280AI_cA52",
@@ -922,7 +937,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_284WIN_cW92",
@@ -974,7 +990,8 @@
       "maxSaamiPressurePsi": 56000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_3006_cE12",
@@ -1028,7 +1045,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_3030_N3HG",
@@ -1081,7 +1099,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300BLK_cI72",
@@ -1135,7 +1154,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 7,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300NORMAMAG_cN73",
@@ -1188,7 +1208,8 @@
       "maxSaamiPressurePsi": 64000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300PRC_cK02",
@@ -1241,7 +1262,8 @@
       "cipTestBarrelMm": 650,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300WSM_N3HH",
@@ -1293,7 +1315,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300WBYMAG_cN75",
@@ -1345,7 +1368,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300WINMAG_cG42",
@@ -1398,7 +1422,8 @@
       "cipTestBarrelMm": 650,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_308WIN_cC82",
@@ -1451,7 +1476,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_338FED_N3HK",
@@ -1503,7 +1529,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_338LAP_cO62",
@@ -1557,7 +1584,8 @@
       "cipTestBarrelMm": 650,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_338NORMAMAG_cN74",
@@ -1609,7 +1637,8 @@
       "maxSaamiPressurePsi": 64000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_338WINMAG_cQ92",
@@ -1661,7 +1690,8 @@
       "maxSaamiPressurePsi": 64000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65CM_cN72",
@@ -1714,7 +1744,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65GRN_cS32",
@@ -1767,7 +1798,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65PRC_cP02",
@@ -1820,7 +1852,8 @@
       "cipTestBarrelMm": 650,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65284_cN73",
@@ -1872,7 +1905,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65300WBYMAG_cN73",
@@ -1924,7 +1958,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65SWE_N6HA",
@@ -1977,7 +2012,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_68WEST_N6HD",
@@ -2030,7 +2066,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 7.036,
-      "boreDiameterMmResolved": 6.858
+      "boreDiameterMmResolved": 6.858,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6ARC_cH92",
@@ -2083,7 +2120,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 7.5,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6BR_cJ12",
@@ -2136,7 +2174,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6CM_cG62",
@@ -2189,7 +2228,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6PPC_cJ12",
@@ -2242,7 +2282,8 @@
       "maxSaamiPressurePsi": 58000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6REM_N6H7",
@@ -2294,7 +2335,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7BR_cZ22",
@@ -2346,7 +2388,8 @@
       "maxSaamiPressurePsi": 52000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7PRC_N7HE",
@@ -2399,7 +2442,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7RUM_cW92",
@@ -2451,7 +2495,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9.25,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7REMMAG_cW92",
@@ -2504,7 +2549,8 @@
       "cipTestBarrelMm": 650,
       "twistRateInchesPerTurn": 9.25,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7STW_cW92",
@@ -2556,7 +2602,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9.25,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7MM08_cZ22",
@@ -2610,7 +2657,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7MAU_N7HF",
@@ -2663,7 +2711,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_222REM_cR81",
@@ -2716,7 +2765,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_222REMMAG_cR84",
@@ -2768,7 +2818,8 @@
       "maxSaamiPressurePsi": 54000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_240WBYMAG_cN76",
@@ -2820,12 +2871,13 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_250SAV_cN77",
       "name": "250-3000 Savage",
-      "diameterId": "DIA_243_B7V4",
+      "diameterId": "DIA_257_N2M1",
       "baseCapacityH2oGrams": 2.8,
       "trimLengthMm": 47.37,
       "maxCaseLengthMm": 47.63,
@@ -2835,8 +2887,8 @@
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 26,
       "bodyDiameterMm": 12.98,
-      "bulletDiameterMm": 6.172,
-      "boreDiameterMm": 6.02,
+      "bulletDiameterMm": 6.528,
+      "boreDiameterMm": 6.35,
       "standards": [
         {
           "standard": "saami",
@@ -2867,12 +2919,13 @@
         "wallThicknessAtNeckMm": 0.38
       },
       "freeboreLengthMm": 3.18,
-      "freeboreDiameterMm": 6.185,
+      "freeboreDiameterMm": 6.54,
       "standardTwistMm": 254,
       "maxSaamiPressurePsi": 45000,
       "twistRateInchesPerTurn": 10,
-      "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "bulletDiameterMmResolved": 6.528,
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6X45_N6H8",
@@ -2924,7 +2977,8 @@
       "maxSaamiPressurePsi": 55000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6284_N6H9",
@@ -2938,7 +2992,7 @@
       "maxSaamiPa": 386106392,
       "flashHoleDiameterMm": 2.03,
       "shoulderAngleDeg": 35,
-      "bodyDiameterMm": 14.86,
+      "bodyDiameterMm": 12.72,
       "bulletDiameterMm": 6.172,
       "boreDiameterMm": 6.02,
       "standards": [
@@ -2955,20 +3009,20 @@
         }
       ],
       "externalDimensions": {
-        "baseDiameterP1Mm": 14.86,
-        "bodyDiameterAtShoulderP2Mm": 13.72,
+        "baseDiameterP1Mm": 12.72,
+        "bodyDiameterAtShoulderP2Mm": 12.07,
         "shoulderNeckJunctionDiameterH1Mm": 7.09,
         "neckDiameterAtMouthH2Mm": 7.09,
-        "lengthToShoulderStartL1Mm": 44.45,
-        "lengthToShoulderNeckJunctionL2Mm": 54.61,
-        "totalCaseLengthL3Mm": 65.28
+        "lengthToShoulderStartL1Mm": 40.68,
+        "lengthToShoulderNeckJunctionL2Mm": 43.94,
+        "totalCaseLengthL3Mm": 55.12
       },
       "wallThicknessProfile": {
-        "webThicknessMm": 5.4,
-        "wallThicknessAtBaseMm": 1,
-        "wallThicknessAtMidBodyMm": 0.7,
-        "wallThicknessAtShoulderMm": 0.55,
-        "wallThicknessAtNeckMm": 0.4
+        "webThicknessMm": 5.3,
+        "wallThicknessAtBaseMm": 0.98,
+        "wallThicknessAtMidBodyMm": 0.65,
+        "wallThicknessAtShoulderMm": 0.48,
+        "wallThicknessAtNeckMm": 0.38
       },
       "freeboreLengthMm": 3.81,
       "freeboreDiameterMm": 6.185,
@@ -3029,7 +3083,8 @@
       "maxSaamiPressurePsi": 64000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65X47LAP_cN79",
@@ -3082,7 +3137,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65X06_N6HB",
@@ -3187,7 +3243,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.036,
-      "boreDiameterMmResolved": 6.858
+      "boreDiameterMmResolved": 6.858,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_68REMSPC_cN7B",
@@ -3240,7 +3297,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.036,
-      "boreDiameterMmResolved": 6.858
+      "boreDiameterMmResolved": 6.858,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_280REM_cN7C",
@@ -3292,13 +3350,14 @@
       "maxSaamiPressurePsi": 60200,
       "twistRateInchesPerTurn": 9.25,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7X64_N7HG",
       "name": "7x64 Brenneke",
       "diameterId": "DIA_284_S3F6",
-      "baseCapacityH2oGrams": 4.8,
+      "baseCapacityH2oGrams": 4.4712,
       "trimLengthMm": 63.75,
       "maxCaseLengthMm": 64,
       "oalMm": 85.09,
@@ -3345,7 +3404,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7X65R_N7HH",
@@ -3398,7 +3458,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_28NOSLER_cN7D",
@@ -3450,7 +3511,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300SAV_cN7E",
@@ -3502,7 +3564,8 @@
       "maxSaamiPressurePsi": 46000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_30TC_cN7G",
@@ -3554,7 +3617,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_308MARLEXP_cN7H",
@@ -3606,7 +3670,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300HH_cN7I",
@@ -3658,7 +3723,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300RUM_cN7J",
@@ -3710,7 +3776,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300LAPMAG_cN7K",
@@ -3762,7 +3829,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300WBY_N3HI",
@@ -3920,7 +3988,8 @@
       "maxSaamiPressurePsi": 55000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_8X57IS_cN7O",
@@ -3973,7 +4042,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 8.204,
-      "boreDiameterMmResolved": 8.001
+      "boreDiameterMmResolved": 8.001,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_8X57IRS_cN7P",
@@ -4026,7 +4096,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 8.204,
-      "boreDiameterMmResolved": 8.001
+      "boreDiameterMmResolved": 8.001,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_8X68S_cN7Q",
@@ -4078,7 +4149,8 @@
       "maxSaamiPressurePsi": 63000,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 8.204,
-      "boreDiameterMmResolved": 8.001
+      "boreDiameterMmResolved": 8.001,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_8MM06_cN7R",
@@ -4130,7 +4202,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.204,
-      "boreDiameterMmResolved": 8.001
+      "boreDiameterMmResolved": 8.001,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_8MMREMMAG_cN7S",
@@ -4182,7 +4255,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.204,
-      "boreDiameterMmResolved": 8.001
+      "boreDiameterMmResolved": 8.001,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_33806_cN7T",
@@ -4287,7 +4361,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_325WSM_cN7V",
@@ -4339,7 +4414,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_33NOSLER_cN7W",
@@ -4550,7 +4626,8 @@
       "maxSaamiPressurePsi": 35000,
       "twistRateInchesPerTurn": 16,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.814
+      "boreDiameterMmResolved": 8.814,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_358WIN_cN80",
@@ -4602,7 +4679,8 @@
       "maxSaamiPressurePsi": 52000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.814
+      "boreDiameterMmResolved": 8.814,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_375HH_cN84",
@@ -4654,7 +4732,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_375RUG_cN85",
@@ -4706,7 +4785,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_375RUM_cN86",
@@ -4811,7 +4891,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_4570GOV_cN8B",
@@ -4864,7 +4945,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 20,
       "bulletDiameterMmResolved": 11.633,
-      "boreDiameterMmResolved": 11.43
+      "boreDiameterMmResolved": 11.43,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_4570LEVER_cN8C",
@@ -4916,7 +4998,8 @@
       "maxSaamiPressurePsi": 40000,
       "twistRateInchesPerTurn": 20,
       "bulletDiameterMmResolved": 11.633,
-      "boreDiameterMmResolved": 11.43
+      "boreDiameterMmResolved": 11.43,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_4570MOD_cN8D",
@@ -4968,7 +5051,8 @@
       "maxSaamiPressurePsi": 50000,
       "twistRateInchesPerTurn": 20,
       "bulletDiameterMmResolved": 11.633,
-      "boreDiameterMmResolved": 11.43
+      "boreDiameterMmResolved": 11.43,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_458WINMAG_cN8E",
@@ -5020,7 +5104,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 11.633,
-      "boreDiameterMmResolved": 11.43
+      "boreDiameterMmResolved": 11.43,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_225WIN_cN93",
@@ -5072,7 +5157,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_22GT_cN94",
@@ -5124,7 +5210,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_224WBYMAG_cN95",
@@ -5176,7 +5263,8 @@
       "maxSaamiPressurePsi": 55000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6GT_cN96",
@@ -5229,7 +5317,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 7.5,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_243WSSM_cN97",
@@ -5330,7 +5419,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_25WSSM_cN99",
@@ -5382,7 +5472,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65BR_cNA0",
@@ -5434,7 +5525,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65REMMAG_cNA1",
@@ -5486,7 +5578,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65WBYRPM_cNA2",
@@ -5538,7 +5631,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_26NOSLER_cNA3",
@@ -5643,7 +5737,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8.5,
       "bulletDiameterMmResolved": 7.036,
-      "boreDiameterMmResolved": 6.858
+      "boreDiameterMmResolved": 6.858,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_25WBYRPM_cNA5",
@@ -5695,7 +5790,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7WBYMAG_cNA6",
@@ -5747,7 +5843,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7WSM_cNA7",
@@ -5799,7 +5896,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7REMMAG_SAUM",
@@ -5904,7 +6002,8 @@
       "maxSaamiPressurePsi": 45000,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300RCM_cNA9",
@@ -5956,7 +6055,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_308NORMMAG_cNAA",
@@ -6008,7 +6108,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_3040KRAG_cNAB",
@@ -6060,7 +6161,8 @@
       "maxSaamiPressurePsi": 40000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_338WBYRPM_cNAE",
@@ -6165,7 +6267,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_340WBYMAG_cNG0",
@@ -6217,7 +6320,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_35WHELEN_cNG1",
@@ -6269,7 +6373,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.814
+      "boreDiameterMmResolved": 8.814,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_350LEG_cNG2",
@@ -6322,7 +6427,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 16,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.839
+      "boreDiameterMmResolved": 8.839,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_350REMMAG_cNG3",
@@ -6374,7 +6480,8 @@
       "maxSaamiPressurePsi": 53000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.814
+      "boreDiameterMmResolved": 8.814,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_3855WIN_cNG4",
@@ -6427,7 +6534,8 @@
       "cipTestBarrelMm": 600,
       "twistRateInchesPerTurn": 18,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_223WSSM_cNH0",
@@ -6479,7 +6587,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_22PPC_cNH1",
@@ -6526,7 +6635,8 @@
       "maxSaamiPressurePsi": 62000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_22BR_cNH2",
@@ -6573,7 +6683,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_219ZIP_cNH4",
@@ -6625,7 +6736,8 @@
       "maxSaamiPressurePsi": 47000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 5.69,
-      "boreDiameterMmResolved": 5.563
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_24NOSLER_cNH5",
@@ -6672,7 +6784,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6X47_cNH6",
@@ -6724,7 +6837,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_2535WIN_cNH7",
@@ -6776,7 +6890,8 @@
       "maxSaamiPressurePsi": 37000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65X50JAP_cNH8",
@@ -6828,7 +6943,8 @@
       "maxSaamiPressurePsi": 45000,
       "twistRateInchesPerTurn": 9,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_65CARC_cNH9",
@@ -6880,7 +6996,8 @@
       "maxSaamiPressurePsi": 45000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
-      "boreDiameterMmResolved": 6.502
+      "boreDiameterMmResolved": 6.502,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_75X55SWS_cNI1",
@@ -6932,7 +7049,8 @@
       "maxSaamiPressurePsi": 56000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_356WIN_cNI4",
@@ -6984,7 +7102,8 @@
       "maxSaamiPressurePsi": 52000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.839
+      "boreDiameterMmResolved": 8.839,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_360BUCK_cNI5",
@@ -7031,7 +7150,8 @@
       "maxSaamiPressurePsi": 55000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.839
+      "boreDiameterMmResolved": 8.839,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_375CHEYTAC_cNI6",
@@ -7078,7 +7198,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 8.5,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_376STEYR_cNI7",
@@ -7130,7 +7251,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_460WBYMAG_cNI9",
@@ -7182,7 +7304,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 16,
       "bulletDiameterMmResolved": 11.633,
-      "boreDiameterMmResolved": 11.43
+      "boreDiameterMmResolved": 11.43,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6MM250_cNJ4",
@@ -7229,7 +7352,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_6MMXC_cNJ5",
@@ -7276,7 +7400,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.172,
-      "boreDiameterMmResolved": 6.02
+      "boreDiameterMmResolved": 6.02,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_25284_cNJ7",
@@ -7323,7 +7448,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_338MRLX_cNK0",
@@ -7375,7 +7501,8 @@
       "maxSaamiPressurePsi": 50000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 8.585,
-      "boreDiameterMmResolved": 8.382
+      "boreDiameterMmResolved": 8.382,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_358NORMAMAG_cNK1",
@@ -7427,7 +7554,8 @@
       "maxSaamiPressurePsi": 58000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.814
+      "boreDiameterMmResolved": 8.814,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_378WBYMAG_cNK2",
@@ -7479,7 +7607,8 @@
       "maxSaamiPressurePsi": 65000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_375WIN_cNK3",
@@ -7531,7 +7660,8 @@
       "maxSaamiPressurePsi": 52000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.525,
-      "boreDiameterMmResolved": 9.347
+      "boreDiameterMmResolved": 9.347,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_4570BP_cNK8",
@@ -7578,7 +7708,8 @@
       "maxSaamiPressurePsi": 14000,
       "twistRateInchesPerTurn": 20,
       "bulletDiameterMmResolved": 11.633,
-      "boreDiameterMmResolved": 11.43
+      "boreDiameterMmResolved": 11.43,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_256WINMAG_cNL0",
@@ -7630,7 +7761,8 @@
       "maxSaamiPressurePsi": 48000,
       "twistRateInchesPerTurn": 14,
       "bulletDiameterMmResolved": 6.528,
-      "boreDiameterMmResolved": 6.35
+      "boreDiameterMmResolved": 6.35,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_7STE_cNL1",
@@ -7677,7 +7809,8 @@
       "maxSaamiPressurePsi": 55000,
       "twistRateInchesPerTurn": 9.5,
       "bulletDiameterMmResolved": 7.214,
-      "boreDiameterMmResolved": 7.036
+      "boreDiameterMmResolved": 7.036,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_30BR_cNL2",
@@ -7724,7 +7857,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.823,
-      "boreDiameterMmResolved": 7.62
+      "boreDiameterMmResolved": 7.62,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_358STA_cNL4",
@@ -7771,7 +7905,8 @@
       "maxSaamiPressurePsi": 60000,
       "twistRateInchesPerTurn": 12,
       "bulletDiameterMmResolved": 9.093,
-      "boreDiameterMmResolved": 8.814
+      "boreDiameterMmResolved": 8.814,
+      "capacitySource": "SAAMI Technical Specification"
     },
     {
       "id": "CTG_300REMMAG_SAUM",
@@ -7841,7 +7976,8 @@
       "bulkDensityKgM3": 986,
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_2520_R1A7",
@@ -7853,7 +7989,8 @@
       "bulkDensityKgM3": 970,
       "heatOfExplosionKjKg": 3900,
       "burnExponent": 0.5512,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_4064_R1A8",
@@ -7868,7 +8005,8 @@
       "bulkDensityKgM3": 900,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_LT32_R1AA",
@@ -7883,7 +8021,8 @@
       "bulkDensityKgM3": 906,
       "heatOfExplosionKjKg": 3900,
       "burnExponent": 0.5505,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_MAGPRO_R1A9",
@@ -7898,10 +8037,11 @@
       "bulkDensityKgM3": 978,
       "heatOfExplosionKjKg": 3900,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
-      "id": "PWD_ALLI_RL15_A1L1",
+      "id": "PWD_ALLI_RELODER_15_A1L1",
       "name": "Reloder 15",
       "kCoeff": 1.2148,
       "ignitionBp": 0.239,
@@ -7913,10 +8053,11 @@
       "bulkDensityKgM3": 935,
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
-      "id": "PWD_ALLI_RL16_A1L2",
+      "id": "PWD_ALLI_RELODER_16_A1L2",
       "name": "Reloder 16",
       "kCoeff": 1.2338,
       "ignitionBp": 0.2706,
@@ -7928,10 +8069,11 @@
       "bulkDensityKgM3": 900,
       "heatOfExplosionKjKg": 3800,
       "burnExponent": 0.585,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
-      "id": "PWD_ALLI_RL23_A1L3",
+      "id": "PWD_ALLI_RELODER_23_A1L3",
       "name": "Reloder 23",
       "kCoeff": 1.255,
       "ignitionBp": 0.2294,
@@ -7943,10 +8085,11 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.553,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
-      "id": "PWD_ALLI_RL26_A1L4",
+      "id": "PWD_ALLI_RELODER_26_A1L4",
       "name": "Reloder 26",
       "kCoeff": 1.2367,
       "ignitionBp": 0.1326,
@@ -7958,7 +8101,8 @@
       "bulkDensityKgM3": 994,
       "heatOfExplosionKjKg": 4200,
       "burnExponent": 0.5508,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_BLC2_H1G8",
@@ -7973,7 +8117,8 @@
       "bulkDensityKgM3": 995,
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5518,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_CFE223_H1G6",
@@ -7988,7 +8133,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 3900,
       "burnExponent": 0.5503,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H1000_H1G5",
@@ -8003,7 +8149,8 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 3441,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H335_H1GB",
@@ -8018,7 +8165,8 @@
       "bulkDensityKgM3": 1010,
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.6239,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H380_H1GC",
@@ -8033,7 +8181,8 @@
       "bulkDensityKgM3": 940,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.5871,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H414_H1GD",
@@ -8048,7 +8197,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5586,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H4350_H1G2",
@@ -8063,7 +8213,8 @@
       "bulkDensityKgM3": 990,
       "heatOfExplosionKjKg": 3590,
       "burnExponent": 0.5517,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H4831SC_H1GF",
@@ -8078,7 +8229,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3570,
       "burnExponent": 0.5504,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H4831_H1GE",
@@ -8093,7 +8245,8 @@
       "bulkDensityKgM3": 930,
       "heatOfExplosionKjKg": 3570,
       "burnExponent": 0.5581,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H4895_H1G3",
@@ -8108,7 +8261,8 @@
       "bulkDensityKgM3": 964,
       "heatOfExplosionKjKg": 3670,
       "burnExponent": 0.5519,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR4064_H1G9",
@@ -8123,7 +8277,8 @@
       "bulkDensityKgM3": 933,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5526,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR4166_H1GK",
@@ -8138,7 +8293,8 @@
       "bulkDensityKgM3": 900,
       "heatOfExplosionKjKg": 3640,
       "burnExponent": 0.5518,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR4198_H1GS",
@@ -8153,7 +8309,8 @@
       "bulkDensityKgM3": 830,
       "heatOfExplosionKjKg": 4024,
       "burnExponent": 0.7,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR4350_H1G0",
@@ -8168,7 +8325,8 @@
       "bulkDensityKgM3": 930,
       "heatOfExplosionKjKg": 3580,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR4451_H1GL",
@@ -8183,7 +8341,8 @@
       "bulkDensityKgM3": 960,
       "heatOfExplosionKjKg": 3580,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR4895_H1GM",
@@ -8198,7 +8357,8 @@
       "bulkDensityKgM3": 966,
       "heatOfExplosionKjKg": 3640,
       "burnExponent": 0.5534,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR7828SSC_H1GO",
@@ -8213,7 +8373,8 @@
       "bulkDensityKgM3": 960,
       "heatOfExplosionKjKg": 3550,
       "burnExponent": 0.556,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR7828_H1GN",
@@ -8228,7 +8389,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3550,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_IMR8208_H1GA",
@@ -8243,7 +8405,8 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5578,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_RETUMBO_H1G4",
@@ -8258,7 +8421,8 @@
       "bulkDensityKgM3": 960,
       "heatOfExplosionKjKg": 3444,
       "burnExponent": 0.5572,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_VARGET_H1G1",
@@ -8273,7 +8437,8 @@
       "bulkDensityKgM3": 960,
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5518,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_BIGGAME_R1A2",
@@ -8288,7 +8453,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.56,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_HUNTER_R1A3",
@@ -8303,7 +8469,8 @@
       "bulkDensityKgM3": 940,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5541,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_MAGNUM_R1A4",
@@ -8318,7 +8485,8 @@
       "bulkDensityKgM3": 995,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_TAC_R1A1",
@@ -8333,7 +8501,8 @@
       "bulkDensityKgM3": 938,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5505,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_XTERM_R1A5",
@@ -8348,7 +8517,8 @@
       "bulkDensityKgM3": 986,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.5505,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N170_V1HA",
@@ -8363,7 +8533,8 @@
       "bulkDensityKgM3": 960,
       "heatOfExplosionKjKg": 3540,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N130_V1H4",
@@ -8378,7 +8549,8 @@
       "bulkDensityKgM3": 870,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5536,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N133_V1H5",
@@ -8393,7 +8565,8 @@
       "bulkDensityKgM3": 870,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5504,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N135_V1H6",
@@ -8408,7 +8581,8 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N140_7Ih6",
@@ -8423,7 +8597,8 @@
       "bulkDensityKgM3": 979,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5535,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N160_V1H8",
@@ -8438,7 +8613,8 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 3560,
       "burnExponent": 0.5508,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N165_V1H9",
@@ -8453,7 +8629,8 @@
       "bulkDensityKgM3": 930,
       "heatOfExplosionKjKg": 3560,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N530_V5H1",
@@ -8468,7 +8645,8 @@
       "bulkDensityKgM3": 930,
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5507,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N540_V5H2",
@@ -8483,7 +8661,8 @@
       "bulkDensityKgM3": 940,
       "heatOfExplosionKjKg": 3980,
       "burnExponent": 0.5542,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N550_V5H3",
@@ -8498,7 +8677,8 @@
       "bulkDensityKgM3": 950,
       "heatOfExplosionKjKg": 3990,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N555_V5H4",
@@ -8513,7 +8693,8 @@
       "bulkDensityKgM3": 930,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.5516,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N560_V5H5",
@@ -8528,7 +8709,8 @@
       "bulkDensityKgM3": 955,
       "heatOfExplosionKjKg": 3970,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N565_V5H6",
@@ -8543,7 +8725,8 @@
       "bulkDensityKgM3": 950,
       "heatOfExplosionKjKg": 3960,
       "burnExponent": 0.5514,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N568_V5H7",
@@ -8558,7 +8741,8 @@
       "bulkDensityKgM3": 965,
       "heatOfExplosionKjKg": 3940,
       "burnExponent": 0.5512,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N570_V5H8",
@@ -8573,7 +8757,8 @@
       "bulkDensityKgM3": 970,
       "heatOfExplosionKjKg": 3930,
       "burnExponent": 0.5501,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WINC_748_W1N7",
@@ -8588,7 +8773,8 @@
       "bulkDensityKgM3": 971,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WINC_760_W1N8",
@@ -8603,7 +8789,8 @@
       "bulkDensityKgM3": 971,
       "heatOfExplosionKjKg": 4050,
       "burnExponent": 0.5673,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WINC_STABALL65_W1N1",
@@ -8618,7 +8805,8 @@
       "bulkDensityKgM3": 990,
       "heatOfExplosionKjKg": 3820,
       "burnExponent": 0.5505,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WINC_STABALLHD_W1N3",
@@ -8633,7 +8821,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 3800,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WINC_STABALLMATCH_W1N2",
@@ -8648,7 +8837,8 @@
       "bulkDensityKgM3": 890,
       "heatOfExplosionKjKg": 3850,
       "burnExponent": 0.5509,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMPR_IMR_4831_HVBS",
@@ -8663,7 +8853,8 @@
       "bulkDensityKgM3": 930,
       "heatOfExplosionKjKg": 3575,
       "burnExponent": 0.5553,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_LRT_LB6B",
@@ -8678,7 +8869,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 3605,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_RAMS_GRAND_LM11",
@@ -8693,7 +8885,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMPR_IMR_7977_GDVA",
@@ -8708,7 +8901,8 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 3827,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMPR_IMR_8133_J4IF",
@@ -8723,7 +8917,8 @@
       "bulkDensityKgM3": 960,
       "heatOfExplosionKjKg": 3703,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_2700_JFAE",
@@ -8738,7 +8933,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 4200,
       "burnExponent": 0.5577,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_2000_MR_WH6F",
@@ -8753,7 +8949,8 @@
       "bulkDensityKgM3": 950,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.5573,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_RELODER_17_Q06H",
@@ -8768,7 +8965,8 @@
       "bulkDensityKgM3": 995,
       "heatOfExplosionKjKg": 3900,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_SUPERFORMANCE_QPVF",
@@ -8783,7 +8981,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 4300,
       "burnExponent": 0.5503,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_RELODER_19_6C4J",
@@ -8798,7 +8997,8 @@
       "bulkDensityKgM3": 940,
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5687,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_RELODER_22_POE4",
@@ -8813,7 +9013,8 @@
       "bulkDensityKgM3": 940,
       "heatOfExplosionKjKg": 3980,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_HYBRID_100V_UMIK",
@@ -8828,7 +9029,8 @@
       "bulkDensityKgM3": 890,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5528,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMPR_IMR_4320_E302",
@@ -8843,7 +9045,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WINC_SUPREME_780_REI8",
@@ -8858,7 +9061,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5507,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMPR_IMR_4955_170P",
@@ -8873,7 +9077,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3560,
       "burnExponent": 0.5531,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_2495_MKE7",
@@ -8888,7 +9093,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5527,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
@@ -8903,7 +9109,8 @@
       "bulkDensityKgM3": 970,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5514,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
@@ -8918,7 +9125,8 @@
       "bulkDensityKgM3": 900,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5503,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_LONG_RIFLE_YB45",
@@ -8933,7 +9141,8 @@
       "bulkDensityKgM3": 910,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5536,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_SW4350_JZV8",
@@ -8948,7 +9157,8 @@
       "bulkDensityKgM3": 920,
       "heatOfExplosionKjKg": 3580,
       "burnExponent": 0.551,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_AR_COMP_6RSD",
@@ -8963,7 +9173,8 @@
       "bulkDensityKgM3": 932,
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5568,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMPR_IMR_3031_KXZD",
@@ -8978,7 +9189,8 @@
       "bulkDensityKgM3": 935,
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5617,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_2015_UOWX",
@@ -8993,7 +9205,8 @@
       "bulkDensityKgM3": 962,
       "heatOfExplosionKjKg": 3650,
       "burnExponent": 0.5504,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_RELODER_25_JJAD",
@@ -9008,7 +9221,8 @@
       "bulkDensityKgM3": 915,
       "heatOfExplosionKjKg": 3990,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H50BMG_2J1E",
@@ -9023,7 +9237,8 @@
       "bulkDensityKgM3": 980.009382800007,
       "heatOfExplosionKjKg": 3205,
       "burnExponent": 0.5509,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_2200_EA5G",
@@ -9038,7 +9253,8 @@
       "bulkDensityKgM3": 880,
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_LT_30_XE5M",
@@ -9053,7 +9269,8 @@
       "bulkDensityKgM3": 992,
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5535,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H4198_KN7E",
@@ -9068,7 +9285,8 @@
       "bulkDensityKgM3": 870,
       "heatOfExplosionKjKg": 3680,
       "burnExponent": 0.697,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H322_V06U",
@@ -9083,7 +9301,8 @@
       "bulkDensityKgM3": 940,
       "heatOfExplosionKjKg": 3650,
       "burnExponent": 0.5538,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_2460_P2ON",
@@ -9098,7 +9317,8 @@
       "bulkDensityKgM3": 996,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_BENCHMARK_BIU3",
@@ -9113,7 +9333,8 @@
       "bulkDensityKgM3": 906,
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5501,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_RELODER_10X_98AC",
@@ -9128,7 +9349,8 @@
       "bulkDensityKgM3": 885,
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.5523,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_AR_PLUS_LMUA",
@@ -9143,7 +9365,8 @@
       "bulkDensityKgM3": 986,
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.556,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_4000_MR_KRWA",
@@ -9158,7 +9381,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5517,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_LEVEREVOLUTION_XTV3",
@@ -9173,7 +9397,8 @@
       "bulkDensityKgM3": 1045,
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.551,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_24N41_5S8S",
@@ -9188,7 +9413,8 @@
       "bulkDensityKgM3": 980,
       "heatOfExplosionKjKg": 3400,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N150_V1H7",
@@ -9203,7 +9429,8 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3580,
       "burnExponent": 0.5507,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_4350_R1AB",
@@ -9219,7 +9446,8 @@
       "_calibrationNote": "ESTIMATED parameters based on H4350/Accurate4064. Requires calibration.",
       "heatOfExplosionKjKg": 3590,
       "burnExponent": 0.5613,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N110_V1H2",
@@ -9235,7 +9463,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5526,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_VIHT_N120_V1H3",
@@ -9251,7 +9480,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3620,
       "burnExponent": 0.5989,
-      "tempSensitivity": 0.00036
+      "tempSensitivity": 0.00036,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H110_H1GA",
@@ -9267,7 +9497,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4300,
       "burnExponent": 0.5521,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_CFEBLK_H1GB",
@@ -9283,7 +9514,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3800,
       "burnExponent": 0.7082,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_TRAILBOSS_H1GC",
@@ -9299,7 +9531,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3500,
       "burnExponent": 0.7594,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMR_4227_I1G5",
@@ -9315,7 +9548,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H4227_H1GD",
@@ -9331,7 +9565,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.5504,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_1680_R1AC",
@@ -9347,10 +9582,11 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5516,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
-      "id": "PWD_ALLI_RL7_A1L0",
+      "id": "PWD_ALLI_RELODER_7_A1L0",
       "name": "Reloder 7",
       "kCoeff": 1.224,
       "ignitionBp": 0.198,
@@ -9363,7 +9599,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.5508,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_VARMINT_A1L5",
@@ -9379,7 +9616,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5608,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_4100_R1AD",
@@ -9395,7 +9633,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4087,
       "burnExponent": 0.6926,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_NO9_R1AE",
@@ -9411,7 +9650,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5626,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ACCU_8700_R1AF",
@@ -9427,7 +9667,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3510,
       "burnExponent": 0.5609,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_US869_H1GE",
@@ -9443,7 +9684,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4200,
       "burnExponent": 0.5583,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_300MP_A1L6",
@@ -9459,7 +9701,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5743,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_IMR_4007SSC_I1G6",
@@ -9475,7 +9718,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3580,
       "burnExponent": 0.5714,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_SWTR_S5W7",
@@ -9491,7 +9735,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_SWSBR_S5W8",
@@ -9507,7 +9752,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.5531,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_TITEGROUP_H1GF",
@@ -9523,7 +9769,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.8144,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_ALLI_2400_A1L7",
@@ -9539,10 +9786,11 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.5533,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
-      "id": "PWD_ALLI_RL50_A1L8",
+      "id": "PWD_ALLI_RELODER_50_A1L8",
       "name": "Reloder 50",
       "kCoeff": 1.21,
       "ignitionBp": 0.405,
@@ -9555,7 +9803,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3800,
       "burnExponent": 0.5506,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_H870_H1GG",
@@ -9571,7 +9820,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5501,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_SR4759_H1GH",
@@ -9587,7 +9837,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3700,
       "burnExponent": 0.5648,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_NORM_217_N1H0",
@@ -9603,7 +9854,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3204,
       "burnExponent": 0.5504,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_CLAYS_H1GI",
@@ -9619,7 +9871,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.7916,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_UNIVERSAL_H1GJ",
@@ -9635,7 +9888,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WIN_HP38_W1C7",
@@ -9651,7 +9905,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4100,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_WIN_HS6_W1C8",
@@ -9667,7 +9922,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 4000,
       "burnExponent": 0.55,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_NORM_TS155_N1H1",
@@ -9683,7 +9939,8 @@
       "_calibrationNote": "ESTIMATED requires calibration against measured reference loads.",
       "heatOfExplosionKjKg": 3650,
       "burnExponent": 0.5679,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_HODG_LILGUN_H1G8",
@@ -9699,7 +9956,8 @@
       "_calibrationNote": "ESTIMATED requires calibration.",
       "heatOfExplosionKjKg": 3752,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.0027
+      "tempSensitivity": 0.0027,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_SOCOM_8NG1",
@@ -9712,7 +9970,8 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.6098,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_SW_BMG_8NG2",
@@ -9724,7 +9983,8 @@
       "bulkDensityKgM3": 1000,
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3500,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_TAC_RIFLE_8NG3",
@@ -9737,7 +9997,8 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3950,
       "burnExponent": 0.5502,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_THE_CREED_8NG4",
@@ -9750,7 +10011,8 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5553,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_THE_PATRIOT_8NG5",
@@ -9763,7 +10025,8 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3600,
       "burnExponent": 0.5566,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     },
     {
       "id": "PWD_SHOO_TUBAL7000_8NG6",
@@ -9776,7 +10039,8 @@
       "grainType": "extrudedSinglePerf",
       "heatOfExplosionKjKg": 3550,
       "burnExponent": 0.5512,
-      "tempSensitivity": 0.00144
+      "tempSensitivity": 0.00144,
+      "heatSource": "Propellant Manufacturer Technical Data"
     }
   ],
   "bullets": [
@@ -10844,8 +11108,8 @@
         "weightGrams": 1.9439673,
         "overallLengthMm": 11.43,
         "ogiveLengthMm": 5.715,
-        "boatTailLengthMm": 1.7145,
-        "bearingSurfaceMm": 4.0005,
+        "boatTailLengthMm": 0,
+        "bearingSurfaceMm": 5.715,
         "materialType": "MAT_JACKETED_LEAD",
         "engravingPressurePa": 32000000
       },
@@ -25228,16 +25492,16 @@
       "diameterId": "DIA_243_B7V4",
       "physis": {
         "weightGrams": 5.8319019,
-        "overallLengthMm": 27.5,
-        "ogiveLengthMm": 12.4,
-        "boatTailLengthMm": 4.8,
-        "bearingSurfaceMm": 9,
+        "overallLengthMm": 29.972,
+        "ogiveLengthMm": 14.69,
+        "boatTailLengthMm": 4.282,
+        "bearingSurfaceMm": 11,
         "materialType": "MAT_SOLID_COPPER",
         "engravingPressurePa": 32000000
       },
       "manufacturerId": "MAN_NOSLER_N9K4",
       "ballistics": {
-        "g1BC": 0.365,
+        "g1BC": 0.403,
         "g1FF": 0.5965,
         "g7BC": 0.195,
         "g7FF": 1.1166
@@ -25910,7 +26174,7 @@
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.6918201,
-        "overallLengthMm": 35.3,
+        "overallLengthMm": 30.5,
         "ogiveLengthMm": 16,
         "boatTailLengthMm": 4.5,
         "bearingSurfaceMm": 10,
@@ -26130,10 +26394,10 @@
       "diameterId": "DIA_308_XBM7",
       "physis": {
         "weightGrams": 10.6918201,
-        "overallLengthMm": 35.3,
+        "overallLengthMm": 29.72,
         "ogiveLengthMm": 16,
         "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 19,
+        "bearingSurfaceMm": 13.72,
         "materialType": "MAT_JACKETED_LEAD",
         "engravingPressurePa": 32000000
       },
@@ -32829,1171 +33093,1162 @@
     "powders": [
       {
         "id": "PWD_ACCU_2230_R1A6",
-        "burnAreaCoeff": 0.1332,
-        "burnAreaFillSlope": -0.479,
-        "burnAreaBoreSlope": 0.0628,
+        "burnAreaCoeff": 0.1335,
+        "burnAreaFillSlope": -0.3869,
+        "burnAreaBoreSlope": 0.1439,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0428
+        "burnAreaExpansionSlope": -0.0258
       },
       {
         "id": "PWD_ACCU_2520_R1A7",
-        "burnAreaCoeff": 0.2742,
-        "burnAreaFillSlope": -1.0849,
-        "burnAreaBoreSlope": 0.1429,
+        "burnAreaCoeff": 0.2896,
+        "burnAreaFillSlope": -1.062,
+        "burnAreaBoreSlope": 0.2858,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4344psi"
+          "PRESSURE_FIT_LOOSE mae=4027psi"
         ],
-        "burnAreaExpansionSlope": -0.0011
+        "burnAreaExpansionSlope": 0.0301
       },
       {
         "id": "PWD_ACCU_4064_R1A8",
-        "burnAreaCoeff": 0.1106,
-        "burnAreaFillSlope": -0.7283,
-        "burnAreaBoreSlope": -0.1021,
+        "burnAreaCoeff": 0.1014,
+        "burnAreaFillSlope": -0.4859,
+        "burnAreaBoreSlope": -0.0728,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0279
+        "burnAreaExpansionSlope": -0.0324
       },
       {
         "id": "PWD_ACCU_LT32_R1AA",
-        "burnAreaCoeff": 0.1991,
-        "burnAreaFillSlope": -0.2963,
-        "burnAreaBoreSlope": 0.0667,
+        "burnAreaCoeff": 0.2258,
+        "burnAreaFillSlope": -0.2524,
+        "burnAreaBoreSlope": 0.1597,
         "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=128fps pressureMae=2768psi"
-        ],
-        "burnAreaExpansionSlope": -0.0054
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0603
       },
       {
         "id": "PWD_ACCU_MAGPRO_R1A9",
-        "burnAreaCoeff": 0.0692,
-        "burnAreaFillSlope": -0.8103,
-        "burnAreaBoreSlope": 0.3804,
+        "burnAreaCoeff": 0.0675,
+        "burnAreaFillSlope": -0.8297,
+        "burnAreaBoreSlope": 0.3844,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=13.5 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0136
+        "burnAreaExpansionSlope": 0.0247
       },
       {
-        "id": "PWD_ALLI_RL15_A1L1",
-        "burnAreaCoeff": 0.1063,
-        "burnAreaFillSlope": -0.6645,
-        "burnAreaBoreSlope": 0.0831,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=84"
-        ],
-        "burnAreaExpansionSlope": 0.0264
-      },
-      {
-        "id": "PWD_ALLI_RL16_A1L2",
-        "burnAreaCoeff": 0.0699,
-        "burnAreaFillSlope": -1.2012,
-        "burnAreaBoreSlope": -0.1006,
+        "id": "PWD_ALLI_RELODER_15_A1L1",
+        "burnAreaCoeff": 0.2126,
+        "burnAreaFillSlope": -1.3482,
+        "burnAreaBoreSlope": 0.2055,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=46",
-          "OVERBORE_ENVELOPE expR=11.3 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=11",
+          "OVERBORE_ENVELOPE expR=10.6 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0586
+        "burnAreaExpansionSlope": -0.0248
       },
       {
-        "id": "PWD_ALLI_RL23_A1L3",
-        "burnAreaCoeff": 0.1005,
-        "burnAreaFillSlope": -0.9319,
-        "burnAreaBoreSlope": -0.1346,
+        "id": "PWD_ALLI_RELODER_16_A1L2",
+        "burnAreaCoeff": 0.082,
+        "burnAreaFillSlope": -1.0571,
+        "burnAreaBoreSlope": 0.1676,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=31",
-          "OVERBORE_ENVELOPE expR=13.0 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=30",
+          "OVERBORE_ENVELOPE expR=11.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0952
+        "burnAreaExpansionSlope": 0.0117
       },
       {
-        "id": "PWD_ALLI_RL26_A1L4",
-        "burnAreaCoeff": 0.0774,
-        "burnAreaFillSlope": -1.1753,
-        "burnAreaBoreSlope": -0.2239,
+        "id": "PWD_ALLI_RELODER_23_A1L3",
+        "burnAreaCoeff": 0.07,
+        "burnAreaFillSlope": -0.7794,
+        "burnAreaBoreSlope": -0.2493,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=45",
-          "OVERBORE_ENVELOPE expR=12.9 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=17",
+          "OVERBORE_ENVELOPE expR=13.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.039
+        "burnAreaExpansionSlope": -0.0324
+      },
+      {
+        "id": "PWD_ALLI_RELODER_26_A1L4",
+        "burnAreaCoeff": 0.0631,
+        "burnAreaFillSlope": -1.0433,
+        "burnAreaBoreSlope": -0.1116,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "ANCHOR_ONLY_FIT n=15",
+          "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": -0.005
       },
       {
         "id": "PWD_HODG_BLC2_H1G8",
-        "burnAreaCoeff": 0.1,
-        "burnAreaFillSlope": -0.9208,
-        "burnAreaBoreSlope": -0.0306,
+        "burnAreaCoeff": 0.0941,
+        "burnAreaFillSlope": -0.6894,
+        "burnAreaBoreSlope": 0.0213,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0073
+        "burnAreaExpansionSlope": 0.0041
       },
       {
         "id": "PWD_HODG_CFE223_H1G6",
-        "burnAreaCoeff": 0.0755,
-        "burnAreaFillSlope": -0.4915,
-        "burnAreaBoreSlope": -0.0404,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4030psi"
-        ],
-        "burnAreaExpansionSlope": 0.0185
-      },
-      {
-        "id": "PWD_HODG_H1000_H1G5",
-        "burnAreaCoeff": 0.0442,
-        "burnAreaFillSlope": -0.4419,
-        "burnAreaBoreSlope": 0.0304,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=14.4 — verify velocity with chronograph"
-        ],
-        "burnAreaExpansionSlope": 0.0181
-      },
-      {
-        "id": "PWD_HODG_H335_H1GB",
-        "burnAreaCoeff": 0.0577,
-        "burnAreaFillSlope": -0.7337,
-        "burnAreaBoreSlope": -0.1014,
+        "burnAreaCoeff": 0.079,
+        "burnAreaFillSlope": -0.5181,
+        "burnAreaBoreSlope": 0.0336,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0135
+        "burnAreaExpansionSlope": 0.0204
+      },
+      {
+        "id": "PWD_HODG_H1000_H1G5",
+        "burnAreaCoeff": 0.0409,
+        "burnAreaFillSlope": -0.2592,
+        "burnAreaBoreSlope": 0.1356,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "OVERBORE_ENVELOPE expR=14.1 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": 0.0423
+      },
+      {
+        "id": "PWD_HODG_H335_H1GB",
+        "burnAreaCoeff": 0.0488,
+        "burnAreaFillSlope": 0.0048,
+        "burnAreaBoreSlope": 0.0326,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0292
       },
       {
         "id": "PWD_HODG_H380_H1GC",
-        "burnAreaCoeff": 0.0505,
-        "burnAreaFillSlope": -0.6409,
-        "burnAreaBoreSlope": 0.1785,
+        "burnAreaCoeff": 0.055,
+        "burnAreaFillSlope": -0.8033,
+        "burnAreaBoreSlope": 0.1735,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=11.3 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.037
+        "burnAreaExpansionSlope": 0.0206
       },
       {
         "id": "PWD_HODG_H414_H1GD",
-        "burnAreaCoeff": 0.0627,
-        "burnAreaFillSlope": -0.4942,
-        "burnAreaBoreSlope": 0.1935,
+        "burnAreaCoeff": 0.0665,
+        "burnAreaFillSlope": -0.591,
+        "burnAreaBoreSlope": 0.2031,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0288
+        "burnAreaExpansionSlope": 0.0151
       },
       {
         "id": "PWD_HODG_H4350_H1G2",
-        "burnAreaCoeff": 0.0709,
-        "burnAreaFillSlope": -0.2383,
-        "burnAreaBoreSlope": 0.1942,
+        "burnAreaCoeff": 0.071,
+        "burnAreaFillSlope": -0.2108,
+        "burnAreaBoreSlope": 0.1598,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0352
+        "burnAreaExpansionSlope": 0.035
       },
       {
         "id": "PWD_HODG_H4831SC_H1GF",
-        "burnAreaCoeff": 0.0255,
-        "burnAreaFillSlope": 1.497,
-        "burnAreaBoreSlope": 0.153,
+        "burnAreaCoeff": 0.0281,
+        "burnAreaFillSlope": 1.4059,
+        "burnAreaBoreSlope": 0.2359,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=12.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0358
+        "burnAreaExpansionSlope": 0.0834
       },
       {
         "id": "PWD_HODG_H4831_H1GE",
-        "burnAreaCoeff": 0.0461,
-        "burnAreaFillSlope": -0.4044,
-        "burnAreaBoreSlope": 0.1887,
+        "burnAreaCoeff": 0.0438,
+        "burnAreaFillSlope": -0.2182,
+        "burnAreaBoreSlope": 0.1745,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0524
+        "burnAreaExpansionSlope": 0.0565
       },
       {
         "id": "PWD_HODG_H4895_H1G3",
-        "burnAreaCoeff": 0.1225,
-        "burnAreaFillSlope": -0.491,
-        "burnAreaBoreSlope": 0.067,
+        "burnAreaCoeff": 0.1156,
+        "burnAreaFillSlope": -0.2929,
+        "burnAreaBoreSlope": 0.0615,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0055
+        "burnAreaExpansionSlope": 0.0063
       },
       {
         "id": "PWD_HODG_IMR4064_H1G9",
-        "burnAreaCoeff": 0.1164,
-        "burnAreaFillSlope": -0.3125,
-        "burnAreaBoreSlope": 0.0966,
+        "burnAreaCoeff": 0.1106,
+        "burnAreaFillSlope": -0.0284,
+        "burnAreaBoreSlope": 0.1426,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0023
+        "burnAreaExpansionSlope": -0.0073
       },
       {
         "id": "PWD_HODG_IMR4166_H1GK",
-        "burnAreaCoeff": 0.1126,
-        "burnAreaFillSlope": 0.1593,
-        "burnAreaBoreSlope": 0.1246,
+        "burnAreaCoeff": 0.1024,
+        "burnAreaFillSlope": 0.6182,
+        "burnAreaBoreSlope": 0.2073,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0044
+        "burnAreaExpansionSlope": 0.009
       },
       {
         "id": "PWD_HODG_IMR4198_H1GS",
-        "burnAreaCoeff": 0.038,
-        "burnAreaFillSlope": -0.3548,
-        "burnAreaBoreSlope": 0.1359,
+        "burnAreaCoeff": 0.0607,
+        "burnAreaFillSlope": -0.6693,
+        "burnAreaBoreSlope": 0.1714,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0166
+        "burnAreaExpansionSlope": 0.0759
       },
       {
         "id": "PWD_HODG_IMR4350_H1G0",
-        "burnAreaCoeff": 0.047,
-        "burnAreaFillSlope": 0.6816,
-        "burnAreaBoreSlope": 0.205,
+        "burnAreaCoeff": 0.0474,
+        "burnAreaFillSlope": 0.7396,
+        "burnAreaBoreSlope": 0.1889,
         "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
+        "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-120fps pressureMae=3253psi",
-          "OVERBORE_REGIME share=84% expR=12.0"
+          "OVERBORE_ENVELOPE expR=11.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0548
+        "burnAreaExpansionSlope": 0.0483
       },
       {
         "id": "PWD_HODG_IMR4451_H1GL",
-        "burnAreaCoeff": 0.0708,
-        "burnAreaFillSlope": -0.0827,
-        "burnAreaBoreSlope": 0.1958,
+        "burnAreaCoeff": 0.0698,
+        "burnAreaFillSlope": 0.0785,
+        "burnAreaBoreSlope": 0.2185,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-124fps pressureMae=3621psi",
-          "OVERBORE_REGIME share=79% expR=11.5"
+          "STRUCTURAL_VELOCITY_GAP bias=-123fps pressureMae=3458psi",
+          "OVERBORE_REGIME share=72% expR=11.3"
         ],
-        "burnAreaExpansionSlope": 0.0405
+        "burnAreaExpansionSlope": 0.0314
       },
       {
         "id": "PWD_HODG_IMR4895_H1GM",
-        "burnAreaCoeff": 0.1087,
-        "burnAreaFillSlope": -0.2223,
-        "burnAreaBoreSlope": 0.0435,
+        "burnAreaCoeff": 0.107,
+        "burnAreaFillSlope": 0.0047,
+        "burnAreaBoreSlope": 0.1343,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0013
+        "burnAreaExpansionSlope": 0.0057
       },
       {
         "id": "PWD_HODG_IMR7828SSC_H1GO",
-        "burnAreaCoeff": 0.0356,
-        "burnAreaFillSlope": 0.5668,
-        "burnAreaBoreSlope": 0.2509,
+        "burnAreaCoeff": 0.0403,
+        "burnAreaFillSlope": 0.1172,
+        "burnAreaBoreSlope": 0.2715,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.073
+        "burnAreaExpansionSlope": 0.0764
       },
       {
         "id": "PWD_HODG_IMR7828_H1GN",
-        "burnAreaCoeff": 0.0497,
-        "burnAreaFillSlope": -0.2337,
-        "burnAreaBoreSlope": 0.2933,
+        "burnAreaCoeff": 0.0444,
+        "burnAreaFillSlope": -0.044,
+        "burnAreaBoreSlope": 0.2919,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-151fps pressureMae=3785psi",
-          "OVERBORE_REGIME share=98% expR=14.5"
+          "STRUCTURAL_VELOCITY_GAP bias=-147fps pressureMae=3394psi",
+          "OVERBORE_REGIME share=97% expR=14.0"
         ],
-        "burnAreaExpansionSlope": 0.0283
+        "burnAreaExpansionSlope": 0.0574
       },
       {
         "id": "PWD_HODG_IMR8208_H1GA",
-        "burnAreaCoeff": 0.1255,
-        "burnAreaFillSlope": -0.1974,
-        "burnAreaBoreSlope": 0.1062,
+        "burnAreaCoeff": 0.1273,
+        "burnAreaFillSlope": -0.204,
+        "burnAreaBoreSlope": 0.1451,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0019
+        "burnAreaExpansionSlope": 0.0022
       },
       {
         "id": "PWD_HODG_RETUMBO_H1G4",
-        "burnAreaCoeff": 0.0455,
-        "burnAreaFillSlope": -0.6353,
-        "burnAreaBoreSlope": 0.1965,
+        "burnAreaCoeff": 0.0427,
+        "burnAreaFillSlope": -0.3546,
+        "burnAreaBoreSlope": 0.1996,
         "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
+        "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4116psi"
+          "STRUCTURAL_VELOCITY_GAP bias=-265fps pressureMae=3597psi",
+          "OVERBORE_REGIME share=100% expR=15.0"
         ],
-        "burnAreaExpansionSlope": 0.011
+        "burnAreaExpansionSlope": 0.0195
       },
       {
         "id": "PWD_HODG_VARGET_H1G1",
-        "burnAreaCoeff": 0.0972,
-        "burnAreaFillSlope": -0.4139,
-        "burnAreaBoreSlope": 0.0193,
+        "burnAreaCoeff": 0.0965,
+        "burnAreaFillSlope": -0.2689,
+        "burnAreaBoreSlope": 0.0694,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0058
+        "burnAreaExpansionSlope": -0.0023
       },
       {
         "id": "PWD_RAMS_BIGGAME_R1A2",
-        "burnAreaCoeff": 0.0654,
-        "burnAreaFillSlope": -0.6139,
-        "burnAreaBoreSlope": -0.0402,
+        "burnAreaCoeff": 0.0636,
+        "burnAreaFillSlope": -0.5353,
+        "burnAreaBoreSlope": 0.009,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=10.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.3 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0085
+        "burnAreaExpansionSlope": 0.0194
       },
       {
         "id": "PWD_RAMS_HUNTER_R1A3",
-        "burnAreaCoeff": 0.0646,
-        "burnAreaFillSlope": -0.6853,
-        "burnAreaBoreSlope": 0.1883,
+        "burnAreaCoeff": 0.067,
+        "burnAreaFillSlope": -0.7558,
+        "burnAreaBoreSlope": 0.1653,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0464
+        "burnAreaExpansionSlope": 0.0423
       },
       {
         "id": "PWD_RAMS_MAGNUM_R1A4",
-        "burnAreaCoeff": 0.0613,
-        "burnAreaFillSlope": -0.8533,
-        "burnAreaBoreSlope": 0.3039,
+        "burnAreaCoeff": 0.0603,
+        "burnAreaFillSlope": -0.8519,
+        "burnAreaBoreSlope": 0.3378,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.9 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0127
+        "burnAreaExpansionSlope": 0.0201
       },
       {
         "id": "PWD_RAMS_TAC_R1A1",
-        "burnAreaCoeff": 0.1168,
-        "burnAreaFillSlope": 0.0991,
-        "burnAreaBoreSlope": 0.1005,
+        "burnAreaCoeff": 0.1057,
+        "burnAreaFillSlope": 0.3861,
+        "burnAreaBoreSlope": 0.1757,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0159
+        "burnAreaExpansionSlope": 0.0133
       },
       {
         "id": "PWD_RAMS_XTERM_R1A5",
-        "burnAreaCoeff": 0.1691,
-        "burnAreaFillSlope": -0.609,
-        "burnAreaBoreSlope": 0.0148,
+        "burnAreaCoeff": 0.13,
+        "burnAreaFillSlope": -0.4346,
+        "burnAreaBoreSlope": 0.1614,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0643
+        "burnAreaExpansionSlope": -0.0128
       },
       {
         "id": "PWD_VIHT_N170_V1HA",
-        "burnAreaCoeff": 0.1164,
-        "burnAreaFillSlope": -1.4247,
-        "burnAreaBoreSlope": 0.3407,
+        "burnAreaCoeff": 0.1034,
+        "burnAreaFillSlope": -1.4969,
+        "burnAreaBoreSlope": 0.1775,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=91",
-          "OVERBORE_ENVELOPE expR=13.6 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=90",
+          "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0417
+        "burnAreaExpansionSlope": 0.0281
       },
       {
         "id": "PWD_VIHT_N130_V1H4",
-        "burnAreaCoeff": 0.2779,
-        "burnAreaFillSlope": -0.1376,
-        "burnAreaBoreSlope": 0.2482,
+        "burnAreaCoeff": 0.2925,
+        "burnAreaFillSlope": -0.4142,
+        "burnAreaBoreSlope": 0.2189,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=76"
+          "ANCHOR_ONLY_FIT n=74"
         ],
-        "burnAreaExpansionSlope": 0.1098
+        "burnAreaExpansionSlope": 0.1097
       },
       {
         "id": "PWD_VIHT_N133_V1H5",
-        "burnAreaCoeff": 0.3597,
-        "burnAreaFillSlope": -0.9245,
-        "burnAreaBoreSlope": 0.1049,
+        "burnAreaCoeff": 0.3604,
+        "burnAreaFillSlope": -0.8951,
+        "burnAreaBoreSlope": 0.1928,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=132"
+          "ANCHOR_ONLY_FIT n=128"
         ],
-        "burnAreaExpansionSlope": 0.1044
+        "burnAreaExpansionSlope": 0.1107
       },
       {
         "id": "PWD_VIHT_N135_V1H6",
-        "burnAreaCoeff": 0.2116,
-        "burnAreaFillSlope": -1.1286,
-        "burnAreaBoreSlope": 0.0073,
+        "burnAreaCoeff": 0.2095,
+        "burnAreaFillSlope": -0.9486,
+        "burnAreaBoreSlope": 0.117,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=176"
+          "ANCHOR_ONLY_FIT n=172"
         ],
-        "burnAreaExpansionSlope": 0.0072
+        "burnAreaExpansionSlope": 0.0339
       },
       {
         "id": "PWD_VIHT_N140_7Ih6",
-        "burnAreaCoeff": 0.1454,
-        "burnAreaFillSlope": -0.5215,
-        "burnAreaBoreSlope": 0.3016,
+        "burnAreaCoeff": 0.1671,
+        "burnAreaFillSlope": -0.9681,
+        "burnAreaBoreSlope": 0.2215,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=288"
+          "ANCHOR_ONLY_FIT n=284"
         ],
-        "burnAreaExpansionSlope": 0.0692
+        "burnAreaExpansionSlope": 0.0065
       },
       {
         "id": "PWD_VIHT_N160_V1H8",
-        "burnAreaCoeff": 0.1243,
-        "burnAreaFillSlope": -1.2629,
-        "burnAreaBoreSlope": 0.0311,
+        "burnAreaCoeff": 0.1279,
+        "burnAreaFillSlope": -1.3107,
+        "burnAreaBoreSlope": 0.1244,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=355",
-          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=344",
+          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0061
+        "burnAreaExpansionSlope": 0.0167
       },
       {
         "id": "PWD_VIHT_N165_V1H9",
-        "burnAreaCoeff": 0.1023,
-        "burnAreaFillSlope": -1.1735,
-        "burnAreaBoreSlope": 0.1941,
+        "burnAreaCoeff": 0.1051,
+        "burnAreaFillSlope": -1.2281,
+        "burnAreaBoreSlope": 0.1803,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=236",
-          "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=210",
+          "OVERBORE_ENVELOPE expR=12.9 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0105
+        "burnAreaExpansionSlope": 0.003
       },
       {
         "id": "PWD_VIHT_N530_V5H1",
-        "burnAreaCoeff": 0.1224,
-        "burnAreaFillSlope": 0.3822,
-        "burnAreaBoreSlope": 0.1657,
+        "burnAreaCoeff": 0.1299,
+        "burnAreaFillSlope": 0.2679,
+        "burnAreaBoreSlope": 0.2685,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=51"
         ],
-        "burnAreaExpansionSlope": 0.063
+        "burnAreaExpansionSlope": 0.0766
       },
       {
         "id": "PWD_VIHT_N540_V5H2",
-        "burnAreaCoeff": 0.0916,
-        "burnAreaFillSlope": -0.1184,
-        "burnAreaBoreSlope": 0.221,
+        "burnAreaCoeff": 0.1238,
+        "burnAreaFillSlope": -0.9532,
+        "burnAreaBoreSlope": 0.1176,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=346"
+          "ANCHOR_ONLY_FIT n=334"
         ],
-        "burnAreaExpansionSlope": 0.0113
+        "burnAreaExpansionSlope": -0.0154
       },
       {
         "id": "PWD_VIHT_N550_V5H3",
-        "burnAreaCoeff": 0.0994,
-        "burnAreaFillSlope": -0.7508,
-        "burnAreaBoreSlope": 0.2921,
+        "burnAreaCoeff": 0.1136,
+        "burnAreaFillSlope": -1.0044,
+        "burnAreaBoreSlope": 0.1833,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=413",
+          "ANCHOR_ONLY_FIT n=393",
           "OVERBORE_ENVELOPE expR=10.6 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0227
+        "burnAreaExpansionSlope": -0.018
       },
       {
         "id": "PWD_VIHT_N555_V5H4",
-        "burnAreaCoeff": 0.0871,
-        "burnAreaFillSlope": -1.0695,
-        "burnAreaBoreSlope": 0.2388,
+        "burnAreaCoeff": 0.0843,
+        "burnAreaFillSlope": -1.0593,
+        "burnAreaBoreSlope": 0.1901,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=256",
-          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=252",
+          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0307
+        "burnAreaExpansionSlope": 0.0413
       },
       {
         "id": "PWD_VIHT_N560_V5H5",
-        "burnAreaCoeff": 0.0859,
-        "burnAreaFillSlope": -1.1659,
-        "burnAreaBoreSlope": 0.1115,
+        "burnAreaCoeff": 0.0854,
+        "burnAreaFillSlope": -1.106,
+        "burnAreaBoreSlope": 0.2062,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=333",
+          "ANCHOR_ONLY_FIT n=321",
           "OVERBORE_ENVELOPE expR=12.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0079
+        "burnAreaExpansionSlope": -0.0005
       },
       {
         "id": "PWD_VIHT_N565_V5H6",
-        "burnAreaCoeff": 0.0859,
-        "burnAreaFillSlope": -1.3627,
-        "burnAreaBoreSlope": 0.0576,
+        "burnAreaCoeff": 0.0816,
+        "burnAreaFillSlope": -1.2663,
+        "burnAreaBoreSlope": 0.1691,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=154",
+          "ANCHOR_ONLY_FIT n=152",
           "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0017
+        "burnAreaExpansionSlope": 0.015
       },
       {
         "id": "PWD_VIHT_N568_V5H7",
-        "burnAreaCoeff": 0.0552,
-        "burnAreaFillSlope": -0.6282,
-        "burnAreaBoreSlope": 0.0826,
+        "burnAreaCoeff": 0.0331,
+        "burnAreaFillSlope": 0.8671,
+        "burnAreaBoreSlope": 0.3718,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=49",
+          "ANCHOR_ONLY_FIT n=48",
           "OVERBORE_ENVELOPE expR=13.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.016
+        "burnAreaExpansionSlope": -0.0168
       },
       {
         "id": "PWD_VIHT_N570_V5H8",
-        "burnAreaCoeff": 0.1127,
-        "burnAreaFillSlope": -1.4688,
-        "burnAreaBoreSlope": 0.2045,
+        "burnAreaCoeff": 0.0907,
+        "burnAreaFillSlope": -1.427,
+        "burnAreaBoreSlope": 0.089,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=91",
           "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0385
+        "burnAreaExpansionSlope": 0.0251
       },
       {
         "id": "PWD_WINC_748_W1N7",
-        "burnAreaCoeff": 0.0704,
-        "burnAreaFillSlope": 0.2953,
-        "burnAreaBoreSlope": -0.0754,
+        "burnAreaCoeff": 0.0658,
+        "burnAreaFillSlope": 0.8656,
+        "burnAreaBoreSlope": 0.0489,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0373
+        "burnAreaExpansionSlope": 0.0507
       },
       {
         "id": "PWD_WINC_760_W1N8",
-        "burnAreaCoeff": 0.0641,
-        "burnAreaFillSlope": -0.5301,
-        "burnAreaBoreSlope": 0.2226,
+        "burnAreaCoeff": 0.0705,
+        "burnAreaFillSlope": -0.6966,
+        "burnAreaBoreSlope": 0.2043,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0268
+        "burnAreaExpansionSlope": 0.0078
       },
       {
         "id": "PWD_WINC_STABALL65_W1N1",
-        "burnAreaCoeff": 0.0513,
-        "burnAreaFillSlope": -0.1634,
-        "burnAreaBoreSlope": 0.1867,
+        "burnAreaCoeff": 0.0517,
+        "burnAreaFillSlope": -0.0996,
+        "burnAreaBoreSlope": 0.1566,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4158psi"
+          "PRESSURE_FIT_LOOSE mae=4121psi"
         ],
-        "burnAreaExpansionSlope": 0.0389
+        "burnAreaExpansionSlope": 0.0163
       },
       {
         "id": "PWD_WINC_STABALLHD_W1N3",
-        "burnAreaCoeff": 0.0198,
-        "burnAreaFillSlope": 0.673,
-        "burnAreaBoreSlope": 0.4997,
+        "burnAreaCoeff": 0.0235,
+        "burnAreaFillSlope": 0.4934,
+        "burnAreaBoreSlope": 0.4743,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-170fps pressureMae=3230psi",
-          "OVERBORE_REGIME share=100% expR=15.2"
+          "STRUCTURAL_VELOCITY_GAP bias=-175fps pressureMae=3009psi",
+          "OVERBORE_REGIME share=100% expR=14.9"
         ],
-        "burnAreaExpansionSlope": 0.1238
+        "burnAreaExpansionSlope": 0.0889
       },
       {
         "id": "PWD_WINC_STABALLMATCH_W1N2",
-        "burnAreaCoeff": 0.0884,
-        "burnAreaFillSlope": -0.1836,
-        "burnAreaBoreSlope": 0.0998,
+        "burnAreaCoeff": 0.0858,
+        "burnAreaFillSlope": 0.0157,
+        "burnAreaBoreSlope": 0.1532,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0309
+        "burnAreaExpansionSlope": 0.035
       },
       {
         "id": "PWD_IMPR_IMR_4831_HVBS",
-        "burnAreaCoeff": 0.0536,
-        "burnAreaFillSlope": -0.0921,
-        "burnAreaBoreSlope": 0.2472,
+        "burnAreaCoeff": 0.0583,
+        "burnAreaFillSlope": -0.1745,
+        "burnAreaBoreSlope": 0.2427,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.0 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0849
+        "burnAreaExpansionSlope": 0.0747
       },
       {
         "id": "PWD_RAMS_LRT_LB6B",
-        "burnAreaCoeff": 0.0317,
-        "burnAreaFillSlope": -0.6707,
-        "burnAreaBoreSlope": 0.4659,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4073psi"
-        ],
-        "burnAreaExpansionSlope": 0.0696
-      },
-      {
-        "id": "PWD_RAMS_GRAND_LM11",
-        "burnAreaCoeff": 0.0234,
-        "burnAreaFillSlope": 0.3885,
-        "burnAreaBoreSlope": 0.4266,
+        "burnAreaCoeff": 0.0296,
+        "burnAreaFillSlope": -0.7921,
+        "burnAreaBoreSlope": 0.4038,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-164fps pressureMae=3305psi",
-          "OVERBORE_REGIME share=97% expR=13.7"
+          "STRUCTURAL_VELOCITY_GAP bias=-281fps pressureMae=3512psi",
+          "OVERBORE_REGIME share=100% expR=15.0"
         ],
-        "burnAreaExpansionSlope": 0.1241
+        "burnAreaExpansionSlope": 0.1321
+      },
+      {
+        "id": "PWD_RAMS_GRAND_LM11",
+        "burnAreaCoeff": 0.0195,
+        "burnAreaFillSlope": 1.215,
+        "burnAreaBoreSlope": 0.4995,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "STRUCTURAL_GAP",
+        "calibrationFlags": [
+          "STRUCTURAL_VELOCITY_GAP bias=-166fps pressureMae=3665psi",
+          "OVERBORE_REGIME share=97% expR=13.4"
+        ],
+        "burnAreaExpansionSlope": 0.1219
       },
       {
         "id": "PWD_IMPR_IMR_7977_GDVA",
-        "burnAreaCoeff": 0.023,
-        "burnAreaFillSlope": 0.2027,
-        "burnAreaBoreSlope": 0.3082,
+        "burnAreaCoeff": 0.0218,
+        "burnAreaFillSlope": 0.6236,
+        "burnAreaBoreSlope": 0.3638,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=14.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.9 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.15
+        "burnAreaExpansionSlope": 0.1467
       },
       {
         "id": "PWD_IMPR_IMR_8133_J4IF",
-        "burnAreaCoeff": 0.0332,
-        "burnAreaFillSlope": 0.0719,
-        "burnAreaBoreSlope": 0.4273,
+        "burnAreaCoeff": 0.0246,
+        "burnAreaFillSlope": 0.8405,
+        "burnAreaBoreSlope": 0.4667,
         "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
+        "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=15.4 — verify velocity with chronograph"
+          "STRUCTURAL_VELOCITY_GAP bias=-120fps pressureMae=3398psi",
+          "OVERBORE_REGIME share=100% expR=15.0"
         ],
-        "burnAreaExpansionSlope": 0.0407
+        "burnAreaExpansionSlope": 0.0765
       },
       {
         "id": "PWD_ACCU_2700_JFAE",
-        "burnAreaCoeff": 0.0679,
-        "burnAreaFillSlope": -0.3079,
-        "burnAreaBoreSlope": 0.2524,
+        "burnAreaCoeff": 0.0775,
+        "burnAreaFillSlope": -0.768,
+        "burnAreaBoreSlope": 0.15,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=10.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0144
+        "burnAreaExpansionSlope": 0.0092
       },
       {
         "id": "PWD_ALLI_2000_MR_WH6F",
-        "burnAreaCoeff": 0.0762,
-        "burnAreaFillSlope": -0.7267,
-        "burnAreaBoreSlope": 0.1155,
+        "burnAreaCoeff": 0.1528,
+        "burnAreaFillSlope": -1.328,
+        "burnAreaBoreSlope": 0.1223,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=40",
-          "OVERBORE_ENVELOPE expR=9.8 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=9",
+          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0128
+        "burnAreaExpansionSlope": -0.0844
       },
       {
         "id": "PWD_ALLI_RELODER_17_Q06H",
-        "burnAreaCoeff": 0.0731,
-        "burnAreaFillSlope": -1.0397,
-        "burnAreaBoreSlope": 0.1416,
+        "burnAreaCoeff": 0.0622,
+        "burnAreaFillSlope": -0.0272,
+        "burnAreaBoreSlope": -0.0774,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=94",
-          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=11",
+          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0443
+        "burnAreaExpansionSlope": -0.005
       },
       {
         "id": "PWD_HODG_SUPERFORMANCE_QPVF",
-        "burnAreaCoeff": 0.0342,
-        "burnAreaFillSlope": 0.0625,
-        "burnAreaBoreSlope": 0.2006,
+        "burnAreaCoeff": 0.0351,
+        "burnAreaFillSlope": 0.0744,
+        "burnAreaBoreSlope": 0.1616,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.3 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0449
+        "burnAreaExpansionSlope": 0.0202
       },
       {
         "id": "PWD_ALLI_RELODER_19_6C4J",
-        "burnAreaCoeff": 0.066,
-        "burnAreaFillSlope": -1.0207,
-        "burnAreaBoreSlope": 0.0891,
+        "burnAreaCoeff": 0.0714,
+        "burnAreaFillSlope": -0.7161,
+        "burnAreaBoreSlope": 0.0475,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=75",
-          "OVERBORE_ENVELOPE expR=12.5 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=23",
+          "OVERBORE_ENVELOPE expR=12.3 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0028
+        "burnAreaExpansionSlope": -0.0246
       },
       {
         "id": "PWD_ALLI_RELODER_22_POE4",
-        "burnAreaCoeff": 0.0851,
-        "burnAreaFillSlope": -1.1255,
-        "burnAreaBoreSlope": 0.041,
+        "burnAreaCoeff": 0.0739,
+        "burnAreaFillSlope": -0.8584,
+        "burnAreaBoreSlope": 0.145,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=85",
-          "OVERBORE_ENVELOPE expR=14.0 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=23",
+          "OVERBORE_ENVELOPE expR=12.9 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0327
+        "burnAreaExpansionSlope": -0.0211
       },
       {
         "id": "PWD_HODG_HYBRID_100V_UMIK",
-        "burnAreaCoeff": 0.06,
-        "burnAreaFillSlope": 0.1526,
-        "burnAreaBoreSlope": 0.1858,
+        "burnAreaCoeff": 0.0677,
+        "burnAreaFillSlope": 0.0642,
+        "burnAreaBoreSlope": 0.2505,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-122fps pressureMae=3457psi",
-          "OVERBORE_REGIME share=90% expR=12.2"
+          "STRUCTURAL_VELOCITY_GAP bias=-119fps pressureMae=3387psi",
+          "OVERBORE_REGIME share=83% expR=12.1"
         ],
-        "burnAreaExpansionSlope": 0.0853
+        "burnAreaExpansionSlope": 0.0479
       },
       {
         "id": "PWD_IMPR_IMR_4320_E302",
-        "burnAreaCoeff": 0.1116,
-        "burnAreaFillSlope": -0.3887,
-        "burnAreaBoreSlope": 0.0347,
+        "burnAreaCoeff": 0.1138,
+        "burnAreaFillSlope": -0.2481,
+        "burnAreaBoreSlope": 0.1954,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": -0.0041
+      },
+      {
+        "id": "PWD_WINC_SUPREME_780_REI8",
+        "burnAreaCoeff": 0.0494,
+        "burnAreaFillSlope": -0.3947,
+        "burnAreaBoreSlope": 0.2879,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "OVERBORE_ENVELOPE expR=13.2 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": 0.0686
+      },
+      {
+        "id": "PWD_IMPR_IMR_4955_170P",
+        "burnAreaCoeff": 0.0498,
+        "burnAreaFillSlope": 0.0639,
+        "burnAreaBoreSlope": 0.2876,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "OVERBORE_ENVELOPE expR=12.2 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": 0.0507
+      },
+      {
+        "id": "PWD_ACCU_2495_MKE7",
+        "burnAreaCoeff": 0.1643,
+        "burnAreaFillSlope": -1.0022,
+        "burnAreaBoreSlope": 0.0505,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": -0.0805
+      },
+      {
+        "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
+        "burnAreaCoeff": 0.0847,
+        "burnAreaFillSlope": 0.0555,
+        "burnAreaBoreSlope": 0.1699,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.023
+      },
+      {
+        "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
+        "burnAreaCoeff": 0.1123,
+        "burnAreaFillSlope": -0.3657,
+        "burnAreaBoreSlope": 0.0817,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0122
+      },
+      {
+        "id": "PWD_SHOO_LONG_RIFLE_YB45",
+        "burnAreaCoeff": 0.1194,
+        "burnAreaFillSlope": -0.2523,
+        "burnAreaBoreSlope": 0.1419,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "OVERBORE_ENVELOPE expR=10.3 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": -0.0041
+      },
+      {
+        "id": "PWD_SHOO_SW4350_JZV8",
+        "burnAreaCoeff": 0.1148,
+        "burnAreaFillSlope": -0.7199,
+        "burnAreaBoreSlope": 0.2643,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": -0.0254
+      },
+      {
+        "id": "PWD_ALLI_AR_COMP_6RSD",
+        "burnAreaCoeff": 0.539,
+        "burnAreaFillSlope": 0,
+        "burnAreaBoreSlope": 0,
+        "energyScaleFactor": 1.0747,
+        "calibrationConfidence": "LOW",
+        "calibrationFlags": [
+          "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
+        ],
+        "burnAreaExpansionSlope": 0
+      },
+      {
+        "id": "PWD_IMPR_IMR_3031_KXZD",
+        "burnAreaCoeff": 0.12,
+        "burnAreaFillSlope": 0.0301,
+        "burnAreaBoreSlope": 0.1346,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": -0.0068
+      },
+      {
+        "id": "PWD_ACCU_2015_UOWX",
+        "burnAreaCoeff": 0.199,
+        "burnAreaFillSlope": -0.2853,
+        "burnAreaBoreSlope": 0.1054,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "STRUCTURAL_GAP",
+        "calibrationFlags": [
+          "STRUCTURAL_VELOCITY_GAP bias=114fps pressureMae=2956psi"
+        ],
+        "burnAreaExpansionSlope": -0.0076
+      },
+      {
+        "id": "PWD_ALLI_RELODER_25_JJAD",
+        "burnAreaCoeff": 0.0533,
+        "burnAreaFillSlope": -0.7034,
+        "burnAreaBoreSlope": 0.5,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "ANCHOR_ONLY_FIT n=10",
+          "OVERBORE_ENVELOPE expR=15.1 — verify velocity with chronograph"
+        ],
+        "burnAreaExpansionSlope": 0.0447
+      },
+      {
+        "id": "PWD_HODG_H50BMG_2J1E",
+        "burnAreaCoeff": 0.0539,
+        "burnAreaFillSlope": -1.1618,
+        "burnAreaBoreSlope": 0.4167,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "STRUCTURAL_GAP",
+        "calibrationFlags": [
+          "STRUCTURAL_VELOCITY_GAP bias=-315fps pressureMae=3536psi",
+          "OVERBORE_REGIME share=100% expR=16.8"
+        ],
+        "burnAreaExpansionSlope": 0.0522
+      },
+      {
+        "id": "PWD_ACCU_2200_EA5G",
+        "burnAreaCoeff": 0.2442,
+        "burnAreaFillSlope": -0.4606,
+        "burnAreaBoreSlope": 0.0645,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0778
+      },
+      {
+        "id": "PWD_ACCU_LT_30_XE5M",
+        "burnAreaCoeff": 0.2719,
+        "burnAreaFillSlope": -0.2447,
+        "burnAreaBoreSlope": 0.0615,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0533
+      },
+      {
+        "id": "PWD_HODG_H4198_KN7E",
+        "burnAreaCoeff": 0.0545,
+        "burnAreaFillSlope": -0.1884,
+        "burnAreaBoreSlope": 0.1806,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "MEDIUM",
+        "calibrationFlags": [
+          "PRESSURE_FIT_LOOSE mae=4189psi"
+        ],
+        "burnAreaExpansionSlope": 0.0759
+      },
+      {
+        "id": "PWD_HODG_H322_V06U",
+        "burnAreaCoeff": 0.1447,
+        "burnAreaFillSlope": -0.4475,
+        "burnAreaBoreSlope": 0.0572,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": -0.0252
+      },
+      {
+        "id": "PWD_ACCU_2460_P2ON",
+        "burnAreaCoeff": 0.1019,
+        "burnAreaFillSlope": 0.1187,
+        "burnAreaBoreSlope": 0.2336,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0113
+      },
+      {
+        "id": "PWD_HODG_BENCHMARK_BIU3",
+        "burnAreaCoeff": 0.1554,
+        "burnAreaFillSlope": -0.5225,
+        "burnAreaBoreSlope": 0.0543,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": -0.0133
+      },
+      {
+        "id": "PWD_ALLI_RELODER_10X_98AC",
+        "burnAreaCoeff": 0.6785,
+        "burnAreaFillSlope": 0,
+        "burnAreaBoreSlope": 0,
+        "energyScaleFactor": 1.075,
+        "calibrationConfidence": "LOW",
+        "calibrationFlags": [
+          "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
+        ],
+        "burnAreaExpansionSlope": 0
+      },
+      {
+        "id": "PWD_SHOO_AR_PLUS_LMUA",
+        "burnAreaCoeff": 0.224,
+        "burnAreaFillSlope": -2.0383,
+        "burnAreaBoreSlope": -0.1982,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
         "burnAreaExpansionSlope": -0.0225
       },
       {
-        "id": "PWD_WINC_SUPREME_780_REI8",
-        "burnAreaCoeff": 0.0512,
-        "burnAreaFillSlope": -0.4297,
-        "burnAreaBoreSlope": 0.213,
+        "id": "PWD_ALLI_4000_MR_KRWA",
+        "burnAreaCoeff": 0.0613,
+        "burnAreaFillSlope": -0.3687,
+        "burnAreaBoreSlope": 0.3124,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
+          "ANCHOR_ONLY_FIT n=6",
           "OVERBORE_ENVELOPE expR=13.3 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0472
-      },
-      {
-        "id": "PWD_IMPR_IMR_4955_170P",
-        "burnAreaCoeff": 0.0437,
-        "burnAreaFillSlope": 0.4205,
-        "burnAreaBoreSlope": 0.2582,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=12.5 — verify velocity with chronograph"
-        ],
-        "burnAreaExpansionSlope": 0.0675
-      },
-      {
-        "id": "PWD_ACCU_2495_MKE7",
-        "burnAreaCoeff": 0.1737,
-        "burnAreaFillSlope": -1.0763,
-        "burnAreaBoreSlope": -0.0046,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4241psi"
-        ],
-        "burnAreaExpansionSlope": -0.0581
-      },
-      {
-        "id": "PWD_SHOO_MATCH_RIFLE_DSNK",
-        "burnAreaCoeff": 0.0834,
-        "burnAreaFillSlope": 0.0462,
-        "burnAreaBoreSlope": 0.139,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0221
-      },
-      {
-        "id": "PWD_SHOO_PRECISION_RIFLE_QCI7",
-        "burnAreaCoeff": 0.1229,
-        "burnAreaFillSlope": -0.6636,
-        "burnAreaBoreSlope": -0.0185,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0154
-      },
-      {
-        "id": "PWD_SHOO_LONG_RIFLE_YB45",
-        "burnAreaCoeff": 0.1434,
-        "burnAreaFillSlope": -0.9306,
-        "burnAreaBoreSlope": -0.1128,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4000psi"
-        ],
-        "burnAreaExpansionSlope": -0.0379
-      },
-      {
-        "id": "PWD_SHOO_SW4350_JZV8",
-        "burnAreaCoeff": 0.1018,
-        "burnAreaFillSlope": -0.7692,
-        "burnAreaBoreSlope": 0.1625,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
-        ],
-        "burnAreaExpansionSlope": 0.0119
-      },
-      {
-        "id": "PWD_ALLI_AR_COMP_6RSD",
-        "burnAreaCoeff": 0.1442,
-        "burnAreaFillSlope": -0.6662,
-        "burnAreaBoreSlope": -0.2134,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=27"
-        ],
-        "burnAreaExpansionSlope": 0.0007
-      },
-      {
-        "id": "PWD_IMPR_IMR_3031_KXZD",
-        "burnAreaCoeff": 0.108,
-        "burnAreaFillSlope": 0.2614,
-        "burnAreaBoreSlope": 0.0278,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0104
-      },
-      {
-        "id": "PWD_ACCU_2015_UOWX",
-        "burnAreaCoeff": 0.1914,
-        "burnAreaFillSlope": -0.4511,
-        "burnAreaBoreSlope": -0.037,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=145fps pressureMae=2982psi"
-        ],
-        "burnAreaExpansionSlope": -0.0593
-      },
-      {
-        "id": "PWD_ALLI_RELODER_25_JJAD",
-        "burnAreaCoeff": 0.1756,
-        "burnAreaFillSlope": -1.388,
-        "burnAreaBoreSlope": -0.2464,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=34",
-          "OVERBORE_ENVELOPE expR=15.6 — verify velocity with chronograph"
-        ],
-        "burnAreaExpansionSlope": -0.1122
-      },
-      {
-        "id": "PWD_HODG_H50BMG_2J1E",
-        "burnAreaCoeff": 0.1356,
-        "burnAreaFillSlope": -1.359,
-        "burnAreaBoreSlope": -0.0105,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-320fps pressureMae=3726psi",
-          "OVERBORE_REGIME share=100% expR=16.9"
-        ],
-        "burnAreaExpansionSlope": -0.1499
-      },
-      {
-        "id": "PWD_ACCU_2200_EA5G",
-        "burnAreaCoeff": 0.2089,
-        "burnAreaFillSlope": -0.4316,
-        "burnAreaBoreSlope": -0.1044,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=153fps pressureMae=2529psi"
-        ],
-        "burnAreaExpansionSlope": 0.0394
-      },
-      {
-        "id": "PWD_ACCU_LT_30_XE5M",
-        "burnAreaCoeff": 0.3381,
-        "burnAreaFillSlope": -0.8763,
-        "burnAreaBoreSlope": -0.1806,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=115fps pressureMae=2928psi"
-        ],
-        "burnAreaExpansionSlope": 0.0924
-      },
-      {
-        "id": "PWD_HODG_H4198_KN7E",
-        "burnAreaCoeff": 0.0478,
-        "burnAreaFillSlope": -0.0447,
-        "burnAreaBoreSlope": 0.0566,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0545
-      },
-      {
-        "id": "PWD_HODG_H322_V06U",
-        "burnAreaCoeff": 0.126,
-        "burnAreaFillSlope": -0.1856,
-        "burnAreaBoreSlope": -0.0526,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0455
-      },
-      {
-        "id": "PWD_ACCU_2460_P2ON",
-        "burnAreaCoeff": 0.104,
-        "burnAreaFillSlope": -0.335,
-        "burnAreaBoreSlope": 0.068,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=137fps pressureMae=3654psi"
-        ],
-        "burnAreaExpansionSlope": -0.0363
-      },
-      {
-        "id": "PWD_HODG_BENCHMARK_BIU3",
-        "burnAreaCoeff": 0.1435,
-        "burnAreaFillSlope": -0.3216,
-        "burnAreaBoreSlope": -0.0252,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4037psi"
-        ],
-        "burnAreaExpansionSlope": -0.0066
-      },
-      {
-        "id": "PWD_ALLI_RELODER_10X_98AC",
-        "burnAreaCoeff": 0.2165,
-        "burnAreaFillSlope": -0.6867,
-        "burnAreaBoreSlope": -0.0961,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=18"
-        ],
-        "burnAreaExpansionSlope": 0.0038
-      },
-      {
-        "id": "PWD_SHOO_AR_PLUS_LMUA",
-        "burnAreaCoeff": 0.2431,
-        "burnAreaFillSlope": -1.8234,
-        "burnAreaBoreSlope": 0.0684,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0305
-      },
-      {
-        "id": "PWD_ALLI_4000_MR_KRWA",
-        "burnAreaCoeff": 0.053,
-        "burnAreaFillSlope": -0.3492,
-        "burnAreaBoreSlope": 0.1413,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=48",
-          "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
-        ],
-        "burnAreaExpansionSlope": 0.0629
+        "burnAreaExpansionSlope": 0.0922
       },
       {
         "id": "PWD_HODG_LEVEREVOLUTION_XTV3",
-        "burnAreaCoeff": 0.0825,
-        "burnAreaFillSlope": -0.3932,
-        "burnAreaBoreSlope": 0.0188,
+        "burnAreaCoeff": 0.0808,
+        "burnAreaFillSlope": -0.3654,
+        "burnAreaBoreSlope": 0.0065,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0487
+        "burnAreaExpansionSlope": 0.0467
       },
       {
         "id": "PWD_VIHT_24N41_5S8S",
-        "burnAreaCoeff": 0.1414,
-        "burnAreaFillSlope": -1.3245,
-        "burnAreaBoreSlope": 0.4989,
+        "burnAreaCoeff": 0.0931,
+        "burnAreaFillSlope": -1.2208,
+        "burnAreaBoreSlope": 0.3146,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=13",
-          "OVERBORE_ENVELOPE expR=14.5 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=12",
+          "OVERBORE_ENVELOPE expR=14.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0985
+        "burnAreaExpansionSlope": -0.0195
       },
       {
         "id": "PWD_VIHT_N150_V1H7",
-        "burnAreaCoeff": 0.2431,
-        "burnAreaFillSlope": -1.5416,
-        "burnAreaBoreSlope": -0.0602,
+        "burnAreaCoeff": 0.2482,
+        "burnAreaFillSlope": -1.482,
+        "burnAreaBoreSlope": 0.0377,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=371",
-          "OVERBORE_ENVELOPE expR=10.1 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=359",
+          "OVERBORE_ENVELOPE expR=10.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0057
+        "burnAreaExpansionSlope": -0.003
       },
       {
         "id": "PWD_ACCU_4350_R1AB",
-        "burnAreaCoeff": 0.0723,
-        "burnAreaFillSlope": -0.7902,
-        "burnAreaBoreSlope": 0.1412,
+        "burnAreaCoeff": 0.0712,
+        "burnAreaFillSlope": -0.7569,
+        "burnAreaBoreSlope": 0.1389,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0641
+        "burnAreaExpansionSlope": 0.0644
       },
       {
         "id": "PWD_VIHT_N110_V1H2",
-        "burnAreaCoeff": 0.3014,
-        "burnAreaFillSlope": -0.9448,
-        "burnAreaBoreSlope": -0.1575,
+        "burnAreaCoeff": 0.3513,
+        "burnAreaFillSlope": -0.6574,
+        "burnAreaBoreSlope": -0.4953,
         "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
+        "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5041psi"
+          "STRUCTURAL_VELOCITY_GAP bias=-97fps pressureMae=3062psi"
         ],
-        "burnAreaExpansionSlope": -0.0009
+        "burnAreaExpansionSlope": 0.0425
       },
       {
         "id": "PWD_VIHT_N120_V1H3",
-        "burnAreaCoeff": 0.2906,
-        "burnAreaFillSlope": -1.0482,
-        "burnAreaBoreSlope": 0.2083,
+        "burnAreaCoeff": 0.3425,
+        "burnAreaFillSlope": -1.3759,
+        "burnAreaBoreSlope": 0.1041,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=32"
+          "ANCHOR_ONLY_FIT n=29"
         ],
-        "burnAreaExpansionSlope": 0.076
+        "burnAreaExpansionSlope": 0.0762
       },
       {
         "id": "PWD_HODG_H110_H1GA",
-        "burnAreaCoeff": 0.3215,
-        "burnAreaFillSlope": -1.0528,
+        "burnAreaCoeff": 0.2345,
+        "burnAreaFillSlope": 0.2684,
         "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-143fps pressureMae=3214psi"
+          "STRUCTURAL_VELOCITY_GAP bias=-142fps pressureMae=2791psi"
         ],
-        "burnAreaExpansionSlope": 0.0759
+        "burnAreaExpansionSlope": 0.0746
       },
       {
         "id": "PWD_HODG_CFEBLK_H1GB",
-        "burnAreaCoeff": 0.0332,
-        "burnAreaFillSlope": -1.5439,
-        "burnAreaBoreSlope": -0.4997,
+        "burnAreaCoeff": 0.0512,
+        "burnAreaFillSlope": -1.3308,
+        "burnAreaBoreSlope": -0.4583,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=9230psi"
+          "PRESSURE_FIT_LOOSE mae=5955psi"
         ],
         "burnAreaExpansionSlope": 0.0759
       },
       {
         "id": "PWD_HODG_TRAILBOSS_H1GC",
-        "burnAreaCoeff": 0.7872,
-        "burnAreaFillSlope": -1.2563,
-        "burnAreaBoreSlope": 0.4988,
+        "burnAreaCoeff": 0.5115,
+        "burnAreaFillSlope": -1.3228,
+        "burnAreaBoreSlope": 0.3407,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=172fps pressureMae=2686psi",
-          "OVERBORE_REGIME share=73% expR=11.5"
+          "STRUCTURAL_VELOCITY_GAP bias=143fps pressureMae=2776psi",
+          "OVERBORE_REGIME share=67% expR=11.5"
         ],
-        "burnAreaExpansionSlope": -0.1466
+        "burnAreaExpansionSlope": -0.0348
       },
       {
         "id": "PWD_IMR_4227_I1G5",
-        "burnAreaCoeff": 0.2931,
-        "burnAreaFillSlope": 0.0413,
-        "burnAreaBoreSlope": -0.4899,
+        "burnAreaCoeff": 0.4554,
+        "burnAreaFillSlope": -1.1756,
+        "burnAreaBoreSlope": -0.4995,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4717psi"
+          "PRESSURE_FIT_LOOSE mae=4118psi"
         ],
         "burnAreaExpansionSlope": 0.0759
       },
@@ -34002,7 +34257,7 @@
         "burnAreaCoeff": 0.1099,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
-        "energyScaleFactor": 1.1172,
+        "energyScaleFactor": 1.1284,
         "calibrationConfidence": "LOW",
         "calibrationFlags": [
           "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
@@ -34011,49 +34266,50 @@
       },
       {
         "id": "PWD_ACCU_1680_R1AC",
-        "burnAreaCoeff": 0.3024,
-        "burnAreaFillSlope": -1.5617,
-        "burnAreaBoreSlope": -0.3665,
+        "burnAreaCoeff": 0.2427,
+        "burnAreaFillSlope": -1.0698,
+        "burnAreaBoreSlope": -0.4189,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=5809psi"
+          "PRESSURE_FIT_LOOSE mae=5706psi"
         ],
         "burnAreaExpansionSlope": 0.0759
       },
       {
-        "id": "PWD_ALLI_RL7_A1L0",
-        "burnAreaCoeff": 0.2337,
-        "burnAreaFillSlope": 0.0156,
-        "burnAreaBoreSlope": 0.1575,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
+        "id": "PWD_ALLI_RELODER_7_A1L0",
+        "burnAreaCoeff": 0.3772,
+        "burnAreaFillSlope": 0,
+        "burnAreaBoreSlope": 0,
+        "energyScaleFactor": 1.0793,
+        "calibrationConfidence": "LOW",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=7"
+          "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
         ],
-        "burnAreaExpansionSlope": 0.061
+        "burnAreaExpansionSlope": 0
       },
       {
         "id": "PWD_ALLI_VARMINT_A1L5",
-        "burnAreaCoeff": 0.0817,
-        "burnAreaFillSlope": 0.0352,
-        "burnAreaBoreSlope": 0.0252,
+        "burnAreaCoeff": 0.2228,
+        "burnAreaFillSlope": -0.804,
+        "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
-        "calibrationConfidence": "HIGH",
+        "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=33"
+          "ANCHOR_ONLY_FIT n=16",
+          "OVERBORE_ENVELOPE expR=10.3 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.0029
+        "burnAreaExpansionSlope": -0.0418
       },
       {
         "id": "PWD_ACCU_4100_R1AD",
-        "burnAreaCoeff": 0.0661,
-        "burnAreaFillSlope": 1.1972,
-        "burnAreaBoreSlope": 0.1703,
+        "burnAreaCoeff": 0.083,
+        "burnAreaFillSlope": -0.0935,
+        "burnAreaBoreSlope": -0.0321,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.1332
+        "burnAreaExpansionSlope": 0.1014
       },
       {
         "id": "PWD_ACCU_NO9_R1AE",
@@ -34080,16 +34336,16 @@
       },
       {
         "id": "PWD_HODG_US869_H1GE",
-        "burnAreaCoeff": 0.0178,
-        "burnAreaFillSlope": -0.3182,
-        "burnAreaBoreSlope": 0.4975,
+        "burnAreaCoeff": 0.009,
+        "burnAreaFillSlope": 0.6869,
+        "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-186fps pressureMae=3513psi",
-          "OVERBORE_REGIME share=100% expR=16.0"
+          "STRUCTURAL_VELOCITY_GAP bias=-175fps pressureMae=3314psi",
+          "OVERBORE_REGIME share=100% expR=15.9"
         ],
-        "burnAreaExpansionSlope": 0.0304
+        "burnAreaExpansionSlope": 0.15
       },
       {
         "id": "PWD_ALLI_300MP_A1L6",
@@ -34118,12 +34374,15 @@
       },
       {
         "id": "PWD_SHOO_SWTR_S5W7",
-        "burnAreaCoeff": 0.0796,
-        "burnAreaFillSlope": 0.6394,
-        "burnAreaBoreSlope": 0.0338,
-        "energyScaleFactor": 1.1118,
-        "calibrationConfidence": "HIGH",
-        "calibrationFlags": []
+        "burnAreaCoeff": 0.1483,
+        "burnAreaFillSlope": 0,
+        "burnAreaBoreSlope": 0,
+        "energyScaleFactor": 1.1257,
+        "calibrationConfidence": "LOW",
+        "calibrationFlags": [
+          "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
+        ],
+        "burnAreaExpansionSlope": 0
       },
       {
         "id": "PWD_SHOO_SWSBR_S5W8",
@@ -34161,7 +34420,7 @@
         ]
       },
       {
-        "id": "PWD_ALLI_RL50_A1L8",
+        "id": "PWD_ALLI_RELODER_50_A1L8",
         "burnAreaCoeff": 0.0409,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
@@ -34184,10 +34443,10 @@
       },
       {
         "id": "PWD_HODG_SR4759_H1GH",
-        "burnAreaCoeff": 0.2895,
+        "burnAreaCoeff": 0.3293,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
-        "energyScaleFactor": 1.12,
+        "energyScaleFactor": 1.0606,
         "calibrationConfidence": "LOW",
         "calibrationFlags": [
           "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
@@ -34196,16 +34455,16 @@
       },
       {
         "id": "PWD_NORM_217_N1H0",
-        "burnAreaCoeff": 0.2714,
-        "burnAreaFillSlope": -1.8429,
-        "burnAreaBoreSlope": 0.2794,
+        "burnAreaCoeff": 0.1801,
+        "burnAreaFillSlope": -1.2531,
+        "burnAreaBoreSlope": 0.3654,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "ANCHOR_ONLY_FIT n=9",
-          "OVERBORE_ENVELOPE expR=13.8 — verify velocity with chronograph"
+          "ANCHOR_ONLY_FIT n=6",
+          "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": -0.067
+        "burnAreaExpansionSlope": -0.126
       },
       {
         "id": "PWD_HODG_CLAYS_H1GI",
@@ -34229,37 +34488,37 @@
       },
       {
         "id": "PWD_NORM_TS155_N1H1",
-        "burnAreaCoeff": 0.0752,
-        "burnAreaFillSlope": -0.3135,
-        "burnAreaBoreSlope": -0.1741,
+        "burnAreaCoeff": 0.0911,
+        "burnAreaFillSlope": -0.653,
+        "burnAreaBoreSlope": -0.188,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=5"
         ],
-        "burnAreaExpansionSlope": -0.0579
+        "burnAreaExpansionSlope": 0.0302
       },
       {
         "id": "PWD_HODG_LILGUN_H1G8",
-        "burnAreaCoeff": 0.4622,
-        "burnAreaFillSlope": -1.466,
-        "burnAreaBoreSlope": -0.496,
+        "burnAreaCoeff": 0.5022,
+        "burnAreaFillSlope": -1.3889,
+        "burnAreaBoreSlope": -0.4999,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "PRESSURE_FIT_LOOSE mae=4531psi"
+          "PRESSURE_FIT_LOOSE mae=4343psi"
         ],
-        "burnAreaExpansionSlope": 0.0683
+        "burnAreaExpansionSlope": 0.0759
       },
       {
         "id": "PWD_SHOO_SOCOM_8NG1",
-        "burnAreaCoeff": 0.0428,
-        "burnAreaFillSlope": 0.5915,
-        "burnAreaBoreSlope": 0.1113,
+        "burnAreaCoeff": 0.0239,
+        "burnAreaFillSlope": 2.3171,
+        "burnAreaBoreSlope": -0.4928,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0237
+        "burnAreaExpansionSlope": -0.0466
       },
       {
         "id": "PWD_SHOO_SW_BMG_8NG2",
@@ -34267,44 +34526,40 @@
       },
       {
         "id": "PWD_SHOO_TAC_RIFLE_8NG3",
-        "burnAreaCoeff": 0.1368,
-        "burnAreaFillSlope": -0.3073,
-        "burnAreaBoreSlope": 0.1107,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "STRUCTURAL_GAP",
-        "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=127fps pressureMae=3875psi"
-        ],
-        "burnAreaExpansionSlope": 0.0035
-      },
-      {
-        "id": "PWD_SHOO_THE_CREED_8NG4",
-        "burnAreaCoeff": 0.095,
-        "burnAreaFillSlope": -0.0372,
-        "burnAreaBoreSlope": 0.0536,
-        "energyScaleFactor": 1,
-        "calibrationConfidence": "MEDIUM",
-        "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=9.8 — verify velocity with chronograph"
-        ],
-        "burnAreaExpansionSlope": 0.0367
-      },
-      {
-        "id": "PWD_SHOO_THE_PATRIOT_8NG5",
-        "burnAreaCoeff": 0.1259,
-        "burnAreaFillSlope": 0.323,
-        "burnAreaBoreSlope": 0.1167,
+        "burnAreaCoeff": 0.1098,
+        "burnAreaFillSlope": 0.2184,
+        "burnAreaBoreSlope": 0.0248,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0067
+        "burnAreaExpansionSlope": 0.0266
+      },
+      {
+        "id": "PWD_SHOO_THE_CREED_8NG4",
+        "burnAreaCoeff": 0.0985,
+        "burnAreaFillSlope": 0.6565,
+        "burnAreaBoreSlope": 0.3666,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0793
+      },
+      {
+        "id": "PWD_SHOO_THE_PATRIOT_8NG5",
+        "burnAreaCoeff": 0.1496,
+        "burnAreaFillSlope": -0.017,
+        "burnAreaBoreSlope": 0.2107,
+        "energyScaleFactor": 1,
+        "calibrationConfidence": "HIGH",
+        "calibrationFlags": [],
+        "burnAreaExpansionSlope": 0.0209
       },
       {
         "id": "PWD_SHOO_TUBAL7000_8NG6",
-        "burnAreaCoeff": 0.7515,
+        "burnAreaCoeff": 0.4391,
         "burnAreaFillSlope": 0,
         "burnAreaBoreSlope": 0,
-        "energyScaleFactor": 1.0975,
+        "energyScaleFactor": 1.0863,
         "calibrationConfidence": "LOW",
         "calibrationFlags": [
           "NO_PRESSURE_DATA_VELOCITY_FALLBACK"
@@ -34335,11 +34590,11 @@
       },
       {
         "id": "CTG_223REM_cR82",
-        "transducerScaleFactor": 0.71318
+        "transducerScaleFactor": 0.75007
       },
       {
         "id": "CTG_224VALK_N2H5",
-        "transducerScaleFactor": 0.72712,
+        "transducerScaleFactor": 0.78085,
         "gradientBetaScale": 0.3
       },
       {
@@ -34389,7 +34644,7 @@
       },
       {
         "id": "CTG_3030_N3HG",
-        "transducerScaleFactor": 0.65118
+        "transducerScaleFactor": 0.68701
       },
       {
         "id": "CTG_300BLK_cI72",
@@ -34397,7 +34652,7 @@
       },
       {
         "id": "CTG_300NORMAMAG_cN73",
-        "transducerScaleFactor": 0.81717
+        "transducerScaleFactor": 0.77439
       },
       {
         "id": "CTG_300PRC_cK02",
@@ -34437,7 +34692,7 @@
       },
       {
         "id": "CTG_65CM_cN72",
-        "transducerScaleFactor": 0.86261
+        "transducerScaleFactor": 0.81912
       },
       {
         "id": "CTG_65GRN_cS32",
@@ -34453,7 +34708,8 @@
       },
       {
         "id": "CTG_65300WBYMAG_cN73",
-        "transducerScaleFactor": 0.84259
+        "transducerScaleFactor": 0.84259,
+        "gradientBetaScale": 6.1
       },
       {
         "id": "CTG_65SWE_N6HA",
@@ -34478,7 +34734,7 @@
       },
       {
         "id": "CTG_6PPC_cJ12",
-        "transducerScaleFactor": 0.67236
+        "transducerScaleFactor": 0.71124
       },
       {
         "id": "CTG_6REM_N6H7",
@@ -34495,7 +34751,7 @@
       {
         "id": "CTG_7RUM_cW92",
         "transducerScaleFactor": 0.78677,
-        "gradientBetaScale": 4.5
+        "gradientBetaScale": 6.45
       },
       {
         "id": "CTG_7REMMAG_cW92",
@@ -34515,7 +34771,7 @@
       },
       {
         "id": "CTG_222REM_cR81",
-        "transducerScaleFactor": 0.83067
+        "transducerScaleFactor": 0.78651
       },
       {
         "id": "CTG_222REMMAG_cR84",
@@ -34535,7 +34791,7 @@
       },
       {
         "id": "CTG_6284_N6H9",
-        "transducerScaleFactor": 1.0687
+        "transducerScaleFactor": 0.81
       },
       {
         "id": "CTG_264WINMAG_cN78",
@@ -34571,7 +34827,8 @@
       },
       {
         "id": "CTG_28NOSLER_cN7D",
-        "transducerScaleFactor": 0.84478
+        "transducerScaleFactor": 0.84478,
+        "gradientBetaScale": 6.75
       },
       {
         "id": "CTG_300SAV_cN7E",
@@ -34592,7 +34849,7 @@
       {
         "id": "CTG_300RUM_cN7J",
         "transducerScaleFactor": 0.83698,
-        "gradientBetaScale": 6.65
+        "gradientBetaScale": 8
       },
       {
         "id": "CTG_300LAPMAG_cN7K",
@@ -34600,7 +34857,8 @@
       },
       {
         "id": "CTG_300WBY_N3HI",
-        "transducerScaleFactor": 0.92236
+        "transducerScaleFactor": 0.83,
+        "gradientBetaScale": 7
       },
       {
         "id": "CTG_30NOSLER_cN7L",
@@ -34649,7 +34907,8 @@
       },
       {
         "id": "CTG_338378WBY_cN7X",
-        "transducerScaleFactor": 0.92849
+        "transducerScaleFactor": 0.84,
+        "gradientBetaScale": 7
       },
       {
         "id": "CTG_338REMUM_cN7Y",
@@ -34689,7 +34948,7 @@
       },
       {
         "id": "CTG_4570MOD_cN8D",
-        "transducerScaleFactor": 0.4
+        "transducerScaleFactor": 0.75772
       },
       {
         "id": "CTG_458WINMAG_cN8E",
@@ -34719,7 +34978,7 @@
       },
       {
         "id": "CTG_6DASHER_cN98",
-        "transducerScaleFactor": 0.72123
+        "transducerScaleFactor": 0.68507
       },
       {
         "id": "CTG_25WSSM_cN99",
@@ -34740,7 +34999,7 @@
       {
         "id": "CTG_26NOSLER_cNA3",
         "transducerScaleFactor": 0.89368,
-        "gradientBetaScale": 6.15
+        "gradientBetaScale": 5.35
       },
       {
         "id": "CTG_27NOSLER_cNA4",
@@ -34784,11 +35043,11 @@
       },
       {
         "id": "CTG_338ARC_cNAF",
-        "transducerScaleFactor": 0.85093
+        "transducerScaleFactor": 0.92949
       },
       {
         "id": "CTG_340WBYMAG_cNG0",
-        "transducerScaleFactor": 0.82283
+        "transducerScaleFactor": 0.88117
       },
       {
         "id": "CTG_35WHELEN_cNG1",
