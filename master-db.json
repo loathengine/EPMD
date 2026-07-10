@@ -5691,7 +5691,7 @@
       "id": "CTG_27NOSLER_cNA4",
       "name": "27 Nosler",
       "diameterId": "DIA_277_K9L0",
-      "baseCapacityH2oGrams": 6.8,
+      "baseCapacityH2oGrams": 6.3503,
       "trimLengthMm": 64.77,
       "maxCaseLengthMm": 65.02,
       "oalMm": 90.17,
@@ -5738,7 +5738,7 @@
       "twistRateInchesPerTurn": 8.5,
       "bulletDiameterMmResolved": 7.036,
       "boreDiameterMmResolved": 6.858,
-      "capacitySource": "SAAMI Technical Specification"
+      "capacitySource": "Corrected: dimensional match to 28 Nosler + QuickLOAD ref (~98gr). Original SAAMI value of 104.9gr was erroneous (exceeded 28 Nosler capacity despite identical case dimensions)."
     },
     {
       "id": "CTG_25WBYRPM_cNA5",
@@ -5797,7 +5797,7 @@
       "id": "CTG_7WBYMAG_cNA6",
       "name": "7mm Weatherby Magnum",
       "diameterId": "DIA_284_S3F6",
-      "baseCapacityH2oGrams": 6,
+      "baseCapacityH2oGrams": 5.3135,
       "trimLengthMm": 65.02,
       "maxCaseLengthMm": 65.28,
       "oalMm": 88.9,
@@ -5844,7 +5844,7 @@
       "twistRateInchesPerTurn": 10,
       "bulletDiameterMmResolved": 7.214,
       "boreDiameterMmResolved": 7.036,
-      "capacitySource": "SAAMI Technical Specification"
+      "capacitySource": "Corrected: QuickLOAD reference + belted magnum family analysis. Original SAAMI value of 92.6gr was erroneous (exceeded .270 Wby Mag at 91.8gr despite 7.6mm shorter case)."
     },
     {
       "id": "CTG_7WSM_cNA7",
@@ -6997,7 +6997,9 @@
       "twistRateInchesPerTurn": 8,
       "bulletDiameterMmResolved": 6.706,
       "boreDiameterMmResolved": 6.502,
-      "capacitySource": "SAAMI Technical Specification"
+      "capacitySource": "SAAMI Technical Specification",
+      "grooveDiameterMm": 6.808,
+      "boreNotes": "Historical Italian Carcano uses .268\" (6.808mm) groove diameter, but Hodgdon tests with standard .264\" (6.706mm) bullets. Undersized bullets in oversized grooves reduce gas seal and peak pressure. Simulation over-predicts because it models normal engraving for .264\" bullets in a .256\" bore, unaware of the .268\" groove gap."
     },
     {
       "id": "CTG_75X55SWS_cNI1",
@@ -7960,6 +7962,66 @@
       "bulletDiameterMmResolved": 7.823,
       "boreDiameterMmResolved": 7.62,
       "capacitySource": "Remington / SAAMI drawing"
+    },
+    {
+      "id": "CTG_556NATO_cN56",
+      "name": "5.56x45mm NATO",
+      "diameterId": "DIA_224_L5X8",
+      "baseCapacityH2oGrams": 1.79,
+      "trimLengthMm": 44.45,
+      "maxCaseLengthMm": 44.704,
+      "oalMm": 57.404,
+      "primerPocketId": "PKT_SML",
+      "maxSaamiPa": 430000000,
+      "flashHoleDiameterMm": 2.03,
+      "shoulderAngleDeg": 23,
+      "bodyDiameterMm": 9.58,
+      "bulletDiameterMm": 5.69,
+      "boreDiameterMm": 5.563,
+      "standards": [
+        {
+          "standard": "nato",
+          "maxPressurePsi": 62366,
+          "nominalVelocityFps": 2970,
+          "referenceSource": "STANAG 4172"
+        },
+        {
+          "standard": "saami",
+          "maxPressurePsi": 55000,
+          "nominalVelocityFps": 2800,
+          "referenceSource": "ANSI/SAAMI (listed under .223 Rem, compatible case)"
+        },
+        {
+          "standard": "cip",
+          "maxPressureBar": 3800,
+          "referenceSource": "C.I.P. TDCC Sheet 5.56x45"
+        }
+      ],
+      "externalDimensions": {
+        "baseDiameterP1Mm": 9.58,
+        "bodyDiameterAtShoulderP2Mm": 9,
+        "shoulderNeckJunctionDiameterH1Mm": 6.43,
+        "neckDiameterAtMouthH2Mm": 6.43,
+        "lengthToShoulderStartL1Mm": 36.52,
+        "lengthToShoulderNeckJunctionL2Mm": 39.55,
+        "totalCaseLengthL3Mm": 44.7
+      },
+      "wallThicknessProfile": {
+        "webThicknessMm": 4.8,
+        "wallThicknessAtBaseMm": 0.81,
+        "wallThicknessAtMidBodyMm": 0.51,
+        "wallThicknessAtShoulderMm": 0.38,
+        "wallThicknessAtNeckMm": 0.31
+      },
+      "freeboreLengthMm": 4.1148,
+      "freeboreDiameterMm": 5.69,
+      "standardTwistMm": 178,
+      "maxSaamiPressurePsi": 62366,
+      "cipTestBarrelMm": 508,
+      "twistRateInchesPerTurn": 7,
+      "bulletDiameterMmResolved": 5.69,
+      "boreDiameterMmResolved": 5.563,
+      "capacitySource": "Estimated from military brass measurements (LC/WCC)"
     }
   ],
   "powders": [
@@ -25959,7 +26021,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 15,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (15mm, 55% of OAL) and ogive (12mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -25981,7 +26045,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 14,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (14mm, 54% of OAL) and ogive (12mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26003,7 +26069,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 17,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (17mm, 55% of OAL) and ogive (14mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26047,7 +26115,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 17,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (17mm, 55% of OAL) and ogive (14mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26113,7 +26183,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 11,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (11mm, 51% of OAL) and ogive (10mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26135,7 +26207,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 13,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (13mm, 55% of OAL) and ogive (11mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26157,7 +26231,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 15,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (15mm, 56% of OAL) and ogive (12mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26201,7 +26277,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 20,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (20mm, 55% of OAL) and ogive (16mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26267,7 +26345,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 21,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (21mm, 54% of OAL) and ogive (18mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -26531,7 +26611,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 15,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (15mm, 54% of OAL) and ogive (13mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_SPEER_S2P1",
       "ballistics": {
@@ -26553,7 +26635,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 22,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (22mm, 57% of OAL) and ogive (17mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_SPEER_S2P1",
       "ballistics": {
@@ -26575,7 +26659,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 26,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (26mm, 55% of OAL) and ogive (21mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_SPEER_S2P1",
       "ballistics": {
@@ -27433,7 +27519,9 @@
         "boatTailLengthMm": 0,
         "bearingSurfaceMm": 16.5,
         "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
+        "engravingPressurePa": 32000000,
+        "dimensionQuality": "estimated",
+        "dimensionNotes": "Bearing surface (16.5mm, 55% of OAL) and ogive (13.5mm) appear to be rounded estimates, not measured values. Typical bearing/OAL ratio for this bullet type is 25-40%."
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {
@@ -33141,7 +33229,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.6 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0263
       },
@@ -33154,7 +33242,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=11",
-          "OVERBORE_ENVELOPE expR=10.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.6 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0092
       },
@@ -33167,7 +33255,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=28",
-          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0257
       },
@@ -33180,7 +33268,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=17",
-          "OVERBORE_ENVELOPE expR=13.8 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.8 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0328
       },
@@ -33193,7 +33281,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=15",
-          "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0077
       },
@@ -33225,7 +33313,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=14.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=14.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0458
       },
@@ -33247,7 +33335,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.3 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.3 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0197
       },
@@ -33259,7 +33347,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.4 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.021
       },
@@ -33271,7 +33359,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0317
       },
@@ -33283,7 +33371,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=10.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.024
       },
@@ -33295,7 +33383,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.8 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0637
       },
@@ -33347,7 +33435,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.8 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.8 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0532
       },
@@ -33359,7 +33447,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0324
       },
@@ -33381,7 +33469,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.4 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0744
       },
@@ -33439,7 +33527,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=10.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.4 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.021
       },
@@ -33451,7 +33539,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.5 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0666
       },
@@ -33463,7 +33551,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0292
       },
@@ -33496,7 +33584,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=90",
-          "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.054
       },
@@ -33557,7 +33645,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=343",
-          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0033
       },
@@ -33570,7 +33658,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=209",
-          "OVERBORE_ENVELOPE expR=12.9 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.9 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.009
       },
@@ -33607,7 +33695,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=391",
-          "OVERBORE_ENVELOPE expR=10.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.6 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0066
       },
@@ -33620,7 +33708,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=251",
-          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0075
       },
@@ -33633,7 +33721,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=320",
-          "OVERBORE_ENVELOPE expR=12.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0069
       },
@@ -33646,7 +33734,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=152",
-          "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.8 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0154
       },
@@ -33659,7 +33747,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=48",
-          "OVERBORE_ENVELOPE expR=13.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0073
       },
@@ -33672,7 +33760,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=91",
-          "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.4 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0484
       },
@@ -33694,7 +33782,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.1 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0043
       },
@@ -33741,7 +33829,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=12.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0781
       },
@@ -33779,7 +33867,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.9 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.9 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.15
       },
@@ -33791,7 +33879,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=15.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=15.1 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0691
       },
@@ -33803,7 +33891,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=10.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0113
       },
@@ -33816,7 +33904,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=9",
-          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.087
       },
@@ -33829,7 +33917,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=11",
-          "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.5 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.005
       },
@@ -33841,7 +33929,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0331
       },
@@ -33854,7 +33942,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=23",
-          "OVERBORE_ENVELOPE expR=12.3 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.3 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0193
       },
@@ -33867,7 +33955,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=23",
-          "OVERBORE_ENVELOPE expR=12.9 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.9 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0248
       },
@@ -33879,7 +33967,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=12.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.065
       },
@@ -33901,7 +33989,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=13.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0606
       },
@@ -33913,7 +34001,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=12.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=12.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0579
       },
@@ -33957,7 +34045,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=10.3 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.3 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0052
       },
@@ -33969,7 +34057,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0169
       },
@@ -34016,7 +34104,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=10",
-          "OVERBORE_ENVELOPE expR=15.1 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=15.1 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.05
       },
@@ -34130,7 +34218,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=6",
-          "OVERBORE_ENVELOPE expR=13.3 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.3 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.1185
       },
@@ -34153,7 +34241,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=12",
-          "OVERBORE_ENVELOPE expR=14.7 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=14.7 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.1499
       },
@@ -34166,7 +34254,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=357",
-          "OVERBORE_ENVELOPE expR=10.2 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.2 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0152
       },
@@ -34178,7 +34266,7 @@
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
-          "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=11.6 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": 0.0643
       },
@@ -34298,7 +34386,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=16",
-          "OVERBORE_ENVELOPE expR=10.3 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.3 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.05
       },
@@ -34369,7 +34457,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=13",
-          "OVERBORE_ENVELOPE expR=10.8 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=10.8 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.0039
       },
@@ -34463,7 +34551,7 @@
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=6",
-          "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
+          "OVERBORE_ENVELOPE expR=13.4 \u2014 verify velocity with chronograph"
         ],
         "burnAreaExpansionSlope": -0.126
       },
