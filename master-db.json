@@ -33201,13 +33201,13 @@
       },
       {
         "id": "PWD_ACCU_4064_R1A8",
-        "burnAreaCoeff": 0.0999,
-        "burnAreaFillSlope": -0.4694,
-        "burnAreaBoreSlope": -0.055,
+        "burnAreaCoeff": 0.0993,
+        "burnAreaFillSlope": -0.458,
+        "burnAreaBoreSlope": -0.0535,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0345
+        "burnAreaExpansionSlope": -0.0329
       },
       {
         "id": "PWD_ACCU_LT32_R1AA",
@@ -33223,9 +33223,9 @@
       },
       {
         "id": "PWD_ACCU_MAGPRO_R1A9",
-        "burnAreaCoeff": 0.0666,
-        "burnAreaFillSlope": -0.8163,
-        "burnAreaBoreSlope": 0.4025,
+        "burnAreaCoeff": 0.0665,
+        "burnAreaFillSlope": -0.8178,
+        "burnAreaBoreSlope": 0.3963,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
@@ -33287,35 +33287,35 @@
       },
       {
         "id": "PWD_HODG_BLC2_H1G8",
-        "burnAreaCoeff": 0.0914,
-        "burnAreaFillSlope": -0.6071,
-        "burnAreaBoreSlope": 0.0102,
+        "burnAreaCoeff": 0.0861,
+        "burnAreaFillSlope": -0.4253,
+        "burnAreaBoreSlope": 0.0323,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0173
+        "burnAreaExpansionSlope": 0.0212
       },
       {
         "id": "PWD_HODG_CFE223_H1G6",
-        "burnAreaCoeff": 0.0786,
-        "burnAreaFillSlope": -0.4614,
-        "burnAreaBoreSlope": 0.07,
+        "burnAreaCoeff": 0.0779,
+        "burnAreaFillSlope": -0.4897,
+        "burnAreaBoreSlope": 0.0331,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.025
+        "burnAreaExpansionSlope": 0.0244
       },
       {
         "id": "PWD_HODG_H1000_H1G5",
         "burnAreaCoeff": 0.0385,
-        "burnAreaFillSlope": -0.1629,
-        "burnAreaBoreSlope": 0.1667,
+        "burnAreaFillSlope": -0.1476,
+        "burnAreaBoreSlope": 0.2151,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=14.1 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0471
+        "burnAreaExpansionSlope": 0.0463
       },
       {
         "id": "PWD_HODG_H335_H1GB",
@@ -33329,15 +33329,15 @@
       },
       {
         "id": "PWD_HODG_H380_H1GC",
-        "burnAreaCoeff": 0.0493,
-        "burnAreaFillSlope": -0.6521,
-        "burnAreaBoreSlope": 0.1485,
+        "burnAreaCoeff": 0.0492,
+        "burnAreaFillSlope": -0.6391,
+        "burnAreaBoreSlope": 0.1548,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0285
+        "burnAreaExpansionSlope": 0.0282
       },
       {
         "id": "PWD_HODG_H414_H1GD",
@@ -33353,15 +33353,15 @@
       },
       {
         "id": "PWD_HODG_H4350_H1G2",
-        "burnAreaCoeff": 0.0723,
-        "burnAreaFillSlope": -0.2802,
-        "burnAreaBoreSlope": 0.1901,
+        "burnAreaCoeff": 0.0696,
+        "burnAreaFillSlope": -0.1888,
+        "burnAreaBoreSlope": 0.1847,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=11.6 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0278
+        "burnAreaExpansionSlope": 0.0346
       },
       {
         "id": "PWD_HODG_H4831SC_H1GF",
@@ -33377,15 +33377,15 @@
       },
       {
         "id": "PWD_HODG_H4831_H1GE",
-        "burnAreaCoeff": 0.0429,
-        "burnAreaFillSlope": -0.2291,
-        "burnAreaBoreSlope": 0.1802,
+        "burnAreaCoeff": 0.0437,
+        "burnAreaFillSlope": -0.2606,
+        "burnAreaBoreSlope": 0.1754,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0594
+        "burnAreaExpansionSlope": 0.0579
       },
       {
         "id": "PWD_HODG_H4895_H1G3",
@@ -33399,13 +33399,13 @@
       },
       {
         "id": "PWD_HODG_IMR4064_H1G9",
-        "burnAreaCoeff": 0.1009,
-        "burnAreaFillSlope": 0.3509,
-        "burnAreaBoreSlope": 0.1756,
+        "burnAreaCoeff": 0.1083,
+        "burnAreaFillSlope": 0.0414,
+        "burnAreaBoreSlope": 0.1437,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0049
+        "burnAreaExpansionSlope": 0.0014
       },
       {
         "id": "PWD_HODG_IMR4166_H1GK",
@@ -33429,15 +33429,15 @@
       },
       {
         "id": "PWD_HODG_IMR4350_H1G0",
-        "burnAreaCoeff": 0.0462,
-        "burnAreaFillSlope": 0.7913,
-        "burnAreaBoreSlope": 0.1999,
+        "burnAreaCoeff": 0.0466,
+        "burnAreaFillSlope": 0.762,
+        "burnAreaBoreSlope": 0.1977,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=11.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0522
+        "burnAreaExpansionSlope": 0.0516
       },
       {
         "id": "PWD_HODG_IMR4451_H1GL",
@@ -33453,38 +33453,38 @@
       },
       {
         "id": "PWD_HODG_IMR4895_H1GM",
-        "burnAreaCoeff": 0.0998,
-        "burnAreaFillSlope": 0.2546,
-        "burnAreaBoreSlope": 0.1147,
+        "burnAreaCoeff": 0.0993,
+        "burnAreaFillSlope": 0.2607,
+        "burnAreaBoreSlope": 0.1158,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.0115
+        "burnAreaExpansionSlope": 0.0103
       },
       {
         "id": "PWD_HODG_IMR7828SSC_H1GO",
-        "burnAreaCoeff": 0.0409,
-        "burnAreaFillSlope": 0.0834,
-        "burnAreaBoreSlope": 0.2943,
+        "burnAreaCoeff": 0.0407,
+        "burnAreaFillSlope": 0.0951,
+        "burnAreaBoreSlope": 0.2934,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=13.4 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0725
+        "burnAreaExpansionSlope": 0.073
       },
       {
         "id": "PWD_HODG_IMR7828_H1GN",
-        "burnAreaCoeff": 0.0462,
-        "burnAreaFillSlope": -0.1384,
-        "burnAreaBoreSlope": 0.1385,
+        "burnAreaCoeff": 0.0473,
+        "burnAreaFillSlope": -0.2044,
+        "burnAreaBoreSlope": 0.1279,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-128fps pressureMae=3516psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-128fps pressureMae=3523psi",
           "OVERBORE_REGIME share=97% expR=14.0"
         ],
-        "burnAreaExpansionSlope": 0.055
+        "burnAreaExpansionSlope": 0.0532
       },
       {
         "id": "PWD_HODG_IMR8208_H1GA",
@@ -33498,62 +33498,62 @@
       },
       {
         "id": "PWD_HODG_RETUMBO_H1G4",
-        "burnAreaCoeff": 0.0429,
-        "burnAreaFillSlope": -0.4209,
-        "burnAreaBoreSlope": 0.1252,
+        "burnAreaCoeff": 0.0416,
+        "burnAreaFillSlope": -0.4147,
+        "burnAreaBoreSlope": 0.1514,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-249fps pressureMae=3604psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-250fps pressureMae=3581psi",
           "OVERBORE_REGIME share=100% expR=15.0"
         ],
-        "burnAreaExpansionSlope": 0.0256
+        "burnAreaExpansionSlope": 0.0326
       },
       {
         "id": "PWD_HODG_VARGET_H1G1",
-        "burnAreaCoeff": 0.0937,
-        "burnAreaFillSlope": -0.2143,
-        "burnAreaBoreSlope": 0.0675,
+        "burnAreaCoeff": 0.0924,
+        "burnAreaFillSlope": -0.1301,
+        "burnAreaBoreSlope": 0.08,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0054
+        "burnAreaExpansionSlope": -0.0029
       },
       {
         "id": "PWD_RAMS_BIGGAME_R1A2",
-        "burnAreaCoeff": 0.0621,
-        "burnAreaFillSlope": -0.5209,
-        "burnAreaBoreSlope": -0.0165,
+        "burnAreaCoeff": 0.0634,
+        "burnAreaFillSlope": -0.5578,
+        "burnAreaBoreSlope": -0.0098,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=10.4 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0261
+        "burnAreaExpansionSlope": 0.0245
       },
       {
         "id": "PWD_RAMS_HUNTER_R1A3",
-        "burnAreaCoeff": 0.0632,
-        "burnAreaFillSlope": -0.702,
-        "burnAreaBoreSlope": 0.1648,
+        "burnAreaCoeff": 0.0648,
+        "burnAreaFillSlope": -0.7435,
+        "burnAreaBoreSlope": 0.1481,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=11.5 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0588
+        "burnAreaExpansionSlope": 0.053
       },
       {
         "id": "PWD_RAMS_MAGNUM_R1A4",
-        "burnAreaCoeff": 0.0569,
-        "burnAreaFillSlope": -0.7978,
-        "burnAreaBoreSlope": 0.3406,
+        "burnAreaCoeff": 0.0579,
+        "burnAreaFillSlope": -0.8208,
+        "burnAreaBoreSlope": 0.3451,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=13.7 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0263
+        "burnAreaExpansionSlope": 0.0247
       },
       {
         "id": "PWD_RAMS_TAC_R1A1",
@@ -33727,16 +33727,16 @@
       },
       {
         "id": "PWD_VIHT_N565_V5H6",
-        "burnAreaCoeff": 0.0703,
-        "burnAreaFillSlope": -1.0889,
-        "burnAreaBoreSlope": 0.2868,
+        "burnAreaCoeff": 0.0722,
+        "burnAreaFillSlope": -1.1508,
+        "burnAreaBoreSlope": 0.2502,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "ANCHOR_ONLY_FIT n=147",
           "OVERBORE_ENVELOPE expR=12.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0331
+        "burnAreaExpansionSlope": 0.0313
       },
       {
         "id": "PWD_VIHT_N568_V5H7",
@@ -33800,16 +33800,16 @@
       },
       {
         "id": "PWD_WINC_STABALLHD_W1N3",
-        "burnAreaCoeff": 0.0274,
-        "burnAreaFillSlope": 0.0198,
-        "burnAreaBoreSlope": 0.4351,
+        "burnAreaCoeff": 0.0261,
+        "burnAreaFillSlope": 0.1994,
+        "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-158fps pressureMae=3132psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-159fps pressureMae=3087psi",
           "OVERBORE_REGIME share=100% expR=15.0"
         ],
-        "burnAreaExpansionSlope": 0.0888
+        "burnAreaExpansionSlope": 0.0878
       },
       {
         "id": "PWD_WINC_STABALLMATCH_W1N2",
@@ -33835,53 +33835,53 @@
       },
       {
         "id": "PWD_RAMS_LRT_LB6B",
-        "burnAreaCoeff": 0.0329,
-        "burnAreaFillSlope": -0.8501,
-        "burnAreaBoreSlope": 0.4807,
+        "burnAreaCoeff": 0.0375,
+        "burnAreaFillSlope": -0.8617,
+        "burnAreaBoreSlope": 0.4111,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-274fps pressureMae=3153psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-270fps pressureMae=3237psi",
           "OVERBORE_REGIME share=100% expR=15.1"
         ],
-        "burnAreaExpansionSlope": 0.1019
+        "burnAreaExpansionSlope": 0.0637
       },
       {
         "id": "PWD_RAMS_GRAND_LM11",
-        "burnAreaCoeff": 0.0223,
-        "burnAreaFillSlope": 0.6282,
-        "burnAreaBoreSlope": 0.4912,
+        "burnAreaCoeff": 0.0221,
+        "burnAreaFillSlope": 0.6968,
+        "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-157fps pressureMae=3490psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-155fps pressureMae=3492psi",
           "OVERBORE_REGIME share=97% expR=13.5"
         ],
-        "burnAreaExpansionSlope": 0.1224
+        "burnAreaExpansionSlope": 0.1216
       },
       {
         "id": "PWD_IMPR_IMR_7977_GDVA",
-        "burnAreaCoeff": 0.0253,
-        "burnAreaFillSlope": 0.4298,
-        "burnAreaBoreSlope": 0.3426,
+        "burnAreaCoeff": 0.0254,
+        "burnAreaFillSlope": 0.4241,
+        "burnAreaBoreSlope": 0.347,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=13.8 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0932
+        "burnAreaExpansionSlope": 0.0938
       },
       {
         "id": "PWD_IMPR_IMR_8133_J4IF",
-        "burnAreaCoeff": 0.0162,
-        "burnAreaFillSlope": 2.3911,
-        "burnAreaBoreSlope": 0.4977,
+        "burnAreaCoeff": 0.0163,
+        "burnAreaFillSlope": 2.3711,
+        "burnAreaBoreSlope": 0.4973,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=15.0 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0998
+        "burnAreaExpansionSlope": 0.0995
       },
       {
         "id": "PWD_ACCU_2700_JFAE",
@@ -33923,15 +33923,15 @@
       },
       {
         "id": "PWD_HODG_SUPERFORMANCE_QPVF",
-        "burnAreaCoeff": 0.0351,
-        "burnAreaFillSlope": 0.1154,
-        "burnAreaBoreSlope": 0.2283,
+        "burnAreaCoeff": 0.0352,
+        "burnAreaFillSlope": 0.1087,
+        "burnAreaBoreSlope": 0.2277,
         "energyScaleFactor": 1,
         "calibrationConfidence": "MEDIUM",
         "calibrationFlags": [
           "OVERBORE_ENVELOPE expR=11.2 — verify velocity with chronograph"
         ],
-        "burnAreaExpansionSlope": 0.0181
+        "burnAreaExpansionSlope": 0.0182
       },
       {
         "id": "PWD_ALLI_RELODER_19_6C4J",
@@ -33961,26 +33961,26 @@
       },
       {
         "id": "PWD_HODG_HYBRID_100V_UMIK",
-        "burnAreaCoeff": 0.0672,
-        "burnAreaFillSlope": 0.0074,
-        "burnAreaBoreSlope": 0.2614,
+        "burnAreaCoeff": 0.0685,
+        "burnAreaFillSlope": -0.0537,
+        "burnAreaBoreSlope": 0.2507,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-115fps pressureMae=3458psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-115fps pressureMae=3457psi",
           "OVERBORE_REGIME share=85% expR=12.1"
         ],
-        "burnAreaExpansionSlope": 0.063
+        "burnAreaExpansionSlope": 0.0618
       },
       {
         "id": "PWD_IMPR_IMR_4320_E302",
-        "burnAreaCoeff": 0.1113,
-        "burnAreaFillSlope": -0.1809,
-        "burnAreaBoreSlope": 0.1799,
+        "burnAreaCoeff": 0.1127,
+        "burnAreaFillSlope": -0.2269,
+        "burnAreaBoreSlope": 0.1806,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0034
+        "burnAreaExpansionSlope": -0.005
       },
       {
         "id": "PWD_WINC_SUPREME_780_REI8",
@@ -34111,16 +34111,16 @@
       },
       {
         "id": "PWD_HODG_H50BMG_2J1E",
-        "burnAreaCoeff": 0.0572,
-        "burnAreaFillSlope": -1.066,
-        "burnAreaBoreSlope": 0.2492,
+        "burnAreaCoeff": 0.0387,
+        "burnAreaFillSlope": -0.9148,
+        "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-312fps pressureMae=3704psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-311fps pressureMae=3552psi",
           "OVERBORE_REGIME share=100% expR=16.9"
         ],
-        "burnAreaExpansionSlope": 0.0227
+        "burnAreaExpansionSlope": 0.096
       },
       {
         "id": "PWD_ACCU_2200_EA5G",
@@ -34393,13 +34393,13 @@
       },
       {
         "id": "PWD_ACCU_4100_R1AD",
-        "burnAreaCoeff": 0.083,
-        "burnAreaFillSlope": -0.1145,
-        "burnAreaBoreSlope": 0.0259,
+        "burnAreaCoeff": 0.0829,
+        "burnAreaFillSlope": -0.113,
+        "burnAreaBoreSlope": -0.1067,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": 0.1169
+        "burnAreaExpansionSlope": 0.1259
       },
       {
         "id": "PWD_ACCU_NO9_R1AE",
@@ -34427,12 +34427,12 @@
       {
         "id": "PWD_HODG_US869_H1GE",
         "burnAreaCoeff": 0.0069,
-        "burnAreaFillSlope": 1.5874,
+        "burnAreaFillSlope": 1.5923,
         "burnAreaBoreSlope": 0.5,
         "energyScaleFactor": 1,
         "calibrationConfidence": "STRUCTURAL_GAP",
         "calibrationFlags": [
-          "STRUCTURAL_VELOCITY_GAP bias=-167fps pressureMae=3043psi",
+          "STRUCTURAL_VELOCITY_GAP bias=-167fps pressureMae=3042psi",
           "OVERBORE_REGIME share=100% expR=15.9"
         ],
         "burnAreaExpansionSlope": 0.15
@@ -34602,13 +34602,13 @@
       },
       {
         "id": "PWD_SHOO_SOCOM_8NG1",
-        "burnAreaCoeff": 0.027,
-        "burnAreaFillSlope": 2.2258,
-        "burnAreaBoreSlope": 0.2042,
+        "burnAreaCoeff": 0.0367,
+        "burnAreaFillSlope": 2.2264,
+        "burnAreaBoreSlope": 0.1608,
         "energyScaleFactor": 1,
         "calibrationConfidence": "HIGH",
         "calibrationFlags": [],
-        "burnAreaExpansionSlope": -0.0264
+        "burnAreaExpansionSlope": 0.0206
       },
       {
         "id": "PWD_SHOO_SW_BMG_8NG2",
@@ -34804,7 +34804,7 @@
       {
         "id": "CTG_65300WBYMAG_cN73",
         "transducerScaleFactor": 0.84259,
-        "gradientBetaScale": 7.6
+        "gradientBetaScale": 7.7
       },
       {
         "id": "CTG_65SWE_N6HA",
@@ -34846,7 +34846,7 @@
       {
         "id": "CTG_7RUM_cW92",
         "transducerScaleFactor": 0.78677,
-        "gradientBetaScale": 7
+        "gradientBetaScale": 7.05
       },
       {
         "id": "CTG_7REMMAG_cW92",
@@ -35276,7 +35276,7 @@
     ],
     "powderCartridgeCalibrations": [],
     "velocityCorrection": {
-      "modelVersion": "v2.0",
+      "modelVersion": "v3.0-slope",
       "globalKnots": [
         {
           "expansionRatio": 3,
@@ -35316,1187 +35316,397 @@
         },
         {
           "expansionRatio": 16.5,
-          "factor": 1.0572
+          "factor": 1.056
         },
         {
           "expansionRatio": 18,
-          "factor": 1.07825
+          "factor": 1.0902
         },
         {
           "expansionRatio": 19.5,
-          "factor": 1.08605
+          "factor": 1.0902
         }
       ],
       "cartridgeOverrides": {
         "CTG_300BLK_cI72": {
-          "factor": 1.0434,
+          "factor": 1.0553,
           "confidence": "HIGH",
           "fittedLoads": 80,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 1.0161
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0373
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0483
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0732
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0646
-            }
-          ]
+          "weightSlope": 0.000303,
+          "refWeightGr": 155
         },
         "CTG_338ARC_cNAF": {
           "factor": 1.0115,
           "confidence": "MEDIUM",
-          "fittedLoads": 16,
-          "weightKnots": [
-            {
-              "weightGr": 225,
-              "factor": 1.0696
-            },
-            {
-              "weightGr": 255,
-              "factor": 0.95
-            }
-          ]
+          "fittedLoads": 16
         },
         "CTG_4570MOD_cN8D": {
-          "factor": 0.95,
+          "factor": 0.9493,
           "confidence": "MEDIUM",
           "fittedLoads": 20
         },
         "CTG_4570GOV_cN8B": {
-          "factor": 0.95,
+          "factor": 0.912,
           "confidence": "MEDIUM",
-          "fittedLoads": 12,
-          "weightKnots": [
-            {
-              "weightGr": 345,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 405,
-              "factor": 0.95
-            }
-          ]
+          "fittedLoads": 12
         },
         "CTG_458WINMAG_cN8E": {
           "factor": 0.9834,
           "confidence": "MEDIUM",
-          "fittedLoads": 25,
-          "weightKnots": [
-            {
-              "weightGr": 345,
-              "factor": 0.951
-            },
-            {
-              "weightGr": 495,
-              "factor": 0.9883
-            }
-          ]
+          "fittedLoads": 25
         },
         "CTG_300SAV_cN7E": {
-          "factor": 0.95,
+          "factor": 0.9296,
           "confidence": "MEDIUM",
           "fittedLoads": 39,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 150,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 180,
-              "factor": 0.95
-            }
-          ]
+          "weightSlope": 0.000315,
+          "refWeightGr": 150
         },
         "CTG_7BR_cZ22": {
-          "factor": 1.0105,
+          "factor": 1.0136,
           "confidence": "MEDIUM",
           "fittedLoads": 28,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 1.0075
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0107
-            }
-          ]
+          "weightSlope": 0.000311,
+          "refWeightGr": 160
         },
         "CTG_30ARREM_cN7M": {
-          "factor": 0.95,
+          "factor": 0.9403,
           "confidence": "MEDIUM",
           "fittedLoads": 26,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 120,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 150,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.9595
-            }
-          ]
+          "weightSlope": 0.000424,
+          "refWeightGr": 125
         },
         "CTG_68REMSPC_cN7B": {
-          "factor": 0.95,
+          "factor": 0.9662,
           "confidence": "MEDIUM",
           "fittedLoads": 42,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9527
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.95
-            }
-          ]
+          "weightSlope": -0.000966,
+          "refWeightGr": 90
         },
         "CTG_3030_N3HG": {
-          "factor": 0.95,
+          "factor": 0.9243,
           "confidence": "HIGH",
           "fittedLoads": 187,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 150,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.95
-            }
-          ]
+          "weightSlope": 0.000303,
+          "refWeightGr": 150
         },
         "CTG_338FED_N3HK": {
-          "factor": 0.979,
+          "factor": 0.9732,
           "confidence": "HIGH",
           "fittedLoads": 100,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 0.9872
-            },
-            {
-              "weightGr": 180,
-              "factor": 0.9902
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0028
-            },
-            {
-              "weightGr": 225,
-              "factor": 0.955
-            }
-          ]
+          "weightSlope": -0.000414,
+          "refWeightGr": 215
         },
         "CTG_24NOSLER_cNH5": {
-          "factor": 1.0051,
+          "factor": 0.9984,
           "confidence": "HIGH",
           "fittedLoads": 134,
-          "weightKnots": [
-            {
-              "weightGr": 75,
-              "factor": 0.979
-            },
-            {
-              "weightGr": 90,
-              "factor": 0.9966
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0114
-            }
-          ]
+          "weightSlope": 0.001122,
+          "refWeightGr": 90
         },
         "CTG_65GRN_cS32": {
-          "factor": 0.9715,
+          "factor": 0.9705,
           "confidence": "HIGH",
           "fittedLoads": 251,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 105,
-              "factor": 0.9977
-            },
-            {
-              "weightGr": 120,
-              "factor": 0.9647
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.9524
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0255
-            }
-          ]
+          "weightSlope": 0.000293,
+          "refWeightGr": 108
         },
         "CTG_30TC_cN7G": {
-          "factor": 0.9691,
+          "factor": 0.9652,
           "confidence": "HIGH",
           "fittedLoads": 89,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.9539
-            },
-            {
-              "weightGr": 150,
-              "factor": 0.9703
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.9673
-            }
-          ]
+          "weightSlope": 0.000191,
+          "refWeightGr": 155
         },
         "CTG_6PPC_cJ12": {
-          "factor": 0.9512,
+          "factor": 0.946,
           "confidence": "HIGH",
           "fittedLoads": 99,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 90,
-              "factor": 0.9641
-            }
-          ]
+          "weightSlope": 0.001201,
+          "refWeightGr": 70
         },
         "CTG_7WTERS_cNA8": {
-          "factor": 0.9787,
+          "factor": 0.979,
           "confidence": "MEDIUM",
           "fittedLoads": 10
         },
         "CTG_308MARLEXP_cN7H": {
-          "factor": 0.95,
+          "factor": 0.9344,
           "confidence": "HIGH",
           "fittedLoads": 140,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 150,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.9947
-            }
-          ]
+          "weightSlope": 0.001311,
+          "refWeightGr": 130
         },
         "CTG_556NATO_cN56": {
-          "factor": 0.95,
+          "factor": 0.9325,
           "confidence": "MEDIUM",
           "fittedLoads": 27,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.95
-            }
-          ]
+          "weightSlope": -0.000864,
+          "refWeightGr": 69
         },
         "CTG_65BR_cNA0": {
-          "factor": 0.9952,
+          "factor": 0.9972,
           "confidence": "MEDIUM",
           "fittedLoads": 48,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9951
-            },
-            {
-              "weightGr": 120,
-              "factor": 0.9886
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0164
-            }
-          ]
+          "weightSlope": 0.000464,
+          "refWeightGr": 120
         },
         "CTG_376STEYR_cNI7": {
           "factor": 1.0136,
           "confidence": "MEDIUM",
-          "fittedLoads": 22,
-          "weightKnots": [
-            {
-              "weightGr": 240,
-              "factor": 1.0243
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0027
-            }
-          ]
+          "fittedLoads": 22
         },
         "CTG_222REM_cR81": {
-          "factor": 0.9674,
+          "factor": 0.9679,
           "confidence": "HIGH",
           "fittedLoads": 296,
-          "weightKnots": [
-            {
-              "weightGr": 30,
-              "factor": 0.9557
-            },
-            {
-              "weightGr": 45,
-              "factor": 0.9509
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9866
-            }
-          ]
+          "weightSlope": 0.001942,
+          "refWeightGr": 50
         },
         "CTG_223REM_cR82": {
-          "factor": 0.9754,
+          "factor": 0.9696,
           "confidence": "HIGH",
           "fittedLoads": 1208,
-          "weightKnots": [
-            {
-              "weightGr": 30,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 45,
-              "factor": 0.9608
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9755
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.9881
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0068
-            }
-          ]
+          "weightSlope": 0.000981,
+          "refWeightGr": 55
         },
         "CTG_6ARC_cH92": {
-          "factor": 0.9961,
+          "factor": 0.9951,
           "confidence": "HIGH",
           "fittedLoads": 270,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.9563
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.9948
-            },
-            {
-              "weightGr": 90,
-              "factor": 0.9885
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0092
-            }
-          ]
+          "weightSlope": 0.000947,
+          "refWeightGr": 95
         },
         "CTG_308WIN_cC82": {
-          "factor": 1.0008,
+          "factor": 1.0014,
           "confidence": "HIGH",
           "fittedLoads": 1681,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9801
-            },
-            {
-              "weightGr": 120,
-              "factor": 0.9837
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.9851
-            },
-            {
-              "weightGr": 150,
-              "factor": 0.9996
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.9993
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.006
-            },
-            {
-              "weightGr": 195,
-              "factor": 0.9996
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0291
-            }
-          ]
+          "weightSlope": 0.000367,
+          "refWeightGr": 168
         },
         "CTG_33806_cN7T": {
-          "factor": 1.0267,
+          "factor": 1.0252,
           "confidence": "HIGH",
           "fittedLoads": 221,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 0.9968
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0045
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0343
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0363
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0437
-            }
-          ]
+          "weightSlope": 0.000413,
+          "refWeightGr": 215
         },
         "CTG_6DASHER_cN98": {
-          "factor": 0.9657,
+          "factor": 0.9598,
           "confidence": "HIGH",
           "fittedLoads": 50,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.9708
-            },
-            {
-              "weightGr": 90,
-              "factor": 0.9791
-            },
-            {
-              "weightGr": 105,
-              "factor": 0.9658
-            }
-          ]
+          "weightSlope": 0.000283,
+          "refWeightGr": 90
         },
         "CTG_65CARC_cNH9": {
-          "factor": 0.95,
+          "factor": 0.8813,
           "confidence": "MEDIUM",
-          "fittedLoads": 18,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.95
-            }
-          ]
+          "fittedLoads": 18
         },
         "CTG_222REMMAG_cR84": {
-          "factor": 0.95,
+          "factor": 0.9474,
           "confidence": "HIGH",
           "fittedLoads": 161,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9545
-            }
-          ]
+          "weightSlope": 0.000427,
+          "refWeightGr": 52
         },
         "CTG_22PPC_cNH1": {
-          "factor": 0.9673,
+          "factor": 0.9837,
           "confidence": "MEDIUM",
           "fittedLoads": 20,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9611
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9803
-            }
-          ]
+          "weightSlope": 0.006655,
+          "refWeightGr": 52
         },
         "CTG_3040KRAG_cNAB": {
-          "factor": 0.9837,
+          "factor": 0.9659,
           "confidence": "HIGH",
           "fittedLoads": 96,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.002
-            },
-            {
-              "weightGr": 180,
-              "factor": 0.9847
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0501
-            }
-          ]
+          "weightSlope": 0.000941,
+          "refWeightGr": 150
         },
         "CTG_6X45_N6H8": {
-          "factor": 1.0186,
+          "factor": 1.0171,
           "confidence": "HIGH",
           "fittedLoads": 82,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.999
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0238
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0191
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0306
-            }
-          ]
+          "weightSlope": 0.000915,
+          "refWeightGr": 80
         },
         "CTG_75X55SWS_cNI1": {
-          "factor": 0.95,
+          "factor": 0.928,
           "confidence": "MEDIUM",
-          "fittedLoads": 28,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.95
-            }
-          ]
+          "fittedLoads": 28
         },
         "CTG_6GT_cN96": {
-          "factor": 1.0264,
+          "factor": 1.0428,
           "confidence": "HIGH",
           "fittedLoads": 120,
-          "weightKnots": [
-            {
-              "weightGr": 75,
-              "factor": 1.0067
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0095
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0482
-            }
-          ]
+          "weightSlope": 0.001593,
+          "refWeightGr": 108
         },
         "CTG_6BR_cJ12": {
-          "factor": 0.9798,
+          "factor": 0.9804,
           "confidence": "HIGH",
           "fittedLoads": 164,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.9509
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.9705
-            },
-            {
-              "weightGr": 90,
-              "factor": 0.9888
-            },
-            {
-              "weightGr": 105,
-              "factor": 0.9951
-            }
-          ]
+          "weightSlope": 0.00079,
+          "refWeightGr": 86
         },
         "CTG_65X50JAP_cNH8": {
-          "factor": 0.95,
+          "factor": 0.8731,
           "confidence": "MEDIUM",
-          "fittedLoads": 16,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.95
-            }
-          ]
+          "fittedLoads": 16
         },
         "CTG_7MM08_cZ22": {
-          "factor": 1.0183,
+          "factor": 1.0144,
           "confidence": "HIGH",
           "fittedLoads": 359,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 1.0072
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0207
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0223
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0053
-            }
-          ]
+          "weightSlope": 0.000024,
+          "refWeightGr": 160
         },
         "CTG_250SAV_cN77": {
-          "factor": 0.9866,
+          "factor": 0.9828,
           "confidence": "HIGH",
           "fittedLoads": 84,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9817
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0022
-            }
-          ]
+          "weightSlope": 0.000238,
+          "refWeightGr": 87
         },
         "CTG_219ZIP_cNH4": {
-          "factor": 0.95,
+          "factor": 0.9259,
           "confidence": "MEDIUM",
-          "fittedLoads": 23,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.95
-            }
-          ]
+          "fittedLoads": 23
         },
         "CTG_375RUG_cN85": {
-          "factor": 1.015,
+          "factor": 1.0157,
           "confidence": "MEDIUM",
           "fittedLoads": 30
         },
         "CTG_338RCM_cN7U": {
-          "factor": 1.0226,
+          "factor": 1.0206,
           "confidence": "HIGH",
           "fittedLoads": 94,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 1.0191
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0294
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0462
-            },
-            {
-              "weightGr": 255,
-              "factor": 1
-            }
-          ]
+          "weightSlope": -0.000138,
+          "refWeightGr": 215
         },
         "CTG_224VALK_N2H5": {
-          "factor": 1.0005,
+          "factor": 1.0031,
           "confidence": "HIGH",
           "fittedLoads": 329,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9716
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9967
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0051
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.012
-            }
-          ]
+          "weightSlope": 0.000738,
+          "refWeightGr": 75
         },
         "CTG_22ARC_cK12": {
-          "factor": 0.9951,
+          "factor": 1.0023,
           "confidence": "HIGH",
           "fittedLoads": 164,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.9765
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0029
-            }
-          ]
+          "weightSlope": 0.00163,
+          "refWeightGr": 75
         },
         "CTG_65X47LAP_cN79": {
-          "factor": 1.0128,
+          "factor": 1.0121,
           "confidence": "HIGH",
           "fittedLoads": 298,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 1.0119
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0068
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0056
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0281
-            }
-          ]
+          "weightSlope": 0.000701,
+          "refWeightGr": 133
         },
         "CTG_375HH_cN84": {
-          "factor": 1.0231,
+          "factor": 1.0243,
           "confidence": "MEDIUM",
-          "fittedLoads": 26,
-          "weightKnots": [
-            {
-              "weightGr": 240,
-              "factor": 1.0251
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0174
-            }
-          ]
+          "fittedLoads": 26
         },
         "CTG_7MAU_N7HF": {
-          "factor": 0.9974,
+          "factor": 1.002,
           "confidence": "HIGH",
           "fittedLoads": 201,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9757
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.9774
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0022
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0037
-            },
-            {
-              "weightGr": 180,
-              "factor": 0.9959
-            }
-          ]
+          "weightSlope": 0.000608,
+          "refWeightGr": 160
         },
         "CTG_338WBYRPM_cNAE": {
-          "factor": 1.0461,
+          "factor": 1.0473,
           "confidence": "HIGH",
           "fittedLoads": 73,
-          "weightKnots": [
-            {
-              "weightGr": 180,
-              "factor": 1.0379
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0503
-            },
-            {
-              "weightGr": 270,
-              "factor": 1.0518
-            }
-          ]
+          "weightSlope": 0.000145,
+          "refWeightGr": 250
         },
         "CTG_22NOSLER_n2s2": {
-          "factor": 1.0049,
+          "factor": 1.0077,
           "confidence": "HIGH",
           "fittedLoads": 465,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9618
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9821
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0205
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0303
-            }
-          ]
+          "weightSlope": 0.001733,
+          "refWeightGr": 70
         },
         "CTG_3006_cE12": {
-          "factor": 1.0086,
+          "factor": 1.0058,
           "confidence": "HIGH",
           "fittedLoads": 1606,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 120,
-              "factor": 0.9794
-            },
-            {
-              "weightGr": 135,
-              "factor": 0.9833
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0059
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0087
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0131
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0096
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0285
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.049
-            }
-          ]
+          "weightSlope": 0.000598,
+          "refWeightGr": 168
         },
         "CTG_22GT_cN94": {
-          "factor": 0.9591,
+          "factor": 0.9553,
           "confidence": "HIGH",
           "fittedLoads": 106,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9585
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0397
-            }
-          ]
+          "weightSlope": 0.002112,
+          "refWeightGr": 53
         },
         "CTG_338WINMAG_cQ92": {
-          "factor": 1.0308,
+          "factor": 1.0248,
           "confidence": "HIGH",
           "fittedLoads": 198,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 1.0212
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0209
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0036
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0316
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0075
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0351
-            },
-            {
-              "weightGr": 300,
-              "factor": 1.0407
-            }
-          ]
+          "weightSlope": 0.00024,
+          "refWeightGr": 215
         },
         "CTG_22BR_cNH2": {
-          "factor": 0.95,
+          "factor": 0.9474,
           "confidence": "MEDIUM",
           "fittedLoads": 14
         },
         "CTG_65CM_cN72": {
-          "factor": 1.0351,
+          "factor": 1.0345,
           "confidence": "HIGH",
           "fittedLoads": 853,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9998
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0281
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0295
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0355
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0493
-            }
-          ]
+          "weightSlope": 0.000524,
+          "refWeightGr": 130
         },
         "CTG_224WBYMAG_cN95": {
-          "factor": 0.9932,
+          "factor": 0.9866,
           "confidence": "HIGH",
           "fittedLoads": 58,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 1.0027
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9874
-            }
-          ]
+          "weightSlope": -0.001127,
+          "refWeightGr": 53
         },
         "CTG_300HH_cN7I": {
-          "factor": 0.9906,
+          "factor": 0.9964,
           "confidence": "HIGH",
           "fittedLoads": 124,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 0.9673
-            },
-            {
-              "weightGr": 165,
-              "factor": 0.9969
-            },
-            {
-              "weightGr": 180,
-              "factor": 0.9894
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0085
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0079
-            }
-          ]
+          "weightSlope": 0.000697,
+          "refWeightGr": 172
         },
         "CTG_260REM_N2HB": {
-          "factor": 1.016,
+          "factor": 1.0156,
           "confidence": "HIGH",
           "fittedLoads": 559,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9985
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0051
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0227
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0359
-            }
-          ]
+          "weightSlope": 0.000996,
+          "refWeightGr": 130
         },
         "CTG_300REMMAG_SAUM": {
-          "factor": 1.0253,
+          "factor": 1.0219,
           "confidence": "HIGH",
           "fittedLoads": 118,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.9905
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0062
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0213
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0095
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0468
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0923
-            }
-          ]
+          "weightSlope": 0.000971,
+          "refWeightGr": 168
         },
         "CTG_375WBYMAG_cN87": {
-          "factor": 1.0122,
+          "factor": 1.0141,
           "confidence": "MEDIUM",
           "fittedLoads": 30,
-          "weightKnots": [
-            {
-              "weightGr": 240,
-              "factor": 1.0078
-            },
-            {
-              "weightGr": 255,
-              "factor": 0.9831
-            },
-            {
-              "weightGr": 285,
-              "factor": 1.0236
-            }
-          ]
+          "weightSlope": 0.000278,
+          "refWeightGr": 260
         },
         "CTG_6X47_cNH6": {
-          "factor": 1.0201,
+          "factor": 1.0192,
           "confidence": "HIGH",
           "fittedLoads": 124,
-          "weightKnots": [
-            {
-              "weightGr": 75,
-              "factor": 1.0121
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0396
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0301
-            }
-          ]
+          "weightSlope": 0.000463,
+          "refWeightGr": 85
         },
         "CTG_25CM_cN72": {
           "factor": 1.0308,
@@ -36504,1354 +35714,426 @@
           "fittedLoads": 20
         },
         "CTG_6MM250_cNJ4": {
-          "factor": 1.0375,
+          "factor": 1.0405,
           "confidence": "MEDIUM",
           "fittedLoads": 44,
-          "weightKnots": [
-            {
-              "weightGr": 75,
-              "factor": 1.01
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0534
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.067
-            }
-          ]
+          "weightSlope": 0.002165,
+          "refWeightGr": 95
         },
         "CTG_375RUM_cN86": {
-          "factor": 1.0325,
+          "factor": 1.0365,
           "confidence": "MEDIUM",
           "fittedLoads": 24,
-          "weightKnots": [
-            {
-              "weightGr": 240,
-              "factor": 1.0393
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0274
-            },
-            {
-              "weightGr": 285,
-              "factor": 1.0606
-            }
-          ]
+          "weightSlope": 0.000425,
+          "refWeightGr": 260
         },
         "CTG_300RCM_cNA9": {
-          "factor": 1.023,
+          "factor": 1.0218,
           "confidence": "HIGH",
           "fittedLoads": 184,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0237
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0193
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.037
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.013
-            }
-          ]
+          "weightSlope": -0.00005,
+          "refWeightGr": 168
         },
         "CTG_284WIN_cW92": {
-          "factor": 1.015,
+          "factor": 1.0131,
           "confidence": "HIGH",
           "fittedLoads": 156,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0159
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0259
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0091
-            }
-          ]
+          "weightSlope": 0.000005,
+          "refWeightGr": 150
         },
         "CTG_65SWE_N6HA": {
-          "factor": 1.0013,
+          "factor": 0.9951,
           "confidence": "HIGH",
           "fittedLoads": 432,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9517
-            },
-            {
-              "weightGr": 105,
-              "factor": 0.9808
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0108
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0137
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.019
-            }
-          ]
+          "weightSlope": 0.000988,
+          "refWeightGr": 120
         },
         "CTG_300WSM_N3HH": {
-          "factor": 1.0262,
+          "factor": 1.0264,
           "confidence": "HIGH",
           "fittedLoads": 764,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9833
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0019
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0184
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0258
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0281
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0288
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0337
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0934
-            }
-          ]
+          "weightSlope": 0.000433,
+          "refWeightGr": 175
         },
         "CTG_280REM_cN7C": {
-          "factor": 1.0231,
+          "factor": 1.0257,
           "confidence": "HIGH",
           "fittedLoads": 186,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 1.0148
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.021
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0166
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0286
-            }
-          ]
+          "weightSlope": 0.000476,
+          "refWeightGr": 162
         },
         "CTG_257ROB_N2H9": {
-          "factor": 0.9924,
+          "factor": 0.9878,
           "confidence": "HIGH",
           "fittedLoads": 133,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9908
-            },
-            {
-              "weightGr": 105,
-              "factor": 0.9663
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.009
-            }
-          ]
+          "weightSlope": 0.000545,
+          "refWeightGr": 100
         },
         "CTG_7X64_N7HG": {
-          "factor": 1.0276,
+          "factor": 1.0201,
           "confidence": "HIGH",
           "fittedLoads": 60,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 0.9965
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0318
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0459
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0365
-            }
-          ]
+          "weightSlope": 0.000761,
+          "refWeightGr": 150
         },
         "CTG_225WIN_cN93": {
-          "factor": 0.9901,
+          "factor": 0.9876,
           "confidence": "HIGH",
           "fittedLoads": 50,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9847
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.9932
-            }
-          ]
+          "weightSlope": 0.000165,
+          "refWeightGr": 55
         },
         "CTG_6CM_cG62": {
-          "factor": 1.0285,
+          "factor": 1.0246,
           "confidence": "HIGH",
           "fittedLoads": 726,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.984
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.989
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0238
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0396
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.043
-            }
-          ]
+          "weightSlope": 0.001188,
+          "refWeightGr": 95
         },
         "CTG_22250_cK32": {
-          "factor": 0.9849,
+          "factor": 0.988,
           "confidence": "HIGH",
           "fittedLoads": 338,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9695
-            },
-            {
-              "weightGr": 60,
-              "factor": 0.996
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.9885
-            }
-          ]
+          "weightSlope": 0.001712,
+          "refWeightGr": 55
         },
         "CTG_25WSSM_cN99": {
-          "factor": 1.0237,
+          "factor": 1.0212,
           "confidence": "HIGH",
           "fittedLoads": 67,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 1.0263
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0227
-            }
-          ]
+          "weightSlope": -0.000157,
+          "refWeightGr": 100
         },
         "CTG_270WIN_cU62": {
-          "factor": 1.0142,
+          "factor": 1.0172,
           "confidence": "HIGH",
           "fittedLoads": 216,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9971
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.026
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0211
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0299
-            }
-          ]
+          "weightSlope": 0.000555,
+          "refWeightGr": 130
         },
         "CTG_308NORMMAG_cNAA": {
-          "factor": 1.0114,
+          "factor": 1.0134,
           "confidence": "HIGH",
           "fittedLoads": 56,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0129
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0128
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0466
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0709
-            }
-          ]
+          "weightSlope": 0.001032,
+          "refWeightGr": 168
         },
         "CTG_243WSSM_cN97": {
-          "factor": 1.0028,
+          "factor": 1.0015,
           "confidence": "HIGH",
           "fittedLoads": 162,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.9844
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0026
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0123
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0028
-            }
-          ]
+          "weightSlope": 0.00079,
+          "refWeightGr": 80
         },
         "CTG_33NOSLER_cN7W": {
-          "factor": 1.0781,
+          "factor": 1.0893,
           "confidence": "HIGH",
           "fittedLoads": 140,
-          "weightKnots": [
-            {
-              "weightGr": 180,
-              "factor": 1.048
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0633
-            },
-            {
-              "weightGr": 270,
-              "factor": 1.0887
-            },
-            {
-              "weightGr": 300,
-              "factor": 1.1
-            }
-          ]
+          "weightSlope": 0.000501,
+          "refWeightGr": 265
         },
         "CTG_65PRC_cP02": {
-          "factor": 1.0379,
+          "factor": 1.0429,
           "confidence": "HIGH",
           "fittedLoads": 288,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 1.0201
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0434
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0439
-            }
-          ]
+          "weightSlope": 0.001146,
+          "refWeightGr": 140
         },
         "CTG_7REMMAG_SAUM": {
-          "factor": 1.043,
+          "factor": 1.0434,
           "confidence": "HIGH",
           "fittedLoads": 190,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 1.0321
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0353
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0414
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0866
-            }
-          ]
+          "weightSlope": 0.001118,
+          "refWeightGr": 154
         },
         "CTG_6MMXC_cNJ5": {
-          "factor": 1.0387,
+          "factor": 1.0383,
           "confidence": "MEDIUM",
           "fittedLoads": 12
         },
         "CTG_243WIN_cB42": {
-          "factor": 1.0114,
+          "factor": 1.0117,
           "confidence": "HIGH",
           "fittedLoads": 500,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.9926
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0058
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0076
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0275
-            }
-          ]
+          "weightSlope": 0.000784,
+          "refWeightGr": 90
         },
         "CTG_280AI_cA52": {
-          "factor": 1.0296,
+          "factor": 1.0308,
           "confidence": "HIGH",
           "fittedLoads": 158,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0308
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.049
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0158
-            }
-          ]
+          "weightSlope": -0.000477,
+          "refWeightGr": 160
         },
         "CTG_6REM_N6H7": {
-          "factor": 1.0133,
+          "factor": 1.0116,
           "confidence": "HIGH",
           "fittedLoads": 195,
-          "weightKnots": [
-            {
-              "weightGr": 60,
-              "factor": 0.9994
-            },
-            {
-              "weightGr": 75,
-              "factor": 0.9975
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0195
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0345
-            }
-          ]
+          "weightSlope": 0.000962,
+          "refWeightGr": 85
         },
         "CTG_220SWIFT_N2H6": {
-          "factor": 0.9927,
+          "factor": 0.989,
           "confidence": "HIGH",
           "fittedLoads": 150,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9773
-            },
-            {
-              "weightGr": 60,
-              "factor": 1.0029
-            }
-          ]
+          "weightSlope": 0.001813,
+          "refWeightGr": 52
         },
         "CTG_338NORMAMAG_cN74": {
-          "factor": 1.0513,
+          "factor": 1.0557,
           "confidence": "HIGH",
           "fittedLoads": 92,
-          "weightKnots": [
-            {
-              "weightGr": 255,
-              "factor": 1.0312
-            },
-            {
-              "weightGr": 270,
-              "factor": 1.0467
-            },
-            {
-              "weightGr": 285,
-              "factor": 1.0672
-            },
-            {
-              "weightGr": 300,
-              "factor": 1.0582
-            }
-          ]
+          "weightSlope": 0.000766,
+          "refWeightGr": 275
         },
         "CTG_65284_cN73": {
-          "factor": 1.0313,
+          "factor": 1.0375,
           "confidence": "HIGH",
           "fittedLoads": 407,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9771
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0116
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.03
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0327
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0474
-            }
-          ]
+          "weightSlope": 0.000919,
+          "refWeightGr": 140
         },
         "CTG_7X65R_N7HH": {
-          "factor": 1.0232,
+          "factor": 1.0224,
           "confidence": "HIGH",
           "fittedLoads": 54,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 0.9912
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0404
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0232
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0286
-            }
-          ]
+          "weightSlope": 0.00043,
+          "refWeightGr": 160
         },
         "CTG_68WEST_N6HD": {
-          "factor": 1.036,
+          "factor": 1.0282,
           "confidence": "HIGH",
           "fittedLoads": 158,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 1.0305
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0497
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0481
-            }
-          ]
+          "weightSlope": 0.000638,
+          "refWeightGr": 130
         },
         "CTG_340WBYMAG_cNG0": {
-          "factor": 1.0182,
+          "factor": 1.0183,
           "confidence": "MEDIUM",
           "fittedLoads": 12
         },
         "CTG_338REMUM_cN7Y": {
-          "factor": 1.0458,
+          "factor": 1.0388,
           "confidence": "HIGH",
           "fittedLoads": 152,
-          "weightKnots": [
-            {
-              "weightGr": 180,
-              "factor": 1.0193
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0381
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0482
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0596
-            },
-            {
-              "weightGr": 270,
-              "factor": 1.0528
-            },
-            {
-              "weightGr": 300,
-              "factor": 1.0591
-            }
-          ]
+          "weightSlope": 0.000406,
+          "refWeightGr": 225
         },
         "CTG_65X06_N6HB": {
-          "factor": 1.041,
+          "factor": 1.054,
           "confidence": "HIGH",
           "fittedLoads": 126,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 1.0034
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0361
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0492
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0654
-            }
-          ]
+          "weightSlope": 0.000862,
+          "refWeightGr": 140
         },
         "CTG_300WINMAG_cG42": {
-          "factor": 1.0359,
+          "factor": 1.0329,
           "confidence": "HIGH",
           "fittedLoads": 1156,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 0.988
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0232
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0263
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0288
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0337
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0391
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0526
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0557
-            },
-            {
-              "weightGr": 240,
-              "factor": 1.0397
-            }
-          ]
+          "weightSlope": 0.000437,
+          "refWeightGr": 175
         },
         "CTG_2506_cL42": {
-          "factor": 1.0193,
+          "factor": 1.0062,
           "confidence": "HIGH",
           "fittedLoads": 160,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 1.0055
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.039
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.027
-            }
-          ]
+          "weightSlope": 0.001201,
+          "refWeightGr": 87
         },
         "CTG_338LAP_cO62": {
-          "factor": 1.0311,
+          "factor": 1.0331,
           "confidence": "HIGH",
           "fittedLoads": 366,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 1.0114
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0199
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.024
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0352
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0277
-            },
-            {
-              "weightGr": 270,
-              "factor": 1.0359
-            },
-            {
-              "weightGr": 285,
-              "factor": 1.0289
-            },
-            {
-              "weightGr": 300,
-              "factor": 1.0532
-            }
-          ]
+          "weightSlope": 0.000302,
+          "refWeightGr": 250
         },
         "CTG_7REMMAG_cW92": {
-          "factor": 1.0365,
+          "factor": 1.0354,
           "confidence": "HIGH",
           "fittedLoads": 451,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9919
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0125
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0448
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0312
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0494
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.058
-            }
-          ]
+          "weightSlope": 0.000809,
+          "refWeightGr": 160
         },
         "CTG_7WBYMAG_cNA6": {
-          "factor": 1.0447,
+          "factor": 1.0435,
           "confidence": "HIGH",
           "fittedLoads": 60,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 1.0106
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0491
-            }
-          ]
+          "weightSlope": 0.000345,
+          "refWeightGr": 175
         },
         "CTG_300PRC_cK02": {
-          "factor": 1.0386,
+          "factor": 1.0353,
           "confidence": "HIGH",
           "fittedLoads": 446,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 0.9847
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0153
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0166
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0353
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0332
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0559
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0594
-            }
-          ]
+          "weightSlope": 0.000638,
+          "refWeightGr": 190
         },
         "CTG_7PRC_N7HE": {
-          "factor": 1.065,
+          "factor": 1.0643,
           "confidence": "HIGH",
           "fittedLoads": 202,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0426
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.065
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0746
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0438
-            }
-          ]
+          "weightSlope": 0.000279,
+          "refWeightGr": 175
         },
         "CTG_270WSM_N2HC": {
-          "factor": 1.0269,
+          "factor": 1.0289,
           "confidence": "HIGH",
           "fittedLoads": 97,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 1.015
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0297
-            }
-          ]
+          "weightSlope": 0.000175,
+          "refWeightGr": 130
         },
         "CTG_300WBYMAG_cN75": {
-          "factor": 1.0342,
+          "factor": 1.0395,
           "confidence": "HIGH",
           "fittedLoads": 280,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 1.0077
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.028
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0343
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0343
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0197
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.1
-            }
-          ]
+          "weightSlope": 0.000681,
+          "refWeightGr": 180
         },
         "CTG_22CM_cA72": {
-          "factor": 1.0312,
+          "factor": 1.0329,
           "confidence": "HIGH",
           "fittedLoads": 270,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 0.9732
-            },
-            {
-              "weightGr": 60,
-              "factor": 1.011
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0444
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0551
-            }
-          ]
+          "weightSlope": 0.001482,
+          "refWeightGr": 69
         },
         "CTG_65REMMAG_cNA1": {
-          "factor": 1.0068,
+          "factor": 1.0067,
           "confidence": "MEDIUM",
-          "fittedLoads": 24,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9831
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0362
-            }
-          ]
+          "fittedLoads": 24
         },
         "CTG_30NOSLER_cN7L": {
-          "factor": 1.0536,
+          "factor": 1.0539,
           "confidence": "HIGH",
           "fittedLoads": 184,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0151
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0457
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0416
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0612
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0642
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0824
-            }
-          ]
+          "weightSlope": 0.000788,
+          "refWeightGr": 190
         },
         "CTG_300NORMAMAG_cN73": {
-          "factor": 1.0433,
+          "factor": 1.048,
           "confidence": "HIGH",
           "fittedLoads": 106,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0092
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0064
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0268
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0673
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0601
-            }
-          ]
+          "weightSlope": 0.000752,
+          "refWeightGr": 210
         },
         "CTG_223WSSM_cNH0": {
-          "factor": 1.024,
+          "factor": 1.0231,
           "confidence": "HIGH",
           "fittedLoads": 149,
-          "weightKnots": [
-            {
-              "weightGr": 45,
-              "factor": 1.0248
-            },
-            {
-              "weightGr": 60,
-              "factor": 1.0185
-            },
-            {
-              "weightGr": 75,
-              "factor": 1.0356
-            }
-          ]
+          "weightSlope": 0.000193,
+          "refWeightGr": 52
         },
         "CTG_6284_N6H9": {
-          "factor": 1.0196,
+          "factor": 1.0119,
           "confidence": "HIGH",
           "fittedLoads": 75,
-          "weightKnots": [
-            {
-              "weightGr": 75,
-              "factor": 0.9894
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.0171
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0612
-            }
-          ]
+          "weightSlope": 0.002577,
+          "refWeightGr": 85
         },
         "CTG_240WBYMAG_cN76": {
-          "factor": 1.0366,
+          "factor": 1.0359,
           "confidence": "MEDIUM",
           "fittedLoads": 27,
-          "weightKnots": [
-            {
-              "weightGr": 75,
-              "factor": 1.036
-            },
-            {
-              "weightGr": 90,
-              "factor": 1.033
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0605
-            }
-          ]
+          "weightSlope": 0.000784,
+          "refWeightGr": 90
         },
         "CTG_264WINMAG_cN78": {
-          "factor": 1.0356,
+          "factor": 1.0464,
           "confidence": "HIGH",
           "fittedLoads": 130,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.966
-            },
-            {
-              "weightGr": 120,
-              "factor": 0.9912
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0304
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0868
-            }
-          ]
+          "weightSlope": 0.001918,
+          "refWeightGr": 140
         },
         "CTG_65WBYRPM_cNA2": {
-          "factor": 1.0577,
+          "factor": 1.0681,
           "confidence": "HIGH",
           "fittedLoads": 70,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 1.0481
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0561
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0797
-            }
-          ]
+          "weightSlope": 0.001048,
+          "refWeightGr": 140
         },
         "CTG_338378WBY_cN7X": {
-          "factor": 1.0572,
+          "factor": 1.054,
           "confidence": "HIGH",
           "fittedLoads": 122,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 1.0038
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0319
-            },
-            {
-              "weightGr": 210,
-              "factor": 1.0517
-            },
-            {
-              "weightGr": 225,
-              "factor": 1.0754
-            },
-            {
-              "weightGr": 255,
-              "factor": 1.0645
-            },
-            {
-              "weightGr": 270,
-              "factor": 1.0543
-            },
-            {
-              "weightGr": 300,
-              "factor": 1.0783
-            }
-          ]
+          "weightSlope": 0.000354,
+          "refWeightGr": 225
         },
         "CTG_270WBYMAG_cN7A": {
-          "factor": 0.9826,
+          "factor": 1.0116,
           "confidence": "MEDIUM",
           "fittedLoads": 26,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.95
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0265
-            }
-          ]
+          "weightSlope": 0.00231,
+          "refWeightGr": 130
         },
         "CTG_7STW_cW92": {
-          "factor": 1.0349,
+          "factor": 1.0337,
           "confidence": "HIGH",
           "fittedLoads": 108,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0238
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0129
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0639
-            }
-          ]
+          "weightSlope": 0.001456,
+          "refWeightGr": 160
         },
         "CTG_300RUM_cN7J": {
-          "factor": 1.0557,
+          "factor": 1.0585,
           "confidence": "HIGH",
           "fittedLoads": 164,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0397
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0589
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0572
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0615
-            }
-          ]
+          "weightSlope": 0.000446,
+          "refWeightGr": 180
         },
         "CTG_25WBYRPM_cNA5": {
-          "factor": 1.0742,
+          "factor": 1.0698,
           "confidence": "MEDIUM",
           "fittedLoads": 42,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 1.0679
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0891
-            }
-          ]
+          "weightSlope": 0.001384,
+          "refWeightGr": 101
         },
         "CTG_28NOSLER_cN7D": {
-          "factor": 1.1,
+          "factor": 1.1101,
           "confidence": "HIGH",
           "fittedLoads": 84,
-          "weightKnots": [
-            {
-              "weightGr": 165,
-              "factor": 1.0986
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.1
-            }
-          ]
+          "weightSlope": 0.000653,
+          "refWeightGr": 175
         },
         "CTG_257WBY_N2H0": {
-          "factor": 1.0063,
+          "factor": 1.0041,
           "confidence": "HIGH",
           "fittedLoads": 84,
-          "weightKnots": [
-            {
-              "weightGr": 90,
-              "factor": 0.9794
-            },
-            {
-              "weightGr": 105,
-              "factor": 1.0059
-            },
-            {
-              "weightGr": 120,
-              "factor": 1.0175
-            }
-          ]
+          "weightSlope": 0.001475,
+          "refWeightGr": 101
         },
         "CTG_27NOSLER_cNA4": {
-          "factor": 1.0605,
+          "factor": 1.0603,
           "confidence": "MEDIUM",
-          "fittedLoads": 38,
-          "weightKnots": [
-            {
-              "weightGr": 135,
-              "factor": 1.0507
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0733
-            }
-          ]
+          "fittedLoads": 38
         },
         "CTG_26NOSLER_cNA3": {
-          "factor": 1.1,
+          "factor": 1.1239,
           "confidence": "MEDIUM",
           "fittedLoads": 48,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 1.1
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.1
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.1
-            }
-          ]
+          "weightSlope": 0.001583,
+          "refWeightGr": 129
         },
         "CTG_7RUM_cW92": {
-          "factor": 1.0565,
+          "factor": 1.0548,
           "confidence": "HIGH",
           "fittedLoads": 90,
-          "weightKnots": [
-            {
-              "weightGr": 105,
-              "factor": 1.0171
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.0616
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0648
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0412
-            }
-          ]
+          "weightSlope": 0.000431,
+          "refWeightGr": 150
         },
         "CTG_65300WBYMAG_cN73": {
-          "factor": 1.1,
+          "factor": 1.0965,
           "confidence": "HIGH",
           "fittedLoads": 80,
-          "weightKnots": [
-            {
-              "weightGr": 120,
-              "factor": 1.1
-            },
-            {
-              "weightGr": 135,
-              "factor": 1.0914
-            },
-            {
-              "weightGr": 150,
-              "factor": 1.1
-            }
-          ]
+          "weightSlope": 0.00162,
+          "refWeightGr": 130
         },
         "CTG_300WBY_N3HI": {
-          "factor": 1.0721,
+          "factor": 1.0683,
           "confidence": "HIGH",
           "fittedLoads": 147,
-          "weightKnots": [
-            {
-              "weightGr": 150,
-              "factor": 1.0601
-            },
-            {
-              "weightGr": 165,
-              "factor": 1.0747
-            },
-            {
-              "weightGr": 180,
-              "factor": 1.0701
-            },
-            {
-              "weightGr": 195,
-              "factor": 1.0834
-            }
-          ]
+          "weightSlope": 0.000149,
+          "refWeightGr": 180
         }
       },
-      "fittedAt": "2026-07-11T19:43:46.858Z"
+      "fittedAt": "2026-07-11T22:23:38.189Z"
     }
   }
 }
