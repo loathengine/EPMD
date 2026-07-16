@@ -15943,7 +15943,7 @@
       "name": "BlitzKing",
       "physis": {
         "overallLengthMm": 18.9738,
-        "bearingSurfaceMm": 4.953,
+        "bearingSurfaceMm": 4.4958,
         "engravingPressurePa": 32000000,
         "weightGrams": 3.5639401,
         "materialType": "MAT_JACKETED_LEAD",
@@ -16024,7 +16024,7 @@
       "name": "BlitzKing",
       "physis": {
         "overallLengthMm": 22.8092,
-        "bearingSurfaceMm": 7.3152,
+        "bearingSurfaceMm": 6.8834,
         "engravingPressurePa": 32000000,
         "weightGrams": 4.5359237,
         "materialType": "MAT_JACKETED_LEAD",
@@ -21090,7 +21090,7 @@
       "name": "Spitzer BTSP",
       "physis": {
         "overallLengthMm": 32.5628,
-        "bearingSurfaceMm": 9.1694,
+        "bearingSurfaceMm": 8.7122,
         "engravingPressurePa": 32000000,
         "weightGrams": 11.6638038,
         "materialType": "MAT_JACKETED_LEAD",
@@ -21464,11 +21464,11 @@
       "name": "A-Frame",
       "physis": {
         "overallLengthMm": 31.623,
-        "bearingSurfaceMm": 2.6162,
+        "bearingSurfaceMm": 10.2686,
         "engravingPressurePa": 32000000,
         "weightGrams": 14.5797548,
         "materialType": "MAT_JACKETED_LEAD",
-        "ogiveLengthMm": 23.622,
+        "ogiveLengthMm": 15.9696,
         "boatTailLengthMm": 5.3848
       },
       "ballistics": {
@@ -21486,11 +21486,11 @@
       "name": "A-Frame",
       "physis": {
         "overallLengthMm": 33.909,
-        "bearingSurfaceMm": 2.9972,
+        "bearingSurfaceMm": 11.07,
         "engravingPressurePa": 32000000,
         "weightGrams": 16.1997275,
         "materialType": "MAT_JACKETED_LEAD",
-        "ogiveLengthMm": 25.1968,
+        "ogiveLengthMm": 17.124,
         "boatTailLengthMm": 5.715
       },
       "ballistics": {
@@ -24277,7 +24277,7 @@
         "overallLengthMm": 23.6,
         "ogiveLengthMm": 11,
         "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 13,
+        "bearingSurfaceMm": 12.6,
         "materialType": "MAT_JACKETED_LEAD",
         "engravingPressurePa": 32000000
       },
@@ -24695,7 +24695,7 @@
         "overallLengthMm": 38.6,
         "ogiveLengthMm": 17,
         "boatTailLengthMm": 0,
-        "bearingSurfaceMm": 22,
+        "bearingSurfaceMm": 21.6,
         "materialType": "MAT_JACKETED_LEAD",
         "engravingPressurePa": 32000000
       },
