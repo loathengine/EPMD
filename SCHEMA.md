@@ -235,19 +235,7 @@ Dexie index: `id`
   "throatFreetravelMm": 1.5,
   "standardTwistMm": 203.2,
   "cipTestBarrelMm": 609.6,
-  "standards": [
-    {
-      "standard": "saami",
-      "maxPressurePsi": 52000,
-      "nominalVelocityFps": 2800,
-      "referenceSource": "ANSI/SAAMI Standards"
-    },
-    {
-      "standard": "cip",
-      "maxPressureBar": 3585,
-      "referenceSource": "C.I.P. TDCC Sheet 22 ARC"
-    }
-  ],
+  "maxCipPressureBar": 3585,
   "externalDimensions": {
     "baseDiameterP1Mm": 11.2,
     "bodyDiameterAtShoulderP2Mm": 11.1,
@@ -278,7 +266,6 @@ Dexie index: `id`
 * `oalMm`? — nominal cartridge overall length (SAAMI) in mm
 * `maxSaamiPa`? — SAAMI maximum average pressure in Pascals. **Authoritative engine value**
 * `baseCapacityH2oGrams`? — case water capacity at the base in grams of H₂O
-* `capacitySource`? — provenance string for `baseCapacityH2oGrams` (e.g. `"SAAMI spec sheet"`, `"case weigh/fill test"`)
 * `boreDiameterMm`? — land-to-land bore diameter in mm. Source: SAAMI spec sheets
 * `bulletDiameterMm`? — nominal projectile groove/bullet diameter in millimeters
 * `flashHoleDiameterMm`? — SAAMI/CIP spec flash hole diameter in millimeters
@@ -291,18 +278,8 @@ Dexie index: `id`
 * `cipTestBarrelMm`? — CIP test barrel length in mm
 * `twistRateInchesPerTurn`? — *(legacy, prefer `standardTwistMm`)* twist rate in inches per turn
 * `maxSaamiPressurePsi`? — *(legacy, prefer `maxSaamiPa`)* pressure in PSI; only used for display
+* `maxCipPressureBar`? — C.I.P. maximum pressure limit in bar
 
-### `standards[]` Array
-
-Replaces the old `standards.saami` / `standards.cip` nested object. Each element:
-
-| Field | Description |
-|-------|-------------|
-| `standard` | `"saami"` or `"cip"` |
-| `maxPressurePsi`? | SAAMI max pressure in PSI (saami only) |
-| `maxPressureBar`? | CIP max pressure in bar (cip only) |
-| `nominalVelocityFps`? | Published reference velocity in fps |
-| `referenceSource`? | Source document string |
 
 ### `externalDimensions` Object (required for volume solver)
 
@@ -339,9 +316,6 @@ Dexie index: `id, diameterId`
   "manufacturerId": "MAN_BERGER_B9K2",
   "diameterId": "DIA_277_K9L0",
   "advertisedWeightGrains": 145,
-  "isMatchGrade": true,
-  "sierraPartNum": null,
-  "notes": null,
   "physis": {
     "weightGrams": 9.3958,
     "overallLengthMm": 35.2552,
@@ -361,9 +335,6 @@ Dexie index: `id, diameterId`
 ```
 
 * `advertisedWeightGrains`? — bullet weight in grains as labeled by manufacturer
-* `isMatchGrade`? — boolean; `true` for match-grade competition bullets
-* `sierraPartNum`? — Sierra part number string (null for non-Sierra bullets)
-* `notes`? — free-text notes string
 * All length and diameter fields in `physis` are in **millimeters**
 * `physis.weightGrams` — bullet weight in **grams** (convert: grains ÷ 15.4324 = grams)
 * `physis.bearingSurfaceMm`? — bearing surface length in millimeters
@@ -391,7 +362,6 @@ Powder records separate **physical constants** (root-level) from **calibrated op
   "manufacturerId": "MAN_HODG_M1G1",
   "name": "Varget",
   "heatOfExplosionKjKg": 3750,
-  "heatSource": "Propellant Manufacturer Technical Data",
   "grainType": "extrudedSinglePerf",
   "propellantDensityKgM3": 1620,
   "bulkDensityKgM3": 920,
@@ -406,8 +376,7 @@ Powder records separate **physical constants** (root-level) from **calibrated op
 ```
 
 * `heatOfExplosionKjKg`? — heat of explosion in kJ/kg. **Do not calibrate.** Single-base NC ≈ 3750; double-base NC+NG ≈ 3950–4200
-* `heatSource`? — provenance string (e.g. `"Propellant Manufacturer Technical Data"`, `"GRT"`, `"hodgdon-adc"`)
-* `grainType`? — grain geometry. Values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
+* `grainType`? — grain geometry ID referencing the top-level `grainTypes` table. Values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
 * `propellantDensityKgM3`? — solid propellant density in kg/m³. Physical property — do not calibrate
 * `bulkDensityKgM3`? — bulk (poured) density in kg/m³. Used to compute case fill percentage. Physical property
 * `kCoeff`? — adiabatic exponent ratio for Noble-Abel EOS. Typical: `1.23` (single-base), `1.24`–`1.255` (double-base). Physical constant — do not calibrate
@@ -416,7 +385,7 @@ Powder records separate **physical constants** (root-level) from **calibrated op
 * `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? — multi-stage burn profile parameters. **Calibrated.** Historically stored on powder root
 * `_calibrationNote`? — internal annotation string; not used by engine
 
-> **Separation rule:** `burnAreaCoeff`, `burnAreaFillSlope`, `burnAreaBoreSlope`, `burnAreaExpansionSlope`, `energyScaleFactor`, `calibrationConfidence`, and `calibrationFlags` are **never** stored on the powder root. They live exclusively in `tuning.powders[]`.
+> **Separation rule:** `burnAreaCoeff`, `burnAreaFillSlope`, `burnAreaBoreSlope`, `burnAreaExpansionSlope`, and `energyScaleFactor` are **never** stored on the powder root. They live exclusively in `tuning.powders[]`.
 
 ### Calibrated Optimization Values (`tuning.powders[]`)
 
@@ -427,9 +396,7 @@ Powder records separate **physical constants** (root-level) from **calibrated op
   "burnAreaFillSlope": 0.04,
   "burnAreaBoreSlope": 0.0,
   "burnAreaExpansionSlope": 0.0,
-  "energyScaleFactor": 1.18,
-  "calibrationConfidence": "HIGH",
-  "calibrationFlags": []
+  "energyScaleFactor": 1.18
 }
 ```
 
@@ -440,8 +407,6 @@ Powder records separate **physical constants** (root-level) from **calibrated op
 | `burnAreaBoreSlope` | Bore-diameter correction slope. At reference bore (7.62 mm) factor = 1.0. Default `0` |
 | `burnAreaExpansionSlope` | Gas expansion slope correction during barrel travel phase. Default `0` |
 | `energyScaleFactor` | Engine-level energy efficiency multiplier. **Not a physical constant.** Values persistently above 1.25 indicate suspect data |
-| `calibrationConfidence` | `"HIGH"` (≥20 loads, R²>0.85), `"MEDIUM"` (10–19 loads or R²>0.70), `"LOW"` (<10 loads or R²≤0.70) |
-| `calibrationFlags` | Array of warning strings from the calibrator. e.g. `["SPARSE_DATA"]`, `["FILL_SLOPE_CLAMPED"]`. Empty = no flags |
 
 Dexie index: `id, manufacturerId`
 
