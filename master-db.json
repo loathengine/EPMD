@@ -25802,19 +25802,27 @@
     },
     {
       "id": "BUL_SIERRA_224_95_MKCN",
-      "name": "MatchKing CrownStrike",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 6.15589645,
-        "materialType": "MAT_JACKETED_LEAD",
-        "overallLengthMm": 32.744,
-        "ogiveLengthMm": 13.752,
-        "bearingSurfaceMm": 15.717,
-        "boatTailLengthMm": 3.274,
-        "engravingPressurePa": 30000000
-      },
       "manufacturerId": "MAN_SIERRA_S6Y3",
-      "ballistics": {}
+      "diameterId": "DIA_224_L5X8",
+      "name": "MatchKing HPBT",
+      "physis": {
+        "overallLengthMm": 33.274,
+        "bearingSurfaceMm": 11.2466,
+        "engravingPressurePa": 32000000,
+        "weightGrams": 6.1558965,
+        "materialType": "MAT_JACKETED_LEAD",
+        "ogiveLengthMm": 17.1361,
+        "boatTailLengthMm": 4.8913
+      },
+      "ballistics": {
+        "sectionalDensity": 0.27,
+        "g1BC": 0.600,
+        "g7BC": 0.299,
+        "g1Bc": 0.600,
+        "g7Bc": 0.299,
+        "bcProvenance": "grt"
+      },
+      "advertisedWeightGrains": 95
     },
     {
       "id": "BUL_SIERRA_284_160_TMK",
