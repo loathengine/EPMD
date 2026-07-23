@@ -1,923 +1,749 @@
-# Empirical Precision — Database Schema Reference
+# Empirical Precision — Database Reference
 
-This document is the canonical technical reference for all IndexedDB tables and the `local-db.json` / `master-db.json` structure.
+Authoritative, code-derived reference for **both** data stores in EPv4. It is detailed enough to
+write read/write code against either store without inspecting live data. Every table, field, type,
+nullability, unit, meaning, index, and relationship is listed.
 
-**Convention:** All field names use **camelCase**. All IDs are strings. Optional fields are marked with `?`.
-
-Tables marked **[master-db]** are seeded from the open-source library. Tables marked **[user-only]** are created locally and never appear in `master-db.json`. Tables marked **[user — IndexedDB only]** exist solely in IndexedDB and are never serialised to JSON.
-
----
-
-## ID Naming Conventions
-
-### Rules for All Master-DB IDs
-
-IDs in `local-db.json` and `master-db.json` follow a strict structured compound key pattern. **The ID is the source of truth — never the name.** IDs must never change after creation.
-
-#### General Rules
-
-| Rule | Description |
-|------|-------------|
-| **ALL CAPS** | All segments are uppercase except the 4-char hash suffix (mixed case allowed) |
-| **Underscore separator** | Segments are separated by `_` |
-| **No spaces** | Spaces are replaced with nothing (omit) or an underscore |
-| **No special characters** | Strip all punctuation, slashes, periods, hyphens from name segments |
-| **Max segment length** | Manufacturer code: 4–6 chars. Name slug: 4–12 chars. Hash: 4 chars |
-| **No leading zeros** | Numeric segments use raw digits, e.g. `308` not `0308` |
-
-#### 4-Character Hash Suffix
-
-Every master-db ID ends in a **4-character alphanumeric hash** to guarantee uniqueness even when the name slug collides. The suffix is **permanent and never reassigned**.
-
-Format options (pick one, be consistent per entity type):
-
-| Style | Example | When to use |
-|-------|---------|-------------|
-| Sequential within manufacturer | `H1G1`, `H1G2`, `H1G3` | Powders grouped by manufacturer |
-| Mixed-case random 4-char | `cR85`, `XBM7`, `2B3E` | Cartridges, diameters, other entities |
-
-**Generating a new hash:** Generate a random 4-character string from `[A-Z0-9a-z]` and verify it does not already exist in the file for that table. Short sequential codes like `H1G1` → `H1G2` are acceptable for batches of records from the same manufacturer.
+**Sources of truth for this document** (do not diverge from these):
+- `src/types/database.ts` — all TypeScript entity interfaces.
+- `src/db/database.ts` — the Dexie class `ReloaderDB` (DB name `reloadingDB_v2`), the `version(1..5)`
+  schema blocks, `repairImportData`, `syncFromMasterData`, `restoreUnifiedDatabase`,
+  `exportUnifiedDatabase`, `clearDatabase`.
+- `test_harnes/json/local-db.json` — the shipped reference database + `tuning` blob (structure inspected;
+  field names/types below are taken from real records, values are not reproduced).
 
 ---
 
-### Format by Entity Type
+## 0. The Two Storage Layers
 
-#### Manufacturers → `MAN_<SLUG>_<HASH>`
+| | **A. IndexedDB** | **B. `local-db.json`** |
+|---|---|---|
+| Engine | Dexie over browser IndexedDB, DB name **`reloadingDB_v2`** | A single JSON file (also served at runtime as `master-db.json`) |
+| Lives | In the user's browser | In the repo / on GitHub Pages, fetched by the app |
+| Holds | Everything: shipped reference data **merged with** the user's local firearms, loads, sessions, marking, chrono, etc. | The curated component library (cartridges, bullets, powders, brass, diameters, manufacturers, primers, primer pockets, grain types) **plus** a `tuning` blob of calibrated engine parameters |
+| Written by | The app UI, and by `syncFromMasterData` / `restoreUnifiedDatabase` on import | `calibrateV4.ts` (tuning only) and direct/scripted edits (physical data) |
+| Authority | The user's live working copy | **The source of truth** for component/geometry/tuning data (CLAUDE.md §3.1) |
 
-| Segment | Rule | Example |
-|---------|------|---------|
-| `MAN` | Fixed prefix | — |
-| `<SLUG>` | 3–6 uppercase chars from manufacturer name | `HODG` (Hodgdon), `VIHT` (Vihtavuori), `ALLI` (Alliant), `SHOO` (Shooters World) |
-| `<HASH>` | 4-char unique suffix | `M1G1` |
-
-**Example:** `MAN_HODG_M1G1` → Hodgdon
-
----
-
-#### Diameters → `DIA_<IMPERIAL>_<HASH>`
-
-| Segment | Rule |
-|---------|------|
-| `DIA` | Fixed prefix |
-| `<IMPERIAL>` | Imperial caliber name, uppercase, no dots. E.g. `308WIN`, `264LBC`, `224VAL` |
-| `<HASH>` | 4-char unique suffix |
-
-**Example:** `DIA_308WIN_XBM7` → .308 Win / 7.62mm
+At runtime the app **fetches `local-db.json`** and calls `syncFromMasterData(data)`, which merges the
+`tuning` blob back onto the physical records and writes them into IndexedDB. So the two layers share the
+same record shapes for the component tables; IndexedDB additionally carries user-only tables that never
+appear in `local-db.json`, and `local-db.json` additionally carries the `tuning` blob that is not a Dexie
+table (it is stashed in the `meta` table under id `local-db`).
 
 ---
 
-#### Cartridges → `CTG_<SLUG>_<HASH>`
-
-| Segment | Rule |
-|---------|------|
-| `CTG` | Fixed prefix |
-| `<SLUG>` | Compact cartridge name, uppercase, no spaces. Max 12 chars |
-| `<HASH>` | 4-char unique suffix. Convention: lowercase `c` prefix (e.g. `cR85`) |
-
-**Examples:**
-- `CTG_308WIN_cC82` → .308 Winchester
-- `CTG_22HORNET_cR80` → .22 Hornet
-- `CTG_65CREEDMR_cN12` → 6.5 Creedmoor
-
----
-
-#### Bullets → `BUL_<MAN>_<DIA>_<WT>_<NAME>_<HASH>`
-
-| Segment | Rule |
-|---------|------|
-| `BUL` | Fixed prefix |
-| `<MAN>` | 3–6 char manufacturer slug |
-| `<DIA>` | Bullet diameter in thousandths. E.g. `224`, `308`, `264` |
-| `<WT>` | Advertised weight in grains as integer |
-| `<NAME>` | 2–4 char abbreviation of bullet model |
-| `<HASH>` | 4-char unique suffix |
-
-**Examples:**
-- `BUL_SIERRA_224_50_BK_2B3E` → Sierra 50gr BlitzKing .224
-- `BUL_BERGER_308_175_HYBRID_A3F1` → Berger 175gr Hybrid .308
-
----
-
-#### Powders → `PWD_<MAN>_<NAME>_<HASH>`
-
-| Segment | Rule |
-|---------|------|
-| `PWD` | Fixed prefix |
-| `<MAN>` | 4–6 char manufacturer slug |
-| `<NAME>` | Powder brand name slug, uppercase, no spaces or hyphens |
-| `<HASH>` | 4-char unique suffix. Convention: manufacturer initial + sequential digits |
-
-**Examples:**
-- `PWD_HODG_VARGET_H1G1` → Hodgdon Varget
-- `PWD_VIHT_N140_V1H6` → Vihtavuori N140
-
----
-
-#### Primers → `PRI_<MAN>_<NAME>_<HASH>`
-
-**Example:** `PRI_FED_210M_P1H1` → Federal GM210M
-
----
-
-#### Brass → `BRS_<MAN>_<CTG>_<HASH>`
-
-**Example:** `BRS_LAPUA_308WIN_B1H1` → Lapua .308 Win brass
-
----
-
-#### Loads → `LOAD_<HEX16>`
+## 1. Entity-Relationship Overview
 
 ```
-LOAD_71b6d8c00511a4f3
+manufacturers ─┬─< bullets >─── diameters
+               ├─< powders
+               ├─< primers >──── primerPockets
+               └─< brass
+diameters ──────< cartridges >── primerPockets
+
+cartridges ──┬─< brass
+             ├─< loads >── bullets, powders, primers, brass, cartridges
+             └─< firearms
+
+firearms ──┐
+loads ─────┼─< sessions ── markedTargets
+markedTargets ─┬─< sessionTargets ── targetImages ── (customTargets)
+               ├─< groups ──< shots
+               └─ (shots also reference groups & targets)
+
+chronoSessions ──(shots[].linkedGroupId)──> groups     (soft link only)
+monteCarloSaves         (standalone)
+grainTypes  <── powders.grainType (string id reference)
 ```
 
-Generate with: `'LOAD_' + crypto.randomUUID().replace(/-/g, '').slice(0, 16)`
+**Legend:** `A ─< B` means one A has many B (B holds A's id as a foreign key).
+
+**CRITICAL keying quirk** (see §4.4): in `sessionTargets`, `groups`, and `shots`, the field named
+`sessionId` **does not hold a `Session.id`** — it holds a **`MarkedTarget.id`**. Marking data is keyed by
+marked target, not by session. `Session` links to its marked target via `Session.markedTargetId`.
 
 ---
 
-#### Primer Pockets → `PKT_<SIZE>`
+## 2. Units Convention
 
-Fixed values only.
-
-| ID | Meaning |
-|----|---------|
-| `PKT_SML` | Small primer pocket |
-| `PKT_LRG` | Large primer pocket |
-
----
-
-#### User-Created Records
-
-User-created records use UUID v4 strings: `8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a`
-
----
-
-#### Quick Reference Table
-
-| Table | Pattern | Real Example |
-|-------|---------|--------------|
-| Manufacturers | `MAN_<SLUG>_<HASH>` | `MAN_HODG_M1G1` |
-| Diameters | `DIA_<IMPERIAL>_<HASH>` | `DIA_308WIN_XBM7` |
-| Cartridges | `CTG_<SLUG>_c<HASH>` | `CTG_22HORNET_cR80` |
-| Bullets | `BUL_<MAN>_<DIA>_<WT>_<NAME>_<HASH>` | `BUL_SIERRA_224_50_BK_2B3E` |
-| Powders | `PWD_<MAN>_<NAME>_<HASH>` | `PWD_HODG_VARGET_H1G1` |
-| Primers | `PRI_<MAN>_<NAME>_<HASH>` | `PRI_FED_210M_P1H1` |
-| Brass | `BRS_<MAN>_<CTG>_<HASH>` | `BRS_LAPUA_308WIN_B1H1` |
-| Loads | `LOAD_<HEX16>` | `LOAD_71b6d8c00511a4f3` |
-| Primer Pockets | `PKT_<SIZE>` | `PKT_LRG` |
-| Firearms | UUID v4 | `8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a` |
-| Sessions / Groups / Shots | UUID v4 | `c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c` |
+- **Internal / storage is SI-metric.** Engines, calibrator, and every persisted component/load field use
+  metric: grams, millimeters, meters/second, Pascals, kg/m³, kJ/kg, degrees C, degrees, Joules.
+- **Imperial only at the UI/IO boundary.** Conversions (inches, grains, fps, °F, inHg, feet, yards)
+  happen in the UI or importer, never inside engines or storage. Never let imperial units flow into
+  storage for component/load records.
+- **Documented exceptions** — a handful of *user-facing convenience* records intentionally store imperial
+  because they mirror UI inputs directly, and are flagged inline below:
+  - `MonteCarloSave.params.*` — stored in imperial (fps, inches, yards, °F, inHg, feet, mph, MOA).
+  - `Session` environment fields (`temp` °F, `altitude` ft, `pressure` inHg).
+  - `Shot.velocity` and `Shot.x/y` — fps and inches/cm (`units` field says which).
+  - `ChronoShot.velocityFps` — fps (normalized from device m/s or mm/s on import).
+  - `Bullet.advertisedWeightGrains`, `Diameter.imperialName` — display/label fields only.
 
 ---
 
-## Manufacturers [master-db]
+## 3. ID Conventions
 
-```json
-{
-  "id": "MAN_HODG_M1G1",
-  "name": "Hodgdon",
-  "displayName": "Hodgdon",
-  "type": ["powder"]
-}
-```
+IDs are always strings and are the source of truth (never the name). Two families:
 
-* `displayName`? — optional shorthand display name string
-* `type`? — array of strings. Valid values: `bullet`, `powder`, `primer`, `brass`, `ammo`
+### 3.1 Curated master-db IDs (structured, permanent)
+`<PREFIX>_<...>_<HASH>`, ALL CAPS, `_` separators, no spaces/punctuation, ending in a 4-char hash suffix.
 
-Dexie index: `id`
+| Table | Prefix | Pattern | Example |
+|-------|--------|---------|---------|
+| manufacturers | `MAN_` | `MAN_<SLUG>_<HASH>` | `MAN_HODG_M1G1` |
+| diameters | `DIA_` | `DIA_<IMPERIAL>_<HASH>` | `DIA_308WIN_XBM7` |
+| cartridges | `CTG_` | `CTG_<SLUG>_c<HASH>` | `CTG_65CREEDMR_cN12` |
+| bullets | `BUL_` | `BUL_<MAN>_<DIA>_<WT>_<NAME>_<HASH>` | `BUL_SIERRA_224_50_BK_2B3E` |
+| powders | `PWD_` | `PWD_<MAN>_<NAME>_<HASH>` | `PWD_HODG_VARGET_H1G1` |
+| primers | `PRI_` | `PRI_<MAN>_<NAME>_<HASH>` | `PRI_FED_210M_P1H1` |
+| primer pockets | `PKT_` | `PKT_<SIZE>` (fixed) | `PKT_SML`, `PKT_LRG` |
+| brass | `BRS_` | `BRS_<MAN>_<CTG>_<HASH>` | `BRS_LAPUA_308WIN_B1H1` |
+| loads | `LOAD_` / `LOD_` | `LOAD_<HEX16>` | `LOAD_71b6d8c00511a4f3` |
+| monte carlo saves | `MCS_` | `MCS_<SLUG>` | `MCS_HDES_HIGH_DESERT` |
 
----
+The prefix list above is exactly the `tablePrefixes` map in `syncFromMasterData` (`MAN_ DIA_ BUL_ PWD_
+PRI_ PKT_ BRS_ CTG_ LOAD_ MCS_`). Only records whose id starts with that table's prefix are **pruned** as
+stale on sync — user records (other id shapes) are never auto-pruned. `grainTypes` uses bare semantic ids
+(`ball`, `flake`, `extrudedSinglePerf`, `extrudedMultiPerf`, `extruded`).
 
-## Diameters [master-db]
-
-```json
-{
-  "id": "DIA_224_L5X8",
-  "imperialName": ".224",
-  "metricName": "5.56",
-  "bulletDiameterMm": 5.6896,
-  "boreDiameterMm": 5.5626
-}
-```
-
-* `imperialName` — imperial caliber display string (e.g. `".308"`)
-* `metricName` — metric display string (e.g. `"7.62mm"`)
-* `bulletDiameterMm` — nominal groove/bullet diameter in millimeters
-* `boreDiameterMm` — land-to-land bore diameter in millimeters
-
-> **Note:** Field names changed from `imperial`/`metric` (old schema) to `imperialName`/`metricName`. The old names are no longer valid.
-
-Dexie index: `id`
+### 3.2 User-created IDs
+`generateUniqueId()` (`src/utils/id.ts`) returns **`Date.now().toString(36) + Math.random().toString(36).slice(2)`**
+— a base-36 timestamp concatenated with a random base-36 string (NOT a UUID). Any imported record missing
+an `id` is assigned one via this function on sync/restore. Some legacy seed records use UUID-v4-shaped ids;
+both forms are valid opaque strings — never parse them.
 
 ---
 
-## Cartridges [master-db]
+# LAYER A — IndexedDB (Dexie `reloadingDB_v2`)
 
-```json
-{
-  "id": "CTG_22ARC_cK12",
-  "name": "22 ARC",
-  "diameterId": "DIA_224_L5X8",
-  "primerPocketId": "PKT_SML",
-  "baseCapacityH2oGrams": 2.242,
-  "capacitySource": "SAAMI spec sheet",
-  "trimLengthMm": 38.481,
-  "maxCaseLengthMm": 38.735,
-  "oalMm": 57.404,
-  "maxSaamiPa": 358527379,
-  "flashHoleDiameterMm": 1.6,
-  "shoulderAngleDeg": 30,
-  "bodyDiameterMm": 11.2,
-  "bulletDiameterMm": 5.69,
-  "boreDiameterMm": 5.563,
-  "freeboreLengthMm": 1.5,
-  "freeboreDiameterMm": 5.72,
-  "throatFreetravelMm": 1.5,
-  "standardTwistMm": 203.2,
-  "cipTestBarrelMm": 609.6,
-  "maxCipPressureBar": 3585,
-  "externalDimensions": {
-    "baseDiameterP1Mm": 11.2,
-    "bodyDiameterAtShoulderP2Mm": 11.1,
-    "shoulderNeckJunctionDiameterH1Mm": 6.4,
-    "neckDiameterAtMouthH2Mm": 6.2,
-    "lengthToShoulderStartL1Mm": 30.0,
-    "lengthToShoulderNeckJunctionL2Mm": 35.8,
-    "totalCaseLengthL3Mm": 38.735
-  },
-  "wallThicknessProfile": {
-    "webThicknessMm": 1.35,
-    "wallThicknessAtBaseMm": 0.95,
-    "wallThicknessAtMidBodyMm": 0.42,
-    "wallThicknessAtShoulderMm": 0.38,
-    "wallThicknessAtNeckMm": 0.34
-  }
-}
-```
+## 4. Dexie Schema
 
-### Root Fields
+`ReloaderDB extends Dexie` declares 22 tables. Every table uses a **string primary key `id`** (outbound —
+Dexie does not auto-generate it; the app supplies it). Store strings list the primary key first, then
+indexed properties.
 
-* All length and diameter fields are in **millimeters**
-* `diameterId` — references `diameters` collection
-* `primerPocketId`? — references `primerPockets` collection (`PKT_SML` or `PKT_LRG`)
-* `minCaseLengthMm`? — minimum allowable case length in mm
-* `maxCaseLengthMm`? — maximum allowable case length in mm
-* `trimLengthMm`? — recommended case trim-to length in mm
-* `oalMm`? — nominal cartridge overall length (SAAMI) in mm
-* `maxSaamiPa`? — SAAMI maximum average pressure in Pascals. **Authoritative engine value**
-* `baseCapacityH2oGrams`? — case water capacity at the base in grams of H₂O
-* `boreDiameterMm`? — land-to-land bore diameter in mm. Source: SAAMI spec sheets
-* `bulletDiameterMm`? — nominal projectile groove/bullet diameter in millimeters
-* `flashHoleDiameterMm`? — SAAMI/CIP spec flash hole diameter in millimeters
-* `shoulderAngleDeg`? — SAAMI/CIP shoulder half-angle in degrees
-* `bodyDiameterMm`? — SAAMI/CIP external body diameter at base (P1) in millimeters
-* `throatFreetravelMm`? — freebore from cartridge spec (SAAMI/CIP) in mm
-* `freeboreLengthMm`? — freebore length (same physical dimension as `throatFreetravelMm`)
-* `freeboreDiameterMm`? — freebore throat diameter in mm
-* `standardTwistMm`? — SAAMI standard twist rate in mm per turn (e.g. `203.2` = 1:8")
-* `cipTestBarrelMm`? — CIP test barrel length in mm
-* `twistRateInchesPerTurn`? — *(legacy, prefer `standardTwistMm`)* twist rate in inches per turn
-* `maxSaamiPressurePsi`? — *(legacy, prefer `maxSaamiPa`)* pressure in PSI; only used for display
-* `maxCipPressureBar`? — C.I.P. maximum pressure limit in bar
+### 4.1 Store strings (current = v5)
 
+| Table (Dexie `Table<T>`) | Store string (`id` = PK) |
+|---|---|
+| `manufacturers` | `id` |
+| `diameters` | `id` |
+| `bullets` | `id, manufacturerId, diameterId` |
+| `powders` | `id, manufacturerId` |
+| `primers` | `id, manufacturerId` |
+| `primerPockets` | `id` |
+| `brass` | `id, cartridgeId, manufacturerId` |
+| `cartridges` | `id, diameterId` |
+| `loads` | `id, cartridgeId, bulletId, powderId` |
+| `firearms` | `id, cartridgeId` |
+| `customTargets` | `id` |
+| `targetImages` | `id` |
+| `markedTargets` | `id` |
+| `sessions` | `id, firearmId, loadId, markedTargetId, [firearmId+loadId]` |
+| `sessionTargets` | `id, sessionId` |
+| `groups` | `id, sessionId` |
+| `shots` | `id, groupId, sessionId, targetId` |
+| `monteCarloSaves` | `id` |
+| `chronoSessions` | `id` |
+| `meta` | `id` |
+| `grainTypes` | `id` |
 
-### `externalDimensions` Object (required for volume solver)
+Note: the indexed `sessionId` on `sessionTargets`/`groups`/`shots` actually indexes a **markedTargetId**
+value (§4.4). The compound `[firearmId+loadId]` index on `sessions` supports "all sessions for this exact
+firearm+load" queries.
 
-| Field | Description |
-|-------|-------------|
-| `baseDiameterP1Mm` | Case head diameter (P1) in mm |
-| `bodyDiameterAtShoulderP2Mm` | Body diameter at shoulder start (P2) in mm |
-| `shoulderNeckJunctionDiameterH1Mm` | Diameter at shoulder/neck junction (H1) in mm |
-| `neckDiameterAtMouthH2Mm` | External neck diameter at case mouth (H2) in mm |
-| `lengthToShoulderStartL1Mm` | Case length from base to shoulder start (L1) in mm |
-| `lengthToShoulderNeckJunctionL2Mm` | Case length from base to shoulder/neck junction (L2) in mm |
-| `totalCaseLengthL3Mm` | Total case length (L3) in mm |
+### 4.2 Version history (v1 → v5)
 
-### `wallThicknessProfile` Object
+Each `this.version(n).stores({...})` block re-declares the full store set (Dexie requirement). Schema
+deltas per version:
 
-| Field | Description |
-|-------|-------------|
-| `webThicknessMm` | Solid brass web thickness at the base in mm |
-| `wallThicknessAtBaseMm` | Wall thickness just above the web in mm |
-| `wallThicknessAtMidBodyMm`? | Wall thickness at mid-body in mm |
-| `wallThicknessAtShoulderMm` | Wall thickness at the shoulder in mm |
-| `wallThicknessAtNeckMm` | Wall thickness at the neck in mm |
+| Version | Change |
+|---|---|
+| **v1** | Base schema: `manufacturers, diameters, bullets, powders, primers, primerPockets, brass, cartridges, loads, firearms, customTargets, targetImages, markedTargets, sessions, sessionTargets, groups, shots`. Marking tables already keyed as in v5. |
+| **v2** | **+ `monteCarloSaves`** (`id`). |
+| **v3** | **+ `chronoSessions`** (`id`). |
+| **v4** | **+ `meta`** (`id`) — runtime store for the `tuning` blob (id `local-db`). |
+| **v5** | **+ `grainTypes`** (`id`) — grain-geometry lookup referenced by `Powder.grainType`. |
 
-Dexie index: `id, diameterId`
+No indexes were dropped or renamed across versions; every version is purely additive, so no data-migration
+callback (`.upgrade(...)`) is attached to any version. The only data reshaping is `repairImportData`,
+applied at **import time** (not as a Dexie upgrade) — see §4.5.
 
----
+### 4.3 IndexedDB-only tables
 
-## Bullets [master-db]
+`chronoSessions` and `meta` exist only in IndexedDB and are **never serialized to `local-db.json`**.
+`meta` holds a single conventional row `{ id: 'local-db', tuning: {...} }`.
 
-```json
-{
-  "id": "BUL_BERGER_277_145_FB_EH45",
-  "name": "Flat Base Target",
-  "manufacturerId": "MAN_BERGER_B9K2",
-  "diameterId": "DIA_277_K9L0",
-  "advertisedWeightGrains": 145,
-  "physis": {
-    "weightGrams": 9.3958,
-    "overallLengthMm": 35.2552,
-    "ogiveLengthMm": 17.818,
-    "boatTailLengthMm": 5.2354,
-    "bearingSurfaceMm": 12.1877,
-    "materialType": "MAT_JACKETED_LEAD",
-    "engravingPressurePa": 32000000
-  },
-  "ballistics": {
-    "g1BC": 0.503,
-    "g7BC": 0.25,
-    "g1FF": 0.536,
-    "g7FF": 1.078
-  }
-}
-```
+### 4.4 CRITICAL quirk — marking data is keyed by `markedTargetId`, not `sessionId`
 
-* `advertisedWeightGrains`? — bullet weight in grains as labeled by manufacturer
-* All length and diameter fields in `physis` are in **millimeters**
-* `physis.weightGrams` — bullet weight in **grams** (convert: grains ÷ 15.4324 = grams)
-* `physis.bearingSurfaceMm`? — bearing surface length in millimeters
-* `physis.tipLengthMm`? — *(optional)* plastic tip length in mm (not included in aerodynamic metal length)
-* `physis.meplatDiameterMm`? — *(optional)* meplat diameter in mm
-* `physis.materialType`? — Valid `MAT_` prefixed values: `"MAT_JACKETED_LEAD"`, `"MAT_MONOLITHIC_COPPER"`, `"MAT_CAST_LEAD"`, `"MAT_RELIEF_GROOVED_COPPER_MONO"`. Legacy bare strings (`"jacketed_lead"`, etc.) are accepted but deprecated
-* `physis.engravingPressurePa`? — engraving resistance pressure in Pascals. Used in the internal ballistics engine to model the bullet's initial free-travel resistance force. Typical value: `32_000_000` Pa (32 MPa)
-* `ballistics.g1BC`? / `ballistics.g7BC`? — ballistic coefficients for G1/G7 drag models
-* `ballistics.g1FF`? / `ballistics.g7FF`? — form factors relative to G1/G7 standard projectile
-* `ballistics.preferredModel`? — *(TypeScript interface field, not currently populated)* `"G1"` or `"G7"`
+Historically, marking data (targets/groups/shots) was keyed by the session id. The app later split
+"a marked target" (the physical annotated target sheet) from "a session" (a range outing). To avoid a
+destructive rename, the **field is still named `sessionId`** on `sessionTargets`, `groups`, and `shots`,
+but it now stores a **`MarkedTarget.id`**.
 
-Dexie index: `id, manufacturerId, diameterId`
+- `Session.markedTargetId` → `MarkedTarget.id` is the real session→target link.
+- `SessionTarget.sessionId`, `Group.sessionId`, `Shot.sessionId` → all hold a **`MarkedTarget.id`**.
+- To load a session's marking data: read `session.markedTargetId`, then query
+  `groups.where('sessionId').equals(markedTargetId)` (likewise `shots`, `sessionTargets`). Querying with
+  the actual session id returns nothing.
+- `Shot.groupId → Group.id` and `Shot.targetId / Group.targetId → SessionTarget.id` are ordinary links.
+
+### 4.5 `repairImportData(data)` migration (import-time)
+
+Run by both `syncFromMasterData` and `restoreUnifiedDatabase` on the incoming JSON, in-place, before any
+write. Two jobs:
+
+1. **Blob rehydration for `targetImages`:** if an item has a `dataUrl` string and no `imageBlob`, convert
+   the Base64 data URL back to a `Blob` (`dataUrlToBlob`) into `imageBlob` and delete `dataUrl`. (The
+   inverse — `imageBlob → dataUrl` — happens in `exportUnifiedDatabase`; `imageBlob` is a binary `Blob` in
+   IndexedDB and cannot be JSON-serialized directly.)
+2. **Legacy marking re-key (pre-split data):** for each `session` that has **no `markedTargetId`** but does
+   have marking data (any `group`/`shot`/`sessionTarget` whose `sessionId === session.id`):
+   - Create a `markedTargets` record with id derived from the session id: `SES_...` → `MKT_...`, else
+     `MKT_<sessionId>`. Name = session name with "Session" replaced by "Marked Target". Copies
+     `targetDistance`, `distanceUnits` (default `'yards'`), `createdAt = Date.now()`.
+   - Set `session.markedTargetId = mtId`.
+   - **Re-key** every matching `group.sessionId`, `shot.sessionId`, `sessionTarget.sessionId` from the old
+     session id to the new `mtId`, enforcing the §4.4 invariant on legacy data.
+
+### 4.6 Sync / restore / export / clear semantics
+
+- **`syncFromMasterData(data)`** (used for the shipped reference DB): merges `data.tuning.powders[]` and
+  `data.tuning.cartridges[]` onto matching physical records by id (`Object.assign`), runs
+  `repairImportData`, then in one `rw` transaction: for each incoming array table, **prunes** stale
+  master records (existing keys that start with the table's prefix but are absent from the incoming id
+  set) via `bulkDelete`, `put`s every incoming item (assigning an id if missing), and finally writes the
+  whole `tuning` blob to `meta` as `{ id: 'local-db', tuning }`. Returns `false` if no valid arrays.
+- **`syncFromMaster(url?)`**: `fetch` the URL (default the EPMD GitHub raw `master-db.json`) → `json()` →
+  `syncFromMasterData`.
+- **`restoreUnifiedDatabase(jsonData)`** (user backup restore): `repairImportData`, then per table `put`s
+  items — **except** for the "master tables" set `{manufacturers, diameters, bullets, powders, primers,
+  primerPockets, brass, cartridges}`, where it only inserts records that **don't already exist** (so a
+  stale snapshot inside a session-export file cannot clobber calibrated master data). No pruning. Does not
+  touch `meta`/tuning.
+- **`exportUnifiedDatabase(tableName?)`**: dumps all tables (or one) to pretty JSON; for `targetImages`
+  converts `imageBlob → dataUrl` Base64.
+- **`clearDatabase(tableName?)`**: `clear()` all tables or one.
 
 ---
 
-## Powders [master-db]
+## 5. IndexedDB Table Reference (per entity)
 
-Powder records separate **physical constants** (root-level) from **calibrated optimization values** (in `tuning.powders[]`, merged at runtime). **Never store calibrated fields on the powder root.**
+Types are from `src/types/database.ts`. `?` = optional/absent-allowed. "null" in Type means the field may
+be explicitly `null`. Component tables (manufacturers…grainTypes) are shared with Layer B and detailed in
+§7; below are the definitions with foreign keys and indexes noted. User-only tables are fully detailed
+here.
 
-### Physical Constants (root-level)
+### 5.1 `firearms` — user-only. Index: `id, cartridgeId`
 
-```json
-{
-  "id": "PWD_HODG_VARGET_H1G1",
-  "manufacturerId": "MAN_HODG_M1G1",
-  "name": "Varget",
-  "heatOfExplosionKjKg": 3750,
-  "grainType": "extrudedSinglePerf",
-  "propellantDensityKgM3": 1620,
-  "bulkDensityKgM3": 920,
-  "kCoeff": 1.2409,
-  "burnExponent": 0.5502,
-  "tempSensitivity": 0.0027,
-  "ignitionBp": 0.2256,
-  "ignitionZ1": 0.5689,
-  "ignitionZ2": 0.5812,
-  "_calibrationNote": "Initial baseline from Hodgdon data sheet"
-}
-```
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`generateUniqueId`). |
+| `nickname` | string | — | User label (required). |
+| `cartridgeId` | string | — | FK → `cartridges.id` (required). |
+| `barrelLengthMm`? | number | mm | Barrel length. |
+| `twistRateMm`? | number | mm/turn | Rifling twist (203.2 = 1:8"). |
+| `sightOverBoreMm`? | number | mm | Scope centerline above bore. |
+| `magCoalMm`? | number | mm | Magazine max COAL constraint. |
+| `freeboreMm`? | number | mm | Measured freebore for this barrel; overrides cartridge SAAMI spec. |
+| `velocityScaleFactor`? | number | ratio | `sessionMeanVelocityFps / predictedVelocityFps`. |
+| `velocityOffsetFps`? | number | fps | `sessionMeanVelocityFps − predictedVelocityFps`. |
+| `velocityOffsetShotCount`? | number | count | Shots used to derive the offset. |
+| `velocityOffsetSd`? | number | fps | SD of those shots. |
+| `velocityOffsetDate`? | string | ISO date | When offset was saved. |
+| `velocityOffsetSessionId`? | string | — | Session the offset came from. |
+| `velocityOffsetTuningStamp`? | string | — | `tuning.generatedAt` at true-ing time; mismatch vs current tuning ⇒ stale factor. |
+| `velocityOffsetFlag`? | string | — | Warning, e.g. `"large offset - verify inputs"`. |
 
-* `heatOfExplosionKjKg`? — heat of explosion in kJ/kg. **Do not calibrate.** Single-base NC ≈ 3750; double-base NC+NG ≈ 3950–4200
-* `grainType`? — grain geometry ID referencing the top-level `grainTypes` table. Values: `"ball"`, `"flake"`, `"extrudedSinglePerf"`, `"extrudedMultiPerf"`, `"extruded"`
-* `propellantDensityKgM3`? — solid propellant density in kg/m³. Physical property — do not calibrate
-* `bulkDensityKgM3`? — bulk (poured) density in kg/m³. Used to compute case fill percentage. Physical property
-* `kCoeff`? — adiabatic exponent ratio for Noble-Abel EOS. Typical: `1.23` (single-base), `1.24`–`1.255` (double-base). Physical constant — do not calibrate
-* `burnExponent`? — Vieille's law pressure exponent. **Calibrated.** Historically stored on powder root. Typical range 0.55–0.85
-* `tempSensitivity`? — temperature sensitivity coefficient in /°C. Physical constant
-* `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? — multi-stage burn profile parameters. **Calibrated.** Historically stored on powder root
-* `_calibrationNote`? — internal annotation string; not used by engine
+### 5.2 `loads` — master-db + user. Index: `id, cartridgeId, bulletId, powderId`
+Full field table in §7.9 (identical shape in both layers).
 
-> **Separation rule:** `burnAreaCoeff`, `burnAreaFillSlope`, `burnAreaBoreSlope`, `burnAreaExpansionSlope`, and `energyScaleFactor` are **never** stored on the powder root. They live exclusively in `tuning.powders[]`.
+### 5.3 `markedTargets` — user-only. Index: `id`
 
-### Calibrated Optimization Values (`tuning.powders[]`)
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. Referenced by `sessionTargets/groups/shots.sessionId` and `Session.markedTargetId`. |
+| `name`? | string | — | Label. |
+| `targetDistance`? | number | value in `distanceUnits` | Distance to target. |
+| `distanceUnits`? | string | — | `"yards"` or `"meters"`. |
+| `createdAt`? | number | ms epoch | Creation timestamp. |
 
-```json
-{
-  "id": "PWD_HODG_VARGET_H1G1",
-  "burnAreaCoeff": 0.2285,
-  "burnAreaFillSlope": 0.04,
-  "burnAreaBoreSlope": 0.0,
-  "burnAreaExpansionSlope": 0.0,
-  "energyScaleFactor": 1.18
-}
-```
+### 5.4 `sessions` — user-only. Index: `id, firearmId, loadId, markedTargetId, [firearmId+loadId]`
 
-| Field | Description |
-|-------|-------------|
-| `burnAreaCoeff` | Base burn rate coefficient at 50% reference fill fraction. Output of `calibrateV3.ts --all` |
-| `burnAreaFillSlope` | Linear fill-fraction slope. Controls burn rate scaling with loading density. Only populated when ≥10 loads span ≥8% fill range; otherwise `0` |
-| `burnAreaBoreSlope` | Bore-diameter correction slope. At reference bore (7.62 mm) factor = 1.0. Default `0` |
-| `burnAreaExpansionSlope` | Gas expansion slope correction during barrel travel phase. Default `0` |
-| `energyScaleFactor` | Engine-level energy efficiency multiplier. **Not a physical constant.** Values persistently above 1.25 indicate suspect data |
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. |
+| `name`? | string | — | Label. |
+| `markedTargetId`? | string | — | FK → `markedTargets.id` (the real session→marking link). |
+| `firearmId`? | string | — | FK → `firearms.id`. |
+| `loadId`? | string | — | FK → `loads.id`. |
+| `targetDistance`? | number | value in `distanceUnits` | Distance. |
+| `distanceUnits`? | string | — | `"yards"` / `"meters"`. |
+| `temp`? | number | **°F** | Environment temperature (imperial — UI mirror). |
+| `altitude`? | number | **feet** | Local altitude. |
+| `pressure`? | number | **inHg** | Barometric/station pressure. |
+| `pressureType`? | string | — | `"station"` or `"sea"`. |
 
-Dexie index: `id, manufacturerId`
+### 5.5 `sessionTargets` — user-only. Index: `id, sessionId`
 
----
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. |
+| `sessionId` | string | — | **Holds a `MarkedTarget.id`** (not a session id — §4.4). |
+| `targetImageId` | string | — | FK → `targetImages.id`. |
+| `scale` | object | — | Pixel-to-physical calibration (below). |
+| `scale.p1` | `{x,y}` \| null | px | First scale reference point. |
+| `scale.p2` | `{x,y}` \| null | px | Second scale reference point. |
+| `scale.distance` | number \| null | value in `scale.units` | Physical distance p1↔p2. |
+| `scale.units` | string | — | e.g. `"in"`, `"cm"`. |
+| `scale.pixelsPerUnit` | number \| null | px/unit | Derived scale factor. |
+| `transform` | `{scale:number}` | ratio | View transform (zoom). |
 
-## Primers [master-db]
+### 5.6 `groups` — user-only. Index: `id, sessionId`
 
-```json
-{
-  "id": "PRI_CCI_NO41_C1R7",
-  "manufacturerId": "MAN_CCI_C2W7",
-  "name": "No. 41 Small Rifle Military",
-  "primerPocketId": "PKT_SML",
-  "brisanceEnergyJ": 8
-}
-```
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. Referenced by `shots.groupId` and `ChronoShot.linkedGroupId`. |
+| `sessionId` | string | — | **Holds a `MarkedTarget.id`** (§4.4). |
+| `targetId` | string | — | FK → `sessionTargets.id`. |
+| `groupNum`? | number | index | Group order within the marked target. |
+| `poa` | `{x,y}` \| null | px | Point-of-aim pixel coords on the image. |
+| `color` | string | — | Hex color for rendering (required). |
 
-* `primerPocketId`? — references `primerPockets` collection
-* `brisanceEnergyJ`? — initial ignition spark energy in Joules. Typical: Small rifle `8.0`, Large rifle `14.0`, Magnum `20.0`
-* `type`? — *(TypeScript interface field, not currently populated in local-db.json)* primer size/type description string
+### 5.7 `shots` — user-only. Index: `id, groupId, sessionId, targetId`
 
-Dexie index: `id, manufacturerId`
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. |
+| `groupId` | string | — | FK → `groups.id`. |
+| `sessionId` | string | — | **Holds a `MarkedTarget.id`** (§4.4). |
+| `targetId` | string | — | FK → `sessionTargets.id`. |
+| `shotNumber` | number | index | Shot sequence number. |
+| `x` | number | value in `units` | Horizontal offset from POA. |
+| `y` | number | value in `units` | Vertical offset from POA (positive = up). |
+| `units` | string | — | `"in"` or `"cm"` (imperial/metric per target). |
+| `velocity` | number \| null | **fps** | Muzzle velocity (manual entry or chrono import); `null` if unrecorded. |
+| `px` | number | px | Raw pixel X on canvas. |
+| `py` | number | px | Raw pixel Y on canvas. |
 
----
+### 5.8 `chronoSessions` — IndexedDB-only. Index: `id`
 
-## Primer Pockets [master-db]
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. |
+| `name` | string | — | Import label. |
+| `deviceType` | enum string | — | `'labradar' \| 'magnetospeed' \| 'garmin_xero' \| 'fit' \| 'generic'`. |
+| `importedAt` | number | ms epoch | Import time. |
+| `shots` | `ChronoShot[]` | — | Embedded array (below). |
 
-```json
-{
-  "id": "PKT_SML",
-  "name": "SMALL",
-  "pocketDiameterMinMm": 4.394,
-  "pocketDiameterMaxMm": 4.432,
-  "pocketDepthMinMm": 2.972,
-  "pocketDepthMaxMm": 3.124
-}
-```
+`ChronoShot`:
 
-* `pocketDiameterMinMm`? / `pocketDiameterMaxMm`? — SAAMI/CIP primer pocket reamer diameter tolerance in mm
-* `pocketDepthMinMm`? / `pocketDepthMaxMm`? — SAAMI/CIP primer pocket depth tolerance in mm
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `shotNumber` | number | index | Sequence number from export file. |
+| `velocityFps` | number | **fps** | Muzzle velocity (normalized from device units on import). |
+| `timestamp`? | string | seconds string | Original time value if present. |
+| `linkedGroupId`? | string \| null | — | Soft FK → `groups.id` this chrono shot is tied to. |
+| `linkedShotIndex`? | number \| null | 0-based index | Position within the linked group's shot list. |
 
-Fixed values. Valid IDs: `PKT_SML` (small), `PKT_LRG` (large).
+### 5.9 `monteCarloSaves` — user-only. Index: `id`
 
-Dexie index: `id`
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`MCS_...`). |
+| `name` | string | — | Scenario label. |
+| `createdAt` | number | ms epoch | Save time. |
+| `params` | object | **imperial** | External-ballistics scenario inputs (all imperial — direct UI mirror). |
 
----
+`params` fields — every value is `number \| null` unless noted:
+`mv` (fps), `bulletWeight` (grains), `bulletDiam` (inches), `bc`, `bcType` (`'G1'\|'G7'`), `twist`
+(inches/turn), `sightHeight` (inches), `zeroDist` (yards), `zeroOffsetX`/`zeroOffsetY` (in),
+`cantDegrees` (deg), `temp` (°F), `pressure` (inHg), `humidity` (%), `altitude` (ft), `windSpeed` (mph),
+`windDir` (deg), `mvSd`, `bcSd`, `windSpeedSd`, `windDirSd`, `windEstimateSd`, `rangeErrorSd`,
+`precisionMoa` (MOA), `cantSd` (deg), `latitude` (deg), `azimuth` (deg),
+`targetShape` (`'circle'\|'rectangle'\|'ipsc'`), `targetWidth`/`targetHeight` (in), `numRuns` (count),
+`rangeMax` (yards), `rangeStep` (yards).
 
-## Brass [master-db]
+### 5.10 `targetImages` — user-only. Index: `id`
 
-```json
-{
-  "id": "BRS_MAN_ADG_A4D7_CTG_65CM_cN72_TR53",
-  "manufacturerId": "MAN_ADG_A4D7",
-  "cartridgeId": "CTG_65CM_cN72",
-  "primerPocketId": "PKT_SML",
-  "capacityH2oGrams": 3.33714
-}
-```
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. |
+| `name` | string | — | Label. |
+| `imageBlob` | Blob | binary | Stored as native `Blob` in IndexedDB; serialized to/from a Base64 `dataUrl` at the export/import boundary. May be absent on config-only target records. |
+| `size` | string | — | Human-readable size, e.g. `"245 KB"`. |
+| `firearmId`? | string | — | FK → `firearms.id`. |
+| `loadId`? | string | — | FK → `loads.id`. |
+| `customTargetConfig`? | `CustomTarget` | — | Embedded target-template config (§5.11 shape). |
 
-* `primerPocketId`? — references `primerPockets` collection
-* `capacityH2oGrams`? — case overflow water capacity in **grams** of H₂O
-* `primerHole`? — *(TypeScript interface field, not currently populated)* flash hole diameter in mm
+### 5.11 `customTargets` — user-only. Index: `id`
 
-Dexie index: `id, cartridgeId, manufacturerId`
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. |
+| `name` | string | — | Label. |
+| `paperSize`? | string | — | e.g. `"letter"`. |
+| `orientation`? | string | — | `"portrait"` / `"landscape"`. |
+| `gridEnabled`? | boolean | — | Draw grid. |
+| `gridSize`? | number | inches | Grid cell size. |
+| `gridColor`? | string | — | Hex. |
+| `rows`?, `cols`? | number | count | Target layout grid. |
+| `marginX`?, `marginY`? | number | inches | Page margins. |
+| `shape`? | string | — | e.g. `"circle"`. |
+| `diameter`? | number | inches | Bullseye/target diameter. |
+| `numRings`? | number | count | Scoring rings. |
+| `bullseyeColor`?, `ringColorA`?, `ringColorB`? | string | — | Hex colors. |
+| `labelText`? | string | — | Caption. |
+| `labelPosition`? | string | — | e.g. `"bottom"`. |
+| `labelSize`? | number | pt | Caption font size. |
+| `labelMargin`? | number | inches | Caption margin. |
 
----
-
-## Loads [master-db + user]
-
-### Units Convention
-
-> **All mass and length fields in loads are stored in metric (grams/mm).** The scraper and importer handle unit conversion. The engine and calibrator read metric values directly.
-
-| Field | Unit |
-|-------|------|
-| `chargeWeightGrams` | grams |
-| `velocityMps` | meters per second |
-| `coalMm` | millimeters |
-| `cbtoMm` | millimeters |
-
-> **Deprecated fields:** `barrelLenMm`, `pressurePsi`, `loadTypeId`, `isCommercial`, and `quarantine` are **no longer populated** in `local-db.json`. Do not add them to new records.
-
-### Example
-
-```json
-{
-  "id": "LOD_HDES_65PRC_147ELD",
-  "handloadName": "147gr Hornady ELD-M / H4350",
-  "cartridgeId": "CTG_65PRC_cP02",
-  "bulletId": "BUL_HORNADY_264_147_147_ELDM",
-  "powderId": "PWD_HODG_H4350_H1G2",
-  "primerId": "PRI_FED_210M_F1D3",
-  "brassId": "BRS_MAN_ALPHA_A1L2_CTG_65PRC_cP02_LRP_OCD",
-  "chargeWeightGrams": 2.9029912,
-  "coalMm": 75.057,
-  "velocityMps": 886.97,
-  "notes": "44.8gr H4350, COAL 2.955\", 2910 fps avg."
-}
-```
-
-* `handloadName`? — user-facing handload nickname string
-* `name`? — alternative display name (used for factory/commercial loads)
-* `coalMm`? — Cartridge Overall Length in **millimeters**
-* `cbtoMm`? — Cartridge Base-to-Ogive length in **millimeters**
-* `chargeWeightGrams`? — propellant charge weight in **grams** (convert from grains: × 0.0647989)
-* `velocityMps`? — recorded average muzzle velocity in **meters per second** (convert from fps: × 0.3048)
-* `notes`? — free-text string
-
-Dexie index: `id, cartridgeId, bulletId, powderId`
-
----
-
-## Tuning Block [master-db — not a Dexie table]
-
-The `tuning` key is a top-level object in `local-db.json` that stores all calibrated engine parameters. It is **not** a Dexie table — `loadDb()` merges it into the relevant entity objects at runtime.
-
-```json
-{
-  "tuning": {
-    "powders": [ ... ],
-    "cartridges": [ ... ],
-    "powderCartridgeCalibrations": [],
-    "velocityCorrection": { ... }
-  }
-}
-```
-
-### `tuning.powders[]`
-
-See the **Powders** section above for the full field description.
-
-### `tuning.cartridges[]`
-
-Per-cartridge calibrated scalars. Merged onto the cartridge object at runtime by `loadDb()`.
-
-```json
-{
-  "id": "CTG_22ARC_cK12",
-  "transducerScaleFactor": 0.71715,
-  "gradientBetaScale": 1.0
-}
-```
-
-| Field | Description |
-|-------|-------------|
-| `transducerScaleFactor` | Conformal piezo transducer scaling factor. Aligns breech pressure output with SAAMI copper crusher equivalents. Default `1.0`. Calibrated from published pressure data per cartridge |
-| `gradientBetaScale`? | Beta scaling factor for the pressure gradient ODE. Adjusts the shape of the pressure curve during barrel travel. Default `1.0`. Only populated when the transducer scale alone gives a poor curve fit |
-
-### `tuning.powderCartridgeCalibrations[]`
-
-Reserved for future per-powder-per-cartridge calibration overrides. Currently empty (`[]`).
-
-### `tuning.velocityCorrection`
-
-A spline-based velocity correction model that maps expansion ratio to a velocity scale factor. Applied after ODE integration to correct for gas-dynamics effects not captured by Noble-Abel.
-
-```json
-{
-  "modelVersion": "v1.0",
-  "globalKnots": [
-    { "expansionRatio": 3.8,  "factor": 0.996225 },
-    { "expansionRatio": 9.8,  "factor": 1.0088 },
-    { "expansionRatio": 11.3, "factor": 1.0114 },
-    { "expansionRatio": 12.8, "factor": 1.0226 },
-    { "expansionRatio": 14.3, "factor": 1.0405 },
-    { "expansionRatio": 15.8, "factor": 1.05 }
-  ],
-  "cartridgeOverrides": {
-    "CTG_223REM_cR82": {
-      "factor": 0.9573,
-      "confidence": "HIGH",
-      "fittedLoads": 1721
-    }
-  },
-  "fittedAt": "2026-07-09T00:00:00Z",
-  "validationR2": 0.94
-}
-```
-
-| Field | Description |
-|-------|-------------|
-| `modelVersion` | Schema version tag for the velocity correction model |
-| `globalKnots[]` | Array of `{ expansionRatio, factor }` knot points for the global piecewise-linear correction curve. `expansionRatio` = barrel volume / chamber volume. `factor` = velocity multiplier |
-| `cartridgeOverrides` | Map of `cartridgeId → { factor, confidence, fittedLoads }`. Flat scalar override per cartridge for systematic offsets not explained by expansion ratio alone |
-| `cartridgeOverrides[id].factor` | Scalar velocity multiplier for this cartridge |
-| `cartridgeOverrides[id].confidence` | `"HIGH"` / `"MEDIUM"` / `"LOW"` — data quality flag |
-| `cartridgeOverrides[id].fittedLoads` | Number of loads used to fit this override |
-| `fittedAt`? | ISO 8601 timestamp when the model was last fitted |
-| `validationR2`? | Global hold-out R² validation score at time of fitting |
+### 5.12 `meta` — IndexedDB-only. Index: `id`
+Runtime scratch table. One conventional row: `{ id: 'local-db', tuning: <tuning blob> }` (see §8). Typed
+`Table<any, string>`; read via `db.meta.get('local-db')`.
 
 ---
 
-## Firearms [user-only]
+# LAYER B — `local-db.json` (Reference Database + Tuning)
 
-```json
-{
-  "id": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
-  "nickname": "6.5 Creedmoor Precision Rifle",
-  "cartridgeId": "CTG_65CREEDMR_cN12",
-  "barrelLengthMm": 660.4,
-  "twistRateMm": 203.2,
-  "sightOverBoreMm": 48.26,
-  "magCoalMm": null,
-  "freeboreMm": null,
-  "velocityScaleFactor": null,
-  "velocityOffsetFps": null,
-  "velocityOffsetShotCount": null,
-  "velocityOffsetSd": null,
-  "velocityOffsetDate": null,
-  "velocityOffsetSessionId": null,
-  "velocityOffsetFlag": null
-}
-```
+## 6. Top-Level Structure
 
-* `barrelLengthMm`? — barrel length in millimeters
-* `twistRateMm`? — rifling twist rate in mm per turn (e.g. `203.2` = 1:8", `254.0` = 1:10")
-* `sightOverBoreMm`? — scope centerline height above bore centerline in millimeters
-* `magCoalMm`? — magazine maximum COAL constraint in mm
-* `freeboreMm`? — actual measured freebore for this specific barrel in mm; overrides the SAAMI cartridge spec
-* `velocityScaleFactor`? — fitted velocity scale: `sessionMeanVelocityFps / predictedVelocityFps`
-* `velocityOffsetFps`? — fitted velocity offset: `sessionMeanVelocityFps − predictedVelocityFps`
-* `velocityOffsetShotCount`? — number of shots used to derive the velocity offset
-* `velocityOffsetSd`? — standard deviation of shots used for the offset
-* `velocityOffsetDate`? — ISO 8601 date string when the offset was saved
-* `velocityOffsetSessionId`? — session ID from which the offset was derived
-* `velocityOffsetFlag`? — warning string, e.g. `"large offset - verify inputs"`
+`local-db.json` is a single JSON object. Component arrays share record shapes with the IndexedDB tables of
+the same name; the `tuning` object is unique to this layer.
 
-Dexie index: `id, cartridgeId`
+| Key | Type | Count (shipped) | Notes |
+|---|---|---|---|
+| `grainTypes` | array | 5 | Grain-geometry lookup. |
+| `diameters` | array | 9 | Caliber definitions. |
+| `cartridges` | array | 126 | Cartridge geometry + pressure ceilings. |
+| `powders` | array | 152 | Powder physical constants (calibrated fields live in `tuning`). |
+| `bullets` | array | 1008 | Projectiles + geometry + ballistics. |
+| `brass` | array | 201 | Case capacity per manufacturer/cartridge. |
+| `firearms` | array | 3 | (User records may ride along in exports.) |
+| `loads` | array | 5 | Recipes. |
+| `customTargets` | array | 2 | Target templates. |
+| `targetImages` | array | 8 | (Config-only in the shipped file.) |
+| `sessions` | array | 6 | |
+| `sessionTargets` | array | 7 | |
+| `groups` | array | 19 | |
+| `shots` | array | 95 | |
+| `manufacturers` | array | 38 | Brands. |
+| `primerPockets` | array | 2 | `PKT_SML`, `PKT_LRG`. |
+| `primers` | array | 13 | |
+| `markedTargets` | array | 6 | |
+| `monteCarloSaves` | array | 3 | |
+| `tuning` | object | — | **Not a Dexie table.** Calibrated engine parameters (§8). |
 
----
-
-## Monte Carlo Saves [user-only]
-
-```json
-{
-  "id": "MCS_HDES_HIGH_DESERT",
-  "name": "High Desert Southwest 6.5 PRC Mule Deer",
-  "createdAt": 1750500000000,
-  "params": {
-    "mv": 2910,
-    "bulletWeight": 147,
-    "bulletDiam": 0.264,
-    "bc": 0.351,
-    "bcType": "G7",
-    "twist": 8,
-    "sightHeight": 1.75,
-    "zeroDist": 100,
-    "zeroOffsetX": 0,
-    "zeroOffsetY": 0,
-    "cantDegrees": 0,
-    "temp": 78,
-    "pressure": 24.71,
-    "humidity": 15,
-    "altitude": 5500,
-    "windSpeed": 8,
-    "windDir": 90,
-    "mvSd": 4.2,
-    "bcSd": 0.5,
-    "windSpeedSd": 2,
-    "windDirSd": 8,
-    "windEstimateSd": 1.5,
-    "rangeErrorSd": 1,
-    "precisionMoa": 0.35,
-    "cantSd": 0.3,
-    "latitude": 34.5,
-    "azimuth": 45,
-    "targetShape": "circle",
-    "targetWidth": 18,
-    "targetHeight": 18,
-    "numRuns": 3000,
-    "rangeMax": 500,
-    "rangeStep": 50
-  }
-}
-```
-
-* `createdAt` — Unix timestamp in milliseconds
-* `params.mv` — muzzle velocity in **fps**
-* `params.bulletDiam` — bullet diameter in **inches**
-* `params.twist` — twist rate in **inches** per turn
-* `params.sightHeight` — scope height above bore in **inches**
-* `params.zeroDist` — zero distance in **yards**
-* `params.temp` — temperature in **°F**
-* `params.pressure` — station pressure in **inHg**
-* `params.altitude` — altitude in **feet**
-* `params.windSpeed` — wind speed in **mph**
-* `params.targetShape` — `"circle"`, `"rectangle"`, or `"ipsc"`
-* `params.targetWidth` / `params.targetHeight` — target dimensions in **inches**
-* `params.rangeMax` — maximum range in **yards**
-
-Dexie index: `id`
+**Runtime sync separation:** physical component records carry only physical/geometry fields; all
+*calibrated* fields (`burnAreaCoeff`, `transducerScaleFactor`, etc.) live under `tuning`. On load,
+`syncFromMasterData` `Object.assign`s `tuning.powders[i]` onto the matching powder and
+`tuning.cartridges[i]` onto the matching cartridge (by `id`), so the rest of the app reads e.g.
+`powder.burnAreaCoeff` directly from IndexedDB. The full `tuning` blob (including `velocityCorrection`,
+`densityRefs`, `levelRefs`, `generatedAt`) is stored verbatim in `meta['local-db'].tuning`.
 
 ---
 
-## Marked Targets [user-only]
+## 7. Component Table Reference (shared shapes)
 
-```json
-{
-  "id": "MKT_HDES_100YD",
-  "name": "High Desert 100yd Paper",
-  "targetDistance": 100,
-  "distanceUnits": "yards",
-  "createdAt": 1750500000000
-}
-```
+### 7.1 `manufacturers`. Index: `id`
 
-* `targetDistance`? — target distance value
-* `distanceUnits`? — `"yards"` or `"meters"`
-* `createdAt`? — Unix timestamp in milliseconds
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | PK (`MAN_...`). |
+| `name` | string | Brand name. |
+| `displayName`? | string | Optional shorthand (interface field). |
+| `type`? | string[] | Category tags. Observed values: `"bullet"`, `"powder"`, `"primer"`, `"brass"`, `"ammo"`. |
+| `country`? | string | ISO country code (e.g. `"US"`). Present in data; not in the TS interface. |
 
-Dexie index: `id`
+### 7.2 `diameters`. Index: `id`
 
----
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`DIA_...`). |
+| `metricName` | string | — | Metric display string (e.g. `"7.62mm"`). |
+| `imperialName`? | string | — | Imperial display string (e.g. `".308"`). |
+| `bulletDiameterMm` | number | mm | Nominal groove/bullet diameter. |
+| `boreDiameterMm` | number | mm | Land-to-land bore diameter. |
 
-## Sessions [user-only]
+### 7.3 `grainTypes`. Index: `id`
 
-```json
-{
-  "id": "c8b3d6f1-4e8a-4d7a-8b9c-2d3e4f5a6b7c",
-  "name": "Session 1",
-  "markedTargetId": "MKT_HDES_100YD",
-  "firearmId": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
-  "loadId": "LOAD_71b6d8c00511a4f3",
-  "targetDistance": 100,
-  "distanceUnits": "yards",
-  "temp": 59.0,
-  "altitude": 1000.0,
-  "pressure": 29.92,
-  "pressureType": "station"
-}
-```
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | Semantic id: `ball`, `flake`, `extrudedSinglePerf`, `extrudedMultiPerf`, `extruded`. Referenced by `Powder.grainType`. |
+| `name` | string | Human label (e.g. `"Spherical / Ball"`). |
 
-* `markedTargetId`? — references `markedTargets` collection
-* `temp`? — environmental temperature during session in **Fahrenheit**
-* `altitude`? — local altitude in **feet**
-* `pressure`? — station or barometric pressure in **inches of mercury** (inHg)
-* `pressureType`? — `"station"` or `"sea"`
+### 7.4 `primerPockets`. Index: `id`
 
-Dexie index: `id, firearmId, loadId, markedTargetId, [firearmId+loadId]`
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK. Fixed set: `PKT_SML`, `PKT_LRG`. |
+| `name` | string | — | `"SMALL"` / `"LARGE"`. |
+| `pocketDiameterMinMm`? / `pocketDiameterMaxMm`? | number | mm | SAAMI/CIP reamer diameter tolerance. |
+| `pocketDepthMinMm`? / `pocketDepthMaxMm`? | number | mm | SAAMI/CIP pocket depth tolerance. |
 
-The compound index `[firearmId+loadId]` enables efficient queries like "all sessions for this exact firearm+load combination."
+### 7.5 `primers`. Index: `id, manufacturerId`
 
----
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`PRI_...`). |
+| `manufacturerId` | string | — | FK → `manufacturers.id`. |
+| `name` | string | — | Model name. |
+| `type`? | string | — | Size/type description (interface field; not populated in shipped data). |
+| `primerPocketId`? | string | — | FK → `primerPockets.id`. |
+| `brisanceEnergyJ`? | number | Joules | Ignition spark energy. Typical: small rifle ~8, large rifle ~14, magnum ~20. |
 
-## Session Targets [user-only]
+### 7.6 `cartridges`. Index: `id, diameterId`
+All lengths/diameters in **mm**, pressures in **Pa**, capacity in **grams H₂O**, angles in **degrees**.
 
-```json
-{
-  "id": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
-  "sessionId": "MKT_HDES_100YD",
-  "targetImageId": "f2b4c6d8-0e2a-4b6c-8d0e-2a4b6c8d0e2a",
-  "scale": {
-    "p1": { "x": 100, "y": 200 },
-    "p2": { "x": 300, "y": 200 },
-    "distance": 2.0,
-    "units": "in",
-    "pixelsPerUnit": 100.0
-  },
-  "transform": { "scale": 1.0 }
-}
-```
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`CTG_...`). |
+| `name` | string | — | Cartridge name. |
+| `diameterId` | string | — | FK → `diameters.id`. |
+| `primerPocketId`? | string | — | FK → `primerPockets.id`. |
+| `maxCaseLengthMm`? | number | mm | Max case length. |
+| `trimLengthMm`? | number | mm | Trim-to length. |
+| `oalMm`? | number | mm | Nominal cartridge overall length (SAAMI). |
+| `maxSaamiPa`? | number | Pa | SAAMI max average pressure. **Authoritative engine ceiling.** |
+| `maxCipPa`? | number | Pa | C.I.P. max pressure — a *different standard*, not a unit variant of `maxSaamiPa`; both kept. |
+| `baseCapacityH2oGrams`? | number | g H₂O | Case water capacity at the base. |
+| `boreDiameterMm`? | number | mm | Land-to-land bore diameter. |
+| `bulletDiameterMm`? | number | mm | Nominal groove/bullet diameter. |
+| `flashHoleDiameterMm`? | number | mm | SAAMI/CIP flash hole diameter. |
+| `shoulderAngleDeg`? | number | deg | SAAMI/CIP shoulder half-angle. |
+| `bodyDiameterMm`? | number | mm | External body diameter at base (P1). |
+| `freeboreLengthMm`? | number | mm | The single cartridge-side freebore source; maps to engine `throatFreetravelMm`. |
+| `twistRateMm`? | number | mm/turn | The live twist field the engine reads (1:8" = 203.2). |
+| `cipTestBarrelMm`? | number | mm | CIP test barrel length (present in data; not in TS interface). |
+| `externalDimensions`? | object | mm | Case geometry for the volume solver (below). |
+| `wallThicknessProfile`? | object | mm | Wall-thickness profile (below). |
 
-* **Note on sessionId**: Holds the ID of the linked **markedTargets** record (not the session record)
-* `scale.p1` / `scale.p2` — pixel coordinates of the two scale reference points
-* `scale.distance` — physical distance value between the two points
-* `scale.pixelsPerUnit` — derived scale factor
+`externalDimensions` (all 7 required when the object is present, all **mm**):
+`baseDiameterP1Mm`, `bodyDiameterAtShoulderP2Mm`, `shoulderNeckJunctionDiameterH1Mm`,
+`neckDiameterAtMouthH2Mm`, `lengthToShoulderStartL1Mm`, `lengthToShoulderNeckJunctionL2Mm`,
+`totalCaseLengthL3Mm`.
 
-Dexie index: `id, sessionId`
+`wallThicknessProfile` (**mm**): `webThicknessMm`, `wallThicknessAtBaseMm`, `wallThicknessAtMidBodyMm`?,
+`wallThicknessAtShoulderMm`, `wallThicknessAtNeckMm` (mid-body optional).
 
----
+### 7.7 `bullets`. Index: `id, manufacturerId, diameterId`
 
-## Groups [user-only]
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`BUL_...`). |
+| `manufacturerId` | string | — | FK → `manufacturers.id`. |
+| `diameterId` | string | — | FK → `diameters.id`. |
+| `name` | string | — | Model name. |
+| `advertisedWeightGrains`? | number | **grains** | Labeled weight (display; present in data, not in TS interface). |
+| `physis` | object | — | Physical geometry (below). |
+| `ballistics` | object | — | BC / form factor (below). |
 
-```json
-{
-  "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
-  "sessionId": "MKT_HDES_100YD",
-  "targetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
-  "groupNum": 1,
-  "poa": { "x": 450.5, "y": 312.0 },
-  "color": "#ef4444"
-}
-```
+`physis`:
 
-* **Note on sessionId**: Holds the ID of the linked **markedTargets** record
-* `groupNum`? — order index of group within the marked target
-* `poa` — pixel coordinates of the point of aim on the target image
-* `color` — hex color string used to render this group
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `weightGrams` | number | g | Bullet mass (metric; grains ÷ 15.4324). |
+| `overallLengthMm` | number \| null | mm | Total length. |
+| `ogiveLengthMm` | number \| null | mm | Ogive (nose) length. **Nullable.** |
+| `boatTailLengthMm` | number \| null | mm | Boat-tail length. **Nullable.** |
+| `tipLengthMm` | number \| null | mm | Plastic tip length (excluded from aerodynamic metal length). |
+| `meplatDiameterMm` | number \| null | mm | Meplat (nose flat) diameter. |
+| `bearingSurfaceMm`? | number \| null | mm | Bearing surface length. **Nullable.** |
+| `materialType`? | enum string | — | `MAT_JACKETED_LEAD`, `MAT_MONOLITHIC_COPPER`, `MAT_CAST_LEAD`, `MAT_RELIEF_GROOVED_COPPER_MONO` (legacy bare `jacketed_lead`/`monolithic_copper`/`cast_lead` deprecated). |
+| `engravingPressurePa`? | number | Pa | Engraving-resistance pressure for the internal ballistics free-travel model (typical 32e6 = 32 MPa). |
+| `geometryProvenance`? | string | — | Free-text provenance tag: `measured`, `estimated`, `synthesized`, `grt+web-corrected`, `web-bestfit`, `web-verified-*`, `synthesized-split(grt-len,donor:<BUL_id>)`, etc. In data, not in TS interface. |
+| `verificationFlag`? | string | — | Free-text QA note flagging suspect/phantom records. In data, not in TS interface. |
 
-Dexie index: `id, sessionId`
+`ballistics`:
 
----
+| Field | Type | Meaning |
+|---|---|---|
+| `g1BC` | number \| null | G1 ballistic coefficient. |
+| `g7BC` | number \| null | G7 ballistic coefficient. |
+| `g1FF`? | number \| null | G1 form factor. |
+| `g7FF`? | number \| null | G7 form factor. |
+| `sectionalDensity`? | number | Sectional density (present in data, not in TS interface). |
+| `preferredModel`? | `'G1'\|'G7'` | Interface field; not populated in shipped data. |
 
-## Shots [user-only]
+### 7.8 `powders`. Index: `id, manufacturerId`
+Root holds **physical constants only**. Calibrated fields (`burnAreaCoeff`, slopes, `energyScaleFactor`,
+and calibrated `burnExponent`) live in `tuning.powders[]` and are merged on at runtime — **never store
+them on the powder root.**
 
-```json
-{
-  "id": "d5c4b3a2-9e8d-7c6b-5a4b-3c2d1e0f9a8b",
-  "groupId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
-  "sessionId": "MKT_HDES_100YD",
-  "targetId": "e3a5f7d2-1c9b-4a8d-8e7f-3a2b1c0d9e8f",
-  "shotNumber": 1,
-  "x": 0.152,
-  "y": -0.218,
-  "units": "in",
-  "velocity": 2705,
-  "px": 465.7,
-  "py": 333.8
-}
-```
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`PWD_...`). |
+| `manufacturerId` | string | — | FK → `manufacturers.id`. |
+| `name` | string | — | Powder name. |
+| `heatOfExplosionKjKg`? | number | kJ/kg | Heat of explosion. Physical — do not calibrate. Single-base ~3580–3750; double-base ~3950. |
+| `heatConvention`? | `'vapor'\|'liquid'` | — | Water-state convention for the heat value. |
+| `kCoeff`? | number | — | Noble-Abel adiabatic exponent ratio (~1.23 single-base, ~1.24–1.255 double-base). Physical. |
+| `grainType`? | enum string | — | FK → `grainTypes.id` (`ball`/`flake`/`extrudedSinglePerf`/`extrudedMultiPerf`/`extruded`). |
+| `propellantDensityKgM3`? | number | kg/m³ | Solid propellant density (Noble-Abel EOS). Physical. |
+| `bulkDensityKgM3`? | number | kg/m³ | Poured bulk density (for fill %). Physical. |
+| `burnExponent`? | number | — | Vieille's-law pressure exponent (default 0.65; typical 0.55–0.85). **Calibrated** — canonical value is in `tuning.powders[]`. |
+| `tempSensitivity`? | number | /°C | Temperature sensitivity coefficient. |
+| `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? | number | — | Multi-stage ignition/burn profile parameters. |
+| `ignitionProvenance`? | string | — | Source tag for ignition params (e.g. `grt-curvefit-2021-03-17`). In data, not in TS interface. |
+| `burnAreaCoeff`? | number | — | **Calibrated** (canonical in `tuning`); interface allows it on root only as the merge target. |
+| `cartridgeOverrides`? | `{cartridgeId,burnAreaCoeff}[]` | — | Per-cartridge `burnAreaCoeff` overrides fitted by `--calibrate-cartridge-overrides`. |
 
-* **Note on sessionId**: Holds the ID of the linked **markedTargets** record
-* `x` / `y` — physical offset from POA in `units` (inches or cm). Y positive = up
-* `px` / `py` — raw pixel coordinates on the canvas
-* `velocity` — muzzle velocity in **fps**, written from either the Marking page manual input or the Chrono import workflow. `null` if not recorded
+### 7.9 `loads`. Index: `id, cartridgeId, bulletId, powderId`
+**All mass/length metric** (grams/mm), velocity in m/s.
 
-Dexie index: `id, groupId, sessionId, targetId`
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`LOAD_`/`LOD_...`). |
+| `name`? | string | — | Display name (factory/commercial loads). |
+| `handloadName`? | string | — | Handload nickname. |
+| `cartridgeId` | string | — | FK → `cartridges.id` (required). |
+| `bulletId` | string | — | FK → `bullets.id` (required). |
+| `powderId`? | string | — | FK → `powders.id`. |
+| `primerId`? | string | — | FK → `primers.id`. |
+| `brassId`? | string | — | FK → `brass.id`. |
+| `manufacturerId`? | string | — | FK → `manufacturers.id` (factory ammo). |
+| `partNumber`? | string \| null | — | SKU. |
+| `lot`? | string \| null | — | Lot number. |
+| `chargeWeightGrams`? | number | g | Propellant charge (grains × 0.0647989). |
+| `coalMm`? | number | mm | Cartridge overall length. |
+| `cbtoMm`? | number | mm | Cartridge base-to-ogive length. |
+| `velocityMps`? | number | m/s | Recorded average MV (fps × 0.3048). |
+| `loadTypeId`? | string | — | *Deprecated — not populated.* |
+| `isCommercial`? | boolean | — | *Deprecated — not populated.* |
+| `notes`? | string | — | Free text. |
 
----
+### 7.10 `brass`. Index: `id, cartridgeId, manufacturerId`
 
-## Target Images [user-only]
-
-```json
-{
-  "id": "f2b4c6d8-0e2a-4b6c-8d0e-2a4b6c8d0e2a",
-  "name": "100yd Target",
-  "imageBlob": "<Blob>",
-  "size": "245 KB",
-  "firearmId": "8f3b6c1d-2d4a-4e8a-8c7a-9b5d8f6c3e2a",
-  "loadId": "LOAD_71b6d8c00511a4f3"
-}
-```
-
-* `imageBlob` — stored as a native binary `Blob` in IndexedDB
-* **JSON export/import:** `imageBlob` is automatically converted to/from a Base64 `dataUrl` string at the export/import boundary
-
-Dexie index: `id`
-
----
-
-## Custom Targets [user-only]
-
-```json
-{
-  "id": "b7c9e1d3-4f0a-4b6c-8d2e-4a6b8c0d2e4f",
-  "name": "100yd Precision Target",
-  "paperSize": "letter",
-  "orientation": "portrait",
-  "gridEnabled": true,
-  "gridSize": 1,
-  "gridColor": "#cccccc",
-  "rows": 1,
-  "cols": 1,
-  "marginX": 0.5,
-  "marginY": 0.5,
-  "shape": "circle",
-  "diameter": 3.0,
-  "numRings": 5,
-  "bullseyeColor": "#000000",
-  "ringColorA": "#000000",
-  "ringColorB": "#ffffff",
-  "labelText": "100 yards",
-  "labelPosition": "bottom",
-  "labelSize": 12,
-  "labelMargin": 0.25
-}
-```
-
-Dexie index: `id`
-
----
-
-## Chrono Sessions [user — IndexedDB only]
-
-Chronograph import records created by the Chrono page. **Never serialised to `local-db.json`.**
-
-```json
-{
-  "id": "CHRN_lf7q3x9p2k",
-  "name": "Range Day — LabRadar Series 4",
-  "deviceType": "labradar",
-  "importedAt": 1781546283422,
-  "shots": [
-    {
-      "shotNumber": 1,
-      "velocityFps": 2743.25,
-      "timestamp": "0.000000",
-      "linkedGroupId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
-      "linkedShotIndex": 0
-    },
-    {
-      "shotNumber": 2,
-      "velocityFps": 2738.10,
-      "linkedGroupId": null,
-      "linkedShotIndex": null
-    }
-  ]
-}
-```
-
-* `deviceType` — detected chronograph type. Values: `"labradar"`, `"magnetospeed"`, `"garmin_xero"`, `"generic"`
-* `importedAt` — Unix timestamp in milliseconds
-* `shots[].shotNumber` — shot sequence number from the chrono export file
-* `shots[].velocityFps` — muzzle velocity in **fps** (normalized from m/s or mm/s during import)
-* `shots[].timestamp`? — original time value from chrono CSV if available (seconds elapsed string)
-* `shots[].linkedGroupId`? — ID of the marking `Group` record this chrono shot is associated with
-* `shots[].linkedShotIndex`? — 0-based index within the group's shot list
-
-Dexie index: `id`
+| Field | Type | Units | Meaning |
+|---|---|---|---|
+| `id` | string | — | PK (`BRS_...`). |
+| `manufacturerId` | string | — | FK → `manufacturers.id`. |
+| `cartridgeId` | string | — | FK → `cartridges.id`. |
+| `primerPocketId`? | string | — | FK → `primerPockets.id`. |
+| `primerHole`? | number \| null | mm | Flash hole diameter (interface field; not populated). |
+| `capacityH2oGrams`? | number \| null | g H₂O | Case overflow water capacity. |
 
 ---
 
-*For the mathematical derivations behind the simulation engines, see [MATHS.md](MATHS.md).*
-*For the user-facing guide, see [README.md](README.md).*
+## 8. The `tuning` Blob
+
+`local-db.json.tuning` is an object (not a Dexie table) stored verbatim in `meta['local-db'].tuning`.
+Top-level keys:
+
+| Key | Type | Meaning |
+|---|---|---|
+| `powders` | array | Per-powder calibrated parameters (merged onto powder records). |
+| `cartridges` | array | Per-cartridge calibrated scalars (merged onto cartridge records). |
+| `powderCartridgeCalibrations` | array | Reserved for per-powder-per-cartridge overrides; currently empty `[]`. |
+| `velocityCorrection` | object | Post-integration velocity correction model. |
+| `densityRefs` | object (map) | `"<CTG_id>|<PWD_id>" → number` reference loading density (kg/m³) per cartridge+powder pair. |
+| `levelRefs` | object (map) | `"<CTG_id>|<PWD_id>" → number` reference fill level per cartridge+powder pair. |
+| `generatedAt` | string | ISO 8601 timestamp of the calibration run (also used as the tuning stamp on firearm true-ing). |
+
+### 8.1 `tuning.powders[]`
+Merged by `id` onto the matching powder.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | FK → `powders.id`. |
+| `burnAreaCoeff` | number \| null | Base burn-rate coefficient at the reference fill fraction. `null` for unmodeled powders. |
+| `burnAreaFillSlope` | number | Linear fill-fraction slope (0 when insufficient data). |
+| `burnAreaBoreSlope` | number | Bore-diameter correction slope (0 at reference bore). |
+| `burnAreaExpansionSlope` | number | Gas-expansion slope during barrel travel (default 0). |
+| `energyScaleFactor` | number | Engine energy-efficiency multiplier (not physical; persistently >1.25 ⇒ suspect data). |
+| `burnExponent` | number | Calibrated Vieille's-law exponent (canonical copy; also mirrored to the powder root). |
+
+### 8.2 `tuning.cartridges[]`
+Merged by `id` onto the matching cartridge.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | FK → `cartridges.id`. |
+| `transducerScaleFactor` | number | Piezo→SAAMI-equivalent breech-pressure scaling. Default 1.0; fitted per cartridge from published pressure. |
+| `gradientBetaScale`? | number | Beta scale for the pressure-gradient ODE (default 1.0; populated only when the transducer scale alone fits poorly). |
+
+### 8.3 `tuning.velocityCorrection`
+Spline + per-cartridge/per-powder correction applied after ODE integration.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `modelVersion` | string | Schema tag (e.g. `"v4.5-pressure-ramp"`). |
+| `globalKnots` | `{expansionRatio,factor}[]` | Piecewise-linear global curve. `expansionRatio` = barrel volume / chamber volume; `factor` = velocity multiplier. |
+| `pressureRampSlope` | number | Global pressure-ramp slope term. |
+| `cartridgeOverrides` | object (map) | `cartridgeId → override` (below). |
+| `rifleEffects` | object (map) | `"<Manufacturer>|<CTG_id>" → {factor, devPct, n}` — per powder-brand×cartridge velocity bias (`factor` multiplier, `devPct` % deviation, `n` sample count). |
+| `fittedAt` | string | ISO 8601 fit timestamp. |
+| `validationR2`? | number | Hold-out R² (when present). |
+
+`cartridgeOverrides[cartridgeId]`:
+
+| Field | Type | Meaning |
+|---|---|---|
+| `factor` | number | Scalar velocity multiplier for the cartridge. |
+| `confidence` | string | `"HIGH"`/`"MEDIUM"`/`"LOW"`. |
+| `weightSlope`? | number | Charge-weight sensitivity slope. |
+| `refWeightGrams`? | number | Reference charge weight (g) for the slope. |
+| `weightFactorMin`? / `weightFactorMax`? | number | Clamp bounds for the weight-adjusted factor. |
+| `meanSimPressurePsi`? / `stdSimPressurePsi`? | number | Fit diagnostics (sim pressure mean/SD in PSI). |
+| `fittedLoads`? | number | Load count used to fit. |
+| `powderOverrides`? | object (map) | `powderId → { factor, meanSimPressurePsi, stdSimPressurePsi, weightSlope?, refWeightGrams?, weightFactorMin?, weightFactorMax? }` — per-powder refinement within the cartridge. |
+
+---
+
+## 9. Worked Examples
+
+### 9.1 Add a handload (write path)
+
+```ts
+import { db } from '../db/database';
+
+const id = 'LOAD_' + crypto.randomUUID().replace(/-/g, '').slice(0, 16);
+await db.loads.put({
+  id,
+  handloadName: '147gr ELD-M / H4350',
+  cartridgeId: 'CTG_65PRC_cP02',   // FK → cartridges.id (required)
+  bulletId:    'BUL_HORNADY_264_147_147_ELDM', // FK → bullets.id (required)
+  powderId:    'PWD_HODG_H4350_H1G2',
+  primerId:    'PRI_FED_210M_F1D3',
+  brassId:     'BRS_MAN_ALPHA_A1L2_CTG_65PRC_cP02_LRP_OCD',
+  chargeWeightGrams: 44.8 * 0.0647989,  // grains → grams at the boundary
+  coalMm:            75.06,
+  velocityMps:       2910 * 0.3048,     // fps → m/s at the boundary
+  notes: '44.8gr H4350, 2910 fps avg',
+});
+```
+Rules: store metric; supply all required FKs; the id starts with `LOAD_` so a later master sync could prune
+it — user loads normally use non-prefixed ids from `generateUniqueId()` to avoid that.
+
+### 9.2 Read a session's shots + velocities (read path)
+
+```ts
+const session = await db.sessions.get(sessionId);
+if (!session?.markedTargetId) return [];      // no marking yet
+
+// §4.4: groups/shots are keyed by markedTargetId, stored in the field named `sessionId`.
+const mtId = session.markedTargetId;
+const shots = await db.shots.where('sessionId').equals(mtId).sortBy('shotNumber');
+
+const velocities = shots
+  .filter(s => s.velocity != null)            // fps, may be null
+  .map(s => s.velocity as number);
+```
+Querying `db.shots.where('sessionId').equals(session.id)` returns nothing — that is the classic bug this
+quirk causes.
+
+### 9.3 Read a powder with its calibrated burn rate
+
+After `syncFromMasterData`, `tuning.powders[i]` has been `Object.assign`ed onto the powder record, so:
+```ts
+const powder = await db.powders.get('PWD_HODG_VARGET_H1G1');
+const coeff  = powder?.burnAreaCoeff;   // merged from tuning at sync time
+// Full tuning (velocityCorrection, densityRefs, generatedAt) if needed:
+const meta = await db.meta.get('local-db');
+const vc   = meta?.tuning?.velocityCorrection;
+```
+
+---
+
+*Companion docs: `MATHS.md` (engine derivations), `README.md` (user guide). This file supersedes the prior
+schema draft and is generated from `database.ts` + `local-db.json` structure.*
