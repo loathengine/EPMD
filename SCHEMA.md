@@ -611,6 +611,14 @@ them on the powder root.**
 | `loadTypeId`? | string | — | *Deprecated — not populated.* |
 | `isCommercial`? | boolean | — | *Deprecated — not populated.* |
 | `notes`? | string | — | Free text. |
+| `bulletLot`? | string | — | Bullet lot number (handload bookkeeping; `lot` is its legacy fallback on read). |
+| `powderLot`? | string | — | Powder lot number. |
+| `primerLot`? | string | — | Primer lot number. |
+| `brassLot`? | string | — | Brass lot number. |
+| `cbtoComp`? | string | — | Comparator/tool used for the `cbtoMm` measurement. |
+| `shoulderMm`? | number | mm | Shoulder bump (stored from an inches input). |
+| `shoulderComp`? | string | — | Comparator/tool used for the shoulder measurement. |
+| `firings`? | number | — | Times the brass in this load has been fired. |
 
 ### 7.10 `brass`. Index: `id, cartridgeId, manufacturerId`
 
