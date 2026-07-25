@@ -472,6 +472,17 @@ the same name; the `tuning` object is unique to this layer.
 | `id` | string | Semantic id: `ball`, `flake`, `extrudedSinglePerf`, `extrudedMultiPerf`, `extruded`. Referenced by `Powder.grainType`. |
 | `name` | string | Human label (e.g. `"Spherical / Ball"`). |
 
+### 7.3b `geometryProvenanceTiers` (reference-DB only; not a Dexie table)
+
+Ranked confidence tiers for bullet geometry, referenced by `Bullet.geometryTierId`. Lives only
+in `local-db.json`; the app's sync ignores it (`parseImportBundle` skips non-Dexie keys).
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | string | `GEOTIER_MEASURED` (rank 1) → `GEOTIER_WEB_VERIFIED` (2) → `GEOTIER_WEB_BESTFIT` (3) → `GEOTIER_SPLIT` (4) → `GEOTIER_SYNTHESIZED` (5) → `GEOTIER_ESTIMATED` (6). |
+| `rank` | number | Lower = higher confidence; enables "all bullets below tier X" queries. |
+| `name` / `description` | string | Human label and definition (SPLIT = known OAL, donor-scaled ogive/bearing split). |
+
 ### 7.4 `primerPockets`. Index: `id`
 
 | Field | Type | Units | Meaning |
@@ -551,8 +562,16 @@ All lengths/diameters in **mm**, pressures in **Pa**, capacity in **grams H₂O*
 | `bearingSurfaceMm`? | number \| null | mm | Bearing surface length. **Nullable.** |
 | `materialType`? | enum string | — | `MAT_JACKETED_LEAD`, `MAT_MONOLITHIC_COPPER`, `MAT_CAST_LEAD`, `MAT_RELIEF_GROOVED_COPPER_MONO` (legacy bare `jacketed_lead`/`monolithic_copper`/`cast_lead` deprecated). |
 | `engravingPressurePa`? | number | Pa | Engraving-resistance pressure for the internal ballistics free-travel model (typical 32e6 = 32 MPa). |
-| `geometryProvenance`? | string | — | Free-text provenance tag: `measured`, `estimated`, `synthesized`, `grt+web-corrected`, `web-bestfit`, `web-verified-*`, `synthesized-split(grt-len,donor:<BUL_id>)`, etc. In data, not in TS interface. |
 | `verificationFlag`? | string | — | Free-text QA note flagging suspect/phantom records. In data, not in TS interface. |
+
+Geometry provenance (bullet-level, **outside** `physis` — it is metadata, not a dimension;
+replaced the old free-text `physis.geometryProvenance` on 2026-07-24):
+
+| Field | Type | Meaning |
+|---|---|---|
+| `geometryTierId` | string | FK → `geometryProvenanceTiers.id`. Confidence tier of the geometry data. |
+| `geometryDonorBulletId`? | string | FK → `bullets.id`. Only on `GEOTIER_SPLIT` records: the (measured) bullet whose ogive/bearing proportions were scaled to this bullet's known OAL. Never a split-tier record itself. |
+| `geometryNote`? | string | Optional detail tail (sources, corroboration, or `donor(unresolved, deleted upstream): <old id>` where a donor record no longer exists). |
 
 `ballistics`:
 
