@@ -525,7 +525,10 @@ All lengths/diameters in **mm**, pressures in **Pa**, capacity in **grams H₂O*
 | `bodyDiameterMm`? | number | mm | External body diameter at base (P1). |
 | `freeboreLengthMm`? | number | mm | The single cartridge-side freebore source; maps to engine `throatFreetravelMm`. |
 | `twistRateMm`? | number | mm/turn | The live twist field the engine reads (1:8" = 203.2). |
-| `cipTestBarrelMm`? | number | mm | CIP test barrel length (present in data; not in TS interface). |
+| `cipTestBarrelMm`? | number | mm | CIP regulatory test barrel length (600/650); sparse (~33 cartridges). |
+| `refTestBarrelMm`? | number | mm | Reference test barrel assumed when a load source omits the barrel (omission ⇒ standard barrel used). Derived per cartridge from cited barrels; replaces the ingester's old blunt 24" default. See `scratch/populate_ref_barrel.py`. |
+| `refTestBarrelSource`? | string | — | Provenance of `refTestBarrelMm` (publisher-level vote): `EMPIRICAL_MODE` (≥2/3 supermajority) \| `EMPIRICAL_LOW` (plurality; genuinely multi-barrel) \| `EMPIRICAL_SINGLE` (one publisher) \| `CIP` \| `DEFAULT_24`. |
+| `refTestBarrelAgreement`? | number | — | Confidence of `refTestBarrelMm` = winning votes / total publisher votes (0–1). |
 | `externalDimensions`? | object | mm | Case geometry for the volume solver (below). |
 | `wallThicknessProfile`? | object | mm | Wall-thickness profile (below). |
 
