@@ -668,6 +668,8 @@ Top-level keys:
 | `velocityCorrection` | object | Post-integration velocity correction model. |
 | `densityRefs` | object (map) | `"<CTG_id>|<PWD_id>" → number` reference loading density (kg/m³) per cartridge+powder pair. |
 | `levelRefs` | object (map) | `"<CTG_id>|<PWD_id>" → number` reference fill level per cartridge+powder pair. |
+| `cellDataProvenance` | object (map) | `"<CTG_id>|<PWD_id>" → {pub, share, n}` dominant publisher + share per cell (calibrateV4 post-pass). App surfaces share ≥ 0.9 as a single-test-rifle velocity caution — transparency, never silent correction. |
+| `bulletPressureFactors` | object (map) | `"<BUL_id>" → number` per-bullet pressure REPORTING factor (calibrateV4 post-pass): TSF-analogue on the bullet axis, EB-shrunken, \|t\|≥2-guarded, per-bullet p30 tail-guard, clamped [0.90, 1.08]. Applied via `inputs.bulletPressureFactor` at consumption boundaries only (run_all, app); never during fitting. |
 | `generatedAt` | string | ISO 8601 timestamp of the calibration run (also used as the tuning stamp on firearm true-ing). |
 
 ### 8.1 `tuning.powders[]`
