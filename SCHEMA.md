@@ -664,11 +664,9 @@ Top-level keys:
 |---|---|---|
 | `powders` | array | Per-powder calibrated parameters (merged onto powder records). |
 | `cartridges` | array | Per-cartridge calibrated scalars (merged onto cartridge records). |
-| `powderCartridgeCalibrations` | array | Reserved for per-powder-per-cartridge overrides; currently empty `[]`. |
 | `velocityCorrection` | object | Post-integration velocity correction model. |
 | `densityRefs` | object (map) | `"<CTG_id>|<PWD_id>" → number` reference loading density (kg/m³) per cartridge+powder pair. |
 | `levelRefs` | object (map) | `"<CTG_id>|<PWD_id>" → number` reference fill level per cartridge+powder pair. |
-| `cellDataProvenance` | object (map) | `"<CTG_id>|<PWD_id>" → {pub, share, n}` dominant publisher + share per cell (calibrateV4 post-pass). App surfaces share ≥ 0.9 as a single-test-rifle velocity caution — transparency, never silent correction. |
 | `bulletPressureFactors` | object (map) | `"<BUL_id>" → number` per-bullet pressure REPORTING factor (calibrateV4 post-pass): TSF-analogue on the bullet axis, EB-shrunken, \|t\|≥2-guarded, per-bullet p30 tail-guard, clamped [0.90, 1.08]. Applied via `inputs.bulletPressureFactor` at consumption boundaries only (run_all, app); never during fitting. |
 | `generatedAt` | string | ISO 8601 timestamp of the calibration run (also used as the tuning stamp on firearm true-ing). |
 
@@ -703,7 +701,6 @@ Spline + per-cartridge/per-powder correction applied after ODE integration.
 | `globalKnots` | `{expansionRatio,factor}[]` | Piecewise-linear global curve. `expansionRatio` = barrel volume / chamber volume; `factor` = velocity multiplier. |
 | `pressureRampSlope` | number | Global pressure-ramp slope term. |
 | `cartridgeOverrides` | object (map) | `cartridgeId → override` (below). |
-| `rifleEffects` | object (map) | `"<Manufacturer>|<CTG_id>" → {factor, devPct, n}` — per powder-brand×cartridge velocity bias (`factor` multiplier, `devPct` % deviation, `n` sample count). |
 | `fittedAt` | string | ISO 8601 fit timestamp. |
 | `validationR2`? | number | Hold-out R² (when present). |
 
