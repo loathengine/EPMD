@@ -416,8 +416,8 @@ the same name; the `tuning` object is unique to this layer.
 | `grainTypes` | array | 5 | Grain-geometry lookup. |
 | `diameters` | array | 9 | Caliber definitions. |
 | `cartridges` | array | 126 | Cartridge geometry + pressure ceilings. |
-| `powders` | array | 152 | Powder physical constants (calibrated fields live in `tuning`). |
-| `bullets` | array | 1008 | Projectiles + geometry + ballistics. |
+| `powders` | array | 144 | Powder physical constants (calibrated fields live in `tuning`). |
+| `bullets` | array | 991 | Projectiles + geometry + ballistics. |
 | `brass` | array | 201 | Case capacity per manufacturer/cartridge. |
 | `firearms` | array | 3 | (User records may ride along in exports.) |
 | `loads` | array | 5 | Recipes. |
