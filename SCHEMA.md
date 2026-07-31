@@ -6,11 +6,17 @@ nullability, unit, meaning, index, and relationship is listed.
 
 **Sources of truth for this document** (do not diverge from these):
 - `src/types/database.ts` — all TypeScript entity interfaces.
-- `src/db/database.ts` — the Dexie class `ReloaderDB` (DB name `reloadingDB_v2`), the `version(1..5)`
-  schema blocks, `repairImportData`, `syncFromMasterData`, `restoreUnifiedDatabase`,
-  `exportUnifiedDatabase`, `clearDatabase`.
+- `src/db/database.ts` — the Dexie class `ReloaderDB` (DB name `reloadingDB_v2`), the `version(1..6)`
+  schema blocks, `parseImportBundle`, `repairImportData`, `syncFromMasterData`, `restoreUnifiedDatabase`,
+  `exportUnifiedDatabase`, `clearDatabase`, `getLastSyncError`.
+- `src/utils/velocityCorrection.ts` — `CorrectionParams`, `CartridgeOverride`, `PowderOverride`,
+  `ConstructionOverride` (the authority for `tuning.velocityCorrection`, §8.3).
 - `test_harnes/json/local-db.json` — the shipped reference database + `tuning` blob (structure inspected;
   field names/types below are taken from real records, values are not reproduced).
+
+**Last verified against those sources: 2026-07-31.** Where the TypeScript interface and the shipped data
+disagree — a typed field that no record carries, or a field in the data that no interface declares — this
+document states both, because that gap is exactly what breaks a consumer written from the types alone.
 
 ---
 
@@ -88,17 +94,17 @@ IDs are always strings and are the source of truth (never the name). Two familie
 ### 3.1 Curated master-db IDs (structured, permanent)
 `<PREFIX>_<...>_<HASH>`, ALL CAPS, `_` separators, no spaces/punctuation, ending in a 4-char hash suffix.
 
-| Table | Prefix | Pattern | Example |
+| Table | Prefix | Pattern | Real example |
 |-------|--------|---------|---------|
-| manufacturers | `MAN_` | `MAN_<SLUG>_<HASH>` | `MAN_HODG_M1G1` |
-| diameters | `DIA_` | `DIA_<IMPERIAL>_<HASH>` | `DIA_308WIN_XBM7` |
-| cartridges | `CTG_` | `CTG_<SLUG>_c<HASH>` | `CTG_65CREEDMR_cN12` |
+| manufacturers | `MAN_` | `MAN_<SLUG>_<HASH>` | `MAN_HODGDON_H7X2` |
+| diameters | `DIA_` | `DIA_<IMPERIAL>_<HASH>` | `DIA_308_XBM7` |
+| cartridges | `CTG_` | `CTG_<SLUG>_c<HASH>` | `CTG_65CM_cN72` |
 | bullets | `BUL_` | `BUL_<MAN>_<DIA>_<WT>_<NAME>_<HASH>` | `BUL_SIERRA_224_50_BK_2B3E` |
 | powders | `PWD_` | `PWD_<MAN>_<NAME>_<HASH>` | `PWD_HODG_VARGET_H1G1` |
-| primers | `PRI_` | `PRI_<MAN>_<NAME>_<HASH>` | `PRI_FED_210M_P1H1` |
+| primers | `PRI_` | `PRI_<MAN>_<NAME>_<HASH>` | `PRI_FED_210M_F1D3` |
 | primer pockets | `PKT_` | `PKT_<SIZE>` (fixed) | `PKT_SML`, `PKT_LRG` |
-| brass | `BRS_` | `BRS_<MAN>_<CTG>_<HASH>` | `BRS_LAPUA_308WIN_B1H1` |
-| loads | `LOAD_` / `LOD_` | `LOAD_<HEX16>` | `LOAD_71b6d8c00511a4f3` |
+| brass | `BRS_` | `BRS_<MAN>_<CTG>_<HASH>` | `BRS_MAN_HORNADY_CTG_22ARC_cK12_Q4TN` |
+| loads | `LOAD_` / `LOD_` | `LOD_<SLUG>` (shipped) or `LOAD_<HEX16>` | `LOD_HDES_65PRC_147ELD` |
 | monte carlo saves | `MCS_` | `MCS_<SLUG>` | `MCS_HDES_HIGH_DESERT` |
 
 The prefix list above is exactly the `tablePrefixes` map in `syncFromMasterData` (`MAN_ DIA_ BUL_ PWD_
@@ -106,11 +112,27 @@ PRI_ PKT_ BRS_ CTG_ LOAD_ MCS_`). Only records whose id starts with that table's
 stale on sync — user records (other id shapes) are never auto-pruned. `grainTypes` uses bare semantic ids
 (`ball`, `flake`, `extrudedSinglePerf`, `extrudedMultiPerf`, `extruded`).
 
+**Only the prefix is load-bearing.** Nothing in the codebase parses the segments after it — the sole
+functional use of an id's shape is the `startsWith(prefix)` stale-record prune above. The rest of the
+pattern is a human-readable convention, so treat mismatches in existing data as cosmetic, not as bugs.
+
+Two convention notes where the data is not uniform:
+- **`brass.<MAN>` has two live variants.** 147 of 202 records use the manufacturer *name* only
+  (`BRS_MAN_HORNADY_...`, `BRS_MAN_WINCHEST_...` — the name upper-cased, non-alphanumerics to `_`,
+  truncated to 8 chars); 53 embed the full manufacturer id including its hash
+  (`BRS_MAN_ALPHA_A1L2_...`). Prefer the name-only form for new records. Two records match neither:
+  `BRS_MAN_GA_PRECI_CTG_6GT_cN96_K5HV` (name segment does not match its `MAN_GA_G1A2` manufacturer)
+  and `BRS_MAN_REMINGTON_STD_CTG_7BR_cZ22` (no hash suffix).
+- **Hash suffixes are 4 chars or 3.** 129 brass ids end in a 4-char hash, 73 in a 3-char one
+  (`..._STD`, `..._OCD`). Either is accepted.
+
 ### 3.2 User-created IDs
-`generateUniqueId()` (`src/utils/id.ts`) returns **`Date.now().toString(36) + Math.random().toString(36).slice(2)`**
-— a base-36 timestamp concatenated with a random base-36 string (NOT a UUID). Any imported record missing
-an `id` is assigned one via this function on sync/restore. Some legacy seed records use UUID-v4-shaped ids;
-both forms are valid opaque strings — never parse them.
+`generateUniqueId()` (`src/utils/id.ts`) returns a base-36 `Date.now()` timestamp concatenated with a
+12-char random suffix from **`crypto.randomUUID()`** (falling back to `Math.random().toString(36)` only
+where `crypto.randomUUID` is unavailable). The timestamp prefix is deliberate — it keeps ids roughly
+time-sortable, which recency sorts such as AnalysisPage's session ordering depend on. The result is not a
+UUID. Any imported record missing an `id` is assigned one via this function on sync/restore. Some legacy
+seed records use UUID-v4-shaped ids; both forms are valid opaque strings — never parse them.
 
 ---
 
@@ -118,11 +140,11 @@ both forms are valid opaque strings — never parse them.
 
 ## 4. Dexie Schema
 
-`ReloaderDB extends Dexie` declares 22 tables. Every table uses a **string primary key `id`** (outbound —
+`ReloaderDB extends Dexie` declares 21 tables. Every table uses a **string primary key `id`** (outbound —
 Dexie does not auto-generate it; the app supplies it). Store strings list the primary key first, then
 indexed properties.
 
-### 4.1 Store strings (current = v5)
+### 4.1 Store strings (current = v6)
 
 | Table (Dexie `Table<T>`) | Store string (`id` = PK) |
 |---|---|
@@ -152,22 +174,43 @@ Note: the indexed `sessionId` on `sessionTargets`/`groups`/`shots` actually inde
 value (§4.4). The compound `[firearmId+loadId]` index on `sessions` supports "all sessions for this exact
 firearm+load" queries.
 
-### 4.2 Version history (v1 → v5)
+### 4.2 Version history (v1 → v6)
 
-Each `this.version(n).stores({...})` block re-declares the full store set (Dexie requirement). Schema
-deltas per version:
+Blocks v1–v5 each re-declare the full store set; v6 declares only the one store it touches (Dexie merges
+a partial `stores({...})` onto the prior version). Schema deltas per version:
 
 | Version | Change |
 |---|---|
-| **v1** | Base schema: `manufacturers, diameters, bullets, powders, primers, primerPockets, brass, cartridges, loads, firearms, customTargets, targetImages, markedTargets, sessions, sessionTargets, groups, shots`. Marking tables already keyed as in v5. |
+| **v1** | Base schema: `manufacturers, diameters, bullets, powders, primers, primerPockets, brass, cartridges, loads, firearms, customTargets, targetImages, markedTargets, sessions, sessionTargets, groups, shots`. Marking tables already keyed as in v6. |
 | **v2** | **+ `monteCarloSaves`** (`id`). |
 | **v3** | **+ `chronoSessions`** (`id`). |
 | **v4** | **+ `meta`** (`id`) — runtime store for the `tuning` blob (id `local-db`). |
 | **v5** | **+ `grainTypes`** (`id`) — grain-geometry lookup referenced by `Powder.grainType`. |
+| **v6** | **No index change** — `powders` re-declared unchanged. Exists solely to carry an `.upgrade()` field rename (below). |
 
-No indexes were dropped or renamed across versions; every version is purely additive, so no data-migration
-callback (`.upgrade(...)`) is attached to any version. The only data reshaping is `repairImportData`,
-applied at **import time** (not as a Dexie upgrade) — see §4.5.
+**No index was ever dropped or renamed**; v1–v5 are purely additive and carry no `.upgrade(...)`.
+
+**v6 is the one data migration** attached to a version. It renames the powder burn-form triple to names
+that describe what the fields do, and drops a dead field:
+
+| Old field | New field |
+|---|---|
+| `ignitionBp` | `burnSurfacePeakGain` |
+| `ignitionZ1` | `burnFractionAtSurfacePeak` |
+| `ignitionZ2` | `burnFractionAtSliverStart` |
+| `kCoeff` | *(deleted — no engine, builder or calibrator read it)* |
+
+The upgrade runs `tx.table('powders').toCollection().modify(...)` over every stored powder. Its purpose is
+**user-created powders**: shipped reference powders arrive already renamed through `syncFromMasterData`,
+but a powder the user typed in themselves lives only in IndexedDB and would otherwise keep dead field
+names and silently lose its burn profile. See §7.8.
+
+`kCoeff` was dropped because nothing read it: the engine solves γ from temperature in `solveGasThermo()`
+rather than from a per-powder constant. The rename preserved all 138 triples bit-for-bit with no other
+powder field touched — evidence and reproduce command in `docs/WORKSTREAMS.md` **WS35**.
+
+The other data reshaping is `repairImportData`, applied at **import time** rather than as a Dexie
+upgrade — see §4.5.
 
 ### 4.3 IndexedDB-only tables
 
@@ -190,8 +233,8 @@ but it now stores a **`MarkedTarget.id`**.
 
 ### 4.5 `repairImportData(data)` migration (import-time)
 
-Run by both `syncFromMasterData` and `restoreUnifiedDatabase` on the incoming JSON, in-place, before any
-write. Two jobs:
+Run by both `syncFromMasterData` and `restoreUnifiedDatabase` on the **validated** table map returned by
+`parseImportBundle` (§4.6), in-place, before any write. Two jobs:
 
 1. **Blob rehydration for `targetImages`:** if an item has a `dataUrl` string and no `imageBlob`, convert
    the Base64 data URL back to a `Blob` (`dataUrlToBlob`) into `imageBlob` and delete `dataUrl`. (The
@@ -208,6 +251,21 @@ write. Two jobs:
 
 ### 4.6 Sync / restore / export / clear semantics
 
+**`parseImportBundle(data, context)` is the validation boundary.** Both `syncFromMasterData` and
+`restoreUnifiedDatabase` run it first, before `repairImportData` and before any write. It **throws** with
+a descriptive message rather than skipping bad shapes, per the project's no-silent-fallback invariant:
+
+- the payload must be a non-array JSON object keyed by table name;
+- a `tuning` key must be an object, and `tuning.powders` / `tuning.cartridges` (when present) must be
+  arrays whose every entry is an object with a **string `id`**;
+- a key matching a Dexie table name must hold an array, every element an object, with `id` either absent
+  or a string;
+- keys that are **not** Dexie table names are treated as metadata and silently ignored — this is how
+  `_instructions`, `analysisImage` in session-export files, and `geometryProvenanceTiers` (§7.3b) pass
+  through without error. Note the consequence: a table name typo is discarded as metadata, not reported.
+
+It returns `{ tables, tuning }`; everything downstream operates on that validated map.
+
 - **`syncFromMasterData(data)`** (used for the shipped reference DB): merges `data.tuning.powders[]` and
   `data.tuning.cartridges[]` onto matching physical records by id (`Object.assign`), runs
   `repairImportData`, then in one `rw` transaction: for each incoming array table, **prunes** stale
@@ -220,10 +278,19 @@ write. Two jobs:
   items — **except** for the "master tables" set `{manufacturers, diameters, bullets, powders, primers,
   primerPockets, brass, cartridges}`, where it only inserts records that **don't already exist** (so a
   stale snapshot inside a session-export file cannot clobber calibrated master data). No pruning. Does not
-  touch `meta`/tuning.
+  touch `meta`/tuning. Note `loads` and `grainTypes` are **not** in that master set, so a restore does
+  overwrite them by id. Throws on malformed JSON before touching the database.
 - **`exportUnifiedDatabase(tableName?)`**: dumps all tables (or one) to pretty JSON; for `targetImages`
   converts `imageBlob → dataUrl` Base64.
 - **`clearDatabase(tableName?)`**: `clear()` all tables or one.
+
+**Error reporting.** `syncFromMasterData`, `syncFromMaster` and `restoreUnifiedDatabase` keep a
+`Promise<boolean>` return contract because their callers (DBManagementPage, SessionManagementPage) surface
+success/failure from that boolean. Internally the boundary **throws** descriptive errors; each function
+catches, logs, and stashes the message in a module-level `lastSyncError`, readable via the exported
+**`getLastSyncError(): string | null`** (reset to `null` at the start of each attempt, so it is `null`
+after a success). A bare `false` therefore always has a retrievable reason — read it before reporting a
+failure to the user.
 
 ---
 
@@ -343,8 +410,8 @@ Full field table in §7.9 (identical shape in both layers).
 | `shotNumber` | number | index | Sequence number from export file. |
 | `velocityFps` | number | **fps** | Muzzle velocity (normalized from device units on import). |
 | `timestamp`? | string | seconds string | Original time value if present. |
-| `linkedGroupId`? | string \| null | — | Soft FK → `groups.id` this chrono shot is tied to. |
-| `linkedShotIndex`? | number \| null | 0-based index | Position within the linked group's shot list. |
+| `linkedGroupId`? | string | — | Soft FK → `groups.id` this chrono shot is tied to. Absent = unlinked. |
+| `linkedShotIndex`? | number | 0-based index | Position within the linked group's shot list. |
 
 ### 5.9 `monteCarloSaves` — user-only. Index: `id`
 
@@ -400,7 +467,8 @@ Full field table in §7.9 (identical shape in both layers).
 
 ### 5.12 `meta` — IndexedDB-only. Index: `id`
 Runtime scratch table. One conventional row: `{ id: 'local-db', tuning: <tuning blob> }` (see §8). Typed
-`Table<any, string>`; read via `db.meta.get('local-db')`.
+`Table<MetaRecord, string>`, where `MetaRecord = { id: string; tuning?: TuningBlob }` — both interfaces are
+exported from `src/db/database.ts`, as is `TuningBlob` itself (§8). Read via `db.meta.get('local-db')`.
 
 ---
 
@@ -418,7 +486,7 @@ the same name; the `tuning` object is unique to this layer.
 | `cartridges` | array | 126 | Cartridge geometry + pressure ceilings. |
 | `powders` | array | 144 | Powder physical constants (calibrated fields live in `tuning`). |
 | `bullets` | array | 991 | Projectiles + geometry + ballistics. |
-| `brass` | array | 201 | Case capacity per manufacturer/cartridge. |
+| `brass` | array | 202 | Case capacity per manufacturer/cartridge. |
 | `firearms` | array | 3 | (User records may ride along in exports.) |
 | `loads` | array | 5 | Recipes. |
 | `customTargets` | array | 2 | Target templates. |
@@ -432,7 +500,10 @@ the same name; the `tuning` object is unique to this layer.
 | `primers` | array | 13 | |
 | `markedTargets` | array | 6 | |
 | `monteCarloSaves` | array | 3 | |
+| `geometryProvenanceTiers` | array | 6 | **Not a Dexie table.** Bullet-geometry confidence tiers (§7.3b); ignored by sync. |
 | `tuning` | object | — | **Not a Dexie table.** Calibrated engine parameters (§8). |
+
+Counts are as shipped and drift with every data edit; treat them as scale indicators, not assertions.
 
 **Runtime sync separation:** physical component records carry only physical/geometry fields; all
 *calibrated* fields (`burnAreaCoeff`, `transducerScaleFactor`, etc.) live under `tuning`. On load,
@@ -452,8 +523,8 @@ the same name; the `tuning` object is unique to this layer.
 | `id` | string | PK (`MAN_...`). |
 | `name` | string | Brand name. |
 | `displayName`? | string | Optional shorthand (interface field). |
-| `type`? | string[] | Category tags. Observed values: `"bullet"`, `"powder"`, `"primer"`, `"brass"`, `"ammo"`. |
-| `country`? | string | ISO country code (e.g. `"US"`). Present in data; not in the TS interface. |
+| `type`? | string[] | Category tags. Observed values: `"bullet"`, `"powder"`, `"primer"`, `"brass"`, `"ammo"`. Present on 36/38. |
+| `country`? | string | ISO country code (e.g. `"US"`). In data on 2/38 only; not in the TS interface. |
 
 ### 7.2 `diameters`. Index: `id`
 
@@ -548,7 +619,7 @@ All lengths/diameters in **mm**, pressures in **Pa**, capacity in **grams H₂O*
 | `manufacturerId` | string | — | FK → `manufacturers.id`. |
 | `diameterId` | string | — | FK → `diameters.id`. |
 | `name` | string | — | Model name. |
-| `advertisedWeightGrains`? | number | **grains** | Labeled weight (display; present in data, not in TS interface). |
+| `advertisedWeightGrains`? | number | **grains** | Labeled weight (display only; in data on 748/991, not in TS interface). |
 | `physis` | object | — | Physical geometry (below). |
 | `ballistics` | object | — | BC / form factor (below). |
 
@@ -560,8 +631,8 @@ All lengths/diameters in **mm**, pressures in **Pa**, capacity in **grams H₂O*
 | `overallLengthMm` | number \| null | mm | Total length. |
 | `ogiveLengthMm` | number \| null | mm | Ogive (nose) length. **Nullable.** |
 | `boatTailLengthMm` | number \| null | mm | Boat-tail length. **Nullable.** |
-| `tipLengthMm` | number \| null | mm | Plastic tip length (excluded from aerodynamic metal length). |
-| `meplatDiameterMm` | number \| null | mm | Meplat (nose flat) diameter. |
+| `tipLengthMm` | number \| null | mm | Plastic tip length (excluded from aerodynamic metal length). Required by the type but present on only 165/991 records — read defensively. |
+| `meplatDiameterMm` | number \| null | mm | Meplat (nose flat) diameter. Required by the type, editable in ManageBullets, but **absent from every shipped record** (0/991) — no engine consumes it. |
 | `bearingSurfaceMm`? | number \| null | mm | Bearing surface length. **Nullable.** |
 | `materialType`? | enum string | — | `MAT_JACKETED_LEAD`, `MAT_MONOLITHIC_COPPER`, `MAT_CAST_LEAD`, `MAT_RELIEF_GROOVED_COPPER_MONO` (legacy bare `jacketed_lead`/`monolithic_copper`/`cast_lead` deprecated). |
 | `engravingPressurePa`? | number | Pa | Engraving-resistance pressure for the internal ballistics free-travel model (typical 32e6 = 32 MPa). |
@@ -582,15 +653,19 @@ replaced the old free-text `physis.geometryProvenance` on 2026-07-24):
 |---|---|---|
 | `g1BC` | number \| null | G1 ballistic coefficient. |
 | `g7BC` | number \| null | G7 ballistic coefficient. |
-| `g1FF`? | number \| null | G1 form factor. |
-| `g7FF`? | number \| null | G7 form factor. |
-| `sectionalDensity`? | number | Sectional density (present in data, not in TS interface). |
-| `preferredModel`? | `'G1'\|'G7'` | Interface field; not populated in shipped data. |
+| `g1FF`? | number \| null | G1 form factor (437/991). |
+| `g7FF`? | number \| null | G7 form factor (437/991). |
+| `sectionalDensity`? | number | Sectional density (in data on 295/991, not in TS interface). |
+| `preferredModel`? | `'G1'\|'G7'` | Neither in the TS interface nor in shipped data. Do not expect it. |
+
+`g1BC` is present on 861/991 and `g7BC` on 716/991; both are typed non-optional but **nullable**, and a
+record may legitimately carry neither, so a consumer must handle the no-BC case.
 
 ### 7.8 `powders`. Index: `id, manufacturerId`
-Root holds **physical constants only**. Calibrated fields (`burnAreaCoeff`, slopes, `energyScaleFactor`,
-and calibrated `burnExponent`) live in `tuning.powders[]` and are merged on at runtime — **never store
-them on the powder root.**
+Root holds **physical constants** plus the burn-shape triple. The burn-area fields (`burnAreaCoeff`, its
+slopes, `energyScaleFactor`, and calibrated `burnExponent`) are **stripped from the powder root by
+calibrateV4 before it serializes** and live only in `tuning.powders[]`, merged back on at runtime —
+**never store them on the powder root.**
 
 | Field | Type | Units | Meaning |
 |---|---|---|---|
@@ -598,17 +673,42 @@ them on the powder root.**
 | `manufacturerId` | string | — | FK → `manufacturers.id`. |
 | `name` | string | — | Powder name. |
 | `heatOfExplosionKjKg`? | number | kJ/kg | Heat of explosion. Physical — do not calibrate. Single-base ~3580–3750; double-base ~3950. |
-| `heatConvention`? | `'vapor'\|'liquid'` | — | Water-state convention for the heat value. |
-| `kCoeff`? | number | — | Noble-Abel adiabatic exponent ratio (~1.23 single-base, ~1.24–1.255 double-base). Physical. |
+| `heatConvention`? | `'vapor'\|'liquid'` | — | Water-state convention for the heat value: `'vapor'` = H₂O products as gas (matches most published figures), `'liquid'` = ~5–8% higher (some closed-vessel labs, GRT). Interface field; **not populated in shipped data** (0/144) — consumers must not assume it is present. |
 | `grainType`? | enum string | — | FK → `grainTypes.id` (`ball`/`flake`/`extrudedSinglePerf`/`extrudedMultiPerf`/`extruded`). |
 | `propellantDensityKgM3`? | number | kg/m³ | Solid propellant density (Noble-Abel EOS). Physical. |
 | `bulkDensityKgM3`? | number | kg/m³ | Poured bulk density (for fill %). Physical. |
 | `burnExponent`? | number | — | Vieille's-law pressure exponent (default 0.65; typical 0.55–0.85). **Calibrated** — canonical value is in `tuning.powders[]`. |
 | `tempSensitivity`? | number | /°C | Temperature sensitivity coefficient. |
-| `ignitionBp`? / `ignitionZ1`? / `ignitionZ2`? | number | — | Multi-stage ignition/burn profile parameters. |
-| `ignitionProvenance`? | string | — | Source tag for ignition params (e.g. `grt-curvefit-2021-03-17`). In data, not in TS interface. |
+| `burnSurfacePeakGain`? | number | — | Burn-form triple, member 1 — see below. |
+| `burnFractionAtSurfacePeak`? | number | — | Burn-form triple, member 2. |
+| `burnFractionAtSliverStart`? | number | — | Burn-form triple, member 3. |
+| `ignitionProvenance`? | string | — | Source tag for the burn-form values (e.g. `grt-curvefit-2021-03-17`). In data (58/144), not in TS interface. |
 | `burnAreaCoeff`? | number | — | **Calibrated** (canonical in `tuning`); interface allows it on root only as the merge target. |
-| `cartridgeOverrides`? | `{cartridgeId,burnAreaCoeff}[]` | — | Per-cartridge `burnAreaCoeff` overrides fitted by `--calibrate-cartridge-overrides`. |
+| `cartridgeOverrides`? | `{cartridgeId,burnAreaCoeff}[]` | — | **Vestigial.** Per-cartridge `burnAreaCoeff` overrides. The `--calibrate-cartridge-overrides` flag that fitted them no longer exists in `calibrateV4.ts` and no record carries the field; calibrateV4 still strips it from the powder root on write. Kept in the interface for old data only. |
+
+**The burn-form triple** (`burnSurfacePeakGain`, `burnFractionAtSurfacePeak`, `burnFractionAtSliverStart`,
+136/144 records) drives `getFormFactor()` in `ignitionBallisticsEngine`: burning surface area rises to
+`(1 + burnSurfacePeakGain)` at burn fraction `burnFractionAtSurfacePeak`, then collapses once the grain
+fractures at `burnFractionAtSliverStart`. Engine fallbacks when absent: `0.26 / 0.54 / 0.91`.
+
+These were renamed from `ignitionBp` / `ignitionZ1` / `ignitionZ2` by the Dexie **v6** upgrade (§4.2),
+which also deleted the dead `kCoeff` field. Neither the old names nor `kCoeff` appear in the current
+interface or in shipped data — do not write them.
+
+**The triple is a physical INPUT, not a calibration output.** It comes from GRT curve-fits (provenance in
+`ignitionProvenance`) and is **never fitted** in a production run. calibrateV4 nonetheless copies it
+verbatim into `tuning.powders[]` (§8.1), so it appears in both places — in shipped data all 125 tuning
+copies are **byte-identical to the powder root**. The tuning copy exists only so that a fitted shape could
+supersede the root without overwriting the physical GRT value.
+
+That fit — **WS34** — was implemented, measured twice, and **failed**: peak pressure cannot observe the
+late burn that sets velocity, so three free shape parameters trade one for the other (mean velMAE +6.7 fps
+over 78 powders, 37 worse against 31 better). It is **gated off** behind `FIT_BURN_SHAPE=1`, which
+reproduces the comparison. Only under that env gate do the two copies diverge. Full evidence and what
+would reopen it: `docs/WORKSTREAMS.md` WS34.
+
+A demonstrably wrong triple is therefore corrected **as data**, screened per powder with velocity held out
+(`test_harnes/scratch/burn_shape_experiment.ts`) — not by calibration.
 
 ### 7.9 `loads`. Index: `id, cartridgeId, bulletId, powderId`
 **All mass/length metric** (grams/mm), velocity in m/s.
@@ -671,17 +771,28 @@ Top-level keys:
 | `generatedAt` | string | ISO 8601 timestamp of the calibration run (also used as the tuning stamp on firearm true-ing). |
 
 ### 8.1 `tuning.powders[]`
-Merged by `id` onto the matching powder.
+Merged by `id` onto the matching powder. 135 entries against 144 powders — a powder with no fit has no
+entry at all, so **absence is normal and must not be read as zero**. Field counts below are as shipped.
 
-| Field | Type | Meaning |
-|---|---|---|
-| `id` | string | FK → `powders.id`. |
-| `burnAreaCoeff` | number \| null | Base burn-rate coefficient at the reference fill fraction. `null` for unmodeled powders. |
-| `burnAreaFillSlope` | number | Linear fill-fraction slope (0 when insufficient data). |
-| `burnAreaBoreSlope` | number | Bore-diameter correction slope (0 at reference bore). |
-| `burnAreaExpansionSlope` | number | Gas-expansion slope during barrel travel (default 0). |
-| `energyScaleFactor` | number | Engine energy-efficiency multiplier (not physical; persistently >1.25 ⇒ suspect data). |
-| `burnExponent` | number | Calibrated Vieille's-law exponent (canonical copy; also mirrored to the powder root). |
+| Field | Type | n | Meaning |
+|---|---|---|---|
+| `id` | string | 135 | FK → `powders.id`. |
+| `burnAreaCoeff` | number \| null | 132 | Base burn-rate coefficient at the reference fill fraction. `null` for unmodeled powders. |
+| `burnAreaFillSlope` | number | 131 | Linear fill-fraction slope (0 when insufficient data). |
+| `burnAreaBoreSlope` | number | 131 | Bore-diameter correction slope (0 at reference bore). |
+| `burnAreaExpansionSlope` | number | 129 | Gas-expansion slope during barrel travel (default 0). |
+| `energyScaleFactor` | number | 131 | Engine energy-efficiency multiplier (not physical; persistently >1.25 ⇒ suspect data). |
+| `burnExponent` | number | 131 | Calibrated Vieille's-law exponent (canonical copy; also mirrored to the powder root). |
+| `burnSurfacePeakGain` | number | 125 | Burn-form triple (§7.8), member 1. **Not a fitted value** — see below. |
+| `burnFractionAtSurfacePeak` | number | 125 | Burn-form triple, member 2. |
+| `burnFractionAtSliverStart` | number | 125 | Burn-form triple, member 3. |
+
+**The burn-form triple here is a mirror, not a fit.** calibrateV4 copies it from the powder root whenever
+the root carries it; in shipped data all 125 copies are byte-identical to their root values, and it
+supersedes the root on merge only because the merge is a blanket `Object.assign`. The per-powder shape fit
+that would make these genuinely calibrated (WS34) is **gated off after being disconfirmed** — see §7.8.
+Do not read a value here as evidence that a shape was fitted. The count is 125 rather than 136 (the number
+of powders carrying the triple) simply because 11 of those powders have no `tuning.powders[]` entry at all.
 
 ### 8.2 `tuning.cartridges[]`
 Merged by `id` onto the matching cartridge.
@@ -693,29 +804,39 @@ Merged by `id` onto the matching cartridge.
 | `gradientBetaScale`? | number | Beta scale for the pressure-gradient ODE (default 1.0; populated only when the transducer scale alone fits poorly). |
 
 ### 8.3 `tuning.velocityCorrection`
-Spline + per-cartridge/per-powder correction applied after ODE integration.
+Spline + per-cartridge/per-powder correction applied after ODE integration. Typed as `CorrectionParams`
+in `src/utils/velocityCorrection.ts` (the authority for this section). Shipped: `modelVersion`
+`"v4.5-pressure-ramp"`, 124 cartridge overrides, 3,324 powder-override cells.
 
 | Field | Type | Meaning |
 |---|---|---|
 | `modelVersion` | string | Schema tag (e.g. `"v4.5-pressure-ramp"`). |
-| `globalKnots` | `{expansionRatio,factor}[]` | Piecewise-linear global curve. `expansionRatio` = barrel volume / chamber volume; `factor` = velocity multiplier. |
-| `pressureRampSlope` | number | Global pressure-ramp slope term. |
-| `cartridgeOverrides` | object (map) | `cartridgeId → override` (below). |
+| `globalKnots` | `{expansionRatio,factor}[]` | Piecewise-linear global curve. `expansionRatio` = barrel volume / chamber volume; `factor` = velocity multiplier. **Must be sorted by ascending `expansionRatio` with non-decreasing `factor`.** |
+| `pressureRampSlope`? | number | Global dV/dc slope (log-velocity per unit standardized sim pressure). The correction gains a factor `exp(pressureRampSlope × z)`, `z` = the load's sim peak pressure standardized within its (cartridge, powder) cell. One global number by design — ≈96% of cartridges share its sign, so a per-cell slope would overfit. Absent ⇒ no ramp. |
+| `cartridgeOverrides` | object (map) | `cartridgeId → override` (below). Supersedes the global curve where present. |
 | `fittedAt` | string | ISO 8601 fit timestamp. |
-| `validationR2`? | number | Hold-out R² (when present). |
+| `validationR2`? | number | R² of the global fit (0–1). Interface field; **not written by the current calibrator** — absent in shipped tuning. |
+| `heldOutMaeFps`? | number | Held-out MAE in fps (generalization metric). Interface field; **not written by the current calibrator** — absent in shipped tuning. |
 
 `cartridgeOverrides[cartridgeId]`:
 
 | Field | Type | Meaning |
 |---|---|---|
 | `factor` | number | Scalar velocity multiplier for the cartridge. |
-| `confidence` | string | `"HIGH"`/`"MEDIUM"`/`"LOW"`. |
-| `weightSlope`? | number | Charge-weight sensitivity slope. |
-| `refWeightGrams`? | number | Reference charge weight (g) for the slope. |
-| `weightFactorMin`? / `weightFactorMax`? | number | Clamp bounds for the weight-adjusted factor. |
-| `meanSimPressurePsi`? / `stdSimPressurePsi`? | number | Fit diagnostics (sim pressure mean/SD in PSI). |
-| `fittedLoads`? | number | Load count used to fit. |
-| `powderOverrides`? | object (map) | `powderId → { factor, meanSimPressurePsi, stdSimPressurePsi, weightSlope?, refWeightGrams?, weightFactorMin?, weightFactorMax? }` — per-powder refinement within the cartridge. |
+| `confidence` | string | `"HIGH"` or `"MEDIUM"` only — the type admits no `"LOW"`. Shipped: 119 HIGH, 5 MEDIUM. |
+| `weightSlope`? | number | Bullet-weight sensitivity slope: `factor = baseFactor + weightSlope × (bulletWeightGrams − refWeightGrams)`. |
+| `refWeightGrams`? | number | Reference **bullet** weight (g) for the slope (typically the calibration median). |
+| `weightFactorMin`? / `weightFactorMax`? | number | p10/p90 of the cartridge's observed published/sim ratio. The weight-slope factor is clamped to these **before** the global floor/cap, so a linear slope cannot extrapolate past real chrono data at the weight extremes. Absent in pre-v4.1 tuning. |
+| `meanSimPressurePsi`? / `stdSimPressurePsi`? | number | This cartridge's sim-peak-pressure distribution, used to standardize `z` for the ramp when the powder cell carries none. Absent ⇒ no ramp. |
+| `powderOverrides`? | object (map) | `powderId → PowderOverride` — per-powder refinement within the cartridge. Supersedes the cartridge-level factor/slope when the powder matches. |
+| `constructionOverrides`? | map | `"mono"\|"lead" → { factor, weightSlope?, refWeightGrams?, weightFactorMin?, weightFactorMax? }`. Construction-segmented factors used when the active powder cell has none. Interface field from v4.4-construction; **absent in shipped v4.5 tuning** at both levels. Absent ⇒ construction-agnostic. |
+| ~~`fittedLoads`~~ | — | **Not in the type and not in the data.** Removed from this doc; do not expect it. |
+
+`PowderOverride` (the values in `powderOverrides`) carries `factor`, `meanSimPressurePsi`,
+`stdSimPressurePsi` (all 3,324 cells), plus `weightSlope`, `refWeightGrams`, `weightFactorMin`,
+`weightFactorMax` on the 2,450 cells with enough loads, and the same optional `constructionOverrides`.
+A cell's own p10/p90 bounds are preferred over the cartridge's pooled bounds, which are fitted across
+every powder and so truncate powder-specific slopes the cell's own data supports.
 
 ---
 
@@ -731,7 +852,7 @@ await db.loads.put({
   id,
   handloadName: '147gr ELD-M / H4350',
   cartridgeId: 'CTG_65PRC_cP02',   // FK → cartridges.id (required)
-  bulletId:    'BUL_HORNADY_264_147_147_ELDM', // FK → bullets.id (required)
+  bulletId:    'BUL_HORNADY_264_147_147_ELDM_13D2', // FK → bullets.id (required)
   powderId:    'PWD_HODG_H4350_H1G2',
   primerId:    'PRI_FED_210M_F1D3',
   brassId:     'BRS_MAN_ALPHA_A1L2_CTG_65PRC_cP02_LRP_OCD',
@@ -774,5 +895,7 @@ const vc   = meta?.tuning?.velocityCorrection;
 
 ---
 
-*Companion docs: `MATHS.md` (engine derivations), `README.md` (user guide). This file supersedes the prior
-schema draft and is generated from `database.ts` + `local-db.json` structure.*
+*Companion docs: `MATHS.md` (engine derivations), `CALIBRATE.md` (calibration pipeline), `README.md`
+(user guide). Investigation history lives in `docs/WORKSTREAMS.md`, which is authoritative over source
+comments. This file is derived from `database.ts` + `types/database.ts` + `velocityCorrection.ts` + the
+structure of `local-db.json`.*

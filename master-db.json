@@ -8229,9 +8229,9 @@
       "manufacturerId": "MAN_BERGER_B9K2",
       "ballistics": {
         "g7BC": 0.178,
-        "g7FF": 1.1676,
+        "g7FF": 1.168,
         "g1FF": 0.5937,
-        "g1BC": 0.3501
+        "g1BC": 0.348
       },
       "advertisedWeightGrains": 73,
       "geometryTierId": "GEOTIER_MEASURED"
@@ -21675,30 +21675,7 @@
       "advertisedWeightGrains": 60,
       "geometryTierId": "GEOTIER_MEASURED"
     },
-    {
-      "id": "BUL_BERGER_224_73_HPBT_5E07",
-      "name": "HPBT Target",
-      "diameterId": "DIA_224_L5X8",
-      "physis": {
-        "weightGrams": 4.7303204,
-        "overallLengthMm": 24.46,
-        "ogiveLengthMm": 12.475,
-        "boatTailLengthMm": 4.5,
-        "bearingSurfaceMm": 7.485,
-        "materialType": "MAT_JACKETED_LEAD",
-        "engravingPressurePa": 32000000
-      },
-      "manufacturerId": "MAN_BERGER_B9K2",
-      "ballistics": {
-        "g1BC": 0.375,
-        "g1FF": 0.5542,
-        "g7BC": 0.178,
-        "g7FF": 1.0825
-      },
-      "advertisedWeightGrains": 73,
-      "geometryTierId": "GEOTIER_WEB_VERIFIED",
-      "geometryNote": "bc-oal-pass"
-    },
+
     {
       "id": "BUL_BERGER_224_77_HPBT_3D2B",
       "name": "HPBT Target",
@@ -29931,6 +29908,13 @@
       "cartridgeId": "CTG_22CM_cA72",
       "capacityH2oGrams": 3.36954332,
       "primerPocketId": "PKT_LRG",
+      "manufacturerId": "MAN_HORNADY_JGR4"
+    },
+    {
+      "id": "BRS_MAN_HORNADY_CTG_22ARC_cK12_Q4TN",
+      "cartridgeId": "CTG_22ARC_cK12",
+      "capacityH2oGrams": 2.242042286,
+      "primerPocketId": "PKT_SML",
       "manufacturerId": "MAN_HORNADY_JGR4"
     }
   ],
