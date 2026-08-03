@@ -18479,16 +18479,16 @@
       "physis": {
         "weightGrams": 8.747852850000001,
         "materialType": "MAT_JACKETED_LEAD",
-        "overallLengthMm": 24.632,
-        "ogiveLengthMm": 14.221,
-        "bearingSurfaceMm": 7.2877,
-        "boatTailLengthMm": 3.1233,
+        "overallLengthMm": null,
+        "ogiveLengthMm": null,
+        "bearingSurfaceMm": null,
+        "boatTailLengthMm": null,
         "engravingPressurePa": 30000000,
         "tipLengthMm": 3.81
       },
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "ballistics": {},
-      "geometryTierId": "GEOTIER_MEASURED"
+      "geometryNote": "WS40: recorded overallLengthMm 24.632 mm gives an envelope density of 10.61 g/cc, 0.94 of lead: impossible, and shorter than the 120 gr .257 in this table. No sourced length available, so geometry is unknown rather than guessed. Weight, material and tip length stand."
     },
     {
       "id": "BUL_SIERRA_284_160_MK_A45E",
@@ -18696,16 +18696,15 @@
       "physis": {
         "weightGrams": 8.48865721,
         "materialType": "MAT_JACKETED_LEAD",
-        "overallLengthMm": 23.902,
-        "ogiveLengthMm": 10.039,
-        "bearingSurfaceMm": 11.473,
-        "boatTailLengthMm": 2.39,
+        "overallLengthMm": null,
+        "ogiveLengthMm": null,
+        "bearingSurfaceMm": null,
+        "boatTailLengthMm": null,
         "engravingPressurePa": 30000000
       },
       "manufacturerId": "MAN_SIERRA_S6Y3",
       "ballistics": {},
-      "geometryTierId": "GEOTIER_SYNTHESIZED",
-      "geometryNote": "retagged 2026-08-01: declared MEASURED but geometry is an exact 0.48/0.42/0.10 template of OAL, not a measurement (see WS37)"
+      "geometryNote": "WS40: recorded overallLengthMm 23.902 mm gives an envelope density of 10.61 g/cc, 0.94 of lead: impossible, and shorter than the 100 gr .257 in this table. No sourced length available, so geometry is unknown rather than guessed. Weight and material are from the load tables and stand."
     },
     {
       "id": "BUL_SIERRA_243_110_MKCN_4EB5",
@@ -21724,15 +21723,15 @@
       "physis": {
         "weightGrams": 11.01581,
         "materialType": "MAT_JACKETED_LEAD",
-        "overallLengthMm": 19.9,
-        "ogiveLengthMm": 8.667415109621226,
-        "bearingSurfaceMm": 7.827841890378773,
-        "boatTailLengthMm": 3.404743,
+        "overallLengthMm": null,
+        "ogiveLengthMm": null,
+        "bearingSurfaceMm": null,
+        "boatTailLengthMm": null,
         "engravingPressurePa": 30000000
       },
       "manufacturerId": "MAN_HORNADY_JGR4",
       "ballistics": {},
-      "geometryTierId": "GEOTIER_SYNTHESIZED"
+      "geometryNote": "WS40: recorded overallLengthMm 19.90 mm gives an envelope density of 10.47 g/cc, 0.92 of lead: impossible. No loads use this bullet, so only the DB-wide envelope check in verify.ts could see it. No sourced length available."
     },
     {
       "id": "BUL_HORNADY_257_110_FTX_077D",
@@ -28537,6 +28536,12 @@
       "name": "210M Large Rifle Gold Medal Match",
       "primerPocketId": "PKT_LRG",
       "brisanceEnergyJ": 13
+    },
+    {
+      "id": "PRI_FED_210_LRG",
+      "manufacturerId": "MAN_FEDERAL_F4G7",
+      "name": "210 Large Rifle",
+      "primerPocketId": "PKT_LRG"
     },
     {
       "id": "PRI_CCI_BR2_C1R5",
