@@ -227,20 +227,13 @@ One record per manufacturer and cartridge.
 
 ## 5. Fields declared but never populated
 
-The type model declares several fields that no record carries. They are listed so that code
-written from the types alone knows to expect nothing.
+None. Every field the type model declares is carried by records, with one deliberate
+exception.
 
-| Table | Field | |
-|---|---|---|
-| `cartridges` | `bulletDiameterMm`, `boreDiameterMm` | Both live on the `diameters` record; resolve through `diameterId` |
-| `cartridges` | `transducerScaleFactor`, `gradientBetaScale` | Fitted parameters, held with the fit rather than with the component |
-| `powders` | `burnAreaCoeff`, `burnAreaFillSlope`, `burnAreaBoreSlope`, `burnAreaExpansionSlope`, `energyScaleFactor` | Fitted parameters, held with the fit |
-| `powders` | `cartridgeOverrides` | Superseded by a fitted cartridge-and-powder pair factor |
-| `powders` | `heatConvention` | Every record uses one convention |
-| `bullets` | `physis.meplatDiameterMm` | Not measured |
-| `brass` | `primerHole` | Not measured |
-| `primers` | `type` | Superseded by `primerPocketId` |
-| `manufacturers` | `displayName` | Consumers fall back to `name` |
+`manufacturers.displayName` is optional and empty on every shipped record. It is a real
+feature rather than a leftover: consumers read `displayName || name`, and a user can set it.
+Expect it to be absent.
 
-Populating any of the fitted-parameter fields above would put a second copy of a calibrated
-value into the library, which is the one thing the reference database must never hold.
+The bore and groove diameters are worth stating explicitly because they look like they should
+be on a cartridge and are not. They belong to the calibre, live on the `diameters` record, and
+are reached through `cartridges.diameterId`. Resolving them is the reader's job.
