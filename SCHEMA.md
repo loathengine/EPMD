@@ -352,7 +352,7 @@ at all:
 | `velocityOffsetSd` | number | optional | SD of those shots, fps |
 | `velocityOffsetDate` | string | optional | ISO date the offset was saved |
 | `velocityOffsetSessionId` | string | optional | → `sessions` |
-| `velocityOffsetTuningStamp` | string | optional | `tuning_fit.json`'s `generated_at` at true-ing time. Compared against the loaded fit's; a mismatch means the offset was measured against a different model and is stale. |
+| `velocityOffsetTuningStamp` | string | optional | `tuning-db.json`'s `generated_at` at true-ing time. Compared against the loaded fit's; a mismatch means the offset was measured against a different model and is stale. |
 | `velocityOffsetFlag` | string | optional | Free text, e.g. "large offset - verify inputs" |
 
 The offset belongs to the rifle rather than to the fit, so it is stored, never fitted. It is
