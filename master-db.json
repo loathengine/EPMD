@@ -116,7 +116,6 @@
       "freeboreLengthMm": 2.286,
       "twistRateMm": 355.6,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
       "refTestBarrelMm": null
     },
     {
@@ -166,7 +165,7 @@
       "twistRateMm": 355.6,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 344737850,
-      "maxCipPa": 360000000,
+      "maxCipPa": 370000000,
       "refTestBarrelMm": null
     },
     {
@@ -183,7 +182,7 @@
       "twistRateMm": 228.6,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 379211651,
-      "maxCipPa": 379200000,
+      "maxCipPa": 430000000,
       "refTestBarrelMm": null
     },
     {
@@ -264,7 +263,6 @@
       "freeboreLengthMm": 3.327,
       "twistRateMm": 177.8,
       "maxSaamiPa": 358527379,
-      "maxCipPa": 358500000,
       "refTestBarrelMm": null
     },
     {
@@ -295,7 +293,6 @@
       "freeboreLengthMm": 3.175,
       "twistRateMm": 177.8,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
       "refTestBarrelMm": null
     },
     {
@@ -311,7 +308,6 @@
       "freeboreLengthMm": 2.032,
       "twistRateMm": 203.2,
       "maxSaamiPa": 379211651,
-      "maxCipPa": 379200000,
       "refTestBarrelMm": null
     },
     {
@@ -360,7 +356,7 @@
       "twistRateMm": 254,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 413685438,
-      "maxCipPa": 413700000,
+      "maxCipPa": 415000000,
       "refTestBarrelMm": null
     },
     {
@@ -407,7 +403,6 @@
       "freeboreLengthMm": 2.159,
       "twistRateMm": 254,
       "maxSaamiPa": 434369709,
-      "maxCipPa": 434400000,
       "refTestBarrelMm": null
     },
     {
@@ -518,7 +513,6 @@
       "freeboreLengthMm": 3.81,
       "twistRateMm": 203.2,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
       "refTestBarrelMm": null
     },
     {
@@ -534,7 +528,6 @@
       "freeboreLengthMm": 3.81,
       "twistRateMm": 254,
       "maxSaamiPa": 427474934,
-      "maxCipPa": 427500000,
       "refTestBarrelMm": null
     },
     {
@@ -567,7 +560,7 @@
       "twistRateMm": 203.2,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 413685438,
-      "maxCipPa": 413700000,
+      "maxCipPa": 415000000,
       "refTestBarrelMm": null
     },
     {
@@ -583,7 +576,6 @@
       "freeboreLengthMm": 4.75,
       "twistRateMm": 228.6,
       "maxSaamiPa": 441264448,
-      "maxCipPa": 441300000,
       "refTestBarrelMm": null
     },
     {
@@ -632,7 +624,7 @@
       "twistRateMm": 254,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
+      "maxCipPa": 430000000,
       "refTestBarrelMm": null
     },
     {
@@ -648,7 +640,7 @@
       "freeboreLengthMm": 2.235,
       "twistRateMm": 254,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
+      "maxCipPa": 440000000,
       "refTestBarrelMm": null
     },
     {
@@ -680,7 +672,6 @@
       "freeboreLengthMm": 2.286,
       "twistRateMm": 228.6,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -696,7 +687,7 @@
       "freeboreLengthMm": 3.81,
       "twistRateMm": 234.95,
       "maxSaamiPa": 415064371,
-      "maxCipPa": 415000000,
+      "maxCipPa": 405000000,
       "refTestBarrelMm": null
     },
     {
@@ -745,7 +736,7 @@
       "twistRateMm": 254,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 413685438,
-      "maxCipPa": 413700000,
+      "maxCipPa": 405000000,
       "refTestBarrelMm": null
     },
     {
@@ -810,7 +801,7 @@
       "freeboreLengthMm": 3.429,
       "twistRateMm": 254,
       "maxSaamiPa": 441264467,
-      "maxCipPa": 441300000,
+      "maxCipPa": 440000000,
       "refTestBarrelMm": null
     },
     {
@@ -827,7 +818,7 @@
       "twistRateMm": 254,
       "cipTestBarrelMm": 650,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
+      "maxCipPa": 440000000,
       "refTestBarrelMm": null
     },
     {
@@ -907,7 +898,6 @@
       "freeboreLengthMm": 9.169,
       "twistRateMm": 254,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -940,7 +930,7 @@
       "twistRateMm": 254,
       "cipTestBarrelMm": 650,
       "maxSaamiPa": 441264467,
-      "maxCipPa": 441300000,
+      "maxCipPa": 430000000,
       "refTestBarrelMm": null
     },
     {
@@ -956,7 +946,7 @@
       "freeboreLengthMm": 2.489,
       "twistRateMm": 254,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
+      "maxCipPa": 440000000,
       "refTestBarrelMm": null
     },
     {
@@ -1038,7 +1028,7 @@
       "twistRateMm": 304.8,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
+      "maxCipPa": 415000000,
       "refTestBarrelMm": null
     },
     {
@@ -1102,7 +1092,7 @@
       "twistRateMm": 254,
       "refTestBarrelMm": 660.4,
       "maxSaamiPa": 427474934,
-      "maxCipPa": 427500000
+      "maxCipPa": 425000000
     },
     {
       "id": "CTG_325WSM_cN7V",
@@ -1117,7 +1107,7 @@
       "freeboreLengthMm": 4.06,
       "twistRateMm": 254,
       "maxSaamiPa": 448159205,
-      "maxCipPa": 460000000,
+      "maxCipPa": 435000000,
       "refTestBarrelMm": null
     },
     {
@@ -1181,7 +1171,6 @@
       "freeboreLengthMm": 2.159,
       "twistRateMm": 254,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
       "refTestBarrelMm": null
     },
     {
@@ -1230,7 +1219,6 @@
       "freeboreLengthMm": 5.715,
       "twistRateMm": 254,
       "maxSaamiPa": 441264467,
-      "maxCipPa": 441300000,
       "refTestBarrelMm": null
     },
     {
@@ -1294,7 +1282,6 @@
       "freeboreLengthMm": 3.175,
       "twistRateMm": 254,
       "maxSaamiPa": 441264467,
-      "maxCipPa": 441300000,
       "refTestBarrelMm": null
     },
     {
@@ -1391,7 +1378,6 @@
       "freeboreLengthMm": 7.62,
       "twistRateMm": 203.2,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -1440,7 +1426,7 @@
       "twistRateMm": 203.2,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
+      "maxCipPa": 435000000,
       "refTestBarrelMm": null
     },
     {
@@ -1474,7 +1460,7 @@
       "twistRateMm": 203.2,
       "cipTestBarrelMm": 650,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
+      "maxCipPa": 440000000,
       "refTestBarrelMm": null
     },
     {
@@ -1523,8 +1509,7 @@
       "freeboreLengthMm": 3.81,
       "twistRateMm": 203.2,
       "refTestBarrelMm": 660.4,
-      "maxSaamiPa": 427474934,
-      "maxCipPa": 427500000
+      "maxSaamiPa": 427474934
     },
     {
       "id": "CTG_65X06_N6HB",
@@ -1573,7 +1558,7 @@
       "twistRateMm": 228.6,
       "refTestBarrelMm": 812.8,
       "maxSaamiPa": 310264065,
-      "maxCipPa": 300000000
+      "maxCipPa": 295000000
     },
     {
       "id": "CTG_68REMSPC_cN7B",
@@ -1605,7 +1590,6 @@
       "freeboreLengthMm": 2.54,
       "twistRateMm": 203.2,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -1622,7 +1606,7 @@
       "twistRateMm": 190.5,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
+      "maxCipPa": 380000000,
       "refTestBarrelMm": null
     },
     {
@@ -1639,7 +1623,7 @@
       "twistRateMm": 203.2,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 413685438,
-      "maxCipPa": 413700000,
+      "maxCipPa": 405000000,
       "refTestBarrelMm": null
     },
     {
@@ -1656,7 +1640,7 @@
       "twistRateMm": 203.2,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 427474952,
-      "maxCipPa": 427500000,
+      "maxCipPa": 435000000,
       "refTestBarrelMm": null
     },
     {
@@ -1736,8 +1720,7 @@
       "freeboreLengthMm": 0.099,
       "twistRateMm": 355.6,
       "refTestBarrelMm": 660.4,
-      "maxSaamiPa": 399895923,
-      "maxCipPa": 399900000
+      "maxSaamiPa": 399895923
     },
     {
       "id": "CTG_6REM_N6H7",
@@ -1752,7 +1735,6 @@
       "freeboreLengthMm": 1.905,
       "twistRateMm": 228.6,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -1850,7 +1832,7 @@
       "twistRateMm": 241.3,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 420580195,
-      "maxCipPa": 420600000,
+      "maxCipPa": 415000000,
       "refTestBarrelMm": null
     },
     {
@@ -1866,7 +1848,6 @@
       "freeboreLengthMm": 5.918,
       "twistRateMm": 203.2,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -1883,7 +1864,7 @@
       "twistRateMm": 234.95,
       "cipTestBarrelMm": 650,
       "maxSaamiPa": 420580195,
-      "maxCipPa": 420600000,
+      "maxCipPa": 430000000,
       "refTestBarrelMm": null
     },
     {
@@ -1915,8 +1896,7 @@
       "freeboreLengthMm": 4.191,
       "twistRateMm": 234.95,
       "refTestBarrelMm": 660.4,
-      "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000
+      "maxSaamiPa": 448159224
     },
     {
       "id": "CTG_7STW_cW92",
@@ -1931,7 +1911,6 @@
       "freeboreLengthMm": 4.191,
       "twistRateMm": 234.95,
       "maxSaamiPa": 448159224,
-      "maxCipPa": 448200000,
       "refTestBarrelMm": null
     },
     {
@@ -1963,7 +1942,7 @@
       "freeboreLengthMm": 4.32,
       "twistRateMm": 241.3,
       "maxSaamiPa": 448159205,
-      "maxCipPa": 460000000,
+      "maxCipPa": 440000000,
       "refTestBarrelMm": null
     },
     {
@@ -1997,7 +1976,7 @@
       "refTestBarrelMm": 599.44,
       "cipTestBarrelMm": 600,
       "maxSaamiPa": 393001149,
-      "maxCipPa": 395000000
+      "maxCipPa": 415000000
     },
     {
       "id": "CTG_7X65R_N7HH",
@@ -2096,7 +2075,7 @@
       "twistRateMm": 241.3,
       "refTestBarrelMm": 670.56,
       "maxSaamiPa": 434369691,
-      "maxCipPa": 430000000
+      "maxCipPa": 440000000
     }
   ],
   "powders": [
